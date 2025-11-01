@@ -1,0 +1,12 @@
+.obsidian/workspace*
+.obsidian/plugins/*/
+!.obsidian/plugins/waypoint/
+.obsidian/themes/
+.trash/
+node_modules/
+.venv/
+*.log
+.DS_Store
+
+# Obsidian Git plugin config (exception)
+!.obsidian/plugins/obsidian-git/data.json
