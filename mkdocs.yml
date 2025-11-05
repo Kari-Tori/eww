@@ -1,0 +1,27 @@
+site_name: "E-Waste Workshop — Wiki"
+repo_name: "Forgejo"
+repo_url: "http://localhost:3000/eww-admin/eww"
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - content.code.copy
+
+plugins:
+  - search
+  # odkomentuj po instalacji:
+  # - awesome-pages
+  # - git-revision-date-localized
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - Strona główna: index.md
+  - Przewodnik:
+      - Wprowadzenie: guide/intro.md
+  - Dev/Prod:
+      - Endpointy: ENDPOINTS.md
