@@ -1,0 +1,7 @@
+---
+- name: EWW base
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Connectivity
+      ansible.builtin.ping:
