@@ -1,0 +1,8 @@
+# edytory i cache
+.vscode/ .idea/ .DS_Store Thumbs.db
+# buildy
+site/ dist/ build/
+# python/node
+__pycache__/ .venv/ node_modules/
+# artefakty
+*.log *.tmp *.bak *.tar.gz *.zip
