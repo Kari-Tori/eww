@@ -1,0 +1,1 @@
+/git/eww/scripts/eww-init.sh
