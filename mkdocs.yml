@@ -10,7 +10,6 @@ theme:
 
 plugins:
   - search
-  # odkomentuj po instalacji:
   # - awesome-pages
   # - git-revision-date-localized
 
@@ -23,5 +22,11 @@ nav:
   - Strona główna: index.md
   - Przewodnik:
       - Wprowadzenie: guide/intro.md
+  - Wiki:
+      - Index: wiki/index.md
+      - Obsidian: wiki/obsidian.md
+      - Neovim:   wiki/neovim.md
+      - Kubuntu:  wiki/kubuntu.md
+  - Vendor: vendor.md
   - Dev/Prod:
       - Endpointy: ENDPOINTS.md
