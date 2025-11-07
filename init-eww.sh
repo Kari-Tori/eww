@@ -43,8 +43,7 @@ eww::init() {
 }
 
 # sourced → return; uruchomiony → exit 0
-if [[ "${BASH_SOURCE[0]}" != "$0" ]]; then
-  eww::init; return
 else
   eww::init; exit 0
 fi
+eww::init
