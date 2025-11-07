@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# wywołaj kanoniczną funkcję, jeśli dostępna; w razie potrzeby dociągnij init
+if ! declare -F eww_banner >/dev/null 2>&1; then
+  INIT="/git/eww/init-eww.sh"
+  [[ -r "$INIT" ]] && . "$INIT"
+fi
+declare -F eww_banner >/dev/null 2>&1 && eww_banner "$@"
