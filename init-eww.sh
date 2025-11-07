@@ -1,29 +1,40 @@
 #!/usr/bin/env bash
-# Nie używaj set -e/-u. Plik jest sourcowany.
+# UWAGA: plik musi być SOURCOWANY z ~/.bashrc, nie uruchamiany.
+# Nigdy nie wychodź z powłoki: zero "exit", tylko "return".
 
-# Drukuj tylko raz na proces powłoki
-if [[ -n "${EWW_BANNER_SHOWN-}" ]]; then
-  return 0 2>/dev/null || exit 0
+# tylko interaktywna powłoka
+case "$-" in *i*) : ;; *) return 0 2>/dev/null || : ;; esac
+
+# strażnik: baner tylko raz
+if [[ -n "${EWW_BANNER_SHOWN-}" ]]; then return 0 2>/dev/null || :; fi
+export EWW_BANNER_SHOWN=1
+
+# ścieżki
+export EWW_ROOT="${EWW_ROOT:-/git/eww}"
+LIB_BANER="${EWW_ROOT}/lib/bash/baner.sh"
+
+# opcjonalne auto-cd (wyłącz: export EWW_CD_ROOT=0 w ~/.bashrc przed sourcem)
+: "${EWW_CD_ROOT:=1}"
+if [[ "$EWW_CD_ROOT" != "0" && -d "$EWW_ROOT" && "${PWD:-}" != "$EWW_ROOT" ]]; then
+  cd "$EWW_ROOT" 2>/dev/null || :
 fi
-EWW_BANNER_SHOWN=1   # celowo BEZ export
 
-# Tymczasowo poluzuj pułapki, przywróć po banerze
-__nu_state="$(set -o | awk '/nounset/{print $2}')"
-__pf_state="$(set -o | awk '/pipefail/{print $2}')"
-set +u; set +o pipefail
+# domyślne teksty banera (bez set -u, więc bezpieczne)
+: "${EWW_BANNER_PREFIX:=Miłego dnia}"
+: "${EWW_BANNER_ZALOGOWANYNA:=zalogowany na}"
+: "${EWW_BANNER_BOTTOM_LEFT:=E-Waste Workshop}"
+: "${EWW_BANNER_BOTTOM_RIGHT:=www.E-WasteWorkshop.co.uk}"
 
-# Domyślne etykiety (nadpisywane w ~/.bashrc)
-: "${EWW_BANNER_GREETING:=Miłego dnia}"
-: "${EWW_BANNER_TITLE:=E-Waste Workshop}"
-
-if [[ -r /git/eww/lib/banner.sh ]]; then
-  . /git/eww/lib/banner.sh
-  banner::show || true
+# drukuj baner jeśli biblioteka istnieje; w przeciwnym razie minimalny fallback
+if [[ -r "$LIB_BANER" ]]; then
+  # shellcheck source=/git/eww/lib/bash/baner.sh
+  . "$LIB_BANER"
+  type eww::baner >/dev/null 2>&1 && eww::baner || :
 else
-  printf '╭─ %s@%s • %s\n' "$(whoami)" "$(hostname)" "$(date '+%F %T')"
-  printf '╰─ %s • %s\n' "${EWW_BANNER_GREETING}" "${EWW_BANNER_TITLE}"
+  printf "\n╭─ %s@%s • %s\n" "$(id -un)" "$(hostname)" "$(date '+%F %T')"
+  printf "╰─ %s • %s • repo:%s • cfg:%s [MIN]\n\n" \
+    "${EWW_BANNER_BOTTOM_LEFT}" "${EWW_BANNER_BOTTOM_RIGHT}" \
+    "$EWW_ROOT" "$EWW_ROOT/init-eww.sh"
 fi
 
-[[ "${__nu_state}" == on ]] && set -u || set +u
-[[ "${__pf_state}" == on ]] && set -o pipefail || set +o pipefail
-unset __nu_state __pf_state
+return 0 2>/dev/null || :
