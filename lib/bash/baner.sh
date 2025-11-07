@@ -1,5 +1,5 @@
 # shellcheck shell=bash
-eww::baner() {
+eww_banner() {
   local who host now up load mem home ac repo cfg ok
   who="$(id -un)"; host="$(hostname)"; now="$(date '+%F %T')"
 
@@ -38,3 +38,6 @@ eww::baner() {
          "$repo" "$cfg" "$ok"
   return 0
 }
+
+# kompatybilność: spróbuj zarejestrować starą nazwę
+eval 'eww::baner(){ eww_banner "$@"; }' 2>/dev/null || :
