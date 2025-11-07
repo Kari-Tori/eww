@@ -16,22 +16,24 @@ eww::init() {
   : "${EWW_BANNER_BOTTOM_LEFT:=E-Waste Workshop}"
   : "${EWW_BANNER_BOTTOM_RIGHT:=www.E-WasteWorkshop.co.uk}"
 
-  # zawsze wczytaj bibliotekę, żeby funkcja istniała
+  # zawsze wczytaj bibliotekę (funkcja dostępna w każdej sesji)
   if [[ -r "$LIB_BANER" ]]; then
     # shellcheck source=/git/eww/lib/bash/baner.sh
     . "$LIB_BANER"
     export EWW_INIT_OK=1
   fi
 
-  # pokaż baner tylko raz na sesję
+  # baner tylko raz na sesję
   if [[ -z "${EWW_BANNER_SHOWN-}" ]]; then
     export EWW_BANNER_SHOWN=1
-    type eww::baner >/dev/null 2>&1 && eww::baner || {
+    if type eww::baner >/dev/null 2>&1; then
+      eww::baner
+    else
       printf "\n╭─ %s@%s • %s\n" "$(id -un)" "$(hostname)" "$(date '+%F %T')"
       printf "╰─ %s • %s • repo:%s • cfg:%s [MIN]\n\n" \
         "${EWW_BANNER_BOTTOM_LEFT}" "${EWW_BANNER_BOTTOM_RIGHT}" \
         "$EWW_ROOT" "$EWW_ROOT/init-eww.sh"
-    }
+    fi
   fi
 }
 eww::init
