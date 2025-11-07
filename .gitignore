@@ -1,3 +1,6 @@
 logs/
 .obsidian/
 logs/
+init-eww.sh.bak.*
+logs/
+var/
