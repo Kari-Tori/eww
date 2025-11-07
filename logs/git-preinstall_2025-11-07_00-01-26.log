@@ -1,0 +1,73 @@
+INFO: Preflight
+Hit:1 http://security.ubuntu.com/ubuntu plucky-security InRelease
+Hit:2 https://pkg.cloudflareclient.com noble InRelease
+Hit:3 https://ppa.launchpadcontent.net/neovim-ppa/unstable/ubuntu plucky InRelease
+Hit:4 https://pkg.cloudflare.com/cloudflared noble InRelease
+Hit:5 https://ppa.launchpadcontent.net/papirus/papirus/ubuntu plucky InRelease
+Hit:6 https://deb.nodesource.com/node_20.x nodistro InRelease
+Hit:7 http://archive.ubuntu.com/ubuntu plucky InRelease
+Get:8 https://apt.releases.hashicorp.com plucky InRelease [12.9 kB]
+Hit:9 https://repository.mullvad.net/deb/stable stable InRelease
+Hit:10 http://archive.ubuntu.com/ubuntu plucky-updates InRelease
+Get:11 https://packages.microsoft.com/repos/code stable InRelease [3590 B]
+Hit:12 http://archive.ubuntu.com/ubuntu plucky-backports InRelease
+Get:13 https://packages.microsoft.com/repos/code stable/main amd64 Packages [20.3 kB]
+Fetched 36.8 kB in 1s (33.4 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ca-certificates is already the newest version (20241223).
+curl is already the newest version (8.12.1-3ubuntu1).
+Solving dependencies...
+The following packages were automatically installed and are no longer required:
+  kfind kwrite libmsgpack-c2 libtermkey1 libunibilium4 libvterm0 lua-luv
+  python3-greenlet python3-msgpack python3-pynvim
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 22 not upgraded.
+PASS: Certyfikaty i curl gotowe
+INFO: Sprawdzam łączność z github.com:443
+PASS: HTTPS OK
+PASS: Git już zainstalowany: git version 2.48.1
+INFO: Wstępna konfiguracja Git (gałąź main, bez ingerencji w tożsamość)
+PASS: init.defaultBranch=main ustawione
+
+Wybierz metodę połączenia z GitHub:
+  1) SSH (zalecane) – generuje klucz i testuje ssh -T git@github.com
+  2) HTTPS + PAT   – testuje https://api.github.com/user (PAT jako hasło)
+Wpisz 1 lub 2 [1]: INFO: Tryb SSH
+Hit:1 http://archive.ubuntu.com/ubuntu plucky InRelease
+Hit:2 http://security.ubuntu.com/ubuntu plucky-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu plucky-updates InRelease
+Hit:4 https://apt.releases.hashicorp.com plucky InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu plucky-backports InRelease
+Hit:6 https://ppa.launchpadcontent.net/neovim-ppa/unstable/ubuntu plucky InRelease
+Hit:7 https://deb.nodesource.com/node_20.x nodistro InRelease
+Hit:8 https://pkg.cloudflare.com/cloudflared noble InRelease
+Hit:9 https://pkg.cloudflareclient.com noble InRelease
+Hit:10 https://ppa.launchpadcontent.net/papirus/papirus/ubuntu plucky InRelease
+Hit:11 https://repository.mullvad.net/deb/stable stable InRelease
+Hit:12 https://packages.microsoft.com/repos/code stable InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+openssh-client is already the newest version (1:9.9p1-3ubuntu3.2).
+openssh-client set to manually installed.
+Solving dependencies...
+The following packages were automatically installed and are no longer required:
+  kfind kwrite libmsgpack-c2 libtermkey1 libunibilium4 libvterm0 lua-luv
+  python3-greenlet python3-msgpack python3-pynvim
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 22 not upgraded.
+INFO: Klucz już istnieje: /home/jakubc/.ssh/id_ed25519
+Identity added: /home/jakubc/.ssh/id_ed25519 (twoj@mail.example)
+PASS: Klucz dodany do ssh-agent
+INFO: Dodaj ten klucz w GitHub → Settings → SSH and GPG keys:
+----- POCZĄTEK PUBKEY -----
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPm60Zp/JkICxxYNVBPJCEGJWAwheUU5X+K+kCSniuEr twoj@mail.example
+------ KONIEC PUBKEY ------
+
+Gdy dodasz klucz w GitHub, wciśnij Enter aby wykonać test połączenia...git@github.com: Permission denied (publickey).
+FAIL: SSH test nie potwierdził autoryzacji. Sprawdź czy dodałeś publiczny klucz do konta.
+exit
