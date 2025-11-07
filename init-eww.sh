@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# SOURCOWANY z ~/.bashrc
+# SOURCOWANY z ~/.bashrc; nie zmienia opcji shella i nie używa "exit"
 
 eww::init() {
   case "$-" in *i*) ;; *) return 0 ;; esac
+
   export EWW_ROOT="${EWW_ROOT:-/git/eww}"
   local LIB_BANER="${EWW_ROOT}/lib/bash/baner.sh"
 
@@ -15,6 +16,7 @@ eww::init() {
   : "${EWW_BANNER_BOTTOM_LEFT:=E-Waste Workshop}"
   : "${EWW_BANNER_BOTTOM_RIGHT:=www.E-WasteWorkshop.co.uk}"
 
+  # baner tylko raz na sesję
   local show=1
   if [[ -n "${EWW_BANNER_SHOWN-}" ]]; then show=0; else export EWW_BANNER_SHOWN=1; fi
 
@@ -32,4 +34,5 @@ eww::init() {
     fi
   fi
 }
+# wywołanie działa poprawnie przy source i przy uruchomieniu
 eww::init
