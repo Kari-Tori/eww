@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SOURCOWANY z ~/.bashrc; nie zmienia opcji shella i nie używa "exit"
+# SOURCOWANY z ~/.bashrc; bez "exit"
 
 eww::init() {
   case "$-" in *i*) ;; *) return 0 ;; esac
@@ -16,23 +16,22 @@ eww::init() {
   : "${EWW_BANNER_BOTTOM_LEFT:=E-Waste Workshop}"
   : "${EWW_BANNER_BOTTOM_RIGHT:=www.E-WasteWorkshop.co.uk}"
 
-  # baner tylko raz na sesję
-  local show=1
-  if [[ -n "${EWW_BANNER_SHOWN-}" ]]; then show=0; else export EWW_BANNER_SHOWN=1; fi
+  # zawsze wczytaj bibliotekę, żeby funkcja istniała
+  if [[ -r "$LIB_BANER" ]]; then
+    # shellcheck source=/git/eww/lib/bash/baner.sh
+    . "$LIB_BANER"
+    export EWW_INIT_OK=1
+  fi
 
-  if [[ $show -eq 1 ]]; then
-    if [[ -r "$LIB_BANER" ]]; then
-      # shellcheck source=/git/eww/lib/bash/baner.sh
-      . "$LIB_BANER"
-      export EWW_INIT_OK=1
-      if type eww::baner >/dev/null 2>&1; then eww::baner; fi
-    else
+  # pokaż baner tylko raz na sesję
+  if [[ -z "${EWW_BANNER_SHOWN-}" ]]; then
+    export EWW_BANNER_SHOWN=1
+    type eww::baner >/dev/null 2>&1 && eww::baner || {
       printf "\n╭─ %s@%s • %s\n" "$(id -un)" "$(hostname)" "$(date '+%F %T')"
       printf "╰─ %s • %s • repo:%s • cfg:%s [MIN]\n\n" \
         "${EWW_BANNER_BOTTOM_LEFT}" "${EWW_BANNER_BOTTOM_RIGHT}" \
         "$EWW_ROOT" "$EWW_ROOT/init-eww.sh"
-    fi
+    }
   fi
 }
-# wywołanie działa poprawnie przy source i przy uruchomieniu
 eww::init
