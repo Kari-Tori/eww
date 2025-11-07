@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+: "${EWW_AC_OVERRIDE:=on}"
 # źródłowane z ~/.bashrc; bez "exit"
 eww::init() {
   [[ $- == *i* ]] || return 0
