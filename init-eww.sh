@@ -1,37 +1,48 @@
 #!/usr/bin/env bash
-# SOURCOWANY z ~/.bashrc; bez "exit"
-
+# źródłowane z ~/.bashrc; bez "exit"
 eww::init() {
-  case "$-" in *i*) ;; *) return 0 ;; esac
-
+  [[ $- == *i* ]] || return 0
   export EWW_ROOT="${EWW_ROOT:-/git/eww}"
-  local LIB_BANER="${EWW_ROOT}/lib/bash/baner.sh"
+  local LIB="$EWW_ROOT/lib/bash/baner.sh"
 
   : "${EWW_CD_ROOT:=1}"
-  if [[ "$EWW_CD_ROOT" != "0" && -d "$EWW_ROOT" && "${PWD:-}" != "$EWW_ROOT" ]]; then
-    cd "$EWW_ROOT" || :
-  fi
+  [[ "$EWW_CD_ROOT" != 0 && -d "$EWW_ROOT" && "$PWD" != "$EWW_ROOT" ]] && cd "$EWW_ROOT" || :
 
   : "${EWW_BANNER_PREFIX:=Miłego dnia}"
   : "${EWW_BANNER_BOTTOM_LEFT:=E-Waste Workshop}"
   : "${EWW_BANNER_BOTTOM_RIGHT:=www.E-WasteWorkshop.co.uk}"
 
-  # zawsze wczytaj bibliotekę
-  [[ -r "$LIB_BANER" ]] && . "$LIB_BANER" && export EWW_INIT_OK=1
+  [[ -r "$LIB" ]] && . "$LIB"
 
-  # baner tylko raz na sesję
+  # Fallback: jeśli biblioteka nie dostarczyła funkcji, zdefiniuj lokalnie
+  if ! declare -F eww_banner >/dev/null; then
+    eww_banner() {
+      local who host now up load mem home ac repo cfg ok
+      who="$(id -un)"; host="$(hostname)"; now="$(date '+%F %T')"
+      up="$(uptime -p 2>/dev/null | sed 's/^up //' || echo n/a)"
+      load="$(awk '{printf "%s %s %s",$1,$2,$3}' /proc/loadavg 2>/dev/null || echo "n/a n/a n/a")"
+      if [[ -r /proc/meminfo ]]; then
+        mem="$(awk '$1=="MemTotal:"{t=$2} $1=="MemAvailable:"{a=$2}
+                   END{ if(t>0){ if(a=="") a=0; u=t-a; printf "%d/%dMiB",u/1024,t/1024 } else print "n/a" }' /proc/meminfo)"
+      else mem="n/a"; fi
+      home="$(df -h ~ 2>/dev/null | awk 'NR==2{print $4}' || echo "n/a")"
+      if command -v systemctl >/dev/null 2>&1; then
+        systemctl --user is-active eww-autocommit.timer >/dev/null 2>&1 && ac="on" || ac="off"
+      else ac="n/a"; fi
+      repo="${EWW_ROOT:-/git/eww}"; cfg="${repo}/init-eww.sh"
+      ok=$([[ "${EWW_INIT_OK:-1}" = 1 ]] && echo OK || echo MISS)
+      [[ -n "${EWW_BANNER_PREFIX:-}" ]] && printf "%s %s\n" "${EWW_BANNER_PREFIX}" "${now}"
+      printf "\n╭─ %s@%s • %s\n" "$who" "$host" "$now"
+      printf "├─ up:%s • load:%s • mem:%s • home:%s • ac:%s\n" "$up" "$load" "$mem" "$home" "$ac"
+      printf "╰─ %s • %s • repo:%s • cfg:%s [%s]\n\n" \
+             "${EWW_BANNER_BOTTOM_LEFT}" "${EWW_BANNER_BOTTOM_RIGHT}" "$repo" "$cfg" "$ok"
+    }
+  fi
+
+  export EWW_INIT_OK=1
   if [[ -z "${EWW_BANNER_SHOWN-}" ]]; then
     export EWW_BANNER_SHOWN=1
-    if declare -F eww_banner >/dev/null; then
-      eww_banner
-    elif declare -F 'eww::baner' >/dev/null; then
-      eww::baner
-    else
-      printf "\n╭─ %s@%s • %s\n" "$(id -un)" "$(hostname)" "$(date '+%F %T')"
-      printf "╰─ %s • %s • repo:%s • cfg:%s [MIN]\n\n" \
-        "${EWW_BANNER_BOTTOM_LEFT}" "${EWW_BANNER_BOTTOM_RIGHT}" \
-        "$EWW_ROOT" "$EWW_ROOT/init-eww.sh"
-    fi
+    eww_banner
   fi
 }
 eww::init
