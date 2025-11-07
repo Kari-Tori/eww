@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# init-eww.sh — inicjalizacja sesji E-Waste Workshop
+set -Eeuo pipefail
+
+EWW_ROOT="${EWW_ROOT:-/git/eww}"
+
+banner() {
+  printf "\n╭─ %s@%s • %s\n" "$(whoami)" "$(hostname)" "$(date '+%F %T')"
+  printf "╰─ E-Waste Workshop • %s\n\n" "$EWW_ROOT"
+}
+
+run_init() {
+  mkdir -p "$EWW_ROOT"
+  export EWW_ROOT
+  cd "$EWW_ROOT"
+  banner
+  export EWW_INIT_OK=1
+}
+
+# Jeśli skrypt jest źródłowany: zmień bieżącą powłokę i wróć 0
+if [[ "${BASH_SOURCE[0]}" != "$0" ]]; then
+  run_init
+  return 0 2>/dev/null || exit 0
+fi
+
+# Jeśli uruchomiony bezpośrednio: przełącz do interaktywnej powłoki w EWW
+run_init
+exec bash -i

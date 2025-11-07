@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+# /git/eww/init-eww.sh — EWW header v6 (stały format, tty/home/root/ip safe)
+
+: "${EWW_HEADER:=1}"
+: "${EWW_HEADER_TITLE:=E-Waste Workshop}"
+: "${EWW_HEADER_TAGLINE:=Miłego dnia}"
+: "${EWW_HEADER_BORDER:=1}"
+: "${EWW_HEADER_CFG_PATH:=/git/eww/init-eww.sh}"
+
+# Kolory opcjonalne
+if [[ -t 1 ]] && command -v tput >/dev/null 2>&1; then _B="$(tput bold)"; _0="$(tput sgr0)"; else _B=""; _0=""; fi
+
+# Metryki
+eww_now(){ LC_ALL=C /bin/date '+%d:%m:%Y %H:%M'; }
+eww_uptime(){ local s d h m; s=$(cut -d. -f1 /proc/uptime 2>/dev/null||echo 0); ((d=s/86400,s%=86400,h=s/3600,s%=3600,m=s/60)); ((d>0))&&printf '%dd %dh %dm' "$d" "$h" "$m"||((h>0))&&printf '%dh %dm' "$h" "$m"||printf '%dm' "$m"; }
+eww_load(){ read -r l1 l5 l15 _ < /proc/loadavg 2>/dev/null || { l1=.; l5=.; l15=.; }; printf '%s %s %s' "$l1" "$l5" "$l15"; }
+eww_mem(){ awk '$1=="MemTotal:"{t=$2} $1=="MemAvailable:"{a=$2} END{ if(t>0){used=(t-a)/1024; total=t/1024; printf "%d/%dMiB", used, total} else{print "n/a"} }' /proc/meminfo 2>/dev/null; }
+
+# Wolna przestrzeń HOME i /
+eww__home_path(){ local H="${HOME:-$(getent passwd "$USER" 2>/dev/null|cut -d: -f6)}"; [[ -z "$H" ]] && H="$(eval echo "~$USER")"; [[ -z "$H" ]] && H="/"; printf '%s' "$H"; }
+eww_home_free(){
+  local H; H="$(eww__home_path)"
+  if df --help 2>&1 | grep -q -- '--output='; then df -Ph --output=avail "$H" 2>/dev/null | awk 'NR==2{print $1}'; else df -h "$H" 2>/dev/null | awk 'NR==2{print $4}'; fi
+}
+eww_root_free(){
+  if df --help 2>&1 | grep -q -- '--output='; then df -Ph --output=avail / 2>/dev/null | awk 'NR==2{print $1}'; else df -h / 2>/dev/null | awk 'NR==2{print $4}'; fi
+}
+
+# TTY i IP
+eww_tty(){ local t; t="$(/usr/bin/tty 2>/dev/null || true)"; [[ $t == /dev/* ]] || { echo "?"; return; }; t="${t##*/}"; echo "${t#pts/}"; }
+eww_ip(){ ip -4 route get 1.1.1.1 2>/dev/null | awk '{for(i=1;i<=NF;i++) if($i=="src"){print $(i+1); exit}}' || hostname -I 2>/dev/null | awk '{print $1}'; }
+
+# Status configu
+eww_cfg_status(){ local p s; p=$(readlink -f -- "$EWW_HEADER_CFG_PATH" 2>/dev/null || echo "$EWW_HEADER_CFG_PATH"); [[ -r "$EWW_HEADER_CFG_PATH" ]] && s='[OK]' || s='[MISSING]'; printf '%s %s' "$p" "$s"; }
+
+# Nagłówek
+eww_header(){
+  [[ "${EWW_HEADER}" -eq 0 ]] && return 0
+  local now up load mem home root tty ip bashv cfg
+  now="$(eww_now)"; up="$(eww_uptime)"; load="$(eww_load)"; mem="$(eww_mem)"
+  home="$(eww_home_free)"; root="$(eww_root_free)"; tty="$(eww_tty)"; ip="$(eww_ip)"
+  bashv="${BASH_VERSION%%(*}"; cfg="$(eww_cfg_status)"
+
+  local L1=" ${USER}@${HOSTNAME:-$(hostname)} • ${now}"
+  local L2=" up:${up} • load:${load} • mem:${mem} • home:${home} • root:${root}"
+  local L3=" ${EWW_HEADER_TITLE} • bash:${bashv} • tty:${tty} • ip:${ip} • cfg:${cfg}"
+
+  printf '\n'
+  if [[ "${EWW_HEADER_BORDER}" -eq 1 ]]; then
+    printf '╭─%s%s%s\n' "${_B}" "$L1" "${_0}"
+    printf '├─ %s\n'     "$L2"
+    printf '╰─ %s • %s\n\n' "$L3" "${EWW_HEADER_TAGLINE}"
+  else
+    printf '%s%s%s\n' "${_B}" "$L1" "${_0}"; printf '%s\n' "$L2"; printf '%s • %s\n\n' "$L3" "${EWW_HEADER_TAGLINE}"
+  fi
+}
+return 0 2>/dev/null || true
