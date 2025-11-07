@@ -6,17 +6,18 @@ eww::baner() {
   if uptime -p >/dev/null 2>&1; then up="$(uptime -p | sed 's/^up //')"; else up="n/a"; fi
   load="$(awk '{printf "%s %s %s",$1,$2,$3}' /proc/loadavg 2>/dev/null || echo "n/a n/a n/a")"
 
-  # pamięć: czytaj /proc/meminfo, niezależnie od lokalizacji
-  if awk 'BEGIN{exit (getline<"/proc/meminfo")<=0}' >/dev/null 2>&1; then
+  if [[ -r /proc/meminfo ]]; then
     mem="$(awk '
       $1=="MemTotal:"{tot=$2}
       $1=="MemAvailable:"{ava=$2}
       END{
-        if(tot>0){use=tot-ava; printf "%d/%dMiB", use/1024, tot/1024}else{print "n/a"}
+        if(tot>0){
+          if(ava=="") ava=0;
+          use=tot-ava; printf "%d/%dMiB", use/1024, tot/1024
+        } else { print "" }
       }' /proc/meminfo)"
-  else
-    mem="$(free -m 2>/dev/null | awk "/Mem:/ {printf \"%s/%sMiB\",\$3,\$2}" || echo "n/a")"
   fi
+  [[ -z "${mem:-}" ]] && mem="n/a"
 
   home="$(df -h ~ 2>/dev/null | awk 'NR==2{print $4}' || echo "n/a")"
   if command -v systemctl >/dev/null 2>&1; then
