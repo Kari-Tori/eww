@@ -41,3 +41,6 @@ eww_banner() {
 
 # kompatybilność: spróbuj zarejestrować starą nazwę
 eval 'eww::baner(){ eww_banner "$@"; }' 2>/dev/null || :
+
+# kompatybilność: alias na starą nazwę
+alias 'eww::baner'=eww_banner
