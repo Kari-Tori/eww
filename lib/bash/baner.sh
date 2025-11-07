@@ -14,6 +14,7 @@ eww_banner() {
   else ac="n/a"; fi
   repo="${EWW_ROOT:-/git/eww}"; cfg="${repo}/init-eww.sh"
   ok=$([[ "${EWW_INIT_OK:-1}" = 1 ]] && echo OK || echo MISS)
+
   [[ -n "${EWW_BANNER_PREFIX:-}" ]] && printf "%s %s\n" "${EWW_BANNER_PREFIX}" "${now}"
   printf "\n╭─ %s@%s • %s\n" "$who" "$host" "$now"
   printf "├─ up:%s • load:%s • mem:%s • home:%s • ac:%s\n" "$up" "$load" "$mem" "$home" "$ac"
