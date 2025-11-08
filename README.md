@@ -1,7 +1,5 @@
 # E-Waste Workshop
-
-Strona projektu: https://e-wasteworkshop.co.uk
-
+Strona projektu: https://www.e-wwasteworkshop.co.uk
 Repozytorium na GitHub: https://github.com/Nairecth/eww
 
 Krótki opis
@@ -14,70 +12,48 @@ Krok 1 — pobierz skrypt z GitHub
 --------------------------------
 Pobierz plik `init-eww.sh` bezpośrednio z repozytorium (polecane):
 
-```bash
-# curl
-curl -fsSL -o ~/Downloads/init-eww.sh \
-  https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh
+# E-Waste Workshop — krótkie README
 
-# lub wget
-wget -O ~/Downloads/init-eww.sh \
+Strona: https://e-wasteworkshop.co.uk
+
+Repozytorium: https://github.com/Nairecth/eww
+
+Krok 1 — pobierz
+
+Pobierz plik `init-eww.sh` z GitHub (raw):
+
+```bash
+curl -fsSL -o ~/Downloads/init-eww.sh \
   https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh
 ```
 
-Sprawdź pobrany plik przed uruchomieniem:
+Sprawdź plik przed wykonaniem:
 
 ```bash
 less ~/Downloads/init-eww.sh
 ```
 
-Krok 2 — załaduj skrypt w bieżącej powłoce (sourcowanie)
--------------------------------------------------------
-Aby ustawienia zadziałały w Twojej sesji terminala, załaduj skrypt w bieżącej powłoce:
+Krok 2 — załaduj w bieżącej powłoce
+
+Załaduj (source), żeby zmienne środowiskowe i przejście katalogu działały w Twojej sesji:
 
 ```bash
 . ~/Downloads/init-eww.sh
 ```
 
-Możesz też dodać `source` do `~/.bashrc`, aby ładowało się przy starcie sesji:
+Co robi `init-eww.sh` (krótko)
 
-```bash
-echo ". /absolute/path/to/init-eww.sh" >> ~/.bashrc
-```
+- Sprawdza, czy powłoka jest interaktywna; jeśli nie — nic nie zmienia.
+- Ustawia `EWW_ROOT` (domyślnie `/git/eww`) — można nadpisać przed sourcowaniem.
+- Jeśli `EWW_CD_ROOT` ≠ 0 i katalog istnieje — przechodzi (`cd`) do `EWW_ROOT`.
+- Próbuje załadować `$EWW_ROOT/lib/bash/baner.sh` i wywołać `eww_banner` raz na sesję.
+- Eksportuje flagi: `EWW_BANNER_SHOWN`, `EWW_INIT_OK`.
 
-Co robi `init-eww.sh` — opis działania
---------------------------------------
-- Sprawdza, czy powłoka jest interaktywna; jeśli nie jest — nic nie zmienia.
-- Ustawia zmienną środowiskową `EWW_ROOT` (domyślnie `/git/eww`). Możesz nadpisać ją przed źródłowaniem, np.:
-  ```bash
-  export EWW_ROOT=/moj/katalog && . ~/Downloads/init-eww.sh
-  ```
-- Jeśli `EWW_CD_ROOT` nie jest ustawione na `0`, a katalog `EWW_ROOT` istnieje, skrypt przechodzi (`cd`) do tego katalogu.
-- Próbuje załadować lokalną bibliotekę banera `$EWW_ROOT/lib/bash/baner.sh` (jeśli istnieje) i wywoła funkcję `eww_banner` raz na sesję.
-- Ustawia/eksportuje flagi sesji: `EWW_BANNER_SHOWN` i `EWW_INIT_OK`, aby uniknąć wielokrotnego wyświetlania banera.
+Bezpieczeństwo
 
-Uwaga bezpieczeństwa
----------------------
-Nigdy nie sourcuj skryptów pobranych z internetu bez ich sprawdzenia. Przejrzyj zawartość (`less`, `cat`) przed wykonaniem.
+Nigdy nie sourcuj niesprawdzonego skryptu — sprawdź zawartość przed wykonaniem.
 
-Kontakt
--------
-Owner / Contact: astriblast@gmail.com
-
-# E-Waste Workshop – `/git/eww`
-
-**Lokalizacja (lokalny dysk):** `/git/eww`  
-**Repo (GitHub):** https://github.com/Nairecth/eww  
-**Owner/Contact:** astriblast@gmail.com
-
-## Struktura plików
-```
-/git/eww
-├─ README.md
-├─ init-eww.sh
-├─ bin/
-│  ├─ eww-status
-│  ├─ eww-commit
-│  └─ eww-banner
+Kontakt: astriblast@gmail.com
 ├─ scripts/
 │  ├─ eww-setup-git.sh
 │  ├─ eww-git-gpg-fix.sh
