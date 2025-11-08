@@ -79,7 +79,7 @@ eww_banner(){
 
   printf '%s %s\n\n' "$EWW_BANNER_PREFIX" "$now"
   printf '╭─ %s@%s • %s\n' "$user" "$host" "$now"
-  printf '├─ up:%s • %s • %s • %s • %s\n' "$(eww_uptime)" "$(eww_load)" "$(eww_mem)" "$(eww_home)" "$(eww_ac)"
+  printf '├─ up:%s • %s • %s • %s • %s • %s\n' "$(eww_uptime)" "$(eww_load)" "$(eww_mem)" "$(eww_home)" "$(eww_ac)" "$(eww_shell)
   printf '╰─ E-Waste Workshop • %s • %s • cfg:%s %s%s\n\n' \
          "$EWW_BANNER_URL" "$(eww_repo)" "$EWW_CFG" "$cfg_status" \
          "${EWW_BANNER_SUFFIX:+ • $EWW_BANNER_SUFFIX}"
@@ -139,3 +139,4 @@ eww_ac(){
 
   printf '%s' "$s"
 }
+eww_shell(){ printf 'bash:%s' "${BASH_VERSION%%(*}"; }

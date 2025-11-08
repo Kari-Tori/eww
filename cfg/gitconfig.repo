@@ -1,0 +1,5 @@
+[commit]
+    gpgsign = true
+[user]
+    name = Jakub Celmer
+    email = astriblast@gmail.com
