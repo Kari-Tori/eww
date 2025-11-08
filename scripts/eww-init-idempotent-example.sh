@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
+# shellcheck disable=SC1091,SC2016
 set -Euo pipefail
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck disable=SC1091,SC2016
 source "$SCRIPT_DIR/../lib/idempotent.sh"
 
 ensure_lock "eww-init"

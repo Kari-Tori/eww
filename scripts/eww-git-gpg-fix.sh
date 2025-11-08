@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -Euo pipefail
-cd /git/eww
-export GPG_TTY=$(tty)
+cd /git/eww || exit
+# avoid SC2155 (declare and assign separately)
+GPG_TTY_VAL=$(tty 2>/dev/null || true)
+export GPG_TTY="${GPG_TTY_VAL}"
 git config user.name "Jakub Celmer"
 git config user.email "astriblast@gmail.com"
 git config --unset gpg.format 2>/dev/null || true

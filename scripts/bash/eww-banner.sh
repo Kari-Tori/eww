@@ -8,7 +8,9 @@ eww_banner() {
 
   local title="${EWW_BANNER_TITLE:-E-Waste Workshop}"
   local width="${EWW_BANNER_WIDTH:-120}"
-  local fonts=( ${EWW_BANNER_FONTS:-big slant standard future pagga shadow} )
+  local fonts
+  # split EWW_BANNER_FONTS into an array safely; defaults used when variable unset
+  read -r -a fonts <<< "${EWW_BANNER_FONTS:-big slant standard future pagga shadow}"
 
   # deterministyczny wybór czcionki: host + dzień roku
   local seed idx font

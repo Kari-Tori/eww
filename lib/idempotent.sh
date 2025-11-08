@@ -70,7 +70,8 @@ ensure_symlink() {
 	local target="$1" link="$2"
 	local cur=""
 	[[ -L "$link" ]] && cur="$(readlink -f "$link" || true)"
-	local tgt="$(readlink -f "$target" || echo "$target")"
+	local tgt
+	tgt="$(readlink -f "$target" || echo "$target")"
 	if [[ "$cur" == "$tgt" ]]; then
 		ok "symlink $link -> $target ok"
 	else

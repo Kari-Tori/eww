@@ -16,7 +16,7 @@ branch="$(git symbolic-ref --short HEAD 2>/dev/null || echo '')"
 if [[ "$if_main" -eq 1 && "$branch" != "main" && "$branch" != "master" ]]; then exit 0; fi
 latest_tag() { git describe --tags --abbrev=0 --match 'v[0-9]*' 2>/dev/null || echo 'v0.0.0'; }
 last_tag="$(latest_tag)"
-log="$(git log --no-merges --pretty=%B ${last_tag}..HEAD 2>/dev/null || true)"
+log="$(git log --no-merges --pretty=%B "${last_tag}"..HEAD 2>/dev/null || true)"
 bump="none"
 if grep -Eq '(^|\n)BREAKING CHANGE' <<<"$log" || grep -Eq '(^|\n)(feat|fix|perf|refactor)!' <<<"$log"; then
 	bump="major"
