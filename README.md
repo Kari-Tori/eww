@@ -1,4 +1,7 @@
+
 # E-Waste Workshop
+
+Wersja: 0.0.0.2
 
 Krótki zestaw skryptów i narzędzi do szybkiego przygotowania środowiska warsztatowego.
 
