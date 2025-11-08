@@ -1,4 +1,5 @@
 ## [0.0.0.2] - 2025-11-08\n\n- Opis zmian\n\n
+## [0.0.0.2] - 2025-11-08\n\n- Opis zmian\n\n
 # Changelog
 
 Zasady wersjonowania i proces dodawania zmian
