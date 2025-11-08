@@ -62,7 +62,7 @@ Wersja: 0.0.0.2
 
 Krótki zestaw skryptów i narzędzi do szybkiego przygotowania środowiska warsztatowego.
 
-Repozytorium: https://github.com/Nairecth/eww
+Repozytorium: [github.com/Nairecth/eww](https://github.com/Nairecth/eww)
 
 ---
 
@@ -115,6 +115,13 @@ Przykład suchy run:
 - Czy `README` zgadza się z `VERSION`? (`cat VERSION` i `grep -m1 "Wersja:" README.md`)
 - Uruchom `./scripts/check_readme.sh` — zweryfikuje podstawowe reguły.
 - Opcjonalnie: `shellcheck init-eww.sh lib/log.sh` i `bats tests/`.
+
+## Funkcje i lista weryfikacji
+
+- Interaktywny tryb inicjacji — skrypt nie powinien uruchamiać inicjacji w nieinteraktywnym shellu.
+- Możliwość nadpisania `EWW_ROOT` przed sourcowaniem.
+- Automatyczne `cd` zależne od `EWW_CD_ROOT` (1/0).
+- Logger zapisuje do `EWW_LOG_FILE`; `EWW_NO_LOG=1` wyłącza zapis.
 
 ## Gdzie szukać więcej
 
