@@ -1,4 +1,16 @@
-logs/
+# Ignore editor and backup files
+*~
+*.swp
+*.swo
+*.orig
+*.bak
+init-eww.sh.bak*
+* (1)
+
+# Node / Python / other common ignores (safe defaults)
+__pycache__/
+.venv/
+.cache/logs/
 .obsidian/
 logs/
 init-eww.sh.bak.*
