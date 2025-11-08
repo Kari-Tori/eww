@@ -89,6 +89,8 @@ Przykład suchy run:
 
 Zobacz `MVP.md`.
 
+Wydanie 0.0.0.1 (MVP): szczegółowe instrukcje pobrania i uruchomienia znajdziesz w `docs/release-0.0.0.1.md`.
+
 ## Kontakt
 
 astriblast@gmail.com
