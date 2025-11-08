@@ -1,4 +1,3 @@
-
 # E-Waste Workshop
 
 Wersja: 0.0.0.2
@@ -175,4 +174,7 @@ Oznacz w komentarzu na PR/issue które z powyższych zostały ręcznie potwierdz
 astriblast@gmail.com
 
 <!-- Maintainers: README ma być krótki; dłuższe przewodniki umieszczaj w /docs lub w osobnych plikach. -->
+
+StylesPath = ./.vale/styles
+MinAlertLevel = suggestion
 
