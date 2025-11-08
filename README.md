@@ -24,26 +24,6 @@ Pobierz, sprawdź i załaduj skrypt w bieżącej powłoce (ważne: source, nie u
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh -o ~/Downloads/init-eww.sh && less ~/Downloads/init-eww.sh && . ~/Downloads/init-eww.sh
-<!-- README for E-Waste Workshop (lokalnie: /git/eww) -->
-
-# E-Waste Workshop
-
-Wersja: 0.0.0.2 (ver.pre-mvp)
-
-Krótki zestaw skryptów i narzędzi do szybkiego przygotowania środowiska warsztatowego.
-
-Strona: https://e-wasteworkshop.co.uk — Repo: https://github.com/Nairecth/eww
-
-Lokalizacja na dysku (zalecana dla developera/testera): `/git/eww`
-
----
-
-## Quick start (1 linia)
-
-Pobierz, sprawdź i załaduj skrypt w bieżącej powłoce (ważne: source, nie uruchamiaj w podprocesie):
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh -o ~/Downloads/init-eww.sh && less ~/Downloads/init-eww.sh && . ~/Downloads/init-eww.sh
 ```
 
 ## Najważniejsze (krótkie)
@@ -55,39 +35,6 @@ curl -fsSL https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh -o ~/
 
 - `EWW_ROOT` — domyślnie `/git/eww` (możesz nadpisać przed sourcowaniem).
 - `EWW_CD_ROOT` — `1` (domyślnie); ustaw `0` aby nie zmieniać katalogu.
-- `EWW_LOG_FILE` — domyślnie `${XDG_STATE_HOME:-$HOME/.local/state}/eww/init-eww.log`.
-# E‑Waste Workshop
-
-Wersja: 0.0.0.2
-
-Krótki zestaw skryptów i narzędzi do szybkiego przygotowania środowiska warsztatowego.
-
-Repozytorium: [github.com/Nairecth/eww](https://github.com/Nairecth/eww)
-
----
-
-## Quick start (1 linia)
-
-Pobierz, sprawdź i załaduj skrypt w bieżącej powłoce (ważne: source — nie uruchamiaj w podprocesie):
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh -o ~/Downloads/init-eww.sh
-less ~/Downloads/init-eww.sh    # sprawdź zawartość przed załadowaniem
-. ~/Downloads/init-eww.sh       # lub: source ~/Downloads/init-eww.sh
-```
-
-## Co robi `init-eww.sh` (w skrócie)
-
-- Sprawdza, czy powłoka jest interaktywna (jeśli nie — nie wykonuje inicjacji).
-- Ustawia zmienną `EWW_ROOT` (domyślnie `/git/eww`). Możesz ją nadpisać przed sourcowaniem.
-- Opcjonalnie wykonuje `cd` do `EWW_ROOT` (kontrolowane przez `EWW_CD_ROOT`).
-- Ładuje baner (jeśli dostępny) i ustawia flagi sesyjne (`EWW_BANNER_SHOWN`, `EWW_INIT_OK`).
-- Jeśli dostępny — ładuje prosty logger (`lib/log.sh`) i dopisuje wpisy do `EWW_LOG_FILE`.
-
-## Najważniejsze zmienne środowiskowe
-
-- `EWW_ROOT` — domyślnie `/git/eww`.
-- `EWW_CD_ROOT` — `1` domyślnie; ustaw `0` aby nie zmieniać katalogu.
 - `EWW_LOG_FILE` — domyślnie `${XDG_STATE_HOME:-$HOME/.local/state}/eww/init-eww.log`.
 - `EWW_NO_LOG=1` — wyłącza zapis do pliku logu.
 - `EWW_DEBUG=1` — włącza tryb debug.
@@ -132,6 +79,17 @@ Pełna dokumentacja i kryteria MVP w `MVP.md` i `docs/release-0.0.0.1.md`.
 astriblast@gmail.com
 
 <!-- Maintainers: README ma być krótki; dłuższe przewodniki umieszczaj w /docs. -->
-		Pobierz, sprawdź i ZAŁADUJ skrypt do bieżącej powłoki (WAŻNE: source, nie uruchamiaj w podprocesie):
+
+repos:
+  - repo: https://github.com/koalaman/shellcheck
+    rev: stable
+    hooks:
+      - id: shellcheck
+        args: [--severity=warning]
+  - repo: https://github.com/mvdan/sh
+    rev: v3.7.0
+    hooks:
+      - id: shfmt
+        args: [-i, 2, -ci]
 
 
