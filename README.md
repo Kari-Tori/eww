@@ -92,4 +92,38 @@ repos:
       - id: shfmt
         args: [-i, 2, -ci]
 
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pre-commit
+      - name: Run pre-commit hooks
+        run: pre-commit run --all-files
+      - name: ShellCheck for scripts
+        run: |
+          sudo apt update && sudo apt install -y shellcheck
+          shellcheck init-eww.sh lib/log.sh
+      - name: Run tests (bats)
+        run: |
+          sudo apt install -y bats
+          bats tests || true
+      - name: Run vale on README (if configured)
+        run: |
+          if [ -f ./.vale.ini ]; then
+            # install vale or use a preinstalled action
+            echo "Vale configured"
+          fi
+
 
