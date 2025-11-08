@@ -41,7 +41,9 @@ eww::init() {
 }
 eww::init
 INIT
-bash -n "$TMP"; mv "$TMP" "$ROOT/init-eww.sh"; chmod 644 "$ROOT/init-eww.sh"
+bash -n "$TMP"
+mv "$TMP" "$ROOT/init-eww.sh"
+chmod 644 "$ROOT/init-eww.sh"
 
 # --- lib/bash/baner.sh ---
 TMP="$(mktemp)"
@@ -74,7 +76,9 @@ eww::baner() {
   return 0
 }
 LIB
-bash -n "$TMP"; mv "$TMP" "$ROOT/lib/bash/baner.sh"; chmod 644 "$ROOT/lib/bash/baner.sh"
+bash -n "$TMP"
+mv "$TMP" "$ROOT/lib/bash/baner.sh"
+chmod 644 "$ROOT/lib/bash/baner.sh"
 
 # --- self-test ---
 unset EWW_BANNER_SHOWN || true

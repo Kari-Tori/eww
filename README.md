@@ -59,4 +59,8 @@ Przykład: jeśli chcesz mieć dostęp do funkcji/aliasów zdefiniowanych w skry
 - `scripts/` — helpery i narzędzia pomocnicze
 
 ---
-Plik ten jest szablonem gotowego README; skopiuj zawartość do `README.md`, dopasuj URL repo i drobne szczegóły przed zatwierdzeniem.
+
+# Dev setup (Linux)
+sudo apt install -y shellcheck shfmt bats
+# lub:
+brew install shellcheck shfmt bats-core

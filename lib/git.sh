@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # shell lib: git helpers
-repo_root(){ git rev-parse --show-toplevel 2>/dev/null || pwd; }
+repo_root() { git rev-parse --show-toplevel 2>/dev/null || pwd; }
