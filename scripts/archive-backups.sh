@@ -28,22 +28,18 @@ fi
 mkdir -p "$ARCHIVE_DIR"
 
 shopt -s nullglob
-candidates=( 
-  init-eww.sh.bak* 
-  *.bak
-  "* (1)"
-)
 
-# Expand patterns safely
+# Collect only regular files matching common backup patterns. Skip archive dir.
 files=()
-for p in "${candidates[@]}"; do
-  for f in $p; do
-    # ensure we don't move the archive itself
-    case "$f" in
-      archive/*) continue ;;
-    esac
-    files+=("$f")
-  done
+for f in init-eww.sh.bak* *.bak *' (1)'; do
+  # skip non-existing expansions
+  [[ -e "$f" ]] || continue
+  # only regular files
+  [[ -f "$f" ]] || continue
+  case "$f" in
+    archive/*) continue ;;
+  esac
+  files+=("$f")
 done
 
 if [[ ${#files[@]} -eq 0 ]]; then
