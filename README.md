@@ -70,6 +70,16 @@ Co robi `init-eww.sh` (krótko):
 Bezpieczeństwo: przed sourcowaniem sprawdź zawartość pobranego pliku.
 
 Kontakt: astriblast@gmail.com
+
+## MVP (cel krótkoterminowy)
+
+Krótko: przygotować minimalny zestaw, żeby po instalacji najnowszego Kubuntu można było szybko zainicjować środowisko warsztatowe.
+
+- Wersja docelowa: 0.0.0.1 (MVP)
+- Kryteria: działający `init-eww.sh` po sourcowaniu (ustawienie `EWW_ROOT`, opcjonalne `cd`, załadowanie banera jeśli dostępny, eksport `EWW_INIT_OK`).
+- Plik `VERSION` i wpis w `CHANGELOG.md` powinny odzwierciedlać wersję MVP.
+
+Pełne kryteria i kroki testowe znajdują się w `MVP.md`.
 # E-Waste Workshop
 Strona: https://e-wasteworkshop.co.uk
 
