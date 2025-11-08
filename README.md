@@ -25,6 +25,26 @@ Pobierz, sprawdź i załaduj skrypt w bieżącej powłoce (ważne: source, nie u
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh -o ~/Downloads/init-eww.sh && less ~/Downloads/init-eww.sh && . ~/Downloads/init-eww.sh
+<!-- README for E-Waste Workshop (lokalnie: /git/eww) -->
+
+# E-Waste Workshop
+
+Wersja: 0.0.0.2 (ver.pre-mvp)
+
+Krótki zestaw skryptów i narzędzi do szybkiego przygotowania środowiska warsztatowego.
+
+Strona: https://e-wasteworkshop.co.uk — Repo: https://github.com/Nairecth/eww
+
+Lokalizacja na dysku (zalecana dla developera/testera): `/git/eww`
+
+---
+
+## Quick start (1 linia)
+
+Pobierz, sprawdź i załaduj skrypt w bieżącej powłoce (ważne: source, nie uruchamiaj w podprocesie):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh -o ~/Downloads/init-eww.sh && less ~/Downloads/init-eww.sh && . ~/Downloads/init-eww.sh
 ```
 
 ## Najważniejsze (krótkie)
@@ -74,7 +94,4 @@ Zobacz `MVP.md`.
 astriblast@gmail.com
 
 <!-- Maintainers: README ma być krótki; dłuższe przewodniki umieszczaj w /docs lub w osobnych plikach. -->
-	curl -fsSL -o ~/Downloads/init-eww.sh \
-
-		https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh
 
