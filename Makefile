@@ -139,6 +139,10 @@ help:
 	@echo "  make index                - Generuj INDEX.md"
 	@echo "  make index-preview        - Podgląd INDEX.md"
 	@echo ""
+	@echo "📝 Frontmatter:"
+	@echo "  make frontmatter FILE=x   - Dodaj YAML frontmatter"
+	@echo "  make frontmatter-dry FILE=x - Podgląd frontmatter"
+	@echo ""
 	@echo "🤖 Użyj GitHub Copilot chat do pomocy!"
 
 ai-commit:
@@ -186,9 +190,25 @@ index-preview:
 		cat INDEX.md; \
 	fi
 
+# YAML frontmatter
+frontmatter:
+	@if [ -z "$(FILE)" ]; then \
+		echo "Użyj: make frontmatter FILE=ścieżka/do/pliku.md"; \
+		exit 1; \
+	fi
+	@./dev/bin/eww-frontmatter --auto "$(FILE)"
+
+frontmatter-dry:
+	@if [ -z "$(FILE)" ]; then \
+		echo "Użyj: make frontmatter-dry FILE=ścieżka/do/pliku.md"; \
+		exit 1; \
+	fi
+	@./dev/bin/eww-frontmatter --auto --dry-run "$(FILE)"
+
 .PHONY: all install uninstall changelog changelog-update changelog-version release
 .PHONY: readme-check readme-update-version readme-from-branch readme-preview
 .PHONY: comment-add comment-add-all comment-preview
 .PHONY: tree tree-full tree-lib tree-dev
 .PHONY: index index-preview
+.PHONY: frontmatter frontmatter-dry
 .PHONY: help ai-commit ai-review ai-review-all

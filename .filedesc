@@ -50,6 +50,9 @@ dev/bin/eww-status|Wyświetlanie statusu projektu (wersja, gałąź, zmiany)
 dev/bin/eww::baner|Baner (zduplikowany, do usunięcia)
 dev/bin/eww-tree|Wyświetla drzewo katalogów z opisami plików
 dev/bin/eww-index|Generuje INDEX.md z opisami folderów i plików
+dev/bin/eww-status|Wyświetlanie statusu projektu (wersja, gałąź, zmiany)
+dev/bin/eww-tree|Wyświetla drzewo katalogów z opisami plików
+dev/bin/eww-frontmatter|Dodaje/aktualizuje YAML frontmatter w plikach Markdown
 
 # === dev/scripts/ - Skrypty pomocnicze ===
 dev/scripts/bump-version.sh|Podbicie wersji + utworzenie branch/tag/PR
