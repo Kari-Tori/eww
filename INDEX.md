@@ -1,20 +1,3 @@
----
-title: INDEX - E-Waste Workshop
-description: Automatycznie generowany indeks projektu z opisami plików i folderów
-version: 0.0.0.4
-generator: ./dev/bin/eww-index
-source: .filedesc
-type: index
-category: documentation
-auto-generated: true
-updated: 2025-11-09
-tags:
-  - index
-  - file-descriptions
-  - project-structure
-  - auto-generated
----
-
 # INDEX - E-Waste Workshop
 
 > **Automatycznie wygenerowany indeks repozytorium**  
@@ -26,7 +9,7 @@ Ten plik zawiera kompletny indeks wszystkich folderów i plików w projekcie wra
 
 - **Foldery** - opis z ich `README.md` lub `.filedesc`
 - **Pliki** - opis z `.filedesc`
-- **Statystyki** - 93 plików, 29 katalogów
+- **Statystyki** - 95 plików, 29 katalogów
 
 ## 🚀 Quick Start
 
@@ -96,6 +79,7 @@ make help          # Lista wszystkich komend
 | `eww-changelog` ✅ | Generator changelog z commitów Git (Conventional Commits) |
 | `eww-commit` | Helper do tworzenia commitów z Conventional Commits |
 | `eww-doctor` | Diagnostyka środowiska deweloperskiego |
+| `eww-frontmatter` ✅ | Dodaje/aktualizuje YAML frontmatter w plikach Markdown |
 | `eww-index` ✅ | Generuje INDEX.md z opisami folderów i plików |
 | `eww-status` | Wyświetlanie statusu projektu (wersja, gałąź, zmiany) |
 | `eww-tree` ✅ | Wyświetla drzewo katalogów z opisami plików |
@@ -152,10 +136,11 @@ make help          # Lista wszystkich komend
 ## 📚 docs/ - Dokumentacja
 
 > **Dokumentacja projektu - wiki, przewodniki, notatki**
-> Dokumentacja E-Waste Workshop.
+> ---
 
 | Dokument | Opis |
 |----------|------|
+| `dokumentacja.md` | Przewodnik po dokumentowaniu projektu (YAML frontmatter, struktura) |
 | `ENDPOINTS.md` | Dokumentacja API endpoints |
 | `index.md` | Strona główna dokumentacji (MkDocs) |
 | `readme-checklist.md` | Checklist dla kompletnego README.md |
