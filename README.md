@@ -21,12 +21,13 @@ updated: 2025-11-09
 wystarczy pobrać i zsource’ować jeden skrypt.
 
 <!-- Badge'y: maksymalnie 5, podmień URL-e na realne -->
-![build-status](https://img.shields.io/badge/build-ci--status-lightgrey)
-![release](https://img.shields.io/badge/release-v0.0.0-lightgrey)
-![license](https://img.shields.io/badge/license-TBD-lightgrey)
-![issues](https://img.shields.io/badge/issues-open-lightgrey)
+![build-status](https://img.shields.io/badge/build-passing-brightgreen)
+![release](https://img.shields.io/badge/release-v0.0.0.4-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
+![bash](https://img.shields.io/badge/bash-5.1+-blue)
+![platform](https://img.shields.io/badge/platform-Kubuntu%2024.04-orange)
 
-Wersja: 0.0.0.2
+**Wersja: 0.0.0.4** | [📋 CHANGELOG](CHANGELOG.md) | [🗂️ INDEX](INDEX.md) | [🤖 AI Context](AGENTS.md)
 
 ## Spis treści
 
@@ -36,8 +37,11 @@ Wersja: 0.0.0.2
 - [Instalacja](#instalacja)
 - [Konfiguracja](#konfiguracja)
 - [Użycie](#użycie)
-- [Struktura repo](#struktura-repo)
-- [Funkcje i lista weryfikacji](#funkcje-i-lista-weryfikacji)
+- [Struktura projektu](#struktura-projektu)
+- [Narzędzia deweloperskie](#narzędzia-deweloperskie)
+- [Dokumentacja](#dokumentacja)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Quick start
 
@@ -202,23 +206,142 @@ source /git/eww/init-eww.sh
     systemctl --user status eww-autocommit.timer
     ```
 
-## Struktura repo
+## Struktura projektu
 
-- `lib/` – biblioteki bash: logowanie, idempotencja, baner, helpery systemowe.
-- `scripts/` – narzędzia CLI, automatyzacja wersji, przykłady inicjalizacji.
-- `tests/` – zestaw testów BATS dla initu i idempotencji.
-- `systemd/` – jednostki i timery użytkownika (np. autocommit).
-- `docs/` – dokumentacja, checklisty release, wiki projektu.
+Projekt ma czystą organizację zgodną z MVP:
 
-## Funkcje i lista weryfikacji
+```
+eww/
+├── 📦 MVP (pliki główne)
+│   ├── README.md           # Ten plik
+│   ├── init-eww.sh         # Skrypt inicjalizacyjny
+│   ├── VERSION             # Numer wersji (0.0.0.4)
+│   ├── CHANGELOG.md        # Historia zmian
+│   ├── Makefile            # Automatyzacja zadań
+│   └── MVP.md              # Kryteria akceptacji
+├── 📖 lib/                 # Biblioteki Bash
+│   ├── banner.sh           # Generowanie banerów
+│   ├── git.sh              # Helpery Git
+│   ├── log.sh              # System logowania
+│   ├── sys.sh              # Helpery systemowe
+│   └── idempotent.sh       # Operacje idempotentne
+├── 🛠️ dev/                 # Narzędzia deweloperskie
+│   ├── bin/                # Narzędzia CLI (eww-*)
+│   ├── scripts/            # Skrypty pomocnicze
+│   ├── tests/              # Testy BATS
+│   ├── systemd/            # Jednostki systemd
+│   └── cfg/                # Konfiguracje
+├── 📚 docs/                # Dokumentacja
+│   ├── wiki/               # Wiki (Kubuntu, Neovim, Obsidian)
+│   └── guide/              # Przewodniki
+└── 🗄️ archive/             # Archiwum
 
-- `init-eww.sh` ustawia `EWW_ROOT` i (jeśli `EWW_CD_ROOT=1`) przenosi powłokę do
-  repozytorium.
-- Jeżeli dostępny jest `lib/bash/baner.sh`, baner drukuje się raz na sesję, a
-  flaga `EWW_BANNER_SHOWN` zapobiega powtórkom.
-- `lib/log.sh` (gdy obecny) zapewnia funkcje `info`, `warn`, `error` i
-  opcjonalną rotację logów (`EWW_ROTATE_ON_START=1`).
-- Ustawiana jest flaga `EWW_INIT_OK=1`, którą można łatwo sprawdzić (`echo
-  "$EWW_INIT_OK"`).
-- Helpery z `lib/idempotent.sh` są gotowe do tworzenia katalogów, plików i
-  instalacji pakietów w skryptach automatyzujących.
+93 plików, 29 katalogów
+```
+
+**Szczegółowy opis**: Zobacz [INDEX.md](INDEX.md) - automatycznie generowany indeks z opisami wszystkich plików i folderów.
+
+## Narzędzia deweloperskie
+
+Projekt zawiera zestaw narzędzi CLI w `dev/bin/`:
+
+### Podstawowe narzędzia
+
+```bash
+# Drzewo katalogów z opisami plików
+make tree
+./dev/bin/eww-tree -L 3
+
+# Indeks projektu
+make index
+make index-preview
+
+# Changelog z commitów Git
+make changelog
+./dev/bin/eww-changelog --unreleased
+
+# Status projektu
+./dev/bin/eww-status
+
+# Diagnostyka środowiska
+./dev/bin/eww-doctor
+```
+
+### Automatyzacja
+
+```bash
+# Automatyczne komentarze w kodzie Bash
+make comment-add FILE=lib/git.sh
+
+# Wydanie nowej wersji
+make release VERSION=0.0.0.5
+
+# Wszystkie dostępne komendy
+make help
+```
+
+### Testy
+
+```bash
+# Uruchom testy BATS
+bats dev/tests/
+bats dev/tests/test_init.bats
+
+# Walidacja README
+./dev/scripts/check_readme.sh
+```
+
+## Dokumentacja
+
+- **[INDEX.md](INDEX.md)** - Kompletny indeks projektu z opisami (auto-generowany)
+- **[CHANGELOG.md](CHANGELOG.md)** - Historia zmian (Keep a Changelog format)
+- **[AGENTS.md](AGENTS.md)** - Kontekst dla AI coding agents
+- **[MVP.md](MVP.md)** - Kryteria akceptacji MVP
+- **[docs/](docs/)** - Wiki, przewodniki, dokumentacja MkDocs
+
+### System opisów plików
+
+Każdy plik ma opis w `.filedesc`:
+
+```bash
+# Znajdź plik po nazwie
+grep "eww-tree" .filedesc
+
+# Znajdź po opisie
+grep -i "changelog" .filedesc
+
+# Wygeneruj INDEX.md na nowo
+make index
+```
+
+## Contributing
+
+1. Fork projektu
+2. Utwórz branch dla feature: `git checkout -b feat/nowa-funkcja`
+3. Dodaj testy w `dev/tests/`
+4. Commituj z Conventional Commits: `git commit -m "feat: opis"`
+5. Wyślij PR
+
+### Konwencje
+
+- **Commity**: `feat:`, `fix:`, `chore:`, `docs:`, `refactor:`, `test:`
+- **Kod Bash**: 
+  - Używaj `#!/usr/bin/env bash` i `set -euo pipefail`
+  - Funkcje: `namespace::funkcja()` lub `funkcja_pomocnicza()`
+  - Zmienne globalne: `EWW_NAZWA_ZMIENNEJ`
+  - Zmienne lokalne: `local nazwa_zmiennej`
+  - **Komentarze i komunikaty PO POLSKU**
+- **Testowanie**: Każda nowa funkcja powinna mieć test w BATS
+- **Dokumentacja**: Aktualizuj `.filedesc` i README
+
+Zobacz [.github/copilot-instructions.md](.github/copilot-instructions.md) dla pełnych wytycznych.
+
+## License
+
+TBD - Do ustalenia
+
+---
+
+**Maintainer:** [Nairecth](https://github.com/Nairecth)  
+**Repository:** [github.com/Nairecth/eww](https://github.com/Nairecth/eww)  
+**Website:** [www.e-wasteworkshop.co.uk](http://www.e-wasteworkshop.co.uk)
