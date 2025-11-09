@@ -119,7 +119,12 @@ SECTION
 
     local lib_desc
     lib_desc=$(get_desc "lib/")
-    echo "${lib_desc}" >> "$OUTPUT"
+    [[ -n "$lib_desc" ]] && echo "> **$lib_desc**" >> "$OUTPUT"
+    
+    local lib_note
+    lib_note=$(get_folder_note "lib")
+    [[ -n "$lib_note" ]] && echo "> $lib_note" >> "$OUTPUT"
+    
     echo "" >> "$OUTPUT"
     
     cat >> "$OUTPUT" <<'TABLE'
@@ -146,16 +151,29 @@ SECTION
 
     local dev_desc
     dev_desc=$(get_desc "dev/")
-    echo "${dev_desc}" >> "$OUTPUT"
+    [[ -n "$dev_desc" ]] && echo "> **$dev_desc**" >> "$OUTPUT"
+    
+    local dev_note
+    dev_note=$(get_folder_note "dev")
+    [[ -n "$dev_note" ]] && echo "> $dev_note" >> "$OUTPUT"
+    
     echo "" >> "$OUTPUT"
     
     # dev/bin/
     cat >> "$OUTPUT" <<'SUBSECTION'
 ### dev/bin/ - Narzędzia CLI
 
+SUBSECTION
+
+    local bin_desc
+    bin_desc=$(get_desc "dev/bin/")
+    [[ -n "$bin_desc" ]] && echo "> $bin_desc" >> "$OUTPUT"
+    echo "" >> "$OUTPUT"
+    
+    cat >> "$OUTPUT" <<'TABLE'
 | Narzędzie | Opis |
 |-----------|------|
-SUBSECTION
+TABLE
 
     for file in "${SCRIPT_DIR}/dev/bin"/*; do
         [[ -f "$file" ]] || continue
@@ -174,9 +192,17 @@ SUBSECTION
     cat >> "$OUTPUT" <<'SUBSECTION'
 ### dev/scripts/ - Skrypty pomocnicze
 
+SUBSECTION
+
+    local scripts_desc
+    scripts_desc=$(get_desc "dev/scripts/")
+    [[ -n "$scripts_desc" ]] && echo "> $scripts_desc" >> "$OUTPUT"
+    echo "" >> "$OUTPUT"
+    
+    cat >> "$OUTPUT" <<'TABLE'
 | Skrypt | Opis |
 |--------|------|
-SUBSECTION
+TABLE
 
     for file in "${SCRIPT_DIR}/dev/scripts"/*.sh; do
         [[ -f "$file" ]] || continue
@@ -193,9 +219,17 @@ SUBSECTION
     cat >> "$OUTPUT" <<'SUBSECTION'
 ### dev/cfg/ - Konfiguracje
 
+SUBSECTION
+
+    local cfg_desc
+    cfg_desc=$(get_desc "dev/cfg/")
+    [[ -n "$cfg_desc" ]] && echo "> $cfg_desc" >> "$OUTPUT"
+    echo "" >> "$OUTPUT"
+    
+    cat >> "$OUTPUT" <<'TABLE'
 | Plik | Opis |
 |------|------|
-SUBSECTION
+TABLE
 
     for file in "${SCRIPT_DIR}/dev/cfg"/*; do
         [[ -f "$file" ]] || continue
@@ -212,9 +246,17 @@ SUBSECTION
     cat >> "$OUTPUT" <<'SUBSECTION'
 ### dev/systemd/ - Jednostki systemd
 
+SUBSECTION
+
+    local systemd_desc
+    systemd_desc=$(get_desc "dev/systemd/")
+    [[ -n "$systemd_desc" ]] && echo "> $systemd_desc" >> "$OUTPUT"
+    echo "" >> "$OUTPUT"
+    
+    cat >> "$OUTPUT" <<'TABLE'
 | Jednostka | Opis |
 |-----------|------|
-SUBSECTION
+TABLE
 
     for file in "${SCRIPT_DIR}/dev/systemd"/*; do
         [[ -f "$file" ]] || continue
@@ -231,9 +273,17 @@ SUBSECTION
     cat >> "$OUTPUT" <<'SUBSECTION'
 ### dev/tests/ - Testy BATS
 
+SUBSECTION
+
+    local tests_desc
+    tests_desc=$(get_desc "dev/tests/")
+    [[ -n "$tests_desc" ]] && echo "> $tests_desc" >> "$OUTPUT"
+    echo "" >> "$OUTPUT"
+    
+    cat >> "$OUTPUT" <<'TABLE'
 | Test | Opis |
 |------|------|
-SUBSECTION
+TABLE
 
     for file in "${SCRIPT_DIR}/dev/tests"/*.bats; do
         [[ -f "$file" ]] || continue
@@ -254,7 +304,12 @@ SECTION
 
     local docs_desc
     docs_desc=$(get_desc "docs/")
-    echo "${docs_desc}" >> "$OUTPUT"
+    [[ -n "$docs_desc" ]] && echo "> **$docs_desc**" >> "$OUTPUT"
+    
+    local docs_note
+    docs_note=$(get_folder_note "docs")
+    [[ -n "$docs_note" ]] && echo "> $docs_note" >> "$OUTPUT"
+    
     echo "" >> "$OUTPUT"
     
     cat >> "$OUTPUT" <<'TABLE'

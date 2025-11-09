@@ -36,7 +36,8 @@ Ten plik zawiera kompletny indeks wszystkich folderów i plików w projekcie wra
 
 ## 📖 lib/ - Biblioteki współdzielone
 
-Biblioteki współdzielone - helpery Bash do użytku w skryptach
+> **Biblioteki współdzielone - helpery Bash do użytku w skryptach**
+> Biblioteki Bash używane przez projekt eww.
 
 | Plik | Opis |
 |------|------|
@@ -48,9 +49,12 @@ Biblioteki współdzielone - helpery Bash do użytku w skryptach
 
 ## 🛠️ dev/ - Narzędzia deweloperskie
 
-Narzędzia deweloperskie - CLI, skrypty, testy, systemd
+> **Narzędzia deweloperskie - CLI, skrypty, testy, systemd**
+> Katalog zawiera narzędzia pomocnicze do rozwoju projektu eww.
 
 ### dev/bin/ - Narzędzia CLI
+
+> Narzędzia CLI - skrypty wykonywalne dla użytkownika
 
 | Narzędzie | Opis |
 |-----------|------|
@@ -65,6 +69,8 @@ Narzędzia deweloperskie - CLI, skrypty, testy, systemd
 | `eww-tree` ✅ | Wyświetla drzewo katalogów z opisami plików |
 
 ### dev/scripts/ - Skrypty pomocnicze
+
+> Skrypty pomocnicze - automatyzacja, maintenance
 
 | Skrypt | Opis |
 |--------|------|
@@ -82,6 +88,8 @@ Narzędzia deweloperskie - CLI, skrypty, testy, systemd
 
 ### dev/cfg/ - Konfiguracje
 
+> Konfiguracje - snippety bash, gitconfig, pre-commit
+
 | Plik | Opis |
 |------|------|
 | `bashrc.eww.snippet` | Fragment do dodania do ~/.bashrc (source init-eww.sh) |
@@ -89,6 +97,8 @@ Narzędzia deweloperskie - CLI, skrypty, testy, systemd
 | `pre-commit.yaml` | Hooki pre-commit dla walidacji kodu |
 
 ### dev/systemd/ - Jednostki systemd
+
+> Jednostki systemd - timery i serwisy
 
 | Jednostka | Opis |
 |-----------|------|
@@ -99,6 +109,8 @@ Narzędzia deweloperskie - CLI, skrypty, testy, systemd
 
 ### dev/tests/ - Testy BATS
 
+> Testy BATS - testy jednostkowe i integracyjne
+
 | Test | Opis |
 |------|------|
 | `test_idempotency.bats` | Testy operacji idempotentnych |
@@ -107,7 +119,8 @@ Narzędzia deweloperskie - CLI, skrypty, testy, systemd
 
 ## 📚 docs/ - Dokumentacja
 
-Dokumentacja projektu - wiki, przewodniki, notatki
+> **Dokumentacja projektu - wiki, przewodniki, notatki**
+> Dokumentacja E-Waste Workshop.
 
 | Dokument | Opis |
 |----------|------|
