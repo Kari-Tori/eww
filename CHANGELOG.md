@@ -1,3 +1,20 @@
+---
+title: CHANGELOG - E-Waste Workshop
+description: Historia zmian projektu w formacie Keep a Changelog
+version: 0.0.0.4
+format: Keep a Changelog
+versioning: Semantic Versioning
+type: changelog
+category: documentation
+generator: ./dev/bin/eww-changelog
+tags:
+  - changelog
+  - history
+  - releases
+  - semver
+updated: 2025-11-09
+---
+
 # Changelog
 
 Wszystkie istotne zmiany w projekcie będą dokumentowane w tym pliku.

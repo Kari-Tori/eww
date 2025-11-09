@@ -1,3 +1,20 @@
+---
+title: INDEX - E-Waste Workshop
+description: Automatycznie generowany indeks projektu z opisami plików i folderów
+version: 0.0.0.4
+generator: ./dev/bin/eww-index
+source: .filedesc
+type: index
+category: documentation
+auto-generated: true
+updated: 2025-11-09
+tags:
+  - index
+  - file-descriptions
+  - project-structure
+  - auto-generated
+---
+
 # INDEX - E-Waste Workshop
 
 > **Automatycznie wygenerowany indeks repozytorium**  

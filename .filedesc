@@ -91,6 +91,7 @@ docs/readme-checklist.md|Checklist dla kompletnego README.md
 docs/release-0.0.0.1.md|Notatki z wydania MVP 0.0.0.1
 docs/ENDPOINTS.md|Dokumentacja API endpoints
 docs/vendor.md|Zależności zewnętrzne i vendor packages
+docs/dokumentacja.md|Przewodnik po dokumentowaniu projektu (YAML frontmatter, struktura)
 
 # === docs/guide/ - Przewodniki ===
 docs/guide/intro.md|Wprowadzenie do projektu dla nowych użytkowników

@@ -1,13 +1,55 @@
 ---
 title: E-Waste Workshop README
-description: Instrukcja uruchomienia i utrzymania środowiska E-Waste Workshop
+description: Kompletna dokumentacja projektu - instalacja, konfiguracja, użycie
+version: 0.0.0.4
+author: Nairecth
+repository: https://github.com/Nairecth/eww
+website: http://www.e-wasteworkshop.co.uk
 tags:
-  - docs
-  - onboarding
+  - bash
+  - kubuntu
+  - automation
+  - devtools
+  - documentation
+category: documentation
+type: readme
+audience: developers
+language: pl
+platform: Kubuntu 24.04 LTS
+requires:
+  - bash >= 5.1
+  - git
+  - make
+created: 2024-11-08
 updated: 2025-11-09
+license: MIT
+status: stable
 ---
 
 <!-- markdownlint-disable-next-line MD025 -->
+<!-- 
+  README.md - Główna dokumentacja projektu E-Waste Workshop
+  
+  Struktura:
+  1. Quick Start - instalacja jedną komendą
+  2. Demo - przykładowa sesja
+  3. Wymagania - lista zależności
+  4. Instalacja - szczegółowe kroki
+  5. Konfiguracja - zmienne środowiskowe
+  6. Użycie - podstawowe operacje
+  7. Struktura projektu - organizacja katalogów
+  8. Narzędzia deweloperskie - CLI tools
+  9. Dokumentacja - dodatkowe zasoby
+  10. Contributing - jak współpracować
+  11. License - informacje o licencji
+  
+  Automatycznie generowane sekcje:
+  - Badżki (shields.io)
+  - Linki do CHANGELOG, INDEX, AGENTS
+  - Statystyki projektu
+  
+  Aktualizacja: ./dev/scripts/check_readme.sh
+-->
 # E-Waste Workshop — Centrum Recyklingu i Refabrykacji
 
 > Repozytorium zawiera szablony i skrypty inicjalizujące środowisko

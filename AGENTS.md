@@ -1,3 +1,21 @@
+---
+title: AGENTS.md - Kontekst dla AI Coding Agents
+description: Kompletny kontekst projektu dla AI - architektura, workflow, konwencje
+version: 0.0.0.4
+audience: AI coding agents
+type: ai-context
+category: documentation
+tags:
+  - ai
+  - context
+  - architecture
+  - workflow
+  - conventions
+language: pl
+created: 2024-11-08
+updated: 2025-11-09
+---
+
 # AGENTS.md - Kontekst dla AI Coding Agents
 
 ## Informacje o projekcie
