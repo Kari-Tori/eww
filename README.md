@@ -447,8 +447,6 @@ dev/bin/eww-tree|Wyświetla drzewo katalogów z opisami
 docs/dokumentacja.md|Przewodnik dokumentowania projektu
 ```
 
-
-
 ## Dokumentacja
 
 - **[INDEX.md](INDEX.md)** - Kompletny indeks projektu z opisami (auto-generowany)
@@ -456,7 +454,6 @@ docs/dokumentacja.md|Przewodnik dokumentowania projektu
 - **[AGENTS.md](AGENTS.md)** - Kontekst dla AI coding agents
 - **[MVP.md](MVP.md)** - Kryteria akceptacji MVP
 - **[docs/](docs/)** - Wiki, przewodniki, dokumentacja MkDocs
-
 
 **Użycie:**
 
@@ -486,7 +483,6 @@ make tree              # Drzewo projektu
 make frontmatter FILE=x # Dodaj YAML metadata
 make release VERSION=x  # Wydaj nową wersję
 ```
-
 
 ## Contributing
 
@@ -519,3 +515,15 @@ TBD - Do ustalenia
 **Maintainer:** [Nairecth](https://github.com/Nairecth)  
 **Repository:** [github.com/Nairecth/eww](https://github.com/Nairecth/eww)  
 **Website:** [www.e-wasteworkshop.co.uk](http://www.e-wasteworkshop.co.uk)
+
+{
+  "MD013": false,      // Wyłącz limit długości linii
+  "MD025": false,      // Zezwól na multiple H1
+  "MD033": false,      // Zezwól na HTML
+  "MD040": true        // Wymagaj języka w code blocks
+}
+
+rules:
+  line-length: 120
+  indentation: 2
+  document-start: false

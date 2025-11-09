@@ -7,6 +7,12 @@
 init-eww.sh.bak*
 * (1)
 
+# Generated documentation files
+*.pdf
+*.docx
+*.html
+*.epub
+
 # Node / Python / other common ignores (safe defaults)
 __pycache__/
 .venv/
