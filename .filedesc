@@ -1,0 +1,113 @@
+# File Descriptions - E-Waste Workshop
+# Format: ścieżka/do/pliku|Krótki opis pliku
+# Format: ścieżka/do/folderu/|Opis folderu (note z README.md)
+# Komentarze zaczynają się od #
+
+# === Foldery główne ===
+lib/|Biblioteki współdzielone - helpery Bash do użytku w skryptach
+dev/|Narzędzia deweloperskie - CLI, skrypty, testy, systemd
+docs/|Dokumentacja projektu - wiki, przewodniki, notatki
+archive/|Archiwum - backups, stare wersje, zarchiwizowane pliki
+dev/bin/|Narzędzia CLI - skrypty wykonywalne dla użytkownika
+dev/scripts/|Skrypty pomocnicze - automatyzacja, maintenance
+dev/cfg/|Konfiguracje - snippety bash, gitconfig, pre-commit
+dev/systemd/|Jednostki systemd - timery i serwisy
+dev/tests/|Testy BATS - testy jednostkowe i integracyjne
+docs/guide/|Przewodniki - wprowadzenie, tutoriale
+docs/wiki/|Wiki - dokumentacja setup (Kubuntu, Neovim, Obsidian)
+archive/backups/|Kopie zapasowe - stare wersje plików
+archive/infra/|Infrastruktura - Ansible playbooks (zarchiwizowane)
+archive/keys/|Klucze GPG - publiczne klucze
+
+# === Pliki główne (MVP) ===
+README.md|Dokumentacja główna projektu E-Waste Workshop
+VERSION|Numer wersji projektu (semver: x.y.z.b)
+CHANGELOG.md|Historia zmian w formacie Keep a Changelog
+Makefile|Automatyzacja zadań (changelog, release, komentarze, testy)
+MVP.md|Kryteria akceptacji dla wersji MVP 0.0.0.1
+AGENTS.md|Kontekst dla AI coding agents (architektura, workflow)
+README.template.md|Szablon dla dokumentu README
+INDEX.md|Indeks całego repozytorium z opisami
+init-eww.sh|Skrypt inicjalizacyjny środowiska (source w ~/.bashrc)
+.filedesc|Opisy wszystkich plików w projekcie (ten plik)
+
+# === lib/ - Biblioteki współdzielone ===
+lib/README.md|Dokumentacja bibliotek współdzielonych
+lib/banner.sh|Funkcje do generowania banerów ASCII
+lib/git.sh|Helpery Git (tagi, commity, sprawdzanie stanu)
+lib/log.sh|System logowania (log_info, log_warn, log_error)
+lib/sys.sh|Helpery systemowe (dystrybucja, zależności)
+lib/idempotent.sh|Operacje idempotentne (dodawanie linii, instalacja pakietów)
+lib/bash/baner.sh|Baner EWW wyświetlany przy inicjalizacji (legacy)
+
+# === dev/bin/ - Narzędzia CLI ===
+dev/bin/eww-changelog|Generator changelog z commitów Git (Conventional Commits)
+dev/bin/eww-auto-comment|Automatyczne dodawanie komentarzy do funkcji Bash
+dev/bin/eww-banner|Generator banerów tekstowych (legacy)
+dev/bin/eww-commit|Helper do tworzenia commitów z Conventional Commits
+dev/bin/eww-doctor|Diagnostyka środowiska deweloperskiego
+dev/bin/eww-status|Wyświetlanie statusu projektu (wersja, gałąź, zmiany)
+dev/bin/eww::baner|Baner (zduplikowany, do usunięcia)
+dev/bin/eww-tree|Wyświetla drzewo katalogów z opisami plików
+dev/bin/eww-index|Generuje INDEX.md z opisami folderów i plików
+
+# === dev/scripts/ - Skrypty pomocnicze ===
+dev/scripts/bump-version.sh|Podbicie wersji + utworzenie branch/tag/PR
+dev/scripts/release.sh|Proces wydania nowej wersji (pełny workflow)
+dev/scripts/semver_auto.sh|Automatyczna inkrementacja semantic versioning
+dev/scripts/version.sh|Zarządzanie numerem wersji
+dev/scripts/check_readme.sh|Walidacja README.md (checklist, struktura)
+dev/scripts/archive-backups.sh|Archiwizacja starych kopii zapasowych
+dev/scripts/eww-banner.sh|Generowanie banerów (legacy, duplikat)
+dev/scripts/eww-fix-init.sh|Naprawa uszkodzonego init-eww.sh
+dev/scripts/eww-git-gpg-fix.sh|Naprawa konfiguracji GPG dla Git
+dev/scripts/eww-init-idempotent-example.sh|Przykład użycia lib/idempotent.sh
+dev/scripts/eww-post-install.sh|Skrypt uruchamiany po instalacji
+dev/scripts/bash/eww-banner.sh|Baner (legacy, zduplikowany)
+
+# === dev/cfg/ - Konfiguracje ===
+dev/cfg/bashrc.eww.snippet|Fragment do dodania do ~/.bashrc (source init-eww.sh)
+dev/cfg/gitconfig.repo|Konfiguracja Git specyficzna dla tego repo
+dev/cfg/pre-commit.yaml|Hooki pre-commit dla walidacji kodu
+
+# === dev/systemd/ - Jednostki systemd ===
+dev/systemd/eww-autocommit.service|Serwis systemd do automatycznych commitów
+dev/systemd/eww-autocommit.timer|Timer uruchamiający autocommit codziennie
+dev/systemd/eww-status.service|Serwis do wyświetlania statusu projektu
+dev/systemd/eww-status.timer|Timer uruchamiający status co godzinę
+
+# === dev/tests/ - Testy BATS ===
+dev/tests/test_init.bats|Testy jednostkowe dla init-eww.sh
+dev/tests/test_idempotency.bats|Testy operacji idempotentnych
+dev/tests/test_init_behavior.bats|Testy zachowania podczas inicjalizacji
+
+# === dev/ ===
+dev/README.md|Dokumentacja narzędzi deweloperskich
+
+# === docs/ - Dokumentacja ===
+docs/README.md|Indeks dokumentacji projektu
+docs/index.md|Strona główna dokumentacji (MkDocs)
+docs/readme-checklist.md|Checklist dla kompletnego README.md
+docs/release-0.0.0.1.md|Notatki z wydania MVP 0.0.0.1
+docs/ENDPOINTS.md|Dokumentacja API endpoints
+docs/vendor.md|Zależności zewnętrzne i vendor packages
+
+# === docs/guide/ - Przewodniki ===
+docs/guide/intro.md|Wprowadzenie do projektu dla nowych użytkowników
+
+# === docs/wiki/ - Wiki ===
+docs/wiki/index.md|Indeks wiki projektu
+docs/wiki/kubuntu.md|Przewodnik setup Kubuntu 24.04 LTS
+docs/wiki/neovim.md|Konfiguracja Neovim dla projektu
+docs/wiki/obsidian.md|Integracja z Obsidian vault
+
+# === archive/ - Archiwum ===
+archive/backups/README.md|Stary README przed reorganizacją
+archive/backups/CHANGELOG.md.bak.archived.20251108230056|Backup changelog
+archive/infra/ansible/site.yml|Ansible playbook (zarchiwizowany)
+archive/infra/ansible/inventory/hosts.ini|Inwentarz Ansible hosts
+archive/keys/pubkey-64350F8E46AB5B48.asc|Klucz publiczny GPG
+
+# === Konfiguracja AI ===
+.github/copilot-instructions.md|Instrukcje dla GitHub Copilot (PL, konwencje)
+.copilotrc.yml|Konfiguracja GitHub Copilot dla projektu

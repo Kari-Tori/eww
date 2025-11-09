@@ -1,0 +1,173 @@
+#!/usr/bin/env bash
+# eww-tree - Wyświetla drzewo katalogów z opisami plików z .filedesc
+set -euo pipefail
+
+readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+readonly FILEDESC="${SCRIPT_DIR}/.filedesc"
+
+readonly GREEN='\033[0;32m'
+readonly BLUE='\033[0;34m'
+readonly YELLOW='\033[1;33m'
+readonly GRAY='\033[0;90m'
+readonly NC='\033[0m'
+
+# Pokaż użycie
+usage() {
+    cat <<EOF
+Użycie: eww-tree [OPCJE] [KATALOG]
+
+Wyświetla drzewo katalogów z opisami plików z .filedesc
+
+OPCJE:
+    -h, --help          Pokaż pomoc
+    -L LEVEL            Maksymalny poziom głębokości (domyślnie: 3)
+    -a, --all           Pokaż ukryte pliki
+    --no-desc           Bez opisów (tylko drzewo)
+    --full              Pełne drzewo (wszystkie poziomy)
+
+PRZYKŁADY:
+    eww-tree                    # Drzewo z opisami (L=3)
+    eww-tree -L 2 lib           # Tylko lib/ (L=2)
+    eww-tree --full             # Pełne drzewo
+    eww-tree --no-desc          # Tylko struktura
+
+EOF
+}
+
+# Załaduj opisy z .filedesc
+# Zwraca: tablica asocjacyjna FILE_DESCS
+declare -A FILE_DESCS
+
+load_descriptions() {
+    if [[ ! -f "$FILEDESC" ]]; then
+        return 0
+    fi
+    
+    while IFS='|' read -r filepath desc; do
+        # Pomiń puste linie i komentarze
+        [[ -z "$filepath" || "$filepath" =~ ^[[:space:]]*# ]] && continue
+        
+        # Usuń białe znaki
+        filepath="${filepath#"${filepath%%[![:space:]]*}"}"
+        filepath="${filepath%"${filepath##*[![:space:]]}"}"
+        desc="${desc#"${desc%%[![:space:]]*}"}"
+        desc="${desc%"${desc##*[![:space:]]}"}"
+        
+        FILE_DESCS["$filepath"]="$desc"
+    done < "$FILEDESC"
+}
+
+# Pobierz opis pliku
+# Argumenty:
+#   $1 - ścieżka do pliku (relatywna do repo root)
+get_description() {
+    local path="$1"
+    echo "${FILE_DESCS[$path]:-}"
+}
+
+# Wyświetl drzewo z opisami (prostsza wersja)
+# Argumenty:
+#   $1 - katalog startowy (domyślnie: .)
+#   $2 - poziom głębokości (domyślnie: 3)
+#   $3 - pokaż ukryte (0/1)
+#   $4 - pokaż opisy (0/1)
+show_tree() {
+    local start_dir="${1:-.}"
+    local max_level="${2:-3}"
+    local show_hidden="${3:-0}"
+    local show_descs="${4:-1}"
+    
+    cd "$SCRIPT_DIR" || return 1
+    
+    # Opcje tree
+    local tree_opts="-F --dirsfirst"
+    
+    if [[ "$max_level" -gt 0 ]]; then
+        tree_opts="$tree_opts -L $max_level"
+    fi
+    
+    if [[ "$show_hidden" -eq 0 ]]; then
+        tree_opts="$tree_opts -I '.git|.gitignore|*.pyc|__pycache__|node_modules'"
+    else
+        tree_opts="$tree_opts -a"
+    fi
+    
+    # Jeśli nie ma tree, użyj find
+    if ! command -v tree >/dev/null 2>&1; then
+        echo -e "${YELLOW}[WARN]${NC} Brak 'tree'. Zainstaluj: sudo apt install tree"
+        return 1
+    fi
+    
+    # Najpierw wyświetl normalne drzewo
+    echo -e "${GREEN}=== Drzewo katalogów ===${NC}"
+    echo ""
+    eval "tree $tree_opts '$start_dir'"
+    
+    # Potem wyświetl tabelę z opisami
+    if [[ "$show_descs" -eq 1 && ${#FILE_DESCS[@]} -gt 0 ]]; then
+        echo ""
+        echo -e "${GREEN}=== Opisy plików ===${NC}"
+        echo ""
+        printf "%-50s | %s\n" "Plik" "Opis"
+        printf "%-50s-+--%s\n" "$(printf '%.0s-' {1..50})" "$(printf '%.0s-' {1..60})"
+        
+        for filepath in "${!FILE_DESCS[@]}"; do
+            printf "${BLUE}%-50s${NC} ${GRAY}|${NC} %s\n" "$filepath" "${FILE_DESCS[$filepath]}"
+        done | sort
+    fi
+}
+
+# Main
+main() {
+    local dir="."
+    local level=3
+    local show_hidden=0
+    local show_descs=1
+    
+    # Parsowanie argumentów
+    while [[ $# -gt 0 ]]; do
+        case "$1" in
+            -h|--help)
+                usage
+                exit 0
+                ;;
+            -L)
+                level="$2"
+                shift 2
+                ;;
+            -a|--all)
+                show_hidden=1
+                shift
+                ;;
+            --no-desc)
+                show_descs=0
+                shift
+                ;;
+            --full)
+                level=0
+                shift
+                ;;
+            -*)
+                echo "Nieznana opcja: $1" >&2
+                usage
+                exit 1
+                ;;
+            *)
+                dir="$1"
+                shift
+                ;;
+        esac
+    done
+    
+    # Załaduj opisy
+    if [[ "$show_descs" -eq 1 ]]; then
+        load_descriptions
+        echo -e "${BLUE}[INFO]${NC} Załadowano ${#FILE_DESCS[@]} opisów plików z .filedesc"
+        echo ""
+    fi
+    
+    # Wyświetl drzewo
+    show_tree "$dir" "$level" "$show_hidden" "$show_descs"
+}
+
+main "$@"

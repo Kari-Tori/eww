@@ -131,6 +131,14 @@ help:
 	@echo "  make comment-add FILE=x   - Dodaj komentarze"
 	@echo "  make comment-add-all      - Komentuj wszystkie pliki"
 	@echo ""
+	@echo "🌲 Drzewo:"
+	@echo "  make tree                 - Drzewo katalogów z opisami"
+	@echo "  make tree-full            - Pełne drzewo"
+	@echo ""
+	@echo "📇 Indeks:"
+	@echo "  make index                - Generuj INDEX.md"
+	@echo "  make index-preview        - Podgląd INDEX.md"
+	@echo ""
 	@echo "🤖 Użyj GitHub Copilot chat do pomocy!"
 
 ai-commit:
@@ -154,7 +162,33 @@ ai-review-all:
 	@echo ""
 	@echo "Poproś Copilot: 'przeanalizuj wszystkie zmiany w projekcie'"
 
+# Drzewo katalogów z opisami
+tree:
+	@./dev/bin/eww-tree -L 3
+
+tree-full:
+	@./dev/bin/eww-tree --full
+
+tree-lib:
+	@./dev/bin/eww-tree -L 4 lib
+
+tree-dev:
+	@./dev/bin/eww-tree -L 4 dev
+
+# Indeks projektu
+index:
+	@./dev/bin/eww-index
+
+index-preview:
+	@if command -v glow >/dev/null 2>&1; then \
+		glow INDEX.md; \
+	else \
+		cat INDEX.md; \
+	fi
+
 .PHONY: all install uninstall changelog changelog-update changelog-version release
 .PHONY: readme-check readme-update-version readme-from-branch readme-preview
 .PHONY: comment-add comment-add-all comment-preview
+.PHONY: tree tree-full tree-lib tree-dev
+.PHONY: index index-preview
 .PHONY: help ai-commit ai-review ai-review-all
