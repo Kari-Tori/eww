@@ -119,3 +119,5 @@ archive/keys/pubkey-64350F8E46AB5B48.asc|Klucz publiczny GPG
 .github/copilot-instructions.md|Instrukcje dla GitHub Copilot (PL, konwencje)
 .copilotrc.yml|Konfiguracja GitHub Copilot dla projektu
 dev/README.template.md|Szablon dla dokumentu README
+.markdownlint.json|Konfiguracja markdownlint - zasady formatowania Markdown
+.yamllint.yaml|Konfiguracja yamllint - zasady walidacji YAML
