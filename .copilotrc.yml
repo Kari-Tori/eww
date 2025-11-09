@@ -1,0 +1,42 @@
+# .copilotrc
+# Konfiguracja GitHub Copilot dla projektu eww
+
+# Język komentarzy i dokumentacji
+language: pl
+
+# Preferencje generowania kodu
+preferences:
+  # Wszystkie komentarze po polsku
+  comment_language: polish
+  
+  # Styl komentarzy
+  comment_style: descriptive
+  
+  # Format docstringów
+  docstring_format: polish_bash
+  
+  # Nazewnictwo zmiennych
+  variable_naming: snake_case
+  
+  # Konwencje commitów
+  commit_style: conventional_commits_pl
+
+# Wzorce do użycia
+patterns:
+  - "Używaj polskich komentarzy"
+  - "Stosuj set -euo pipefail"
+  - "Dodawaj walidację argumentów"
+  - "Obsługuj błędy z komunikatami po polsku"
+  - "Używaj local dla zmiennych lokalnych"
+  - "Cytuj wszystkie zmienne"
+
+# Przykład funkcji do naśladowania
+example_function: |
+  # Pobierz ostatni tag Git
+  # Argumenty: brak
+  # Zwraca: nazwę tagu lub pusty string
+  git::last_tag() {
+      local tag
+      tag=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+      echo "$tag"
+  }

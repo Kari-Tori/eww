@@ -1,42 +1,64 @@
-## [0.0.0.3] - 2025-11-08\n\n- MVP release\n\n
-## [0.0.0.2] - 2025-11-08\n\n- Opis zmian\n\n
-## [0.0.0.1-pre] - 2025-11-08\n\n- pre-MVP: prepare initial release\n\n
-## [0.0.0.2] - 2025-11-08\n\n- Opis zmian\n\n
-## [0.0.0.2] - 2025-11-08\n\n- Opis zmian\n\n
 # Changelog
 
-Zasady wersjonowania i proces dodawania zmian
+Wszystkie istotne zmiany w projekcie będą dokumentowane w tym pliku.
 
-- Plik `VERSION` zawiera aktualny numer wersji w formacie semver-like.
-- Aby wprowadzić zmiany i wypuścić nową wersję: zaktualizuj plik `VERSION` do nowej wartości, dopisz wpis do `CHANGELOG.md` z opisem (krótko), a następnie zacommituj zmiany i wypchnij do repo.
-- Dla prostoty używamy numerów postaci `major.minor.patch.build` (np. `0.0.0.1`).
+Format oparty na [Keep a Changelog](https://keepachangelog.com/pl/1.0.0/),
+projekt używa [Semantic Versioning](https://semver.org/lang/pl/).
 
-## [0.0.0.1] - MVP
+## [Unreleased]
 
-- Cel: zapewnić działający `init-eww.sh` i `README.md` pozwalający na inicjalizację świeżej instalacji najnowszego Kubuntu.
-- Zawiera:
-  - skrypt `init-eww.sh` (funkcja `eww::init`) — ustawia `EWW_ROOT`, opcjonalnie przechodzi do katalogu projektu, ładuje baner jeśli dostępny,
-  - `README.md` z instrukcją pobrania i sourcowania skryptu,
-  - plik `VERSION` ustawiony na `0.0.0.1`.
+## [0.0.0.3] - 2025-11-08
+
+### Added
+- MVP release
+
+## [0.0.0.2] - 2025-11-08
+
+### Changed
+- Aktualizacja wersji
+
+## [0.0.0.1] - 2025-11-08
+
+### Added
+- Skrypt `init-eww.sh` (funkcja `eww::init`) — ustawia `EWW_ROOT`, opcjonalnie przechodzi do katalogu projektu, ładuje baner
+- `README.md` z instrukcją pobrania i sourcowania skryptu
+- Plik `VERSION` ustawiony na `0.0.0.1`
+- Podstawowa struktura projektu
+
+## [0.0.0.1-pre] - 2025-11-08
+
+### Added
+- Pre-MVP: przygotowanie do pierwszego wydania
+
+## [0.1.0] - 2025-11-07
+
+### Added
+- Narzędzia do wersjonowania SemVer
+- Podpisane commity GPG
+- Bootstrap projektu
+- Wiki projektu
+- Podstawowy layout Ansible
 
 ---
 
-Przykładowy workflow przy wydawaniu nowej wersji:
+## Zasady wersjonowania
+
+- Plik `VERSION` zawiera aktualny numer wersji w formacie `major.minor.patch.build`
+- Używamy [Conventional Commits](https://www.conventionalcommits.org/) w commitach
+- Kategorie zmian: `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`
+
+## Workflow wydania nowej wersji
 
 ```bash
-# zmień wersję w pliku VERSION (np. 0.0.0.2)
-echo "0.0.0.2" > VERSION
+# Wygeneruj changelog z commitów
+make changelog
 
-# dopisz wpis do CHANGELOG.md z krótkim opisem zmian
+# Zmień wersję w pliku VERSION (np. 0.0.0.4)
+echo "0.0.0.4" > VERSION
+
+# Scommituj zmiany
 git add VERSION CHANGELOG.md
-git commit -m "chore(release): 0.0.0.2 - opis zmian"
-git tag -a v0.0.0.2 -m "Release 0.0.0.2"
+git commit -m "chore(release): 0.0.0.4"
+git tag -a v0.0.0.4 -m "Release 0.0.0.4"
 git push origin main --tags
 ```
-## v0.1.0 — 2025-11-07
-- chore(versioning): add SemVer tooling (4b412e2)
-- test signed commit (b97e28c)
-- bootstrap (90d5c89)
-- bootstrap (4fd2955)
-- init wiki (663bf2f)
-- feat(repo): bootstrap minimal ansible layout (c7504b9)
