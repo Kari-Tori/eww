@@ -1,7 +1,7 @@
 # INDEX - E-Waste Workshop
 
 > **Automatycznie wygenerowany indeks repozytorium**  
-> Ostatnia aktualizacja: 2025-11-09
+> Wersja: 0.0.0.4 | Ostatnia aktualizacja: 2025-11-09
 
 ## 📖 O tym dokumencie
 
@@ -9,6 +9,21 @@ Ten plik zawiera kompletny indeks wszystkich folderów i plików w projekcie wra
 
 - **Foldery** - opis z ich `README.md` lub `.filedesc`
 - **Pliki** - opis z `.filedesc`
+- **Statystyki** - 93 plików, 29 katalogów
+
+## 🚀 Quick Start
+
+```bash
+# Inicjalizacja środowiska
+source init-eww.sh
+
+# Przegląd projektu
+make tree          # Drzewo katalogów z opisami
+make index-preview # Podgląd tego dokumentu
+
+# Narzędzia
+make help          # Lista wszystkich komend
+```
 
 ---
 
@@ -131,9 +146,42 @@ Ten plik zawiera kompletny indeks wszystkich folderów i plików w projekcie wra
 | `release-0.0.0.1.md` | Notatki z wydania MVP 0.0.0.1 |
 | `vendor.md` | Zależności zewnętrzne i vendor packages |
 
+## 🗄️ archive/ - Archiwum
+
+> **Archiwum - backups, stare wersje, zarchiwizowane pliki**
+
+### archive/backups/
+
+> Kopie zapasowe zmienianych plików
+
+### archive/infra/
+
+> Infrastruktura - Ansible playbooks (zarchiwizowane)
+
+### archive/keys/
+
+> Klucze GPG - publiczne klucze
+
+
+## 🤖 Konfiguracja AI
+
+| Plik | Opis |
+|------|------|
+| `.github/copilot-instructions.md` | Instrukcje dla GitHub Copilot (PL, konwencje) |
+| `.copilotrc.yml` | Konfiguracja GitHub Copilot dla projektu |
+
 ---
 
-## 🔄 Aktualizacja
+## � Statystyki projektu
+
+```bash
+# Zlicz pliki według typu
+find . -type f ! -path "*/.git/*" -name "*.sh" | wc -l    # Skrypty Bash
+find . -type f ! -path "*/.git/*" -name "*.md" | wc -l    # Dokumenty Markdown
+find . -type f ! -path "*/.git/*" -name "*.bats" | wc -l  # Testy BATS
+```
+
+## �🔄 Aktualizacja
 
 Aby zaktualizować ten indeks:
 
@@ -143,5 +191,29 @@ Aby zaktualizować ten indeks:
 make index
 ```
 
+## 🚀 Szybkie linki
+
+- **Główne pliki**: `README.md`, `init-eww.sh`, `VERSION`, `CHANGELOG.md`
+- **Biblioteki**: `lib/*.sh`
+- **Narzędzia CLI**: `dev/bin/eww-*`
+- **Dokumentacja**: `docs/`
+- **Testy**: `dev/tests/*.bats`
+
+## 🔍 Wyszukiwanie
+
+```bash
+# Znajdź plik po nazwie
+grep "nazwa_pliku" .filedesc
+
+# Znajdź po opisie
+grep -i "słowo_kluczowe" .filedesc
+
+# Drzewo z opisami
+make tree
+```
+
+---
+
 **Wygenerowano:** `./dev/bin/eww-index`  
-**Źródło opisów:** `.filedesc`
+**Źródło opisów:** `.filedesc`  
+**Format:** Markdown

@@ -55,18 +55,38 @@ get_folder_note() {
 
 # Generuj INDEX.md
 generate_index() {
-    cat > "$OUTPUT" <<'HEADER'
+    local version=""
+    [[ -f "${SCRIPT_DIR}/VERSION" ]] && version=$(cat "${SCRIPT_DIR}/VERSION")
+    local total_files=$(find "${SCRIPT_DIR}" -type f ! -path "*/.git/*" | wc -l)
+    local total_dirs=$(find "${SCRIPT_DIR}" -type d ! -path "*/.git/*" | wc -l)
+    
+    cat > "$OUTPUT" <<HEADER
 # INDEX - E-Waste Workshop
 
 > **Automatycznie wygenerowany indeks repozytorium**  
-> Ostatnia aktualizacja: 2025-11-09
+> Wersja: ${version:-nieznana} | Ostatnia aktualizacja: $(date +%Y-%m-%d)
 
 ## 📖 O tym dokumencie
 
 Ten plik zawiera kompletny indeks wszystkich folderów i plików w projekcie wraz z ich opisami.
 
-- **Foldery** - opis z ich `README.md` lub `.filedesc`
-- **Pliki** - opis z `.filedesc`
+- **Foldery** - opis z ich \`README.md\` lub \`.filedesc\`
+- **Pliki** - opis z \`.filedesc\`
+- **Statystyki** - ${total_files} plików, ${total_dirs} katalogów
+
+## 🚀 Quick Start
+
+\`\`\`bash
+# Inicjalizacja środowiska
+source init-eww.sh
+
+# Przegląd projektu
+make tree          # Drzewo katalogów z opisami
+make index-preview # Podgląd tego dokumentu
+
+# Narzędzia
+make help          # Lista wszystkich komend
+\`\`\`
 
 ---
 
@@ -328,11 +348,66 @@ TABLE
     
     echo "" >> "$OUTPUT"
     
+    # === ARCHIVE/ ===
+    cat >> "$OUTPUT" <<'SECTION'
+## 🗄️ archive/ - Archiwum
+
+SECTION
+
+    local archive_desc
+    archive_desc=$(get_desc "archive/")
+    [[ -n "$archive_desc" ]] && echo "> **$archive_desc**" >> "$OUTPUT"
+    echo "" >> "$OUTPUT"
+    
+    cat >> "$OUTPUT" <<'SUBSECTION'
+### archive/backups/
+
+> Kopie zapasowe zmienianych plików
+
+### archive/infra/
+
+> Infrastruktura - Ansible playbooks (zarchiwizowane)
+
+### archive/keys/
+
+> Klucze GPG - publiczne klucze
+
+SUBSECTION
+
+    echo "" >> "$OUTPUT"
+    
+    # === KONFIGURACJA AI ===
+    cat >> "$OUTPUT" <<'SECTION'
+## 🤖 Konfiguracja AI
+
+| Plik | Opis |
+|------|------|
+SECTION
+
+    for file in .github/copilot-instructions.md .copilotrc.yml; do
+        if [[ -f "${SCRIPT_DIR}/$file" ]]; then
+            local desc
+            desc=$(get_desc "$file")
+            echo "| \`$file\` | ${desc:-Brak opisu} |" >> "$OUTPUT"
+        fi
+    done
+    
+    echo "" >> "$OUTPUT"
+    
     # === FOOTER ===
     cat >> "$OUTPUT" <<'FOOTER'
 ---
 
-## 🔄 Aktualizacja
+## � Statystyki projektu
+
+```bash
+# Zlicz pliki według typu
+find . -type f ! -path "*/.git/*" -name "*.sh" | wc -l    # Skrypty Bash
+find . -type f ! -path "*/.git/*" -name "*.md" | wc -l    # Dokumenty Markdown
+find . -type f ! -path "*/.git/*" -name "*.bats" | wc -l  # Testy BATS
+```
+
+## �🔄 Aktualizacja
 
 Aby zaktualizować ten indeks:
 
@@ -342,8 +417,32 @@ Aby zaktualizować ten indeks:
 make index
 ```
 
+## 🚀 Szybkie linki
+
+- **Główne pliki**: `README.md`, `init-eww.sh`, `VERSION`, `CHANGELOG.md`
+- **Biblioteki**: `lib/*.sh`
+- **Narzędzia CLI**: `dev/bin/eww-*`
+- **Dokumentacja**: `docs/`
+- **Testy**: `dev/tests/*.bats`
+
+## 🔍 Wyszukiwanie
+
+```bash
+# Znajdź plik po nazwie
+grep "nazwa_pliku" .filedesc
+
+# Znajdź po opisie
+grep -i "słowo_kluczowe" .filedesc
+
+# Drzewo z opisami
+make tree
+```
+
+---
+
 **Wygenerowano:** `./dev/bin/eww-index`  
-**Źródło opisów:** `.filedesc`
+**Źródło opisów:** `.filedesc`  
+**Format:** Markdown
 FOOTER
 
     echo -e "${GREEN}[OK]${NC} Wygenerowano: $OUTPUT"
