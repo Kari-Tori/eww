@@ -16,11 +16,11 @@ uninstall:
 # Zarządzanie changelog
 changelog:
 	@echo "Generowanie changelog z commitów Git..."
-	@./bin/eww-changelog --unreleased --dry-run
+	@./dev/bin/eww-changelog --unreleased --dry-run
 
 changelog-update:
 	@echo "Aktualizacja CHANGELOG.md..."
-	@./bin/eww-changelog --unreleased
+	@./dev/bin/eww-changelog --unreleased
 
 changelog-version:
 	@if [ -z "$(VERSION)" ]; then \
@@ -28,7 +28,7 @@ changelog-version:
 		exit 1; \
 	fi
 	@echo "$(VERSION)" > VERSION
-	@./bin/eww-changelog --version $(VERSION)
+	@./dev/bin/eww-changelog --version $(VERSION)
 	@echo "Changelog wygenerowany dla wersji $(VERSION)"
 
 # Wydanie nowej wersji
@@ -90,14 +90,14 @@ comment-add:
 		exit 1; \
 	fi
 	@echo "Dodawanie komentarzy do $(FILE)..."
-	@./bin/eww-auto-comment "$(FILE)"
+	@./dev/bin/eww-auto-comment "$(FILE)"
 
 comment-add-all:
-	@echo "Dodawanie komentarzy do wszystkich plików w lib/ i bin/..."
-	@for file in lib/*.sh bin/eww-*; do \
+	@echo "Dodawanie komentarzy do wszystkich plików w lib/ i dev/bin/..."
+	@for file in lib/*.sh dev/bin/eww-*; do \
 		if [ -f "$$file" ]; then \
 			echo "Przetwarzam: $$file"; \
-			./bin/eww-auto-comment "$$file" 2>/dev/null || true; \
+			./dev/bin/eww-auto-comment "$$file" 2>/dev/null || true; \
 		fi \
 	done
 	@echo "Gotowe!"
@@ -107,7 +107,7 @@ comment-preview:
 		echo "Użyj: make comment-preview FILE=ścieżka/do/pliku.sh"; \
 		exit 1; \
 	fi
-	@./bin/eww-auto-comment --dry-run "$(FILE)"
+	@./dev/bin/eww-auto-comment --dry-run "$(FILE)"
 
 # AI-powered helpers (używaj Copilot chat)
 help:
