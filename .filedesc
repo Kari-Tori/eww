@@ -20,13 +20,15 @@ archive/infra/|Infrastruktura - Ansible playbooks (zarchiwizowane)
 archive/keys/|Klucze GPG - publiczne klucze
 
 # === Pliki główne (MVP) ===
+.editorconfig|Ustawienia formatowania kodu dla różnych edytorów
+.gitignore|Lista plików ignorowanych przez Git
+.filedesc|System opisów plików i katalogów (format: path|Description)
 README.md|Dokumentacja główna projektu E-Waste Workshop
 VERSION|Numer wersji projektu (semver: x.y.z.b)
 CHANGELOG.md|Historia zmian w formacie Keep a Changelog
 Makefile|Automatyzacja zadań (changelog, release, komentarze, testy)
 MVP.md|Kryteria akceptacji dla wersji MVP 0.0.0.1
 AGENTS.md|Kontekst dla AI coding agents (architektura, workflow)
-README.template.md|Szablon dla dokumentu README
 INDEX.md|Indeks całego repozytorium z opisami
 init-eww.sh|Skrypt inicjalizacyjny środowiska (source w ~/.bashrc)
 .filedesc|Opisy wszystkich plików w projekcie (ten plik)
@@ -115,3 +117,4 @@ archive/keys/pubkey-64350F8E46AB5B48.asc|Klucz publiczny GPG
 # === Konfiguracja AI ===
 .github/copilot-instructions.md|Instrukcje dla GitHub Copilot (PL, konwencje)
 .copilotrc.yml|Konfiguracja GitHub Copilot dla projektu
+dev/README.template.md|Szablon dla dokumentu README

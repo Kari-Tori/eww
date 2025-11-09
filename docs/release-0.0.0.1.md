@@ -1,3 +1,15 @@
+---
+title: Release 0.0.0.1 — MVP
+description: Dokument
+type: document
+category: documentation
+tags:
+  - document
+language: pl
+created: 2025-11-09
+updated: 2025-11-09
+---
+
 # Release 0.0.0.1 — MVP
 
 Ten dokument opisuje minimalne, pobieralne wydanie **0.0.0.1 (MVP)** dla projektu E-Waste Workshop.

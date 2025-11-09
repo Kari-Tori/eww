@@ -1,3 +1,15 @@
+---
+title: ENDPOINTY — MkDocs (E-Waste Workshop — Wiki)
+description: Dokument
+type: document
+category: documentation
+tags:
+  - document
+language: pl
+created: 2025-11-09
+updated: 2025-11-09
+---
+
 # ENDPOINTY — MkDocs (E-Waste Workshop — Wiki)
 
 ## DEV

@@ -1,3 +1,26 @@
+---
+title: docs/ - Dokumentacja projektu
+description: Kompletna dokumentacja projektu
+version: 0.0.0.4
+author: Nairecth
+repository: https://github.com/Nairecth/eww
+type: readme
+category: documentation
+audience: developers
+language: pl
+platform: Kubuntu 24.04 LTS
+requires:
+  - bash >= 5.1
+  - git
+tags:
+  - bash
+  - documentation
+created: 2025-11-09
+updated: 2025-11-09
+license: MIT
+status: stable
+---
+
 # docs/ - Dokumentacja projektu
 
 Dokumentacja E-Waste Workshop.
