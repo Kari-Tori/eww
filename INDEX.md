@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD025 -->
 # INDEX - E-Waste Workshop
 
 > **Automatycznie wygenerowany indeks repozytorium**  
