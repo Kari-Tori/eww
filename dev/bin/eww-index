@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-# eww-index - Generuje INDEX.md z opisami folderów i plików
+# eww-index - Generuje INDEX.md z pliku .filedesc
 set -euo pipefail
 
-readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+# Bezpieczne określenie katalogu projektu
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)" || exit 1
+readonly SCRIPT_DIR
 readonly FILEDESC="${SCRIPT_DIR}/.filedesc"
 readonly OUTPUT="${SCRIPT_DIR}/INDEX.md"
 

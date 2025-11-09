@@ -2,7 +2,9 @@
 # eww-frontmatter - Dodaje/aktualizuje YAML frontmatter w plikach Markdown
 set -euo pipefail
 
-readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+# Bezpieczne określenie katalogu projektu
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)" || exit 1
+readonly SCRIPT_DIR
 
 readonly GREEN='\033[0;32m'
 readonly BLUE='\033[0;34m'
@@ -35,12 +37,12 @@ EOF
 
 # Pobierz wersję projektu
 get_version() {
-    local version_file="${SCRIPT_DIR}/VERSION"
-    if [[ -f "$version_file" ]]; then
-        cat "$version_file" | tr -d '[:space:]'
-    else
-        echo "0.0.0.0"
-    fi
+	local version_file="${SCRIPT_DIR}/VERSION"
+	if [[ -f "$version_file" ]]; then
+		tr -d '[:space:]' < "$version_file"
+	else
+		echo "0.0.0.0"
+	fi
 }
 
 # Wykryj typ dokumentu na podstawie nazwy pliku

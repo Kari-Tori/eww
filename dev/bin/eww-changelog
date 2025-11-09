@@ -80,19 +80,20 @@ EOF
 
 # Parsuj commit message zgodnie z Conventional Commits
 parse_commit() {
-    local commit_msg="$1"
-    local commit_hash="$2"
-    
-    # Format: type(scope): message
-    if [[ $commit_msg =~ ^([a-z]+)(\(([^)]+)\))?:\ (.+)$ ]]; then
-        local type="${BASH_REMATCH[1]}"
-        local scope="${BASH_REMATCH[3]}"
-        local message="${BASH_REMATCH[4]}"
-        
-        # Mapuj typ na kategorię
-        local category="${COMMIT_TYPE_MAP[$type]:-Other}"
-        
-        # Formatuj wiadomość
+	local commit_msg="$1"
+	local commit_hash="$2"
+	local pattern='^([a-z]+)(\(([^)]+)\))?:[[:space:]](.+)$'
+	
+	# Format: type(scope): message
+	if [[ $commit_msg =~ $pattern ]]; then
+		local type="${BASH_REMATCH[1]}"
+		local scope="${BASH_REMATCH[3]}"
+		local message="${BASH_REMATCH[4]}"
+		
+		# Mapuj typ na kategorię
+		local category="${COMMIT_TYPE_MAP[$type]:-Other}"
+		
+		# Formatuj wiadomość
         if [[ -n $scope ]]; then
             echo "${category}|**${scope}**: ${message} (${commit_hash:0:7})"
         else
