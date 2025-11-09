@@ -23,28 +23,31 @@ git::current_branch() {
 
 # Sprawdź czy commit używa Conventional Commits
 git::is_conventional_commit() {
-    local msg="$1"
-    [[ $msg =~ ^(feat|fix|docs|style|refactor|perf|test|chore|build|ci|revert|security|add|deprecate|remove)(\([^)]+\))?:\ .+ ]]
+	local msg="$1"
+	local pattern='^(feat|fix|docs|style|refactor|perf|test|chore|build|ci|revert|security|add|deprecate|remove)(\([^)]+\))?:[[:space:]].+'
+	[[ $msg =~ $pattern ]]
 }
 
 # Parsuj typ z commit message
 git::get_commit_type() {
-    local msg="$1"
-    if [[ $msg =~ ^([a-z]+)(\([^)]+\))?:\ .+ ]]; then
-        echo "${BASH_REMATCH[1]}"
-    else
+	local msg="$1"
+	local pattern='^([a-z]+)(\([^)]+\))?:[[:space:]].+'
+	if [[ $msg =~ $pattern ]]; then
+		echo "${BASH_REMATCH[1]}"
+	else
         echo "other"
     fi
 }
 
 # Parsuj scope z commit message
 git::get_commit_scope() {
-    local msg="$1"
-    if [[ $msg =~ ^[a-z]+\(([^)]+)\):\ .+ ]]; then
-        echo "${BASH_REMATCH[1]}"
-    else
-        echo ""
-    fi
+	local msg="$1"
+	local pattern='^[a-z]+\(([^)]+)\):[[:space:]].+'
+	if [[ $msg =~ $pattern ]]; then
+		echo "${BASH_REMATCH[1]}"
+	else
+		echo ""
+	fi
 }
 
 # Pobierz commity między tagami/refami

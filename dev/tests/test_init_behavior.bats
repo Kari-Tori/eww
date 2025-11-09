@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 
-INIT_SCRIPT="${BATS_TEST_DIRNAME}/../init-eww.sh"
+INIT_SCRIPT="${BATS_TEST_DIRNAME}/../../init-eww.sh"
 
 @test "interactive shell sets EWW_INIT_OK to 1" {
   run bash -ic ". \"$INIT_SCRIPT\"; printf 'VAR_EWW_INIT_OK:%s\n' \"\$EWW_INIT_OK\""
