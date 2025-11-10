@@ -22,3 +22,6 @@ logs/
 init-eww.sh.bak.*
 logs/
 var/
+awesome-readme/
+.continue/
+.vscode/

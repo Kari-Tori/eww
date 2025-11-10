@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Lightweight logger helper for eww
-# - Appends messages to a per-user log file by default
-# - Honors EWW_LOG_FILE (empty disables file logging) and EWW_NO_LOG=1
+# Lekki helper do logowania dla eww
+# - Dopisuje wiadomości do pliku log per użytkownik domyślnie
+# - Respektuje EWW_LOG_FILE (pusta wartość wyłącza logowanie) i EWW_NO_LOG=1
 
 : "${EWW_LOG_FILE:=${XDG_STATE_HOME:-$HOME/.local/state}/eww/init-eww.log}"
 mkdir -p "$(dirname "$EWW_LOG_FILE")" 2>/dev/null || true

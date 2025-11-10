@@ -1,151 +1,91 @@
 ---
 title: E-Waste Workshop README
 description: Kompletna dokumentacja projektu - instalacja, konfiguracja, użycie
-version: 0.0.0.4
+version: 0.0.0.5-pre-mvp
 author: Nairecth
 repository: https://github.com/Nairecth/eww
 website: http://www.e-wasteworkshop.co.uk
 tags:
   - bash
+  - shell-scripting
+  - ubuntu
   - kubuntu
   - automation
   - devtools
+  - development-environment
+  - toolkit
+  - init-script
   - documentation
 category: documentation
 type: readme
 audience: developers
 language: pl
-platform: Kubuntu 24.04 LTS
+platform: Ubuntu 25.04
 requires:
-  - bash >= 5.1
-  - git
-  - make
+  - bash >= 5.2
+  - git >= 2.34
+  - make >= 4.3
 created: 2024-11-08
 updated: 2025-11-09
 license: MIT
-status: stable
+status: pre-mvp
 ---
-
-<!-- markdownlint-disable-next-line MD025 -->
-<!-- 
-  README.md - Główna dokumentacja projektu E-Waste Workshop
-  
-  Plik stanowi centralny punkt dokumentacji dla projektu EWW (E-Waste Workshop).
-  Zawiera kompletne informacje o instalacji, konfiguracji i użytkowaniu systemu.
-  
-  STRUKTURA DOKUMENTU:
-  ====================
-  1. Metadane YAML - informacje o dokumencie, wersji, autorze
-  2. Quick Start - instalacja "one-liner" dla nowych użytkowników
-  3. Demo - przykładowa sesja instalacji
-  4. Wymagania - lista wymagań systemowych i zależności
-  5. Instalacja - szczegółowe kroki instalacji krok po kroku
-  6. Konfiguracja - zmienne środowiskowe i opcje konfiguracji
-  7. Użycie - podstawowe operacje i przykłady użycia
-  8. Struktura projektu - organizacja katalogów i plików
-  9. Narzędzia deweloperskie - CLI tools i automatyzacja
-  10. Dokumentacja - linki do dodatkowych zasobów
-  11. Contributing - zasady współpracy i konwencje
-  12. License - informacje o licencji
-  
-  AUTOMATYZACJA:
-  ==============
-  - Badżki shields.io z aktualnym statusem buildu, wersji, licencji
-  - Statystyki projektu (liczba plików, katalogów, narzędzi)
-  - Linki do CHANGELOG.md, INDEX.md, AGENTS.md
-  - Automatyczna weryfikacja spójności przez ./dev/scripts/check_readme.sh
-  
-  KONWENCJE:
-  ==========
-  - Markdown z rozszerzeniami GitHub Flavored Markdown
-  - Callout bloki (TIP, NOTE, WARNING, INFO, EXAMPLE)
-  - Tabele dla strukturyzowanych danych
-  - Code blocks z syntax highlighting
-  - Emoji dla wizualnego wyróżnienia sekcji
-  
-  AKTUALIZACJA:
-  =============
-  - Ręczna edycja dla treści merytorycznej
-  - Automatyczna weryfikacja przez check_readme.sh
-  - Aktualizacja statystyk przez eww-status
-  - Sync z VERSION, CHANGELOG.md po każdym release
-  
-  POWIĄZANE PLIKI:
-  ================
-  - INDEX.md - szczegółowy indeks projektu
-  - CHANGELOG.md - historia zmian
-  - AGENTS.md - kontekst dla AI agents
-  - MVP.md - kryteria akceptacji
-  - .filedesc - system opisów plików
-  
-  KONSERWACJA:
-  ============
-  - Weryfikuj spójność wersji: README, VERSION, CHANGELOG
-  - Aktualizuj statystyki po dodaniu nowych plików/katalogów
-  - Dodawaj nowe narzędzia do sekcji "Narzędzia deweloperskie"
-  - Aktualizuj wymagania przy zmianach w zależnościach
-  - Sprawdzaj poprawność linków (make check-links jeśli dostępne)
-  
-  AUTOR: Nairecth
-  UTWORZONO: 2024-11-08
-  OSTATNIA AKTUALIZACJA: 2025-11-09
-  WERSJA: 0.0.0.4
--->
-
-<!-- markdownlint-disable MD025 -->
 # E-Waste Workshop — Centrum Recyklingu i Refabrykacji
 
-> Repozytorium zawiera szablony i skrypty inicjalizujące środowisko
-> E-Waste Workshop.
+<div align="center">
+  <img src="assets/logo.png" alt="E-Waste Workshop Logo" width="200"/>
+  
+  <!-- GIF Demo instalacji - 94% projektów używa animacji -->
+  <img src="assets/demo.gif" alt="Demo instalacji EWW" width="600"/>
+</div>
 
-[🌐 Strona główna](http://www.e-wasteworkshop.co.uk)
-[📦 Repozytorium GitHub](https://github.com/Nairecth/eww)
-[⚡ Przejdź do Quick Start](#quick-start)
+> Repozytorium zawiera szablony i skrypty inicjalizujące środowisko E-Waste Workshop.
 
-🔧 Skonfiguruj system Kubuntu do pracy z EWW w mniej niż 5 minut –
-wystarczy pobrać i zsource'ować jeden skrypt.
+🔧 Skonfiguruj system Ubuntu/Kubuntu do pracy z EWW w mniej niż 5 minut – wystarczy pobrać i zsource'ować jeden skrypt.
 
-<!-- Badżki -->
-![build-status](https://img.shields.io/badge/build-passing-brightgreen)
-![release](https://img.shields.io/badge/release-v0.0.0.4-blue)
-![license](https://img.shields.io/badge/license-MIT-green)
-![bash](https://img.shields.io/badge/bash-5.1+-blue)
-![platform](https://img.shields.io/badge/platform-Kubuntu%2024.04-orange)
+**About Us:** [🌐 E-Waste Workshop](http://www.e-wasteworkshop.co.uk) zajmuje się recyklingiem i refabrykacją sprzętu elektronicznego, promując zrównoważony rozwój i edukację w zakresie technologii.
 
-**Wersja: 0.0.0.4** | **Ostatni commit:** `ebe70c9` | **Aktualizacja:** 2025-11-09
+[📦 Repozytorium GitHub](https://github.com/Nairecth/eww) | [⚡ Przejdź do Quick Start](#-quick-start)
 
-[📋 CHANGELOG](CHANGELOG.md) | [🗂️ INDEX](INDEX.md) | [🤖 AI Context](AGENTS.md)
+---
 
-## 📊 Statystyki projektu
+<p align="center">
+  <img src="https://img.shields.io/badge/status-pre--mvp-FFD700" alt="Status">
+  <img src="https://img.shields.io/badge/version-0.0.0.5--pre--mvp-4169E1" alt="Version">
+  <img src="https://img.shields.io/badge/license-MIT-00C853" alt="License">
+  <br>
+  <img src="https://img.shields.io/badge/bash-5.2+-00BCD4?logo=gnu-bash&logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/ubuntu-25.04-E95420?logo=ubuntu&logoColor=white" alt="Ubuntu">
+  <img src="https://img.shields.io/badge/git-2.48+-F05032?logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/make-4.4+-4169E1" alt="Make">
+  <br>
+  <img src="https://img.shields.io/badge/📁_katalogi-29-9C27B0" alt="Katalogi">
+  <img src="https://img.shields.io/badge/📄_pliki-93-8B5CF6" alt="Pliki">
+  <img src="https://img.shields.io/badge/🛠️_cli_tools-10-FF6F00" alt="CLI Tools">
+  <img src="https://img.shields.io/badge/📚_libs-5-00BCD4" alt="Libs">
+  <img src="https://img.shields.io/badge/📝_docs-117-7CB342" alt="Docs">
+  <br>
+  <img src="https://img.shields.io/badge/język-polski-DC143C" alt="Język PL">
+  <img src="https://img.shields.io/badge/maintained-yes-00C853" alt="Maintained">
+  <img src="https://img.shields.io/badge/commit-ebe70c9-696969" alt="Last Commit">
+  <img src="https://img.shields.io/badge/updated-2025--11--09-00ACC1" alt="Updated">
+</p>
 
-- 📁 **Katalogi:** 29
-- 📄 **Pliki:** 93  
-- 📜 **Opisanych:** 117 (system .filedesc)
-- 🛠️ **Narzędzia dev:** 10 (dev/bin/)
-- 📚 **Biblioteki:** 5 (lib/*.sh)
+<p align="center">
+  <a href="CHANGELOG.md">📋 Changelog</a> •
+  <a href="INDEX.md">🗂️ Index</a> •
+  <a href="AGENTS.md">🤖 AI Context</a> •
+  <a href="MVP.md">🎯 MVP</a>
+</p>
 
-## Spis treści
+---
 
-- [Quick start](#quick-start)
-- [Demo](#demo)
-- [Wymagania](#wymagania)
-- [Instalacja](#instalacja)
-- [Konfiguracja](#konfiguracja)
-- [Użycie](#użycie)
-- [Struktura projektu](#struktura-projektu)
-- [Narzędzia deweloperskie](#narzędzia-deweloperskie)
-- [Dokumentacja](#dokumentacja)
-- [Contributing](#contributing)
-- [License](#license)
+## ⚡ Quick Start
 
-## Quick start
-
-Jak uruchomić — TL;DR
-
-Skopiuj cały blok, wklej w interaktywną powłokę bash i zatwierdź `Enter`:
+**Instalacja w jednym kroku** — skopiuj, wklej, zatwierdź `Enter`:
 
 ```bash
-# E-Waste Workshop — instalacja w jednym kroku
+# E-Waste Workshop — instalacja
 sudo mkdir -p /git && sudo chown "$USER":"$USER" /git
 cd /git
 now="$(date +%F)"
@@ -168,6 +108,26 @@ source ~/.bashrc
 ```
 
 ✅ **Gotowe!** Otwórz nowy terminal lub wykonaj `source ~/.bashrc`
+
+**Wymagania:** Bash 5.2+ | Git 2.34+ | Ubuntu 25.04
+
+---
+
+## 📖 Spis treści
+
+- [⚡ Quick Start](#-quick-start)
+- [Demo](#demo)
+- [Wymagania](#wymagania)
+- [Instalacja](#instalacja)
+- [Konfiguracja](#konfiguracja)
+- [Użycie](#użycie)
+- [Struktura projektu](#struktura-projektu)
+- [Narzędzia deweloperskie](#narzędzia-deweloperskie)
+- [Dokumentacja](#dokumentacja)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
 
 ## Demo
 
@@ -192,10 +152,10 @@ $ source init-eww.sh
 
 $ eww-status
 ╔══════════════════════════════════════╗
-║   E-Waste Workshop - Status v0.0.0.4 ║
+║   E-Waste Workshop - Status v0.0.0.5 ║
 ╚══════════════════════════════════════╝
 
-✓ Wersja: 0.0.0.4
+✓ Wersja: 0.0.0.5
 ✓ Git repo: /git/eww
 ✓ Branch: main
 ✓ Ostatni commit: ebe70c9
@@ -235,7 +195,7 @@ make --version | head -1
 
 ### Automatyczna (zalecana)
 
-Zobacz sekcję [Quick Start](#quick-start) powyżej.
+Zobacz sekcję [⚡ Quick Start](#-quick-start) powyżej.
 
 ### Manualna
 
@@ -359,8 +319,6 @@ bats dev/tests/test_init.bats
 
 # Walidacja README
 ./dev/scripts/check_readme.sh
-```bash
-./dev/scripts/check_readme.sh
 ```
 
 ## Struktura projektu
@@ -368,7 +326,7 @@ bats dev/tests/test_init.bats
 ```text
 eww/
 ├── init-eww.sh           # Główny skrypt inicjalizacyjny
-├── VERSION               # Numer wersji (0.0.0.4)
+├── VERSION               # Numer wersji (0.0.0.5)
 ├── Makefile              # Automatyzacja zadań
 ├── .filedesc             # Opisy plików i katalogów
 ├── README.md             # Ten plik
@@ -515,15 +473,3 @@ TBD - Do ustalenia
 **Maintainer:** [Nairecth](https://github.com/Nairecth)  
 **Repository:** [github.com/Nairecth/eww](https://github.com/Nairecth/eww)  
 **Website:** [www.e-wasteworkshop.co.uk](http://www.e-wasteworkshop.co.uk)
-
-{
-  "MD013": false,      // Wyłącz limit długości linii
-  "MD025": false,      // Zezwól na multiple H1
-  "MD033": false,      // Zezwól na HTML
-  "MD040": true        // Wymagaj języka w code blocks
-}
-
-rules:
-  line-length: 120
-  indentation: 2
-  document-start: false

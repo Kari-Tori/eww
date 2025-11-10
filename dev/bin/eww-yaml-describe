@@ -1,0 +1,423 @@
+#!/usr/bin/env bash
+# eww-yaml-describe - Waliduje i opisuje YAML frontmatter w plikach Markdown
+set -euo pipefail
+
+# Kolory
+readonly GREEN='\033[0;32m'
+readonly BLUE='\033[0;34m'
+readonly YELLOW='\033[1;33m'
+readonly RED='\033[0;31m'
+readonly NC='\033[0m'
+
+# Katalog projektu
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)" || exit 1
+readonly SCRIPT_DIR
+
+# Użycie
+usage() {
+    cat <<EOF
+Użycie: eww-yaml-describe [OPCJE] PLIK
+
+Waliduje i opisuje YAML frontmatter w pliku Markdown
+
+OPCJE:
+    -h, --help          Pokaż pomoc
+    -v, --validate      Waliduj frontmatter (sprawdź wymagane pola)
+    -d, --describe      Opisz wszystkie atrybuty
+    -s, --stats         Statystyki frontmatter
+    -c, --check-sync    Sprawdź synchronizację wersji z VERSION
+    --list-attributes   Lista wszystkich atrybutów
+    --fix-dates         Napraw format dat (ISO 8601)
+    --json              Output w formacie JSON
+
+PRZYKŁADY:
+    # Walidacja
+    eww-yaml-describe --validate README.md
+
+    # Szczegółowy opis
+    eww-yaml-describe --describe README.md
+
+    # Statystyki
+    eww-yaml-describe --stats docs/guide.md
+
+    # Sprawdź synchronizację wersji
+    eww-yaml-describe --check-sync README.md
+
+    # Lista atrybutów
+    eww-yaml-describe --list-attributes README.md
+
+EOF
+}
+
+# Wyciągnij frontmatter z pliku
+extract_frontmatter() {
+    local file="$1"
+
+    if [[ ! -f "$file" ]]; then
+        echo -e "${RED}Błąd: Plik nie istnieje: $file${NC}" >&2
+        return 1
+    fi
+
+    # Sprawdź czy ma frontmatter
+    if ! head -1 "$file" | grep -q "^---$"; then
+        echo -e "${YELLOW}Ostrzeżenie: Brak YAML frontmatter w pliku${NC}" >&2
+        return 1
+    fi
+
+    # Wyciągnij frontmatter (między pierwszym a drugim ---)
+    # Usuń obydwa --- i dodatkowe puste linie
+    awk '/^---$/{if(++count==2) exit; next} count==1' "$file"
+}# Parsuj atrybut z frontmatter
+get_attribute() {
+    local frontmatter="$1"
+    local attribute="$2"
+
+    echo "$frontmatter" | grep "^${attribute}:" | cut -d: -f2- | sed 's/^ *//' | sed 's/ *$//'
+}
+
+# Waliduj wymagane atrybuty
+validate_frontmatter() {
+    local file="$1"
+    local frontmatter
+    local errors=0
+
+    echo -e "${BLUE}Walidacja YAML frontmatter: $file${NC}"
+    echo ""
+
+    frontmatter=$(extract_frontmatter "$file") || return 1
+
+    # Lista wymaganych atrybutów
+    local required=(
+        "title"
+        "description"
+        "type"
+        "category"
+        "created"
+        "updated"
+    )
+
+    # Sprawdź wymagane
+    for attr in "${required[@]}"; do
+        local value
+        value=$(get_attribute "$frontmatter" "$attr")
+
+        if [[ -z "$value" ]]; then
+            echo -e "${RED}✗${NC} $attr - BRAK (wymagane)"
+            ((errors++))
+        else
+            echo -e "${GREEN}✓${NC} $attr: $value"
+        fi
+    done
+
+    # Lista opcjonalnych
+    local optional=(
+        "version"
+        "author"
+        "repository"
+        "website"
+        "license"
+        "tags"
+        "audience"
+        "language"
+        "platform"
+        "requires"
+        "status"
+    )
+
+    echo ""
+    echo -e "${BLUE}Opcjonalne atrybuty:${NC}"
+
+    for attr in "${optional[@]}"; do
+        local value
+        value=$(get_attribute "$frontmatter" "$attr")
+
+        if [[ -n "$value" ]]; then
+            echo -e "${GREEN}✓${NC} $attr: $value"
+        else
+            echo -e "${YELLOW}○${NC} $attr - brak"
+        fi
+    done
+
+    echo ""
+    if [[ $errors -eq 0 ]]; then
+        echo -e "${GREEN}✓ Walidacja zakończona sukcesem${NC}"
+        return 0
+    else
+        echo -e "${RED}✗ Znaleziono $errors błędów${NC}"
+        return 1
+    fi
+}
+
+# Opisz atrybuty
+describe_frontmatter() {
+    local file="$1"
+    local frontmatter
+
+    echo -e "${BLUE}Opis YAML frontmatter: $file${NC}"
+    echo ""
+
+    frontmatter=$(extract_frontmatter "$file") || return 1
+
+    # Definicje atrybutów
+    declare -A descriptions=(
+        ["title"]="Tytuł dokumentu (używany jako <title> w HTML)"
+        ["description"]="Opis dokumentu (meta description, SEO)"
+        ["version"]="Wersja dokumentu (Semantic Versioning)"
+        ["type"]="Typ dokumentu (readme|guide|wiki|changelog|index|specification)"
+        ["category"]="Kategoria tematyczna (documentation|development|tutorial)"
+        ["audience"]="Docelowa grupa odbiorców (developers|users|administrators)"
+        ["author"]="Autor dokumentu"
+        ["contributors"]="Lista współautorów"
+        ["created"]="Data utworzenia (ISO 8601: YYYY-MM-DD)"
+        ["updated"]="Data ostatniej aktualizacji (ISO 8601)"
+        ["published"]="Data publikacji (dla blogów, release notes)"
+        ["repository"]="Link do repozytorium GitHub"
+        ["website"]="Link do strony projektu"
+        ["license"]="Licencja (SPDX identifier: MIT, Apache-2.0, GPL-3.0)"
+        ["language"]="Język dokumentu (ISO 639-1: pl, en, de)"
+        ["platform"]="Platforma systemowa (Kubuntu 24.04 LTS)"
+        ["requires"]="Wymagane zależności (package >= version)"
+        ["tags"]="Lista tagów/słów kluczowych (SEO)"
+        ["related"]="Powiązane dokumenty (ścieżki względne)"
+        ["parent"]="Dokument nadrzędny (dla hierarchii)"
+        ["order"]="Kolejność sortowania (integer)"
+        ["status"]="Status dokumentu (draft|review|stable|deprecated|archived)"
+        ["generator"]="Narzędzie generujące (auto)"
+        ["auto-generated"]="Czy auto-generowany (boolean)"
+        ["source"]="Źródło danych (dla auto-generated)"
+    )
+
+    # Wyciągnij wszystkie atrybuty
+    while IFS=: read -r key value; do
+        key=$(echo "$key" | sed 's/^ *//' | sed 's/ *$//')
+        value=$(echo "$value" | sed 's/^ *//' | sed 's/ *$//')
+
+        if [[ -n "$key" ]] && [[ -n "$value" ]]; then
+            local desc="${descriptions[$key]:-Niestandardowy atrybut}"
+            echo -e "${GREEN}$key:${NC} $value"
+            echo -e "   ${BLUE}→${NC} $desc"
+            echo ""
+        fi
+    done <<< "$frontmatter"
+}
+
+# Statystyki frontmatter
+stats_frontmatter() {
+    local file="$1"
+    local frontmatter
+
+    echo -e "${BLUE}Statystyki YAML frontmatter: $file${NC}"
+    echo ""
+
+    frontmatter=$(extract_frontmatter "$file") || return 1
+
+    local total_attrs
+    local required_present=0
+    local optional_present=0
+    local tags_count=0
+
+    # Policz atrybuty
+    total_attrs=$(echo "$frontmatter" | grep -c "^[a-z]" || echo 0)
+
+    # Lista wymaganych
+    local required=("title" "description" "type" "category" "created" "updated")
+    for attr in "${required[@]}"; do
+        if echo "$frontmatter" | grep -q "^${attr}:"; then
+            ((required_present++))
+        fi
+    done
+
+    # Lista opcjonalnych
+    local optional=("version" "author" "repository" "website" "license" "tags" "audience" "language" "platform" "requires" "status")
+    for attr in "${optional[@]}"; do
+        if echo "$frontmatter" | grep -q "^${attr}:"; then
+            ((optional_present++))
+        fi
+    done
+
+    # Policz tagi (obsługa tablic YAML)
+    if echo "$frontmatter" | grep -q "^tags:"; then
+        # Zlicz linie zaczynające się od "  - " (wcięcie 2 spacje)
+        tags_count=$(echo "$frontmatter" | awk '/^tags:/,/^[a-z]/' | grep -c "^  - " || echo 0)
+    fi
+
+    # Wyświetl statystyki
+    echo -e "${GREEN}Łącznie atrybutów:${NC} $total_attrs"
+    echo -e "${GREEN}Wymagane obecne:${NC} $required_present / ${#required[@]}"
+    echo -e "${GREEN}Opcjonalne obecne:${NC} $optional_present / ${#optional[@]}"
+
+    if [[ $tags_count -gt 0 ]]; then
+        echo -e "${GREEN}Liczba tagów:${NC} $tags_count"
+    fi
+
+    # Dodatkowe info
+    echo ""
+    echo -e "${BLUE}Szczegóły:${NC}"
+
+    local version
+    version=$(get_attribute "$frontmatter" "version")
+    if [[ -n "$version" ]]; then
+        echo -e "  Wersja: $version"
+    fi
+
+    local status
+    status=$(get_attribute "$frontmatter" "status")
+    if [[ -n "$status" ]]; then
+        echo -e "  Status: $status"
+    fi
+
+    local created
+    created=$(get_attribute "$frontmatter" "created")
+    if [[ -n "$created" ]]; then
+        echo -e "  Utworzono: $created"
+    fi
+
+    local updated
+    updated=$(get_attribute "$frontmatter" "updated")
+    if [[ -n "$updated" ]]; then
+        echo -e "  Zaktualizowano: $updated"
+    fi
+
+    # Kompletność
+    echo ""
+    local completeness
+    completeness=$((required_present * 100 / ${#required[@]}))
+
+    if [[ $completeness -eq 100 ]]; then
+        echo -e "${GREEN}✓ Kompletność: ${completeness}%${NC}"
+    elif [[ $completeness -ge 80 ]]; then
+        echo -e "${YELLOW}⚠ Kompletność: ${completeness}%${NC}"
+    else
+        echo -e "${RED}✗ Kompletność: ${completeness}%${NC}"
+    fi
+}
+
+# Sprawdź synchronizację wersji
+check_sync() {
+    local file="$1"
+    local frontmatter
+    local file_version
+    local project_version
+
+    echo -e "${BLUE}Synchronizacja wersji: $file${NC}"
+    echo ""
+
+    frontmatter=$(extract_frontmatter "$file") || return 1
+
+    # Wersja z frontmatter
+    file_version=$(get_attribute "$frontmatter" "version")
+
+    # Wersja z VERSION file
+    if [[ -f "${SCRIPT_DIR}/VERSION" ]]; then
+        project_version=$(tr -d '[:space:]' < "${SCRIPT_DIR}/VERSION")
+    else
+        echo -e "${YELLOW}Ostrzeżenie: Brak pliku VERSION${NC}"
+        return 1
+    fi
+
+    echo -e "Wersja w pliku:    ${BLUE}$file_version${NC}"
+    echo -e "Wersja projektu:   ${BLUE}$project_version${NC}"
+    echo ""
+
+    if [[ "$file_version" == "$project_version" ]]; then
+        echo -e "${GREEN}✓ Wersje zsynchronizowane${NC}"
+        return 0
+    else
+        echo -e "${RED}✗ Wersje niezsynchronizowane!${NC}"
+        echo -e "${YELLOW}Sugestia: Zaktualizuj version: $project_version${NC}"
+        return 1
+    fi
+}
+
+# Lista wszystkich atrybutów
+list_attributes() {
+    local file="$1"
+    local frontmatter
+
+    frontmatter=$(extract_frontmatter "$file") || return 1
+
+    echo -e "${BLUE}Lista atrybutów:${NC}"
+    echo ""
+
+    echo "$frontmatter" | grep "^[a-z]" | cut -d: -f1 | sort | while read -r attr; do
+        echo "  - $attr"
+    done
+}
+
+# Główna funkcja
+main() {
+    local mode="validate"
+    local file=""
+
+    # Parsuj argumenty
+    while [[ $# -gt 0 ]]; do
+        case $1 in
+            -h|--help)
+                usage
+                exit 0
+                ;;
+            -v|--validate)
+                mode="validate"
+                shift
+                ;;
+            -d|--describe)
+                mode="describe"
+                shift
+                ;;
+            -s|--stats)
+                mode="stats"
+                shift
+                ;;
+            -c|--check-sync)
+                mode="check-sync"
+                shift
+                ;;
+            --list-attributes)
+                mode="list"
+                shift
+                ;;
+            *)
+                if [[ -z "$file" ]]; then
+                    file="$1"
+                else
+                    echo -e "${RED}Błąd: Nieznany argument: $1${NC}" >&2
+                    usage
+                    exit 1
+                fi
+                shift
+                ;;
+        esac
+    done
+
+    # Sprawdź czy podano plik
+    if [[ -z "$file" ]]; then
+        echo -e "${RED}Błąd: Nie podano pliku${NC}" >&2
+        usage
+        exit 1
+    fi
+
+    # Wykonaj akcję
+    case $mode in
+        validate)
+            validate_frontmatter "$file"
+            ;;
+        describe)
+            describe_frontmatter "$file"
+            ;;
+        stats)
+            stats_frontmatter "$file"
+            ;;
+        check-sync)
+            check_sync "$file"
+            ;;
+        list)
+            list_attributes "$file"
+            ;;
+        *)
+            echo -e "${RED}Błąd: Nieznany tryb: $mode${NC}" >&2
+            exit 1
+            ;;
+    esac
+}
+
+main "$@"

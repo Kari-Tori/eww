@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# shell lib: git helpers
+# biblioteka shell: helpery git
 
 # Pobierz katalog główny repozytorium
 repo_root() { 

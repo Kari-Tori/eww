@@ -121,3 +121,5 @@ archive/keys/pubkey-64350F8E46AB5B48.asc|Klucz publiczny GPG
 dev/README.template.md|Szablon dla dokumentu README
 .markdownlint.json|Konfiguracja markdownlint - zasady formatowania Markdown
 .yamllint.yaml|Konfiguracja yamllint - zasady walidacji YAML
+docs/yaml-frontmatter-spec.md|Kompletna specyfikacja wszystkich atrybutów YAML frontmatter używanych w projekcie
+docs/readme-frontmatter-analysis.md|Szczegółowa analiza wszystkich 15 atrybutów YAML frontmatter w README.md
