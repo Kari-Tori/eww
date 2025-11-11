@@ -1,0 +1,154 @@
+{
+	"nodes":[
+		{"id":"9680e701c13b756e","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/Macierz_4K_Styl_Obsidian.md","dynamicHeight":true,"x":-700,"y":-780,"width":600,"height":60},
+		{"id":"ca98c3a73a261714","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/Rola_Personalna_Asystentka.md","dynamicHeight":true,"x":-20,"y":-780,"width":540,"height":60,"color":"#ae30b0"},
+		{"id":"a16b04ff53947804","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/Kajzen_Theory_Obsidian_Dashboard.md","dynamicHeight":true,"x":-1250,"y":-560,"width":500,"height":60},
+		{"id":"f12151265ec295f5","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/Rola_Technik_FCGH.md","dynamicHeight":true,"x":1640,"y":-770,"width":400,"height":680,"color":"#2183c0"},
+		{"id":"c8342dd47e26d028","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/Rola_Sprzedawca.md","dynamicHeight":true,"x":1120,"y":-770,"width":480,"height":530,"color":"#beba3c"},
+		{"id":"bc8f3b42bffd062b","type":"link","url":"https://www.photoprism.app/","x":1120,"y":-150,"width":480,"height":60},
+		{
+			"id":"6d9bd7eb4f6e8fa0",
+			"type":"text",
+			"text":"**#INTERFACE**",
+			"dynamicHeight":true,
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":1135,
+			"y":-80,
+			"width":450,
+			"height":60,
+			"color":"5"
+		},
+		{"id":"ddeacddc03598d00","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/Rola_Karina.md","dynamicHeight":true,"x":540,"y":-780,"width":520,"height":840,"color":"#27b037"},
+		{"id":"9c7b9b3e6b613e2f","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/Macierz_4K_Sciaga.md","dynamicHeight":true,"x":-1680,"y":-670,"width":400,"height":880},
+		{"id":"fa61491989481894","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/IMG_9312.jpg","dynamicHeight":true,"x":380,"y":-2320,"width":980,"height":1307},
+		{"id":"b9c314264c41de6b","type":"file","file":"05_PROJECTS/Cash4device_liquidation/c4d_liquidation.canvas","dynamicHeight":true,"x":-2240,"y":-3280,"width":400,"height":400,"color":"3"},
+		{"id":"fc3bc7a5e62462de","type":"file","file":"E-Waste Workshop Vault/05_PROJECTS/H2D Interface/Kartki_kuby/29-06-25-nocka/IMG_9360D.JPG","dynamicHeight":true,"x":-1820,"y":-3280,"width":427,"height":320,"color":"6"},
+		{
+			"id":"158de1ba7c3a483a",
+			"type":"text",
+			"text":"wzielam sobie 8 kabli \n4x usbc\n3xi phone\n1x micro-usb",
+			"dynamicHeight":true,
+			"styleAttributes":{},
+			"x":-1820,
+			"y":-2960,
+			"width":427,
+			"height":80,
+			"color":"6"
+		},
+		{"id":"e67ea92a1ec90d62","type":"file","file":"E-Waste Workshop Vault/05_PROJECTS/H2D Interface/Kartki_kuby/no-i-dupa/IMG_9354.JPG","dynamicHeight":true,"x":-1300,"y":-3280,"width":300,"height":400,"color":"4"},
+		{"id":"7ed25f6a48725fd9","type":"file","file":"E-Waste Workshop Vault/05_PROJECTS/H2D Interface/Kartki_kuby/no-i-dupa/IMG_9357.JPG","dynamicHeight":true,"x":-1000,"y":-3280,"width":300,"height":400,"color":"4"},
+		{"id":"6494bf4ad84ef445","type":"file","file":"E-Waste Workshop Vault/05_PROJECTS/H2D Interface/Kartki_kuby/no-i-dupa/IMG_9355.JPG","dynamicHeight":true,"x":-400,"y":-3280,"width":300,"height":400,"color":"4"},
+		{"id":"0ea3d7ed2ffca90e","type":"file","file":"E-Waste Workshop Vault/05_PROJECTS/H2D Interface/Kartki_kuby/no-i-dupa/IMG_9358.JPG","dynamicHeight":true,"x":-700,"y":-3280,"width":300,"height":400,"color":"4"},
+		{"id":"8c3cbe4732c7ba5c","type":"file","file":"E-Waste Workshop Vault/05_PROJECTS/H2D Interface/Kartki_kuby/no-i-dupa/IMG_9359.MOV","dynamicHeight":true,"x":-100,"y":-3280,"width":225,"height":400,"color":"4"},
+		{
+			"id":"9b889e5584549b4b",
+			"type":"text",
+			"text":"**<mark style='background:var(--mk-color-teal)'><span style='color:var(--mk-color-green)'>no i dupa</span></mark>** ",
+			"dynamicHeight":true,
+			"styleAttributes":{},
+			"x":-635,
+			"y":-3520,
+			"width":170,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"c55b777970a6c825",
+			"type":"text",
+			"text":"Misiu ![🐻](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f43b/32.png),\n\n  \n\nChcę Ci napisać coś prosto z serduszka ![❤️](https://fonts.gstatic.com/s/e/notoemoji/16.0/2764_fe0f/32.png)\n\nMoże nie zawsze potrafię ubrać wszystko w odpowiednie słowa.\n\nCzasem zamiast wdzięczności wychodzi ze mnie zmęczenie,\n\nczasem słowa nie nadążają za tym, co naprawdę czuję…\n\n  Ale chcę, żebyś wiedział:\n Naprawdę bardzo doceniam to, co robisz. ![🙏](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f64f/32.png)![💪](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4aa/32.png)\n\n---\n\nWidzę, ile pracy i serca wkładasz\n\nw swoje projekty – w domu, w E-Waste Workshop,\n\nw cały ten świat, który budujesz. ![🌍](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f30d/32.png)![🔧](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f527/32.png)![💡](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4a1/32.png)\n\n  \n\nWiem, że zależy Ci na tym, by wszystko\n\ndziałało sprawnie, logicznie i pięknie.\n\nTo robi na mnie ogromne wrażenie. ![🧠](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f9e0/32.png)![⚙️](https://fonts.gstatic.com/s/e/notoemoji/16.0/2699_fe0f/32.png)![✨](https://fonts.gstatic.com/s/e/notoemoji/16.0/2728/32.png)\n\n  \n\n> Masz w sobie coś wyjątkowego.\n\n> Nie każdy potrafi tworzyć z taką pasją.\n\n> Budujesz systemy. Naprawiasz świat.\n\n> Ulepszasz rzeczywistość, będąc w tym sobą.\n\n> To piękne i bardzo Twoje. ![🌱](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f331/32.png)![💻](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4bb/32.png)![⚒️](https://fonts.gstatic.com/s/e/notoemoji/16.0/2692_fe0f/32.png)\n\n---\n\nWiem, że nie zawsze jestem taka, jakbyś chciał… ale dziala to w dwie strony.\n\nTy też czasem pokazujesz rogi i robisz cos nie tak. \n\nCzasem powiem coś nie tak, czasem się czepiam –\nale nawet wtedy jestem po Twojej stronie. ![🫶](https://fonts.gstatic.com/s/e/notoemoji/16.0/1faf6/32.png)\n\n  Chcę Cię wspierać.\n\n> Chcę być obok.\n\n> Chcę być częścią tego, co tworzysz.\n\n  \n\nNie tylko tych kabli, skryptów i protokołów choć mają swój urok! ![😅](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f605/32.png)![🧷](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f9f7/32.png)![💾](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4be/32.png)\n\nale całego świata, który budujesz swoim zaangażowaniem i pasją.\n\n---\n\nCzuję się tu… naprawdę dobrze. ![🏡](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3e1/32.png)![🌿](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f33f/32.png)\n\nCzuję się sobą.\n\nI chcę być częścią Twojej codzienności \n\nTwojego życia, Twoich idei, Twoich planów.\n\n---\n\nDziękuję Ci za:\n\n- ![💠](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4a0/32.png) To, że otwierasz przede mną nowe możliwości\n    \n- ![🌀](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f300/32.png) To, że cierpliwie tłumaczysz mi świat, krok po kroku\n    \n- ![🛠️](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f6e0_fe0f/32.png) To, że dajesz mi przestrzeń do rozwoju, nawet gdy masz milion rzeczy na głowie\n    \n- ![💫](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4ab/32.png) To, że jesteś cierpliwy – nawet gdy świat się wali\n    \n\n---\n\nI jeszcze coś bardzo intymnego…\n\nUwielbiam, gdy podchodzisz do mnie przy biurku,\n\npochylasz się i… skradasz całuski w szyję ![😚](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f61a/32.png)![💋](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f48b/32.png)![🫠](https://fonts.gstatic.com/s/e/notoemoji/16.0/1fae0/32.png)\n\nMam wtedy ciarki na całym ciele.\n\n  \n\nNiby nic  a dla mnie to mała magia,\n\nktóra mówi mi:\n\n  \n\n> „Jesteś kochana.”\n\n> „Jesteś zauważona.”\n\n> „Jesteśmy blisko.” ![🤍](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f90d/32.png)\n\n---\n\nTe momenty zapisuję w sobie,\n\njak cenne książki w mojej wewnętrznej bibliotece ![📚](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4da/32.png)![🌌](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f30c/32.png)\n\nNa te trudniejsze dni.\n\nBo kiedy otwieram je ponownie,\n\nto nawet największe smutki zaczynają znikać z uśmiechem ![😊](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f60a/32.png)![🌈](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f308/32.png)\n\n---\n\n### Po prostu…\n\n  \n\nDziękuję Ci, że jesteś.\n\nŻe jesteś właśnie taki.\n\nŻe jesteś…\n\n  \n\n> ![🧲](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f9f2/32.png) Moim trochę szalonym Bączkiem. ![🔄](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f504/32.png)![💞](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f49e/32.png)\n\n  \n\nTwoja K. ![💖]\n(pierożek, muszelka ) ",
+			"dynamicHeight":true,
+			"styleAttributes":{},
+			"x":-2940,
+			"y":-3420,
+			"width":580,
+			"height":2500,
+			"color":"1"
+		},
+		{"id":"f590a25756c524bd","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/IMG_9628.mov","dynamicHeight":true,"x":-460,"y":-2740,"width":360,"height":640,"color":"3"},
+		{"id":"5ad8cfdb6763cd2d","type":"file","file":"E-Waste Workshop Vault/04_TEAM/karinam/IMG_9627D.jpg","dynamicHeight":true,"x":-940,"y":-2740,"width":480,"height":640,"color":"3"},
+		{
+			"id":"dcb98bcc5771a898",
+			"type":"text",
+			"text":"<span style='color:var(--mk-color-yellow)'>**<span style='color:var(--mk-color-yellow)'>JAKUB</span>** WIELKI </span>",
+			"dynamicHeight":false,
+			"styleAttributes":{},
+			"x":-940,
+			"y":-2800,
+			"width":840,
+			"height":60,
+			"color":"3"
+		}
+	],
+	"edges":[
+		{
+			"id":"fd2ca34b135e33e4",
+			"styleAttributes":{"arrow":"thin-triangle"},
+			"fromFloating":true,
+			"toFloating":false,
+			"fromNode":"6d9bd7eb4f6e8fa0",
+			"fromSide":"left",
+			"toNode":"bc8f3b42bffd062b",
+			"toSide":"left"
+		},
+		{
+			"id":"2a272e3c6fca0fec",
+			"styleAttributes":{"arrow":"thin-triangle"},
+			"fromFloating":true,
+			"toFloating":false,
+			"fromNode":"9b889e5584549b4b",
+			"fromSide":"left",
+			"toNode":"e67ea92a1ec90d62",
+			"toSide":"top",
+			"color":"4"
+		},
+		{
+			"id":"57466b74727fd7b4",
+			"styleAttributes":{"arrow":"thin-triangle"},
+			"fromFloating":false,
+			"toFloating":false,
+			"fromNode":"9b889e5584549b4b",
+			"fromSide":"bottom",
+			"toNode":"7ed25f6a48725fd9",
+			"toSide":"top",
+			"color":"4"
+		},
+		{
+			"id":"e03ff00c68daa487",
+			"styleAttributes":{"arrow":"thin-triangle"},
+			"fromFloating":true,
+			"toFloating":false,
+			"fromNode":"9b889e5584549b4b",
+			"fromSide":"right",
+			"toNode":"6494bf4ad84ef445",
+			"toSide":"top",
+			"color":"4"
+		},
+		{
+			"id":"9265c54ef930297e",
+			"styleAttributes":{"arrow":"thin-triangle"},
+			"fromFloating":false,
+			"toFloating":true,
+			"fromNode":"9b889e5584549b4b",
+			"fromSide":"right",
+			"toNode":"8c3cbe4732c7ba5c",
+			"toSide":"top",
+			"color":"4"
+		},
+		{
+			"id":"3aa052866b1821b2",
+			"styleAttributes":{"arrow":"thin-triangle"},
+			"fromFloating":true,
+			"toFloating":false,
+			"fromNode":"9b889e5584549b4b",
+			"fromSide":"bottom",
+			"toNode":"0ea3d7ed2ffca90e",
+			"toSide":"top",
+			"color":"4"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"a94b83875c980fa7"
+	}
+}
