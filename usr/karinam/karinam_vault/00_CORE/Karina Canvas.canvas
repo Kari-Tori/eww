@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"37e7460802933f43","type":"file","file":"00_CORE/kanban_karina_v1.png","x":240,"y":-500,"width":1067,"height":600},
+		{"id":"5a01cc83bfe06b52","type":"file","file":"00_CORE/Dashboard Karina.md","x":-800,"y":-500,"width":1000,"height":1420},
+		{"id":"df7950fd61166ee8","type":"file","file":"s-l1600TRGRGRGR.png","x":-800,"y":1119,"width":400,"height":200},
+		{"id":"2280edb10f3f9c38","type":"file","file":"MNMNNMNM.png","x":-400,"y":1137,"width":400,"height":182},
+		{"id":"4fb23ea44a26019e","type":"file","file":"GJHJHJHJH.jpg","x":0,"y":1137,"width":400,"height":182},
+		{"id":"d5e02e4cf27dfeca","type":"file","file":"LKLKLKLL.png","x":400,"y":1137,"width":164,"height":399},
+		{"id":"445b4e1d30fb81cc","type":"file","file":"Projects/Custom Pc/projektB.png","x":529,"y":748,"width":400,"height":267},
+		{"id":"312844f2f67a6fd3","type":"file","file":"Projects/Custom Pc/planA.png","x":1098,"y":549,"width":400,"height":400},
+		{"id":"f712ab6a13526c33","type":"file","file":"Projects/Custom Pc/planC.png","x":529,"y":240,"width":400,"height":400},
+		{"id":"53edbdb1eb70938a","type":"file","file":"Cover_Projekt_B2_pretty.png","x":729,"y":1573,"width":400,"height":225},
+		{"id":"d42442db0c73c79c","type":"file","file":"Cover_Projekt_C_pretty.png","x":240,"y":1536,"width":400,"height":225},
+		{"id":"40111cb947ec40a6","type":"file","file":"Cover_Projekt_A_pretty.png","x":1498,"y":1573,"width":400,"height":225},
+		{"id":"e0c7976002e0d5f6","type":"file","file":"Pasted image 20251103003357.png","x":-880,"y":1761,"width":400,"height":267}
+	],
+	"edges":[]
+}

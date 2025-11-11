@@ -1,0 +1,19 @@
+/.obsidian/plugins/
+/.space/
+/.makemd/
+**/.makemd/
+**/thumbnails/
+**/*.mov
+**/*.mp4
+**/*.mdb
+**/.DS_Store
+**/node_modules/
+*.cache
+
+# Pozostaw notatki i attachments
+!**/*.md
+!**/*.png
+!**/*.jpg
+!**/*.jpeg
+!**/*.svg
+!**/*.pdf
