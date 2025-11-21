@@ -1,72 +1,44 @@
 {
   "collapse-filter": true,
-  "search": "-path:archive -path:Tags -path:.obsidian -path:var/log -path:.trash -path:.git",
-  "showTags": false,
-  "showAttachments": false,
-  "hideUnresolved": true,
-  "showOrphans": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:karinam OR tag:#candy OR tag:#pink",
+      "query": "tag: #secondbrain  ",
       "color": {
         "a": 1,
-        "rgb": 16711935
+        "rgb": 14701249
       }
     },
     {
-      "query": "path:jakubc OR tag:#owner OR tag:#eww",
+      "query": "tag: #bastion",
       "color": {
         "a": 1,
-        "rgb": 65535
+        "rgb": 15796524
       }
     },
     {
-      "query": "tag:#core OR path:core",
+      "query": "tag: #eww  ",
       "color": {
         "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
-      "query": "path:business OR tag:#business",
-      "color": {
-        "a": 1,
-        "rgb": 16776960
-      }
-    },
-    {
-      "query": "path:docs OR tag:#docs",
-      "color": {
-        "a": 1,
-        "rgb": 65280
-      }
-    },
-    {
-      "query": "path:config OR tag:#config",
-      "color": {
-        "a": 1,
-        "rgb": 8421631
-      }
-    },
-    {
-      "query": "path:infra OR tag:#infra",
-      "color": {
-        "a": 1,
-        "rgb": 16753920
+        "rgb": 10809863
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1,
-  "nodeSizeMultiplier": 0.8,
-  "lineSizeMultiplier": 0.8,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.04918437432926,
+  "lineSizeMultiplier": 1.0828396651642,
   "collapse-forces": false,
-  "centerStrength": 0.4,
-  "repelStrength": 15,
-  "linkStrength": 0.5,
-  "linkDistance": 300,
-  "scale": 0.07499999999999998,
+  "centerStrength": 0.151041666666667,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.01171875,
   "close": false
 }
