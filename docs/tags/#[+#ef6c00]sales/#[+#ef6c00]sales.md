@@ -1,0 +1,56 @@
+---
+title: "#[+#ef6c00]sales"
+description: "Folder note dla #[+#ef6c00]sales"
+category: folder-note
+tags:
+  - folder-note
+  - index
+  - documentation
+  - docs
+  - knowledge
+created: 2025-11-21
+updated: 2025-11-21
+color: green
+author: EWW Team
+source: "[[docs/INDEX]]"
+related:
+  - docs/methodologies/methodologies.md
+  - docs/reports/reports.md
+  - docs/tags/tags.md
+  - docs/team/team.md
+  - docs/trash-recovery/trash-recovery.md
+cssclasses:
+  - eww-folder-note
+---
+
+# 📁 #[+#ef6c00]sales
+
+> **Folder Note** - centralny index dla katalogu `#[+#ef6c00]sales/`
+
+## 📋 Cel folderu
+
+Katalog `#[+#ef6c00]sales` zawiera 0 plików i 0 podfolderów.
+
+**Przeznaczenie:**
+- Dokumentacja projektowa i techniczna
+
+---
+
+## 📄 Pliki w folderze
+
+*Brak plików MD w tym folderze.*
+
+## 📂 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Nawigacja
+
+- ⬆️ [[tags/tags|tags]] - Folder nadrzędny
+- 🏠 [[docs/INDEX|INDEX]] - Główny index
+
+---
+
+**Lokalizacja:** `docs/tags/#[+#ef6c00]sales`  
+**Zaktualizowano:** 2025-11-21  
+**Typ:** Folder Note
