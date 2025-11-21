@@ -1,7 +1,14 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
 title: "eww"
 category: folder-note
-tags:
   - index
   - overview
   - folder-note
@@ -10,6 +17,12 @@ updated: 2025-11-21
 author: EWW Team
 cssclasses:
   - eww-folder-note
+
+
+
+
+
+
 ---
 
 # 📁 eww

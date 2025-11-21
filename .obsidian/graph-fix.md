@@ -1,3 +1,21 @@
+---
+tags:
+  - #automation
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
+created: 2025-11-21
+
+
+
+
+
+
+---
+
 # 🔧 FIX GRAFU - Too Many Notes
 
 ## Problem

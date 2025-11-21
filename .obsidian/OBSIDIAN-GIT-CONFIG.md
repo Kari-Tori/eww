@@ -1,11 +1,24 @@
 ---
-title: Obsidian Git - Konfiguracja Auto-Commit
 tags:
+  - #automation
+  - #config
+  - #eww
+  - #git
+  - #linux
+  - #obsidian
+  - #secondbrain
+title: Obsidian Git - Konfiguracja Auto-Commit
   - config/obsidian
   - git/automation
   - workflow
 created: 2025-11-21
 author: jakubc
+
+
+
+
+
+
 ---
 
 # 🔧 Obsidian Git - Auto-Commit przy zamykaniu

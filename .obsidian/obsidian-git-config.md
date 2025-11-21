@@ -1,3 +1,21 @@
+---
+tags:
+  - #automation
+  - #config
+  - #eww
+  - #git
+  - #linux
+  - #obsidian
+  - #secondbrain
+created: 2025-11-21
+
+
+
+
+
+
+---
+
 # 🔧 Konfiguracja Obsidian Git
 
 ## Settings → Obsidian Git

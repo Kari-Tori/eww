@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "tag:#core OR path:core/",
+      "query": "tag:#eww OR tag:#core OR path:core/",
       "color": {
         "a": 1,
         "rgb": 65331
@@ -92,14 +92,14 @@
       }
     },
     {
-      "query": "tag:#dev OR path:dev/",
+      "query": "tag:#folder_note path:",
       "color": {
         "a": 1,
-        "rgb": 6737151
+        "rgb": 5431378
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0.2,
   "nodeSizeMultiplier": 1.63125,
@@ -109,6 +109,6 @@
   "repelStrength": 20,
   "linkStrength": 0.734375,
   "linkDistance": 314,
-  "scale": 0.017578125,
-  "close": true
+  "scale": 0.01171875,
+  "close": false
 }

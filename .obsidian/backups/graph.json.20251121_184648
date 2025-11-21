@@ -1,12 +1,12 @@
 {
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
   "colorGroups": [
-    {
-      "query": "tag:#folder_note",
-      "color": {
-        "a": 1,
-        "rgb": 5227511
-      }
-    },
     {
       "query": "tag:#eww OR tag:#recycling OR tag:#eco OR tag:#eko OR path:core/ OR path:config/ OR path:business/ OR path:docs/",
       "color": {
@@ -70,5 +70,17 @@
         "rgb": 12604881
       }
     }
-  ]
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 0.763541666666667,
+  "lineSizeMultiplier": 1.5,
+  "collapse-forces": false,
+  "centerStrength": 0.03125,
+  "repelStrength": 19.0625,
+  "linkStrength": 0.692708333333333,
+  "linkDistance": 243,
+  "scale": 0.017578125,
+  "close": false
 }

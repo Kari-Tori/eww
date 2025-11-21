@@ -1,45 +1,31 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": true,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#folder_note",
       "color": {
         "a": 1,
-        "rgb": 16777215
+        "rgb": 9127187
       }
     },
     {
-      "query": "tag:#core OR path:core/",
+      "query": "tag:#eww OR tag:#core OR tag:#config OR tag:#business OR path:core/ OR path:config/ OR path:business/",
       "color": {
         "a": 1,
-        "rgb": 65331
-      }
-    },
-    {
-      "query": "tag:#config OR path:config/",
-      "color": {
-        "a": 1,
-        "rgb": 5526612
-      }
-    },
-    {
-      "query": "tag:#business OR path:business/",
-      "color": {
-        "a": 1,
-        "rgb": 2664719
+        "rgb": 65280
       }
     },
     {
       "query": "tag:#jakubc OR path:usr/jakubc/",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 65535
       }
     },
     {
@@ -53,62 +39,55 @@
       "query": "tag:#star-wars OR path:usr/jakubc/star_wars/",
       "color": {
         "a": 1,
-        "rgb": 65484
+        "rgb": 16776960
       }
     },
     {
       "query": "tag:#lego OR path:usr/jakubc/lego/",
       "color": {
         "a": 1,
-        "rgb": 16771584
+        "rgb": 16744192
       }
     },
     {
       "query": "tag:#docs OR path:docs/",
       "color": {
         "a": 1,
-        "rgb": 1334271
+        "rgb": 5592575
       }
     },
     {
       "query": "tag:#infra OR path:infra/",
       "color": {
         "a": 1,
-        "rgb": 16737792
+        "rgb": 10824234
       }
     },
     {
       "query": "tag:#scripts OR path:scripts/",
       "color": {
         "a": 1,
-        "rgb": 10944256
+        "rgb": 16733525
       }
     },
     {
       "query": "tag:#tools OR path:tools/",
       "color": {
         "a": 1,
-        "rgb": 6287
-      }
-    },
-    {
-      "query": "tag:#dev OR path:dev/",
-      "color": {
-        "a": 1,
-        "rgb": 6737151
+        "rgb": 8421504
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0.2,
-  "nodeSizeMultiplier": 1.63125,
-  "lineSizeMultiplier": 1.12083333333333,
-  "collapse-forces": true,
-  "centerStrength": 0.125,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.1,
   "repelStrength": 20,
-  "linkStrength": 0.734375,
-  "linkDistance": 314,
-  "scale": 0.017578125,
-  "close": true
+  "linkStrength": 0.3,
+  "linkDistance": 500,
+  "scale": 1,
+  "close": false
 }
