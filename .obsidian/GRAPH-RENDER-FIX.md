@@ -1,8 +1,21 @@
 ---
+tags:
+  - #automation
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
 title: Graph Render Engine - Fix Performance
-tags: [obsidian, graph, performance, fix]
 created: 2025-11-21
 author: jakubc
+
+
+
+
+
+
 ---
 
 # 🎨 Graph Render Engine - Optymalizacja

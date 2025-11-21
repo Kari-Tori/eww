@@ -1,12 +1,16 @@
 ---
-title: Obsidian Git - Workflow Commitowania
 tags:
-  - config/obsidian
-  - git/workflow
-  - automation
-  - #candy
+  - #automation
+  - #eww
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
+  - #workflow
+title: Obsidian Git - Workflow Commitowania
 created: 2025-11-21
 author: jakubc
+
 ---
 
 # 🎯 Obsidian Git - Workflow Commitowania

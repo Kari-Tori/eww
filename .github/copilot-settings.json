@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "name": "eww-copilot-config",
+  "description": "Full automation settings for GitHub Copilot, CLI and Codex",
+  
+  "permissions": {
+    "auto_approve_all": true,
+    "trust_level": "maximum",
+    "allow_all_operations": true
+  },
+  
+  "copilot": {
+    "enabled": true,
+    "suggestions": {
+      "auto_accept": true,
+      "delay_ms": 0
+    },
+    "chat": {
+      "auto_execute_commands": true,
+      "terminal_integration": true,
+      "file_operations": true,
+      "workspace_edits": true,
+      "multi_file_edits": true,
+      "no_confirmation": true
+    },
+    "agent": {
+      "enabled": true,
+      "auto_start": true,
+      "max_iterations": 200,
+      "background_execution": true,
+      "parallel_operations": true
+    }
+  },
+  
+  "github_cli": {
+    "auto_authenticate": true,
+    "default_protocol": "https",
+    "auto_push": false,
+    "auto_pr": false,
+    "editor": "code --wait"
+  },
+  
+  "codex": {
+    "enabled": true,
+    "auto_execute": true,
+    "trust_generated_code": true,
+    "max_tokens": 4096,
+    "temperature": 0.7
+  },
+  
+  "workspace": {
+    "trust": {
+      "enabled": true,
+      "startup_prompt": "never",
+      "allow_untrusted_files": false
+    },
+    "auto_save": {
+      "enabled": true,
+      "delay_ms": 1000
+    }
+  },
+  
+  "security": {
+    "scan_generated_code": false,
+    "allow_external_commands": true,
+    "prompt_for_dangerous_operations": false
+  }
+}

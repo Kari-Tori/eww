@@ -1,6 +1,22 @@
 ---
-title: GitHub Copilot Instructions dla projektu eww
-description: TODO - uzupełnij opis.
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #git
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T22:00:00Z
+modified: 2025-11-21T22:00:00Z
+author: jakubc
+title: "GitHub Copilot Instructions dla projektu eww"
+
+
+
+
+
+
 ---
 
 # GitHub Copilot Instructions dla projektu eww

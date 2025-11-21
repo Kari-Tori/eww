@@ -1,8 +1,21 @@
 ---
+tags:
+  - #automation
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
 title: Jak naprawić Graph View "Too many to handle"
-tags: [obsidian, graph, fix, waypoint]
 date: 2025-11-21
 author: jakubc
+
+
+
+
+
+
 ---
 
 # 🔧 NAPRAWIONY: Graph View Limits
