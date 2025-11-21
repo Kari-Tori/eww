@@ -1,0 +1,80 @@
+---
+title: ⚙️ Makefile
+description: Główny plik automatyzacji zadań projektu EWW
+type: makefile-doc
+status: active
+tags:
+  - eww
+  - core
+  - makefile
+  - automation
+  - build
+author: jakubc
+created: 2025-11-21
+updated: 2025-11-21
+
+related:
+  - docs/EWW-MAP.md
+  - docs/MAKEFILE-GUIDE.md
+  - docs/GRAPH-SUMMARY.md
+  - docs/docs.md
+  - docs/governance/repo-live-contract.md
+backlinks:
+  - "[[EWW-MAP|🗺️ Repository Map]]"
+  - "[[README|📘 README]]"
+  - "[[docs/MAKEFILE-GUIDE|📚 Makefile Guide]]"
+---
+
+# ⚙️ Makefile
+
+> **Główny plik automatyzacji zadań projektu EWW**
+
+## 📋 Przeznaczenie
+
+Makefile zawiera wszystkie główne komendy automatyzujące pracę z projektem.
+
+## 🎯 Główne Targety
+
+### 📚 Dokumentacja
+```bash
+make readme          # Generuj README
+make changelog       # Generuj CHANGELOG
+make docs            # Generuj całą dokumentację
+```
+
+### ✅ Testy i Walidacja
+```bash
+make test            # Uruchom testy
+make lint            # Sprawdź kod
+make validate        # Waliduj strukturę
+```
+
+### 🧹 Czyszczenie
+```bash
+make clean           # Wyczyść pliki tymczasowe
+make clean-all       # Głębokie czyszczenie
+```
+
+### 🚀 Deployment
+```bash
+make install         # Instalacja
+make deploy          # Deploy
+```
+
+## 🔗 Powiązania
+
+**Z główną mapą**: [[EWW-MAP|🗺️ Repository Map]]  
+**Z dokumentacją**: [[docs/MAKEFILE-GUIDE|📚 Przewodnik]]  
+**Z README**: [[README|📘 README]]
+
+## 📊 Szczegóły
+
+Pełna dokumentacja wszystkich targetów: [[docs/MAKEFILE-GUIDE]]
+
+---
+
+**Lokalizacja**: `/Makefile`  
+**Ostatnia aktualizacja**: 2025-11-21  
+**Autor**: [[usr/jakubc/jakubc|Jakub C]]
+
+#eww #core #makefile #automation #build
