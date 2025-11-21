@@ -1,0 +1,46 @@
+---
+title: Trandoshanie
+created: 2025-11-19
+updated: 2025-11-21
+tags:
+  - starwars
+  - race
+  - trandoshan
+  - personal
+  - blue
+  - jakubc
+links:
+  - [[usr/jakubc/star_wars/races/races.md|Index ras]]
+  - [[usr/jakubc/star_wars/fractions/hutt_cartel.md|Kartel Huttów]]
+  - [[usr/jakubc/star_wars/fractions/galactic_republic.md|Republika]]
+color: blue
+---
+
+# 🔷 Trandoshanie
+
+> [!summary|icon:target|color:#52B788]
+> Reptyliańscy łowcy z planety Trandosha, wychowani w kulcie Scorekeerper i znani z polowań na Wookieech oraz kontraktów łowieckich jak Bossk.
+
+## 🧬 Dane biologiczne
+
+| Świat | Trandosha (Dosha) |
+| Cechy | Reptyliańska skóra łuskowata, pazury zdolne do regeneracji, oczy o pionowych źrenicach |
+| Metabolizm | Zmiennocieplny, szybka regeneracja kończyn |
+| Średnia wysokość | 1,9 m |
+
+## ⚔️ Kultura i społeczeństwo
+- Kult Scorekeepera: polowania dają punkty Jagannath, które wyznaczają status społeczny.
+- Klany łowieckie utrzymują areny treningowe (Wasskah, Wyspa Trandoshańska).
+- Tradycja niewolnictwa Wookieech, co prowadzi do starć z Republiką i Jedi.
+
+## 🎯 Rola w Wojnach Klonów
+- Wielu Trandoshan kontraktuje się jako łowcy nagród lub najemnicy (Bossk, Garnac).
+- Współpraca z CIS i Kartelami Huttów przy transportach niewolników i zleceniach.
+- Epizody z młodymi Jedi (Ahsoka, Kalifa) ukazują ich brutalne rytuały polowań.
+
+## 📺 Znani przedstawiciele
+- **Bossk** — elitarna zmora Wookieech, współpracuje z Aurra Sing i Bobą Fett.
+- **Garnac** — lider klanu, porywa młodzików Jedi.
+- **Sochek** — przedstawiciele straży Republiki pochodzący z rekrutacji kontraktowej.
+
+[[usr/jakubc/star_wars/races/races.md|← powrót do listy ras]]
