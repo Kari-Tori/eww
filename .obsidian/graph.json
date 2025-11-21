@@ -1,44 +1,58 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "-path:usr/jakubc/star_wars -path:archive",
   "showTags": true,
-  "showAttachments": true,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag: #secondbrain  ",
+      "query": "tag:#pink OR tag:#candy OR path:usr/karinam",
       "color": {
         "a": 1,
-        "rgb": 14701249
+        "rgb": 16761035
       }
     },
     {
-      "query": "tag: #bastion",
+      "query": "tag:#blue OR path:usr/jakubc",
       "color": {
         "a": 1,
-        "rgb": 15796524
+        "rgb": 5592575
       }
     },
     {
-      "query": "tag: #eww  ",
+      "query": "tag:#eww OR path:core OR path:config OR path:business",
       "color": {
         "a": 1,
         "rgb": 10809863
+      }
+    },
+    {
+      "query": "tag:#green OR path:docs",
+      "color": {
+        "a": 1,
+        "rgb": 5763719
+      }
+    },
+    {
+      "query": "tag:#folder-note",
+      "color": {
+        "a": 1,
+        "rgb": 14701249
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.04918437432926,
-  "lineSizeMultiplier": 1.0828396651642,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1.5,
   "collapse-forces": false,
-  "centerStrength": 0.151041666666667,
-  "repelStrength": 20,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.01171875,
+  "centerStrength": 0.3,
+  "repelStrength": 15,
+  "linkStrength": 0.7,
+  "linkDistance": 300,
+  "scale": 1,
   "close": false
 }

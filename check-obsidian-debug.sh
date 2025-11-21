@@ -1,25 +1,22 @@
 #!/usr/bin/env bash
-# Sprawdź logi Obsidiana i konfigurację graph
+# Sprawdź debug console Obsidiana
 
-echo "=== OBSIDIAN GRAPH CONFIG ==="
-if [[ -f .obsidian/graph.json ]]; then
-    cat .obsidian/graph.json | jq '.'
-else
-    echo "Brak graph.json"
-fi
-
+echo "=== INSTRUKCJA SPRAWDZENIA CONSOLE ==="
 echo ""
-echo "=== APP.JSON SETTINGS ==="
-if [[ -f .obsidian/app.json ]]; then
-    cat .obsidian/app.json | jq '.maxPreviewImageSize, .maxPreviewFileSize, .maxLinkSuggestionsSize'
-fi
-
+echo "1. W Obsidian naciśnij: Ctrl+Shift+I (lub Cmd+Option+I na Mac)"
+echo "2. Przejdź do zakładki 'Console'"
+echo "3. Spróbuj otworzyć Graph View"
+echo "4. Skopiuj WSZYSTKIE błędy/ostrzeżenia z console"
 echo ""
-echo "=== LICZBA PLIKÓW ==="
-find . -name "*.md" ! -path "./.obsidian/*" ! -path "./archive/*" | wc -l
-
+echo "Szukaj komunikatów typu:"
+echo "  - 'too many nodes'"
+echo "  - 'render timeout'"
+echo "  - 'memory'"
+echo "  - błędów JavaScript"
 echo ""
-echo "=== WORKSPACE ==="
-if [[ -f .obsidian/workspace.json ]]; then
-    cat .obsidian/workspace.json | jq '.active, .lastOpenFiles[0:5]'
-fi
+echo "=== TYMCZASOWE ROZWIĄZANIE ==="
+echo "Zmniejsz scope grapha używając search:"
+echo "  - path:core OR path:business (tylko 2 foldery)"
+echo "  - tag:#eww (tylko pliki z tym tagiem)"
+echo "  - -path:usr (wyklucz folder usr)"
+echo ""
