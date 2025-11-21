@@ -22,30 +22,55 @@ author: jakubc
 
 ## 🚀 Użycie
 
-### Automatyczny commit przy zamykaniu:
+### ✅ Automatyczny commit przy zamykaniu Obsidiana
 
+**Skonfigurowano:**
+- Plugin Obsidian Git z `commitOnClose: true`
+- Pre-commit hook dzieli commity na max **18 plików**
+- Backup tworzony automatycznie przy zamykaniu vaulta
+
+### 🔄 Git Hook - Automatyczne dzielenie
+
+**Lokalizacja:** `.githooks/pre-commit`
+
+**Działanie:**
 ```bash
-# W terminalu przed zamknięciem Obsidiana:
-~/.obsidian/scripts/auto-commit-on-close.sh
+# Jeśli staged > 18 plików:
+# → Automatycznie dzieli na chunki po ~18 plików
+# → Tworzy osobne commity dla każdego chunka
+# → Zapobiega przeciążeniu grafu (limit 255/20 nodes)
+
+# Przykład:
+git add .                 # 50 plików
+git commit -m "update"    # → 3 commity po 17-18 plików
 ```
 
-### Lub dodaj alias do `~/.bashrc`:
-
-```bash
-alias obsidian-commit='~/.obsidian/scripts/auto-commit-on-close.sh'
-alias oc='~/.obsidian/scripts/auto-commit-on-close.sh'
-```
-
-### Lub użyj Command Palette w Obsidian:
+### 📝 Ręczny commit (Command Palette):
 
 `Ctrl+P` → "Obsidian Git: Commit all changes"
 
-## 📊 Statystyki
+### 🛠️ Skrypt pomocniczy:
 
-- **Limit plików w jednym widoku grafu:** 18 (Extended Graph)
+```bash
+# Manualnie uruchom dzielenie commitów:
+.obsidian/scripts/commit-split.sh
+```
+
+## 📊 Statystyki i Limity
+
+- **Max plików/commit:** 18 (git pre-commit hook)
+- **Extended Graph nodes:** 255/500 (max 500)
+- **Graph view limit:** 20 (Obsidian core)
 - **Max Waypoints:** 20 (limit pluginu)
-- **Total Notes:** ~1200-1500
-- **Strategia:** Małe częste commity przy zamykaniu sesji
+- **Total Notes:** ~1500-2000
+- **Strategia:** Auto-commit przy zamykaniu + dzielenie na chunki
+
+## 🎯 Cel
+
+**Stabilny graf** bez przeciążenia:
+- Małe commity = lepszy performance grafu
+- Limit 18 plików = ~18 nodes/commit
+- Historia commitów = ładna wizualizacja w Extended Graph
 
 ## 🔗 Backlinks
 
