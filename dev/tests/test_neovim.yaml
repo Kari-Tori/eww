@@ -1,0 +1,81 @@
+---
+# Test YAML - Neovim LSP
+
+# 1. Basic structure
+name: test-workflow
+version: "1.0.0"
+description: Testing YAML LSP features
+
+# 2. Arrays
+tags:
+  - yaml
+  - neovim
+  - lsp
+  - test
+
+# 3. Objects
+metadata:
+  author: Nairecth
+  created: 2025-11-09
+  updated: 2025-11-09
+
+# 4. Multi-line strings
+long_description: |
+  This is a multi-line string
+  testing YAML language server
+  features in Neovim
+
+# 5. GitHub Actions test
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run tests
+        run: |
+          echo "Testing YAML"
+          bats dev/tests/
+
+# 6. Nested structures
+config:
+  editor:
+    fontSize: 14
+    tabSize: 2
+    insertSpaces: true
+  linting:
+    enabled: true
+    rules:
+      - rule1
+      - rule2
+  formatting:
+    enabled: true
+    formatOnSave: true
+
+# 7. Anchors and aliases
+defaults: &defaults
+  timeout: 30
+  retries: 3
+
+job1:
+  <<: *defaults
+  name: First Job
+
+job2:
+  <<: *defaults
+  name: Second Job
+
+# Checklist:
+# [ ] Schema validation działa
+# [ ] Autocomplete dla GitHub Actions
+# [ ] Syntax errors są wyświetlane
+# [ ] Indentation guide
+# [ ] YAML anchors highlighting
