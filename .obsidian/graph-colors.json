@@ -1,0 +1,13 @@
+{
+  "candy": "#FF6B9D",
+  "pink": "#FFB6C1",
+  "jakubc": "#0000CD",
+  "core": "#4169E1",
+  "docs": "#32CD32",
+  "business": "#FFD700",
+  "config": "#AA00FF",
+  "tools": "#FF8C00",
+  "scripts": "#00FFFF",
+  "dev": "#9ACD32",
+  "infrastructure": "#CC00CC"
+}

@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:karinam OR tag:#candy OR tag:#pink",
+      "color": {
+        "a": 1,
+        "rgb": 16711935
+      }
+    },
+    {
+      "query": "path:jakubc OR tag:#owner",
+      "color": {
+        "a": 1,
+        "rgb": 65535
+      }
+    },
+    {
+      "query": "tag:#core OR path:core",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 2,
+  "collapse-forces": false,
+  "centerStrength": 0.3,
+  "repelStrength": 12,
+  "linkStrength": 0.7,
+  "linkDistance": 180,
+  "scale": 0.5,
+  "close": false
+}
