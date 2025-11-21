@@ -1,58 +1,63 @@
 {
   "collapse-filter": false,
-  "search": "(path:core OR path:config OR path:business OR path:docs/getting-started OR path:docs/setup OR path:infra OR path:usr/jakubc/m18 OR path:usr/jakubc/health OR path:usr/jakubc/INDEX OR path:usr/jakubc/jakubc OR path:usr/karinam) -path:docs/tags -path:archive -path:Tags -path:usr/jakubc/star_wars -file:backlinks -file:tags.md",
+  "search": "",
+  "localBacklinks": true,
+  "localForelinks": true,
+  "localInterlinks": false,
+  "localJumps": 1,
+  "localDepth": 2,
   "showTags": true,
-  "showAttachments": true,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#pink OR tag:#candy OR path:usr/karinam",
+      "query": "tag:#jakubc",
       "color": {
         "a": 1,
-        "rgb": 16761035
+        "rgb": 5419488
       }
     },
     {
-      "query": "tag:#blue OR path:usr/jakubc",
+      "query": "tag:#karinam",
       "color": {
         "a": 1,
-        "rgb": 5592575
+        "rgb": 16744576
       }
     },
     {
-      "query": "tag:#eww OR path:core OR path:config OR path:business",
+      "query": "tag:#eww",
       "color": {
         "a": 1,
-        "rgb": 10809863
+        "rgb": 5395026
       }
     },
     {
-      "query": "tag:#green OR path:docs",
+      "query": "tag:#recycling",
       "color": {
         "a": 1,
-        "rgb": 5763719
+        "rgb": 5395026
       }
     },
     {
-      "query": "tag:#folder-note",
+      "query": "tag:#core",
       "color": {
         "a": 1,
-        "rgb": 14701249
+        "rgb": 14701138
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1,
+  "textFadeMultiplier": -0.5,
   "nodeSizeMultiplier": 1.2,
   "lineSizeMultiplier": 1.5,
   "collapse-forces": false,
-  "centerStrength": 0.3,
-  "repelStrength": 15,
+  "centerStrength": 0.45,
+  "repelStrength": 12,
   "linkStrength": 0.7,
-  "linkDistance": 300,
-  "scale": 0.03901844231062336,
+  "linkDistance": 180,
+  "scale": 0.8,
   "close": false
 }
