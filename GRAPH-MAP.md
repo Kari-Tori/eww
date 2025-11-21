@@ -1,0 +1,108 @@
+---
+tags:
+  - graph
+  - map
+  - overview
+  - navigation
+created: 2025-11-21
+author: jakubc
+cssclasses:
+  - graph-view
+  - dashboard
+---
+
+# 🗺️ GRAPH: Repository Map
+
+> **Graf wysokopoziomowy - tylko folder notes i główne węzły**
+
+## 📊 Ustawienia grafu
+
+```dataview
+TABLE file.folder as Folder, length(file.outlinks) as "Outlinks", length(file.inlinks) as "Backlinks"
+WHERE contains(file.name, file.folder) OR file.folder = ""
+SORT length(file.outlinks) DESC
+```
+
+## 🎯 Filtr Graph View
+
+Kliknij **Open Graph View** i ustaw:
+
+```
+(path:core/core OR path:business/business OR path:config/config OR path:infra/infra OR path:docs/docs OR path:usr/jakubc/jakubc OR path:usr/karinam/karinam) -path:archive -path:var/log
+```
+
+**Wynik**: Tylko folder notes + profile → **czytelna mapa** 🗺️
+
+## 🎨 Kolorowanie
+
+- 🔴 **Core** → `#core` (czerwony)
+- 🟡 **Business** → `#business` (żółty)
+- 🟢 **Config/Infra** → `#config` (zielony)
+- 🔵 **jakubc** → `#owner` (cyan)
+- 🩷 **karinam** → `#candy` (pink)
+
+## 📁 Główne węzły (folder notes)
+
+%% Begin Waypoint %%
+### 🔴 Core Components
+- [[core/core|core]]
+
+### 🟡 Business Logic
+- [[business/business|business]]
+
+### 🟢 Configuration
+- [[config/config|config]]
+- [[infra/infra|infra]]
+
+### 📚 Documentation
+- [[docs/docs|docs]]
+
+### 👥 Users
+- [[usr/jakubc/jakubc|jakubc]] 🔵
+- [[usr/karinam/karinam|karinam]] 🩷
+
+### 📜 Scripts & Tools
+- [[scripts/scripts|scripts]]
+- [[tools/tools|tools]]
+
+%% End Waypoint %%
+
+## 🔗 Nawigacja do szczegółowych grafów
+
+Kliknij na odpowiedni graf, żeby zobaczyć szczegóły:
+
+- [[GRAPH-CORE|🔴 Core Components Graph]]
+- [[GRAPH-BUSINESS|🟡 Business Logic Graph]]
+- [[GRAPH-CONFIG|�� Config & Infra Graph]]
+- [[GRAPH-USERS|👥 User Profiles Graph]]
+
+## 📈 Statystyki całkowite
+
+- **Folder notes**: ~10
+- **Głównych węzłów**: ~15
+- **Rendering**: < 0.2s ⚡
+- **Czytelność**: 100% 🎯
+
+## 🎛️ Zaawansowane
+
+### Local Graph
+Każda folder note ma **local graph** (depth: 2):
+- Pokazuje bezpośrednie połączenia
+- Szybki rendering
+- Kontekst lokalny
+
+### Git Graph
+Versioning i historia:
+```bash
+git log --all --graph --oneline --decorate
+```
+
+---
+
+**Instrukcja**: 
+1. Pin ten plik jako **Dashboard** 📌
+2. Otwórz Graph View → widzisz mapę całego repo
+3. Kliknij folder note → local graph szczegółów
+4. Kliknij link do GRAPH-XXX → szczegółowy graf sekcji
+
+**Perfect navigation system!** 🚀
