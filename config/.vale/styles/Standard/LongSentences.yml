@@ -1,0 +1,5 @@
+extends: substitution
+message: "Sugestia: zdanie wygląda na długie (powyżej ~140 znaków). Rozważ podział."
+level: suggestion
+scope: sentence
+match: '.{140,}'

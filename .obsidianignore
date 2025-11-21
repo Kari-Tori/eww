@@ -1,0 +1,39 @@
+# Obsidian ignore - wykluczenie z indeksowania i grafu
+
+# === ARCHIWA I BACKUPY ===
+archive/
+*.tar.gz
+*.zip
+*.backup.md
+*-conflict-*
+
+# === DUŻE FOLDERY DOKUMENTACJI ===
+docs/
+usr/
+var/
+
+# === CACHE I BUILD ===
+.yarn/
+node_modules/
+.venv/
+var/log/
+var/cache/
+
+# === KONFIGURACJA ===
+Tags/
+.git/
+.github/
+.vscode/
+.vale/
+.obsidian/plugins/
+.obsidian/themes/
+.obsidian/icons/
+
+# === DEVELOPERSKIE ===
+*/templates/
+*/bin/
+*/lib/
+*/tests/
+*/systemd/
+*/ansible/
+*/Playbooks/

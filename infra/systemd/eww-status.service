@@ -1,0 +1,5 @@
+[Unit]
+Description=EWW status
+[Service]
+Type=oneshot
+ExecStart=/git/eww/bin/eww-status

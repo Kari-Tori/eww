@@ -1,0 +1,5 @@
+extends: substitution
+message: "Uwaga: fraza 'Quick start' występuje wielokrotnie — rozważ zostawienie pojedynczego nagłówka."
+level: suggestion
+scope: paragraph
+match: '(?i)Quick start'

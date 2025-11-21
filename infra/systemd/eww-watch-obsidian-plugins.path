@@ -1,0 +1,13 @@
+[Unit]
+Description=EWW: monitoruj katalog .obsidian/plugins i uruchom aktualizację docs
+
+[Path]
+# Monitoruj zmiany plików w katalogu w vault w katalogu domowym użytkownika
+PathExistsGlob=%h/Obsidian/code/.obsidian/plugins/*
+# Dodatkowo wykrywaj modyfikacje samego katalogu
+PathModified=%h/Obsidian/code/.obsidian/plugins
+
+Unit=eww-watch-obsidian-plugins.service
+
+[Install]
+WantedBy=default.target

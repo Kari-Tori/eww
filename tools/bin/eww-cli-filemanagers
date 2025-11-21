@@ -1,0 +1,250 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Skrypt: zarządzanie menedżerami plików CLI dla eww
+# Funkcje:
+#   - lista wspieranych narzędzi
+#   - instalacja pakietów przez apt-get
+#   - bezpośrednie uruchamianie wybranego menedżera
+# Użycie:
+#   ./bin/eww-cli-filemanagers list
+#   ./bin/eww-cli-filemanagers install <nazwa>
+#   ./bin/eww-cli-filemanagers info <nazwa>
+#   ./bin/eww-cli-filemanagers launch <nazwa> [argumenty]
+
+eww::log() { printf '[EWW CLI-FM] %s\n' "$*"; }
+eww::err() { printf '[EWW CLI-FM][BŁĄD] %s\n' "$*" >&2; }
+
+readonly -a SUPPORTED_MANAGERS=(
+  "ranger"
+  "nnn"
+  "lf"
+  "mc"
+  "broot"
+)
+
+usage() {
+  cat <<'EOF'
+Użycie: eww-cli-filemanagers <polecenie> [argumenty]
+
+Polecenia:
+  list                         Wypisz wspierane menedżery i status instalacji
+  install <nazwa>              Zainstaluj wskazany menedżer (apt-get install)
+  info <nazwa>                 Opis narzędzia oraz skrócone wskazówki
+  launch <nazwa> [argumenty]   Uruchom zainstalowany menedżer (przekazuje dodatkowe argumenty)
+
+Obsługiwane nazwy: ranger, nnn, lf, mc, broot
+EOF
+}
+
+manager_supported() {
+  local target="$1"
+  for name in "${SUPPORTED_MANAGERS[@]}"; do
+    if [[ "$name" == "$target" ]]; then
+      return 0
+    fi
+  done
+  return 1
+}
+
+manager_description() {
+  case "$1" in
+    ranger)
+      printf 'Dwupanelowy interfejs tekstowy inspirowany vimem, obsługuje tablice, zakładki i podgląd plików.\n'
+      ;;
+    nnn)
+      printf 'Ekstremalnie lekki eksplorator z trybem pluginów, szybkim wyszukiwaniem i integracją cp/mv.\n'
+      ;;
+    lf)
+      printf 'Minimalistyczny interfejs (List Files) z mapowaniami w stylu ranger, bez zależności Pythona.\n'
+      ;;
+    mc)
+      printf 'Midnight Commander – klasyczny dwupanelowy menedżer z klawiszami funkcyjnymi i podglądem hex.\n'
+      ;;
+    broot)
+      printf 'Drzewiasty widok katalogów z filtrowaniem fuzzy i szybkim przeskakiwaniem do katalogów.\n'
+      ;;
+    *)
+      printf 'Brak opisu dla %s\n' "$1"
+      ;;
+  esac
+}
+
+command_installed() {
+  command -v "$1" >/dev/null 2>&1
+}
+
+require_apt() {
+  if ! command -v apt-get >/dev/null 2>&1; then
+    eww::err "Brak apt-get w systemie – nie mogę zainstalować pakietów."
+    exit 1
+  fi
+}
+
+run_privileged() {
+  if [[ $EUID -eq 0 ]]; then
+    "$@"
+    return
+  fi
+
+  if command -v sudo >/dev/null 2>&1; then
+    sudo "$@"
+    return
+  fi
+
+  eww::err "Polecenie wymaga uprawnień administratora lub polecenia sudo."
+  exit 1
+}
+
+apt_install() {
+  local pkg="$1"
+  require_apt
+  eww::log "Instaluję pakiet: $pkg"
+  run_privileged apt-get install -y "$pkg"
+}
+
+install_manager() {
+  local manager="$1"
+
+  if command_installed "$manager"; then
+    eww::log "$manager jest już zainstalowany."
+    return 0
+  fi
+
+  local pkg="$manager"
+  case "$manager" in
+    mc)
+      pkg="mc"
+      ;;
+    *)
+      pkg="$manager"
+      ;;
+  esac
+
+  apt_install "$pkg"
+  eww::log "Zainstalowano $manager (pakiet: $pkg)."
+}
+
+list_managers() {
+  printf '%-8s %-14s %s\n' 'Nazwa' 'Status' 'Opis'
+  printf '%-8s %-14s %s\n' '-----' '------' '----'
+  for manager in "${SUPPORTED_MANAGERS[@]}"; do
+    local status="brak"
+    if command_installed "$manager"; then
+      status="zainstalowany"
+    fi
+    printf '%-8s %-14s %s\n' \
+      "$manager" \
+      "$status" \
+      "$(manager_description "$manager")"
+  done
+}
+
+show_info() {
+  local manager="$1"
+  eww::log "Opis narzędzia: $manager"
+  manager_description "$manager"
+  if command_installed "$manager"; then
+    eww::log "Status: zainstalowany"
+  else
+    eww::log "Status: nie znaleziono w \$PATH"
+  fi
+  printf '\nSzybkie skróty:\n'
+  case "$manager" in
+    ranger)
+      printf '  gg/G – początek/koniec listy, dd – przenieś, yy – kopiuj, zh – ukryte pliki\n'
+      ;;
+    nnn)
+      printf '  Tab – przełącz panele, Space – zaznacz, ! – terminal, : – pluginy\n'
+      ;;
+    lf)
+      printf '  g/G – początek/koniec, y/d – kopiuj/przenieś, . – ukryte pliki, :cmd – polecenia\n'
+      ;;
+    mc)
+      printf '  F5 – kopiuj, F6 – przenieś, F7 – nowy katalog, F8 – usuń\n'
+      ;;
+    broot)
+      printf '  :filter – filtrowanie, Ctrl+S – zapisz skrót, Enter – wejście, Alt+Enter – otwarcie w powłoce\n'
+      ;;
+  esac
+}
+
+launch_manager() {
+  local manager="$1"
+  shift || true
+
+  if ! command_installed "$manager"; then
+    eww::err "$manager nie jest zainstalowany. Użyj: eww-cli-filemanagers install $manager"
+    exit 1
+  fi
+
+  eww::log "Uruchamiam $manager..."
+  exec "$manager" "$@"
+}
+
+main() {
+  local command="${1:-}"
+  if [[ -z "$command" ]]; then
+    usage
+    exit 1
+  fi
+
+  case "$command" in
+    list)
+      list_managers
+      ;;
+    install)
+      local manager="${2:-}"
+      if [[ -z "$manager" ]]; then
+        eww::err "Podaj nazwę menedżera do instalacji."
+        usage
+        exit 1
+      fi
+      if ! manager_supported "$manager"; then
+        eww::err "Nieznany menedżer: $manager"
+        usage
+        exit 1
+      fi
+      install_manager "$manager"
+      ;;
+    info)
+      local manager="${2:-}"
+      if [[ -z "$manager" ]]; then
+        eww::err "Podaj nazwę menedżera."
+        usage
+        exit 1
+      fi
+      if ! manager_supported "$manager"; then
+        eww::err "Nieznany menedżer: $manager"
+        usage
+        exit 1
+      fi
+      show_info "$manager"
+      ;;
+    launch)
+      local manager="${2:-}"
+      if [[ -z "$manager" ]]; then
+        eww::err "Podaj nazwę menedżera do uruchomienia."
+        usage
+        exit 1
+      fi
+      if ! manager_supported "$manager"; then
+        eww::err "Nieznany menedżer: $manager"
+        usage
+        exit 1
+      fi
+      shift 2
+      launch_manager "$manager" "$@"
+      ;;
+    help|-h|--help)
+      usage
+      ;;
+    *)
+      eww::err "Nieznane polecenie: $command"
+      usage
+      exit 1
+      ;;
+  esac
+}
+
+main "$@"

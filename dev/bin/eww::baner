@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+# doładuj init jeśli funkcji brak
+declare -F eww_banner >/dev/null 2>&1 || { INIT="/git/eww/projects/init/init-eww.sh"; # shellcheck source=/git/eww/projects/init/init-eww.sh
+# shellcheck source=/git/eww/projects/init/init-eww.sh
+[[ -r "$INIT" ]] && . "$INIT"; }
+declare -F eww_banner >/dev/null 2>&1 && eww_banner "$@"

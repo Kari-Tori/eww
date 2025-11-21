@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=EWW Style Installer
+Comment=Zastosuj pakiet stylistyczny E‑Waste Workshop
+Exec=sh -c 'cd "$(dirname %k)"/.. && ./EWW_Style/eww-style'
+Icon=preferences-desktop-theme
+Terminal=true
+Categories=Settings;Utility;

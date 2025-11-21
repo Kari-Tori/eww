@@ -1,0 +1,44 @@
+{
+"folders": [
+{
+"path": "/home/jakubc/git/eww",
+"name": "EWW - E-Waste Workshop"
+}
+],
+"settings": {
+"files.exclude": {
+"**/.git": true,
+"**/node_modules": true,
+"**/.obsidian/plugins": true,
+"**/.obsidian/icons": true,
+"**/usr/*/workspace": true
+},
+"search.exclude": {
+"**/node_modules": true,
+"**/.obsidian/plugins": true,
+"**/archive/old-vaults": true,
+"**/usr/karinam/Archives": true
+},
+"files.associations": {
+"*.sh": "shellscript",
+"*.bats": "shellscript",
+"Makefile": "makefile"
+},
+"terminal.integrated.defaultProfile.linux": "bash",
+"terminal.integrated.cwd": "/home/jakubc/git/eww",
+"shellcheck.enable": true,
+"shellcheck.executablePath": "/usr/bin/shellcheck"
+},
+"extensions": {
+"recommendations": [
+"timonwong.shellcheck",
+"foxundermoon.shell-format",
+"rogalmic.bash-debug",
+"mads-hartmann.bash-ide-vscode"
+]
+},
+"launch": {
+"version": "0.2.0",
+"configurations": []
+}
+}

@@ -1,0 +1,285 @@
+#!/usr/bin/env bash
+# eww-changelog - Generator changelogu z commitów Git
+# Parsuje commity używając Conventional Commits i generuje changelog
+
+set -euo pipefail
+
+# Kolory dla outputu
+readonly RED='\033[0;31m'
+readonly GREEN='\033[0;32m'
+readonly YELLOW='\033[1;33m'
+readonly BLUE='\033[0;34m'
+readonly NC='\033[0m' # No Color
+
+# Katalog główny projektu
+EWW_ROOT="${EWW_ROOT:-$(git rev-parse --show-toplevel 2>/dev/null || pwd)}"
+CHANGELOG_FILE="${EWW_ROOT}/CHANGELOG.md"
+VERSION_FILE="${EWW_ROOT}/VERSION"
+
+# Mapowanie typów commitów na kategorie changelog
+declare -A COMMIT_TYPE_MAP=(
+    ["feat"]="Added"
+    ["add"]="Added"
+    ["fix"]="Fixed"
+    ["docs"]="Documentation"
+    ["style"]="Changed"
+    ["refactor"]="Changed"
+    ["perf"]="Changed"
+    ["test"]="Testing"
+    ["chore"]="Maintenance"
+    ["build"]="Build"
+    ["ci"]="CI/CD"
+    ["revert"]="Reverted"
+    ["security"]="Security"
+    ["deprecate"]="Deprecated"
+    ["remove"]="Removed"
+)
+
+log_info() {
+    echo -e "${BLUE}ℹ${NC} $*" >&2
+}
+
+log_success() {
+    echo -e "${GREEN}✓${NC} $*" >&2
+}
+
+log_warn() {
+    echo -e "${YELLOW}⚠${NC} $*" >&2
+}
+
+log_error() {
+    echo -e "${RED}✗${NC} $*" >&2
+}
+
+usage() {
+    cat <<EOF
+Użycie: eww-changelog [OPCJE]
+
+Generator changelogu z commitów Git używając Conventional Commits.
+
+OPCJE:
+    -h, --help              Wyświetl tę pomoc
+    -f, --from TAG          Tag początkowy (domyślnie: ostatni tag)
+    -t, --to TAG            Tag końcowy (domyślnie: HEAD)
+    -o, --output FILE       Plik wyjściowy (domyślnie: CHANGELOG.md)
+    -v, --version VERSION   Numer wersji dla wpisu
+    -d, --dry-run           Tylko wyświetl, nie zapisuj
+    --unreleased            Generuj wpis dla sekcji [Unreleased]
+
+PRZYKŁADY:
+    # Generuj changelog dla unreleased commitów
+    eww-changelog --unreleased
+
+    # Generuj changelog dla nowej wersji
+    eww-changelog --version 0.0.0.4
+
+    # Generuj changelog między tagami
+    eww-changelog --from v0.0.0.3 --to HEAD
+EOF
+}
+
+# Parsuj commit message zgodnie z Conventional Commits
+parse_commit() {
+	local commit_msg="$1"
+	local commit_hash="$2"
+	local pattern='^([a-z]+)(\(([^)]+)\))?:[[:space:]](.+)$'
+	
+	# Format: type(scope): message
+	if [[ $commit_msg =~ $pattern ]]; then
+		local type="${BASH_REMATCH[1]}"
+		local scope="${BASH_REMATCH[3]}"
+		local message="${BASH_REMATCH[4]}"
+		
+		# Mapuj typ na kategorię
+		local category="${COMMIT_TYPE_MAP[$type]:-Other}"
+		
+		# Formatuj wiadomość
+        if [[ -n $scope ]]; then
+            echo "${category}|**${scope}**: ${message} (${commit_hash:0:7})"
+        else
+            echo "${category}|${message} (${commit_hash:0:7})"
+        fi
+    else
+        # Jeśli nie pasuje do Conventional Commits, daj do Other
+        echo "Other|${commit_msg} (${commit_hash:0:7})"
+    fi
+}
+
+# Pobierz commity między tagami
+get_commits() {
+    local from="${1:-}"
+    local to="${2:-HEAD}"
+    
+    if [[ -z $from ]]; then
+        # Znajdź ostatni tag
+        from=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+    fi
+    
+    if [[ -z $from ]]; then
+        log_warn "Brak tagów, używam wszystkich commitów"
+        git log --pretty=format:"%H|%s" "$to"
+    else
+        log_info "Generuję changelog: ${from}..${to}"
+        git log --pretty=format:"%H|%s" "${from}..${to}"
+    fi
+}
+
+# Generuj wpis changelog
+generate_changelog_entry() {
+    local version="$1"
+    local date="$2"
+    local commits="$3"
+    
+    declare -A categories
+    
+    # Parsuj wszystkie commity
+    while IFS='|' read -r hash message; do
+        local parsed=$(parse_commit "$message" "$hash")
+        local category=$(echo "$parsed" | cut -d'|' -f1)
+        local entry=$(echo "$parsed" | cut -d'|' -f2-)
+        
+        if [[ -z ${categories[$category]:-} ]]; then
+            categories[$category]="$entry"
+        else
+            categories[$category]="${categories[$category]}"$'\n'"$entry"
+        fi
+    done <<< "$commits"
+    
+    # Generuj output
+    echo ""
+    echo "## [$version] - $date"
+    echo ""
+    
+    # Kolejność kategorii
+    local ordered_categories=("Added" "Changed" "Fixed" "Security" "Deprecated" "Removed" "Documentation" "Testing" "Build" "CI/CD" "Maintenance" "Reverted" "Other")
+    
+    for cat in "${ordered_categories[@]}"; do
+        if [[ -n ${categories[$cat]:-} ]]; then
+            echo "### $cat"
+            echo ""
+            while IFS= read -r line; do
+                echo "- $line"
+            done <<< "${categories[$cat]}"
+            echo ""
+        fi
+    done
+}
+
+# Wstaw wpis do CHANGELOG.md
+insert_into_changelog() {
+    local entry="$1"
+    local changelog_file="$2"
+    
+    if [[ ! -f $changelog_file ]]; then
+        log_error "Plik $changelog_file nie istnieje!"
+        return 1
+    fi
+    
+    # Znajdź linię z [Unreleased] i wstaw po niej
+    local tmp_file=$(mktemp)
+    local inserted=false
+    
+    while IFS= read -r line; do
+        echo "$line"
+        if [[ $line == "## [Unreleased]" ]]; then
+            echo "$entry"
+            inserted=true
+        fi
+    done < "$changelog_file" > "$tmp_file"
+    
+    if [[ $inserted == true ]]; then
+        mv "$tmp_file" "$changelog_file"
+        log_success "Zaktualizowano $changelog_file"
+    else
+        rm "$tmp_file"
+        log_error "Nie znaleziono sekcji [Unreleased] w $changelog_file"
+        return 1
+    fi
+}
+
+# Main
+main() {
+    local from_tag=""
+    local to_tag="HEAD"
+    local output_file="$CHANGELOG_FILE"
+    local version=""
+    local dry_run=false
+    local unreleased=false
+    
+    # Parsuj argumenty
+    while [[ $# -gt 0 ]]; do
+        case $1 in
+            -h|--help)
+                usage
+                exit 0
+                ;;
+            -f|--from)
+                from_tag="$2"
+                shift 2
+                ;;
+            -t|--to)
+                to_tag="$2"
+                shift 2
+                ;;
+            -o|--output)
+                output_file="$2"
+                shift 2
+                ;;
+            -v|--version)
+                version="$2"
+                shift 2
+                ;;
+            -d|--dry-run)
+                dry_run=true
+                shift
+                ;;
+            --unreleased)
+                unreleased=true
+                shift
+                ;;
+            *)
+                log_error "Nieznana opcja: $1"
+                usage
+                exit 1
+                ;;
+        esac
+    done
+    
+    # Jeśli nie podano wersji, weź z pliku VERSION
+    if [[ -z $version ]] && [[ $unreleased == false ]]; then
+        if [[ -f $VERSION_FILE ]]; then
+            version=$(cat "$VERSION_FILE" | tr -d '[:space:]')
+            log_info "Użyto wersji z $VERSION_FILE: $version"
+        else
+            log_error "Brak pliku VERSION i nie podano --version"
+            exit 1
+        fi
+    fi
+    
+    # Pobierz commity
+    local commits=$(get_commits "$from_tag" "$to_tag")
+    
+    if [[ -z $commits ]]; then
+        log_warn "Brak nowych commitów"
+        exit 0
+    fi
+    
+    # Generuj wpis
+    local date=$(date +%Y-%m-%d)
+    local entry
+    
+    if [[ $unreleased == true ]]; then
+        entry=$(generate_changelog_entry "Unreleased" "$date" "$commits")
+    else
+        entry=$(generate_changelog_entry "$version" "$date" "$commits")
+    fi
+    
+    # Wyświetl lub zapisz
+    if [[ $dry_run == true ]]; then
+        echo "$entry"
+    else
+        insert_into_changelog "$entry" "$output_file"
+    fi
+}
+
+main "$@"

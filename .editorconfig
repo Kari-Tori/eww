@@ -1,0 +1,51 @@
+# EditorConfig - https://editorconfig.org
+# Ustawienia formatowania dla różnych edytorów
+
+root = true
+
+# Domyślne ustawienia dla wszystkich plików
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = tab
+indent_size = 4
+
+# Markdown - zachowaj trailing spaces (dla line breaks)
+[*.md]
+trim_trailing_whitespace = false
+
+# YAML, JSON - 2 spacje
+[*.{yml,yaml,json}]
+indent_style = space
+indent_size = 2
+
+# Bash scripts - 4 spacje lub taby
+[*.{sh,bash}]
+indent_style = tab
+indent_size = 4
+
+# Makefile - wymagane taby
+[Makefile]
+indent_style = tab
+
+# Python - 4 spacje (PEP 8)
+[*.py]
+indent_style = space
+indent_size = 4
+
+# JavaScript, TypeScript - 2 spacje
+[*.{js,ts,jsx,tsx}]
+indent_style = space
+indent_size = 2
+
+# HTML, CSS - 2 spacje
+[*.{html,css,scss}]
+indent_style = space
+indent_size = 2
+
+# Config files - 2 spacje
+[*.{toml,ini,cfg}]
+indent_style = space
+indent_size = 2

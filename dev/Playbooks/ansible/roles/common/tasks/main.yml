@@ -1,0 +1,13 @@
+---
+# Example base tasks
+- name: Update apt cache
+  apt:
+    update_cache: yes
+  when: ansible_facts['os_family'] == 'Debian'
+
+- name: Ensure curl and jq
+  package:
+    name:
+      - curl
+      - jq
+    state: present

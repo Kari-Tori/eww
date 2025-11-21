@@ -1,0 +1,381 @@
+#!/usr/bin/env bash
+# eww-frontmatter - Dodaje/aktualizuje YAML frontmatter w plikach Markdown
+set -euo pipefail
+
+# Bezpieczne określenie katalogu projektu
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)" || exit 1
+readonly SCRIPT_DIR
+
+readonly GREEN='\033[0;32m'
+readonly BLUE='\033[0;34m'
+readonly YELLOW='\033[1;33m'
+readonly RED='\033[0;31m'
+readonly NC='\033[0m'
+
+# Pokaż użycie
+usage() {
+    cat <<EOF
+Użycie: eww-frontmatter [OPCJE] PLIK
+
+Dodaje lub aktualizuje YAML frontmatter w pliku Markdown
+
+OPCJE:
+    -h, --help          Pokaż pomoc
+    -t, --type TYPE     Typ dokumentu (readme|index|changelog|guide|wiki)
+    -d, --description   Opis dokumentu
+    -v, --version       Wersja (domyślnie z VERSION)
+    --dry-run           Podgląd bez zapisu
+    --auto              Automatyczne wykrycie typu
+
+PRZYKŁADY:
+    eww-frontmatter README.md
+    eww-frontmatter --type guide docs/przewodnik.md
+    eww-frontmatter --auto lib/README.md
+
+EOF
+}
+
+# Pobierz wersję projektu
+get_version() {
+	local version_file="${SCRIPT_DIR}/VERSION"
+	if [[ -f "$version_file" ]]; then
+		tr -d '[:space:]' < "$version_file"
+	else
+		echo "0.0.0.0"
+	fi
+}
+
+# Wykryj typ dokumentu na podstawie nazwy pliku
+detect_type() {
+    local file="$1"
+    local basename
+    basename=$(basename "$file")
+    
+    case "$basename" in
+        README.md|readme.md)
+            echo "readme"
+            ;;
+        INDEX.md|index.md)
+            echo "index"
+            ;;
+        CHANGELOG.md|changelog.md)
+            echo "changelog"
+            ;;
+        AGENTS.md)
+            echo "ai-context"
+            ;;
+        MVP.md)
+            echo "specification"
+            ;;
+        *)
+            # Sprawdź katalog
+            local dir
+            dir=$(dirname "$file")
+            if [[ "$dir" == *"guide"* ]]; then
+                echo "guide"
+            elif [[ "$dir" == *"wiki"* ]]; then
+                echo "wiki"
+            else
+                echo "document"
+            fi
+            ;;
+    esac
+}
+
+# Generuj YAML frontmatter
+# Argumenty:
+#   $1 - plik
+#   $2 - typ (opcjonalnie)
+#   $3 - opis (opcjonalnie)
+generate_frontmatter() {
+    local file="$1"
+    local type="${2:-}"
+    local description="${3:-}"
+    local version
+    version=$(get_version)
+    
+    # Auto-detect typu jeśli nie podano
+    [[ -z "$type" ]] && type=$(detect_type "$file")
+    
+    # Pobierz tytuł z pierwszego nagłówka
+    local title=""
+    if [[ -f "$file" ]]; then
+        title=$(grep -m 1 "^# " "$file" | sed 's/^# //' || echo "")
+    fi
+    [[ -z "$title" ]] && title=$(basename "$file" .md)
+    
+    # Generuj frontmatter w zależności od typu
+    case "$type" in
+        readme)
+            cat <<YAML
+---
+title: $title
+description: ${description:-Kompletna dokumentacja projektu}
+version: $version
+author: Nairecth
+repository: https://github.com/Nairecth/eww
+type: readme
+category: documentation
+audience: developers
+language: pl
+platform: Kubuntu 24.04 LTS
+requires:
+  - bash >= 5.1
+  - git
+tags:
+  - bash
+  - documentation
+created: $(date +%Y-%m-%d)
+updated: $(date +%Y-%m-%d)
+license: MIT
+status: stable
+---
+YAML
+            ;;
+        index)
+            cat <<YAML
+---
+title: $title
+description: ${description:-Automatycznie generowany indeks projektu}
+version: $version
+generator: ./dev/bin/eww-index
+source: .filedesc
+type: index
+category: documentation
+auto-generated: true
+tags:
+  - index
+  - file-descriptions
+updated: $(date +%Y-%m-%d)
+---
+YAML
+            ;;
+        changelog)
+            cat <<YAML
+---
+title: $title
+description: ${description:-Historia zmian projektu}
+version: $version
+format: Keep a Changelog
+versioning: Semantic Versioning
+type: changelog
+category: documentation
+generator: ./dev/bin/eww-changelog
+tags:
+  - changelog
+  - history
+  - releases
+updated: $(date +%Y-%m-%d)
+---
+YAML
+            ;;
+        guide)
+            cat <<YAML
+---
+title: $title
+description: ${description:-Przewodnik}
+version: $version
+type: guide
+category: documentation
+difficulty: beginner
+estimated-time: 10 minutes
+tags:
+  - guide
+  - tutorial
+language: pl
+created: $(date +%Y-%m-%d)
+updated: $(date +%Y-%m-%d)
+---
+YAML
+            ;;
+        wiki)
+            cat <<YAML
+---
+title: $title
+description: ${description:-Artykuł wiki}
+type: wiki
+category: setup
+platform: Kubuntu 24.04
+tags:
+  - wiki
+  - setup
+language: pl
+created: $(date +%Y-%m-%d)
+updated: $(date +%Y-%m-%d)
+---
+YAML
+            ;;
+        ai-context)
+            cat <<YAML
+---
+title: $title
+description: ${description:-Kontekst dla AI coding agents}
+version: $version
+audience: AI coding agents
+type: ai-context
+category: documentation
+tags:
+  - ai
+  - context
+  - architecture
+language: pl
+created: $(date +%Y-%m-%d)
+updated: $(date +%Y-%m-%d)
+---
+YAML
+            ;;
+        specification)
+            cat <<YAML
+---
+title: $title
+description: ${description:-Specyfikacja}
+version: $version
+type: specification
+category: project-management
+tags:
+  - mvp
+  - specification
+language: pl
+created: $(date +%Y-%m-%d)
+updated: $(date +%Y-%m-%d)
+---
+YAML
+            ;;
+        *)
+            cat <<YAML
+---
+title: $title
+description: ${description:-Dokument}
+type: document
+category: documentation
+tags:
+  - document
+language: pl
+created: $(date +%Y-%m-%d)
+updated: $(date +%Y-%m-%d)
+---
+YAML
+            ;;
+    esac
+}
+
+# Sprawdź czy plik ma już frontmatter
+has_frontmatter() {
+    local file="$1"
+    [[ -f "$file" ]] && head -1 "$file" | grep -q "^---$"
+}
+
+# Dodaj frontmatter do pliku
+# Argumenty:
+#   $1 - plik
+#   $2 - typ
+#   $3 - opis
+#   $4 - dry-run (0/1)
+add_frontmatter() {
+    local file="$1"
+    local type="$2"
+    local description="$3"
+    local dry_run="${4:-0}"
+    
+    if [[ ! -f "$file" ]]; then
+        echo -e "${RED}[ERROR]${NC} Plik nie istnieje: $file" >&2
+        return 1
+    fi
+    
+    if has_frontmatter "$file"; then
+        echo -e "${YELLOW}[WARN]${NC} Plik już ma frontmatter: $file"
+        echo "Użyj --update aby zaktualizować"
+        return 0
+    fi
+    
+    local frontmatter
+    frontmatter=$(generate_frontmatter "$file" "$type" "$description")
+    
+    if [[ "$dry_run" -eq 1 ]]; then
+        echo -e "${BLUE}[DRY-RUN]${NC} Frontmatter dla: $file"
+        echo "$frontmatter"
+        echo ""
+        echo "--- Początek pliku ---"
+        head -10 "$file"
+        return 0
+    fi
+    
+    # Backup
+    cp "$file" "${file}.bak"
+    
+    # Dodaj frontmatter
+    {
+        echo "$frontmatter"
+        echo ""
+        cat "$file"
+    } > "${file}.tmp"
+    
+    mv "${file}.tmp" "$file"
+    rm -f "${file}.bak"
+    
+    echo -e "${GREEN}[OK]${NC} Dodano frontmatter do: $file"
+}
+
+# Main
+main() {
+    local file=""
+    local type=""
+    local description=""
+    local dry_run=0
+    local auto_detect=0
+    
+    # Parsowanie argumentów
+    while [[ $# -gt 0 ]]; do
+        case "$1" in
+            -h|--help)
+                usage
+                exit 0
+                ;;
+            -t|--type)
+                type="$2"
+                shift 2
+                ;;
+            -d|--description)
+                description="$2"
+                shift 2
+                ;;
+            -v|--version)
+                echo "eww-frontmatter $(get_version)"
+                exit 0
+                ;;
+            --dry-run)
+                dry_run=1
+                shift
+                ;;
+            --auto)
+                auto_detect=1
+                shift
+                ;;
+            -*)
+                echo "Nieznana opcja: $1" >&2
+                usage
+                exit 1
+                ;;
+            *)
+                file="$1"
+                shift
+                ;;
+        esac
+    done
+    
+    if [[ -z "$file" ]]; then
+        echo "Brak pliku. Użyj: eww-frontmatter PLIK" >&2
+        usage
+        exit 1
+    fi
+    
+    # Auto-detect typu
+    if [[ "$auto_detect" -eq 1 || -z "$type" ]]; then
+        type=$(detect_type "$file")
+        echo -e "${BLUE}[INFO]${NC} Wykryto typ: $type"
+    fi
+    
+    add_frontmatter "$file" "$type" "$description" "$dry_run"
+}
+
+main "$@"

@@ -1,0 +1,7 @@
+---
+- name: EWW base play
+  hosts: all
+  become: true
+  gather_facts: true
+  roles:
+    - common

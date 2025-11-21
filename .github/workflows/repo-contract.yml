@@ -1,0 +1,44 @@
+name: Repo Contract
+on:
+  push:
+  schedule:
+    - cron: "0 3 * * *"  # codziennie 03:00 UTC
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+      # gh jest preinstalowany na GitHub-hosted runnerach; wymagany jest GH_TOKEN. :contentReference[oaicite:1]{index=1}
+      - name: Metrics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RC_REPO_DISK_WARN_MB: 500
+          RC_REPO_DISK_BLOCK_MB: 1024
+          RC_BLOB_WARN_MB: 25
+          RC_BLOB_BLOCK_MB: 100
+          RC_RELEASE_ASSET_BLOCK_GIB: 2
+          RC_LFS_WARN_GB: 8
+          RC_LFS_BLOCK_GB: 10
+        run: |
+          bash tools/repo-metrics.sh > repo-metrics.json
+          cat repo-metrics.json | jq '.sizes'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: repo-metrics
+          path: repo-metrics.json
+      - name: Enforce thresholds
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RC_REPO_DISK_WARN_MB: 500
+          RC_REPO_DISK_BLOCK_MB: 1024
+          RC_BLOB_WARN_MB: 25
+          RC_BLOB_BLOCK_MB: 100
+          RC_RELEASE_ASSET_BLOCK_GIB: 2
+          RC_LFS_WARN_GB: 8
+          RC_LFS_BLOCK_GB: 10
+        run: bash tools/repo-metrics.sh --check

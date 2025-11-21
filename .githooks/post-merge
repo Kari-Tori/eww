@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || exit 0)"
+cd "$REPO_ROOT" || exit 0
+if [[ "${AUTO_RELEASE:-0}" -eq 1 && -x scripts/semver_auto.sh ]]; then
+  scripts/semver_auto.sh --if-main || true
+fi

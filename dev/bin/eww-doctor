@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+fail(){ echo "FAIL: $*"; exit 1; }
+pass(){ echo "PASS: $*"; }
+
+out="$(EWW_CD_ROOT=1 bash -ic 'source ~/.bashrc; echo PWD:$PWD; type -t eww_banner')"
+echo "$out" | grep -q 'PWD:/git/eww' || fail "nie wchodzi do /git/eww"
+echo "$out" | tail -1 | grep -qx 'function' || fail "funkcja eww_banner niedostępna"
+EWW_CD_ROOT=1 bash -ic 'source ~/.bashrc >/dev/null; eww_banner >/dev/null' || fail "wywołanie eww_banner"
+pass "wszystko OK"
