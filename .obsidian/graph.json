@@ -1,0 +1,72 @@
+{
+  "collapse-filter": true,
+  "search": "-path:archive -path:Tags -path:.obsidian -path:var/log -path:.trash -path:.git",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:karinam OR tag:#candy OR tag:#pink",
+      "color": {
+        "a": 1,
+        "rgb": 16711935
+      }
+    },
+    {
+      "query": "path:jakubc OR tag:#owner OR tag:#eww",
+      "color": {
+        "a": 1,
+        "rgb": 65535
+      }
+    },
+    {
+      "query": "tag:#core OR path:core",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:business OR tag:#business",
+      "color": {
+        "a": 1,
+        "rgb": 16776960
+      }
+    },
+    {
+      "query": "path:docs OR tag:#docs",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    },
+    {
+      "query": "path:config OR tag:#config",
+      "color": {
+        "a": 1,
+        "rgb": 8421631
+      }
+    },
+    {
+      "query": "path:infra OR tag:#infra",
+      "color": {
+        "a": 1,
+        "rgb": 16753920
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 0.8,
+  "lineSizeMultiplier": 0.8,
+  "collapse-forces": false,
+  "centerStrength": 0.4,
+  "repelStrength": 15,
+  "linkStrength": 0.5,
+  "linkDistance": 300,
+  "scale": 0.07499999999999998,
+  "close": false
+}

@@ -1,0 +1,22 @@
+{
+  "maxBacklinksInDocument": 50,
+  "maxPreviewLength": 1000,
+  "attachmentFolderPath": "var/attachments",
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "strictLineBreaks": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": true,
+  "showUnsupportedFiles": false,
+  "defaultViewMode": "source",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
