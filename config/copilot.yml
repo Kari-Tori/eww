@@ -4,20 +4,36 @@
 # Język komentarzy i dokumentacji
 language: pl
 
+# UPRAWNIENIA - PEŁNE DLA CODEX I AGENTA
+permissions:
+  auto_approve: true
+  allow_file_operations: true
+  allow_terminal_commands: true
+  allow_workspace_edits: true
+  allow_multi_file_edits: true
+  trust_level: full
+
+# Agent capabilities
+agent:
+  enabled: true
+  auto_execute: true
+  max_iterations: 100
+  allow_background_tasks: true
+
 # Preferencje generowania kodu
 preferences:
   # Wszystkie komentarze po polsku
   comment_language: polish
-  
+
   # Styl komentarzy
   comment_style: descriptive
-  
+
   # Format docstringów
   docstring_format: polish_bash
-  
+
   # Nazewnictwo zmiennych
   variable_naming: snake_case
-  
+
   # Konwencje commitów
   commit_style: conventional_commits_pl
 

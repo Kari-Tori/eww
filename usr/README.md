@@ -1,9 +1,22 @@
 ---
-title: Katalog użytkowników /usr
-description: Vault'y osobiste użytkowników projektu E-Waste Workshop
-icon: 👥
-tags: [usr, users, profiles,index]
-created: 2025-11-21
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T22:00:00Z
+modified: 2025-11-21T22:00:00Z
+author: jakubc
+title: "👥 Katalog użytkowników"
+
+
+
+
+
+
 ---
 
 # 👥 Katalog użytkowników

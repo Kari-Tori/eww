@@ -1,35 +1,22 @@
 ---
-title: GRAPH CLEANUP REPORT
-description: 📊 RAPORT CZYSZCZENIA GRAFU OBSIDIANA
-type: file
-category: docs
-filepath: docs/reports/GRAPH_CLEANUP_REPORT.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/reports/GRAPH_CLEANUP_REPORT.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #docs
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "📊 RAPORT CZYSZCZENIA GRAFU OBSIDIANA"
+
+
+
+
+
+
 ---
 
 
@@ -39,7 +26,6 @@ repository: https://github.com/Kari-Tori/eww-1
 **Data:** 2025-11-21  
 **Lokalizacja:** `/home/jakubc/git/eww`
 
----
 
 ## 🎯 PROBLEM
 
@@ -51,7 +37,6 @@ repository: https://github.com/Kari-Tori/eww-1
 
 **Efekt:** Graf Obsidiana pełen niezwiązanych kropek, brak nawigacji, chaos.
 
----
 
 ## ✅ CO ZOSTAŁO ZROBIONE
 
@@ -79,7 +64,6 @@ Utworzono główny `INDEX.md` i sub-indexy dla:
 - **36 daily notes** → `journal/daily/`
 - Utworzono `journal/INDEX.md`
 
----
 
 ## 📈 STATYSTYKI PO CZYSZCZENIU
 
@@ -90,7 +74,6 @@ Utworzono główny `INDEX.md` i sub-indexy dla:
 | Pliki INDEX | 0 | 9+ | +9 ✓ |
 | Daily notes (scentralizowane) | 0 | 36 | +36 ✓ |
 
----
 
 ## 🔍 CO DALEJ - REKOMENDACJE
 
@@ -154,7 +137,6 @@ git add .cleanup/
 git commit -m "chore: move empty files and old vaults to cleanup"
 ```
 
----
 
 ## 📁 STRUKTURA VAULT PO CZYSZCZENIU
 
@@ -188,7 +170,6 @@ git commit -m "chore: move empty files and old vaults to cleanup"
     └── old-vaults/            ← Stare kopie vaultów
 ```
 
----
 
 ## 🎨 POPRAWA GRAFU W OBSIDIAN
 
@@ -199,7 +180,6 @@ git commit -m "chore: move empty files and old vaults to cleanup"
    - Filters → Add → "path:inbox/e-waste_workshop_vault" (exclude)
 3. **Zobacz różnicę** - powinno być ~40% mniej niezwiązanych kropek
 
----
 
 ## ⚠️ BEZPIECZEŃSTWO
 
@@ -219,7 +199,6 @@ cp .cleanup/empty/usr/karinam/konkretny-plik.md usr/karinam/
 rm -rf .cleanup/
 ```
 
----
 
 ## 📞 WSPARCIE
 
@@ -228,7 +207,5 @@ Jeśli coś poszło nie tak:
 2. Git history - możesz cofnąć commity
 3. Backup vaulta: `inbox/e-waste_workshop_vault/` (do usunięcia po weryfikacji)
 
----
 
 **Koniec raportu**
-

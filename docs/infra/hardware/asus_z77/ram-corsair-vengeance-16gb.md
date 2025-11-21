@@ -1,36 +1,22 @@
 ---
-title: Ram Corsair Vengeance 16gb
-description: RAM — asus_z77
-type: file
-category: docs
-filepath: docs/infra/hardware/asus_z77/ram-corsair-vengeance-16gb.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - ram_corsair_vengeance_16gb
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/infra/hardware/asus_z77/ram-corsair-vengeance-16gb.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #Asus_Z77
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #linux
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "RAM — asus_z77"
+
+
+
+
+
+
 ---
 
 

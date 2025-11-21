@@ -1,17 +1,22 @@
 ---
-title: "🧪 Zaburzenie Popijania Zupy Kompotem (ZPZK)"
-alias: [🧠 ZPZK — skrót, "🥣+🧃 Zespół popijania zupy kompotem", "F99-KOMPOT (roboczo)"]
-status: "⚠️ konstrukt autorski / nieklasyfikowane"
-color: blue
-author: "Jakub (diagnoza obserwacyjna)"
-tags: ["behawioryzm", "kultura", "jedzenie", "memologia"]
-  - personal
-  - blue
-  - jakubc
-updated: 2025-11-21
-linter-yaml-title-alias: 🧠 ZPZK — skrót
-date created: 2025-11-21
-date modified: piątek, październik 31. 2025, 1:27:09 pm
+tags:
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #notes
+  - #secondbrain
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "🧠 ZPZK — skrót"
+
+
+
+
+
+
 ---
 
 # 🧠 ZPZK — skrót
@@ -20,7 +25,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 > Osobnik: je zupę 🥣 i w tym samym czasie popija kompotem 🧃, uważa że to normalne, powtarza to w domu, nie czuje wstydu.  
 > To NIE jest oficjalna jednostka chorobowa. To jest opis zachowania kulturowego.
 
----
 
 # 1. 📖 Definicja robocza
 
@@ -34,7 +38,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 > - brak wpisu w DSM-5,  
 > - pojęcie memowo-naukowe, stworzone na użytek lokalny.
 
----
 
 # 2. ✅ Kryteria rozpoznania
 
@@ -49,7 +52,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 > 🔁 Podkategoria:
 > - Jeśli zamiast kompotu używana jest cola / sok kartonowy → wariant `ZPZK-A` (alternatywne źródło cukru).
 
----
 
 # 3. 🏥 Status kliniczny
 
@@ -61,7 +63,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 >
 > Używanie słowa „choroba” ma charakter satyryczny („co ty robisz człowieku”), nie kliniczny.
 
----
 
 # 4. 🌍 Kontekst kulturowy
 
@@ -74,7 +75,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 >
 > Ten konflikt narracji społecznej = źródło mema „to jest jednostka chorobowa”.
 
----
 
 # 5. 🧪 Mechanizmy (hipotezy)
 
@@ -94,7 +94,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 > - „Tak się je u nas w domu” staje się standardem poznawczym.  
 > - Po latach jest bronione jak norma obiektywna, a nie lokalny zwyczaj.
 
----
 
 # 6. 📊 Epidemiologia jakościowa
 
@@ -108,7 +107,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 > - Nie spełnia definicji „choroby rzadkiej”.  
 > - Bardziej „norma lokalna” niż „odchylenie kliniczne”.
 
----
 
 # 7. 🔍 Diagnostyka różnicowa
 
@@ -125,7 +123,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 >    - Jeśli ktoś popija żeby zminimalizować pieczenie przełyku, to jest strategia objawowa przy refluksie.  
 >    - To nie kwalifikuje się jako ZPZK, tylko „łagodzenie objawu”.
 
----
 
 # 8. 🧂 Skutki zdrowotne i "leczenie"
 
@@ -138,7 +135,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 > - Nie, bo ZPZK formalnie nie jest rozpoznaniem medycznym.  
 > - Ewentualna interwencja = mniej cukru w płynie, nie terapia psychiatryczna.
 
----
 
 # 9. 🧾 Klasyfikacja robocza (memowa)
 
@@ -153,7 +149,6 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 > - Nie istnieje w systemach refundacji.  
 > - Służy do kategoryzacji memów obserwacyjnych w środowisku autora.
 
----
 
 # 10. 🧷 Nota końcowa
 
@@ -163,3 +158,12 @@ date modified: piątek, październik 31. 2025, 1:27:09 pm
 > Nazywanie tego „chorobą” jest narzędziem retorycznym do ośmieszania nawyku stołowego drugiej osoby, a nie diagnozą kliniczną.
 >
 > Autorskie prawo definicyjne: Jakub.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

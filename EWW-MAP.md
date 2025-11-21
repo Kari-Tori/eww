@@ -1,14 +1,23 @@
 ---
 tags:
-  - eww
-  - map
-  - readme
-  - navigation
-  - dashboard
-created: 2025-11-21
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+  - #folder_note
+created: 2025-11-21T12:00:00Z
+modified: 2025-11-21T12:00:00Z
 author: jakubc
-cssclasses:
-  - dashboard
+title: "🚀 EWW Repository Map"
+
+
+
+
+
+
 ---
 
 # 🚀 EWW Repository Map
@@ -124,7 +133,23 @@ WHERE file.name = this.file.name
 - 🔵 Cyan = jakubc (`#owner` `#eww`)
 - 🩷 Pink = karinam (`#candy` `#pink`)
 
----
+## 🎨 Foldery przypisane do kolorów
+
+| Tag/Grupa | Kolor HEX | Folder note (index) | Zakres |
+|-----------|-----------|---------------------|--------|
+| `#folder_note` | `#4FC3F7` (jasny błękit) | [[EWW-MAP\|EWW-MAP]] + wszystkie folder notes | Węzły Waypoint – informacyjne indeksy folderów |
+| `#eww` `#recycling` `#eko` | `#3B5C36` (zgniła zieleń) | [[core/core\|core/]], [[config/config\|config/]], [[business/business\|business/]], [[docs/docs\|docs/]] | Recykling, eko-technologia i bazowe moduły repo |
+| `#jakubc` | `#C62828` (czerwień) | [[usr/jakubc/jakubc\|usr/jakubc/]] | Profil właściciela + workspace, LEGO, Star Wars |
+| `#karinam` | `#FF7FA7` (candy pink) | [[usr/karinam/karinam\|usr/karinam/]] | Notatki/vault Kariny |
+| `#star-wars` | `#D9A441` (złoty) | [[usr/jakubc/star_wars/star_wars\|usr/jakubc/star_wars/]] | Enc w uniwersum SW (ships, races, weapons) |
+| `#lego` | `#F4C20D` (żółty) | [[usr/jakubc/lego/lego\|usr/jakubc/lego/]] | MOC, roadmapy LEGO, shipping |
+| `#avocado` | `#56701F` (awokado) | [[docs/archive/avocado/avocado\|docs/archive/avocado/]] | SOP i projekty Avocado |
+| `#secondbrain` | `#8F5AF0` (fiolet Obsidiana) | [[dev/Projects/Secondbrain/Secondbrain\|dev/Projects/Secondbrain/]] | Projekty PKM / Second Brain |
+| `#GERC` | `#0D47A1` (kolor Asusa) | [[docs/infra/hardware/gerc/gerc\|docs/infra/hardware/gerc/]] | Serwery GERC i moduły sprzętowe |
+| `#Asus_Z77` | `#C055D1` (różowo-fioletowy) | [[docs/infra/hardware/asus_z77/asus_z77\|docs/infra/hardware/asus_z77/]] | Build Asus Z77 i historia serwisu |
+
+> [!TIP] Każdy z wymienionych folderów ma index z Waypointa – otwórz go przed lokalnym grafem, aby zobaczyć te same kolory i podlinkowane pliki podrzędne.
+> Folder notes mają tag `folder_note`, więc w grafie błyskają jasnym błękitem niezależnie od pozostałych kolorów.
 
 ## 🚀 Getting Started
 
@@ -135,6 +160,14 @@ WHERE file.name = this.file.name
 
 **Pro tip**: Pin [[GRAPH-MAP]] i ten plik dla szybkiej nawigacji! 📌
 
----
 
 *Last updated: 2025-11-21 | Author: [[jakubc]]*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

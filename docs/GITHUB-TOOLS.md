@@ -1,41 +1,22 @@
 ---
-title: GITHUB TOOLS
-description: 🚀 GitHub & AI Tools - Zestaw Narzędzi
-type: file
-category: docs
-filepath: docs/GITHUB-TOOLS.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - GITHUB_TOOLS
+  - #automation
+  - #docs
+  - #eww
+  - #git
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "🚀 GitHub & AI Tools - Zestaw Narzędzi"
 
-related:
-  - docs/GITHUB-TOOLS-CHEATSHEET.md
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
-dependencies:
-sources:
-  - docs/GITHUB-TOOLS.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
 ---
 
 
@@ -82,7 +63,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - Helpful aliases
 - Best practices
 
----
 
 ## ⚡ Instalacja
 
@@ -133,7 +113,6 @@ code --install-extension GitHub.copilot
 code --install-extension GitHub.copilot-chat
 ```
 
----
 
 ## 🔐 Konfiguracja
 
@@ -191,7 +170,6 @@ W VS Code:
 
 **Wymagane:** GitHub Copilot subscription
 
----
 
 ## 🚀 Użycie
 
@@ -293,7 +271,6 @@ gh? create PR with template
 - `Ctrl+I`
 - Opisz co zmienić
 
----
 
 ## 📊 Porównanie
 
@@ -306,7 +283,6 @@ gh? create PR with template
 | **Koszt** | Free | Copilot sub | API keys | Copilot sub |
 | **Offline** | ✅ | ❌ | ❌ | ❌ |
 
----
 
 ## 💡 Best Practices
 
@@ -333,7 +309,6 @@ gh? create PR with template
 - Copilot dla boilerplate
 - GitHub CLI dla rutynowych tasków
 
----
 
 ## 🔧 Troubleshooting
 
@@ -376,7 +351,6 @@ gh copilot --help
 2. Sign out/in w VS Code
 3. Sprawdź połączenie internetowe
 
----
 
 ## 📚 Zasoby
 
@@ -396,7 +370,6 @@ gh copilot --help
 - [Copilot Community](https://github.com/orgs/community/discussions/categories/copilot)
 - [Continue.dev Discord](https://discord.gg/vapESyrFmJ)
 
----
 
 ## 🎯 Next Steps
 
@@ -407,7 +380,6 @@ gh copilot --help
 5. ✅ Dodaj aliasy do `~/.bashrc`
 6. 🚀 Start coding with AI!
 
----
 
 **Zaktualizowano:** 2025-11-21  
 **Autor:** EWW Team  

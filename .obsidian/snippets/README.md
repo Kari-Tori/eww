@@ -1,14 +1,27 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
 title: "Obsidian CSS Snippets"
 description: "Custom CSS snippets for EWW vault"
 category: obsidian
-tags:
   - obsidian
   - css
   - customization
 created: 2025-11-21
 updated: 2025-11-21
 author: jakubc
+
+
+
+
+
+
 ---
 
 # 🎨 Obsidian CSS Snippets

@@ -1,73 +1,100 @@
 ---
-title: 💾 Variable Data
-type: folder-note
-status: active
 tags:
-  - hub
-  - var
-  - data
-  - cache
-  - eww
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
 author: jakubc
-created: 2025-11-21
-updated: 2025-11-21
+title: "💾 Var"
+
+
+
+
+
+
 ---
 
-# 💾 Variable Data
+# 💾 Var
 
-> **Dane zmienne, cache i logi projektu EWW**
+> **Dane zmienne, cache, logi i temporary files**
 
-## 📋 Przeznaczenie Folderu
+## 📋 Cel folderu
 
-Folder dla danych zmiennych, cache, logów i plików tymczasowych.
+Zawiera wszystkie dane zmienne projektu: logi, cache, pliki tymczasowe, runtime data - elementy generowane automatycznie i zmieniające się podczas działania.
 
-## 📑 Zawartość Folderu
-
-### 📊 Kategorie
-
-#### 📝 Logi
-- Application logs
-- Error logs
-- Debug logs
-
-#### 💾 Cache
-- Build cache
-- Download cache
-- Temporary files
-
-#### 📦 Data
-- Runtime data
-- State files
-- Temporary databases
-
-## 🔗 Powiązania
-
-**Z główną mapą**: [[EWW-MAP|🗺️ Repository Map]]  
-**Z infrastrukturą**: [[infra/infra|🏗️ Infra]]
-
-## 📊 Struktura
+## 📁 Struktura
 
 ```
 var/
-├── logs/       # Logi aplikacji
-├── cache/      # Cache i pliki tymczasowe
-└── data/       # Dane runtime
+├── log/              # Pliki logów
+├── cache/            # Cache aplikacji
+├── tmp/              # Pliki tymczasowe
+├── runtime/          # Runtime data
+└── backup/           # Backupy (rotacja)
 ```
 
-## ⚠️ Uwaga
+## 📄 Index plików
 
-Zawartość tego folderu jest ignorowana przez Git (`.gitignore`).
+### Logs
+- [[error.log]] - Logi błędów
+- [[access.log]] - Logi dostępu
+- [[debug.log]] - Logi debugowania
+- [[system.log]] - Logi systemowe
 
-## 🎨 Oznaczenie Grafu
+### Cache
+- [[git-cache]] - Cache operacji Git
+- [[build-cache]] - Cache buildów
+- [[deps-cache]] - Cache zależności
 
-**Tag**: `#var`  
-**Kolor**: Domyślny (szary)  
-**Widoczność**: Niska (dane zmienne)
+### Runtime
+- [[pid-files]] - Pliki PID procesów
+- [[lock-files]] - Pliki blokad
+- [[state-files]] - Pliki stanu
 
----
+## ⚙️ Zarządzanie
 
-**Lokalizacja**: `/var/`  
+### Rotacja logów
+- Automatyczna rotacja co tydzień
+- Kompresja starych logów (.gz)
+- Retention: 30 dni
+
+### Czyszczenie
+```bash
+# Wyczyść cache
+make clean-cache
+
+# Wyczyść logi starsze niż 30 dni
+make clean-logs
+
+# Wyczyść wszystko w var/tmp
+make clean-tmp
+```
+
+## 🔗 Powiązania
+
+- [[infra/monitoring]] - System monitoringu
+- [[scripts/lib/log.sh]] - Biblioteka logowania
+- [[.gitignore]] - Folder var/ w .gitignore
+- [[Makefile]] - Targety czyszczenia
+
+## 📊 Status
+
+- **Typ**: Folder danych zmiennych
+- **Volatile**: TAK (nie commitować do Git!)
+- **Backup**: Tak (dla logów)
+- **Monitoring**: Tak (rotacja, wielkość)
+
+## ⚠️ Ważne
+
+**Folder var/ NIE jest commitowany do Git!**  
+Zawartość jest generowana automatycznie i zmienia się w runtime.
+
+
 **Ostatnia aktualizacja**: 2025-11-21  
-**Autor**: [[usr/jakubc/jakubc|Jakub C]]
-
-#var #data #cache #eww
+**Źródło**: Variable data EWW  
+**Gitignore**: var/*

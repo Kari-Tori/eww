@@ -1,26 +1,23 @@
 ---
-title: "#[+#8e24aa]libraries"
-description: "Folder note dla #[+#8e24aa]libraries"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-source: "[[docs/INDEX]]"
-related:
-  - docs/methodologies/methodologies.md
-  - docs/reports/reports.md
-  - docs/tags/tags.md
-  - docs/team/team.md
-  - docs/trash-recovery/trash-recovery.md
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T22:00:00Z
+author: jakubc
+title: "📁 #[+#8e24aa]libraries"
+
+
+
+
+
+
 ---
 
 # 📁 #[+#8e24aa]libraries
@@ -34,7 +31,6 @@ Katalog `#[+#8e24aa]libraries` zawiera 0 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Dokumentacja projektowa i techniczna
 
----
 
 ## 📄 Pliki w folderze
 
@@ -49,8 +45,24 @@ Katalog `#[+#8e24aa]libraries` zawiera 0 plików i 0 podfolderów.
 - ⬆️ [[tags/tags|tags]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `docs/tags/#[+#8e24aa]libraries`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+- [#[+#8e24aa]libraries](#[+#8e24aa]libraries.md)
+
+## 📁 Podfoldery
+
+- [#[+#8e24aa]libraries/](#[+#8e24aa]libraries/#[+#8e24aa]libraries.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

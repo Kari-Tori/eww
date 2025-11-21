@@ -1,19 +1,22 @@
 ---
-date created: poniedziałek, październik 27. 2025, 6:39:37 pm
-updated: 2025-11-21
-date modified: piątek, październik 31. 2025, 5:29:47 pm
-title: "WEEE — Material Focus vs Greencable: wykorzystanie dla E‑Waste Workshop"
-tags: [EWW, WEEE, recycling, partners, due-diligence]
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-31
-updated: 2025-11-21
-owner: Wielki Implementator
-status: draft
-aliases: [♻️ WEEE — Recycle Your Electricals (Material Focus) vs Greencable]
-linter-yaml-title-alias: ♻️ WEEE — Recycle Your Electricals (Material Focus) vs Greencable
-color: blue
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "♻️ WEEE — Recycle Your Electricals (Material Focus) vs Greencable"
+
+
+
+
+
+
 ---
 
 # ♻️ WEEE — Recycle Your Electricals (Material Focus) vs Greencable
@@ -23,7 +26,6 @@ color: blue
 > - **Greencable Ltd**: prywatny odbiorca **kabli i metali nieżelaznych**. Dostarcza **kosz 240 L**, odbiera po zapełnieniu, **waży na miejscu i płaci**.  
 > - **Strategia E‑Waste Workshop**: 1) wejść w ekosystem Material Focus dla zasięgu i zbiórek, 2) monetyzować frakcję **Scrap (kable/metale)** przez Greencable.  
 
----
 
 ## 🔎 Kto jest kim
 
@@ -47,14 +49,12 @@ color: blue
   - https://environment.data.gov.uk/public-register/view/search-waste-carriers-brokers  
   - https://environment.data.gov.uk/public-register/view/index  
 
----
 
 ## 🎯 Co to daje E‑Waste Workshop
 - **Ruch i PR**: pojawienie się w lokatorze *Recycle Your Electricals* i udział w lokalnych zbiórkach.  
 - **Monetyzacja odpadów**: szybki obrót frakcji **Scrap** (kable, Cu/Al/Br) bez konfliktu z refabrykacją.  
 - **Segmentacja strumieni**: rozdział **Refurb/Resale** vs **Scrap Non‑Ferrous** w Intake.
 
----
 
 ## ✅ Due diligence „15 minut”
 1. **Licencje**: poproś Greencable o numer rejestracji **Waste Carrier/Broker/Dealer (CB…**) i sprawdź w rejestrze EA. Zapisz PDF/zrzut do akt.  
@@ -64,7 +64,6 @@ color: blue
 5. **Umowa**: brak **wyłączności**, odpowiedzialność za transport, **dowody przekazania**.  
 6. **Zgodność**: RODO kontaktów, ewidencja odpadów, kody **EWC** dla kabli/metali.
 
----
 
 ## 🧩 Operacja i SOP w Intake
 - **Intake → Sort**: 
@@ -73,13 +72,11 @@ color: blue
 - **Dokumentacja**: w Intake dodaj pola: *waga brutto/sieciowa*, *klasa kabla*, *data odbioru*, *nr kwitu*.  
 - **Raporty tygodniowe**: masa ↔ wpływy, yield per kg, odchyłki od cennika.
 
----
 
 ## 🚦 Go / No‑Go
 - **GO**: aktywna rejestracja EA, cennik + wzór pokwitowania, zgoda na brak wyłączności.  
 - **NO‑GO**: brak rejestracji/pozwolenia, nacisk na długie umowy, niejasne zasady ważenia/płatności.
 
----
 
 ## 🔐 Kontekst regulacyjny 2025 (UK)
 - **WEEE Compliance Fee 2025** — konsultacje otwarte (Defra).  
@@ -89,7 +86,6 @@ color: blue
 - **Materiały edukacyjne** i lokator zbiórek:  
   - https://www.recycleyourelectricals.org.uk/
 
----
 
 ## 📩 Szablon odpowiedzi do Greencable
 
@@ -101,7 +97,6 @@ color: blue
 > 4) projekt **umowy bez wyłączności**.  
 > Jeśli to akceptowalne, mogę umówić **odbiór testowy** w przyszłym tygodniu.
 
----
 
 ## 🧰 Artefakty i linki szybkie
 - Material Focus — „About us” / finansowanie: https://www.recycleyourelectricals.org.uk/about-us/  
@@ -115,3 +110,11 @@ color: blue
   - Waste Carriers/Brokers/Dealers: https://environment.data.gov.uk/public-register/view/search-waste-carriers-brokers  
   - Rejestry publiczne (przegląd): https://environment.data.gov.uk/public-register/view/index  
 
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

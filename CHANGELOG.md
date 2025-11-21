@@ -1,26 +1,22 @@
 ---
-title: 📝 CHANGELOG - E-Waste Workshop
-description: Historia zmian projektu w formacie Keep a Changelog
-version: 0.0.0.4
-type: changelog
-status: active
 tags:
-  - main
-  - eww
-  - core
-  - changelog
-  - history
-  - releases
-  - semver
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T22:00:00Z
+modified: 2025-11-21T22:00:00Z
 author: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-format: Keep a Changelog
-versioning: Semantic Versioning
-backlinks:
-  - "[[EWW-MAP|🗺️ Repository Map]]"
-  - "[[README|📘 README]]"
-  - "[[Makefile|⚙️ Makefile]]"
+title: "Changelog"
+
+
+
+
+
+
 ---
 
 # Changelog
@@ -64,7 +60,6 @@ projekt używa [Semantic Versioning](https://semver.org/lang/pl/).
 - Wiki projektu
 - Podstawowy layout Ansible
 
----
 
 ## Zasady wersjonowania
 

@@ -1,16 +1,22 @@
 ---
-title: "SoC 2025 — Apple / Qualcomm / Samsung / Google / MediaTek (deep dive)"
-tags: [soc, ai, chipset]
-  - personal
-  - blue
-  - jakubc
-date: 2025-10-27
-aliases: [🔧 SoC 2025 - Diagram]
-linter-yaml-title-alias: 🔧 SoC 2025 - Diagram
-date created: 2025-11-21
-updated: 2025-11-21
-date modified: poniedziałek, październik 27. 2025, 12:20:53 pm
-color: blue
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "🔧 SoC 2025 - Diagram"
+
+
+
+
+
+
 ---
 
 # 🔧 SoC 2025 - Diagram
@@ -44,3 +50,12 @@ classDef b fill:#eef,stroke:#55a;
 
 ### Dimensity 9400
 - X925 + X4 + A720, Immortalis G925, APU INT8/FP16, LPDDR5X/5T.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

@@ -1,39 +1,22 @@
 ---
-title: Release 0.0.0.1
-description: Release 0.0.0.1 — MVP
-type: file
-category: docs
-filepath: docs/release-0.0.0.1.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - release
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - release_0.0.0.1
-related:
-  - docs/docs.md
-  - docs/FULL-INDEX.md
-  - docs/readme-checklist.md
-dependencies:
-sources:
-  - docs/release-0.0.0.1.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "Release 0.0.0.1 — MVP"
+
+
+
+
+
+
 ---
 
 
@@ -112,6 +95,5 @@ tail -n 80 "${EWW_LOG_FILE:-${XDG_STATE_HOME:-$HOME/.local/state}/eww/init-eww.l
 
 - Po osiągnięciu MVP (oznaczeniu jako `0.0.0.1`) stworzymy oficjalny tag i GitHub Release — wtedy pliki będą udostępnione jako stabilny artefakt do pobrania przez użytkowników.
 
----
 
 Dokument utworzony jako część wydania 0.0.0.1 (MVP) — plik `README.md` głównego katalogu repo jest wersjonowany i każda jego zmiana pojawia się w historii commitów.

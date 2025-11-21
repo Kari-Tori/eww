@@ -1,19 +1,23 @@
 ---
-title: "cfg"
-description: "Folder note dla cfg"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - development
-  - code
-created: 2025-11-21
-updated: 2025-11-21
-color: yellow
-author: EWW Team
-source: "[[docs/INDEX]]"
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "📁 cfg"
+
+
+
+
+
+
 ---
 
 # 📁 cfg
@@ -27,7 +31,6 @@ Katalog `cfg` zawiera 0 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Projekty deweloperskie i playbooki
 
----
 
 ## 📄 Pliki w folderze
 
@@ -42,8 +45,24 @@ Katalog `cfg` zawiera 0 plików i 0 podfolderów.
 - ⬆️ [[dev/dev|dev]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `dev/cfg`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

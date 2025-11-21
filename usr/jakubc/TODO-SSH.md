@@ -1,18 +1,22 @@
 ---
-title: "TODO-SSH"
-category: personal
 tags:
-  - personal
-  - workspace
-  - notes
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-color: blue
-author: EWW Team
-cssclasses:
-  - eww-doc
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "## 🗺️ Docelowy układ po migracji"
+
+
+
+
+
+
 ---
 
 moge# 🔐 TODO-SSH – Synchronizacja GERC ↔ Asus_Z77
@@ -29,7 +33,6 @@ moge# 🔐 TODO-SSH – Synchronizacja GERC ↔ Asus_Z77
 > > 🗃️ `/git/eww` (GERC) – źródło historyczne, do skasowania po pełnej weryfikacji.  
 > > 👥 `/usr/karinam/git/eww` (Asus_Z77) – repo równoległe, ma mieć identyczny rozkład jak `~/git/eww` niezależnie od użytkownika.
 
----
 
 ## 🧭 Etap 1 – Wstępne przygotowanie na GERC
 Upewnij się, że masz świeży backup i wolne miejsce zanim zaczniesz mieszać w repozytoriach.
@@ -277,3 +280,12 @@ git log --graph --oneline -10
 npm install
 npm run lint && npm test
 npm run dev
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

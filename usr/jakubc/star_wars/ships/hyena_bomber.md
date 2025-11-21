@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Hyena-class Droid Bomber
-manufacturer: Baktoid Armor Workshop
-role: Droid-bombowiec CIS
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - bomber
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Hyena-class Droid Bomber — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Hyena-class Droid Bomber — karta techniczna

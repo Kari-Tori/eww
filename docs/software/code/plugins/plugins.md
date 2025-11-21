@@ -1,36 +1,23 @@
 ---
-title: Plugins
-description: Dziś — <% tp.date.now("dddd, D MMMM YYYY") %>
-type: file
-category: docs
-filepath: docs/software/code/plugins/plugins.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/FULL-INDEX.md
-  - scripts/scripts.md
-dependencies:
-sources:
-  - docs/software/code/plugins/plugins.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #folder_note
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "## Polecane wtyczki (często dyskutowane na forach)"
+
+
+
+
+
+
 ---
 
 
@@ -61,7 +48,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - Obsidian Linter — utrzymanie stylu Markdown  
   Repo: https://github.com/platers/obsidian-linter
 
----
 
 ## Szybkie przykłady konfiguracji i snippetów
 
@@ -78,10 +64,8 @@ SORT due asc
 <%* 
 // templater: szybkie wstawienie daty i linku dziennego
 %>
----
 date: <% tp.date.now("YYYY-MM-DD") %>
 title: Dzień — <% tp.date.now("YYYY-MM-DD") %>
----
 # Dziś — <% tp.date.now("dddd, D MMMM YYYY") %>
 ```
 
@@ -107,7 +91,6 @@ sort by priority
 - Ustawienia rekomendowane: auto-commit on save = true (rozważ częstotliwość), commit message template = "Auto: vault update {{date}}".
 - Uwaga: przetestuj konfigurację przed włączeniem automatycznych pushy.
 
----
 
 ## Co polecają użytkownicy (fora, Discord, Reddit) — skrót
 - Dataview + Tasks do raportów i filtrowania zadań z Kanban.  
@@ -122,3 +105,21 @@ Szybkie przykłady integracji polecane na forach
 - Pre-commit lub Obsidian Git auto-commit + Obsidian Linter przed commitem.
 
 Źródła: repozytoria wtyczek (linki powyżej), dyskusje na r/ObsidianMD, oficjalne Discordy wtyczek, GitHub Discussions.
+
+## 📑 Index plików
+
+- [code_plugins_installed](code_plugins_installed.md)
+- [installed_pluggins](installed_pluggins.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

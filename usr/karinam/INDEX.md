@@ -1,12 +1,24 @@
 ---
 tags:
-  - index
-  - karinam
-  - pink
-  - candy
-created: 2025-11-21
-author: karinam
-color: pink
+  - #automation
+  - #development
+  - #eww
+  - #karinam
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T14:19:10Z
+modified: 2025-11-21T14:19:10Z
+author: jakubc
+title: "🩷 INDEX - Karinam"
+
+
+
+
+
+
+
+
 ---
 
 # 🩷 INDEX - Karinam
@@ -38,6 +50,5 @@ LIMIT 20
 - [[GRAPH-KARINAM]] - Graf osobisty
 - [[GRAPH-USERS]] - Wszyscy użytkownicy
 
----
 
 *Ostatnia aktualizacja: 2025-11-21*

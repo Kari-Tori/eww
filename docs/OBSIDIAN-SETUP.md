@@ -1,27 +1,22 @@
 ---
-title: "Obsidian Setup"
-description: "Konfiguracja Obsidian dla repozytorium EWW"
-category: documentation
 tags:
-  - obsidian
-  - setup
-  - configuration
-  - vault
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-related:
-  - docs/ROOT-MINIMIZATION.md
-  - docs/INDEX.md
-  - docs/ROOT-STRUCTURE.md
-  - docs/placeholders/placeholders.md
-  - docs/obsidian-troubleshooting.md
-cssclasses:
-  - eww-doc
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "🔮 Obsidian Setup"
+
+
+
+
+
+
 ---
 
 # 🔮 Obsidian Setup
@@ -68,7 +63,6 @@ Tags              # Symlink - nie commitujemy
 .obsidian/plugins/  # Lokalnie instalowane
 ```
 
----
 
 ## ⚙️ Konfiguracja
 
@@ -119,7 +113,6 @@ scripts/install-obsidian-waypoint.sh /home/jakubc/git/eww
 
 Po skopiowaniu plików włącz plugin w Obsidianie: Settings → Community plugins → Waypoint. Folder notes zaczną pojawiać się jako osobne nody w Graph View i w mind mapach.
 
----
 
 ## 🏷️ System Tagów
 
@@ -150,7 +143,6 @@ docs/tags/
 3. Git commituje tylko `docs/tags/`
 4. Root zostaje czysty
 
----
 
 ## 🔄 Git Integration
 
@@ -180,7 +172,6 @@ git commit -m "docs: update notes"
 git push
 ```
 
----
 
 ## 📝 Templates
 
@@ -203,7 +194,6 @@ docs/templates/           # Markdown templates
 Ctrl+P → Templates: Insert template
 ```
 
----
 
 ## 🎨 Theme & Appearance
 
@@ -222,7 +212,6 @@ Ctrl+P → Templates: Insert template
 └── custom-styles.css
 ```
 
----
 
 ## 🔗 Metadata & Frontmatter
 
@@ -234,19 +223,15 @@ Ctrl+P → Templates: Insert template
 
 ### Standardowy Frontmatter
 ```yaml
----
 title: "Tytuł"
 category: documentation
-tags:
   - tag1
   - tag2
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 author: EWW Team
----
 ```
 
----
 
 ## 🚀 Best Practices
 
@@ -289,7 +274,6 @@ folder-name/
 - `Ctrl+G` - Toggle graph
 - Filter: `path:docs/` lub `tag:#business`
 
----
 
 ## 🔧 Troubleshooting
 
@@ -322,7 +306,6 @@ cd .obsidian/plugins
 # Zainstaluj przez Obsidian: Settings → Community plugins
 ```
 
----
 
 ## 📚 Zasoby
 
@@ -330,7 +313,6 @@ cd .obsidian/plugins
 - [Obsidian Forum](https://forum.obsidian.md/)
 - [Dataview Plugin](https://blacksmithgu.github.io/obsidian-dataview/)
 
----
 
 **Zaktualizowano:** 2025-11-21  
 **Vault:** `/home/jakubc/git/eww`  

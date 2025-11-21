@@ -1,26 +1,23 @@
 ---
-title: "templates"
-description: "Folder note dla templates"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-source: "[[docs/INDEX]]"
-related:
-  - docs/methodologies/methodologies.md
-  - docs/reports/reports.md
-  - docs/tags/tags.md
-  - docs/team/team.md
-  - docs/trash-recovery/trash-recovery.md
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #templates
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T11:00:00Z
+author: jakubc
+title: "📁 templates"
+
+
+
+
+
+
 ---
 
 # 📁 templates
@@ -34,7 +31,6 @@ Katalog `templates` zawiera 3 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Dokumentacja projektowa i techniczna
 
----
 
 ## 📄 Pliki w folderze
 
@@ -51,8 +47,26 @@ Katalog `templates` zawiera 3 plików i 0 podfolderów.
 - ⬆️ [[docs/docs|docs]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `docs/templates`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+- [frontmatter-template](frontmatter-template.md)
+- [README](README.md)
+- [README.template](README.template.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

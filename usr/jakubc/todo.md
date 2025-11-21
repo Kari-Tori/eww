@@ -1,25 +1,22 @@
 ---
-title: Plan dla Jakubc – 2025-11-17
-description: Serduszkowy harmonogram dowodzenia domem, żeby dzień Jakuba płynął miękko.
-color: blue
-author: Karina
-created: 2025-11-17
-updated: 2025-11-21
-status: aktywne
-aliases:
-  - Plan dla Jakubc
-  - Serduszko Księciunia
-pin: jakubc
 tags:
-  - jakubc
-  - pinned
-  - plan
-  - love-note
-  - personal
-  - blue
-related:
-  - "[[usr/jakubc/jakubc]]"
-  - "[[usr/jakubc/workspace/workspace.md|Workspace index]]"
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "🗒️  Dzień Dobry Księciuniu ❤️"
+
+
+
+
+
+
 ---
 
 # 🗒️  Dzień Dobry Księciuniu ❤️
@@ -39,7 +36,6 @@ related:
 > - [[usr/jakubc/workspace/workspace.md|Workspace index]] – jeśli trzeba uzupełnić log dnia.  
 > - #jakubc #plan #pinned #love-note
 
----
 
 ## 💖 Plan na jutrzejszy dzień
 

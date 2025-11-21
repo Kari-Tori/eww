@@ -1,40 +1,22 @@
 ---
-title: Makefile Guide
-description: Przewodnik użycia rozbudowanego Makefile dla eww
-type: guide
-category: docs
-filepath: docs/MAKEFILE-GUIDE.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: high
-license: MIT
 tags:
-  - documentation
-  - guide
-  - makefile
-  - automation
-  - docs
-  - knowledge
-keywords:
-  - make
-  - makefile
-  - automation
-  - targets
-  - workflow
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
-related:
-  - docs/FRONTMATTER_REPORT.md
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "Makefile Guide - E-Waste Workshop"
+
+
+
+
+
+
 ---
 
 # Makefile Guide - E-Waste Workshop
@@ -316,4 +298,3 @@ ls -la scripts/nazwa-skryptu.sh
 - **2025-11-20** - Wersja podstawowa
   - Plan dnia TODO + 13 kroków migracji SSH
   - GitHub & AI Tools setup
-

@@ -1,18 +1,22 @@
 ---
-title: Kaleesh
-created: 2025-11-19
-updated: 2025-11-21
 tags:
-  - starwars
-  - race
-  - kaleesh
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/races/races.md|Index ras]]
-  - [[usr/jakubc/star_wars/fractions/confederacy_of_independent_systems.md|CIS]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "🔷 Kaleesh"
+
+
+
+
+
+
 ---
 
 # 🔷 Kaleesh
@@ -42,3 +46,12 @@ color: blue
 - **Ronderu lij Kummar** — wojowniczka i mentorka Grievousa.
 
 [[usr/jakubc/star_wars/races/races.md|← powrót do listy ras]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

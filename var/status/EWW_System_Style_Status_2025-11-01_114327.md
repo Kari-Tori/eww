@@ -1,11 +1,22 @@
 ---
-aliases:
-  - 🖌️ E-Waste Workshop — stan stylu systemu (Kubuntu/Plasma)
-linter-yaml-title-alias: 🖌️ E-Waste Workshop — stan stylu systemu (Kubuntu/Plasma)
-date created: 2025-11-21
-updated: 2025-11-21
-date modified: wtorek, listopad 4. 2025, 7:55:33 am
-color: brown
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T20:00:00Z
+author: jakubc
+title: "🖌️ E-Waste Workshop — stan stylu systemu (Kubuntu/Plasma)"
+
+
+
+
+
+
 ---
 
 # 🖌️ E-Waste Workshop — stan stylu systemu (Kubuntu/Plasma)

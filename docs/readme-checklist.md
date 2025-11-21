@@ -1,38 +1,22 @@
 ---
-title: Readme Checklist
-description: README — lista kontrolna przed wydaniem (do użycia w Obsidian)
-type: file
-category: docs
-filepath: docs/readme-checklist.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - readme_checklist
-related:
-  - docs/docs.md
-  - docs/FULL-INDEX.md
-  - docs/README.md
-dependencies:
-sources:
-  - docs/readme-checklist.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "README — lista kontrolna przed wydaniem (do użycia w Obsidian)"
+
+
+
+
+
+
 ---
 
 
@@ -67,6 +51,5 @@ Przykładowy snippet (może wymagać nowszej wersji Obsidian):
 
 Jeśli Twój Obsidian nie obsługuje `:has()`, użyj tagu i wyszukaj `tag:#archived` w panelu wyszukiwania, lub ręcznie dodaj `#archived` do linków, które chcesz ukryć.
 
----
 
 Zaznacz elementy checklisty w Obsidianie, gdy będą potwierdzone.

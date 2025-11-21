@@ -1,4 +1,12 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
 title: README
 description: 🔬 Lab AI — README
 filepath: dev/Idea/Lab AI/README.md
@@ -10,7 +18,6 @@ updated: 2025-11-21
 version: 1.0.0
 language: pl
 status: active
-tags:
   - documentation
   - markdown
   - readme
@@ -23,6 +30,12 @@ related:
 sources:
   - dev/Idea/Lab AI/README.md
 backlinks: []
+
+
+
+
+
+
 ---
 
 

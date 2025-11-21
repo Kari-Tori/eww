@@ -1,40 +1,22 @@
 ---
-title: Eww Weekly Dashboard Iso W 45 03 09 11
-description: Dokumentacja projektu EWW
-type: file
-category: docs
-filepath: docs/dashboards/eww_weekly_dashboard_iso_w_45_03_09_11.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-21T10:00:00Z
+author: jakubc
+title: "## 🔗 Nawigacja"
 
-related:
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
-  - docs/narzedzia-deweloperskie.md
-dependencies:
-sources:
-  - docs/dashboards/eww_weekly_dashboard_iso_w_45_03_09_11.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
 ---
 
 
@@ -44,7 +26,6 @@ repository: https://github.com/Kari-Tori/eww-1
 > **Kluczowe ryzyka:** błąd EOF w installerze, niestartujący Syncthing (user-service), rozjazd metadanych `created/updated` w notatkach.
 > **Priorytety:** ✅ Installer, ✅ OPS/Daily, ✅ n8n↔Odoo kontrakt API, 🔶 Syncthing/Mutagen, 🔶 Listings, 🔶 Diagnostyka X99.
 
----
 
 ## 🔗 Nawigacja
 - [📦 1) EWW‑Installer + Styl KDE](#-1-eww-installer--styl-kde)
@@ -59,7 +40,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - [📂 Ostatnie 5 plików Daily](#-ostatnie-5-plików-daily)
 - [🗒️ Decyzje i notatki](#-decyzje-i-notatki)
 
----
 
 ## 📦 1) EWW‑Installer + Styl KDE
 **Cel tygodnia:** Stabilny instalator 1‑plikowy z TUI i pełnym logowaniem.
@@ -82,7 +62,6 @@ repository: https://github.com/Kari-Tori/eww-1
 > [!tip] Szybki test
 > `bash -n eww_style_playbook.sh && shellcheck eww_style_playbook.sh && shfmt -d eww_style_playbook.sh`
 
----
 
 ## 📜 2) Playbooks • Tools • Stack
 **Cel tygodnia:** Konwencja playbooków + narzędzia i checklisty.
@@ -106,7 +85,6 @@ ci/
 - [ ] Wspólny `lib/log.sh`, `lib/ask.sh` (gum), `lib/pkg.sh`.
 - [ ] README z tabelą playbooków i wejściami/wyjściami.
 
----
 
 ## 🗒️ 3) Obsidian OPS + Daily
 **Cel tygodnia:** Jeden przycisk „New Daily”, metadane z pliku, panel ostatnich plików.
@@ -126,7 +104,6 @@ ci/
 > [!info] Wskazówka
 > Ustaw `created` na `dateformat(file.ctime, "yyyy-MM-dd HH:mm")` w headerze przez Templater.
 
----
 
 ## 🥑 4) Projekt „Avocado”
 **Cel tygodnia:** Gotowy dashboard + dziennik `Daily/` z foto‑logiem.
@@ -139,7 +116,6 @@ ci/
 **Artefakty:**
 - [ ] `projects/Avocado/Avocado_Dashboard.md`
 
----
 
 ## 🛒 5) eBay ↔ n8n ↔ Odoo
 **Cel tygodnia:** Kontrakt API + pobranie drzew kategorii i mapowanie do Odoo.
@@ -161,7 +137,6 @@ Gateway: 192.168.0.10
 - [ ] `n8n/workflows/ebay_to_odoo.json`
 - [ ] `docs/api_contracts/ebay_odoo.md`
 
----
 
 ## 🧠 6) Secondbrain: Syncthing/Mutagen
 **Cel tygodnia:** Stabilny sync i polityka chunkingu pod RAG.
@@ -176,7 +151,6 @@ Gateway: 192.168.0.10
 - [ ] `mutagen.yml`
 - [ ] `ops/sync_checklist.md`
 
----
 
 ## 📶 7) Listingi: Bosch PHG 500‑2, TP‑Link C50
 **Cel tygodnia:** Ujednolicony szablon listingów i komplet zdjęć 1:1.
@@ -191,7 +165,6 @@ Gateway: 192.168.0.10
 - [ ] `listings/bosch_phg500-2.md`
 - [ ] `listings/tplink_c50.md`
 
----
 
 ## 🧩 8) Diagnostyka HW/OS
 **Cel tygodnia:** Ustalić przyczynę OOM i zweryfikować Q‑code płyty.
@@ -205,7 +178,6 @@ Gateway: 192.168.0.10
 - [ ] `diag/oom_report.md`
 - [ ] `diag/x99_qcodes.md`
 
----
 
 ## 📊 KPI i metryki
 - [ ] **Tasks planned:** {{kpi.tasks_planned}}
@@ -216,7 +188,6 @@ Gateway: 192.168.0.10
 > [!quote] Cytat tygodnia
 > "What gets measured gets managed."
 
----
 
 ## 📂 Ostatnie 5 plików Daily
 ```dataview
@@ -225,7 +196,6 @@ SORT file.mtime desc
 LIMIT 5
 ```
 
----
 
 ## 🗓️ Oś tygodnia
 ```mermaid
@@ -247,7 +217,6 @@ gantt
     Szablony + Foto    : 2025-11-06, 2d
 ```
 
----
 
 ## 🗒️ Decyzje i notatki
 - [ ] Standaryzacja logowania w playbookach przez `lib/log.sh`.
@@ -259,10 +228,8 @@ gantt
 > - X99: Q‑code i lista testów.
 > - eBay: mapowanie kategorii → Odoo.
 
----
 
 > [!success] Jak używać tego dashboardu
 > 1. Uzupełnij checklisty w każdej sekcji.
 > 2. Dodaj linki do artefaktów i commitów.
 > 3. Zaktualizuj KPI i status na koniec tygodnia.
-

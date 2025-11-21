@@ -1,37 +1,22 @@
 ---
-title: Eww
-description: ♻️ E-Waste Workshop - Centrum recyklingu i refabrykacji
-type: file
-category: docs
-filepath: docs/eww.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - archive/archive.md
-  - bin/bin.md
-  - business/business.md
-dependencies:
-sources:
-  - docs/eww.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-21T10:00:00Z
+author: jakubc
+title: "♻️ E-Waste Workshop - Centrum recyklingu i refabrykacji"
+
+
+
+
+
+
 ---
 
 

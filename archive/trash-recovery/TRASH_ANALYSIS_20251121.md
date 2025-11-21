@@ -1,4 +1,12 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
 title: TRASH ANALYSIS 20251121
 description: Analiza trash-backup-2025-11-21
 type: file
@@ -14,7 +22,6 @@ language: pl
 status: active
 priority: normal
 license: MIT
-tags:
   - documentation
   - markdown
   - docs
@@ -32,6 +39,12 @@ backlinks: []
 context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
 project: eww
 repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
+
 ---
 
 

@@ -1,37 +1,22 @@
 ---
-title: Readme Frontmatter Analysis
-description: YAML Frontmatter - README.md
-type: file
-category: docs
-filepath: docs/readme-frontmatter-analysis.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - readme_frontmatter_analysis
-related:
-  - docs/docs.md
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/readme-frontmatter-analysis.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "YAML Frontmatter - README.md"
+
+
+
+
+
+
 ---
 
 
@@ -43,14 +28,12 @@ repository: https://github.com/Kari-Tori/eww-1
 ### Aktualna konfiguracja (wersja 0.0.0.5)
 
 ```yaml
----
 title: E-Waste Workshop README
 description: Kompletna dokumentacja projektu - instalacja, konfiguracja, użycie
 version: 0.0.0.5
 author: Nairecth
 repository: https://github.com/Nairecth/eww
 website: http://www.e-wasteworkshop.co.uk
-tags:
   - bash
   - kubuntu
   - automation
@@ -69,7 +52,6 @@ created: 2024-11-08
 updated: 2025-11-09
 license: MIT
 status: stable
----
 ```
 
 ## Szczegółowy opis atrybutów
@@ -391,7 +373,6 @@ eww-frontmatter --validate README.md
 - **Wiek dokumentu:** 1 rok (2024-11-08 → 2025-11-09)
 - **Ostatnia aktualizacja:** Dzisiaj (2025-11-09)
 
----
 
 **Dokument:** README.md YAML Frontmatter Analysis  
 **Autor:** Nairecth  

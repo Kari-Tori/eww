@@ -1,13 +1,25 @@
 ---
-aliases:
-  - 📦 SoC w smartfonach — definicja i mapa tematu
-color: blue
----
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "📦 System-on-Chip (SoC) — co to jest"
+
+
+
+
+
+
 ---
 title: "📦 SoC w smartfonach — definicja, architektura, ekosystem"
-tags: [silicon, soc, mobile, architektura, pkm]
 version: 1.0
----
 
 # 📦 System-on-Chip (SoC) — co to jest
 
@@ -20,7 +32,6 @@ version: 1.0
 > - **SoC vs SiP/PoP:** pamięć LPDDR często jest pakowana **PoP** nad SoC; **SiP** integruje wiele chipów w jednym module.  
 > - **RF front-end, PMIC:** zwykle oddzielne układy na płycie, ściśle współpracujące z SoC.
 
----
 
 ## 🧱 Architektura — główne bloki
 
@@ -50,14 +61,12 @@ version: 1.0
 > [!Tip] Interconnect / NoC
 > Spójność i przepustowość zapewniają AMBA AXI/CHI, sieci **NoC** (np. Arm CMN, Arteris). Priorytety QoS ograniczają jitter i opóźnienia.
 
----
 
 ## 🧠 Hierarchia pamięci
 
 - **Rejestry → L1I/D → L2 (na klaster) → L3/System Cache → DRAM (LPDDR5X) → UFS**  
 - Bufory w ISP/NPU/GPU minimalizują dostęp do DRAM. Spójność cache zmniejsza koszty synchronizacji.
 
----
 
 ## 🧩 Pakowanie i montaż
 
@@ -66,7 +75,6 @@ version: 1.0
 - **FO-WLP/FOPLP, InFO, RDL:** zaawansowane formy łączeń i wyprowadzeń.  
 - **PMIC** zwykle w osobnym QFN/BGA; **RF front-end** w modułach FEM (PA/LNA/dupleksery).
 
----
 
 ## 🚀 Możliwości (use-cases)
 
@@ -77,7 +85,6 @@ version: 1.0
 - **Łączność**: 5G NSA/SA, agregacja pasm, Wi-Fi 6/7, BT, UWB.  
 - **Bezpieczeństwo**: biometryka, bezpieczne płatności, izolacja kluczy.
 
----
 
 ## 🏭 Ekosystem i firmy
 
@@ -104,7 +111,6 @@ version: 1.0
 - **SMIC** — procesy dojrzałe. <https://www.smics.com>  
 - **OSAT**: **ASE**, **Amkor**, **JCET**, **SPIL**.
 
----
 
 ## ⚖️ Kluczowe kompromisy projektowe
 
@@ -115,7 +121,6 @@ version: 1.0
 > - **Termika w smartfonie:** limitowana objętość, throttling długotrwały.  
 > - **Fragmentacja software:** sterowniki, kernel, BSP, aktualizacje bezpieczeństwa.
 
----
 
 ## 🔍 Jak oceniać SoC w praktyce
 
@@ -128,7 +133,6 @@ version: 1.0
 - **Bezpieczeństwo:** TEE, aktualizacje, certyfikacje (FIPS/CC gdy istotne).  
 - **Termika:** zachowanie pod długim obciążeniem, throttling.
 
----
 
 ## 📚 Glosariusz skrótów
 
@@ -143,7 +147,6 @@ version: 1.0
 - **TEE** — Trusted Execution Environment.  
 - **UFS/LPDDR** — interfejs magazynu / pamięć DRAM mobilna.
 
----
 
 ## 🔗 Materiały startowe
 - Arm: <https://www.arm.com>  
@@ -152,3 +155,12 @@ version: 1.0
 - Samsung LSI / Exynos: <https://semiconductor.samsung.com>  
 - Google Tensor: <https://store.google.com/us/magazine/google_tensor>  
 - TSMC: <https://www.tsmc.com> • Samsung Foundry: <https://semiconductor.samsung.com/foundry>
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

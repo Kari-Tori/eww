@@ -1,17 +1,22 @@
 ---
-title: Chiss
-created: 2025-11-19
-updated: 2025-11-21
 tags:
-  - starwars
-  - race
-  - chiss
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/races/races.md|Index ras]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "🔷 Chiss"
+
+
+
+
+
+
 ---
 
 # 🔷 Chiss
@@ -41,3 +46,12 @@ color: blue
 - **Ar'alani** — oficer Ascendencji wspomniana w kanonicznych powieściach.
 
 [[usr/jakubc/star_wars/races/races.md|← powrót do listy ras]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

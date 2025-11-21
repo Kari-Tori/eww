@@ -1,19 +1,22 @@
 ---
-title: Jakubc – o mnie
-description: Notatka „about me” dla Jakubca z celami rozwoju, nawykami i źródłami do pracy z AI.
-type: note
 tags:
-  - about
-  - self-development
-  - usr/jakubc
-  - personal
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-plugins:
-  - obsidian-callout
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "Jakubc – o mnie"
+
+
+
+
+
+
 ---
 
 # Jakubc – o mnie
@@ -50,3 +53,12 @@ color: blue
 - [ ] Uzupełnić `usr/jakubc/workspace` o aktualne projekty i linki.  
 - [ ] Dopisać lekcje z ostatnich dni w `usr/jakubc/m18/m18.md` jako morale boost.  
 - [ ] Zdefiniować „AI check-in” w przyszłych notatkach health (np. `usr/jakubc/health/`).
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

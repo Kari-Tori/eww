@@ -1,30 +1,24 @@
 ---
-title: AVX i AVX2 — znaczenie, ograniczenia, AI
 tags:
-  - x86
-  - SIMD
-  - AVX
-  - AVX2
-  - CPU
-  - AI
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-30
-updated: 2025-11-21
-status: final
-aliases:
-  - 🧠 AVX i AVX2 **Advanced Vector Extensions**
-  - 🧠 AVX/AVX2 Advanced Vector Extensions
-type: article
-owner: Wielki Implementator
-linter-yaml-title-alias: 🧠 AVX i AVX2 **Advanced Vector Extensions**
-date created: czwartek, październik 30. 2025, 4:27:23 pm
-date modified: czwartek, październik 30. 2025, 4:38:56 pm
-color: blue
----
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🧠 AVX i AVX2 **Advanced Vector Extensions**"
+
+
+
+
+
 
 ---
+
 
 # 🧠 AVX i AVX2 **Advanced Vector Extensions**
 
@@ -34,7 +28,6 @@ color: blue
 > [!info] **ISA ≠ mikroarchitektura**
 > **ISA** to „co CPU umie” (instrukcje i rejestry). **Mikroarchitektura** to „jak CPU jest zbudowane” (np. Haswell, Zen). AVX/AVX2 należą do ISA, a nie do nazw pokroju Haswell/Zen.
 
----
 
 ## 🗓️ Historia i znaczenie historyczne
 
@@ -48,7 +41,6 @@ color: blue
 > [!tip] **Dlaczego to było ważne**
 > AVX ustandaryzował 256‑bit SIMD na x86. AVX2 scalił świat INT i FP w 256‑bit, co uprościło pisanie jąder numerycznych i przyspieszyło biblioteki HPC/AI.
 
----
 
 ## 🧩 Architektura rozszerzeń
 
@@ -58,7 +50,6 @@ color: blue
 - **FMA3:** formalnie osobne, zwykle współwystępuje z AVX2.  
 - **OS:** wymagane **XSAVE/XRSTOR** i bit **OSXSAVE**; poprawne bity w **XCR0** dla SSE i AVX.
 
----
 
 ## 🧪 Znaczenie w AI (CPU inference i pre/post‑processing)
 
@@ -79,7 +70,6 @@ color: blue
 - **`gather`** na starszych rdzeniach bywa wolny; preferuj data‑layouty SoA i przetasowania zamiast rozproszonych dostępów.  
 - **Łatki bezpieczeństwa (GDS/Downfall)** mogą spowolnić ścieżki z `gather`.
 
----
 
 ## 🌍 Gdzie spotykane (architektury i platformy)
 
@@ -93,7 +83,6 @@ color: blue
 > - **POWER/POWERPC**: brak AVX; odpowiednik **VSX/AltiVec**.  
 > - **MIPS**: brak AVX; odpowiednik **MSA**.
 
----
 
 ## 🛠️ Programowanie
 
@@ -112,7 +101,6 @@ color: blue
 - Unikaj niewyrównanych dostępów w gorących pętlach.  
 - Eliminuj `gather` przez przekształcenie layoutu lub prefetch/transpozycje.
 
----
 
 ## ✅ Checklist operacyjny
 
@@ -122,7 +110,6 @@ color: blue
 - [ ] Profiluj IPC, BW i udział `gather`; mierz wpływ AVX‑offset.  
 - [ ] Zweryfikuj łatki GDS w firmware/OS dla docelowych CPU.
 
----
 
 ## 🔗 Materiały źródłowe i referencje
 - AVX/AVX2 — przegląd: https://en.wikipedia.org/wiki/Advanced_Vector_Extensions  
@@ -136,3 +123,12 @@ color: blue
 - ARM NEON: https://developer.arm.com/documentation/101028/0010/Advanced-SIMD--Neon--intrinsics  
 - ARM SVE2: https://developer.arm.com/architectures/instruction-sets/sve  
 - RISC‑V RVV: https://github.com/riscv/riscv-v-spec
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

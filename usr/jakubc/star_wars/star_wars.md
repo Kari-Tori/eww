@@ -1,20 +1,23 @@
 ---
-title: "star_wars"
-description: "Folder note dla star_wars"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - personal
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-color: blue
-author: EWW Team
-source: "[[docs/INDEX]]"
-cssclasses:
-  - eww-folder-note
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+  - #folder_note
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "📁 star_wars"
+
+
+
+
+
+
 ---
 
 # 📁 star_wars
@@ -28,7 +31,6 @@ Katalog `star_wars` zawiera 0 plików i 6 podfolderów.
 **Przeznaczenie:**
 - Profile użytkowników i workspace
 
----
 
 ## 📄 Pliki w folderze
 
@@ -48,8 +50,29 @@ Katalog `star_wars` zawiera 0 plików i 6 podfolderów.
 - ⬆️ [[jakubc/jakubc|jakubc]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `usr/jakubc/star_wars`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+- [droids/](droids/droids.md)
+- [fractions/](fractions/fractions.md)
+- [races/](races/races.md)
+- [ships/](ships/ships.md)
+- [vehicles/](vehicles/vehicles.md)
+- [weapons/](weapons/weapons.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

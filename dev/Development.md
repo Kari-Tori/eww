@@ -1,26 +1,21 @@
 ---
-title: Development
-description: Dokumentacja projektu EWW
-filepath: dev/Development.md
-color: yellow
-author: 
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
 tags:
-  - documentation
-  - markdown
-  - development
-  - code
-related:
-  - dev/dev.md
-  - docs/PLAN-PORZADKOWANIA.md
-sources:
-  - dev/Development.md
-backlinks: []
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T22:00:00Z
+modified: 2025-11-21T22:00:00Z
+author: jakubc
+title: "## 🔗 Backlinki"
+
+
+
+
+
 
 ---
 
@@ -32,7 +27,6 @@ backlinks: []
 - [[usr/karinam/Development/Playbooks/Playbooks|Playbooks]]
 - [[usr/karinam/karinam|karinam]]
 
----
 
 **Backlinków:** 3  
 **Linków wychodzących:** 0  

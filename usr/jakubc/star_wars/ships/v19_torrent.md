@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: V-19 Torrent Starfighter
-manufacturer: Slayn & Korpil (dla GAR)
-role: Myśliwiec eskortowy Republiki
-era: Wojny Klonów
 tags:
-  - starwars
-  - republic
-  - starfighter
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ V-19 Torrent — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ V-19 Torrent — karta techniczna
@@ -87,3 +89,12 @@ color: blue
 > Wrażliwe zawiasy skrzydeł – inspekcja co 15 startów; wymaga pierścienia Syliure do lotów nadświetlnych.
 
 [[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

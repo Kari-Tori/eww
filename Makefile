@@ -24,7 +24,9 @@ CONFIG_VSCODE := $(HOME)/.vscode
 	version bump-version changelog readme-check frontmatter frontmatter-dry \
 	tag auto-tag git-status git-push obsidian-fix vscode-fix \
 	doctor banner status commit graph-report graph-connect graph-dry \
-	git-batch git-history git-uncommit
+	git-batch git-history git-uncommit index check-folders update-indexes update-indexes-all \
+	graph-status graph-validate graph-backup graph-clean \
+	repo-check repo-clean repo-stats
 
 help: ## Wyświetl dostępne cele Makefile (plan dnia + operacje SSH + narzędzia eww)
 	@echo "E-Waste Workshop :: TODO + TODO-SSH"
@@ -220,6 +222,49 @@ readme-check: ## Sprawdź spójność README, VERSION i notatek wydania
 	@./scripts/check_readme.sh
 
 # ============================================================================
+# Indexowanie i nawigacja
+# ============================================================================
+
+.PHONY: index check-folders
+
+index: ## Regeneruj główny plik INDEX.md
+	@echo "📑 Regeneracja INDEX.md..."
+	@./scripts/generate-index.sh
+
+check-folders: ## Sprawdź kompletność folder notes
+	@echo "📂 Sprawdzanie folder notes..."
+	@./scripts/check-folder-notes.sh
+
+update-indexes: ## Aktualizuj indeksy w folder notes (poziom 1)
+	@echo "📑 Aktualizacja indeksów w folder notes..."
+	@./scripts/update-folder-indexes.sh -a
+
+update-indexes-all: ## Aktualizuj indeksy we WSZYSTKICH folder notes (poziomy 1-3)
+	@echo "📑 Aktualizacja WSZYSTKICH indeksów (poziomy 1-3)..."
+	@./scripts/update-folder-indexes.sh -a -d 3
+
+graph-status: ## Pokaż status konfiguracji grafu Obsidian
+	@./scripts/graph-config.sh status
+
+graph-validate: ## Waliduj konfigurację grafu
+	@./scripts/graph-config.sh validate
+
+graph-backup: ## Utwórz backup konfiguracji grafu
+	@./scripts/graph-config.sh backup
+
+graph-clean: ## Wyczyść stare backupy grafu
+	@./scripts/graph-config.sh clean
+
+repo-check: ## Sprawdź czystość struktury repozytorium
+	@./scripts/clean-repo.sh check
+
+repo-clean: ## Wyczyść pliki .bak.* i tymczasowe
+	@./scripts/clean-repo.sh clean
+
+repo-stats: ## Pokaż statystyki repozytorium
+	@./scripts/clean-repo.sh stats
+
+# ============================================================================
 # Frontmatter i tagging
 # ============================================================================
 
@@ -349,3 +394,54 @@ git-uncommit: ## Cofnij ostatni commit (zachowaj zmiany)
 	@echo "🔙 Cofam ostatni commit..."
 	@git reset HEAD~1
 	@echo "✅ Commit cofnięty. Pliki zachowane. Użyj 'make git-batch' do batch commit."
+
+# Makefile.graph - Komendy do zarządzania grafami
+
+.PHONY: graph-help graph-setup graph-clusters graph-tune graph-check graph-reset
+
+graph-help: ## Pokaż pomoc dla grafów
+	@echo "🎨 EWW Graph Management"
+	@echo "======================"
+	@echo ""
+	@echo "Dostępne komendy:"
+	@echo "  make graph-setup     - Podstawowa konfiguracja grafów"
+	@echo "  make graph-clusters  - Konfiguruj izolowane klastry"
+	@echo "  make graph-tune      - Interaktywny tuning separacji"
+	@echo "  make graph-backlinks - Dodaj backlinki do plików"
+	@echo "  make graph-check     - Sprawdź stan klastrów"
+	@echo "  make graph-reset     - Przywróć domyślną konfigurację"
+	@echo ""
+
+graph-setup: ## Podstawowa konfiguracja grafów
+	@echo "🔧 Konfiguracja grafów..."
+	bash fix-graph-clusters.sh
+
+graph-clusters: graph-setup ## Alias dla graph-setup
+
+graph-tune: ## Interaktywny tuning separacji
+	@echo "🎨 Tuning separacji klastrów..."
+	bash tune-graph-separation.sh
+
+graph-backlinks: ## Dodaj backlinki do plików
+	@echo "🔗 Dodawanie backlinków..."
+	bash auto-backlinks.sh
+
+graph-check: ## Sprawdź stan klastrów
+	@echo "🔍 Sprawdzanie klastrów..."
+	@for path in core config business usr/jakubc usr/karinam docs infra scripts tools; do \
+		if [ -d "$$path" ]; then \
+			total=$$(find "$$path" -name "*.md" -type f 2>/dev/null | wc -l); \
+			with_links=$$(find "$$path" -name "*.md" -type f -exec grep -l '\[\[' {} \; 2>/dev/null | wc -l); \
+			percent=$$((with_links * 100 / total)); \
+			echo "  $$path: $$with_links/$$total ($$percent%)"; \
+		fi; \
+	done
+
+graph-reset: ## Przywróć domyślną konfigurację
+	@echo "⚠️  Przywracanie domyślnej konfiguracji..."
+	@if [ -f .obsidian/backups/graph.json.backup ]; then \
+		cp .obsidian/backups/graph.json.backup .obsidian/graph.json; \
+		echo "✅ Przywrócono backup"; \
+	else \
+		echo "❌ Brak pliku backup"; \
+	fi

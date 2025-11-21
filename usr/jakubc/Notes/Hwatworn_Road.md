@@ -1,8 +1,22 @@
 ---
-date created: 2025-11-21
-updated: 2025-11-21
-date modified: czwartek, październik 30. 2025, 6:42:34 pm
-color: blue
+tags:
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #notes
+  - #secondbrain
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "Hwatworn_Road"
+
+
+
+
+
+
 ---
 
 Trap X5 
@@ -13,3 +27,12 @@ NRV x4
 [Flomasta Single Check Valve 15mm - Screwfix](https://www.screwfix.com/p/flomasta-single-check-valve-15mm/38236?gclsrc=aw.ds&gad_source=1&gad_campaignid=22609681624&gclid=EAIaIQobChMIn7W45MuekAMVw5hQBh2hdxlSEAQYAiABEgLN0fD_BwE)
 Cutter
 [Monument Tools Originals 15mm Automatic Copper Pipe Cutter - Screwfix](https://www.screwfix.com/p/monument-tools-originals-15mm-automatic-copper-pipe-cutter/298pg)
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

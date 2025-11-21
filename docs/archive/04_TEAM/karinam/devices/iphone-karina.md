@@ -1,8 +1,15 @@
 ---
+tags:
+  - #automation
+  - #docs
+  - #eww
+  - #karinam
+  - #knowledge
+  - #linux
+  - #secondbrain
 title: "04_TEAM/karinam/devices/iphone-karina"
 description: "Placeholder - do uzupełnienia"
 category: placeholder
-tags:
   - placeholder
   - todo
   - karinam
@@ -20,6 +27,12 @@ related:
   - docs/placeholders/FCGH — iPhone 11 (Spec).md
   - docs/placeholders/daily_improvement.md
   - docs/placeholders/task.md
+
+
+
+
+
+
 ---
 
 # 04_TEAM/karinam/devices/iphone-karina

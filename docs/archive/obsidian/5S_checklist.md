@@ -1,8 +1,15 @@
 ---
+tags:
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
 title: "obsidian/5S_checklist"
 description: "Placeholder - do uzupełnienia"
 category: placeholder
-tags:
   - placeholder
   - todo
   - documentation
@@ -18,6 +25,12 @@ related:
   - docs/placeholders/FCGH — iPhone 11 (Spec).md
   - docs/placeholders/daily_improvement.md
   - docs/placeholders/task.md
+
+
+
+
+
+
 ---
 
 # obsidian/5S_checklist

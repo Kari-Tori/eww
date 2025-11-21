@@ -1,61 +1,22 @@
 ---
-title: "🎨 ICON-SET — Standard Kubuntu/Code/Obsidian"
-description: "Zbiór referencyjnych ikon i kolorów wykorzystywanych w dokumentacji projektowej."
-type: file
-category: docs
-filepath: docs/assets/icons.md
-color: green
-author: "Jakub C. (Nairecth)"
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - "[#FFB300]style-guide"
-  - "[#1E88E5]icons"
-  - "[#8E24AA]brand"
-  - "[#43A047]docs"
-  - documentation
-  - docs
-  - knowledge
-keywords:
-  - icons
-  - kubuntu
-  - obsidian
-  - vscode
-icon:
-  set: lucide
-  name: palette
-  color: "#FFB300"
-  emoji: "🎨"
-aliases: []
-related:
-  - ../README.md
-  - ../wiki/kubuntu.md
-  - ../software/code/code.md
-  - ../software/obsidian/obsidian.md
-dependencies: []
-sources:
-  - path: "../README.md"
-    title: "Docs README"
-  - path: "../../README.md"
-    title: "Repo README"
-  - path: "../../AGENTS.md"
-    title: "AGENTS"
-backlinks:
-  - path: "../wiki/kubuntu.md"
-    title: "Kubuntu wiki"
-  - path: "../software/code/code.md"
-    title: "VS Code guide"
-  - path: "../software/obsidian/obsidian.md"
-    title: "Obsidian guide"
-context: "E-Waste Workshop — Bash toolkit dla środowiska Kubuntu"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-21T10:00:00Z
+author: jakubc
+title: "🎨 Standard ikon Kubuntu / Code / Obsidian"
+
+
+
+
+
+
 ---
 
 

@@ -1,15 +1,22 @@
 ---
-title: "🔄 Git Workflow - Batch Commits"
 tags:
-  - "#git"
-  - "#workflow"
-  - "#automation"
-  - "#obsidian-git"
-  - "#docs"
-status: "✅ active"
-created: 2025-11-21
-updated: 2025-11-21
-author: "jakubc"
+  - #automation
+  - #docs
+  - #eww
+  - #git
+  - #linux
+  - #secondbrain
+  - #workflow
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-21T10:00:00Z
+author: jakubc
+title: "🔄 Git Workflow - Batch Commits dla EWW"
+
+
+
+
+
+
 ---
 
 # 🔄 Git Workflow - Batch Commits dla EWW
@@ -26,7 +33,6 @@ author: "jakubc"
 - ✅ Zachować czytelną historię Git
 - ✅ Umożliwić łatwe rollbacki
 
----
 
 ## 🚀 Konfiguracja
 
@@ -63,7 +69,6 @@ VERBOSE=1 ./scripts/git-commit-batch.sh
 MAX_FILES=10 ./scripts/git-commit-batch.sh
 ```
 
----
 
 ## 📦 Jak to działa?
 
@@ -88,7 +93,6 @@ git status
 git log --oneline -n 10
 ```
 
----
 
 ## 🎯 Zalety tego podejścia
 
@@ -100,7 +104,6 @@ git log --oneline -n 10
 | **Czytelna historia** | Każdy batch = osobny commit |
 | **Easy rollback** | `git revert <commit>` dla konkretnego batcha |
 
----
 
 ## 🔧 Integracja z Makefile
 
@@ -129,7 +132,6 @@ make git-status   # Status
 make git-history  # Historia
 ```
 
----
 
 ## 📊 Limity i optymalizacja
 
@@ -155,7 +157,6 @@ Batch 5/6: 18 plików - usr/karinam/
 Batch 6/6: 10 plików - root files
 ```
 
----
 
 ## 🛠️ Troubleshooting
 
@@ -195,7 +196,6 @@ cat .obsidian/plugins/obsidian-git/data.json | grep autoSaveInterval
 git status
 ```
 
----
 
 ## 📚 Źródła i narzędzia
 
@@ -217,7 +217,6 @@ git status
 - [[TAG-STRATEGY]] - Strategia tagowania
 - [[docs]] - Główny index dokumentacji
 
----
 
 ## 🎨 Graph Configuration
 
@@ -242,7 +241,6 @@ Forces:
   - link distance: 100
 ```
 
----
 
 **Status**: ✅ Active  
 **Maintainer**: [[jakubc]]  

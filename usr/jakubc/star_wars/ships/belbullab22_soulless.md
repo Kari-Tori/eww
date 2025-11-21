@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Belbullab-22 Heavy Fighter “Soulless One”
-manufacturer: Feethan Ottraw Scalable Assemblies
-role: Myśliwiec ciężki / osobisty (Grievous)
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - starfighter
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Belbullab-22 “Soulless One” — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Belbullab-22 “Soulless One” — karta techniczna

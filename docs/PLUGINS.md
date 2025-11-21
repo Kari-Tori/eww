@@ -1,43 +1,22 @@
 ---
-title: PLUGINS
-description: 🔌 Pluginy i Rozszerzenia
-type: file
-category: docs
-filepath: docs/PLUGINS.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-  - gitlens
-  - intellicode
-  - tabnine
-aliases:
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "🔌 Pluginy i Rozszerzenia"
 
-related:
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
-  - docs/narzedzia-deweloperskie.md
-dependencies:
-sources:
-  - docs/PLUGINS.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
 ---
 
 
@@ -116,7 +95,6 @@ repository: https://github.com/Kari-Tori/eww-1
 | **JSON Tools** | JSON formatter | `code --install-extension eriklynd.json-tools` |
 | **REST Client** | HTTP client | `code --install-extension humao.rest-client` |
 
----
 
 ## 🚀 GitHub CLI Extensions
 
@@ -162,7 +140,6 @@ gh extension search
 gh extension upgrade --all
 ```
 
----
 
 ## 💻 Terminal Tools
 
@@ -224,7 +201,6 @@ sudo apt install jq
 sudo apt install httpie
 ```
 
----
 
 ## 📦 Instalacja wszyskiego naraz
 
@@ -281,7 +257,6 @@ echo "✅ Wszystkie extensions zainstalowane!"
 ./bin/eww-github-setup
 ```
 
----
 
 ## 🎯 Rekomendowane Kombinacje
 
@@ -313,7 +288,6 @@ echo "✅ Wszystkie extensions zainstalowane!"
 - Obsidian Tools
 - Copilot Chat (do generowania docs)
 
----
 
 ## ⚙️ Konfiguracja
 
@@ -359,7 +333,6 @@ prompt: enabled
 pager: less
 ```
 
----
 
 ## 🔧 Troubleshooting
 
@@ -387,7 +360,6 @@ gh extension remove extension-name
 gh extension install owner/extension-name
 ```
 
----
 
 ## 📚 Zasoby
 
@@ -395,7 +367,6 @@ gh extension install owner/extension-name
 - [GitHub CLI Extensions](https://github.com/topics/gh-extension)
 - [Awesome VS Code](https://github.com/viatsko/awesome-vscode)
 
----
 
 **Zaktualizowano:** 2025-11-21  
 **Autor:** EWW Team

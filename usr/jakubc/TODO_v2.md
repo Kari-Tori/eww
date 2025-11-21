@@ -1,21 +1,22 @@
 ---
-title: To-Do — Markdown-only (v2)
 tags:
-  - todo
-  - obsidian
-  - tasks
-  - personal
-  - blue
-  - jakubc
-date: 2025-10-27
-aliases:
-  - ✅ To-Do Wielki Implementator
-linter-yaml-title-alias: ✅ To-Do Wielki Implementator
-date created: 2025-11-21
-updated: 2025-11-21
-date modified: czwartek, październik 30. 2025, 5:24:12 pm
-type: TO DO List
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "✅ To-Do Wielki Implementator"
+
+
+
+
+
+
 ---
 
 # ✅ To-Do Wielki Implementator
@@ -29,3 +30,12 @@ color: blue
 not done
 sort by due
 ```
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

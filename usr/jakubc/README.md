@@ -1,15 +1,22 @@
 ---
-title: Jakub Celmer - Wielki Implementator
-description: Profile użytkownika jakubc
-icon: 🔧
-owner: jakubc
-tags: [profile, wielki-implementator, jakubc, eww]
-  - personal
-  - blue
-  - jakubc
-status: active
-created: 2025-11-21
-color: blue
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "Jakub Celmer (jakubc)"
+
+
+
+
+
+
 ---
 
 # Jakub Celmer (jakubc)
@@ -44,3 +51,12 @@ color: blue
 - Mentor dla: [[Karina Mirowska]]
 - Współpraca: [[E-Waste Workshop]]
 - Vault osobisty: `/usr/jakubc/`
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

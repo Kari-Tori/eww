@@ -1,35 +1,22 @@
 ---
-title: VAULT DIAGNOSTICS 20251121 064632
-description: 🔬 PEŁNA DIAGNOSTYKA VAULT OBSIDIANA
-type: file
-category: docs
-filepath: docs/reports/VAULT_DIAGNOSTICS_20251121_064632.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/reports/VAULT_DIAGNOSTICS_20251121_064632.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #notes
+  - #secondbrain
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "🔬 PEŁNA DIAGNOSTYKA VAULT OBSIDIANA"
+
+
+
+
+
+
 ---
 
 
@@ -39,7 +26,6 @@ repository: https://github.com/Kari-Tori/eww-1
 **Data:** $(date +%Y-%m-%d\ %H:%M:%S)
 **Lokalizacja:** /home/jakubc/git/eww
 
----
 
 ## 📊 1. PODSTAWOWE STATYSTYKI
 
@@ -76,4 +62,3 @@ repository: https://github.com/Kari-Tori/eww-1
 ## 🏆 3. TOP PLIKI
 
 ### Top 20 największych plików .md
-

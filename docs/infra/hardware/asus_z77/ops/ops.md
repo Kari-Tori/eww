@@ -1,26 +1,23 @@
 ---
-title: "ops"
-description: "Folder note dla ops"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-source: "[[docs/INDEX]]"
-related:
-  - docs/methodologies/methodologies.md
-  - docs/reports/reports.md
-  - docs/tags/tags.md
-  - docs/team/team.md
-  - docs/trash-recovery/trash-recovery.md
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #Asus_Z77
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #linux
+  - #star-wars
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "📁 ops"
+
+
+
+
+
+
 ---
 
 # 📁 ops
@@ -34,7 +31,6 @@ Katalog `ops` zawiera 6 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Dokumentacja projektowa i techniczna
 
----
 
 ## 📄 Pliki w folderze
 
@@ -54,8 +50,29 @@ Katalog `ops` zawiera 6 plików i 0 podfolderów.
 - ⬆️ [[asus_z77/asus_z77|asus_z77]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `docs/infra/hardware/asus_z77/ops`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+- [2022-05-01~zakup](2022-05-01~zakup.md)
+- [2024-02-01~pierwszy-dysk](2024-02-01~pierwszy-dysk.md)
+- [2024-06-01~modernizacja-gpu](2024-06-01~modernizacja-gpu.md)
+- [2024-10-01~wdrozenie](2024-10-01~wdrozenie.md)
+- [2025-03-01~drugi-dysk](2025-03-01~drugi-dysk.md)
+- [2025-05-01~serwis-chlodzenia](2025-05-01~serwis-chlodzenia.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

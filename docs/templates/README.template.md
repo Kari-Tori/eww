@@ -1,37 +1,22 @@
 ---
-title: README.Template
-description: Nazwa projektu — jednowierszowy cel
-type: readme
-category: docs
-filepath: docs/templates/README.template.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: high
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - readme
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/FULL-INDEX.md
-  - docs/INDEX.md
-dependencies:
-sources:
-  - docs/templates/README.template.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #templates
+created: 2025-11-21T11:00:00Z
+modified: 2025-11-21T11:00:00Z
+author: jakubc
+title: "Nazwa projektu — jednowierszowy cel"
+
+
+
+
+
+
 ---
 
 
@@ -195,6 +180,5 @@ curl http://localhost:3000/health
 - [Keep a Changelog](https://keepachangelog.com/)
 - [SemVer 2.0.0](https://semver.org/)
 
----
 
 Zastąp wszystkie placeholdery (OWNER/REPO, komendy, obrazy, adresy) realnymi danymi przed publikacją.

@@ -1,27 +1,23 @@
 ---
-title: "min"
-description: "Folder note dla min"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - general
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-source: "[[docs/INDEX]]"
-related:
-  - docs/site/ENDPOINTS/ENDPOINTS.md
-  - docs/site/assets/assets.md
-  - docs/site/search/search.md
-  - docs/site/vendor/vendor.md
-  - docs/site/wiki/wiki.md
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #scripts
+  - #secondbrain
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T21:00:00Z
+author: jakubc
+title: "📁 min"
+
+
+
+
+
+
 ---
 
 # 📁 min
@@ -35,7 +31,6 @@ Katalog `min` zawiera 0 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Pliki i zasoby ogólnego przeznaczenia
 
----
 
 ## 📄 Pliki w folderze
 
@@ -50,8 +45,16 @@ Katalog `min` zawiera 0 plików i 0 podfolderów.
 - ⬆️ [[lunr/lunr|lunr]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `site/assets/javascripts/lunr/min`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

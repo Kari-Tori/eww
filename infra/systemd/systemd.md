@@ -1,34 +1,23 @@
 ---
-title: "🕒 systemd — Jednostki usług użytkownika"
-description: "Pliki `.service`, `.timer` i `.path` obsługujące automaty E-Waste Workshop na poziomie user-space."
-color: purple
-author: "Jakub C. (Nairecth)"
-created: 2025-11-21
-updated: 2025-11-21
-version: 0.2.0
-status: "aktywny"
 tags:
-  - "[#FFB300]folder-note"
-  - "[#1E88E5]systemd"
-  - "[#43A047]automation"
-  - "[#F4511E]monitoring"
-  - infra
-  - infrastructure
-  - devops
-sources:
-  - path: "../README.md"
-    title: "Repo README"
-  - path: "../AGENTS.md"
-    title: "AGENTS"
-  - path: "../bin/bin.md"
-    title: "bin note"
-backlinks:
-  - path: "../INDEX.md"
-    title: "Główny indeks"
-  - path: "../FULL-INDEX.md"
-    title: "Full Index"
-  - path: "../eww.md"
-    title: "Opis repo"
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #infrastructure
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T12:00:00Z
+modified: 2025-11-21T12:00:00Z
+author: jakubc
+title: "🕒 systemd — automaty usługowe"
+
+
+
+
+
+
 ---
 
 # 🕒 systemd — automaty usługowe
@@ -71,22 +60,23 @@ backlinks:
 
 
 
----
 
----
 
 **Backlinków:** 1  
 **Linków wychodzących:** 0  
 **Zaktualizowano:** 1763715821.5484378  
 
 
----
 
-## 🔗 Backlinki
-
-*Pliki linkujące do tego dokumentu:*
+## 🔗 Backlinks
 
 - [[core/TEMPLATES/TEMPLATES|TEMPLATES]]
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+
+
 
 ## 📎 Źródła i powiązania
 
@@ -94,8 +84,15 @@ backlinks:
 
 - [[core/TEMPLATES/TEMPLATES|TEMPLATES]]
 
----
 
 **Backlinków:** 1  
 **Linków wychodzących:** 1  
 **Zaktualizowano:** 1763717741.383811  
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*

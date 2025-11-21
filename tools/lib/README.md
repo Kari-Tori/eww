@@ -1,39 +1,22 @@
 ---
-title: README
-description: lib/ - Biblioteki współdzielone
-type: readme
-category: lib
-filepath: lib/README.md
-color: orange
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: high
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - readme
-  - automation
-  - tools
-  - dev
-keywords:
-aliases:
-related:
-  - CHANGELOG.md
-  - README.md
-  - archive/archive.md
-dependencies:
-sources:
-  - lib/README.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "lib/ - Biblioteki współdzielone"
+
+
+
+
+
+
 ---
 
 

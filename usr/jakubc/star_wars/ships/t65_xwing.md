@@ -1,21 +1,22 @@
 ---
-created: 2025-11-19
-updated: 2025-11-21
-title: T-65 X-wing Prototype
-manufacturer: Incom Corporation
-role: Myśliwiec przewagi przestrzeni
-era: Schyłek Wojen Klonów / Druga połowa ery Republiki
 tags:
-  - starwars
-  - rebellion
-  - starfighter
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-  - [[usr/jakubc/star_wars/fractions/galactic_republic.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ T-65 X-wing — prototyp z końca Wojen Klonów"
+
+
+
+
+
+
 ---
 
 # ✨ T-65 X-wing — prototyp z końca Wojen Klonów

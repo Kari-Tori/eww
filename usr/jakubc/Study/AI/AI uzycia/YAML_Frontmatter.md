@@ -1,23 +1,22 @@
 ---
-id: sb-yaml
-title: YAML frontmatter
-type: spec/standard
-status: draft
-owner: Jakub
 tags:
-  - yaml
-  - metadata
-  - secondbrain
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-27
-updated: 2025-11-21
-aliases: [YAML frontmatter]
-linter-yaml-title-alias: YAML frontmatter
-date created: poniedziałek, październik 27. 2025, 1:46:36 pm
-date modified: poniedziałek, październik 27. 2025, 1:48:01 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "YAML frontmatter"
+
+
+
+
+
+
 ---
 
 # YAML frontmatter
@@ -28,7 +27,6 @@ Frontmatter to API między Obsidian, Odoo, Secondbrain i modułami AI.
 ## Minimalny szablon
 
 ```yaml
----
 id: eww-asset-iphone11-2025-10-27
 title: iPhone 11 intake
 type: asset/device
@@ -36,7 +34,6 @@ status: intake
 owner: Karina
 priority: normal
 location: EWW/Szafka_Technika/Telefony
-tags:
   - eww
   - phone
   - intake
@@ -45,7 +42,6 @@ updated: 2025-10-27
 odoo_id: PROD-IPH11-001
 serial: FCGH12345
 ai_vectors: true
----
 ```
 
 ## Kluczowe pola
@@ -65,3 +61,12 @@ ai_vectors: true
 - YAML zawsze na początku pliku.
 - Po YAML pusta linia i dopiero treść.
 - Żadne pole nie może być opisane tylko w tekście jeśli może być opisane w YAML. Przykład status, lokalizacja.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

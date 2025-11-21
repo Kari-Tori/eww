@@ -1,57 +1,23 @@
 ---
-title: "🧰 Visual Studio Code — standard pracy"
-description: "Wytyczne konfiguracji VS Code, rozszerzeń i workflow dla projektu EWW."
-type: file
-category: docs
-filepath: docs/software/code/code.md
-color: green
-author: "Jakub C. (Nairecth)"
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.1.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - "[#007ACC]code"
-  - "[#1E88E5]ide"
-  - "[#43A047]workflow"
-  - "[#8E24AA]docs"
-  - documentation
-  - docs
-  - knowledge
-keywords:
-  - visual-studio-code
-  - ide
-  - vscode
-icon:
-  set: simple-icons
-  name: visualstudiocode
-  color: "#007ACC"
-  emoji: "🧰"
-aliases: []
-related:
-  - docs/FULL-INDEX.md
-  - ../../wiki/kubuntu.md
-  - ../obsidian/obsidian.md
-dependencies: []
-sources:
-  - path: "../../assets/icons.md"
-    title: "ICON-SET"
-  - path: "../../../README.md"
-    title: "Repo README"
-  - path: "../../README.md"
-    title: "Docs README"
-backlinks:
-  - path: "../obsidian/obsidian.md"
-    title: "Obsidian guide"
-  - path: "../../wiki/kubuntu.md"
-    title: "Kubuntu wiki"
-context: "E-Waste Workshop — Bash toolkit dla środowiska Kubuntu"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #folder_note
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "🧰 Visual Studio Code — ikona i styl"
+
+
+
+
+
+
 ---
 
 
@@ -129,3 +95,20 @@ Gdzie szukać więcej
 
 Uwagi końcowe
 - Ten plik jest syntetycznym przewodnikiem; szczegóły techniczne i pełne konfiguracje (workflow, hooki) umieszczaj w katalogu .github/ i docs/ zgodnie z potrzebą.
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+- [plugins/](plugins/plugins.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

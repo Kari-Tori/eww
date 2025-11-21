@@ -1,26 +1,23 @@
 ---
-title: "network"
-description: "Folder note dla network"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-source: "[[docs/INDEX]]"
-related:
-  - docs/methodologies/methodologies.md
-  - docs/reports/reports.md
-  - docs/tags/tags.md
-  - docs/team/team.md
-  - docs/trash-recovery/trash-recovery.md
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "📁 network"
+
+
+
+
+
+
 ---
 
 # 📁 network
@@ -34,7 +31,6 @@ Katalog `network` zawiera 1 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Dokumentacja projektowa i techniczna
 
----
 
 ## 📄 Pliki w folderze
 
@@ -49,8 +45,24 @@ Katalog `network` zawiera 1 plików i 0 podfolderów.
 - ⬆️ [[infra/infra|infra]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `docs/infra/network`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+- [README](README.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

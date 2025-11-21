@@ -1,12 +1,22 @@
 ---
 tags:
-  - graph
-  - personal
-  - karinam
-  - pink
-  - candy
-created: 2025-11-21
-author: karinam
+  - #automation
+  - #docs
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T14:19:10Z
+modified: 2025-11-21T14:19:10Z
+author: jakubc
+title: "🩷 GRAPH: Karinam Personal"
+
+
+
+
+
+
 ---
 
 # 🩷 GRAPH: Karinam Personal

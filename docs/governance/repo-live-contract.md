@@ -1,24 +1,22 @@
 ---
-title: "repo-live-contract"
-category: general
 tags:
-  - general
-  - eww
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-related:
-  - docs/site/ENDPOINTS/ENDPOINTS.md
-  - docs/site/assets/assets.md
-  - docs/site/search/search.md
-  - docs/site/vendor/vendor.md
-  - docs/site/wiki/wiki.md
-cssclasses:
-  - eww-doc
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-21T10:00:00Z
+author: jakubc
+title: "Repo Live Contract"
+
+
+
+
+
+
 ---
 
 # Repo Live Contract

@@ -1,20 +1,23 @@
 ---
-title: "lego"
-description: "Folder note dla lego"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - personal
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-color: blue
-author: EWW Team
-source: "[[docs/INDEX]]"
-cssclasses:
-  - eww-folder-note
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #lego
+  - #linux
+  - #secondbrain
+  - #folder_note
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "📁 lego"
+
+
+
+
+
+
 ---
 
 # 📁 lego
@@ -28,7 +31,6 @@ Katalog `lego` zawiera 3 plików i 1 podfolderów.
 **Przeznaczenie:**
 - Profile użytkowników i workspace
 
----
 
 ## 📄 Pliki w folderze
 
@@ -45,8 +47,26 @@ Katalog `lego` zawiera 3 plików i 1 podfolderów.
 - ⬆️ [[jakubc/jakubc|jakubc]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `usr/jakubc/lego`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+- [clone_vehicles_top10](clone_vehicles_top10.md)
+- [delta-7-notatka](delta-7-notatka.md)
+- [obex-nuclass](obex-nuclass.md)
+
+## 📁 Podfoldery
+
+- [lego/](lego/lego.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

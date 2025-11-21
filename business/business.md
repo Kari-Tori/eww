@@ -1,33 +1,42 @@
 ---
-title: Business & Finanse
-tags: [business, finanse, ecommerce, workflow,hub]
-icon: 💼
-color: gold
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+  - #folder_note
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
 author: jakubc
-created: 2025-11-21
----
+title: "📁 business"
 
-# 💼 Business & Finanse
 
-## 📋 Cel folderu
-Zawiera dokumentację biznesową, materiały dotyczące e-commerce, finansów i workflow biznesowych dla E-Waste Workshop.
 
-## 📂 Zawartość
 
-%% Begin Waypoint %%
-- [[business]]
 
-%% End Waypoint %%
-
-## 🔗 Powiązania
-- [[docs/docs|Dokumentacja główna]]
-- [[usr/karinam/karinam|Karina M - Business Lead]]
-- [[core/core|Core - Funkcje podstawowe]]
-
-## 📊 Kategorie
-- **E-commerce**: Sklepy, produkty, integracje
-- **Finanse**: Księgowość, faktury, płatności
-- **Workflow**: Procesy biznesowe, automaty
 
 ---
-*Folder zarządzany przez: [[usr/jakubc/jakubc]]*
+
+# 📁 business
+
+> Dokumentacja biznesowa - strategia, procesy, modele.
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

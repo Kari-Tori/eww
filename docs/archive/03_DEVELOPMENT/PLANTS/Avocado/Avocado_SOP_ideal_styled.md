@@ -1,8 +1,15 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
 title: "03_DEVELOPMENT/PLANTS/Avocado/Avocado_SOP_ideal_styled.md"
 description: "Placeholder - do uzupełnienia"
 category: placeholder
-tags:
   - placeholder
   - todo
   - documentation
@@ -18,6 +25,12 @@ related:
   - docs/placeholders/FCGH — iPhone 11 (Spec).md
   - docs/placeholders/daily_improvement.md
   - docs/placeholders/task.md
+
+
+
+
+
+
 ---
 
 # 03_DEVELOPMENT/PLANTS/Avocado/Avocado_SOP_ideal_styled.md

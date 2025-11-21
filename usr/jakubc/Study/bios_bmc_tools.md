@@ -1,23 +1,22 @@
 ---
-title: 🧠 BIOS / UEFI narzędzia operacyjne (Proxmox host)
 tags:
-  - infra
-  - proxmox
-  - bios
-  - bmc
-  - oob
-  - personal
-  - blue
-  - jakubc
-layout: doc
-status: active
-owner: jakub
-aliases: [🔧 BIOS / UEFI — narzędzia operacyjne]
-linter-yaml-title-alias: 🔧 BIOS / UEFI — narzędzia operacyjne
-date created: 2025-11-21
-updated: 2025-11-21
-date modified: poniedziałek, październik 27. 2025, 9:06:30 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🔧 BIOS / UEFI — narzędzia operacyjne"
+
+
+
+
+
+
 ---
 
 # 🔧 BIOS / UEFI — narzędzia operacyjne
@@ -25,7 +24,6 @@ color: blue
 > [!summary]+ 🎯 Cel
 > Wejście do firmware. Zmiana ustawień startowych. Ustawienie boot order. Restart przez sieć. Minimalny kontakt fizyczny z maszyną.
 
----
 
 ## 🖥️ 1. Host bez BMC (PC / mini PC)
 
@@ -46,7 +44,6 @@ systemctl reboot --firmware-setup
 > [!warning] 🔒 Ograniczenie
 > Nie zmienia ustawień BIOS automatycznie. Tylko otwiera firmware setup.
 
----
 
 ### 📜 `efibootmgr`
 
@@ -68,7 +65,6 @@ efibootmgr -o 0003,0000,0001
 > [!fail] 🚫 Limit
 > Nie rusza innych parametrów firmware (VT-x, SR-IOV, turbo, fan curve).
 
----
 
 ## 🖲️ 2. IPMI / BMC (sprzęt serwerowy)
 
@@ -105,7 +101,6 @@ ipmitool -I lanplus -H <IP_BMC> -U <USER> -P <PASS> sensor
 > - Nie zapisze nowych opcji BIOS typu Virtualization=Enabled.
 > - To jest sterowanie zasilaniem i kolejnością startu, nie pełna edycja firmware.
 
----
 
 ### 🖥️🔌 KVM-over-IP (iDRAC Virtual Console / iLO Remote Console / Supermicro KVM)
 
@@ -121,7 +116,6 @@ ipmitool -I lanplus -H <IP_BMC> -U <USER> -P <PASS> sensor
 > - W starszych iDRAC/iLO pełny KVM może wymagać licencji Enterprise.
 > - BMC powinien mieć osobny VLAN / dostępy tylko z sieci admin.
 
----
 
 ## 🏭 3. CLI vendorów (automatyczna zmiana BIOS)
 
@@ -152,7 +146,6 @@ Mechanika Dell:
 > - Masowe ustawienie jednakowych parametrów na wielu serwerach Dell.
 > - Automatyzacja przez Ansible/bash bez klikania w iDRAC GUI.
 
----
 
 ### 🟨 HPE ProLiant → `hponcfg` / `conrep`
 
@@ -180,7 +173,6 @@ conrep -l -f /root/romprofile.xml
 > - Klonowanie BIOS setup między identycznymi ProLiantami.
 > - Szybka normalizacja serwerów pod jeden standard.
 
----
 
 ### 🟩 Supermicro → `IPMICFG`
 
@@ -193,7 +185,6 @@ conrep -l -f /root/romprofile.xml
 > [!warning] 🌡️ Dlaczego ważne
 > - Zarządzanie krzywą wentylatorów wpływa na temperaturę GPU/CPU w racku i na głośność.
 
----
 
 ## 🏢 4. Intel AMT / vPro (stacje robocze klasy biznes)
 
@@ -213,7 +204,6 @@ Narzędzie: **MeshCommander / MeshCmd**
 > [!warning] 🔑 Warunek
 > AMT musi być aktywowany i mieć ustawione hasło oraz sieć. Bez tego KVM nie działa.
 
----
 
 ## 🌐 5. Redfish API (nowe generacje serwerów)
 
@@ -234,7 +224,6 @@ Możliwości:
 > [!fail] 🔒 Ograniczenie
 > Redfish wymaga kontrolera, który realnie to wspiera (nowsze iDRAC / iLO / Supermicro BMC). Na tanim desktopie nie działa.
 
----
 
 ## 🧭 6. Szybki wybór strategii
 
@@ -253,7 +242,6 @@ Możliwości:
 > - MeshCommander → KVM od POST i zdalne sterowanie bootem.
 > - BMC-like kontrola bez prawdziwego BMC.
 
----
 
 ## 🗂️ 7. Szybki katalog narzędzi
 
@@ -268,7 +256,6 @@ Możliwości:
 > - MeshCommander (Intel AMT / vPro) — KVM i kontrola bootu na desktopach klasy biznes.
 > - Redfish API — REST do BIOS/power/boot dla nowych kontrolerów BMC.
 
----
 
 > [!success]+ ✅ Minimalny pakiet startowy na Proxmox host
 > ```bash
@@ -281,4 +268,11 @@ Możliwości:
 >
 > BMC/IPMI trzymaj w osobnym VLAN lub tylko przez VPN. Nie wystawiaj tego do sieci użytkowników.
 
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
 ---
+*Auto-generated backlinks for cluster connectivity*

@@ -1,8 +1,15 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
 title: "avocado/avocado_item.md"
 description: "Placeholder - do uzupełnienia"
 category: placeholder
-tags:
   - placeholder
   - todo
   - documentation
@@ -18,6 +25,12 @@ related:
   - docs/placeholders/FCGH — iPhone 11 (Spec).md
   - docs/placeholders/daily_improvement.md
   - docs/placeholders/task.md
+
+
+
+
+
+
 ---
 
 # avocado/avocado_item.md

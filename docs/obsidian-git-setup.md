@@ -1,14 +1,22 @@
 ---
 tags:
-  - obsidian
-  - git
-  - automation
-  - workflow
-  - config
-colors:
-  - "#7C3AED"
-created: 2025-11-21
+  - #automation
+  - #docs
+  - #eww
+  - #git
+  - #linux
+  - #obsidian
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
 author: jakubc
+title: "🔄 Obsidian Git - Konfiguracja Auto-Commit"
+
+
+
+
+
+
 ---
 
 # 🔄 Obsidian Git - Konfiguracja Auto-Commit

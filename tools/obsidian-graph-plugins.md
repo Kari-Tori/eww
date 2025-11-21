@@ -1,15 +1,22 @@
 ---
-title: Obsidian Graph Plugins
-description: Najlepsze pluginy do wizualizacji wiedzy w grafie
 tags:
-  - obsidian
-  - graph
-  - visualization
-  - tools
-  - plugins
-created: 2025-11-21
+  - #automation
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
 author: jakubc
-color: blue
+title: "📊 Obsidian Graph Plugins - Zestaw Profesjonalny"
+
+
+
+
+
+
 ---
 
 # 📊 Obsidian Graph Plugins - Zestaw Profesjonalny
@@ -44,7 +51,6 @@ gh release download -R IdreesInc/Waypoint -p '*.zip' -O /tmp/waypoint.zip
 gh release download -R blacksmithgu/obsidian-dataview -p '*.zip' -O /tmp/dataview.zip
 ```
 
----
 
 ## 🚀 REKOMENDOWANE (TOP 5 do doinstalowania)
 
@@ -88,7 +94,6 @@ gh release download -R TfTHacker/obsidian42-strange-new-worlds -p '*.zip' -O /tm
 gh release download -R brianpetro/obsidian-smart-connections -p '*.zip' -O /tmp/smart-connections.zip
 ```
 
----
 
 ## 🎨 WIZUALIZACJA I KOLOROWANIE
 
@@ -106,7 +111,6 @@ gh release download -R rien7/obsidian-colorful-tag -p '*.zip' -O /tmp/colorful-t
 gh release download -R FlorianWoelki/obsidian-icon-folder -p '*.zip' -O /tmp/icon-folder.zip
 ```
 
----
 
 ## 🛠️ Skrypt instalacyjny
 
@@ -153,7 +157,6 @@ echo "🎉 Wszystkie pluginy zainstalowane!"
 echo "🔄 Przeładuj Obsidiana i włącz w Community Plugins"
 ```
 
----
 
 ## 🎯 Konfiguracja kolorów tagów
 
@@ -177,7 +180,6 @@ echo "🔄 Przeładuj Obsidiana i włącz w Community Plugins"
 }
 ```
 
----
 
 ## 📚 Źródła
 
@@ -191,7 +193,6 @@ echo "🔄 Przeładuj Obsidiana i włącz w Community Plugins"
 LIST FROM [[]] AND !"Templates"
 ```
 
----
 
 **Aktualizacja:** 2025-11-21  
 **Autor:** jakubc  

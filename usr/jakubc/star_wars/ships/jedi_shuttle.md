@@ -1,20 +1,25 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Eta-class „Jedi Shuttle” (Anakin’s Shuttle)
-manufacturer: Cygnus Spaceworks / Haor Chall Engineering (modyfikacja GAR)
-role: Lekki wahadłowiec szturmowy
-era: Wojny Klonów (m.in. S2E10 „The Deserter”)
 tags:
-  - starwars
-  - jedi
-  - shuttle
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md|Lista statków S1/S2]]
-color: blue
+  - #eww
+  - #jakubc
+  - #star-wars
+  - #linux
+  - #secondbrain
+  - #PKM
+  - #karinam
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Eta-class „Jedi Shuttle” — karta techniczna"
+
+
+
+
+
+
+
+
+
 ---
 
 # ✨ Eta-class „Jedi Shuttle” — karta techniczna
@@ -144,7 +149,6 @@ color: blue
 > - Systemy nawigacyjne przechowują wrażliwe dane – wykonaj wipe po misji.  
 > - Przechowywać w hangarze klimatyzowanym (ochrona kompozytów).
 
----
 
 > [!quote|icon:book|color:#5C6F84]
 > **Źródła:** [Wookieepedia – Anakin’s Shuttle (Legends)](https://starwars.fandom.com/wiki/Anakin%27s_shuttle/Legends), archiwa GAR, logi misji.

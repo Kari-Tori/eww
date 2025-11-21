@@ -1,4 +1,12 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
 title: "📦 archive — Przestrzeń na materiały historyczne"
 description: "Pusty jeszcze magazyn na stare skrypty, logi i migawki projektu E-Waste Workshop."
 color: green
@@ -7,7 +15,6 @@ created: 2025-11-21
 updated: 2025-11-21
 version: 0.1.0
 status: "planowany"
-tags:
   - "[#FFB300]folder-note"
   - "[#546E7A]archiwum"
   - "[#26A69A]organizacja"
@@ -31,6 +38,12 @@ backlinks:
     title: "Główny indeks"
   - path: "../eww.md"
     title: "Opis repozytorium"
+
+
+
+
+
+
 ---
 
 # 📦 archive — przestrzeń na historyczne artefakty
@@ -65,3 +78,14 @@ backlinks:
 - [README.md](../README.md) – kontekst projektu.
 - [FULL-INDEX.md](../FULL-INDEX.md) – docelowy spis wszystkich folderów (ujmie też `archive/` po dodaniu zawartości).
 
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+- [03_DEVELOPMENT/](03_DEVELOPMENT/03_DEVELOPMENT.md)
+- [04_TEAM/](04_TEAM/04_TEAM.md)
+- [avocado/](avocado/avocado.md)
+- [obsidian/](obsidian/obsidian.md)

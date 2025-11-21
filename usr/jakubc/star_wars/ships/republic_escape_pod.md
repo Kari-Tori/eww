@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Republic Escape Pod (Venator-class)
-manufacturer: Kuat Drive Yards
-role: Kapsuła ratunkowa
-era: Wojny Klonów
 tags:
-  - starwars
-  - republic
-  - capsule
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Republic Escape Pod — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Republic Escape Pod — karta techniczna

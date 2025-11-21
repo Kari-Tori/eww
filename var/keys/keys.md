@@ -1,31 +1,23 @@
 ---
-title: "🔐 keys — Klucze kryptograficzne"
-description: "Repozytorium publicznych kluczy GPG wykorzystywanych przy podpisywaniu commitów/artefaktów."
-color: brown
-author: "Jakub C. (Nairecth)"
-created: 2025-11-21
-updated: 2025-11-21
-version: 0.1.0
-status: "aktywny"
 tags:
-  - "[#FFB300]folder-note"
-  - "[#3949AB]security"
-  - "[#00897B]gpg"
-  - "[#E53935]compliance"
-  - data
-  - runtime
-sources:
-  - path: "../README.md"
-    title: "Repo README"
-  - path: "../AGENTS.md"
-    title: "AGENTS"
-backlinks:
-  - path: "../INDEX.md"
-    title: "Główny indeks"
-  - path: "../FULL-INDEX.md"
-    title: "Full Index"
-  - path: "../eww.md"
-    title: "Opis repo"
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T20:00:00Z
+author: jakubc
+title: "🔐 keys — klucze publiczne"
+
+
+
+
+
+
 ---
 
 # 🔐 keys — klucze publiczne
@@ -59,4 +51,20 @@ backlinks:
 - [AGENTS.md](../AGENTS.md)
 - [README.md](../README.md)
 - [config/gitconfig.repo](../config/gitconfig.repo)
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
 

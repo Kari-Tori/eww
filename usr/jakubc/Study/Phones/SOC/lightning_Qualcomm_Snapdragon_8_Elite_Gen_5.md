@@ -1,18 +1,22 @@
 ---
-title: "⚡ Qualcomm Snapdragon 8 Elite Gen 5"
-category: personal
 tags:
-  - personal
-  - workspace
-  - notes
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-color: blue
-author: EWW Team
-cssclasses:
-  - eww-doc
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "⚡ Qualcomm Snapdragon 8 Elite Gen 5"
+
+
+
+
+
+
 ---
 
 # ⚡ Qualcomm Snapdragon 8 Elite Gen 5
@@ -21,7 +25,6 @@ cssclasses:
 > [!SUMMARY] 🚀 Skrót
 > 2025, flagowy SoC 3 nm. 8 rdzeni Oryon, Adreno 840 z HPM 18 MB, NPU Hexagon (INT2/4/8, FP8/16). LPDDR5X, UFS 4.1. X85 5G i Wi‑Fi 7 w FastConnect 7900. Ekrany do 4K@120 lub QHD+@240.
 
----
 
 ## 🔧 Specyfikacja
 
@@ -96,7 +99,6 @@ cssclasses:
 > [!WARNING] 🔍 Niepewności spec  
 > Wartości **L2/L3** i szczegóły jednostek GPU różnią się między źródłami. Dokumentacja producenta nie ujawnia pełnych liczb. Dodawaj adnotacje o wariancie urządzenia, firmware i limicie mocy.
 
----
 
 ## 🏭 Produkcja
 
@@ -134,7 +136,6 @@ cssclasses:
 > [!NOTE] Interpretacja  
 > „Koszt produkcji” ≠ „cena sprzedaży SoC”. Do kosztu krzemu i pakowania dochodzą R&D, IP/licencje, testy, marże i wsparcie OEM.
 
----
 
 ## 📱 Zastosowanie
 
@@ -154,7 +155,6 @@ cssclasses:
 - 📶 **Łączność:** Wi‑Fi 7 320 MHz, UWB.  
 - 🔋 **Sustained:** testy 30+ min.
 
----
 
 ## 🔗 Linki referencyjne
 > **Oficjalne PDF/briefy:**  
@@ -162,6 +162,14 @@ cssclasses:
 > • Snapdragon X85 5G Modem‑RF — brief: https://docs.qualcomm.com/bundle/publicresource/87-87284-1_REV_B_Qualcomm_x85_5G_Modem_RF_Product_Brief.pdf  
 > • FastConnect 7900 — brief: https://docs.qualcomm.com/bundle/publicresource/87-73970-1_REV_C_Qualcomm_FastConnect_7900_Mobile_Connectivity_System_Product_Brief.pdf  
 
----
 
 *Wersja: 2025-10-30 12:31 UTC*
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

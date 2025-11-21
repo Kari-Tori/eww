@@ -1,30 +1,23 @@
 ---
-title: "karinam"
-description: "Folder note dla karinam"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - documentation
-  - karinam
-  - pink
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-source: "[[docs/INDEX]]"
-related:
-  - docs/methodologies/methodologies.md
-  - docs/reports/reports.md
-  - docs/tags/tags.md
-  - docs/team/team.md
-  - docs/trash-recovery/trash-recovery.md
-cssclasses:
-  - candy
-  - pink
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #docs
+  - #eww
+  - #karinam
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T11:00:00Z
+modified: 2025-11-21T11:00:00Z
+author: jakubc
+title: "📁 karinam"
+
+
+
+
+
+
 ---
 
 # 📁 karinam
@@ -38,7 +31,6 @@ Katalog `karinam` zawiera 4 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Dokumentacja projektowa i techniczna
 
----
 
 ## 📄 Pliki w folderze
 
@@ -56,23 +48,19 @@ Katalog `karinam` zawiera 4 plików i 0 podfolderów.
 - ⬆️ [[team/team|team]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `docs/team/karinam`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
 
 
----
 
----
 
 **Backlinków:** 10  
 **Linków wychodzących:** 6  
 **Zaktualizowano:** 1763717475.8331895  
 
 
----
 
 ## 🔗 Backlinki
 
@@ -106,8 +94,20 @@ Katalog `karinam` zawiera 4 plików i 0 podfolderów.
 
 *...i 5 więcej*
 
----
 
 **Backlinków:** 10  
 **Linków wychodzących:** 15  
 **Zaktualizowano:** 1763717741.3851483  
+
+## 📑 Index plików
+
+- [Karina Tips 2](Karina Tips 2.md)
+- [Karina Tips](Karina Tips.md)
+- [_Karina_Bash_NOTE](_Karina_Bash_NOTE.md)
+- [Karina_ESFP-T_Profil_E-Waste_Workshop](Karina_ESFP-T_Profil_E-Waste_Workshop.md)
+- [Karina_Tips_2](Karina_Tips_2.md)
+- [Karina_Tips](Karina_Tips.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*

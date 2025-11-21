@@ -1,28 +1,22 @@
 ---
-title: README
-description: EWW_Style — Playbook pakietu stylistycznego (KDE/Plasma 6)
-filepath: dev/Playbooks/EWW_Style/README.md
-color: yellow
-author: 
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
 tags:
-  - documentation
-  - markdown
-  - readme
-  - development
-  - code
-related:
-  - AGENTS.md
-  - CHANGELOG.md
-  - FULL-INDEX.md
-sources:
-  - dev/Playbooks/EWW_Style/README.md
-backlinks: []
+  - #automation
+  - #books
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T23:00:00Z
+modified: 2025-11-21T23:00:00Z
+author: jakubc
+title: "EWW_Style — Playbook pakietu stylistycznego (KDE/Plasma 6)"
+
+
+
+
+
+
 ---
 
 

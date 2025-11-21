@@ -1,40 +1,22 @@
 ---
-title: Code Plugins Installed
-description: 🧩 code_plugins_installed — lista wtyczek dla vaulta "code"
-type: file
-category: docs
-filepath: docs/software/code/plugins/code_plugins_installed.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - ide
-  - markdown
-  - vscode
-  - docs
-  - knowledge
-keywords:
-  - editor
-  - ide
-  - vscode
-aliases:
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/software/code/plugins/code_plugins_installed.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "🧩 code_plugins_installed — lista wtyczek dla vaulta "code""
+
+
+
+
+
+
 ---
 
 
@@ -50,7 +32,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - Możliwość wklejenia skryptu bezpośrednio do terminala.
 - Opcję --embed aby automatycznie wstawić wynik do tego pliku między markerami.
 
----
 
 ## ▶️ Szybkie uruchomienie
 1. Skopiuj cały blok "Skrypt" i wklej do terminala — otrzymasz wypisane wtyczki.  
@@ -61,7 +42,6 @@ repository: https://github.com/Kari-Tori/eww-1
    - Po wklejeniu i uruchomieniu: ./script.sh --embed
    - Lub: ./script.sh /ścieżka/do/vault --embed
 
----
 
 ## 🧾 Skrypt (skopiuj i wklej do terminala)
 ````bash
@@ -177,7 +157,6 @@ if [[ $EMBED -eq 1 ]]; then
 fi
 ````
 
----
 
 ## 📋 Przykładowy wynik
 1. 🧩 Obsidian Git 🔖 0.12.3 — 📝 Integracja Git dla Obsidian  
@@ -187,7 +166,6 @@ fi
 > Sekcja wyników jest wstawiana między markerami:
 > <!-- EWW-PLUGINS-START --> … <!-- EWW-PLUGINS-END -->
 
----
 
 ## ⚙️ Wskazówki
 - Jeśli masz `jq` — skrypt odczyta JSON poprawniej.  

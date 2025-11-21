@@ -1,37 +1,22 @@
 ---
-title: 📘 E-Waste Workshop README
-description: Kompletna dokumentacja projektu - instalacja, konfiguracja, użycie
-version: 0.0.0.5-pre-mvp
-type: readme
-status: pre-mvp
 tags:
-  - main
-  - eww
-  - core
-  - readme
-  - documentation
-  - bash
-  - kubuntu
-  - automation
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-01T09:00:00Z
+modified: 2025-11-01T09:00:00Z
 author: jakubc
-created: 2024-11-08
-updated: 2025-11-21
-repository: https://github.com/Nairecth/eww
-website: http://www.e-wasteworkshop.co.uk
-license: MIT
-platform: Ubuntu 25.04
-requires:
-  - bash >= 5.2
-  - git >= 2.34
-  - make >= 4.3
-icon:
-  emoji: "♻️"
-  color: "#43A047"
-backlinks:
-  - "[[EWW-MAP|🗺️ Repository Map]]"
-  - "[[docs/INDEX|📑 Documentation Index]]"
-  - "[[CHANGELOG|📝 Changelog]]"
-  - "[[Makefile|⚙️ Makefile]]"
+title: "E-Waste Workshop — Centrum Recyklingu i Refabrykacji"
+
+
+
+
+
+
 ---
 # E-Waste Workshop — Centrum Recyklingu i Refabrykacji
 
@@ -44,11 +29,10 @@ backlinks:
 [📦 Repozytorium GitHub](https://github.com/Nairecth/eww) | [⚡ Przejdź do Quick Start](#-quick-start)
 
 > [!TIP] Skróty na start
-> - [📁 Root Index](INDEX.md) — nawigacja po katalogu głównym  
-> - [🎨 Standard ikon Kubuntu/Code/Obsidian](docs/assets/icons.md)  
+> - [📁 Root Index](INDEX.md) — nawigacja po katalogu głównym
+> - [🎨 Standard ikon Kubuntu/Code/Obsidian](docs/assets/icons.md)
 > - [🟦 Kubuntu](docs/wiki/kubuntu.md) • [🧰 VS Code](docs/software/code/code.md) • [💠 Obsidian](docs/software/obsidian/obsidian.md)
 
----
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-pre--mvp-FFD700" alt="Status">
@@ -60,8 +44,8 @@ backlinks:
   <img src="https://img.shields.io/badge/git-2.48+-F05032?logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/make-4.4+-4169E1" alt="Make">
   <br>
-  <img src="https://img.shields.io/badge/📁_katalogi-29-9C27B0" alt="Katalogi">
-  <img src="https://img.shields.io/badge/📄_pliki-93-8B5CF6" alt="Pliki">
+  <img src="https://img.shields.io/badge/📁_katalogi-305-9C27B0" alt="Katalogi">
+  <img src="https://img.shields.io/badge/📄_pliki_md-664-8B5CF6" alt="Pliki MD">
   <img src="https://img.shields.io/badge/🛠️_cli_tools-10-FF6F00" alt="CLI Tools">
   <img src="https://img.shields.io/badge/📚_libs-5-00BCD4" alt="Libs">
   <img src="https://img.shields.io/badge/📝_docs-117-7CB342" alt="Docs">
@@ -79,7 +63,6 @@ backlinks:
   <a href="docs/MVP.md">🎯 MVP</a>
 </p>
 
----
 
 ## ⚡ Quick Start
 
@@ -112,7 +95,6 @@ source ~/.bashrc
 
 **Wymagania:** Bash 5.2+ | Git 2.34+ | Ubuntu 25.04
 
----
 
 ## 📖 Spis treści
 
@@ -129,7 +111,6 @@ source ~/.bashrc
 - [Contributing](#contributing)
 - [License](#license)
 
----
 ## 📁 Root Index i ikonografia
 
 - [📁 Root Index](INDEX.md) — tabelaryczny spis katalogów i folder note'ów.
@@ -430,7 +411,7 @@ docs/dokumentacja.md|Przewodnik dokumentowania projektu
 # Znajdź plik po nazwie
 grep "eww-tree" .filedesc
 
-# Znajdź po opisie  
+# Znajdź po opisie
 grep -i "changelog" .filedesc
 
 # Wygeneruj INDEX.md na nowo
@@ -446,6 +427,9 @@ Wszystkie powtarzalne zadania dostępne przez `make`:
 
 ```bash
 make help              # Lista wszystkich targetów
+make index             # Regeneruj INDEX.md
+make check-folders     # Sprawdź folder notes
+make update-indexes    # Zaktualizuj indeksy w folder notes
 make changelog         # Changelog z Git
 make index             # Regeneruj INDEX.md
 make tree              # Drzewo projektu
@@ -479,10 +463,9 @@ Zobacz [.github/copilot-instructions.md](.github/copilot-instructions.md) dla pe
 
 TBD - Do ustalenia
 
----
 
-**Maintainer:** [Nairecth](https://github.com/Nairecth)  
-**Repository:** [github.com/Nairecth/eww](https://github.com/Nairecth/eww)  
+**Maintainer:** [Nairecth](https://github.com/Nairecth)
+**Repository:** [github.com/Nairecth/eww](https://github.com/Nairecth/eww)
 **Website:** [www.e-wasteworkshop.co.uk](http://www.e-wasteworkshop.co.uk)
 
 ````markdown

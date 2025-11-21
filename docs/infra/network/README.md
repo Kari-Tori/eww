@@ -1,38 +1,22 @@
 ---
-title: README
-description: 🌐 Network — źródło prawdy
-type: readme
-category: docs
-filepath: docs/infra/network/README.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: high
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - readme
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - CHANGELOG.md
-  - README.md
-  - archive/archive.md
-dependencies:
-sources:
-  - docs/infra/network/README.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🌐 Network — źródło prawdy"
+
+
+
+
+
+
 ---
 
 

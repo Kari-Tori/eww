@@ -1,26 +1,23 @@
 ---
-title: "tags"
-description: "Folder note dla tags"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-source: "[[docs/INDEX]]"
-related:
-  - docs/methodologies/methodologies.md
-  - docs/reports/reports.md
-  - docs/team/team.md
-  - docs/trash-recovery/trash-recovery.md
-  - docs/references/references.md
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T11:00:00Z
+modified: 2025-11-21T11:00:00Z
+author: jakubc
+title: "📁 tags"
+
+
+
+
+
+
 ---
 
 # 📁 tags
@@ -34,7 +31,6 @@ Katalog `tags` zawiera 1 plików i 122 podfolderów.
 **Przeznaczenie:**
 - Dokumentacja projektowa i techniczna
 
----
 
 ## 📄 Pliki w folderze
 
@@ -170,8 +166,148 @@ Katalog `tags` zawiera 1 plików i 122 podfolderów.
 - ⬆️ [[docs/docs|docs]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `docs/tags`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+- [Tags](Tags.md)
+
+## 📁 Podfoldery
+
+- [#[+#0079c1]kubuntu/](#[+#0079c1]kubuntu/#[+#0079c1]kubuntu.md)
+- [#[+#007acc]code/](#[+#007acc]code/#[+#007acc]code.md)
+- [#[+#00897b]cleanup/](#[+#00897b]cleanup/#[+#00897b]cleanup.md)
+- [#[+#00897b]compliance/](#[+#00897b]compliance/#[+#00897b]compliance.md)
+- [#[+#00897b]config/](#[+#00897b]config/#[+#00897b]config.md)
+- [#[+#00897b]gpg/](#[+#00897b]gpg/#[+#00897b]gpg.md)
+- [#[+#00897b]infra/](#[+#00897b]infra/#[+#00897b]infra.md)
+- [#[+#00897b]ops/](#[+#00897b]ops/#[+#00897b]ops.md)
+- [#[+#1e88e5]ansible/](#[+#1e88e5]ansible/#[+#1e88e5]ansible.md)
+- [#[+#1e88e5]bash/](#[+#1e88e5]bash/#[+#1e88e5]bash.md)
+- [#[+#1e88e5]cli/](#[+#1e88e5]cli/#[+#1e88e5]cli.md)
+- [#[+#1e88e5]compliance/](#[+#1e88e5]compliance/#[+#1e88e5]compliance.md)
+- [#[+#1e88e5]development/](#[+#1e88e5]development/#[+#1e88e5]development.md)
+- [#[+#1e88e5]docs/](#[+#1e88e5]docs/#[+#1e88e5]docs.md)
+- [#[+#1e88e5]git/](#[+#1e88e5]git/#[+#1e88e5]git.md)
+- [#[+#1e88e5]icons/](#[+#1e88e5]icons/#[+#1e88e5]icons.md)
+- [#[+#1e88e5]ide/](#[+#1e88e5]ide/#[+#1e88e5]ide.md)
+- [#[+#1e88e5]index/](#[+#1e88e5]index/#[+#1e88e5]index.md)
+- [#[+#1e88e5]metadata/](#[+#1e88e5]metadata/#[+#1e88e5]metadata.md)
+- [#[+#1e88e5]projects/](#[+#1e88e5]projects/#[+#1e88e5]projects.md)
+- [#[+#1e88e5]scripts/](#[+#1e88e5]scripts/#[+#1e88e5]scripts.md)
+- [#[+#1e88e5]shell/](#[+#1e88e5]shell/#[+#1e88e5]shell.md)
+- [#[+#1e88e5]systemd/](#[+#1e88e5]systemd/#[+#1e88e5]systemd.md)
+- [#[+#1e88e5]website/](#[+#1e88e5]website/#[+#1e88e5]website.md)
+- [#[+#1e88e5]wiki/](#[+#1e88e5]wiki/#[+#1e88e5]wiki.md)
+- [#[+#26a69a]organizacja/](#[+#26a69a]organizacja/#[+#26a69a]organizacja.md)
+- [#[+#3949ab]business/](#[+#3949ab]business/#[+#3949ab]business.md)
+- [#[+#3949ab]security/](#[+#3949ab]security/#[+#3949ab]security.md)
+- [#[+#43a047]automation/](#[+#43a047]automation/#[+#43a047]automation.md)
+- [#[+#43a047]delivery/](#[+#43a047]delivery/#[+#43a047]delivery.md)
+- [#[+#43a047]docs/](#[+#43a047]docs/#[+#43a047]docs.md)
+- [#[+#43a047]guide/](#[+#43a047]guide/#[+#43a047]guide.md)
+- [#[+#43a047]guides/](#[+#43a047]guides/#[+#43a047]guides.md)
+- [#[+#43a047]knowledge-base/](#[+#43a047]knowledge-base/#[+#43a047]knowledge-base.md)
+- [#[+#43a047]quality/](#[+#43a047]quality/#[+#43a047]quality.md)
+- [#[+#43a047]root/](#[+#43a047]root/#[+#43a047]root.md)
+- [#[+#43a047]system/](#[+#43a047]system/#[+#43a047]system.md)
+- [#[+#43a047]workflow/](#[+#43a047]workflow/#[+#43a047]workflow.md)
+- [#[+#4c2a85]obsidian/](#[+#4c2a85]obsidian/#[+#4c2a85]obsidian.md)
+- [#[+#546e7a]archiwum/](#[+#546e7a]archiwum/#[+#546e7a]archiwum.md)
+- [#[+#546e7a]governance/](#[+#546e7a]governance/#[+#546e7a]governance.md)
+- [#[+#546e7a]observability/](#[+#546e7a]observability/#[+#546e7a]observability.md)
+- [#[+#546e7a]references/](#[+#546e7a]references/#[+#546e7a]references.md)
+- [#[+#5e35b1]core/](#[+#5e35b1]core/#[+#5e35b1]core.md)
+- [#[+#6d4c41]git/](#[+#6d4c41]git/#[+#6d4c41]git.md)
+- [#[+#6d4c41]knowledge-base/](#[+#6d4c41]knowledge-base/#[+#6d4c41]knowledge-base.md)
+- [#[+#7cb342]templates/](#[+#7cb342]templates/#[+#7cb342]templates.md)
+- [#[+#8e24aa]bash/](#[+#8e24aa]bash/#[+#8e24aa]bash.md)
+- [#[+#8e24aa]brand/](#[+#8e24aa]brand/#[+#8e24aa]brand.md)
+- [#[+#8e24aa]docs/](#[+#8e24aa]docs/#[+#8e24aa]docs.md)
+- [#[+#8e24aa]index/](#[+#8e24aa]index/#[+#8e24aa]index.md)
+- [#[+#8e24aa]libraries/](#[+#8e24aa]libraries/#[+#8e24aa]libraries.md)
+- [#[+#8e24aa]obsidian/](#[+#8e24aa]obsidian/#[+#8e24aa]obsidian.md)
+- [#[+#8e24aa]pkm/](#[+#8e24aa]pkm/#[+#8e24aa]pkm.md)
+- [#[+#8e24aa]playbooks/](#[+#8e24aa]playbooks/#[+#8e24aa]playbooks.md)
+- [#[+#8e24aa]structure/](#[+#8e24aa]structure/#[+#8e24aa]structure.md)
+- [#[+#8e24aa]tags/](#[+#8e24aa]tags/#[+#8e24aa]tags.md)
+- [#[+#8e24aa]templates/](#[+#8e24aa]templates/#[+#8e24aa]templates.md)
+- [#[+#8e24aa]wiki/](#[+#8e24aa]wiki/#[+#8e24aa]wiki.md)
+- [#ai/](#ai/#ai.md)
+- [#asset/](#asset/#asset.md)
+- [#bash/](#bash/#bash.md)
+- [#biznes/](#biznes/#biznes.md)
+- [#bpmn/](#bpmn/#bpmn.md)
+- [#cheatsheet/](#cheatsheet/#cheatsheet.md)
+- [#cli/](#cli/#cli.md)
+- [#copilot/](#copilot/#copilot.md)
+- [#dashboard/](#dashboard/#dashboard.md)
+- [#dell/](#dell/#dell.md)
+- [#desktop/](#desktop/#desktop.md)
+- [#diagnostyka/](#diagnostyka/#diagnostyka.md)
+- [#docs/](#docs/#docs.md)
+- [#documentation/](#documentation/#documentation.md)
+- [#[+#e53935]compliance/](#[+#e53935]compliance/#[+#e53935]compliance.md)
+- [#[+#e53935]hooks/](#[+#e53935]hooks/#[+#e53935]hooks.md)
+- [#[+#ef6c00]contracts/](#[+#ef6c00]contracts/#[+#ef6c00]contracts.md)
+- [#[+#ef6c00]sales/](#[+#ef6c00]sales/#[+#ef6c00]sales.md)
+- [#eww/](#eww/#eww.md)
+- [#[+#f4511e]assets/](#[+#f4511e]assets/#[+#f4511e]assets.md)
+- [#[+#f4511e]automation/](#[+#f4511e]automation/#[+#f4511e]automation.md)
+- [#[+#f4511e]cli/](#[+#f4511e]cli/#[+#f4511e]cli.md)
+- [#[+#f4511e]monitoring/](#[+#f4511e]monitoring/#[+#f4511e]monitoring.md)
+- [#[+#f4511e]ops/](#[+#f4511e]ops/#[+#f4511e]ops.md)
+- [#[+#f4511e]release/](#[+#f4511e]release/#[+#f4511e]release.md)
+- [#[+#f4511e]structure/](#[+#f4511e]structure/#[+#f4511e]structure.md)
+- [#[+#f4511e]tooling/](#[+#f4511e]tooling/#[+#f4511e]tooling.md)
+- [#[+#ffb300]folder-note/](#[+#ffb300]folder-note/#[+#ffb300]folder-note.md)
+- [#[+#ffb300]style-guide/](#[+#ffb300]style-guide/#[+#ffb300]style-guide.md)
+- [#finanse/](#finanse/#finanse.md)
+- [#flowable/](#flowable/#flowable.md)
+- [#formatting/](#formatting/#formatting.md)
+- [#git/](#git/#git.md)
+- [#github/](#github/#github.md)
+- [#ide/](#ide/#ide.md)
+- [#iphone11/](#iphone11/#iphone11.md)
+- [#jbpm/](#jbpm/#jbpm.md)
+- [#knowledge/](#knowledge/#knowledge.md)
+- [#linting/](#linting/#linting.md)
+- [#local/](#local/#local.md)
+- [#lsp/](#lsp/#lsp.md)
+- [#mapowanie/](#mapowanie/#mapowanie.md)
+- [#markdown/](#markdown/#markdown.md)
+- [#n8n/](#n8n/#n8n.md)
+- [#neovim/](#neovim/#neovim.md)
+- [#obsidian/](#obsidian/#obsidian.md)
+- [#odoo/](#odoo/#odoo.md)
+- [#operacje/](#operacje/#operacje.md)
+- [#ops/](#ops/#ops.md)
+- [#pkm/](#pkm/#pkm.md)
+- [#reference/](#reference/#reference.md)
+- [#release/](#release/#release.md)
+- [#roles/](#roles/#roles.md)
+- [#serwis/](#serwis/#serwis.md)
+- [#setup/](#setup/#setup.md)
+- [#sop/](#sop/#sop.md)
+- [#sot/](#sot/#sot.md)
+- [#spiffworkflow/](#spiffworkflow/#spiffworkflow.md)
+- [#sprzedaż/](#sprzedaż/#sprzedaż.md)
+- [#testing/](#testing/#testing.md)
+- [#tools/](#tools/#tools.md)
+- [#usterki/](#usterki/#usterki.md)
+- [#viewer/](#viewer/#viewer.md)
+- [#vscode/](#vscode/#vscode.md)
+- [#wiki/](#wiki/#wiki.md)
+- [#yaml/](#yaml/#yaml.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

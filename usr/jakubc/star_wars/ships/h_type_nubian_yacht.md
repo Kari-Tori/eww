@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: H-type Nubian Yacht
-manufacturer: Theed Palace Space Vessel Engineering Corps
-role: Jacht dyplomatyczny
-era: Czasy Republiki / Wojny Klonów
 tags:
-  - starwars
-  - naboo
-  - yacht
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ H-type Nubian Yacht — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ H-type Nubian Yacht — karta techniczna

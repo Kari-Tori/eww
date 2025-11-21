@@ -1,80 +1,90 @@
 ---
-title: 👥 Users
-type: folder-note
-status: active
 tags:
-  - hub
-  - users
-  - profiles
-  - eww
-  - team
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
 author: jakubc
-created: 2025-11-21
-updated: 2025-11-21
+title: "👥 Usr"
+
+
+
+
+
+
 ---
 
-# 👥 Users
+# 👥 Usr
 
-> **Profile użytkowników projektu EWW**
+> **Profile użytkowników i personalizacja**
 
-## 📋 Przeznaczenie Folderu
+## 📋 Cel folderu
 
-Folder zawiera profile użytkowników, ich notatki i konfiguracje osobiste.
+Zawiera profile wszystkich użytkowników projektu z ich konfiguracjami, preferencjami, notatkami i personalizacją środowiska.
 
-## 📑 Zawartość Folderu
-
-### 👨‍💻 Jakub C (`#jakubc` ��)
-**Folder**: [[usr/jakubc/jakubc|jakubc/]]  
-**Rola**: Właściciel projektu, lead developer  
-**Kolor grafu**: Zielony
-
-- [[usr/jakubc/jakubc|📋 Profile]]
-- [[usr/jakubc/SETUP|⚙️ Setup]]
-- [[usr/jakubc/TOOLS|🔧 Tools]]
-- Notatki robocze
-
-### 👩‍💻 Karina M (`#karinam` `#candy` 🩷)
-**Folder**: [[usr/karinam/karinam|karinam/]]  
-**Rola**: Contributor  
-**Kolor grafu**: Różowy (candy)
-
-- [[usr/karinam/karinam|📋 Profile]]
-- [[usr/karinam/TASKS|✅ Tasks]]
-- [[usr/karinam/NOTES|📝 Notes]]
-- Notatki robocze
-
-## �� Powiązania
-
-**Z główną mapą**: [[EWW-MAP|🗺️ Repository Map]]  
-**Z dokumentacją**: [[docs/docs|📚 Docs]]
-
-## 📊 Struktura
+## 📁 Struktura
 
 ```
 usr/
-├── jakubc/         # Jakub C (właściciel)
-│   ├── jakubc.md   # Profile
-│   ├── SETUP.md    # Personal setup
-│   └── ...
-├── karinam/        # Karina M (contributor)
-│   ├── karinam.md  # Profile
-│   ├── TASKS.md    # Tasks
-│   └── ...
-└── usr.md          # Ten plik (folder note)
+├── jakubc/           # Profil Jakub Cybulski
+│   ├── jakubc.md     # Główny profil
+│   ├── config/       # Konfiguracje osobiste
+│   └── notes/        # Notatki prywatne
+└── karinam/          # Profil Karina M.
+    ├── karinam.md    # Główny profil
+    ├── config/       # Konfiguracje osobiste
+    └── notes/        # Notatki prywatne
 ```
 
-## 🎨 Oznaczenie Grafu
+## 📄 Index użytkowników
 
-**Tagi**: 
-- `#jakubc` → 🟢 Zielony
-- `#karinam` + `#candy` → 🩷 Różowy
+### 👤 Jakub Cybulski (jakubc)
+- **Profil**: [[usr/jakubc/jakubc]]
+- **Rola**: Główny maintainer, architekt systemu
+- **Obszary**: Core development, infrastruktura, dokumentacja
+- **Email**: jakub@eww.dev
+- **GitHub**: @jakubc
+- **Tag**: `#people/jakubc`
+- **Kolor**: 🔵 Niebieski
 
-**Widoczność**: Wysoka (użytkownicy)
+### 👤 Karina M. (karinam)
+- **Profil**: [[usr/karinam/karinam]]
+- **Rola**: Developer, tester
+- **Obszary**: Testing, UI/UX, dokumentacja użytkownika
+- **Tag**: `#people/karinam` `#color/candy`
+- **Kolor**: 🩷 Różowy (candy)
 
----
+## 🔗 Powiązania
 
-**Lokalizacja**: `/usr/`  
+- [[docs]] - Dokumentacja współtworzona
+- [[dev]] - Środowisko deweloperskie
+- [[config]] - Konfiguracje systemowe
+- [[CHANGELOG]] - Historia zmian (autorzy)
+
+## 📊 Status
+
+- **Typ**: Folder użytkowników
+- **Liczba użytkowników**: 2
+- **Główny maintainer**: [[usr/jakubc/jakubc|jakubc]]
+- **Active**: jakubc, karinam
+
+## 🎨 Konwencje tagowania
+
+### Jakubc
+- Tagi: `#people/jakubc`, `#role/maintainer`
+- Kolor: Niebieski (#0066FF)
+- Graph node: Duży, centralny
+
+### Karinam  
+- Tagi: `#people/karinam`, `#role/developer`, `#color/candy`
+- Kolor: Candy Pink (#FF69B4)
+- Graph node: Średni, powiązany
+
+
 **Ostatnia aktualizacja**: 2025-11-21  
-**Autor**: [[usr/jakubc/jakubc|Jakub C]]
-
-#users #profiles #eww #team
+**Źródło**: User profiles EWW

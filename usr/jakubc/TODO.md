@@ -1,17 +1,22 @@
 ---
-title: "TODO — Secondbrain & Biznes Integracje"
-owner: "Wielki Implementator"
-date: "2025-10-30"
-tags: [secondbrain, appflowy, obsidian, biznes, odoo, ebay, integracja]
-  - personal
-  - blue
-  - jakubc
-aliases: [✅ TODO]
-linter-yaml-title-alias: ✅ TODO
-date created: 2025-11-21
-updated: 2025-11-21
-date modified: czwartek, październik 30. 2025, 5:39:17 pm
-color: blue
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "✅ TODO"
+
+
+
+
+
+
 ---
 
 # ✅ TODO
@@ -35,3 +40,12 @@ color: blue
 - [ ] 📈 Włączyć logi retry oraz alerty błędów
 - [ ] 📚 Spisać SOP Obsługa zamówień eBay w Odoo
 - [ ] 📊 Ustalić KPI i przegląd po 14 dniach
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

@@ -1,4 +1,12 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
 title: Kanban
 description: Dokumentacja projektu EWW
 filepath: dev/Idea/Lab AI/Kanban.md
@@ -10,7 +18,6 @@ updated: 2025-11-21
 version: 1.0.0
 language: pl
 status: active
-tags:
   - documentation
   - markdown
   - development
@@ -20,6 +27,12 @@ related:
 sources:
   - dev/Idea/Lab AI/Kanban.md
 backlinks: []
+
+
+
+
+
+
 ---
 
 

@@ -1,23 +1,22 @@
 ---
-title: 🎨 Graph Summary - System Mapowania
-description: Podsumowanie systemu kolorowania i mapowania w Obsidian
-type: summary
-status: active
 tags:
-  - eww
-  - graph
-  - obsidian
-  - map
-  - summary
+  - #automation
+  - #docs
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
 author: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-related:
-  - docs/EWW-MAP.md
-  - docs/OBSIDIAN-SETUP.md
-  - docs/Makefile.md
-  - docs/obsidian-troubleshooting.md
-  - docs/docs.md
+title: "🎨 Graph Summary - System Mapowania"
+
+
+
+
+
+
 ---
 
 # 🎨 Graph Summary - System Mapowania
@@ -221,7 +220,6 @@ tag:#docs AND tag:#core        → Dokumentacja rdzenia
 - [[docs/yaml-frontmatter-spec|📝 YAML Spec]] - Specyfikacja frontmatter
 - [[docs/INDEX|📑 INDEX]] - Główny indeks dokumentacji
 
----
 
 **Utworzone**: 2025-11-21  
 **Autor**: [[usr/jakubc/jakubc|Jakub C]]  

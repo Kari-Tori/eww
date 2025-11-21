@@ -1,29 +1,22 @@
 ---
-title: Test Neovim
-description: Test Neovim - Markdown
-filepath: dev/tests/test_neovim.md
-color: yellow
-author: 
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
 tags:
-  - bats
-  - documentation
-  - markdown
-  - quality
-  - test
-  - development
-  - code
-related:
-  - dev/README.md
-  - docs/neovim-guide.md
-sources:
-  - dev/tests/test_neovim.md
-backlinks: []
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #testing
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "Test Neovim - Markdown"
+
+
+
+
+
+
 ---
 
 
@@ -39,13 +32,10 @@ backlinks: []
 
 ### 2. YAML Frontmatter
 ```yaml
----
 title: Test Document
 version: 1.0.0
-tags:
   - test
   - markdown
----
 ```
 
 ### 3. Code Blocks Bash

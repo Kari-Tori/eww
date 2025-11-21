@@ -1,6 +1,25 @@
 ---
-title: 🧠 EMBEDDINGS AI / SECOND-BRAIN INDEX
 tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🧠 EMBEDDINGS AI / SECOND-BRAIN INDEX"
+
+
+
+
+
+
+---
+---
+title: 🧠 EMBEDDINGS AI / SECOND-BRAIN INDEX
   - smart-connections
   - embeddings
   - obsidian
@@ -744,3 +763,12 @@ git lfs clone https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v2.0
 git lfs clone https://huggingface.co/nomic-ai/nomic-embed-text-v1.5
 git lfs clone https://huggingface.co/google/embeddinggemma-300m
 ```
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

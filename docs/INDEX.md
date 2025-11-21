@@ -1,46 +1,22 @@
 ---
-title: "📁 Root Index — Przewodnik katalogu głównego"
-description: "Profesjonalny spis zawartości katalogu głównego repozytorium E-Waste Workshop."
-type: index
-category: documentation
-filepath: INDEX.md
-color: green
-author: "Jakub C. (Nairecth)"
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
 tags:
-  - index
-  - "[#1E88E5]index"
-  - "[#43A047]root"
-  - "[#8E24AA]docs"
-  - "[#F4511E]structure"
-  - "[#0079C1]kubuntu"
-  - documentation
-  - docs
-  - knowledge
-icon:
-  set: lucide
-  name: layout-grid
-  color: "#1E88E5"
-  emoji: "📁"
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "📁 Root Index — orientacja w katalogu głównym"
 
-related:
-  - docs/wiki/kubuntu.md
-  - docs/ROOT-MINIMIZATION.md
-  - docs/OBSIDIAN-SETUP.md
-  - docs/ROOT-STRUCTURE.md
-  - docs/placeholders/placeholders.md
-sources:
-  - path: "README.md"
-    title: "README"
-  - path: "docs/assets/icons.md"
-    title: "ICON-SET"
-backlinks:
-  - path: "README.md"
-    title: "README"
+
+
+
+
+
 ---
 
 # 📁 Root Index — orientacja w katalogu głównym
@@ -95,4 +71,3 @@ backlinks:
 
 > [!TIP]
 > Każdy wiersz w tabeli prowadzi do folder note'u opisującego zawartość katalogu. Dzięki temu można szybko znaleźć właściwy zakres bez ręcznego przeklikiwania struktury.
-

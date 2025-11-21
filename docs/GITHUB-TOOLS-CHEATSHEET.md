@@ -1,41 +1,22 @@
 ---
-title: GITHUB TOOLS CHEATSHEET
-description: ⚡ GitHub Tools - Cheatsheet
-type: file
-category: docs
-filepath: docs/GITHUB-TOOLS-CHEATSHEET.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - GITHUB_TOOLS_CHEATSHEET
+  - #automation
+  - #docs
+  - #eww
+  - #git
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "⚡ GitHub Tools - Cheatsheet"
 
-related:
-  - docs/GITHUB-TOOLS.md
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
-dependencies:
-sources:
-  - docs/GITHUB-TOOLS-CHEATSHEET.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
 ---
 
 
@@ -54,7 +35,6 @@ make github-auth
 make github-status
 ```
 
----
 
 ## 📦 GitHub CLI (`gh`)
 
@@ -103,7 +83,6 @@ gh gist view abc123                  # View gist
 gh gist edit abc123                  # Edit gist
 ```
 
----
 
 ## 🤖 Copilot CLI
 
@@ -141,7 +120,6 @@ git? squash commits
 gh? list my PRs
 ```
 
----
 
 ## 🎨 Continue.dev (VS Code)
 
@@ -181,7 +159,6 @@ Ctrl+Shift+L        New chat
 /optimize ten algorytm
 ```
 
----
 
 ## 💻 GitHub Copilot (VS Code)
 
@@ -216,7 +193,6 @@ Ctrl+I              Inline chat
 4. Press Enter
 ```
 
----
 
 ## 🔥 Quick Wins
 
@@ -265,7 +241,6 @@ gh copilot explain "tar -czf backup.tar.gz /data"
 4. Tab - accept
 ```
 
----
 
 ## 💡 Pro Tips
 
@@ -289,7 +264,6 @@ gh copilot explain "tar -czf backup.tar.gz /data"
 - Use descriptive function names
 - Review generated code always
 
----
 
 ## 📚 More Info
 
@@ -297,6 +271,5 @@ gh copilot explain "tar -czf backup.tar.gz /data"
 - Setup: `make github-setup`
 - Status: `make github-status`
 
----
 
 **Updated:** 2025-11-21

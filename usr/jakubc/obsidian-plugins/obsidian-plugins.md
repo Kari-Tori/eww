@@ -1,20 +1,23 @@
 ---
-title: "obsidian-plugins"
-description: "Folder note dla obsidian-plugins"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - personal
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-color: blue
-author: EWW Team
-source: "[[docs/INDEX]]"
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "📁 obsidian-plugins"
+
+
+
+
+
+
 ---
 
 # 📁 obsidian-plugins
@@ -28,7 +31,6 @@ Katalog `obsidian-plugins` zawiera 0 plików i 3 podfolderów.
 **Przeznaczenie:**
 - Profile użytkowników i workspace
 
----
 
 ## 📄 Pliki w folderze
 
@@ -45,8 +47,26 @@ Katalog `obsidian-plugins` zawiera 0 plików i 3 podfolderów.
 - ⬆️ [[jakubc/jakubc|jakubc]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `usr/jakubc/obsidian-plugins`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+- [EditorShortcuts/](EditorShortcuts/EditorShortcuts.md)
+- [QuickAdd/](QuickAdd/QuickAdd.md)
+- [Templater/](Templater/Templater.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

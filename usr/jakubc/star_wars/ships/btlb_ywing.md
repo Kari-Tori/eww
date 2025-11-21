@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: BTL-B Y-wing Bomber
-manufacturer: Koensayr Manufacturing
-role: Bombowiec Republiki
-era: Wojny Klonów
 tags:
-  - starwars
-  - republic
-  - bomber
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ BTL-B Y-wing — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ BTL-B Y-wing — karta techniczna

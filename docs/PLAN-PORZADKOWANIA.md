@@ -1,38 +1,22 @@
 ---
-title: PLAN PORZADKOWANIA
-description: Plan porządkowania repozytorium
-type: file
-category: docs
-filepath: docs/PLAN-PORZADKOWANIA.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - PLAN_PORZADKOWANIA
-related:
-  - dev/Development.md
-  - docs/docs.md
-  - scripts/scripts.md
-dependencies:
-sources:
-  - docs/PLAN-PORZADKOWANIA.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "Plan porządkowania repozytorium"
+
+
+
+
+
+
 ---
 
 
@@ -93,6 +77,5 @@ Repozytorium `eww` łączy w sobie narzędzia CLI, automatyzację konfiguracji s
 - **Repo prywatne vs publiczne:** katalogi `usr/` i `business/` zawierają wrażliwe dane. Warto zdecydować, czy zostają w repo publicznym, czy powinny zostać odsunięte do submodułu/prywatnego archiwum.
 - **CI/CD:** brak automatycznych testów w GitHub Actions. Po uporządkowaniu struktur warto przygotować pipeline (shellcheck + BATS + generatory dokumentacji).
 
----
 
 Ten plan można traktować jako punkt wyjścia: po wykonaniu każdej sekcji warto odnotować rezultaty w `docs/CHANGELOG` lub w dedykowanym wątku w `usr/jakubc/workspace`. Dzięki temu repo pozostanie czytelne zarówno dla maintainerów, jak i narzędzi AI korzystających z `AGENTS.md`.

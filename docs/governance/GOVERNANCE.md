@@ -1,39 +1,22 @@
 ---
-title: "🧾 GOVERNANCE — Zasady i kontrakty"
-description: "Zasady zarządzania repozytorium oraz umowy odpowiedzialności."
-color: green
-author: "Jakub C. (Nairecth)"
-created: 2025-11-21
-updated: 2025-11-21
-version: 0.1.0
-status: "aktywny"
 tags:
-  - "[#FFB300]folder-note"
-  - "[#546E7A]governance"
-  - "[#EF6C00]contracts"
-  - "[#1E88E5]compliance"
-  - documentation
-  - docs
-  - knowledge
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-21T10:00:00Z
+author: jakubc
+title: "🧾 GOVERNANCE — Zasady repozytorium"
 
-related:
-  - docs/archive/archive.md
-  - docs/site/site.md
-  - docs/readme-checklist.md
-  - docs/ROOT-MINIMIZATION.md
-  - docs/INDEX.md
-sources:
-  - path: "./repo-live-contract.md"
-    title: "Repo Live Contract"
-  - path: "../README.md"
-    title: "Repo README"
-backlinks:
-  - path: "../INDEX.md"
-    title: "Główny indeks"
-  - path: "../FULL-INDEX.md"
-    title: "Full Index"
-  - path: "../eww.md"
-    title: "Opis repo"
+
+
+
+
+
 ---
 
 # 🧾 GOVERNANCE — Zasady repozytorium
@@ -67,4 +50,3 @@ backlinks:
 - [repo-live-contract.md](repo-live-contract.md)
 - [AGENTS.md](../AGENTS.md)
 - [README.md](../README.md)
-

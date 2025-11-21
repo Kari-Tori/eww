@@ -1,24 +1,22 @@
 ---
-id: sb-linter
-title: Linter notatek
-type: spec/module
-status: draft
-owner: Jakub
 tags:
-  - linter
-  - markdown
-  - standaryzacja
-  - secondbrain
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-27
-updated: 2025-11-21
-aliases: [Linter notatek]
-linter-yaml-title-alias: Linter notatek
-date created: poniedziałek, październik 27. 2025, 1:46:36 pm
-date modified: poniedziałek, październik 27. 2025, 1:52:45 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "Linter notatek"
+
+
+
+
+
+
 ---
 
 # Linter notatek
@@ -46,3 +44,12 @@ Wymuszenie jednego standardu zapisu notatek tak aby dało się je automatycznie 
 - Uruchamiane przy zapisie notatki albo przez batch job.
 - Może być skrypt bash lub Python.
 - Linter nie zmienia treści merytorycznej. Tylko format.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

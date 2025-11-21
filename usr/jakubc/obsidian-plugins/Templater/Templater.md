@@ -1,20 +1,23 @@
 ---
-title: "Templater"
-description: "Folder note dla Templater"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - personal
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-color: blue
-author: EWW Team
-source: "[[docs/INDEX]]"
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #eww
+  - #jakubc
+  - #linux
+  - #obsidian
+  - #secondbrain
+  - #templates
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "📁 Templater"
+
+
+
+
+
+
 ---
 
 # 📁 Templater
@@ -28,7 +31,6 @@ Katalog `Templater` zawiera 0 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Profile użytkowników i workspace
 
----
 
 ## 📄 Pliki w folderze
 
@@ -43,8 +45,25 @@ Katalog `Templater` zawiera 0 plików i 0 podfolderów.
 - ⬆️ [[obsidian-plugins/obsidian-plugins|obsidian-plugins]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `usr/jakubc/obsidian-plugins/Templater`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+
+
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*

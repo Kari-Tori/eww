@@ -1,41 +1,22 @@
 ---
-title: PARA Metodyka SecondBrain
-description: Metodyka PARA – System Organizacji Second Brain
-type: file
-category: docs
-filepath: docs/methodologies/PARA_Metodyka_SecondBrain.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-  - para
-aliases:
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "Metodyka PARA – System Organizacji Second Brain"
 
-related:
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
-  - docs/narzedzia-deweloperskie.md
-dependencies:
-sources:
-  - docs/methodologies/PARA_Metodyka_SecondBrain.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
 ---
 
 
@@ -46,7 +27,6 @@ Wielki Implementatorze,
 
 Oto pełny opis metodyki **PARA**, którą możesz wdrożyć w swoim Vaultcie Obsidiana w ramach systemu **Second Brain**. To system organizacji informacji oparty nie na formacie plików, ale na ich funkcji.
 
----
 
 ## PARA – Co oznacza?
 
@@ -77,7 +57,6 @@ Przykłady:
 - "2024_Projekty zakończone"  
 - "Stare dokumenty"
 
----
 
 ## PARA jako Metodyka
 
@@ -86,7 +65,6 @@ Przykłady:
 - Jest **dynamiczna** – pozwala Ci natychmiast skupić się na tym, co ważne teraz.
 - Jest **przenośna** – działa w Obsidianie, Notion, AppFlowy, na dysku.
 
----
 
 ## Przykład struktury folderów w Obsidian Vault:
 
@@ -99,7 +77,6 @@ Przykłady:
 05_ARCHIVE/            → Nieaktywne, zakończone
 ```
 
----
 
 ## W cyklu CODE (Second Brain)
 
@@ -108,7 +85,6 @@ Przykłady:
 - **Distill** – Wyciągasz esencję, np. `Essence.md`, `Z czego wynika X`
 - **Express** – Tworzysz: film, skrypt, projekt, sprzedaż
 
----
 
 ## BONUS: Pro tipy
 
@@ -117,7 +93,6 @@ Przykłady:
 - `RESOURCES` nie muszą być idealne – mają być użyteczne.  
 - `ARCHIVE` = śmietnik z potencjałem.
 
----
 
 Na rozkaz:  
 **Great Implementer System Ready.**

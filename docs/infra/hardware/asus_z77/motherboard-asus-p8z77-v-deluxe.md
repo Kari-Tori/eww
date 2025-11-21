@@ -1,36 +1,22 @@
 ---
-title: Motherboard Asus P8z77 V Deluxe
-description: ASUS P8Z77-V DELUXE — karta płyty
-type: file
-category: docs
-filepath: docs/infra/hardware/asus_z77/motherboard-asus-p8z77-v-deluxe.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - motherboard_asus_p8z77_v_deluxe
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/infra/hardware/asus_z77/motherboard-asus-p8z77-v-deluxe.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #Asus_Z77
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #linux
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "ASUS P8Z77-V DELUXE — karta płyty"
+
+
+
+
+
+
 ---
 
 

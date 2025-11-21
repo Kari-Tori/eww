@@ -1,20 +1,23 @@
 ---
-title: "Inbox"
-description: "Folder note dla Inbox"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - personal
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-color: blue
-author: EWW Team
-source: "[[docs/INDEX]]"
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "📁 Inbox"
+
+
+
+
+
+
 ---
 
 # 📁 Inbox
@@ -28,7 +31,6 @@ Katalog `Inbox` zawiera 0 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Profile użytkowników i workspace
 
----
 
 ## 📄 Pliki w folderze
 
@@ -43,23 +45,19 @@ Katalog `Inbox` zawiera 0 plików i 0 podfolderów.
 - ⬆️ [[jakubc/jakubc|jakubc]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `usr/jakubc/Inbox`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
 
 
----
 
----
 
 **Backlinków:** 5  
 **Linków wychodzących:** 2  
 **Zaktualizowano:** 1763717475.7621214  
 
 
----
 
 ## 🔗 Backlinki
 
@@ -83,8 +81,15 @@ Katalog `Inbox` zawiera 0 plików i 0 podfolderów.
 - [[usr/karinam/Kari Aedila/Inbox/Telefon/Telefon|Telefon]]
 - [[usr/karinam/karinam|karinam]]
 
----
 
 **Backlinków:** 5  
 **Linków wychodzących:** 7  
 **Zaktualizowano:** 1763717741.386593  
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*

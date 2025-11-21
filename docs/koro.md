@@ -1,36 +1,22 @@
 ---
-title: Koro
-description: KoroFileHeader -> YAML frontmatter
-type: file
-category: docs
-filepath: docs/koro.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/docs.md
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/koro.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "KoroFileHeader -> YAML frontmatter"
+
+
+
+
+
+
 ---
 
 

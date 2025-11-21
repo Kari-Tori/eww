@@ -1,37 +1,22 @@
 ---
-title: Nextsteps
-description: Plan działań
-type: file
-category: docs
-filepath: docs/nextsteps.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/docs.md
-  - docs/FULL-INDEX.md
-  - docs/narzedzia-deweloperskie.md
-dependencies:
-sources:
-  - docs/nextsteps.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "Plan działań"
+
+
+
+
+
+
 ---
 
 
@@ -44,7 +29,6 @@ repository: https://github.com/Kari-Tori/eww-1
  * @FilePath: /eww/nextsteps.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
----
 title: Następne kroki EWW
 description: Skondensowany plan porządkowania repozytorium i przygotowania do kolejnego wydania
 author: Zespół EWW
@@ -52,7 +36,6 @@ version: 0.1.0
 updated: 2025-11-22
 status: active
 language: pl
----
 
 # Plan działań
 

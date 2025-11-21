@@ -1,20 +1,22 @@
 ---
-created: 2025-11-19
-updated: 2025-11-21
-title: Ginivex-class Fanblade Starfighter
-manufacturer: Huppla Pasa Tisc Shipwrights Collective
-role: Myśliwiec osobisty / pościgowy
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - starfighter
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🌀 Ginivex Fanblade — karta techniczna"
+
+
+
+
+
+
 ---
 
 # 🌀 Ginivex Fanblade — karta techniczna

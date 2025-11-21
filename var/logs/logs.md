@@ -1,31 +1,23 @@
 ---
-title: "🗄️ logs — Artefakty dzienników"
-description: "Miejsce na logi i raporty runtime generowane przez skrypty EWW."
-color: brown
-author: "Jakub C. (Nairecth)"
-created: 2025-11-21
-updated: 2025-11-21
-version: 0.1.0
-status: "aktywny"
 tags:
-  - "[#FFB300]folder-note"
-  - "[#546E7A]observability"
-  - "[#00897B]ops"
-  - "[#F4511E]automation"
-  - data
-  - runtime
-sources:
-  - path: "../README.md"
-    title: "Repo README"
-  - path: "../AGENTS.md"
-    title: "AGENTS"
-backlinks:
-  - path: "../INDEX.md"
-    title: "Główny indeks"
-  - path: "../FULL-INDEX.md"
-    title: "Full Index"
-  - path: "../eww.md"
-    title: "Opis repo"
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T20:00:00Z
+author: jakubc
+title: "🗄️ logs — katalog dzienników"
+
+
+
+
+
+
 ---
 
 # 🗄️ logs — katalog dzienników
@@ -66,5 +58,21 @@ backlinks:
 - [[logs/logs|logs]]
 - [[docs/INDEX|INDEX]]
 
----
 **Auto-linked:** 2025-11-21
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

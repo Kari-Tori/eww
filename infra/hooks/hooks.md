@@ -1,32 +1,23 @@
 ---
-title: "🪝 hooks — Git hooki lokalne"
-description: "Szablony hooków Git (na razie pre-push) zwiększające kontrolę jakości przed publikacją zmian."
-color: purple
-author: "Jakub C. (Nairecth)"
-created: 2025-11-21
-updated: 2025-11-21
-version: 0.2.0
-status: "aktywny"
 tags:
-  - "[#FFB300]folder-note"
-  - "[#1E88E5]git"
-  - "[#43A047]quality"
-  - "[#E53935]hooks"
-  - infra
-  - infrastructure
-  - devops
-sources:
-  - path: "../README.md"
-    title: "Repo README"
-  - path: "../AGENTS.md"
-    title: "AGENTS"
-backlinks:
-  - path: "../INDEX.md"
-    title: "Główny indeks"
-  - path: "../FULL-INDEX.md"
-    title: "Full Index"
-  - path: "../eww.md"
-    title: "Opis repo"
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #infrastructure
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T12:00:00Z
+modified: 2025-11-21T12:00:00Z
+author: jakubc
+title: "🪝 hooks — kontrola jakości Git"
+
+
+
+
+
+
 ---
 
 # 🪝 hooks — kontrola jakości Git
@@ -68,5 +59,21 @@ backlinks:
 - [[hooks/hooks|hooks]]
 - [[docs/INDEX|INDEX]]
 
----
 **Auto-linked:** 2025-11-21
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

@@ -1,21 +1,23 @@
 ---
-title: "bash"
-description: "Folder note dla bash"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - general
-  - automation
-  - tools
-  - dev
-created: 2025-11-21
-updated: 2025-11-21
-color: orange
-author: EWW Team
-source: "[[docs/INDEX]]"
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #bash
+  - #eww
+  - #knowledge
+  - #linux
+  - #scripts
+  - #secondbrain
+created: 2025-11-21T23:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "📁 bash"
+
+
+
+
+
+
 ---
 
 # 📁 bash
@@ -29,7 +31,6 @@ Katalog `bash` zawiera 0 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Pliki i zasoby ogólnego przeznaczenia
 
----
 
 ## 📄 Pliki w folderze
 
@@ -44,30 +45,30 @@ Katalog `bash` zawiera 0 plików i 0 podfolderów.
 - ⬆️ [[scripts/scripts|scripts]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `scripts/bash`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
 
 
----
 
 
----
 
 **Backlinków:** 0  
 **Linków wychodzących:** 2  
 **Zaktualizowano:** 1763717475.7020652  
 
 
----
 
-## 🔗 Backlinki
-
-*Pliki linkujące do tego dokumentu:*
+## 🔗 Backlinks
 
 - [[scripts/scripts|scripts]]
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+
+
 
 ## 📎 Źródła i powiązania
 
@@ -76,8 +77,15 @@ Katalog `bash` zawiera 0 plików i 0 podfolderów.
 - [[docs/INDEX|INDEX]]
 - [[scripts/scripts|scripts]]
 
----
 
 **Backlinków:** 1  
 **Linków wychodzących:** 2  
 **Zaktualizowano:** 1763717741.3834152  
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*

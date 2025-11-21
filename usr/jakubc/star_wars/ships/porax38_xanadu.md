@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Porax-38 / Rogue-class “Xanadu Blood”
-manufacturer: Rogue Starfighter Consortium
-role: Myśliwiec szturmowy / licencja piracka
-era: Wojny Klonów
 tags:
-  - starwars
-  - bounty
-  - starfighter
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Porax-38 “Xanadu Blood” — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Porax-38 “Xanadu Blood” — karta techniczna

@@ -1,19 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: G9 Rigger-class “Twilight”
-manufacturer: Republic Engineering Corporation
-role: Lekki frachtowiec / dropship
-era: Wojny Klonów
 tags:
-  - starwars
-  - freighter
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ G9 Rigger “Twilight” — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ G9 Rigger “Twilight” — karta techniczna

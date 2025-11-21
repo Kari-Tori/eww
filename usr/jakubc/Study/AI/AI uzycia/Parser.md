@@ -1,23 +1,22 @@
 ---
-id: sb-parser
-title: Parser treści
-type: spec/module
-status: draft
-owner: Jakub
 tags:
-  - parser
-  - ekstrakcja
-  - secondbrain
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-27
-updated: 2025-11-21
-aliases: [Parser treści]
-linter-yaml-title-alias: Parser treści
-date created: poniedziałek, październik 27. 2025, 1:46:36 pm
-date modified: poniedziałek, październik 27. 2025, 1:53:01 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "Parser treści"
+
+
+
+
+
+
 ---
 
 # Parser treści
@@ -57,3 +56,12 @@ Obiekt danych w stylu JSON
 - Wynik parsera trafia do dwóch dalszych kroków:
   - Indexowanie
   - Embeddings
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

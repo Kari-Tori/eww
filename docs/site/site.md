@@ -1,42 +1,23 @@
 ---
-title: "🌐 site — Strona statyczna"
-description: "Źródła statycznej strony E-Waste Workshop (HTML, assets, wiki)."
-color: green
-author: "Jakub C. (Nairecth)"
-created: 2025-11-21
-updated: 2025-11-21
-version: 0.2.0
-status: "aktywny"
 tags:
-  - "[#FFB300]folder-note"
-  - "[#1E88E5]website"
-  - "[#43A047]docs"
-  - "[#8E24AA]wiki"
-  - "[#F4511E]assets"
-  - documentation
-  - docs
-  - knowledge
+  - #folder_note
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T20:00:00Z
+author: jakubc
+title: "🌐 site — źródła strony EWW"
 
-related:
-  - docs/archive/archive.md
-  - docs/assets/icons.md
-  - docs/governance/GOVERNANCE.md
-  - docs/readme-checklist.md
-  - docs/ROOT-MINIMIZATION.md
-sources:
-  - path: "../README.md"
-    title: "Repo README"
-  - path: "../AGENTS.md"
-    title: "AGENTS"
-  - path: "./ENDPOINTS/ENDPOINTS.md"
-    title: "Site Endpoints"
-backlinks:
-  - path: "../INDEX.md"
-    title: "Główny indeks"
-  - path: "../FULL-INDEX.md"
-    title: "Full Index"
-  - path: "../eww.md"
-    title: "Opis repo"
+
+
+
+
+
 ---
 
 # 🌐 site — źródła strony EWW
@@ -79,4 +60,25 @@ backlinks:
 - [AGENTS.md](../AGENTS.md)
 - [README.md](../README.md)
 - [site/ENDPOINTS/ENDPOINTS.md](ENDPOINTS/ENDPOINTS.md)
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+- [assets/](assets/assets.md)
+- [ENDPOINTS/](ENDPOINTS/ENDPOINTS.md)
+- [guide/](guide/guide.md)
+- [search/](search/search.md)
+- [vendor/](vendor/vendor.md)
+- [wiki/](wiki/wiki.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
 

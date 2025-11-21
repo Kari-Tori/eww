@@ -1,9 +1,22 @@
 ---
-title: Backlinks
-created: 2025-11-21
-updated: 2025-11-21
-description: TODO - uzupełnij opis.
-color: blue
+tags:
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "backlinks"
+
+
+
+
+
+
 ---
 
 - [[usr/jakubc/star_wars/ships/arc170_starfighter.md|Arc170 Starfighter]]

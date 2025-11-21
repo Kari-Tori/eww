@@ -1,42 +1,22 @@
 ---
-title: Obsidian Troubleshooting
-description: Obsidian - Rozwiązywanie problemów
-type: file
-category: docs
-filepath: docs/obsidian-troubleshooting.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - obsidian
-  - pkm
-  - docs
-  - knowledge
-keywords:
-  - notes
-  - obsidian
-  - pkm
-  - vault
-aliases:
-  - obsidian_troubleshooting
-related:
-  - docs/docs.md
-dependencies:
-sources:
-  - docs/obsidian-troubleshooting.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #obsidian
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "Obsidian - Rozwiązywanie problemów"
+
+
+
+
+
+
 ---
 
 

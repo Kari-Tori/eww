@@ -1,27 +1,23 @@
 ---
-title: "wiki"
-description: "Folder note dla wiki"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - general
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-source: "[[docs/INDEX]]"
-related:
-  - docs/site/ENDPOINTS/ENDPOINTS.md
-  - docs/site/assets/assets.md
-  - docs/site/search/search.md
-  - docs/site/vendor/vendor.md
-  - docs/site/guide/guide.md
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T20:00:00Z
+author: jakubc
+title: "📁 wiki"
+
+
+
+
+
+
 ---
 
 # 📁 wiki
@@ -35,7 +31,6 @@ Katalog `wiki` zawiera 0 plików i 3 podfolderów.
 **Przeznaczenie:**
 - Pliki i zasoby ogólnego przeznaczenia
 
----
 
 ## 📄 Pliki w folderze
 
@@ -52,8 +47,26 @@ Katalog `wiki` zawiera 0 plików i 3 podfolderów.
 - ⬆️ [[site/site|site]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `site/wiki`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+- [kubuntu/](kubuntu/kubuntu.md)
+- [neovim/](neovim/neovim.md)
+- [obsidian/](obsidian/obsidian.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

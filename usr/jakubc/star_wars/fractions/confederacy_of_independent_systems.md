@@ -1,18 +1,22 @@
 ---
-title: Konfederacja Niezależnych Systemów
-created: 2025-11-19
-updated: 2025-11-21
 tags:
-  - starwars
-  - cis
-  - faction
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/fractions/fractions.md|Index frakcji]]
-  - [[usr/jakubc/star_wars/ships/ships.md|Statki Separatystów]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "🟣☠️ Konfederacja Niezależnych Systemów (CIS)"
+
+
+
+
+
+
 ---
 
 # 🟣☠️ Konfederacja Niezależnych Systemów (CIS)
@@ -50,3 +54,12 @@ color: blue
 > Bitwy: Geonosis (kampania 2), Umbara (wsparcie Krella), atak na Kamino, okupacja Onderonu.
 
 [[usr/jakubc/star_wars/fractions/fractions.md|← powrót do listy frakcji]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

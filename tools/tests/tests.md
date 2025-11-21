@@ -1,34 +1,23 @@
 ---
-title: "🧪 tests — Testy BATS"
-description: "Zestaw testów automatycznych w Bash Automated Testing System walidujący krytyczne skrypty."
-color: orange
-author: "Jakub C. (Nairecth)"
-created: 2025-11-21
-updated: 2025-11-21
-version: 0.2.0
-status: "aktywny"
 tags:
-  - "[#FFB300]folder-note"
-  - "[#1E88E5]tests"
-  - "[#43A047]qa"
-  - "[#8E24AA]bash"
-  - automation
-  - tools
-  - dev
-sources:
-  - path: "../README.md"
-    title: "Repo README"
-  - path: "../AGENTS.md"
-    title: "AGENTS"
-  - path: "./test_init.bats"
-    title: "Test init"
-backlinks:
-  - path: "../INDEX.md"
-    title: "Główny indeks"
-  - path: "../FULL-INDEX.md"
-    title: "Full Index"
-  - path: "../eww.md"
-    title: "Opis repo"
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #testing
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "🧪 tests — automaty QA"
+
+
+
+
+
+
 ---
 
 # 🧪 tests — automaty QA
@@ -65,4 +54,20 @@ backlinks:
 - [AGENTS.md](../AGENTS.md)
 - [README.md](../README.md)
 - [tests/test_init.bats](test_init.bats)
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
 

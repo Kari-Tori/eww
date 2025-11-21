@@ -1,14 +1,22 @@
 ---
-title: MOC/SET Cost Notes
-created: 2025-11-16
-updated: 2025-11-21
 tags:
-  - starwars
-  - lego
-  - personal
-  - blue
-  - jakubc
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #lego
+  - #linux
+  - #secondbrain
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "🧱 Statki TCW — dane LEGO/MOC"
+
+
+
+
+
+
 ---
 
 # 🧱 Statki TCW — dane LEGO/MOC
@@ -38,3 +46,12 @@ color: blue
 | GS-100 Vulture’s Claw | Emil Johansson | Free / donacja |
 
 > Aktualizuj przy zmianach cen lub dostępności.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

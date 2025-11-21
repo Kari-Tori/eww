@@ -1,41 +1,22 @@
 ---
-title: Raport Frontmatter
-description: Podsumowanie generowania rozszerzonego frontmatter YAML
-type: report
-category: docs
-filepath: FRONTMATTER_REPORT.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: completed
-priority: high
-license: MIT
 tags:
-  - documentation
-  - report
-  - frontmatter
-  - yaml
-  - metadata
-  - docs
-  - knowledge
-keywords:
-  - frontmatter
-  - metadata
-  - yaml
-  - automation
-  - enhancement
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
-related:
-  - docs/IMPROVEMENT-SUGGESTIONS.md
-  - docs/MAKEFILE-GUIDE.md
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "Raport Frontmatter - Rozszerzenie YAML"
+
+
+
+
+
+
 ---
 
 # Raport Frontmatter - Rozszerzenie YAML
@@ -85,7 +66,6 @@ Rozszerzono system generowania frontmatter YAML z **11 pól** do **20+ pól** z 
 ## Struktura rozszerzonego frontmatter
 
 ```yaml
----
 title: Nazwa pliku
 description: Automatyczny opis
 type: executable|library|script|guide|readme|documentation
@@ -100,7 +80,6 @@ language: pl
 status: active
 priority: high|medium|low|normal
 license: MIT
-tags:
   - tag1 (max 7)
   - tag2
 keywords:
@@ -126,13 +105,11 @@ backlinks: []
 context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
 project: eww
 repository: https://github.com/Kari-Tori/eww-1
----
 ```
 
 ## Przykład markdown (docs/obsidian-troubleshooting.md)
 
 ```yaml
----
 title: Obsidian Troubleshooting
 description: Obsidian - Rozwiązywanie problemów
 type: file
@@ -147,7 +124,6 @@ language: pl
 status: active
 priority: normal
 license: MIT
-tags:
   - documentation
   - markdown
   - obsidian
@@ -174,7 +150,6 @@ backlinks: []
 context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
 project: eww
 repository: https://github.com/Kari-Tori/eww-1
----
 ```
 
 ## Przykład bash (lib/log.sh - nowe pliki)
@@ -239,4 +214,3 @@ Wynik: **✅ YAML valid**
 
 - **2025-11-20** - Wersja podstawowa z 11 polami
   - Pola: title, description, filepath, author, owner, created, updated, version, language, status, tags, related, sources, backlinks
-

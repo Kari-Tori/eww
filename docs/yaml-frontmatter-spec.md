@@ -1,37 +1,22 @@
 ---
-title: Yaml Frontmatter Spec
-description: YAML Frontmatter - specyfikacja atrybutów
-type: file
-category: docs
-filepath: docs/yaml-frontmatter-spec.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - yaml_frontmatter_spec
-related:
-  - docs/docs.md
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/yaml-frontmatter-spec.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T12:00:00Z
+modified: 2025-11-21T12:00:00Z
+author: jakubc
+title: "YAML Frontmatter - specyfikacja atrybutów"
+
+
+
+
+
+
 ---
 
 
@@ -45,12 +30,10 @@ Ten dokument definiuje wszystkie atrybuty YAML frontmatter używane w projekcie 
 ## Format podstawowy
 
 ```yaml
----
 title: Tytuł dokumentu
 description: Krótki opis (1-2 zdania)
 version: 1.0.0
 type: readme
----
 ```
 
 ## Kategorie atrybutów
@@ -329,14 +312,12 @@ type: readme
 ### README.md (główny)
 
 ```yaml
----
 title: E-Waste Workshop README
 description: Kompletna dokumentacja projektu - instalacja, konfiguracja, użycie
 version: 0.0.0.5
 author: Nairecth
 repository: https://github.com/Nairecth/eww
 website: http://www.e-wasteworkshop.co.uk
-tags:
   - bash
   - kubuntu
   - automation
@@ -355,13 +336,11 @@ created: 2024-11-08
 updated: 2025-11-09
 license: MIT
 status: stable
----
 ```
 
 ### CHANGELOG.md
 
 ```yaml
----
 title: CHANGELOG
 description: Historia zmian projektu E-Waste Workshop
 version: 0.0.0.5
@@ -376,13 +355,11 @@ created: 2024-11-08
 updated: 2025-11-09
 author: Nairecth
 status: stable
----
 ```
 
 ### AGENTS.md (AI context)
 
 ```yaml
----
 title: AGENTS.md - Kontekst dla AI Coding Agents
 description: Kompletny kontekst projektu dla AI - architektura, workflow, konwencje
 version: 0.0.0.4
@@ -390,7 +367,6 @@ type: ai-context
 category: documentation
 audience: ai
 language: pl
-tags:
   - ai
   - context
   - architecture
@@ -400,13 +376,11 @@ created: 2024-11-08
 updated: 2025-11-09
 author: Nairecth
 status: stable
----
 ```
 
 ### docs/guide/intro.md (przewodnik)
 
 ```yaml
----
 title: Wprowadzenie do eww
 description: Przewodnik dla początkujących - pierwsze kroki z E-Waste Workshop
 version: 1.0.0
@@ -416,7 +390,6 @@ audience: users
 language: pl
 parent: docs/README.md
 order: 1
-tags:
   - tutorial
   - getting-started
   - introduction
@@ -427,13 +400,11 @@ created: 2024-11-08
 updated: 2025-11-09
 author: Nairecth
 status: stable
----
 ```
 
 ### INDEX.md (auto-generated)
 
 ```yaml
----
 title: INDEX - Kompletny indeks projektu
 description: Auto-generowany indeks wszystkich plików i katalogów projektu eww
 version: 0.0.0.5
@@ -448,13 +419,11 @@ created: 2024-11-08
 updated: 2025-11-09
 author: Nairecth
 status: stable
----
 ```
 
 ### docs/wiki/kubuntu.md (wiki article)
 
 ```yaml
----
 title: Kubuntu 24.04 LTS - Konfiguracja
 description: Przewodnik konfiguracji Kubuntu 24.04 LTS dla deweloperów
 version: 1.0.0
@@ -465,7 +434,6 @@ audience:
   - administrators
 language: pl
 platform: Kubuntu 24.04 LTS
-tags:
   - kubuntu
   - linux
   - configuration
@@ -476,7 +444,6 @@ created: 2024-11-08
 updated: 2025-11-09
 author: Nairecth
 status: stable
----
 ```
 
 ## Walidacja
@@ -537,14 +504,12 @@ Zalecana kolejność (dla czytelności):
 Wymagane minimum dla każdego dokumentu:
 
 ```yaml
----
 title: Tytuł dokumentu
 description: Opis dokumentu
 type: readme
 category: documentation
 created: 2025-11-09
 updated: 2025-11-09
----
 ```
 
 ## Narzędzia wspierające
@@ -568,7 +533,6 @@ updated: 2025-11-09
 - **SPDX (licencje):** https://spdx.org/licenses/
 - **ISO 639-1 (języki):** https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
----
 
 **Autor:** Nairecth  
 **Wersja:** 1.0.0  

@@ -1,37 +1,22 @@
 ---
-title: MVP
-description: MVP — cel i kryteria akceptacji
-type: file
-category: docs
-filepath: docs/MVP.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - README.md
-  - docs/docs.md
-  - docs/dokumentacja.md
-dependencies:
-sources:
-  - docs/MVP.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "MVP — cel i kryteria akceptacji"
+
+
+
+
+
+
 ---
 
 
@@ -41,11 +26,9 @@ repository: https://github.com/Kari-Tori/eww-1
 Wersja docelowa: 0.0.0.1 (MVP)
 
 Cel
-----
 Zapewnić minimalny zestaw funkcjonalności, który pozwala na szybkie przygotowanie maszyny (najnowsze Kubuntu) do pracy z repozytorium E-Waste Workshop.
 
 Kryteria akceptacji (definition of done)
-----------------------------------------
 1. `init-eww.sh` działa poprawnie po załadowaniu (sourcowaniu) w interaktywnej powłoce bash:
    - zmienna `EWW_ROOT` ustawiona (domyślnie `/git/eww`),
    - jeśli `EWW_CD_ROOT` nie jest `0` i katalog istnieje — powłoka przechodzi do `EWW_ROOT`,
@@ -64,7 +47,6 @@ Kryteria akceptacji (definition of done)
 5. Wydanie (release) można przeprowadzić lokalnie: wykonanie poleceń z `scripts/bump-version.sh` prowadzi do powstania branch/tag i (opcjonalnie) PR.
 
 Testy manualne (jak zweryfikować na maszynie testowej Kubuntu)
--------------------------------------------------------------
 1. Przygotowanie testowej maszyny:
 
 ```bash
@@ -98,7 +80,6 @@ head -n 20 CHANGELOG.md
 ```
 
 Wydanie MVP (kroki)
--------------------
 1. Upewnij się, że wszystkie zmiany są w `main` i że `init-eww.sh` i `README.md` są poprawne.
 2. Na maszynie deweloperskiej uruchom:
 
@@ -109,6 +90,5 @@ Wydanie MVP (kroki)
 3. Jeśli PR zostanie utworzony, zrób review i zmerguj do `main` — to kończy wydanie.
 
 Dodatkowe notatki
-------------------
 - Zalecam wykonanie testów na maszynie wirtualnej z najnowszym Kubuntu.
 - Jeżeli chcesz, mogę automatycznie utworzyć wersję `0.0.0.1` i PR, ale potrzebuję potwierdzenia, że chcesz wypchnąć zmiany do origin i ewentualnie nadpisać tagi jeśli to konieczne.

@@ -1,19 +1,22 @@
 ---
-title: "INDEX"
-category: personal
 tags:
-  - personal
-  - workspace
-  - notes
-  - index
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-color: blue
-author: EWW Team
-cssclasses:
-  - eww-doc
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "📂 jakubc"
+
+
+
+
+
+
 ---
 
 # 📂 jakubc
@@ -43,5 +46,4 @@ cssclasses:
 - [[usr/jakubc/lego/INDEX|lego]]
 - [[usr/jakubc/Notes/INDEX|Notes]]
 
----
 [⬅️ Powrót do głównego INDEX](../INDEX.md)

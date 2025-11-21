@@ -1,10 +1,22 @@
 ---
-title: Lista tematów badawczych (resarch_topics)
-created: 2025-11-21
-description: Snapshot wszystkich eksperymentowanych narzędzi i agentów w hybrydowym workspace
-language: pl
-updated: 2025-11-21
-color: blue
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "Lista badań hybrydowego workspace"
+
+
+
+
+
+
 ---
 
 # Lista badań hybrydowego workspace
@@ -80,5 +92,4 @@ Ten plik zastępuje dawne `README.md` w katalogu `resarch/`. Służy jako żyją
 - [[usr/jakubc/workspace/workspace|workspace]]
 - [[usr/jakubc/jakubc|jakubc]]
 
----
 **Auto-linked:** 2025-11-21

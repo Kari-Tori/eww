@@ -1,24 +1,22 @@
 ---
-id: sb-embeddings
-title: Embeddings semantyczne
-type: spec/module
-status: draft
-owner: Jakub
 tags:
-  - embeddings
-  - ai
-  - wektory
-  - secondbrain
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-27
-updated: 2025-11-21
-aliases: [Embeddings semantyczne]
-linter-yaml-title-alias: Embeddings semantyczne
-date created: poniedziałek, październik 27. 2025, 1:46:36 pm
-date modified: poniedziałek, październik 27. 2025, 1:52:23 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "Embeddings semantyczne"
+
+
+
+
+
+
 ---
 
 # Embeddings semantyczne
@@ -43,3 +41,12 @@ Przedstawienie znaczenia notatki jako wektora liczbowego. Dzięki temu wyszukiwa
 ## Dalsze użycie
 - Wektor idzie do bazy wektorowej razem z metadanymi notatki.
 - Ten wektor jest używany przy zapytaniach semantycznych.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

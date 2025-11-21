@@ -1,35 +1,25 @@
 ---
-title: Gpu
-description: GPU — gerc
-type: file
-category: docs
-filepath: docs/infra/hardware/gerc/gpu.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/infra/hardware/gerc/gpu.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #eww
+  - #star-wars
+  - #linux
+  - #secondbrain
+  - #PKM
+  - #jakubc
+  - #karinam
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "GPU — gerc"
+
+
+
+
+
+
+
+
+
 ---
 
 

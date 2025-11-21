@@ -1,19 +1,23 @@
 ---
-title: Star Wars Weapons (The Clone Wars)
-created: 2025-11-19
-updated: 2025-11-21
-color: blue
-author: karinam kmirowska7@gmail.com
 tags:
-  - starwars
-  - weapons
-  - tcw
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/weapons/weapons.md|Index]]
-  - [[usr/jakubc/star_wars/fractions/fractions.md|Frakcje]]
+  - #folder_note
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "⚔️ Folder `star_wars/weapons`"
+
+
+
+
+
+
 ---
 
 # ⚔️ Folder `star_wars/weapons`
@@ -30,3 +34,21 @@ links:
 > 2025-11-19 — utworzono katalog broni i spisano backlog.
 
 [[usr/jakubc/star_wars/ships/ships.md|← powrót do statków]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+
+
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*

@@ -1,28 +1,22 @@
 ---
-title: ⚙️ Makefile
-description: Główny plik automatyzacji zadań projektu EWW
-type: makefile-doc
-status: active
 tags:
-  - eww
-  - core
-  - makefile
-  - automation
-  - build
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
 author: jakubc
-created: 2025-11-21
-updated: 2025-11-21
+title: "⚙️ Makefile"
 
-related:
-  - docs/EWW-MAP.md
-  - docs/MAKEFILE-GUIDE.md
-  - docs/GRAPH-SUMMARY.md
-  - docs/docs.md
-  - docs/governance/repo-live-contract.md
-backlinks:
-  - "[[EWW-MAP|🗺️ Repository Map]]"
-  - "[[README|📘 README]]"
-  - "[[docs/MAKEFILE-GUIDE|📚 Makefile Guide]]"
+
+
+
+
+
 ---
 
 # ⚙️ Makefile
@@ -71,7 +65,6 @@ make deploy          # Deploy
 
 Pełna dokumentacja wszystkich targetów: [[docs/MAKEFILE-GUIDE]]
 
----
 
 **Lokalizacja**: `/Makefile`  
 **Ostatnia aktualizacja**: 2025-11-21  

@@ -1,48 +1,22 @@
 ---
-title: "📚 docs/README — Wprowadzenie do dokumentacji"
-description: "Opis przeznaczenia katalogu docs/, standardu ikon oraz sposobu poruszania się po materiałach."
-type: readme
-category: docs
-filepath: docs/README.md
-color: green
-author: "Jakub C. (Nairecth)"
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.1.0
-language: pl
-status: active
-priority: high
-license: MIT
 tags:
-  - "[#1E88E5]docs"
-  - "[#8E24AA]index"
-  - "[#43A047]workflow"
-  - documentation
-  - docs
-  - knowledge
-icon:
-  set: lucide
-  name: library
-  color: "#1E88E5"
-  emoji: "📚"
-related:
-  - INDEX.md
-  - docs.md
-  - ../README.md
-sources:
-  - path: "docs.md"
-    title: "Folder note docs/"
-  - path: "../INDEX.md"
-    title: "Root Index"
-  - path: "assets/icons.md"
-    title: "ICON-SET"
-backlinks:
-  - path: "../README.md"
-    title: "Root README"
-context: "E-Waste Workshop — Bash toolkit dla środowiska Kubuntu"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "📚 docs/ — przewodnik dokumentacyjny"
+
+
+
+
+
+
 ---
 
 

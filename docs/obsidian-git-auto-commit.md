@@ -1,15 +1,28 @@
 ---
-title: Obsidian Git - Auto-Commit z limitem 18 plików
-tags: [obsidian, git, automation, eww, config, workflow, tools]
-created: 2025-11-21
+tags:
+  - #automation
+  - #docs
+  - #eww
+  - #git
+  - #linux
+  - #obsidian
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
 author: jakubc
+title: "🔧 Obsidian Git - Auto-Commit (max 18 plików/commit)"
+
+
+
+
+
+
 ---
 
 # 🔧 Obsidian Git - Auto-Commit (max 18 plików/commit)
 
 **Rozwiązuje:** "too many to handle" w graph rendering (limit 20 commitów × 18 plików = 360 w grafie)
 
----
 
 ## ✅ Skonfigurowano
 
@@ -46,6 +59,5 @@ git show --stat              # Pliki w ostatnim
 readonly MAX_FILES_PER_COMMIT=18  # ← zmień wartość
 ```
 
----
 
 **Linki:** [[eww.md]] · [[git-workflow.md]] · [[obsidian-plugins.md]]

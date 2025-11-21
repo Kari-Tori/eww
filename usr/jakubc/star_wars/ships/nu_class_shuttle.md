@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Nu-class Attack/Transport Shuttle
-manufacturer: Cygnus Spaceworks
-role: Wahadłowiec szturmowy GAR
-era: Wojny Klonów (S1–S3)
 tags:
-  - starwars
-  - republic
-  - shuttle
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Nu-class Shuttle — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Nu-class Shuttle — karta techniczna

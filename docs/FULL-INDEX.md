@@ -1,38 +1,22 @@
 ---
-title: FULL INDEX
-description: 📑 PEŁNY INDEKS REPOZYTORIUM E-WASTE WORKSHOP
-type: file
-category: docs
-filepath: docs/FULL-INDEX.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - FULL_INDEX
-related:
-  - archive/archive.md
-  - bin/bin.md
-  - business/business.md
-dependencies:
-sources:
-  - docs/FULL-INDEX.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "📑 PEŁNY INDEKS REPOZYTORIUM E-WASTE WORKSHOP"
+
+
+
+
+
+
 ---
 
 
@@ -437,6 +421,5 @@ frontmatter
 frontmatter-dry
 ```
 
----
 
 *Wygenerowano automatycznie: Fri 21 Nov 07:41:52 GMT 2025*

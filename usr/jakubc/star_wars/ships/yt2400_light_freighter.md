@@ -1,20 +1,22 @@
 ---
-created: 2025-11-18
-updated: 2025-11-21
-title: YT-2400 Light Freighter
-manufacturer: Corellian Engineering Corporation
-role: Lekki frachtowiec / statek łowców
-era: Koniec Republiki → Nowa Republika
 tags:
-  - starwars
-  - freighter
-  - independents
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "🚚 YT-2400 — karta techniczna"
+
+
+
+
+
+
 ---
 
 # 🚚 YT-2400 — karta techniczna

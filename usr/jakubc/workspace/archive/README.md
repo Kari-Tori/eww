@@ -1,8 +1,15 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
 title: "Readme"
 description: "TODO"
 category: misc
-tags:
   - todo
   - personal
   - blue
@@ -10,6 +17,12 @@ tags:
 created: 2025-11-21
 updated: 2025-11-21
 color: blue
+
+
+
+
+
+
 ---
 
 # archive/

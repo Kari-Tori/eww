@@ -1,20 +1,23 @@
 ---
-title: "SOC"
-description: "Folder note dla SOC"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - personal
-  - blue
-  - jakubc
-created: 2025-11-21
-updated: 2025-11-21
-color: blue
-author: EWW Team
-source: "[[docs/INDEX]]"
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "📁 SOC"
+
+
+
+
+
+
 ---
 
 # 📁 SOC
@@ -28,7 +31,6 @@ Katalog `SOC` zawiera 4 plików i 1 podfolderów.
 **Przeznaczenie:**
 - Profile użytkowników i workspace
 
----
 
 ## 📄 Pliki w folderze
 
@@ -46,8 +48,27 @@ Katalog `SOC` zawiera 4 plików i 1 podfolderów.
 - ⬆️ [[Phones/Phones|Phones]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `usr/jakubc/Study/Phones/SOC`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+- [lightning_Qualcomm_Snapdragon_8_Elite_Gen_5](lightning_Qualcomm_Snapdragon_8_Elite_Gen_5.md)
+- [package_SoC_w_smartfonach_—_definicja_i_mapa_tematu](package_SoC_w_smartfonach_—_definicja_i_mapa_tematu.md)
+- [SoC_2025_Overview](SoC_2025_Overview.md)
+- [SoC_Deep_Dive_2025](SoC_Deep_Dive_2025.md)
+
+## 📁 Podfoldery
+
+- [Nowe_Miejsce.space/](Nowe_Miejsce.space/Nowe_Miejsce.space.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

@@ -1,28 +1,22 @@
 ---
-title: INDEX
-description: 📂 dev
-filepath: dev/INDEX.md
-color: yellow
-author: 
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
 tags:
-  - index
-  - documentation
-  - markdown
-  - development
-  - code
-related:
-  - FULL-INDEX.md
-  - INDEX.md
-  - README.md
-sources:
-  - dev/INDEX.md
-backlinks: []
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T22:00:00Z
+modified: 2025-11-21T22:00:00Z
+author: jakubc
+title: "📂 dev"
+
+
+
+
+
+
 ---
 
 
@@ -48,20 +42,16 @@ backlinks: []
 - [[dev/.github/INDEX|.github]]
 - [[dev/.space/INDEX|.space]]
 
----
 [⬅️ Powrót do głównego INDEX](../INDEX.md)
 
 
----
 
----
 
 **Backlinków:** 8  
 **Linków wychodzących:** 5  
 **Zaktualizowano:** 1763715867.1837468  
 
 
----
 
 ## 🔗 Backlinki
 
@@ -93,7 +83,6 @@ backlinks: []
 
 *...i 2 więcej*
 
----
 
 **Backlinków:** 8  
 **Linków wychodzących:** 12  

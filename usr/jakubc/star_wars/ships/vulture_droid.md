@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Vulture-class Droid Starfighter
-manufacturer: Haor Chall Engineering / Baktoid
-role: Droid-myśliwiec CIS
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - droid
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Vulture-class Droid — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Vulture-class Droid — karta techniczna

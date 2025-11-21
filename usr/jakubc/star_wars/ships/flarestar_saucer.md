@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Flarestar-class Attack Shuttle (“Weequay Saucer”)
-manufacturer: Unknown (pirackie warsztaty)
-role: Shuttle piracki / szturmowy
-era: Wojny Klonów
 tags:
-  - starwars
-  - pirates
-  - shuttle
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Flarestar-class “Weequay Saucer” — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Flarestar-class “Weequay Saucer” — karta techniczna

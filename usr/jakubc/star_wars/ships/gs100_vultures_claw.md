@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: GS-100 “Vulture’s Claw”
-manufacturer: Modified GS-series freighter
-role: Mały frachtowiec / złomowiec
-era: Wojny Klonów
 tags:
-  - starwars
-  - pirates
-  - freighter
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ GS-100 “Vulture’s Claw” — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ GS-100 “Vulture’s Claw” — karta techniczna
@@ -59,3 +61,12 @@ color: blue
 > Kadłub brudny i asymetryczny – modele fanów często odwzorowują brązowo-błękitne plamy.
 
 [[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

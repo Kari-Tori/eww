@@ -1,19 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Syliure-31 Hyperdrive Ring
-manufacturer: TransGalMeg Industries
-role: Booster hyperdrive dla myśliwców Jedi
-era: Wojny Klonów
 tags:
-  - starwars
-  - hyperdrive
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Syliure-31 Hyperdrive Ring — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Syliure-31 Hyperdrive Ring — karta techniczna

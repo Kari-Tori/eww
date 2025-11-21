@@ -1,21 +1,23 @@
 ---
-title: Star Wars Races (The Clone Wars)
-created: 2025-11-19
-updated: 2025-11-21
-color: blue
-author: karinam kmirowska7@gmail.com
-file_path: /eww/usr/jakubc/star_wars/races/races.md
-description: Indeks grywalnych i fabularnych ras humanoidalnych pojawiających się w serialu TCW.
 tags:
-  - starwars
-  - races
-  - tcw
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/races/races.md|Index]]
-  - [[usr/jakubc/star_wars/fractions/fractions.md|Frakcje]]
+  - #folder_note
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "🧬 Folder `star_wars/races`"
+
+
+
+
+
+
 ---
 
 # 🧬 Folder `star_wars/races`
@@ -57,3 +59,29 @@ links:
 > 2025-11-19 — dodano wpisy Duros (Cad Bane), Kaleesh (Grievous) i Chiss (Thrawn).
 
 [[usr/jakubc/star_wars/ships/ships.md|← powrót do statków]]
+
+## 📑 Index plików
+
+- [chiss](chiss.md)
+- [duros](duros.md)
+- [kaleesh](kaleesh.md)
+- [kaminoan](kaminoan.md)
+- [pantoran](pantoran.md)
+- [togruta](togruta.md)
+- [trandoshan](trandoshan.md)
+- [twilek](twilek.md)
+- [zabrak](zabrak.md)
+- [zingerrian](zingerrian.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

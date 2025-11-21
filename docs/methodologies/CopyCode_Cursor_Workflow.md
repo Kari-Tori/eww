@@ -1,41 +1,22 @@
 ---
-title: CopyCode Cursor Workflow
-description: Tworzenie strony przy pomocy CopyCode.ai + Cursor
-type: file
-category: docs
-filepath: docs/methodologies/CopyCode_Cursor_Workflow.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-  - cursor
-aliases:
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #workflow
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "Tworzenie strony przy pomocy CopyCode.ai + Cursor"
 
-related:
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
-  - docs/narzedzia-deweloperskie.md
-dependencies:
-sources:
-  - docs/methodologies/CopyCode_Cursor_Workflow.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
 ---
 
 
@@ -48,7 +29,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - Konto na **CopyCode.ai** (https://copycode.ai/)
 - Node.js + NPM (jeśli tworzysz stronę opartą na frameworku typu Next.js, Vite, itp.)
 
----
 
 ## 1. Generowanie projektu w CopyCode.ai
 
@@ -66,7 +46,6 @@ repository: https://github.com/Kari-Tori/eww-1
 
 3. Pobierz wygenerowany kod lub skopiuj go bezpośrednio do edytora Cursor.
 
----
 
 ## 2. Import projektu do Cursor
 
@@ -75,7 +54,6 @@ repository: https://github.com/Kari-Tori/eww-1
 3. Wklej wygenerowane pliki (HTML/CSS/JS lub Next.js/Vue itp.) do struktury projektu.
 4. Cursor automatycznie wykryje framework i skonfiguruje środowisko (jeśli zawiera `package.json`).
 
----
 
 ## 3. Edycja kodu z pomocą AI (Cursor)
 
@@ -101,7 +79,6 @@ repository: https://github.com/Kari-Tori/eww-1
   Dodaj prosty backend w Express.js do odbierania formularzy
   ```
 
----
 
 ## 4. Stylizacja i personalizacja
 
@@ -116,7 +93,6 @@ repository: https://github.com/Kari-Tori/eww-1
   Dodaj smooth scrolling, animacje przy przewijaniu i efekt hover dla kart cennika
   ```
 
----
 
 ## 5. Testowanie i optymalizacja
 
@@ -130,7 +106,6 @@ repository: https://github.com/Kari-Tori/eww-1
   Dodaj lazy loading do obrazów i minifikuj CSS
   ```
 
----
 
 ## 6. Deployment (opcjonalnie)
 
@@ -143,13 +118,11 @@ repository: https://github.com/Kari-Tori/eww-1
   - Połącz z Vercel (lub Netlify)
   - Automatyczny deploy przy każdym commicie
 
----
 
 ## Gotowe!
 
 Strona działa, kod jest zoptymalizowany, a całość tworzysz szybciej dzięki AI.
 
----
 
 ## Narzędzia
 

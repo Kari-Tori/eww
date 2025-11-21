@@ -1,27 +1,22 @@
 ---
-title: "Struktura głównego katalogu"
-description: "Organizacja folderów i plików w root directory"
-category: documentation
 tags:
-  - structure
-  - organization
-  - root
-  - folders
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-related:
-  - docs/ROOT-MINIMIZATION.md
-  - docs/INDEX.md
-  - docs/OBSIDIAN-SETUP.md
-  - docs/placeholders/placeholders.md
-  - docs/readme-checklist.md
-cssclasses:
-  - eww-doc
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "📁 Struktura Głównego Katalogu"
+
+
+
+
+
+
 ---
 
 # 📁 Struktura Głównego Katalogu
@@ -101,7 +96,6 @@ eww/
 |--------|------|-----------|
 | **GOVERNANCE/** | Zarządzanie | Policies, contracts |
 
----
 
 ## 🗂️ Hidden Directories (zostają w root)
 
@@ -121,7 +115,6 @@ eww/
 .obsidian/
 ```
 
----
 
 ## 📦 Przeniesione z Root
 
@@ -154,7 +147,6 @@ eww/
 - `.write-test` - testowy plik
 - `.yamllint.yml` - duplikat
 
----
 
 ## 🎯 Zasady Organizacji
 
@@ -188,7 +180,6 @@ eww/
 | User data | `usr/` |
 | Temp/logs | `var/` |
 
----
 
 ## 📊 Statystyki
 
@@ -206,7 +197,6 @@ ls -1d .* | grep -v "^\.$" | wc -l
 # Output: 6
 ```
 
----
 
 ## 🔧 Maintenance
 
@@ -234,7 +224,6 @@ mv *.md docs/              # MD files
 mv .*.yml config/          # Config files
 ```
 
----
 
 **Zaktualizowano:** 2025-11-21  
 **Stan:** ✅ Uporządkowany  

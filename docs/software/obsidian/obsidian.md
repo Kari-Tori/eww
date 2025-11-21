@@ -1,58 +1,23 @@
 ---
-title: "💠 Obsidian — przewodnik użytkowy"
-description: "Notatki o pracy z Obsidianem, podstawowych pojęciach i pluginach wspierających EWW."
-type: file
-category: docs
-filepath: docs/software/obsidian/obsidian.md
-color: green
-author: "Jakub C. (Nairecth)"
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.1.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - "[#4C2A85]obsidian"
-  - "[#8E24AA]pkm"
-  - "[#1E88E5]docs"
-  - "[#43A047]workflow"
-  - documentation
-  - docs
-  - knowledge
-keywords:
-  - notes
-  - obsidian
-  - pkm
-  - vault
-icon:
-  set: simple-icons
-  name: obsidian
-  color: "#4C2A85"
-  emoji: "💠"
-aliases: []
-related:
-  - docs/FULL-INDEX.md
-  - docs/obsidian-troubleshooting.md
-  - docs/README.md
-dependencies: []
-sources:
-  - path: "../assets/icons.md"
-    title: "ICON-SET"
-  - path: "../../README.md"
-    title: "Docs README"
-  - path: "../../../README.md"
-    title: "Repo README"
-backlinks:
-  - path: "../software/code/code.md"
-    title: "VS Code guide"
-  - path: "../wiki/kubuntu.md"
-    title: "Kubuntu wiki"
-context: "E-Waste Workshop — Bash toolkit dla środowiska Kubuntu"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #folder_note
+  - #automation
+  - #docs
+  - #eww
+  - #linux
+  - #obsidian
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "## Cel"
+
+
+
+
+
+
 ---
 
 
@@ -157,8 +122,24 @@ Obsidian to lokalny edytor Markdown z możliwością tworzenia sieci powiązanyc
 - Repozytoria popularnych wtyczek (Dataview, Tasks, Templater, QuickAdd) — linki w dokumentacji projektu plugins.md  
 - Społeczność: r/ObsidianMD, oficjalny Discord, GitHub Discussions
 
----
 
 Uwagi:
 - Ten dokument to autorski przegląd funkcji core Obsidian i praktycznych wskazówek; oficjalne szczegóły oraz aktualizacje znajdziesz pod linkiem do dokumentacji Obsidian (help.obsidian.md).
 - Jeśli chcesz, mogę rozwinąć każdą sekcję (np. pełna lista core pluginów z opisami i ustawieniami) i wygenerować przykładowe konfiguracje dla twojego workflow.
+
+## 📑 Index plików
+
+- [installed_pluggins](installed_pluggins.md)
+
+## 📁 Podfoldery
+
+- [plugins/](plugins/plugins.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

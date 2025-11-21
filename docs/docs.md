@@ -1,90 +1,88 @@
 ---
-title: 📚 Documentation
-type: folder-note
-status: active
 tags:
-  - hub
-  - docs
-  - documentation
-  - eww
-  - index
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
 author: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-related:
-  - docs/methodologies/methodologies.md
-  - docs/reports/reports.md
-  - docs/tags/tags.md
-  - docs/team/team.md
-  - docs/trash-recovery/trash-recovery.md
+title: "📚 Docs"
+
+
+
+
+
+
 ---
 
-# 📚 Documentation
+# 📚 Docs
 
-> **Centralna dokumentacja projektu E-Waste Workshop**
+> **Kompleksowa dokumentacja projektu E-Waste Workshop**
 
-## 📋 Przeznaczenie Folderu
+## 📋 Cel folderu
 
-Ten folder zawiera całą dokumentację techniczną i użytkową projektu EWW.
+Centralne repozytorium całej dokumentacji projektu: technicznej, użytkownika, API, tutoriali i przewodników.
 
-## 📑 Zawartość Folderu
+## 📁 Struktura
 
-### 🎯 Główne Indeksy
-- [[docs/INDEX|📑 INDEX]] - Główny indeks dokumentacji
-- [[docs/FULL-INDEX|📋 FULL-INDEX]] - Kompletny indeks wszystkich plików
-- [[docs/README|📖 README]] - Dokumentacja wprowadzająca
+```
+docs/
+├── technical/        # Dokumentacja techniczna
+├── user/             # Instrukcje dla użytkowników
+├── api/              # Dokumentacja API
+├── tutorials/        # Tutoriale krok-po-kroku
+├── guides/           # Przewodniki tematyczne
+├── architecture/     # Architektura systemu
+└── meta/             # Meta-dokumenty (INDEX, MAP, GRAPH)
+```
 
-### 🏗️ Struktura i Organizacja
-- [[docs/ROOT-STRUCTURE|🏗️ ROOT-STRUCTURE]] - Struktura głównego katalogu
-- [[docs/ROOT-MINIMIZATION|🧹 ROOT-MINIMIZATION]] - Minimalizacja root directory
+## 📄 Index plików
 
-### 🛠️ Narzędzia
-- [[docs/GITHUB-TOOLS|🐙 GITHUB-TOOLS]] - GitHub CLI, Copilot, Cloud
-- [[docs/GITHUB-TOOLS-CHEATSHEET|📄 GitHub Cheatsheet]] - Szybka ściąga
-- [[docs/AGENTS|🤖 AGENTS]] - Agenty AI i automatyzacja
-- [[docs/narzedzia-deweloperskie|🔧 Narzędzia Dev]] - Kompletna lista narzędzi
+### Meta
+- [[docs/EWW-MAP]] - Mapa projektu
+- [[docs/GRAPH-SUMMARY]] - Podsumowanie grafu
+- [[docs/Makefile]] - Dokumentacja Makefile
+- [[INDEX]] - Główny indeks projektu
+- [[FULL-INDEX]] - Pełny indeks wszystkich plików
 
-### 💎 Obsidian
-- [[docs/OBSIDIAN-SETUP|💎 OBSIDIAN-SETUP]] - Konfiguracja Obsidian
-- [[docs/obsidian-troubleshooting|🔧 Troubleshooting]] - Rozwiązywanie problemów
-- [[docs/yaml-frontmatter-spec|�� YAML Spec]] - Specyfikacja frontmatter
+### Technical
+- [[architecture-overview]] - Przegląd architektury
+- [[bash-best-practices]] - Best practices Bash
+- [[git-workflow]] - Workflow Git
+- [[systemd-integration]] - Integracja systemd
 
-### 📝 Przewodniki
-- [[docs/MAKEFILE-GUIDE|⚙️ MAKEFILE-GUIDE]] - Przewodnik po Makefile
-- [[docs/neovim-guide|✏️ Neovim Guide]] - Konfiguracja Neovim
-- [[docs/readme-checklist|✅ README Checklist]] - Lista kontrolna README
+### User
+- [[installation-guide]] - Przewodnik instalacji
+- [[quick-start]] - Szybki start
+- [[configuration-guide]] - Konfiguracja
+- [[troubleshooting]] - Rozwiązywanie problemów
 
-### 🎯 Planowanie
-- [[docs/MVP|🎯 MVP]] - Minimum Viable Product
-- [[docs/nextsteps|⏭️ Next Steps]] - Kolejne kroki
-- [[docs/ENDPOINTS|🔌 ENDPOINTS]] - Endpointy i API
-
-### 📊 Analizy
-- [[docs/readme-frontmatter-analysis|📊 Frontmatter Analysis]] - Analiza YAML
-- [[docs/dokumentacja|📚 Dokumentacja Meta]] - Meta-dokumentacja
+### Tutorials
+- [[first-script-tutorial]] - Pierwszy skrypt
+- [[library-usage]] - Korzystanie z bibliotek
+- [[testing-tutorial]] - Pisanie testów
 
 ## 🔗 Powiązania
 
-**Z główną mapą**: [[EWW-MAP|🗺️ Repository Map]]  
-**Z konfiguracją**: [[config/config|⚙️ Config]]  
-**Z narzędziami**: [[tools/tools|🔧 Tools]]  
+- [[README]] - Główny README projektu
+- [[CHANGELOG]] - Historia zmian
+- [[dev]] - Dokumentacja deweloperska
+- [[usr/jakubc/jakubc|jakubc]] - Główny autor
+- [[usr/karinam/karinam|karinam]] - Współautor
 
-## 📊 Statystyki
+## 📊 Status
 
-- **Plików markdown**: ~30
-- **Kategorii**: 7 (indeksy, struktura, narzędzia, Obsidian, przewodniki, planowanie, analizy)
-- **Główne tagi**: `#docs`, `#documentation`, `#eww`
+- **Typ**: Folder dokumentacji
+- **Priorytet**: Krytyczny
+- **Maintainer**: [[usr/jakubc/jakubc|jakubc]]
+- **Kompletność**: ~60%
+- **Język**: Polski
 
-## 🎨 Oznaczenie Grafu
 
-**Tag**: `#docs`  
-**Kolor**: 🟣 Magenta  
-**Widoczność**: Wysoka (rdzeń dokumentacji)
-
----
-
-**Lokalizacja**: `/docs/`  
 **Ostatnia aktualizacja**: 2025-11-21  
-**Autor**: [[usr/jakubc/jakubc|Jakub C]]
-
-#docs #documentation #eww #index
+**Źródło**: Dokumentacja EWW  
+**Backlinki**: [[config]], [[dev]], [[infra]], [[scripts]], [[tools]]

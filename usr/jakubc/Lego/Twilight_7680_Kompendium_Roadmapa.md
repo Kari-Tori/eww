@@ -1,11 +1,30 @@
 ---
+tags:
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #lego
+  - #linux
+  - #secondbrain
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "✧ **LEGO Star Wars 7680 – The Twilight**"
+
+
+
+
+
+
+---
+---
 alias: [Twilight, G9 Rigger, 7680, Bruxxy, IcarusBuilds, G9, The Twilight]
 title: "🛰️ Twilight 7680 — KOMpendium + Roadmapa (Oryginał → MOC1 → MOC2)"
 created: 2025-11-21
 owner: "Wielki Implementator"
 status: active
 updated: 2025-11-21
-tags: [lego, star-wars, starship, twilight, g9, set-7680, moc, bruxxy, icarusbuilds, roadmap, checklist, bom, make.md, canon, legends, build-plan, minifig, ucs]
   - personal
   - blue
   - jakubc
@@ -13,8 +32,7 @@ cssclass: eww-dashboard rich twilight-theme sw-holo neon chips holo-grid
 space: 03\_DEVELOPMENT/LEGO/StarWars/Twilight
 series: "Star Wars: The Clone Wars"
 stage\_current: G0
-stage\_tags: ["G0","G1","G2"]
-lego\_set:
+stage\_lego\_set:
   number: 7680
   name: "The Twilight"
   theme: "Star Wars"
@@ -59,7 +77,8 @@ budgets\_gbp:
   G0: { min: 140, max: 170, total\_min: 140, total\_max: 170 }
   G1: { min: 85,  max: 175, total\_min: 225, total\_max: 355 }
   G2: { min: 900, max: 1700, total\_min: 1125, total\_max: 2055 }
----------------------------------------------------------------
+------------------------------------------------------------
+---
 
 # ✧ **LEGO Star Wars 7680 – The Twilight**
 
@@ -433,3 +452,12 @@ Legenda: ▢ niska · ▣ średnia · ■ wysoka
 > const ids = dv.current().frontmatter.lego_set.minifigs || [];
 > dv.table(["Minifig","ID","Brickset"], ids.map(id=>[map[id]?.[0]||id, id, map[id]?.[1]||`https://brickset.com/minifigs/${id}`]));
 > ```
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

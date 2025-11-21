@@ -1,37 +1,22 @@
 ---
-title: Neovim Guide
-description: Neovim - przewodnik testowania
-type: file
-category: docs
-filepath: docs/neovim-guide.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-  - neovim_guide
-related:
-  - docs/docs.md
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/neovim-guide.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "Neovim - przewodnik testowania"
+
+
+
+
+
+
 ---
 
 
@@ -376,7 +361,6 @@ nvim -p dev/tests/test_neovim.{md,yaml,sh}
 - **yaml-language-server**: https://github.com/redhat-developer/yaml-language-server
 - **marksman** (Markdown LSP): https://github.com/artempyanykh/marksman
 
----
 
 **Autor:** Nairecth  
 **Data:** 2025-11-09  

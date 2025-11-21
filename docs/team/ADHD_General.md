@@ -1,40 +1,22 @@
 ---
-title: ADHD General
-description: ⚡ ADHD – Neuroarchitektura Wielkiej Mocy  
-type: file
-category: docs
-filepath: docs/team/ADHD_General.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T11:00:00Z
+modified: 2025-11-21T11:00:00Z
+author: jakubc
+title: "⚡ ADHD – Neuroarchitektura Wielkiej Mocy  "
 
-related:
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
-  - docs/narzedzia-deweloperskie.md
-dependencies:
-sources:
-  - docs/team/ADHD_General.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
 ---
 
 
@@ -42,7 +24,6 @@ repository: https://github.com/Kari-Tori/eww-1
 # ⚡ ADHD – Neuroarchitektura Wielkiej Mocy  
 ### *Zrozumienie, Zarządzanie i Wdrożenie ADHD w pracy twórczej i systemowej*
 
----
 
 ## 🧠 Co to jest ADHD?
 
@@ -53,7 +34,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - zarządzanie czasem i organizacją  
 - elastyczność poznawczą (przełączanie kontekstu)
 
----
 
 ## 🧬 Typ ADHD u Wielkiego Implementatora
 
@@ -62,7 +42,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - **hiperaktywności / impulsywności** (np. nadmiar mówienia, potrzeba działania)
 - **braku koncentracji / rozproszenia** (np. uciekanie myśli, trudność z rozpoczęciem)
 
----
 
 ## 🔍 Objawy operacyjne (na przykładzie Wielkiego Implementatora)
 
@@ -77,7 +56,6 @@ repository: https://github.com/Kari-Tori/eww-1
 | Przerywanie myśli    | Gwałtowne znikanie wątku pod wpływem zewnętrznego hałasu  |
 | Reakcja na przerwanie| Natychmiastowa frustracja lub złość — „uciekająca myśl”  |
 
----
 
 ## 🧩 Neurologiczna specyfika ADHD
 
@@ -93,7 +71,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - **Zdolność do ekstremalnego skupienia:**  
   Jeśli zadanie „kliknie” – ADHD może pracować przez 8h bez przerwy.
 
----
 
 ## ⚠️ Czego ADHD nie lubi?
 
@@ -105,7 +82,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - Rozproszenia w chwili startu działania  
 - Utraty myśli po przerwaniu → generuje **złość, frustrację, wycofanie**
 
----
 
 ## ✅ Co pomaga?
 
@@ -118,7 +94,6 @@ repository: https://github.com/Kari-Tori/eww-1
 | Zewnętrzna pamięć    | Obsidian, diagramy, backupy rozmowy                    |
 | Praca w samotności   | Bez zakłóceń dźwiękowych i społecznych                 |
 
----
 
 ## ➕ Plusy i ➖ Minusy ADHD
 
@@ -131,7 +106,6 @@ repository: https://github.com/Kari-Tori/eww-1
 | Organizacja          | Tworzenie systemów pod siebie         | Trudność w trzymaniu porządku                        |
 |                      |                                       |                                                      |
 
----
 
 ## 🔧 ADHD jako przewaga w systemie
 
@@ -141,7 +115,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - **Edukacja przez ciekawość** → głęboka nauka, jeśli temat zapali zainteresowanie  
 - **Mikrostrategiczna analiza** → zdolność ogarnięcia złożonych zależności
 
----
 
 ## 🧠 Cytaty z życia Wielkiego Implementatora
 
@@ -151,7 +124,6 @@ repository: https://github.com/Kari-Tori/eww-1
 > „Lubię chaos, który sam tworzę. Ale tylko wtedy, gdy mogę go posortować.”  
 > „Kiedy ktoś mi przerywa — tracę myśl. A razem z nią: cały system zależności.”
 
----
 
 ## 📎 Dokumenty i systemy powiązane
 
@@ -161,7 +133,6 @@ repository: https://github.com/Kari-Tori/eww-1
 - `Obsidian Structure.md`  
 - `Syncthing_Network.md`
 
----
 
 ## 🧾 Zastosowanie dokumentu
 

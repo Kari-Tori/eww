@@ -1,23 +1,22 @@
 ---
-id: sb-index
-title: Indexowanie wiedzy
-type: spec/module
-status: draft
-owner: Jakub
 tags:
-  - index
-  - wyszukiwanie
-  - secondbrain
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-27
-updated: 2025-11-21
-aliases: [Indexowanie wiedzy]
-linter-yaml-title-alias: Indexowanie wiedzy
-date created: poniedziałek, październik 27. 2025, 1:46:36 pm
-date modified: poniedziałek, październik 27. 2025, 1:52:33 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "Indexowanie wiedzy"
+
+
+
+
+
+
 ---
 
 # Indexowanie wiedzy
@@ -68,3 +67,12 @@ Pole tags można przechowywać jako CSV albo JSON.
 - Indeks metadanych jest wykorzystywany do raportów operacyjnych.
 - Indeks pełnotekstowy jest wykorzystywany do szybkiego szukania po tekście bez AI.
 - Wektorowy indeks działa osobno i nie zastępuje tego indeksu.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

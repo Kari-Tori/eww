@@ -1,37 +1,22 @@
 ---
-title: Dokumentacja
-description: Jak dokumentować projekt E-Waste Workshop
-type: file
-category: docs
-filepath: docs/dokumentacja.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - README.md
-  - docs/docs.md
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/dokumentacja.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-21T10:00:00Z
+author: jakubc
+title: "Jak dokumentować projekt E-Waste Workshop"
+
+
+
+
+
+
 ---
 
 
@@ -47,19 +32,16 @@ Ten przewodnik opisuje jak prawidłowo dokumentować pliki Markdown w projekcie 
 Każdy plik Markdown powinien zawierać metadane YAML na początku:
 
 ```yaml
----
 title: Tytuł dokumentu
 description: Krótki opis zawartości
 version: 0.0.0.4
 type: readme|changelog|index|guide|wiki
 category: documentation
-tags:
   - tag1
   - tag2
 language: pl
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
----
 ```
 
 ## Typy dokumentów
@@ -67,7 +49,6 @@ updated: YYYY-MM-DD
 ### 1. README.md - Główna dokumentacja
 
 ```yaml
----
 title: E-Waste Workshop README
 description: Kompletna dokumentacja projektu
 version: 0.0.0.4
@@ -85,7 +66,6 @@ requires:
   - make
 license: MIT
 status: stable
----
 ```
 
 **Zawartość:**
@@ -104,7 +84,6 @@ status: stable
 ### 2. INDEX.md - Indeks projektu
 
 ```yaml
----
 title: INDEX - E-Waste Workshop
 description: Automatycznie generowany indeks projektu
 version: 0.0.0.4
@@ -112,7 +91,6 @@ generator: ./dev/bin/eww-index
 source: .filedesc
 type: index
 auto-generated: true
----
 ```
 
 **Generowanie:**
@@ -124,7 +102,6 @@ make index
 ### 3. CHANGELOG.md - Historia zmian
 
 ```yaml
----
 title: CHANGELOG - E-Waste Workshop
 description: Historia zmian projektu
 version: 0.0.0.4
@@ -132,7 +109,6 @@ format: Keep a Changelog
 versioning: Semantic Versioning
 type: changelog
 generator: ./dev/bin/eww-changelog
----
 ```
 
 **Format:** [Keep a Changelog](https://keepachangelog.com/pl/1.0.0/)
@@ -150,14 +126,12 @@ generator: ./dev/bin/eww-changelog
 ### 4. AGENTS.md - Kontekst AI
 
 ```yaml
----
 title: AGENTS.md - Kontekst dla AI Coding Agents
 description: Kompletny kontekst projektu dla AI
 version: 0.0.0.4
 audience: AI coding agents
 type: ai-context
 language: pl
----
 ```
 
 **Zawartość:**
@@ -171,13 +145,11 @@ language: pl
 ### 5. MVP.md - Kryteria akceptacji
 
 ```yaml
----
 title: MVP - Kryteria akceptacji
 description: Definition of Done dla MVP 0.0.0.1
 version: 0.0.0.1
 type: specification
 category: project-management
----
 ```
 
 ### 6. Dokumenty w docs/
@@ -185,26 +157,22 @@ category: project-management
 #### docs/guide/ - Przewodniki
 
 ```yaml
----
 title: Nazwa przewodnika
 description: Krótki opis
 type: guide
 category: documentation
 difficulty: beginner|intermediate|advanced
 estimated-time: 10 minutes
----
 ```
 
 #### docs/wiki/ - Wiki
 
 ```yaml
----
 title: Tytuł artykułu wiki
 description: Opis tematu
 type: wiki
 category: setup|configuration|troubleshooting
 platform: Kubuntu 24.04|Neovim|Obsidian
----
 ```
 
 ## Komentarze HTML
@@ -345,20 +313,17 @@ make release VERSION=0.0.0.5
 ## Przykład kompletnego dokumentu
 
 ```markdown
----
 title: Przykładowy dokument
 description: Opis tego co zawiera dokument
 version: 0.0.0.4
 author: Nairecth
 type: guide
 category: documentation
-tags:
   - example
   - template
 language: pl
 created: 2025-11-09
 updated: 2025-11-09
----
 
 <!-- 
   Przykład dokumentu zgodnego ze standardem EWW
@@ -394,7 +359,6 @@ echo "Hello EWW"
 - [README.md](../README.md)
 - [INDEX.md](../INDEX.md)
 
----
 
 **Autor:** Nairecth  
 **Ostatnia aktualizacja:** 2025-11-09
@@ -421,7 +385,6 @@ echo "Hello EWW"
 - [Markdown Guide](https://www.markdownguide.org/)
 - [YAML Frontmatter](https://jekyllrb.com/docs/front-matter/)
 
----
 
 **Wygenerowano:** 2025-11-09  
 **Projekt:** E-Waste Workshop  

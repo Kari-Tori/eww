@@ -1,19 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Sheathipede-class Transport Shuttle
-manufacturer: Haor Chall Engineering
-role: Wahadłowiec dyplomatyczny / eskortowy
-era: Wojny Klonów, konfederacja handlowa
 tags:
-  - starwars
-  - shuttle
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Sheathipede-class Shuttle — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Sheathipede-class Shuttle — karta techniczna

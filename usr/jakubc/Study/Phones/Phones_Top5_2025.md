@@ -1,22 +1,22 @@
 ---
-title: TOP 5 smartfonów 2025 — specyfikacje i koszty (szacunek)
 tags:
-  - phones
-  - spec
-  - personal
-  - blue
-  - jakubc
-date: 2025-10-27
-aliases:
-  - 📱 TOP 5 2025 — spec, bateria, koszt
-  - 📱 TOP 5 2025 — spec
-  - bateria
-  - koszt
-linter-yaml-title-alias: 📱 TOP 5 2025 — spec, bateria, koszt
-date created: 2025-11-21
-updated: 2025-11-21
-date modified: poniedziałek, październik 27. 2025, 6:30:53 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "📱 TOP 5 2025 — spec, bateria, koszt"
+
+
+
+
+
+
 ---
 
 # 📱 TOP 5 2025 — spec, bateria, koszt
@@ -68,3 +68,12 @@ color: blue
 - 🔋 Bateria: ~5800 mAh  
 - 🔌 Ładowanie: 65 W przew., 15 W bezprz.  
 - 💸 UK: ~£1099–£1299
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

@@ -1,6 +1,22 @@
 ---
-title: Vale styles
-description: TODO - uzupełnij opis.
+tags:
+  - #automation
+  - #config
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T22:00:00Z
+modified: 2025-11-21T22:00:00Z
+author: jakubc
+title: "Vale styles"
+
+
+
+
+
+
 ---
 
 # Vale styles

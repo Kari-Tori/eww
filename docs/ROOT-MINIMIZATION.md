@@ -1,27 +1,22 @@
 ---
-title: "Root Directory Minimalization"
-description: "Historia i rezultaty minimalizacji root directory"
-category: documentation
 tags:
-  - cleanup
-  - structure
-  - organization
-  - root
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-related:
-  - docs/ROOT-STRUCTURE.md
-  - docs/INDEX.md
-  - docs/OBSIDIAN-SETUP.md
-  - docs/placeholders/placeholders.md
-  - docs/readme-checklist.md
-cssclasses:
-  - eww-doc
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "🧹 Root Directory Minimalization"
+
+
+
+
+
+
 ---
 
 # 🧹 Root Directory Minimalization
@@ -44,7 +39,6 @@ TERAZ:            8 plików ✨
 - **Status:** Ultra-profesjonalne
 - **Czas trwania:** 2 fazy czyszczenia
 
----
 
 ## 📄 Pliki w Root (8 essentials)
 
@@ -63,7 +57,6 @@ TERAZ:            8 plików ✨
 - `.gitignore`
 - `.gitattributes`
 
----
 
 ## 📦 Historia Przeniesień
 
@@ -113,7 +106,6 @@ TERAZ:            8 plików ✨
 - `avocado/` → `archive/avocado/` (stary projekt)
 - `obsidian/` → `archive/obsidian/` (stary vault)
 
----
 
 ## 📁 Struktura Folderów (28 głównych)
 
@@ -156,7 +148,6 @@ TERAZ:            8 plików ✨
 - `.continue/` - Continue.dev AI
 - `.vscode/` - VS Code settings
 
----
 
 ## 🎯 Zasady Root Directory
 
@@ -182,7 +173,6 @@ TERAZ:            8 plików ✨
 🗑️ Temporary files  
 🗑️ Nieużywane configs  
 
----
 
 ## 📈 Porównanie z Innymi Repo
 
@@ -193,7 +183,6 @@ TERAZ:            8 plików ✨
 | Profesjonalne | 6-10 | Świetne |
 | **EWW** | **8** | **Ultra!** ✨ |
 
----
 
 ## 🔧 Maintenance
 
@@ -223,7 +212,6 @@ make clean
 3. **Nowe skrypty** → `scripts/` lub `bin/`
 4. **Nie dodawaj** plików do root bez powodu!
 
----
 
 ## 📚 Dokumenty Powiązane
 
@@ -231,7 +219,6 @@ make clean
 - [[docs/OBSIDIAN-SETUP|OBSIDIAN-SETUP]] - Obsidian config
 - [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Status:** Ultra-profesjonalne ✨  
 **Plików w root:** 8  

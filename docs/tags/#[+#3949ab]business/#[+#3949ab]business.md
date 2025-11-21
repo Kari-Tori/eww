@@ -1,27 +1,23 @@
 ---
-title: "#[+#3949ab]business"
-description: "Folder note dla #[+#3949ab]business"
-category: folder-note
 tags:
-  - folder-note
-  - index
-  - business
-  - documentation
-  - docs
-  - knowledge
-created: 2025-11-21
-updated: 2025-11-21
-color: green
-author: EWW Team
-source: "[[docs/INDEX]]"
-related:
-  - docs/methodologies/methodologies.md
-  - docs/reports/reports.md
-  - docs/tags/tags.md
-  - docs/team/team.md
-  - docs/trash-recovery/trash-recovery.md
-cssclasses:
-  - eww-folder-note
+  - #folder_note
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T21:00:00Z
+author: jakubc
+title: "📁 #[+#3949ab]business"
+
+
+
+
+
+
 ---
 
 # 📁 #[+#3949ab]business
@@ -35,7 +31,6 @@ Katalog `#[+#3949ab]business` zawiera 0 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Dokumenty biznesowe, operacje, finanse
 
----
 
 ## 📄 Pliki w folderze
 
@@ -50,8 +45,24 @@ Katalog `#[+#3949ab]business` zawiera 0 plików i 0 podfolderów.
 - ⬆️ [[tags/tags|tags]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
----
 
 **Lokalizacja:** `docs/tags/#[+#3949ab]business`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+- [#[+#3949ab]business](#[+#3949ab]business.md)
+
+## 📁 Podfoldery
+
+- [#[+#3949ab]business/](#[+#3949ab]business/#[+#3949ab]business.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

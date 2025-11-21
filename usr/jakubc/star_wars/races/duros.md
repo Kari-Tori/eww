@@ -1,19 +1,22 @@
 ---
-title: Durosi
-created: 2025-11-19
-updated: 2025-11-21
 tags:
-  - starwars
-  - race
-  - duros
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/races/races.md|Index ras]]
-  - [[usr/jakubc/star_wars/fractions/hutt_cartel.md|Kartel Huttów]]
-  - [[usr/jakubc/star_wars/fractions/confederacy_of_independent_systems.md|CIS]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "🔶 Durosi"
+
+
+
+
+
+
 ---
 
 # 🔶 Durosi
@@ -43,3 +46,12 @@ color: blue
 - **Davton Tonk** — pilot transportów Republiki.
 
 [[usr/jakubc/star_wars/races/races.md|← powrót do listy ras]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

@@ -1,35 +1,23 @@
 ---
-title: Gerc
-description: gerc — karta główna
-type: file
-category: docs
-filepath: docs/infra/hardware/gerc/gerc.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/infra/hardware/gerc/gerc.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #GERC
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #linux
+  - #star-wars
+  - #folder_note
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "gerc — karta główna"
+
+
+
+
+
+
 ---
 
 
@@ -57,3 +45,28 @@ Jednostka na płycie Asus X99 Pro pełniąca rolę GERC. Szczegóły poszczegól
 | Data | Opis |
 | --- | --- |
 | 2025-11-19 | Utworzono strukturę folderu i linki do komponentów. |
+
+## 📑 Index plików
+
+- [case](case.md)
+- [cooling](cooling.md)
+- [cpu](cpu.md)
+- [fans](fans.md)
+- [gpu](gpu.md)
+- [motherboard](motherboard.md)
+- [psu](psu.md)
+- [ram](ram.md)
+- [storage](storage.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

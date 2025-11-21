@@ -1,22 +1,22 @@
 ---
-title: 🗺️ EWW Repository Map
-type: map
-status: active
 tags:
-  - eww
-  - core
-  - map
-  - index
-  - navigation
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
 author: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-related:
-  - docs/GRAPH-SUMMARY.md
-  - docs/Makefile.md
-  - docs/docs.md
-  - docs/methodologies/methodologies.md
-  - docs/reports/reports.md
+title: "🗺️ EWW Repository Map"
+
+
+
+
+
+
 ---
 
 # 🗺️ EWW Repository Map
@@ -144,7 +144,6 @@ graph TB
 3. **Kolory**: Każdy obszar ma swój kolor na graphie
 4. **Backlinki**: Każdy plik pokazuje powiązania
 
----
 
 **Ostatnia aktualizacja**: 2025-11-21  
 **Autor**: [[usr/jakubc/jakubc|Jakub C]]  

@@ -1,23 +1,23 @@
 ---
-title: Star Wars Fractions (The Clone Wars)
-created: 2025-11-19
-updated: 2025-11-21
-color: blue
-author: karinam kmirowska7@gmail.com
-last_editors:
-  - karinam kmirowska7@gmail.com
-file_path: /eww/usr/jakubc/star_wars/fractions/fractions.md
-description: Indeks frakcji z okresu Wojen Klonów (serial TCW) używany w notatkach Obsidian.
 tags:
-  - starwars
-  - factions
-  - tcw
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/fractions/fractions.md|Index]]
-  - [[usr/jakubc/star_wars/ships/ships.md|Statki]]
+  - #folder_note
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "🛡️ Folder `star_wars/fractions`"
+
+
+
+
+
+
 ---
 
 # 🛡️ Folder `star_wars/fractions`
@@ -52,3 +52,25 @@ links:
 > 2025-11-19 — dodano kartę Unii Technokratycznej.
 
 [[usr/jakubc/star_wars/ships/ships.md|← powrót do katalogu statków]]
+
+## 📑 Index plików
+
+- [confederacy_of_independent_systems](confederacy_of_independent_systems.md)
+- [galactic_republic](galactic_republic.md)
+- [hutt_cartel](hutt_cartel.md)
+- [jedi_order](jedi_order.md)
+- [mandalorian_clans](mandalorian_clans.md)
+- [techno_union](techno_union.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

@@ -1,24 +1,22 @@
 ---
-id: sb-autotag
-title: Autotagowanie i aktualizacja YAML
-type: spec/module
-status: draft
-owner: Jakub
 tags:
-  - autotag
-  - ai
-  - yaml
-  - secondbrain
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-27
-updated: 2025-11-21
-aliases: [Autotagowanie i aktualizacja YAML]
-linter-yaml-title-alias: Autotagowanie i aktualizacja YAML
-date created: poniedziałek, październik 27. 2025, 1:46:36 pm
-date modified: poniedziałek, październik 27. 2025, 1:50:29 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "Autotagowanie i aktualizacja YAML"
+
+
+
+
+
+
 ---
 
 # Autotagowanie i aktualizacja YAML
@@ -71,3 +69,12 @@ Dwie strategie:
 - Spójne tagi.
 - Stałe słownictwo procesu.
 - Odoo, Obsidian i Secondbrain patrzą na te same pola status i owner.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

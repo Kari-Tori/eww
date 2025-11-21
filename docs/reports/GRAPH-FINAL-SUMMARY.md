@@ -1,3 +1,24 @@
+---
+tags:
+  - #automation
+  - #docs
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T14:23:42Z
+modified: 2025-11-21T14:23:42Z
+author: jakubc
+title: "📊 FINALNE PODSUMOWANIE - OBSIDIAN GRAPH"
+
+
+
+
+
+
+---
+
 # 📊 FINALNE PODSUMOWANIE - OBSIDIAN GRAPH
 
 ## ✅ PROBLEM ROZWIĄZANY
@@ -14,7 +35,6 @@
 - ✅ Pełne kolory dla użytkowników
 - ✅ Dedykowane grafy tematyczne
 
----
 
 ## 🎨 KONFIGURACJA GRAFU
 
@@ -53,7 +73,6 @@
 | 🟡 Yellow | `#green` `path:docs` | Dokumentacja |
 | 🟣 Purple | `#folder-note` | Folder Notes |
 
----
 
 ## 📁 DEDYKOWANE GRAFY
 
@@ -77,7 +96,6 @@
 **Nody:** ~66
 **Przeznaczenie:** Aktywności wszystkich użytkowników
 
----
 
 ## 👤 PROFILE UŻYTKOWNIKÓW
 
@@ -104,7 +122,6 @@
 
 **Tagi:** `#pink #candy #karinam`
 
----
 
 ## 🚀 JAK UŻYĆ
 
@@ -140,7 +157,6 @@ Jeśli graf się nie ładuje:
 2. Upewnij się że liczba nodów < 250
 3. Zrestartuj Obsidiana
 
----
 
 ## 📊 STATYSTYKI
 
@@ -159,7 +175,6 @@ Jeśli graf się nie ładuje:
 - Jakubc: ~112 plików (52 star_wars wykluczono)
 - Karinam: 6 plików (nowa struktura)
 
----
 
 ## ✅ GOTOWE DO UŻYCIA!
 

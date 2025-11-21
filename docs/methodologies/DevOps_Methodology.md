@@ -1,42 +1,22 @@
 ---
-title: DevOps Methodology
-description: ⚙️ Metodyka DevOps – Wielki Implementator  
-type: file
-category: docs
-filepath: docs/methodologies/DevOps_Methodology.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-  - gerc
-  - syncthing
-aliases:
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "⚙️ Metodyka DevOps – Wielki Implementator  "
 
-related:
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
-  - docs/narzedzia-deweloperskie.md
-dependencies:
-sources:
-  - docs/methodologies/DevOps_Methodology.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
 ---
 
 
@@ -44,7 +24,6 @@ repository: https://github.com/Kari-Tori/eww-1
 # ⚙️ Metodyka DevOps – Wielki Implementator  
 ### *Minimalizm systemowy, neurozgodność, rytm wykonania*
 
----
 
 ## 🧠 Filozofia działania
 
@@ -54,7 +33,6 @@ Chodzi o **panowanie nad chaosem** poprzez rytuały, dokumentację i sprzęt, kt
 
 > "System musi działać zawsze. Nawet jeśli ja chwilowo nie działam."
 
----
 
 ## 🔧 Fundamenty metodyki
 
@@ -64,7 +42,6 @@ Chodzi o **panowanie nad chaosem** poprzez rytuały, dokumentację i sprzęt, kt
 4. **1TaaT** = filtr poznawczy → tylko jedno działanie dziennie = zero przeładowania  
 5. **ADHD-aware workflow** → system musi ratować, gdy mózg się zawiesza
 
----
 
 ## 🗂️ Warstwy systemu
 
@@ -76,7 +53,6 @@ Chodzi o **panowanie nad chaosem** poprzez rytuały, dokumentację i sprzęt, kt
 | Hostowanie usług    | GERC                                  | Jednostka bazowa i testowa                 |
 | Backup mentalny     | Diagramy, szkice, mapy                 | Odtwarzanie myśli, które mogą uciec        |
 
----
 
 ## ⚙️ Zasady operacyjne
 
@@ -86,7 +62,6 @@ Chodzi o **panowanie nad chaosem** poprzez rytuały, dokumentację i sprzęt, kt
 - **Nie ma automatyzacji bez dokumentacji**  
 - **Najpierw logika, potem wdrożenie, potem powtarzalność**
 
----
 
 ## 🌀 Neurozgodność (ADHD + DevOps)
 
@@ -96,7 +71,6 @@ Chodzi o **panowanie nad chaosem** poprzez rytuały, dokumentację i sprzęt, kt
 - Każdy dzień to **jedna operacja do końca**  
 - Diagramy i fizyczne schematy > słowa
 
----
 
 ## 📅 Metoda 1TaaT w DevOps
 
@@ -107,7 +81,6 @@ Chodzi o **panowanie nad chaosem** poprzez rytuały, dokumentację i sprzęt, kt
 | Zakończenie       | Zapisz `Log.md`, aktualizuj Dashboard     |
 | Reset             | Pusty stół, czysty Vault, muzyka gra dalej|
 
----
 
 ## 🧠 Cytaty systemowe
 
@@ -116,7 +89,6 @@ Chodzi o **panowanie nad chaosem** poprzez rytuały, dokumentację i sprzęt, kt
 > „Każdy dzień to jeden commit do systemu.”  
 > „DevOps to nie rola. To strategia przetrwania.”
 
----
 
 ## 🧾 Cel dokumentu
 
@@ -128,4 +100,3 @@ Może być użyty jako:
 - Materiał onboardingowy  
 - Element prezentacji operacyjnej `E-Waste Workshop`  
 - Część przyszłej automatyzacji (Vault → kod → system)
-

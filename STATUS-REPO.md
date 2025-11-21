@@ -1,11 +1,22 @@
 ---
 tags:
-  - status
-  - summary
-  - repo
-  - eww
-created: 2025-11-21
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T14:27:50Z
+modified: 2025-11-21T14:27:50Z
 author: jakubc
+title: "📊 STATUS REPOZYTORIUM EWW"
+
+
+
+
+
+
 ---
 
 # 📊 STATUS REPOZYTORIUM EWW
@@ -97,13 +108,10 @@ eww/
 
 Format:
 ```markdown
----
-tags:
   - folder-note
   - [nazwa-folderu]
   - [dodatkowe tagi]
 created: 2025-11-21
----
 
 # 📁 Nazwa Folderu
 
@@ -209,7 +217,6 @@ git log --oneline | wc -l
 - [[TAG-STRATEGY]] - Strategia tagowania
 - [[README]] - Overview projektu
 
----
 
 **Autor**: jakubc  
 **Data**: 2025-11-21  

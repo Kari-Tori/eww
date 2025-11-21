@@ -1,36 +1,23 @@
 ---
-title: Lib
-description: 🧩 lib — katalog funkcji Bash
-type: file
-category: lib
-filepath: lib/lib.md
-color: orange
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - automation
-  - tools
-  - dev
-keywords:
-aliases:
-related:
-  - bin/bin.md
-dependencies:
-sources:
-  - lib/lib.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "🧩 lib — katalog funkcji Bash"
+
+
+
+
+
+
 ---
 
 
@@ -72,3 +59,20 @@ repository: https://github.com/Kari-Tori/eww-1
 - [lib/README.md](README.md)
 - [AGENTS.md](../AGENTS.md)
 - [README.md](../README.md)
+
+## 📑 Index plików
+
+- [README](README.md)
+
+## 📁 Podfoldery
+
+- [bash/](bash/bash.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

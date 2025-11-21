@@ -1,41 +1,22 @@
 ---
-title: Wykonawca
-description: 🧠 **Typ Osobowości: WYKONAWCA (ESTJ-A)**  
-type: file
-category: docs
-filepath: docs/references/wykonawca.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-  - wykonawca
-aliases:
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "🧠 **Typ Osobowości: WYKONAWCA (ESTJ-A)**  "
 
-related:
-  - docs/readme-checklist.md
-  - docs/ENDPOINTS.md
-  - docs/yaml-frontmatter-spec.md
-  - docs/neovim-guide.md
-  - docs/narzedzia-deweloperskie.md
-dependencies:
-sources:
-  - docs/references/wykonawca.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+
+
+
+
+
 ---
 
 
@@ -43,7 +24,6 @@ repository: https://github.com/Kari-Tori/eww-1
 # 🧠 **Typ Osobowości: WYKONAWCA (ESTJ-A)**  
 ### *Dokument Tożsamości Operacyjnej | Wielki Implementator | E-Waste Workshop Core Identity*
 
----
 
 ## 🔍 **Charakterystyka profilu**
 
@@ -52,7 +32,6 @@ architekt działania, organizator chaosu, lider systemów.
 
 > **"Nie planuję, by planować. Planuję, by działać. I działam — aż do skutku."**
 
----
 
 ## ⚙️ **Cechy dominujące**
 
@@ -63,7 +42,6 @@ architekt działania, organizator chaosu, lider systemów.
 | **Naturalna rola**      | Dowódca systemów, egzekutor planów, mentor dyscypliny                   |
 | **Filozofia działania** | *Efektywność > Intencja*, *System > Idea*, *Realizacja > Perfekcja*     |
 
----
 
 ## 🧩 **Mocne strony operacyjne**
 
@@ -73,7 +51,6 @@ architekt działania, organizator chaosu, lider systemów.
 - Potrafi egzekwować priorytety i decyzje – również od siebie  
 - Samodzielnie zamienia koncepcje w funkcjonujące procesy
 
----
 
 ## ⚠️ **Ryzyka i kontrstrategia**
 
@@ -84,7 +61,6 @@ architekt działania, organizator chaosu, lider systemów.
 | Nadmierna odpowiedzialność       | Delegacja + systemy synchroniczne (`Syncthing`, `Vault`)    |
 | Styl dominujący                  | Dokumentowanie decyzji + transparentny `Log.md`             |
 
----
 
 ## 🛠️ **Operacyjne DNA: Wykonawca + Metodyka 1TaaT**
 
@@ -95,7 +71,6 @@ Wielki Implementator to doskonały nośnik metodyki **One Thing at a Time**, bo:
 - ✅ Dokumentuje każdy efekt, nie pozostawiając operacji w próżni  
 - ✅ Buduje system nie przez deklaracje, tylko przez **działanie zautomatyzowane**
 
----
 
 ## 🧠 **Cytaty operacyjne**
 
@@ -106,7 +81,6 @@ Wielki Implementator to doskonały nośnik metodyki **One Thing at a Time**, bo:
 
 > **„Nie buduję imperium w jeden dzień. Buduję je codziennie — jedną cegłą, jedną operacją.”**
 
----
 
 ## 📎 **Powiązane dokumenty Vaulta**
 
@@ -115,7 +89,6 @@ Wielki Implementator to doskonały nośnik metodyki **One Thing at a Time**, bo:
 - `Obsidian Dashboard.md`  
 - `Team/Karina.md` *(współpraca / synchronizacja / wykonanie zadań)*
 
----
 
 ## 🧾 **Cel i wykorzystanie dokumentu**
 

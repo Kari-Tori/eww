@@ -1,20 +1,22 @@
 ---
-title: Nu-class Attack Shuttle „Obex”
-created: 2025-11-18
-updated: 2025-11-21
-manufacturer: Cygnus Spaceworks
-role: Desantowy prom szturmowy
-era: Wojny Klonów (S2 "Death Trap" / "R2 Come Home")
 tags:
-  - starwars
-  - republic
-  - shuttle
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/ships.md|Index]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Nu-class „Obex” — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Nu-class „Obex” — karta techniczna
@@ -99,7 +101,6 @@ color: blue
 > - Ryzyko sabotażu (przypadek Boby Fetta) – zalecane podwójne skanowanie ładowni.
 > - Hypernapęd klasy 1 działa na granicy możliwości przy pełnym ładunku – obserwuj temperaturę rdzenia.
 
----
 
 > [!quote|icon:book|color:#9D4EDD]
 > **Źródła:** TCW S2E20–22, materiały Databank Nu-class, dzienniki GAR.

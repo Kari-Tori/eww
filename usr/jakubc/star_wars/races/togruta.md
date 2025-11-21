@@ -1,18 +1,22 @@
 ---
-title: Togruta
-created: 2025-11-19
-updated: 2025-11-21
 tags:
-  - starwars
-  - race
-  - togruta
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/races/races.md|Index ras]]
-  - [[usr/jakubc/star_wars/fractions/jedi_order.md|Zakon Jedi]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "🔶🟣 Togruta"
+
+
+
+
+
+
 ---
 
 # 🔶🟣 Togruta
@@ -41,3 +45,12 @@ color: blue
 - **Shaak Ti** — mistrzyni odpowiedzialna za szkolenie klonów na Kamino.
 
 [[usr/jakubc/star_wars/races/races.md|← powrót do listy ras]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

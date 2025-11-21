@@ -1,4 +1,24 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #templates
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "## 📖 O projekcie"
+
+
+
+
+
+
+---
+---
 title: README.Template.V2
 description: Automatyczna instalacja (Linux/macOS)
 filepath: dev/README.template.v2.md
@@ -10,7 +30,6 @@ updated: 2025-11-21
 version: 1.0.0
 language: pl
 status: active
-tags:
   - documentation
   - markdown
   - readme

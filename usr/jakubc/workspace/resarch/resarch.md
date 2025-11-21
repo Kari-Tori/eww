@@ -1,10 +1,23 @@
 ---
-title: resarch/ – folder note
-created: 2025-11-21
-description: Instrukcja pracy w katalogu badań hybrydowego workspace
-language: pl
-updated: 2025-11-21
-color: blue
+tags:
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "resarch/ – notatka katalogu"
+
+
+
+
+
+
 ---
 
 # resarch/ – notatka katalogu
@@ -38,5 +51,21 @@ Katalog `usr/jakubc/workspace/resarch/` gromadzi całą dokumentację R&D: listy
 - [[usr/jakubc/workspace/workspace|workspace]]
 - [[usr/jakubc/jakubc|jakubc]]
 
----
 **Auto-linked:** 2025-11-21
+
+## 📑 Index plików
+
+- [resarch_topics](resarch_topics.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

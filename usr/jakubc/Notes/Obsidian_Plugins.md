@@ -1,23 +1,22 @@
 ---
+tags:
+  - #automation
+  - #eww
+  - #jakubc
+  - #linux
+  - #notes
+  - #obsidian
+  - #secondbrain
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
 title: "Obsidian — katalog wtyczek (2025)"
-created: 2025-11-21
-updated: 2025-11-21
-modified: "2025-10-12"
-type: "wiki"
-area: "secondbrain"
-status: "done"
-priority: "M"
-tags: ["#obsidian/plugins", "#secondbrain"]
-  - personal
-  - blue
-  - jakubc
-cssclass: ["sb-purple"]
-aliases: [Obsidian — katalog wtyczek (2025)]
-linter-yaml-title-alias: Obsidian — katalog wtyczek (2025)
-date created: 2025-11-21
-updated: 2025-11-21
-date modified: czwartek, październik 30. 2025, 6:42:03 pm
-color: blue
+
+
+
+
+
+
 ---
 
 # Obsidian — katalog wtyczek (2025)
@@ -29,7 +28,6 @@ color: blue
 - **Make.md (Spaces/Contexts) ★** — „warstwa produktywności”: bazy z relacjami, rollupy, widoki, ulepszenia UI.
 - **Omnisearch** — szybki, trafny search z indeksacją załączników.
 
----
 
 ## 1) Bazy i widoki danych
 - **Bases (core) ★** — właściwości (properties) jako baza danych; widoki, filtry, formuły, relacje.
@@ -80,21 +78,27 @@ color: blue
 - **Smart Connections** — podpowiedzi podobnych notatek (embeddingi), linkowanie kontekstowe.
 - **Make.md AI** — funkcje AI w ramach Spaces (jeśli używasz Make.md jako głównej warstwy).
 
----
 
 ## Minimalny zestaw startowy (12) — pod Secondbrain
 **Bases (core), Dataview, Make.md, Tasks, Periodic Notes, Templater, QuickAdd, Omnisearch, Linter, Auto Note Mover, Meta Bind, Obsidian Git**.
 
 > Instalacja: *Settings → Community Plugins → Browse* (wyszukaj po nazwie). Dla **Bases** włącz **Properties/Bases** w ustawieniach wersji 1.9+.
 
----
 
 ## Uwaga dot. properties (Obsidian 1.9+)
 - Zmieniono nazwy pól: `tags/aliases/cssclasses` to **listy** (zamiast starych `tag/alias/cssclass`).
 - Warto ujednolicić klucze YAML w całym vaultcie (Linter) i używać `properties` zamiast ad‑hoc frontmatterów.
 
----
 
 ### Notatki własne
 - Dodaj tu swoje ulubione wtyczki i krótkie reguły użycia.
 - Zapisuj decyzje architektoniczne: kiedy Bases vs Dataview, kiedy Make.md Spaces.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

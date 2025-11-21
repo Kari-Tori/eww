@@ -1,15 +1,23 @@
 ---
-title: 👨‍💻 Jakub C
-type: profile
-status: active
 tags:
-  - jakubc
-  - user
-  - owner
-  - developer
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #folder_note
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-21T20:00:00Z
 author: jakubc
-created: 2025-11-21
-updated: 2025-11-21
+title: "👨‍💻 Jakub C"
+
+
+
+
+
+
 ---
 
 # 👨‍💻 Jakub C
@@ -88,10 +96,42 @@ updated: 2025-11-21
 **Kolor**: 🟢 Zielony  
 **Widoczność**: Wysoka (właściciel)
 
----
 
 **Lokalizacja**: `/usr/jakubc/jakubc.md`  
 **Ostatnia aktualizacja**: 2025-11-21  
 **Graph**: Centrum projektu
 
 #jakubc #user #owner #developer
+
+## 📑 Index plików
+
+- [about_me](about_me.md)
+- [INDEX](INDEX.md)
+- [README](README.md)
+- [todo](todo.md)
+- [TODO](TODO.md)
+- [TODO-SSH](TODO-SSH.md)
+- [TODO_v2](TODO_v2.md)
+- [Wielki_Implementator](Wielki_Implementator.md)
+
+## 📁 Podfoldery
+
+- [health/](health/health.md)
+- [Inbox/](Inbox/Inbox.md)
+- [lego/](lego/lego.md)
+- [Lego/](Lego/Lego.md)
+- [m18/](m18/m18.md)
+- [Notes/](Notes/Notes.md)
+- [obsidian-plugins/](obsidian-plugins/obsidian-plugins.md)
+- [star_wars/](star_wars/star_wars.md)
+- [Study/](Study/Study.md)
+- [workspace/](workspace/workspace.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

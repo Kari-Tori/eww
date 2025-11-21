@@ -1,23 +1,22 @@
 ---
-title: Workflow hybrydowego workspace
-description: Integracja Code/VS Code, GitHub Copilot Pro i Codex CLI w hybrydowym workspace
-version: 0.1.0
-audience: workspace maintainers
-type: workflow-note
-category: documentation
 tags:
-  - workspace
-  - tools
-  - agents
-  - personal
-  - blue
-  - jakubc
-language: pl
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
 author: jakubc
-created: 2024-11-16
-updated: 2025-11-21
-sticker: lucide//folder-closed
+title: "## Aktualny stan narzędzi"
+
+
+
+
+
+
 ---
 
 ## Aktualny stan narzędzi
@@ -51,5 +50,4 @@ Bloki poniżej wykorzystują callouty obsługiwane przez Obsidian – każdy z w
 - [[usr/jakubc/jakubc|jakubc]]
 - [[docs/INDEX|INDEX]]
 
----
 **Auto-linked:** 2025-11-21

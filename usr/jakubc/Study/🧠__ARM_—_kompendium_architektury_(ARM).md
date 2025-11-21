@@ -1,31 +1,22 @@
 ---
-title: "ARM — architektura: definicja, profile, historia, AI"
 tags:
-  - ARM
-  - Armv7
-  - Armv8
-  - Armv9
-  - AArch64
-  - NEON
-  - SVE
-  - SVE2
-  - TrustZone
-  - CPU
-  - ISA
-  - AI
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-30
-updated: 2025-11-21
-status: final
-aliases:
-  - 🧠 ARM — kompendium architektury (A/R/M)
-  - ARM — kompendium architektury (A/R/M)
-linter-yaml-title-alias: 🧠 ARM — kompendium architektury (A/R/M)
-date created: czwartek, październik 30. 2025, 4:27:22 pm
-date modified: czwartek, październik 30. 2025, 5:29:28 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🧠 ARM — kompendium architektury (A/R/M)"
+
+
+
+
+
+
 ---
 
 # 🧠 ARM — kompendium architektury (A/R/M)
@@ -36,7 +27,6 @@ color: blue
 > [!info] **ISA vs mikroarchitektura**
 > **ISA** definiuje instrukcje, rejestry, poziomy przywilejów, model pamięci. **Mikroarchitektura** to implementacja ISA (np. **Cortex‑A78**, **Neoverse N2**, **Apple M4**, **Qualcomm Oryon**).
 
----
 
 ## 🗺️ Profile i zastosowania
 
@@ -46,7 +36,6 @@ color: blue
 | **R (Real‑time)** | Cortex‑R5/R8/R52 | Automotive, storage, dyski SSD | Determinizm, MPU, bezpieczeństwo funkcjonalne |
 | **M (Microcontroller)** | Cortex‑M0+/M3/M4/M7/M33/M55/M85 | IoT, MCU, RTOS | Bardzo niskie zużycie energii, brak MMU; **Helium (M‑Profile Vector Extension)** w M55/M85 |
 
----
 
 ## 🧩 Kluczowe elementy architektury (profil A)
 
@@ -57,7 +46,6 @@ color: blue
 - **Wektory i SIMD:** **NEON/AdvSIMD** 128‑bit; **SVE** (128–2048 bit, zmienny rozmiar); **SVE2** poszerza INT/bit‑ops dla ogólnego przetwarzania.  
 - **big.LITTLE / DynamIQ:** Heterogeniczne klastry wydajnych i oszczędnych rdzeni, wspólny L3/DSU, sprzętowe planowanie mocy.
 
----
 
 ## 🗓️ Kamienie milowe
 
@@ -72,7 +60,6 @@ color: blue
 > [!tip] **Wniosek**
 > Linia **A** stała się uniwersalna: od telefonów po serwery i laptopy. Wektorowe rozszerzenia i bezpieczeństwo są kluczowe dla nowoczesnych obciążeń.
 
----
 
 ## 🤖 ARM a AI
 
@@ -88,7 +75,6 @@ color: blue
 > [!warning] **Ograniczenia**
 > Brak **AVX/AVX2/AVX‑512**. Wydajność wektorowa zależy od **NEON/SVE2** i przepustowości pamięci. Implementacja **SVE2** zależy od producenta i SKU — nie każde Armv9‑A musi mieć pełny zestaw w praktyce.
 
----
 
 ## 🏗️ Gdzie spotykana (próbki implementacji)
 
@@ -97,7 +83,6 @@ color: blue
 - **Serwery/HPC:** **AWS Graviton** (Neoverse), **Ampere Altra/One**, **Fujitsu A64FX** (SVE, HPC).  
 - **RT/MCU:** Cortex‑R w automotive/storage; Cortex‑M w IoT i sprzęcie wbudowanym.
 
----
 
 ## 🛠️ Programowanie i wykrywanie cech
 
@@ -129,7 +114,6 @@ int main(void){
 - Wykorzystuj **VL‑agnostic** dla SVE/SVE2.  
 - Korzystaj z **Compute Library/XNNPACK/TFLite** zamiast pisać wszystko ręcznie.
 
----
 
 ## ✅ Checklist operacyjny
 
@@ -139,7 +123,6 @@ int main(void){
 - [ ] Profiluj pamięć i wektory; zwróć uwagę na cache i prefetch.  
 - [ ] Jeśli SoC ma **NPU/GPU**, przenieś ciężkie jądra i zostaw CPU dla sterowania i klejenia pipeline’u.
 
----
 
 ## 🔍 Tabela skrótów
 
@@ -154,10 +137,18 @@ int main(void){
 | **DSU** | DynamIQ Shared Unit | Wspólny L3/interconnect w klastrach |
 | **TrustZone** | Secure World vs Normal World | Izolacja bezpieczeństwa na EL3 |
 
----
 
 ## 📌 Notatki końcowe
 
 - ARM nie jest kompatybilny binarnie z x86. Potrzebne są natywne buildy lub translacja JIT.  
 - W praktyce **NEON** jest powszechny; **SVE2** rośnie w Armv9‑A, ale dostępność zależy od rdzenia/producenta.  
 - CPU ARM w AI najczęściej pełni rolę koordynatora, a duże jądra wykonują **GPU/NPU/DSP**.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

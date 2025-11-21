@@ -1,21 +1,22 @@
 ---
-created: 2025-11-19
-updated: 2025-11-21
-title: HH-87 Starhopper
-manufacturer: Appazanna Engineering Works
-role: Lekki transport / courier
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - courier
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-  - [[usr/jakubc/star_wars/fractions/confederacy_of_independent_systems.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ HH-87 Starhopper — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ HH-87 Starhopper — karta techniczna

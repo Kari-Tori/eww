@@ -1,19 +1,22 @@
 ---
-title: M18 — co dalej (decyzje + komponenty)
-created: 2025-11-16
-updated: 2025-11-21
-lang: pl
 tags:
-  - follow-me
-  - platform
-  - bom
-  - personal
-  - blue
-  - jakubc
-links:
-  - 
-  - 
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "🔜 M18 NEXT — decyzje do podjęcia i komponenty"
+
+
+
+
+
+
 ---
 
 # 🔜 M18 NEXT — decyzje do podjęcia i komponenty
@@ -135,5 +138,4 @@ color: blue
 - [[usr/jakubc/jakubc|jakubc]]
 - [[docs/INDEX|INDEX]]
 
----
 **Auto-linked:** 2025-11-21

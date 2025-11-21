@@ -1,16 +1,22 @@
 ---
-title: Star Wars Ships Backlog
-created: 2025-11-18
-updated: 2025-11-21
 tags:
-  - starwars
-  - backlog
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/ships.md|Index]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "## 🚀 Kolejne statki do opracowania"
+
+
+
+
+
+
 ---
 
 ## 🚀 Kolejne statki do opracowania

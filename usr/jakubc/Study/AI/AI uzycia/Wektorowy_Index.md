@@ -1,24 +1,22 @@
 ---
-id: sb-vectorindex
-title: Indeks wektorowy
-type: spec/module
-status: draft
-owner: Jakub
 tags:
-  - vectorstore
-  - wyszukiwanie
-  - ai
-  - secondbrain
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-27
-updated: 2025-11-21
-aliases: [Indeks wektorowy]
-linter-yaml-title-alias: Indeks wektorowy
-date created: poniedziałek, październik 27. 2025, 1:46:36 pm
-date modified: poniedziałek, październik 27. 2025, 1:51:07 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "Indeks wektorowy"
+
+
+
+
+
+
 ---
 
 # Indeks wektorowy
@@ -63,3 +61,12 @@ Dostarczenie szybkiego wyszukiwania podobieństwa semantycznego.
 - Indeks klasyczny: szybkie filtry po statusie i polach YAML.
 - Indeks wektorowy: rozumienie znaczenia i kontekstu.
 - Oba indeksy są potrzebne.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

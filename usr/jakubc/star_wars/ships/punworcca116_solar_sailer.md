@@ -1,20 +1,22 @@
 ---
-created: 2025-11-19
-updated: 2025-11-21
-title: Punworcca 116-class Solar Sailer
-manufacturer: Huppla Pasa Tisc Shipwrights Collective
-role: Jacht solarny / shuttle Sithów
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - transport
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "🟥 Punworcca 116 Solar Sailer — karta techniczna"
+
+
+
+
+
+
 ---
 
 # 🟥 Punworcca 116 Solar Sailer — karta techniczna

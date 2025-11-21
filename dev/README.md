@@ -1,28 +1,22 @@
 ---
-title: README
-description: dev/ - Narzędzia deweloperskie
-filepath: dev/README.md
-color: yellow
-author: 
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
 tags:
-  - documentation
-  - markdown
-  - readme
-  - development
-  - code
-related:
-  - AGENTS.md
-  - CHANGELOG.md
-  - FULL-INDEX.md
-sources:
-  - dev/README.md
-backlinks: []
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T23:00:00Z
+modified: 2025-11-21T23:00:00Z
+author: jakubc
+title: "dev/ - Narzędzia deweloperskie"
+
+
+
+
+
+
 ---
 
 

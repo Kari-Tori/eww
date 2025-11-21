@@ -1,38 +1,22 @@
 ---
-title: Installed Pluggins
-description: filepath: /home/karinam/git/eww/docs/software/code/plugins/code_plugins_installed.md
-type: file
-category: docs
-filepath: docs/software/code/plugins/installed_pluggins.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-  - configuration
-  - installation
-  - setup
-aliases:
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/software/code/plugins/installed_pluggins.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #automation
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "filepath: /home/karinam/git/eww/docs/software/code/plugins/code_plugins_installed.md"
+
+
+
+
+
+
 ---
 
 

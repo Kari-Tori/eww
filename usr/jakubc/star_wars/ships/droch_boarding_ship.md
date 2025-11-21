@@ -1,20 +1,22 @@
 ---
-created: 2025-11-16
-updated: 2025-11-21
-title: Droch-class Boarding Ship
-manufacturer: Confederacy of Independent Systems
-role: Kapsuła abordażowa
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - boarding
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Droch-class Boarding Ship — karta techniczna"
+
+
+
+
+
+
 ---
 
 # ✨ Droch-class Boarding Ship — karta techniczna
@@ -64,3 +66,12 @@ color: blue
 > Nie posiada osłon – polega na szybkości i liczbie; fani modeli zwracają uwagę na niski profil i ostrze dziobowe.
 
 [[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

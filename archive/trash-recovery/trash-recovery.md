@@ -1,8 +1,15 @@
 ---
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
 title: "trash-recovery"
 description: "Folder note dla trash-recovery"
 category: folder-note
-tags:
   - folder-note
   - index
   - documentation
@@ -21,6 +28,12 @@ related:
   - docs/references/references.md
 cssclasses:
   - eww-folder-note
+
+
+
+
+
+
 ---
 
 # 📁 trash-recovery
@@ -56,3 +69,13 @@ Katalog `trash-recovery` zawiera 3 plików i 0 podfolderów.
 **Lokalizacja:** `docs/trash-recovery`  
 **Zaktualizowano:** 2025-11-21  
 **Typ:** Folder Note
+
+## 📑 Index plików
+
+- [ARCHIVES_ANALYSIS_20251121](ARCHIVES_ANALYSIS_20251121.md)
+- [INBOX_ANALYSIS_20251121](INBOX_ANALYSIS_20251121.md)
+- [TRASH_ANALYSIS_20251121](TRASH_ANALYSIS_20251121.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*

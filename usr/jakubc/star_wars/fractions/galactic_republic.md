@@ -1,18 +1,22 @@
 ---
-title: Galaktyczna Republika
-created: 2025-11-19
-updated: 2025-11-21
 tags:
-  - starwars
-  - republic
-  - faction
-  - personal
-  - blue
-  - jakubc
-links:
-  - [[usr/jakubc/star_wars/fractions/fractions.md|Index frakcji]]
-  - [[usr/jakubc/star_wars/ships/ships.md|Statki Republiki]]
-color: blue
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "🟥⚔️ Galaktyczna Republika"
+
+
+
+
+
+
 ---
 
 # 🟥⚔️ Galaktyczna Republika
@@ -51,3 +55,12 @@ color: blue
 > Kampanie: bitwa o Christophsis, obrona Kamino, blokada Ryloth, oblężenie Umbary.
 
 [[usr/jakubc/star_wars/fractions/fractions.md|← powrót do listy frakcji]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

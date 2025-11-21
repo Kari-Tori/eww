@@ -1,23 +1,22 @@
 ---
-id: sb-pipeline
-title: Secondbrain Pipeline
-type: spec/system
-status: draft
-owner: Jakub
 tags:
-  - secondbrain
-  - pipeline
-  - ai
-  - personal
-  - blue
-  - jakubc
-created: 2025-10-27
-updated: 2025-11-21
-aliases: [Secondbrain Pipeline]
-linter-yaml-title-alias: Secondbrain Pipeline
-date created: poniedziałek, październik 27. 2025, 1:46:36 pm
-date modified: poniedziałek, październik 27. 2025, 1:51:59 pm
-color: blue
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "Secondbrain Pipeline"
+
+
+
+
+
+
 ---
 
 # Secondbrain Pipeline
@@ -59,3 +58,12 @@ Notatka markdown -> Linter -> YAML ustalony -> Parser -> Index -> Embeddings -> 
 - Każdy użytkownik ma swój węzeł Secondbrain.
 - Wersjonowanie zmian w git.
 - Wektory i indeks pełnotekstowy wystawione jako usługa API dla reszty systemu.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

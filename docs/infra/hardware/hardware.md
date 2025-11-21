@@ -1,35 +1,23 @@
 ---
-title: Hardware
-description: 🧱 Hardware
-type: file
-category: docs
-filepath: docs/infra/hardware/hardware.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/infra/hardware/hardware.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #folder_note
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🧱 Hardware"
+
+
+
+
+
+
 ---
 
 
@@ -52,3 +40,21 @@ Folder `docs/infra/hardware/` zawiera katalogi per asset oraz ten indeks. Każde
 | `gerc` | Asus X99 Pro (GERC) | Węzeł obliczeniowy / workstation | [gerc/gerc.md](gerc/gerc.md) |
 
 Dodając nowe urządzenia, utwórz folder `ID/`, plik indeksowy `ID/ID.md` oraz podnotki komponentów; następnie dopisz wpis do powyższej tabeli.
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+- [asus_z77/](asus_z77/asus_z77.md)
+- [gerc/](gerc/gerc.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

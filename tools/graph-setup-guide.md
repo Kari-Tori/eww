@@ -1,15 +1,22 @@
 ---
-title: Graph Setup Guide
-description: Kompleksowy przewodnik konfiguracji grafu w Obsidian
 tags:
-  - obsidian
-  - graph
-  - setup
-  - guide
-  - visualization
-created: 2025-11-21
+  - #automation
+  - #development
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
 author: jakubc
-color: purple
+title: "🎨 Graph Setup Guide - Kompleksowa Konfiguracja"
+
+
+
+
+
+
 ---
 
 # 🎨 Graph Setup Guide - Kompleksowa Konfiguracja
@@ -41,7 +48,6 @@ cd /home/jakubc/git/eww
   - ✅ Strange New Worlds
   - ✅ Excalidraw
 
----
 
 ## 🎯 Mapowanie kolorów (kolory tagów)
 
@@ -55,7 +61,6 @@ cd /home/jakubc/git/eww
 | `#ai` / `#automation` | 🟠 Pomarańczowy | `#f59e0b` | AI i automatyzacja |
 | `#obsidian` / `#graph` | 🟪 Purpurowy | `#7c3aed` | Meta-obsidian |
 
----
 
 ## 🔧 Konfiguracja zaawansowana
 
@@ -106,13 +111,11 @@ child:
 - `Ctrl+Shift+J` - Find path between notes
 - Automatycznie podświetla ścieżkę w grafie
 
----
 
 ## 📊 Best Practices - Wizualizacja
 
 ### 1. Używaj spójnych tagów
 ```yaml
-tags:
   - jakubc          # autor
   - business        # kategoria
   - technical       # typ
@@ -154,7 +157,6 @@ Waypoint **automatycznie** tworzy:
 %% End Waypoint %%
 ```
 
----
 
 ## 🎨 Customizacja wyglądu
 
@@ -182,7 +184,6 @@ Waypoint **automatycznie** tworzy:
 }
 ```
 
----
 
 ## 🐛 Troubleshooting
 
@@ -205,7 +206,6 @@ Ctrl+R
 2. Import: `.obsidian/graph-colors.json`
 3. Sprawdź tagi w YAML frontmatter
 
----
 
 ## 📚 Źródła
 
@@ -223,7 +223,6 @@ WHERE file.name != this.file.name
 SORT file.mtime DESC
 ```
 
----
 
 **Ostatnia aktualizacja:** 2025-11-21  
 **Autor:** jakubc  

@@ -1,6 +1,22 @@
 ---
-title: Readme
-description: TODO - uzupełnij opis.
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T22:00:00Z
+modified: 2025-11-21T22:00:00Z
+author: jakubc
+title: "Zalecane ustawienia VS Code dla repozytorium"
+
+
+
+
+
+
 ---
 
 <!-- Instrukcja repozytorium: zalecane ustawienia VS Code dla tego projektu -->

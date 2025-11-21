@@ -1,38 +1,23 @@
 ---
-title: Bin
-description: 🧰 bin — katalog skryptów CLI
-type: file
-category: bin
-filepath: bin/bin.md
-color: orange
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - automation
-  - tools
-  - dev
-keywords:
-aliases:
-related:
-  - docs/eww.md
-  - lib/lib.md
-  - scripts/scripts.md
-dependencies:
-sources:
-  - bin/bin.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "🧰 bin — katalog skryptów CLI"
+
+
+
+
+
+
 ---
 
 
@@ -82,5 +67,21 @@ repository: https://github.com/Kari-Tori/eww-1
 - [[bin/bin|bin]]
 - [[docs/INDEX|INDEX]]
 
----
 **Auto-linked:** 2025-11-21
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

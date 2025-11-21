@@ -1,16 +1,22 @@
 ---
-title: "SoC 2025 — architektura i bloki funkcjonalne (Apple/Qualcomm/Samsung/Google/MediaTek)"
-tags: [soc, chipset, ai, 2025]
-  - personal
-  - blue
-  - jakubc
-date: 2025-10-27
-aliases: [🔧 SoC 2025 - Examples]
-linter-yaml-title-alias: 🔧 SoC 2025 - Examples
-date created: 2025-11-21
-updated: 2025-11-21
-date modified: poniedziałek, październik 27. 2025, 12:20:14 pm
-color: blue
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "🔧 SoC 2025 - Examples"
+
+
+
+
+
+
 ---
 
 # 🔧 SoC 2025 - Examples
@@ -60,3 +66,12 @@ color: blue
 - **ISP/Media:** przetwarzanie obrazu, kodeki (AV1/HEVC/H.264/ProRes).
 - **Pamięć/I‑O:** RAM, UFS/NVMe, wyświetlacze, USB.
 - **Modem/bezp.:** 5G/Wi‑Fi/UWB; TEE/SE (Secure Enclave/Titan/TrustZone).
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

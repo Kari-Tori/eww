@@ -1,35 +1,23 @@
 ---
-title: Infra
-description: 🏗️ Infra — katalog główny
-type: file
-category: docs
-filepath: docs/infra/infra.md
-color: green
-author: jakubc
-owner: jakubc
-created: 2025-11-21
-updated: 2025-11-21
-version: 1.0.0
-language: pl
-status: active
-priority: normal
-license: MIT
 tags:
-  - documentation
-  - markdown
-  - docs
-  - knowledge
-keywords:
-aliases:
-related:
-  - docs/FULL-INDEX.md
-dependencies:
-sources:
-  - docs/infra/infra.md
-backlinks: []
-context: "E-Waste Workshop - Bash toolkit for Kubuntu environment setup"
-project: eww
-repository: https://github.com/Kari-Tori/eww-1
+  - #folder_note
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🏗️ Infra — katalog główny"
+
+
+
+
+
+
 ---
 
 
@@ -54,3 +42,24 @@ Folder `docs/infra/` jest jedynym źródłem prawdy dla dokumentacji infrastrukt
 3. Po zmianach wykonaj `git status` i dodaj nowe pliki do repozytorium.
 
 W razie potrzeby możesz rozszerzyć strukturę (`docs/infra/security/`, `docs/infra/backup/` itd.). Uzupełnij tabelę powyżej o nowe sekcje, by zachować przejrzysty indeks.
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+- [architecture/](architecture/architecture.md)
+- [hardware/](hardware/hardware.md)
+- [network/](network/network.md)
+- [software/](software/software.md)
+- [vm/](vm/vm.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

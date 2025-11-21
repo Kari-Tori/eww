@@ -1,11 +1,22 @@
 ---
 tags:
-  - graph
-  - core
-  - eww
-  - green
-created: 2025-11-21
+  - #automation
+  - #docs
+  - #eww
+  - #graph
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T14:19:10Z
+modified: 2025-11-21T14:19:10Z
 author: jakubc
+title: "🟢 GRAPH: Core & Configuration"
+
+
+
+
+
+
 ---
 
 # 🟢 GRAPH: Core & Configuration
