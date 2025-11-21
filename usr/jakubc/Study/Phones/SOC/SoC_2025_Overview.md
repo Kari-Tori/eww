@@ -1,0 +1,64 @@
+---
+title: SoC 2025 — architektura i bloki funkcjonalne (Apple/Qualcomm/Samsung/Google/MediaTek)
+tags:
+  - soc
+  - chipset
+  - ai
+  - 2025
+  - personal
+  - blue
+  - jakubc
+date: 2025-10-27
+aliases:
+  - 🔧 SoC 2025 List
+linter-yaml-title-alias: 🔧 SoC 2025 - Examples
+date created: 2025-11-21
+updated: 2025-11-21
+date modified: poniedziałek, październik 27. 2025, 12:20:14 pm
+type: List
+owner: Wielki Implementator
+color: blue
+---
+
+# 🔧 SoC 2025 List
+## ⚡ Qualcomm Snapdragon 8 Elite Gen 5
+![![Wielki Implementator/Study/Phones/SOC/⚡ Qualcomm Snapdragon 8 Elite Gen 5.md]]
+
+
+## 🍎 Apple A19 Pro
+- **CPU:** 6 rdzeni = 2× wydajnościowe + 4× efektywne.
+- **GPU:** 6-rdz., sprzętowy RT.
+- **NPU:** 16-rdz. **Neural Engine** (wnioskowanie ML/LLM on-device).
+- **Pamięć/magazyn:** kontroler LPDDR-klasy Apple + **NVMe** (iPhone).
+- **Media/ISP:** ProRes, HEVC/H.264, AV1 (dekodowanie), rozbudowany pipeline foto.
+- **Łączność/bezp.:** modem 5G, USB-C; **Secure Enclave**.
+
+## 🛰️ Samsung Exynos 2500
+- **CPU:** 10 rdzeni (1× Cortex‑X925 + 7× A7xx + 2× A5xx), 3 nm **GAA**.
+- **GPU:** **Xclipse 950 (RDNA 3)**, RT.
+- **NPU/AI:** generatywne AI on‑device, efektywność energetyczna.
+- **Pamięć/magazyn:** LPDDR5X, **UFS 4.0**.
+- **Łączność:** 5G Rel‑17, **Wi‑Fi 7**, BT 5.4.
+- **Foto/wideo:** do 320 MP, 8K.
+
+## 🤖 Google Tensor G5
+- **Proces:** TSMC **N3P**.
+- **CPU:** wzrost vs G4; klastrowanie big/mid/little.
+- **TPU/NPU:** znacznie szybsze wnioskowanie; nacisk na Gemini Nano.
+- **GPU:** ulepszona architektura; nacisk na stabilność driverów.
+- **Bezpieczeństwo:** **Titan M2** + warstwy security Google.
+
+## 🟣 MediaTek Dimensity 9400
+- **CPU:** 1× Cortex‑X925 + 3× X4 + 4× A720 (do ~3.6 GHz).
+- **GPU:** **Immortalis‑G925**.
+- **APU:** INT8/FP16; LLM/vision.
+- **Pamięć/magazyn:** **LPDDR5X/5T** do bardzo wysokich przepustowości, **UFS 4 + MCQ**.
+- **Łączność:** 5G Rel‑17, **Wi‑Fi 7**.
+
+## 🧩 Rola bloków
+- **CPU:** logika aplikacji, wątki ogólne, I/O.
+- **GPU:** render 3D, UI, compute.
+- **NPU/TPU/APU:** wnioskowanie AI niskim kosztem energii.
+- **ISP/Media:** przetwarzanie obrazu, kodeki (AV1/HEVC/H.264/ProRes).
+- **Pamięć/I‑O:** RAM, UFS/NVMe, wyświetlacze, USB.
+- **Modem/bezp.:** 5G/Wi‑Fi/UWB; TEE/SE (Secure Enclave/Titan/TrustZone).
