@@ -10,8 +10,20 @@ core/reports/repo-stats.md
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache/
-.obsidian/plugins/*/data.json
+.obsidian/plugins/
 .obsidian/hotkeys.json
+.obsidian/graph.json
+.obsidian/graph.json.backup-*
+.obsidian/graph-*.json
+.obsidian/backups/
+.obsidian/GRAPH-*.md
+.obsidian/*-migration.json
+
+# Continue.dev (AI assistant)
+.continue/
+
+# MakeMD plugin
+.makemd/
 
 # Backups
 *.backup
@@ -36,3 +48,11 @@ Thumbs.db
 # Node
 node_modules/
 .obsidian/graph.json
+# Node
+node_modules/
+
+# Obsidian themes (lokalne preferencje)
+.obsidian/themes/
+
+# Temp files
+cookies.txt
