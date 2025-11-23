@@ -61,41 +61,63 @@ count_files_in_folder() {
     find "$folder_path" -type f -name "*.md" 2>/dev/null | wc -l
 }
 
-# Generuj kolor dla folderu (RGB decimal)
+# Odczytaj folder_color z YAML frontmatter folder_note
+# Argumenty:
+#   $1 - ścieżka do pliku folder_note
+# Zwraca: folder_color (RGB decimal) lub puste jeśli nie znaleziono
+extract_folder_color() {
+    local file_path="$1"
+
+    if [[ ! -f "$file_path" ]]; then
+        return 1
+    fi
+
+    # Wyciągnij folder_color z YAML frontmatter (między --- i ---)
+    local color
+    color=$(sed -n '/^---$/,/^---$/p' "$file_path" | grep '^folder_color:' | head -n1 | sed 's/folder_color:[[:space:]]*//;s/#.*$//' | tr -d ' ')
+
+    if [[ -n "$color" && "$color" =~ ^[0-9]+$ ]]; then
+        echo "$color"
+        return 0
+    fi
+
+    return 1
+}
+
+# Paleta 20 kolorów (RGB decimal) - globalna tablica
+FOLDER_COLORS=(
+    65331      # #00FF33 - jasny zielony
+    16711680   # #FF0000 - czerwony
+    255        # #0000FF - niebieski
+    16776960   # #FFFF00 - żółty
+    16711935   # #FF00FF - magenta
+    65535      # #00FFFF - cyan
+    16744448   # #FF8C00 - pomarańczowy
+    9109504    # #8B00FF - fioletowy
+    52479      # #00CCFF - jasny niebieski
+    11141290   # #AA00AA - purpurowy
+    43775      # #00AAFF - błękit
+    16753920   # #FFA500 - złoty
+    2664719    # #28AA0F - zielony las
+    16724736   # #FF6600 - pomarańcz
+    5570815    # #5500FF - indygo
+    13434879   # #CCFFFF - lodowy
+    16744319   # #FF007F - różowy
+    8388863    # #7FFFFF - turkusowy
+    16777088   # #FFFF80 - jasnożółty
+    12582912   # #C00000 - ciemnoczerwony
+)
+
+# Paleta 20 kolorów (RGB decimal) - użyta jako fallback
 generate_color_for_folder() {
-    local index="$1"
-
-    # Paleta 20 kolorów
-    local colors=(
-        65331      # #00FF33 - jasny zielony
-        16711680   # #FF0000 - czerwony
-        255        # #0000FF - niebieski
-        16776960   # #FFFF00 - żółty
-        16711935   # #FF00FF - magenta
-        65535      # #00FFFF - cyan
-        16744448   # #FF8C00 - pomarańczowy
-        9109504    # #8B00FF - fioletowy
-        52479      # #00CCFF - jasny niebieski
-        11141290   # #AA00AA - purpurowy
-        43775      # #00AAFF - błękit
-        16753920   # #FFA500 - złoty
-        2664719    # #28AA0F - zielony las
-        16724736   # #FF6600 - pomarańcz
-        5570815    # #5500FF - indygo
-        13434879   # #CCFFFF - lodowy
-        16744319   # #FF007F - różowy
-        8388863    # #7FFFFF - turkusowy
-        16777088   # #FFFF80 - jasnożółty
-        12582912   # #C00000 - ciemnoczerwony
-    )
-
-    local color_index=$((index % ${#colors[@]}))
-    echo "${colors[$color_index]}"
+    local index=$1
+    local color_index=$((index % ${#FOLDER_COLORS[@]}))
+    echo "${FOLDER_COLORS[$color_index]}"
 }
 
 # Generuj top 20 folder notes
 # UWAGA: Ta funkcja NIE używa log_* - output musi być czysty (tylko dane)
-# Format: count|folder_path|rel_path (jeden na linię)
+# Format: count|folder_path|rel_path|full_path (jeden na linię)
 # Używane w: generate_graph_json, validate_node_count, generate_report
 generate_top_folder_notes() {
     local temp_file="/tmp/eww-folder-notes-ranking.txt"
@@ -125,9 +147,13 @@ generate_top_folder_notes() {
         # Skip jeśli brak plików
         [[ "$count" -eq 0 ]] && continue
 
-        echo "$count|$folder_path|$rel_path" >> "$temp_file"
-    done < <(find_folder_notes)    # Sortuj i weź top 20
+        # Zapisz: count|folder_path|rel_path|full_path
+        echo "$count|$folder_path|$rel_path|$folder_note" >> "$temp_file"
+    done < <(find_folder_notes)
+
+    # Sortuj i weź top 20
     sort -t'|' -k1 -rn "$temp_file" | head -n "$MAX_WAYPOINT_FOLDERS"
+    rm -f "$temp_file"
 }
 
 # Generuj grupę kolorów dla graph.json
@@ -136,9 +162,22 @@ generate_color_groups() {
 
     echo "  \"colorGroups\": ["
 
-    while IFS='|' read -r count folder_path rel_path; do
-        local color
-        color=$(generate_color_for_folder "$index")
+    while IFS='|' read -r count folder_path rel_path full_path; do
+        # Odczytaj kolor z YAML lub użyj fallback (inline)
+        local color=""
+
+        # Inline odczyt folder_color (zamiast funkcji w subshell)
+        if [[ -f "$full_path" ]]; then
+            color=$(sed -n '/^---$/,/^---$/p' "$full_path" 2>/dev/null | grep '^folder_color:' 2>/dev/null | head -n1 | sed 's/folder_color:[[:space:]]*//;s/#.*$//' | tr -d ' ') || true
+        fi
+
+        # Waliduj i użyj fallback jeśli potrzeba
+        if [[ -z "$color" || ! "$color" =~ ^[0-9]+$ ]]; then
+            set +u  # Tymczasowo wyłącz set -u dla dostępu do tablicy
+            local color_index=$((index % ${#FOLDER_COLORS[@]}))
+            color="${FOLDER_COLORS[$color_index]}"
+            set -u
+        fi
 
         local comma=","
         if [ "$index" -eq $((MAX_WAYPOINT_FOLDERS - 1)) ]; then
@@ -165,7 +204,7 @@ EOF
 generate_search_query() {
     local queries=()
 
-    while IFS='|' read -r count folder_path rel_path; do
+    while IFS='|' read -r count folder_path rel_path full_path; do
         queries+=("path:$folder_path/")
     done < <(generate_top_folder_notes)
 
@@ -189,7 +228,7 @@ validate_node_count() {
 
     log_info "Walidacja liczby nodes..."
 
-    while IFS='|' read -r count folder_path rel_path; do
+    while IFS='|' read -r count folder_path rel_path full_path; do
         if [[ "$count" =~ ^[0-9]+$ ]]; then
             total_nodes=$((total_nodes + count))
             log_info "  $folder_path: $count plików"
@@ -215,6 +254,7 @@ validate_node_count() {
 
 # Generuj plik graph.json
 generate_graph_json() {
+    set +u  # Wyłącz set -u dla całej funkcji (dostęp do FOLDER_COLORS)
     log_info "Generuję $GRAPH_JSON..."
 
     # Backup
@@ -231,7 +271,7 @@ generate_graph_json() {
 
     # Buduj search query
     local search_query=""
-    while IFS='|' read -r count folder_path rel_path; do
+    while IFS='|' read -r count folder_path rel_path full_path; do
         if [[ -n "$search_query" ]]; then
             search_query="$search_query OR "
         fi
@@ -254,9 +294,18 @@ EOF
     # Generuj grupy kolorów
     local index=0
     local is_first=true
-    while IFS='|' read -r count folder_path rel_path; do
-        local color
-        color=$(generate_color_for_folder $index)
+    while IFS='|' read -r count folder_path rel_path full_path; do
+        # Odczytaj kolor z YAML lub użyj fallback (inline)
+        local color=""
+        if [[ -f "$full_path" ]]; then
+            color=$(sed -n '/^---$/,/^---$/p' "$full_path" 2>/dev/null | grep '^folder_color:' 2>/dev/null | head -n1 | sed 's/folder_color:[[:space:]]*//;s/#.*$//' | tr -d ' ') || true
+        fi
+        if [[ -z "$color" || ! "$color" =~ ^[0-9]+$ ]]; then
+            set +u
+            local color_index=$((index % ${#FOLDER_COLORS[@]}))
+            color="${FOLDER_COLORS[$color_index]}"
+            set -u
+        fi
 
         if [[ "$is_first" == true ]]; then
             is_first=false
@@ -304,7 +353,7 @@ update_waypoint_config() {
 
     cat > "$WAYPOINT_JSON" <<EOF
 {
-  "waypointFlag": "%% Waypoint %%",
+%% Error: Cannot create a waypoint in a note that's not the folder note. For more information, check the instructions [here](https://github.com/IdreesInc/Waypoint) %%
   "stopScanAtFolderNotes": true,
   "showFolderNotes": true,
   "showNonMarkdownFiles": false,
@@ -333,10 +382,19 @@ generate_report() {
     cached_results=$(generate_top_folder_notes 2>/dev/null)
 
     local index=0
-    while IFS='|' read -r count folder_path rel_path; do
+    while IFS='|' read -r count folder_path rel_path full_path; do
         ((index++)) || true
-        local color
-        color=$(generate_color_for_folder $((index - 1)))
+        # Odczytaj kolor z YAML lub użyj fallback (inline)
+        local color=""
+        if [[ -f "$full_path" ]]; then
+            color=$(sed -n '/^---$/,/^---$/p' "$full_path" 2>/dev/null | grep '^folder_color:' 2>/dev/null | head -n1 | sed 's/folder_color:[[:space:]]*//;s/#.*$//' | tr -d ' ') || true
+        fi
+        if [[ -z "$color" || ! "$color" =~ ^[0-9]+$ ]]; then
+            set +u
+            local color_index=$(( (index - 1) % ${#FOLDER_COLORS[@]} ))
+            color="${FOLDER_COLORS[$color_index]}"
+            set -u
+        fi
         printf "%2d. %s (%d plików) - kolor: #%06X\n" \
             "$index" "$folder_path" "$count" "$color"
     done <<< "$cached_results"
