@@ -16,7 +16,7 @@ CONFIG_OBSIDIAN := $(HOME)/.config/obsidian
 CONFIG_VSCODE := $(HOME)/.vscode
 
 # --- Helpers -----------------------------------------------------------------
-.PHONY: help todo todo-paczki todo-obiad todo-ebay todo-posciel todo-ssh \
+.PHONY: help todo todo-daily todo-paczki todo-obiad todo-ebay todo-posciel todo-ssh \
 	backup-gerc prepare-target ssh-remote-check ssh-remote-git ssh-remote-config \
 	sync-dry sync-run sync-perms sync-configs diff-repos sync-legacy-dry \
 	sync-legacy set-alias git-verify project-check \
@@ -26,15 +26,16 @@ CONFIG_VSCODE := $(HOME)/.vscode
 	doctor banner status commit graph-report graph-connect graph-dry \
 	git-batch git-history git-uncommit index check-folders update-indexes update-indexes-all \
 	graph-status graph-validate graph-backup graph-clean \
-	repo-check repo-clean repo-stats
+	repo-check repo-clean repo-stats \
+	graph-generate graph-commit graph-full
 
 help: ## Wyświetl dostępne cele Makefile (plan dnia + operacje SSH + narzędzia eww)
-	@echo "E-Waste Workshop :: TODO + TODO-SSH"
+	@echo "E-Waste Workshop :: TODO + TODO-SSH + Daily Dashboard"
 	@echo ""
 	@awk 'BEGIN {FS = ":.*##"; printf "Dostępne cele:\n\n"} \
 		/^[a-zA-Z0-9_.-]+:.*##/ {printf "  %-22s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 	@echo ""
-	@echo "Przykład: make sync-run"
+	@echo "Przykład: make todo-daily"
 
 # --- Plan dnia (usr/jakubc/todo.md) -----------------------------------------
 todo: ## Podgląd pełnego planu dnia z usr/jakubc/todo.md
@@ -44,6 +45,29 @@ todo: ## Podgląd pełnego planu dnia z usr/jakubc/todo.md
 		bat $(TODO_FILE); \
 	else \
 		cat $(TODO_FILE); \
+	fi
+
+todo-daily: ## Utwórz dzisiejszą listę TODO z szablonu daily
+	@TODAY=$$(date +%Y-%m-%d); \
+	TARGET="usr/jakubc/TODO-list-$$TODAY.md"; \
+	if [ -f "$$TARGET" ]; then \
+		echo "✅ Lista już istnieje: $$TARGET"; \
+		if command -v glow >/dev/null 2>&1; then \
+			glow "$$TARGET"; \
+		elif command -v bat >/dev/null 2>&1; then \
+			bat "$$TARGET"; \
+		else \
+			cat "$$TARGET"; \
+		fi \
+	else \
+		echo "📅 Tworzę nową listę dzienną: $$TARGET"; \
+		cp usr/jakubc/TODO-list-daily.md "$$TARGET"; \
+		sed -i "s/modified: .*/modified: $$(date --iso-8601=seconds)/" "$$TARGET"; \
+		sed -i "s/title: .*/title: \"TODO List - $$(date '+%d %B %Y' | sed 's/November/listopada/')\"/" "$$TARGET"; \
+		echo "✅ Utworzono: $$TARGET"; \
+		if command -v code >/dev/null 2>&1; then \
+			code "$$TARGET"; \
+		fi \
 	fi
 
 todo-paczki: ## Instrukcja pakowania i wysyłki (GTX1060 + trzy GTR1660)
@@ -364,8 +388,19 @@ github-status: ## Check GitHub tools status
 	@command -v code >/dev/null && code --list-extensions | grep -E "(Continue|copilot)" || echo "  ❌ VS Code not found"
 
 # ============================================================================
-# Graf dokumentacji
+# Graf dokumentacji - Automatyczna generacja
 # ============================================================================
+
+##@ Graph Auto-Generation
+
+graph-generate: ## Generuj konfigurację grafu (top 20 folder_note)
+	@./scripts/generate-graph-config.sh || test $$? -eq 141
+
+graph-commit: ## Daily commit grafu (max 18 nodes per commit)
+	@./scripts/daily-graph-commit.sh
+
+graph-full: graph-generate graph-commit ## Pełny workflow grafu (generate + commit)
+	@echo "✅ Graf wygenerowany i zacommitowany!"
 
 graph-report: ## Raport stanu grafu (połączone/izolowane pliki)
 	@python3 scripts/eww-connect-graph.py --report
@@ -445,3 +480,41 @@ graph-reset: ## Przywróć domyślną konfigurację
 	else \
 		echo "❌ Brak pliku backup"; \
 	fi
+
+## Folder Notes
+.PHONY: update-folder-notes
+update-folder-notes: ## Update file_count w folder_notes
+	@bash scripts/update-folder-notes.sh
+
+.PHONY: show-top-folders
+show-top-folders: ## Pokaż top 20 folderów
+	@find . -type f -name "*.md" -not -path "./.git/*" -not -path "./archive/*" \
+	| sed 's|/[^/]*$$||' | sort | uniq -c | sort -rn | head -20
+
+.PHONY: stats
+stats: ## Generuj statystyki repo
+	@bash scripts/generate-stats.sh
+
+.PHONY: create-folder-notes
+create-folder-notes: ## Utwórz folder_notes dla wszystkich folderów
+	@bash scripts/create-folder-notes.sh create
+
+.PHONY: update-folder-stats
+update-folder-stats: ## Aktualizuj folder_stats we wszystkich folder_notes
+	@bash scripts/create-folder-notes.sh update
+
+.PHONY: clean-obsidian-docs
+clean-obsidian-docs: ## Usuń pobraną dokumentację Obsidian (interactive)
+	@bash scripts/cleanup-obsidian-docs.sh
+
+.PHONY: clean-obsidian-docs-auto
+clean-obsidian-docs-auto: ## Usuń pobraną dokumentację Obsidian (automatic)
+	@bash scripts/cleanup-obsidian-docs-auto.sh
+
+.PHONY: setup-stats-cron
+setup-stats-cron: ## Setup cron do auto-update repo-stats.md (co 5 min)
+	@bash scripts/setup-stats-cron.sh
+
+.PHONY: show-stats-cron
+show-stats-cron: ## Pokaż aktualny cron job dla stats
+	@crontab -l | grep "generate-stats.sh" || echo "Brak cron job"
