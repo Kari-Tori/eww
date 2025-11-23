@@ -1,0 +1,149 @@
+{
+  "collapse-filter": true,
+  "search": "-path:core/var/logs -path:core/var/status -path:.git",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#folder_note",
+      "color": {
+        "a": 1,
+        "rgb": 5227511
+      }
+    },
+    {
+      "query": "path:docs/archive OR path:usr/jakubc/workspace/archive",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "file:README OR file:INDEX OR file:CHANGELOG",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "path:core/var/logs OR path:core/var/status OR path:.github/workflows",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:docs/infra OR path:core/systemd OR path:.vscode",
+      "color": {
+        "a": 1,
+        "rgb": 16737280
+      }
+    },
+    {
+      "query": "path:core OR path:.github OR file:.gitignore OR tag:#config",
+      "color": {
+        "a": 1,
+        "rgb": 16776960
+      }
+    },
+    {
+      "query": "path:core OR file:Makefile OR file:CHANGELOG OR tag:#eww OR tag:#core",
+      "color": {
+        "a": 1,
+        "rgb": 6748928
+      }
+    },
+    {
+      "query": "path:business OR tag:#business",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    },
+    {
+      "query": "path:dev/scripts OR path:dev/bin OR path:dev/lib OR tag:#tools",
+      "color": {
+        "a": 1,
+        "rgb": 65484
+      }
+    },
+    {
+      "query": "path:docs/infra/hardware/workstations/gerc OR tag:#gerc OR tag:#GERC",
+      "color": {
+        "a": 1,
+        "rgb": 65535
+      }
+    },
+    {
+      "query": "path:usr/jakubc OR tag:#jakubc",
+      "color": {
+        "a": 1,
+        "rgb": 26367
+      }
+    },
+    {
+      "query": "path:dev OR tag:#dev OR tag:#development",
+      "color": {
+        "a": 1,
+        "rgb": 255
+      }
+    },
+    {
+      "query": "path:docs OR tag:#docs OR tag:#documentation",
+      "color": {
+        "a": 1,
+        "rgb": 10027007
+      }
+    },
+    {
+      "query": "path:dev/Projects/Secondbrain OR path:.obsidian OR tag:#secondbrain",
+      "color": {
+        "a": 1,
+        "rgb": 16711935
+      }
+    },
+    {
+      "query": "path:usr/karinam OR tag:#karinam",
+      "color": {
+        "a": 1,
+        "rgb": 16711833
+      }
+    },
+    {
+      "query": "tag:#star-wars OR path:usr/jakubc/star_wars",
+      "color": {
+        "a": 1,
+        "rgb": 14263361
+      }
+    },
+    {
+      "query": "tag:#lego OR path:usr/jakubc/lego",
+      "color": {
+        "a": 1,
+        "rgb": 16040461
+      }
+    },
+    {
+      "query": "tag:#Asus_Z77 OR path:docs/infra/hardware/asus_z77",
+      "color": {
+        "a": 1,
+        "rgb": 12604881
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 2.06510416666667,
+  "lineSizeMultiplier": 0.686979166666667,
+  "collapse-forces": true,
+  "centerStrength": 0.0416666666666667,
+  "repelStrength": 20,
+  "linkStrength": 0.552083333333333,
+  "linkDistance": 62,
+  "scale": 0.0078125,
+  "close": false
+}
