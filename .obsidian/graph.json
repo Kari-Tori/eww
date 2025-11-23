@@ -2,10 +2,10 @@
   "collapse-filter": true,
   "search": "path:docs/ OR path:usr/jakubc/ OR path:docs/tags/ OR path:docs/infra/ OR path:usr/karinam/ OR path:docs/infra/hardware/ OR path:usr/karinam/devices/ OR path:usr/jakubc/star_wars/ OR path:usr/karinam/devices/asus_z77/ OR path:core/ OR path:core/house/ OR path:docs/software/ OR path:usr/jakubc/Study/ OR path:usr/jakubc/star_wars/ships/ OR path:docs/software/obsidian/ OR path:usr/karinam/.desktop-local-backup/TODO/ OR path:docs/infra/hardware/workstations/asus_z77/ OR path:docs/infra/hardware/workstations/gerc/ OR path:usr/karinam/.desktop-local-backup/TODO/flowers/ OR path:usr/karinam/devices/asus_z77/desktop/modules/greenhouse/flowers/",
   "showTags": true,
-  "showAttachments": false,
-  "hideUnresolved": true,
-  "showOrphans": false,
-  "collapse-color-groups": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:docs/",
@@ -13,152 +13,133 @@
         "a": 1,
         "rgb": 65331
       }
-    }
-,
+    },
     {
       "query": "path:usr/jakubc/",
       "color": {
         "a": 1,
         "rgb": 16711680
       }
-    }
-,
+    },
     {
       "query": "path:docs/tags/",
       "color": {
         "a": 1,
         "rgb": 255
       }
-    }
-,
+    },
     {
       "query": "path:docs/infra/",
       "color": {
         "a": 1,
         "rgb": 16776960
       }
-    }
-,
+    },
     {
       "query": "path:usr/karinam/",
       "color": {
         "a": 1,
         "rgb": 16711935
       }
-    }
-,
+    },
     {
       "query": "path:docs/infra/hardware/",
       "color": {
         "a": 1,
         "rgb": 65535
       }
-    }
-,
+    },
     {
       "query": "path:usr/karinam/devices/",
       "color": {
         "a": 1,
         "rgb": 8421504
       }
-    }
-,
+    },
     {
       "query": "path:usr/jakubc/star_wars/",
       "color": {
         "a": 1,
         "rgb": 9109504
       }
-    }
-,
+    },
     {
       "query": "path:usr/karinam/devices/asus_z77/",
       "color": {
         "a": 1,
         "rgb": 52479
       }
-    }
-,
+    },
     {
       "query": "path:core/",
       "color": {
         "a": 1,
         "rgb": 65331
       }
-    }
-,
+    },
     {
       "query": "path:core/house/",
       "color": {
         "a": 1,
         "rgb": 43775
       }
-    }
-,
+    },
     {
       "query": "path:docs/software/",
       "color": {
         "a": 1,
         "rgb": 16753920
       }
-    }
-,
+    },
     {
       "query": "path:usr/jakubc/Study/",
       "color": {
         "a": 1,
         "rgb": 2664719
       }
-    }
-,
+    },
     {
       "query": "path:usr/jakubc/star_wars/ships/",
       "color": {
         "a": 1,
         "rgb": 16724736
       }
-    }
-,
+    },
     {
       "query": "path:docs/software/obsidian/",
       "color": {
         "a": 1,
         "rgb": 5570815
       }
-    }
-,
+    },
     {
       "query": "path:usr/karinam/.desktop-local-backup/TODO/",
       "color": {
         "a": 1,
         "rgb": 8421504
       }
-    }
-,
+    },
     {
       "query": "path:docs/infra/hardware/workstations/asus_z77/",
       "color": {
         "a": 1,
         "rgb": 16744319
       }
-    }
-,
+    },
     {
       "query": "path:docs/infra/hardware/workstations/gerc/",
       "color": {
         "a": 1,
         "rgb": 8388863
       }
-    }
-,
+    },
     {
       "query": "path:usr/karinam/.desktop-local-backup/TODO/flowers/",
       "color": {
         "a": 1,
         "rgb": 8421504
       }
-    }
-,
+    },
     {
       "query": "path:usr/karinam/devices/asus_z77/desktop/modules/greenhouse/flowers/",
       "color": {
@@ -167,13 +148,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "repelStrength": 10,
+  "collapse-forces": false,
+  "centerStrength": 0.291666666666667,
+  "repelStrength": 12.6041666666667,
   "linkStrength": 0.5,
   "linkDistance": 200,
-  "centerStrength": 0.4
+  "scale": 0.0263671875,
+  "close": true
 }
