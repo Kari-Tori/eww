@@ -7,12 +7,27 @@ tags:
   - #implementation
   - #eww
 created: 2025-11-23T18:30:00Z
-modified: 2025-11-23T18:30:00Z
+modified: 2025-11-23T23:15:00Z
 author: jakubc
+owner: jakubc
 title: "Graph View - Plan implementacji zaawansowanych funkcji"
 ---
-
+d
 # Graph View - Plan implementacji zaawansowanych funkcji
+
+## 📂 Struktura dokumentacji
+
+**Główne pliki**:
+- [[graph.md]] - Schemat kolorów i presets (root repo)
+- [[graph-view-plan.md]] - Ten plik (plan implementacji)
+- [[graph-view-next.md]] - Zaawansowane możliwości i przyszłość
+- [[graph-view-limits.md]] - Limity techniczne
+- [[installation-guide.md]] - Podstawowa instalacja
+
+**Archiwa** (`archives/`):
+- Pliki z `docs/infra/graphs/` (przeniesione 2025-11-23)
+- Stare wersje: GRAPH-*.md, graph-setup-guide.md
+- Historyczne backlink huby: GRAPH-BACKLINK-HUB-*.md
 
 ## 🎯 Cel projektu
 
@@ -802,7 +817,7 @@ Dlaczego 2000?
 
 ### Faza 1: Foundation (Tydzień 1-2) ✅ UKOŃCZONA!
 
-**Priorytet**: CRITICAL  
+**Priorytet**: CRITICAL
 **Status**: 🟢 COMPLETE (2025-11-23)
 
 - [x] **Versjonowanie grafu** ✅

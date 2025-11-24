@@ -18,6 +18,7 @@ title: "📁 Notes"
 
 
 
+owner: jakubc
 ---
 
 # 📁 Notes

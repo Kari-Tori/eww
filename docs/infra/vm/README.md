@@ -17,6 +17,7 @@ title: "🖥️ VM & Virtualizacja — źródło prawdy"
 
 
 
+owner: jakubc
 ---
 
 

@@ -17,6 +17,7 @@ title: "🧠 ZPZK — skrót"
 
 
 
+owner: jakubc
 ---
 
 # 🧠 ZPZK — skrót

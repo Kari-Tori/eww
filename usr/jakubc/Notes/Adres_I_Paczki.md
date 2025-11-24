@@ -17,6 +17,7 @@ title: "Stały adres do listów i paczek (UK) — wybór i wdrożenie"
 
 
 
+owner: jakubc
 ---
 
 # Stały adres do listów i paczek (UK) — wybór i wdrożenie

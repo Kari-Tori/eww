@@ -8,6 +8,7 @@ created: 2025-11-23T00:00:00Z
 modified: 2025-11-23T00:00:00Z
 author: jakubc
 title: "Schemat kolorów dla struktury grafu projektu EWW"
+owner: jakubc
 ---
 
 # Schemat kolorów dla struktury grafu projektu EWW
@@ -29,7 +30,7 @@ Poniższa tabela definiuje kolorystykę używaną do identyfikacji struktur w gr
 | 9   | 🔵    | gerc        | #00ffff | gerc, hardware, workstation, pulseaudio         | docs/infra/hardware/workstations/gerc/ | Stacja robocza GERC (dokumentacja HW)     |
 | 10  | 🔵    | jakubc             | #0066ff | jakubc, user, tasks, study, todo                      | usr/jakubc/, usr/jakubc/workspace/, usr/jakubc/flowers/ | Pliki użytkownika jakubc, zadania         |
 | 11  | 🔵    | dev                | #0000ff | dev, development, projects, poc, tests                | dev/, dev/Playbooks/, dev/docs/      | Warsztat deweloperski, PoC, projekty      |
-| 12  | 🟣    | docs               | #9900ff | docs, documentation, guide, wiki, references          | docs/, docs/guide/, docs/reports/    | Dokumentacja, wiki, przewodniki           |
+| 12  | 🟣    | docs               | #9900ff | docs, documentation, guide, wiki, references          | docs/, docs/infra/guide/, docs/infra/reports/    | Dokumentacja, wiki, przewodniki           |
 | 13  | 🟣    | secondbrain        | #ff00ff | secondbrain, notes, knowledge, para, obsidian         | dev/Projects/Secondbrain/, .obsidian/ | Projekt secondbrain, notatki, wiedza      |
 | 14  | 🟣    | karinam            | #ff0099 | karinam, user, backup, desktop                        | usr/karinam/, usr/karinam/devices/, usr/karinam/.desktop-local-backup/ | Pliki użytkownika karinam, backupy        |
 | Nr  | Kolor | Nazwa       | Kod     | Tags                                            | Lokalizacja                            | Opis                                      |
@@ -43,6 +44,24 @@ Kolory te są używane do:
 - Ułatwienia nawigacji w złożonej strukturze repozytorium
 - Spójnego tagowania elementów projektu
 
+## 📂 Dokumentacja Graph View
+
+**Lokalizacja**: `docs/infra/software/obsidian/plugins/core/graph-view/`
+
+**Główne pliki**:
+- `graph-view-plan.md` - Plan implementacji zaawansowanych funkcji (Faza 1 ✅)
+- `graph-view-next.md` - Zaawansowane możliwości i przyszłość
+- `graph-view-limits.md` - Limity techniczne Obsidian Graph
+- `installation-guide.md` - Przewodnik instalacji pluginów
+- `presets.md` - Presety grafu (ULTIMATE, BUSINESS, JAKUBC, DEV, MINIMAL)
+- `colors.md` - Szczegóły kolorystyki
+
+**Archiwa** (`archives/`):
+- Pliki z dawnego `docs/infra/graphs/` (przeniesione 2025-11-23)
+- Historyczne setupy: GRAPH-*.md (18 plików)
+- graph-setup-guide.md - stary przewodnik
+- graphs-old-index.md - dawny indeks
+
 ## 🚀 ULTIMATE GRAPH SETUP - ZAINSTALOWANE!
 
 ### ✅ Aktywna konfiguracja (od 2025-11-23)
@@ -51,7 +70,7 @@ Kolory te są używane do:
 
 ### 📦 FAZA 1 IMPLEMENTACJI - UKOŃCZONA! ✅
 
-**Data**: 2025-11-23  
+**Data**: 2025-11-23
 **Status**: 🟢 COMPLETE
 
 **Zrealizowane**:

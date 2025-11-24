@@ -17,6 +17,7 @@ title: "Obsidian — katalog wtyczek (2025)"
 
 
 
+owner: jakubc
 ---
 
 # Obsidian — katalog wtyczek (2025)

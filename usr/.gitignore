@@ -1,0 +1,93 @@
+# usr/.gitignore
+# Wykluczenia dla katalogów użytkowników (remote SSH)
+
+# ===== UWAGA =====
+# Ten katalog zawiera konfiguracje Remote SSH.
+# Pliki w usr/<username>/ mogą być fizycznie na zdalnej maszynie,
+# ale jeśli ktoś skopiuje tutaj klucze/hasła - wykluczamy je!
+
+# ===== BEZPIECZEŃSTWO =====
+# Klucze SSH i GPG
+**/.ssh/
+**/.gnupg/
+**/.password-store/
+
+# Hasła i sekrety
+**/passwords*
+**/secrets*
+**/*secret*
+**/*.key
+**/*.pem
+**/*.p12
+**/*.pfx
+
+# Tokeny i credentials
+**/.aws/
+**/.docker/config.json
+**/.netrc
+**/.git-credentials
+
+# ===== CACHE I TEMP =====
+# Browser cache
+**/.cache/
+**/.mozilla/
+**/.config/google-chrome/
+**/.config/chromium/
+**/.local/share/Trash/
+
+# Application cache
+**/.thumbnails/
+**/.recently-used
+**/.viminfo
+**/.bash_history
+**/.python_history
+
+# ===== DEVELOPMENT =====
+# Python
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/venv/
+**/.venv/
+**/env/
+**/.env
+
+# Node.js
+**/node_modules/
+**/.npm/
+**/.yarn/
+
+# Build artifacts
+**/build/
+**/dist/
+**/*.egg-info/
+**/.tox/
+
+# ===== DUŻE PLIKI =====
+# Media
+**/*.mp4
+**/*.avi
+**/*.mkv
+**/*.mov
+**/*.iso
+
+# Archives (jeśli nie są istotne)
+# **/*.zip
+# **/*.tar.gz
+# **/*.7z
+
+# ===== SYSTEM =====
+**/.Trash/
+**/Desktop.ini
+**/.DS_Store
+**/Thumbs.db
+
+# ===== OBSIDIAN =====
+# Obsidian cache (już jest w głównym .gitignore, ale dla pewności)
+**/.obsidian/workspace*
+**/.obsidian/workspace.json
+**/.obsidian/cache
+
+# ===== CUSTOM =====
+# Dodaj tutaj swoje własne wykluczenia
+# np. **/prywatne/

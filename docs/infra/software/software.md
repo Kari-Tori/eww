@@ -18,6 +18,7 @@ title: "📁 software"
 
 
 
+owner: jakubc
 ---
 
 # 📁 software
@@ -35,15 +36,18 @@ Katalog `software` zawiera 1 plików i 0 podfolderów.
 ## 📄 Pliki w folderze
 
 - [[README]] - 🧩 Software — źródło prawdy
+- [[software-legacy]] - Archiwalny folder note przeniesiony z `docs/software/`
 
 ## 📂 Podfoldery
 
-*Brak podfolderów.*
+- 📂 [[code/code|code]] - Konfiguracja IDE, lista pluginów
+- 📂 [[git/TODO-git-gerc-jakubc|git]] - TODO i checklisty Git
+- 📂 [[obsidian/obsidian|obsidian]] - Pełna dokumentacja Obsidian
 
 ## 🔗 Nawigacja
 
 - ⬆️ [[infra/infra|infra]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
+- 🏠 [[infra/infra.md|Infra README]] - Główny index
 
 
 **Lokalizacja:** `docs/infra/software`  
@@ -56,7 +60,9 @@ Katalog `software` zawiera 1 plików i 0 podfolderów.
 
 ## 📁 Podfoldery
 
-*Brak podfolderów.*
+- [code/](code/code.md)
+- [git/](git/TODO-git-gerc-jakubc.md)
+- [obsidian/](obsidian/obsidian.md)
 
 ## 🔗 Backlinks
 
@@ -65,4 +71,3 @@ Katalog `software` zawiera 1 plików i 0 podfolderów.
 - [[GRAPH-CORE]]
 - [[GRAPH-BUSINESS]]
 - [[GRAPH-CONFIG]]
-
