@@ -1,0 +1,167 @@
+/* TODO Dashboard - Kolory priorytetów i styling */
+
+/* Priorytety P1-P10 */
+.priority-10,
+[data-priority="10"] {
+    background: #ff0000 !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+.priority-9,
+[data-priority="9"] {
+    background: #ff4500 !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+.priority-8,
+[data-priority="8"] {
+    background: #ff8c00 !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+.priority-7,
+[data-priority="7"] {
+    background: #ffd700 !important;
+    color: #000 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+.priority-6,
+[data-priority="6"] {
+    background: #87ceeb !important;
+    color: #000 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+.priority-5,
+[data-priority="5"] {
+    background: #90ee90 !important;
+    color: #000 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+.priority-4,
+[data-priority="4"] {
+    background: #dda0dd !important;
+    color: #000 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+.priority-3,
+[data-priority="3"] {
+    background: #f0f0f0 !important;
+    color: #333 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+.priority-2,
+[data-priority="2"] {
+    background: #e0e0e0 !important;
+    color: #666 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+.priority-1,
+[data-priority="1"] {
+    background: #d0d0d0 !important;
+    color: #999 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+}
+
+/* Callout progress */
+.callout[data-callout="progress"] {
+    background: linear-gradient(90deg, #4caf50 0%, #8bc34a 100%) !important;
+    color: white !important;
+}
+
+/* TODO Dashboard styling */
+.todo-dashboard h1 {
+    color: #2563eb;
+    border-bottom: 3px solid #2563eb;
+    padding-bottom: 10px;
+}
+
+.todo-dashboard h2 {
+    color: #7c3aed;
+    margin-top: 30px;
+}
+
+/* Deadline warnings */
+.callout[data-callout="danger"] {
+    background-color: #fee2e2 !important;
+    border-left: 4px solid #dc2626 !important;
+}
+
+/* Success callout */
+.callout[data-callout="success"] {
+    background-color: #dcfce7 !important;
+    border-left: 4px solid #16a34a !important;
+}
+
+/* Tabele TODO */
+.todo-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.todo-dashboard table th {
+    background: #f3f4f6;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+}
+
+.todo-dashboard table td {
+    padding: 6px 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Checkboxy */
+.todo-dashboard .task-list-item-checkbox {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.todo-dashboard .task-list-item-checkbox:checked {
+    background-color: #16a34a;
+    border-color: #16a34a;
+}
+
+/* Emoji icons większe */
+.todo-dashboard li:has(input[type="checkbox"]) {
+    font-size: 1.05em;
+    line-height: 1.6;
+}
+
+/* Pomodoro checkboxes */
+li:has(> span:contains("🍅")) {
+    background-color: #fff7ed;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 2px 0;
+}
+
+/* Mermaid diagrams */
+.mermaid {
+    background: #f9fafb;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}

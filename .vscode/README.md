@@ -17,6 +17,7 @@ title: "Zalecane ustawienia VS Code dla repozytorium"
 
 
 
+owner: jakubc
 ---
 
 <!-- Instrukcja repozytorium: zalecane ustawienia VS Code dla tego projektu -->

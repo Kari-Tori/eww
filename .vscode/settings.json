@@ -1,6 +1,6 @@
 {
     "markdown.validate.enabled": true,
-    
+
     // ========================================
     // GITHUB COPILOT - FULL AUTOMATION
     // ========================================
@@ -14,13 +14,13 @@
         "jsonc": true,
         "python": true
     },
-    
+
     // Copilot Chat - auto-execute wszystko
     "github.copilot.chat.runCommand.enabled": true,
     "github.copilot.chat.executeImmediately": true,
     "github.copilot.chat.terminalChatLocation": "quickChat",
     "github.copilot.chat.useProjectTemplates": true,
-    
+
     // Copilot Agent - pełna automatyzacja
     "github.copilot.advanced": {
         "authProvider": "github",
@@ -38,7 +38,7 @@
         "inlineSuggestEnable": true,
         "listCount": 10
     },
-    
+
     // ========================================
     // SECURITY - WSZYSTKO TRUSTED
     // ========================================
@@ -46,13 +46,13 @@
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.untrustedFiles": "open",
     "security.workspace.trust.emptyWindow": false,
-    
+
     // ========================================
     // GITHUB CLI INTEGRATION
     // ========================================
     "github.gitProtocol": "https",
     "github.copilot.chat.welcomeMessage": "never",
-    
+
     // ========================================
     // AUTO-SAVE & FILES
     // ========================================
@@ -60,7 +60,7 @@
     "files.autoSaveDelay": 1000,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    
+
     // ========================================
     // TERMINAL AUTO-EXECUTE
     // ========================================

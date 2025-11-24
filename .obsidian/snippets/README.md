@@ -22,6 +22,7 @@ author: jakubc
 
 
 
+owner: jakubc
 ---
 
 # 🎨 Obsidian CSS Snippets

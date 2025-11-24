@@ -19,6 +19,7 @@ category: folder-note
 
 
 
+owner: jakubc
 ---
 
 # 📁 scripts
