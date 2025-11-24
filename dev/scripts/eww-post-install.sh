@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
-# File: dev/scripts/eww-post-install.sh
+# File: scripts/eww-post-install.sh
 # Author: 
 # Created: 
 # Updated: 
-# Description: Skrypt Bash dla projektu EWW
+# Description: bash
+# Tags:
+# bash
+# installer
+# script
 set -Eeuo pipefail
 echo "Post-install placeholder"

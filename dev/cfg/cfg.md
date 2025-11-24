@@ -18,6 +18,7 @@ title: "📁 cfg"
 
 
 
+owner: jakubc
 ---
 
 # 📁 cfg
