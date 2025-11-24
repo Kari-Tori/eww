@@ -17,6 +17,7 @@ title: "Krótka notatka – jak spiąć ChatGPT Business, GitHub, Copilot i Clic
 
 
 
+owner: jakubc
 ---
 
 # Krótka notatka – jak spiąć ChatGPT Business, GitHub, Copilot i ClickUp

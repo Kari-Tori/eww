@@ -17,6 +17,7 @@ title: "🔜 M18 NEXT — decyzje do podjęcia i komponenty"
 
 
 
+owner: jakubc
 ---
 
 # 🔜 M18 NEXT — decyzje do podjęcia i komponenty

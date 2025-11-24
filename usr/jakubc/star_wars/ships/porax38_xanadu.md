@@ -17,6 +17,7 @@ title: "✨ Porax-38 “Xanadu Blood” — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Porax-38 “Xanadu Blood” — karta techniczna

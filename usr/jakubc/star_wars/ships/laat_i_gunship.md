@@ -17,6 +17,7 @@ title: "✨ LAAT/i Gunship — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ LAAT/i Gunship — karta techniczna

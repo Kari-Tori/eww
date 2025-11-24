@@ -17,6 +17,7 @@ title: "⚡ Qualcomm Snapdragon 8 Elite Gen 5"
 
 
 
+owner: jakubc
 ---
 
 # ⚡ Qualcomm Snapdragon 8 Elite Gen 5

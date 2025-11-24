@@ -17,6 +17,7 @@ title: "🔶 Twi'lekowie"
 
 
 
+owner: jakubc
 ---
 
 # 🔶 Twi'lekowie

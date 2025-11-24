@@ -17,6 +17,7 @@ title: "🟥⚔️ Galaktyczna Republika"
 
 
 
+owner: jakubc
 ---
 
 # 🟥⚔️ Galaktyczna Republika

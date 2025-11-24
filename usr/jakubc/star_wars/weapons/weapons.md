@@ -18,6 +18,7 @@ title: "⚔️ Folder `star_wars/weapons`"
 
 
 
+owner: jakubc
 ---
 
 # ⚔️ Folder `star_wars/weapons`

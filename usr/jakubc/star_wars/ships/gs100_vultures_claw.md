@@ -17,6 +17,7 @@ title: "✨ GS-100 “Vulture’s Claw” — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ GS-100 “Vulture’s Claw” — karta techniczna

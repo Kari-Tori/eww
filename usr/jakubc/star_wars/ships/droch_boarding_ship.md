@@ -17,6 +17,7 @@ title: "✨ Droch-class Boarding Ship — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Droch-class Boarding Ship — karta techniczna

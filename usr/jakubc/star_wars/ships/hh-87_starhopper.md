@@ -17,6 +17,7 @@ title: "✨ HH-87 Starhopper — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ HH-87 Starhopper — karta techniczna

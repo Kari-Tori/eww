@@ -17,6 +17,7 @@ title: "✨ Belbullab-22 “Soulless One” — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Belbullab-22 “Soulless One” — karta techniczna

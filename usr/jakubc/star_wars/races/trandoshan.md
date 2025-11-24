@@ -17,6 +17,7 @@ title: "🔷 Trandoshanie"
 
 
 
+owner: jakubc
 ---
 
 # 🔷 Trandoshanie

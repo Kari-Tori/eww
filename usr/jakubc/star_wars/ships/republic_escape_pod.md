@@ -17,6 +17,7 @@ title: "✨ Republic Escape Pod — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Republic Escape Pod — karta techniczna

@@ -17,6 +17,7 @@ title: "🟣☠️ Konfederacja Niezależnych Systemów (CIS)"
 
 
 
+owner: jakubc
 ---
 
 # 🟣☠️ Konfederacja Niezależnych Systemów (CIS)

@@ -17,6 +17,7 @@ title: "✨ Syliure-31 Hyperdrive Ring — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Syliure-31 Hyperdrive Ring — karta techniczna

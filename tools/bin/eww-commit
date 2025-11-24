@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-set -Eeuo pipefail
-cd "$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")"/.. && pwd)"
-git add -A
-git commit -m "auto: snapshot $(date -u +%F_%H%M%SZ)" || true

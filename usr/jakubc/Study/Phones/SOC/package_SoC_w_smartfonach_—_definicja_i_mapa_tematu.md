@@ -17,6 +17,7 @@ title: "📦 System-on-Chip (SoC) — co to jest"
 
 
 
+owner: jakubc
 ---
 title: "📦 SoC w smartfonach — definicja, architektura, ekosystem"
 version: 1.0

@@ -17,6 +17,7 @@ title: "✨ V-19 Torrent — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ V-19 Torrent — karta techniczna

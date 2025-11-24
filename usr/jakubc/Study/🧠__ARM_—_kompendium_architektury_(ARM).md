@@ -17,6 +17,7 @@ title: "🧠 ARM — kompendium architektury (A/R/M)"
 
 
 
+owner: jakubc
 ---
 
 # 🧠 ARM — kompendium architektury (A/R/M)

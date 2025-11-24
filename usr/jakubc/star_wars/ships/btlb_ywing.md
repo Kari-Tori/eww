@@ -17,6 +17,7 @@ title: "✨ BTL-B Y-wing — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ BTL-B Y-wing — karta techniczna

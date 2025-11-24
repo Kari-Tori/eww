@@ -17,6 +17,7 @@ title: "✨ Nu-class Shuttle — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Nu-class Shuttle — karta techniczna

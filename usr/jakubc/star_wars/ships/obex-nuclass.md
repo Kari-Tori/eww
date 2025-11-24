@@ -17,6 +17,7 @@ title: "✨ Nu-class „Obex” — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Nu-class „Obex” — karta techniczna

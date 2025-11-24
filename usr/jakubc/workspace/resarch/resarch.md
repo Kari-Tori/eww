@@ -18,6 +18,7 @@ title: "resarch/ – notatka katalogu"
 
 
 
+owner: jakubc
 ---
 
 # resarch/ – notatka katalogu

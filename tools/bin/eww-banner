@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-set -Eeuo pipefail
-printf "\n╭─ %s@%s • %s\n" "$(whoami)" "$(hostname)" "$(date '+%F %T')"
-printf "╰─ Miłego dnia • E-Waste Workshop\n\n"

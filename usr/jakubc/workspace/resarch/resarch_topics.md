@@ -17,6 +17,7 @@ title: "Lista badań hybrydowego workspace"
 
 
 
+owner: jakubc
 ---
 
 # Lista badań hybrydowego workspace

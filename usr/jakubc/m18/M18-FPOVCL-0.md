@@ -17,6 +17,7 @@ title: "🧠💨 M18-FPOVCL-0 — karta skondensowana"
 
 
 
+owner: jakubc
 ---
 
 # 🧠💨 M18-FPOVCL-0 — karta skondensowana

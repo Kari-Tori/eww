@@ -17,6 +17,7 @@ title: "🧠 AVX i AVX2 **Advanced Vector Extensions**"
 
 
 
+owner: jakubc
 ---
 
 

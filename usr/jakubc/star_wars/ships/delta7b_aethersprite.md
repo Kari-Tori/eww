@@ -17,6 +17,7 @@ title: "✨ Delta-7B Aethersprite — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Delta-7B Aethersprite — karta techniczna

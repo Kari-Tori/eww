@@ -17,6 +17,7 @@ title: "✨ Flarestar-class “Weequay Saucer” — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Flarestar-class “Weequay Saucer” — karta techniczna

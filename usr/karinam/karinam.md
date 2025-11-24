@@ -1,81 +1,114 @@
 ---
 tags:
+  - #folder_note
   - #automation
-  - #development
+  - #docs
   - #eww
   - #karinam
   - #knowledge
   - #linux
   - #secondbrain
-  - #folder_note
-  - #profile
-  - #team
-created: 2025-11-21T14:19:10Z
-modified: 2025-11-22T23:40:00Z
+created: 2025-11-21T11:00:00Z
+modified: 2025-11-21T11:00:00Z
 author: jakubc
-title: "🩷 Karinam"
-type: user-profile
-handle: "@karinam"
-role: team-member
-location: "@location"
+title: "📁 karinam"
+
+
+
+
+
+
+owner: karinam
 ---
 
-# 🩷 Karinam
+# 📁 karinam
 
-> **Team Member | Co-worker | @karinam**
+> **Folder Note** - centralny index dla katalogu `karinam/`
 
-## 📌 Informacje
+## 📋 Cel folderu
 
-- 👤 **User**: karinam
-- 🔗 **Handle**: @karinam
-- 🎨 **Kolor**: 🩷 Pink / Candy
-- 📍 **Location**: [[docs/infra/location|@location]] (E-Waste Workshop)
-- 🏢 **Workstation**: Asus_Z77 (192.168.0.77)
-- 📅 **Utworzono**: 2025-11-21
+Katalog `karinam` zawiera 4 plików i 0 podfolderów.
 
-## 📁 Przestrzenie
-
-### 🖥️ Urządzenia
-- [[usr/karinam/devices/README|📱 Devices]] - lista urządzeń karinam
-  - [[usr/karinam/devices/asus_z77/asus_z77|🖥️ Asus Z77]] - główna stacja robocza (192.168.0.77)
-  - [[usr/karinam/devices/asus_z77/README|📖 README]] - instrukcja montowania i dostępu
-
-### 🖥️ Desktop (Asus Z77)
-- [[usr/karinam/devices/asus_z77/desktop/desktop|📑 Desktop]] - główny folder note desktop
-- [[usr/karinam/devices/asus_z77/desktop/inbox/inbox|📥 Inbox]] - nowe wpisy, do przetworzenia
-- [[usr/karinam/devices/asus_z77/desktop/TODO/TODO|📋 TODO]] - główny folder zadań
-- [[usr/karinam/devices/asus_z77/desktop/modules/modules|🧩 Modules]] - moduły funkcjonalne
-  - [[usr/karinam/devices/asus_z77/desktop/modules/greenhouse/greenhouse|🌱 Greenhouse]] - szklarnia
-  - [[usr/karinam/devices/asus_z77/desktop/modules/journal/|📔 Journal]] - dziennik
-- [[usr/karinam/devices/asus_z77/desktop/old-desktop/|🗄️ Old Desktop]] - archiwum
-
-### 📂 Inne
-- [[usr/karinam/health/|💪 Health]] - fitness i zdrowie
-
-## 🔗 Related
-
-- [[GRAPH-KARINAM]] - Graf osobisty
-- [[GRAPH-USERS]] - Wszyscy użytkownicy
+**Przeznaczenie:**
+- Dokumentacja projektowa i techniczna
 
 
-*Ostatnia aktualizacja: 2025-11-22 | Autor: jakubc*
+## 📄 Pliki w folderze
 
-## 📁 Struktura
+- [[Karina Tips 2]] - Dokumentacja projektu EWW
+- [[Karina Tips]] - Dokumentacja projektu EWW
+- [[Karina_ESFP-T_Profil_E-Waste_Workshop]] - Dokumentacja projektu EWW
+- [[_Karina_Bash_NOTE]] - Dokumentacja projektu EWW
 
-```
-usr/karinam/
-├── devices/           # Urządzenia
-│   └── asus_z77/     # Komputer stacjonarny
-│       └── desktop/  # Pulpit (SSHFS mount)
-├── health/           # Zdrowie i fitness
-└── karinam.md        # Profil użytkownika
-```
+## 📂 Podfoldery
 
-## 🔗 Backlinks
+*Brak podfolderów.*
 
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
+## 🔗 Nawigacja
 
+- ⬆️ [[team/team|team]] - Folder nadrzędny
+- 🏠 [[docs/INDEX|INDEX]] - Główny index
+
+
+**Lokalizacja:** `docs/team/karinam`  
+**Zaktualizowano:** 2025-11-21  
+**Typ:** Folder Note
+
+
+
+
+**Backlinków:** 10  
+**Linków wychodzących:** 6  
+**Zaktualizowano:** 1763717475.8331895  
+
+
+
+## 🔗 Backlinki
+
+*Pliki linkujące do tego dokumentu:*
+
+- [[docs/team/team|team]]
+- [[usr/karinam/META/META|META]]
+- [[usr/karinam/Snippets/Snippets|Snippets]]
+- [[usr/karinam/Tags/Tags|Tags]]
+- [[usr/karinam/ebay/ebay|ebay]]
+- [[usr/karinam/food/food|food]]
+- [[usr/karinam/health/health|health]]
+- [[usr/karinam/imported-vault/imported-vault|imported-vault]]
+- [[usr/karinam/status/status|status]]
+- [[usr/karinam/study/study|study]]
+
+## 📎 Źródła i powiązania
+
+*Dokumenty powiązane:*
+
+- [[docs/INDEX|INDEX]]
+- [[docs/team/karinam/Karina Tips 2|Karina Tips 2]]
+- [[docs/team/karinam/Karina Tips|Karina Tips]]
+- [[docs/team/karinam/Karina_ESFP-T_Profil_E-Waste_Workshop|Karina_ESFP-T_Profil_E-Waste_Workshop]]
+- [[docs/team/karinam/_Karina_Bash_NOTE|_Karina_Bash_NOTE]]
+- [[docs/team/team|team]]
+- [[usr/karinam/META/META|META]]
+- [[usr/karinam/Snippets/Snippets|Snippets]]
+- [[usr/karinam/Tags/Tags|Tags]]
+- [[usr/karinam/ebay/ebay|ebay]]
+
+*...i 5 więcej*
+
+
+**Backlinków:** 10  
+**Linków wychodzących:** 15  
+**Zaktualizowano:** 1763717741.3851483  
+
+## 📑 Index plików
+
+- [Karina Tips 2](Karina Tips 2.md)
+- [Karina Tips](Karina Tips.md)
+- [_Karina_Bash_NOTE](_Karina_Bash_NOTE.md)
+- [Karina_ESFP-T_Profil_E-Waste_Workshop](Karina_ESFP-T_Profil_E-Waste_Workshop.md)
+- [Karina_Tips_2](Karina_Tips_2.md)
+- [Karina_Tips](Karina_Tips.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*

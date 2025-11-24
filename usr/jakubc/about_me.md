@@ -17,6 +17,7 @@ title: "Jakubc – o mnie"
 
 
 
+owner: jakubc
 ---
 
 # Jakubc – o mnie

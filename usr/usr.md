@@ -17,6 +17,7 @@ title: "👥 Usr"
 
 
 
+owner: jakubc
 ---
 
 # 👥 Usr
@@ -25,20 +26,28 @@ title: "👥 Usr"
 
 ## 📋 Cel folderu
 
-Zawiera profile wszystkich użytkowników projektu z ich konfiguracjami, preferencjami, notatkami i personalizacją środowiska.
+Zawiera konfiguracje Remote SSH do katalogów domowych użytkowników na różnych fizycznych maszynach.
+
+**KONCEPCJA**: Katalog `usr/` umożliwia dostęp przez SSH do katalogów domowych (`/home/<username>/`) na różnych maszynach. VS Code łączy się zdalnie i pracujesz bezpośrednio na zdalnym systemie plików.
+
+> 📖 **[Przewodnik Remote SSH](SSH-REMOTE-GUIDE.md)** — jak skonfigurować połączenia SSH
 
 ## 📁 Struktura
 
 ```
 usr/
-├── jakubc/           # Profil Jakub Cybulski
-│   ├── jakubc.md     # Główny profil
-│   ├── config/       # Konfiguracje osobiste
-│   └── notes/        # Notatki prywatne
-└── karinam/          # Profil Karina M.
-    ├── karinam.md    # Główny profil
-    ├── config/       # Konfiguracje osobiste
-    └── notes/        # Notatki prywatne
+├── jakubc/           # 🔗 → /home/jakubc/ (maszyna: dev-laptop)
+│   ├── INDEX.md      # Indeks zawartości
+│   ├── TODO/         # Listy zadań
+│   ├── Notes/        # Notatki osobiste
+│   ├── workspace/    # Projekty robocze
+│   └── ...           # Pełna replika /home/jakubc/
+└── karinam/          # 🔗 → /home/karinam/ (maszyna: ops-workstation)
+    ├── INDEX.md      # Indeks zawartości
+    ├── TODO-karinam-list.md
+    ├── projects/     # Projekty
+    ├── notes/        # Notatki
+    └── ...           # Pełna replika /home/karinam/
 ```
 
 ## 📄 Index użytkowników
@@ -80,11 +89,11 @@ usr/
 - Kolor: Niebieski (#0066FF)
 - Graph node: Duży, centralny
 
-### Karinam  
+### Karinam
 - Tagi: `#people/karinam`, `#role/developer`, `#color/candy`
 - Kolor: Candy Pink (#FF69B4)
 - Graph node: Średni, powiązany
 
 
-**Ostatnia aktualizacja**: 2025-11-21  
+**Ostatnia aktualizacja**: 2025-11-21
 **Źródło**: User profiles EWW

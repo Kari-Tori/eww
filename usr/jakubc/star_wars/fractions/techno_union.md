@@ -17,6 +17,7 @@ title: "🟣☠️ Unia Technokratyczna (Techno Union)"
 
 
 
+owner: jakubc
 ---
 
 # 🟣☠️ Unia Technokratyczna (Techno Union)

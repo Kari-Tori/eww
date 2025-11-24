@@ -17,6 +17,7 @@ title: "overate"
 
 
 
+owner: jakubc
 ---
 
 Wczoraj (18.11.2025) około godziny 2:00 doszło do wymiotów po tym, jak długo walczyłem z zaparciami i ostatecznie uległem obżarstwu. Trudne doświadczenie w nocy pokazało, że przepełniony żołądek oraz brak regularnych przerw w jedzeniu mogą prowadzić do silnego dyskomfortu i konieczności „resetu” organizmu.

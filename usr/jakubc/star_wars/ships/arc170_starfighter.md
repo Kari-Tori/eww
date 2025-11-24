@@ -17,6 +17,7 @@ title: "✨ ARC-170 — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ ARC-170 — karta techniczna

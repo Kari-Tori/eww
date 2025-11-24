@@ -17,6 +17,7 @@ title: "🔧 SoC 2025 List"
 
 
 
+owner: jakubc
 ---
 
 # 🔧 SoC 2025 List

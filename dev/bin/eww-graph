@@ -1,0 +1,330 @@
+#!/usr/bin/env bash
+# eww-graph - Generuje interaktywny graf wizualizacji repozytorium
+set -euo pipefail
+
+readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+readonly EWW_ROOT="${EWW_ROOT:-$(cd "$SCRIPT_DIR/../.." && pwd)}"
+readonly OUTPUT_DIR="$EWW_ROOT/docs/infra/graphs"
+readonly TEMP_DOT="/tmp/eww-graph.dot"
+
+# Kolory dla kategorii
+readonly COLOR_CORE="#1e88e5"
+readonly COLOR_BUSINESS="#43a047"
+readonly COLOR_DOCS="#9c27b0"
+readonly COLOR_USR_JAKUBC="#ff6f00"
+readonly COLOR_USR_KARINAM="#ec407a"
+readonly COLOR_CONFIG="#fbc02d"
+readonly COLOR_TOOLS="#00897b"
+readonly COLOR_INFRA="#f4511e"
+
+# Funkcja pomocnicza - pobierz kolor na podstawie ścieżki
+get_node_color() {
+    local path="$1"
+    
+    case "$path" in
+        ./core/*) echo "$COLOR_CORE" ;;
+        ./business/*) echo "$COLOR_BUSINESS" ;;
+        ./docs/*) echo "$COLOR_DOCS" ;;
+        ./usr/jakubc/*) echo "$COLOR_USR_JAKUBC" ;;
+        ./usr/karinam/*) echo "$COLOR_USR_KARINAM" ;;
+        ./config/*) echo "$COLOR_CONFIG" ;;
+        ./tools/*) echo "$COLOR_TOOLS" ;;
+        ./infra/*) echo "$COLOR_INFRA" ;;
+        *) echo "#757575" ;; # szary - inne
+    esac
+}
+
+# Funkcja pomocnicza - ekstrakt linków z pliku MD
+extract_links() {
+    local file="$1"
+    grep -oP '\[\[([^\]]+)\]\]' "$file" 2>/dev/null | sed 's/\[\[\(.*\)\]\]/\1/' || true
+}
+
+# Generuj DOT graph
+generate_dot() {
+    echo "Generuję graf DOT..."
+    
+    cat > "$TEMP_DOT" <<'EOF'
+digraph EWW {
+    # Ustawienia globalne
+    graph [rankdir=TB, bgcolor="transparent", fontname="Arial", splines=true, overlap=false];
+    node [shape=box, style="rounded,filled", fontname="Arial", fontsize=10];
+    edge [color="#00000040", arrowsize=0.7];
+    
+EOF
+
+    # Dodaj węzły (wszystkie pliki MD)
+    while IFS= read -r file; do
+        if [[ -f "$file" ]]; then
+            local label="${file#./}"
+            local node_id="${file//[^a-zA-Z0-9]/_}"
+            local color="$(get_node_color "$file")"
+            
+            echo "    \"$node_id\" [label=\"$label\", fillcolor=\"$color\", fontcolor=\"white\"];" >> "$TEMP_DOT"
+        fi
+    done < <(find "$EWW_ROOT" -name "*.md" -type f -not -path "*/.git/*" -not -path "*/archive/*" 2>/dev/null)
+    
+    # Dodaj krawędzie (linki między plikami)
+    while IFS= read -r file; do
+        if [[ -f "$file" ]]; then
+            local source_id="${file//[^a-zA-Z0-9]/_}"
+            
+            while IFS= read -r link; do
+                # Znajdź docelowy plik
+                local target_file=""
+                
+                # Sprawdź różne ścieżki
+                if [[ -f "$EWW_ROOT/$link.md" ]]; then
+                    target_file="$EWW_ROOT/$link.md"
+                elif [[ -f "$(dirname "$file")/$link.md" ]]; then
+                    target_file="$(dirname "$file")/$link.md"
+                fi
+                
+                if [[ -n "$target_file" ]]; then
+                    local target_id="${target_file//[^a-zA-Z0-9]/_}"
+                    echo "    \"$source_id\" -> \"$target_id\";" >> "$TEMP_DOT"
+                fi
+            done < <(extract_links "$file")
+        fi
+    done < <(find "$EWW_ROOT" -name "*.md" -type f -not -path "*/.git/*" -not -path "*/archive/*" 2>/dev/null)
+    
+    echo "}" >> "$TEMP_DOT"
+}
+
+# Generuj SVG
+generate_svg() {
+    echo "Generuję SVG..."
+    mkdir -p "$OUTPUT_DIR"
+    
+    dot -Tsvg "$TEMP_DOT" -o "$OUTPUT_DIR/eww-full.svg"
+    fdp -Tsvg "$TEMP_DOT" -o "$OUTPUT_DIR/eww-force.svg"  # Force-directed layout
+    neato -Tsvg "$TEMP_DOT" -o "$OUTPUT_DIR/eww-spring.svg"  # Spring layout
+}
+
+# Generuj HTML z interaktywnym SVG
+generate_html() {
+    echo "Generuję interaktywny HTML..."
+    
+    cat > "$OUTPUT_DIR/index.html" <<'HTML'
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EWW Repository Graph</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1e1e1e;
+            color: #fff;
+            overflow: hidden;
+        }
+        #container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        #toolbar {
+            background: #252526;
+            padding: 10px 20px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            border-bottom: 1px solid #3e3e42;
+        }
+        #toolbar button {
+            background: #0e639c;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        #toolbar button:hover { background: #1177bb; }
+        #toolbar select {
+            background: #3c3c3c;
+            color: white;
+            border: 1px solid #555;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        #graph-container {
+            flex: 1;
+            overflow: auto;
+            position: relative;
+        }
+        #graph {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+        #graph:active { cursor: grabbing; }
+        #legend {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #252526cc;
+            padding: 15px;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+            font-size: 12px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        #stats {
+            margin-left: auto;
+            font-size: 12px;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="toolbar">
+            <h1 style="font-size: 18px;">🌐 EWW Repository Graph</h1>
+            <select id="layout-select">
+                <option value="eww-full.svg">Hierarchical (dot)</option>
+                <option value="eww-force.svg">Force-Directed (fdp)</option>
+                <option value="eww-spring.svg">Spring (neato)</option>
+            </select>
+            <button onclick="resetZoom()">🔄 Reset Zoom</button>
+            <button onclick="downloadSVG()">💾 Download SVG</button>
+            <div id="stats"></div>
+        </div>
+        <div id="graph-container">
+            <object id="graph" type="image/svg+xml" data="eww-full.svg"></object>
+            <div id="legend">
+                <h3 style="margin-bottom: 10px; font-size: 14px;">Kategorie</h3>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #1e88e5;"></div>
+                    <span>Core</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #43a047;"></div>
+                    <span>Business</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #9c27b0;"></div>
+                    <span>Docs</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ff6f00;"></div>
+                    <span>User: jakubc</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ec407a;"></div>
+                    <span>User: karinam</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #fbc02d;"></div>
+                    <span>Config</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #00897b;"></div>
+                    <span>Tools</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #f4511e;"></div>
+                    <span>Infra</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const graph = document.getElementById('graph');
+        const layoutSelect = document.getElementById('layout-select');
+        const statsDiv = document.getElementById('stats');
+        
+        // Zmiana layoutu
+        layoutSelect.addEventListener('change', (e) => {
+            graph.data = e.target.value;
+        });
+        
+        // Reset zoom
+        function resetZoom() {
+            document.getElementById('graph-container').scrollTo(0, 0);
+        }
+        
+        // Download SVG
+        function downloadSVG() {
+            const link = document.createElement('a');
+            link.href = layoutSelect.value;
+            link.download = layoutSelect.value;
+            link.click();
+        }
+        
+        // Statystyki
+        graph.addEventListener('load', () => {
+            const svgDoc = graph.contentDocument;
+            const nodes = svgDoc.querySelectorAll('g.node').length;
+            const edges = svgDoc.querySelectorAll('g.edge').length;
+            statsDiv.textContent = `📊 Nodes: ${nodes} | Edges: ${edges}`;
+        });
+        
+        // Pan & Zoom (podstawowy)
+        let isPanning = false;
+        let startX, startY;
+        const container = document.getElementById('graph-container');
+        
+        graph.addEventListener('mousedown', (e) => {
+            isPanning = true;
+            startX = e.clientX - container.scrollLeft;
+            startY = e.clientY - container.scrollTop;
+        });
+        
+        document.addEventListener('mousemove', (e) => {
+            if (!isPanning) return;
+            container.scrollLeft = startX - e.clientX;
+            container.scrollTop = startY - e.clientY;
+        });
+        
+        document.addEventListener('mouseup', () => {
+            isPanning = false;
+        });
+    </script>
+</body>
+</html>
+HTML
+}
+
+# Główna funkcja
+main() {
+    echo "🌐 EWW Graph Generator"
+    echo "======================"
+    
+    cd "$EWW_ROOT"
+    
+    generate_dot
+    generate_svg
+    generate_html
+    
+    rm -f "$TEMP_DOT"
+    
+    echo ""
+    echo "✅ Gotowe!"
+    echo ""
+    echo "📁 Pliki wygenerowane w: $OUTPUT_DIR"
+    echo "   - eww-full.svg (hierarchical)"
+    echo "   - eww-force.svg (force-directed)"
+    echo "   - eww-spring.svg (spring layout)"
+    echo "   - index.html (interaktywny viewer)"
+    echo ""
+    echo "🌐 Otwórz w przeglądarce:"
+    echo "   xdg-open $OUTPUT_DIR/index.html"
+}
+
+main "$@"

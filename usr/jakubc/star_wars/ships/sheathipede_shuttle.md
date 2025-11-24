@@ -17,6 +17,7 @@ title: "✨ Sheathipede-class Shuttle — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Sheathipede-class Shuttle — karta techniczna

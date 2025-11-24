@@ -17,6 +17,7 @@ title: "✨ T-65 X-wing — prototyp z końca Wojen Klonów"
 
 
 
+owner: jakubc
 ---
 
 # ✨ T-65 X-wing — prototyp z końca Wojen Klonów

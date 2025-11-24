@@ -17,6 +17,7 @@ title: "🛩️ Delta-7 Aethersprite — notatka techniczna i plan buildu"
 
 
 
+owner: jakubc
 ---
 
 # 🛩️ Delta-7 Aethersprite — notatka techniczna i plan buildu

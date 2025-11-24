@@ -17,6 +17,7 @@ title: "🔧 BIOS / UEFI — narzędzia operacyjne"
 
 
 
+owner: jakubc
 ---
 
 # 🔧 BIOS / UEFI — narzędzia operacyjne

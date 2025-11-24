@@ -17,6 +17,7 @@ title: "🛰️ OBEX — Nu-class Attack/Transport Shuttle (Wojny Klonów)"
 
 
 
+owner: jakubc
 ---
 
 # 🛰️ OBEX — Nu-class Attack/Transport Shuttle (Wojny Klonów)

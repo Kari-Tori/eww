@@ -17,6 +17,7 @@ title: "🔷 Kaminoanie"
 
 
 
+owner: jakubc
 ---
 
 # 🔷 Kaminoanie

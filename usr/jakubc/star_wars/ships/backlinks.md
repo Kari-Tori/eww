@@ -17,6 +17,7 @@ title: "backlinks"
 
 
 
+owner: jakubc
 ---
 
 - [[usr/jakubc/star_wars/ships/arc170_starfighter.md|Arc170 Starfighter]]

@@ -17,6 +17,7 @@ title: "🔷 Zingerrianie (Zygerrianie)"
 
 
 
+owner: jakubc
 ---
 
 # 🔷 Zingerrianie (Zygerrianie)

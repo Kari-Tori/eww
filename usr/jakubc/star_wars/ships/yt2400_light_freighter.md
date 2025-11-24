@@ -17,6 +17,7 @@ title: "🚚 YT-2400 — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # 🚚 YT-2400 — karta techniczna

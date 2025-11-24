@@ -17,6 +17,7 @@ title: "🔶 Durosi"
 
 
 
+owner: jakubc
 ---
 
 # 🔶 Durosi

@@ -8,28 +8,49 @@ tags:
   - #linux
   - #secondbrain
   - #folder_note
+  - #profile
 created: 2025-11-21T20:00:00Z
-modified: 2025-11-21T20:00:00Z
+modified: 2025-11-22T12:00:00Z
 author: jakubc
-title: "👨‍💻 Jakub C"
+title: "👨‍💻 Jakub C - Księciunio"
 
 
 
 
 
 
+owner: jakubc
 ---
 
-# 👨‍💻 Jakub C
+# 👨‍💻 Jakub C - Księciunio
 
-> **Właściciel projektu EWW | Lead Developer**
+> **Właściciel projektu EWW | Lead Developer | Wielki Implementator**
 
-## �� Podstawowe Informacje
+## 📋 Podstawowe Informacje
 
-**Użytkownik**: jakubc  
-**Rola**: Owner, Lead Developer  
-**Kolor grafu**: 🟢 Zielony (`#jakubc`)  
-**Lokalizacja**: `/usr/jakubc/`
+**Imię i nazwisko:** Jakub Celmer
+**Username:** jakubc
+**Email:** astriblast@gmail.com
+**Rola:** Owner, Lead Developer, Wielki Implementator
+**Właściciel:** GERC (192.168.0.99)
+**Kolor grafu:** 🟢 Zielony (`#jakubc`)
+**Lokalizacja:** `/usr/jakubc/`
+
+## 🏷️ Pseudonimy i nazwy
+
+- **jakubc** - username systemowy
+- **Jakub Celmer** - imię i nazwisko
+- **Księciunio** - TO JA! (nie Karina!)
+- **Wielki Implementator** - rola w projekcie
+- **astriblast** - email handle
+
+## 💻 System i infrastruktura
+
+**Hostname:** GERC
+**IP Address:** 192.168.0.99
+**OS:** Kubuntu 25.04 (Plucky)
+**Desktop:** Plasma 6.4
+**Kernel:** 6.14.0-36-generic
 
 ## 🎯 Obszary Odpowiedzialności
 
@@ -60,14 +81,14 @@ title: "👨‍💻 Jakub C"
 
 ### 📝 Notatki
 - [[usr/jakubc/NOTES|📋 Work Notes]]
-- [[usr/jakubc/TODO|✅ Personal TODO]]
+- [[usr/jakubc/TODO/TODO|✅ Personal TODO]]
 - [[usr/jakubc/IDEAS|💡 Ideas & Brainstorm]]
 
 ## 🔗 Powiązania
 
-**Z główną mapą**: [[EWW-MAP|🗺️ Repository Map]]  
-**Z users**: [[usr/usr|👥 Users]]  
-**Z dokumentacją**: [[docs/docs|📚 Docs]]  
+**Z główną mapą**: [[EWW-MAP|🗺️ Repository Map]]
+**Z users**: [[usr/usr|👥 Users]]
+**Z dokumentacją**: [[docs/docs|📚 Docs]]
 **Z drugim user**: [[usr/karinam/karinam|👩‍💻 Karina M]]
 
 ## 🛠️ Stack Technologiczny
@@ -92,13 +113,13 @@ title: "👨‍💻 Jakub C"
 
 ## 🎨 Oznaczenie Grafu
 
-**Tag**: `#jakubc`  
-**Kolor**: 🟢 Zielony  
+**Tag**: `#jakubc`
+**Kolor**: 🟢 Zielony
 **Widoczność**: Wysoka (właściciel)
 
 
-**Lokalizacja**: `/usr/jakubc/jakubc.md`  
-**Ostatnia aktualizacja**: 2025-11-21  
+**Lokalizacja**: `/usr/jakubc/jakubc.md`
+**Ostatnia aktualizacja**: 2025-11-21
 **Graph**: Centrum projektu
 
 #jakubc #user #owner #developer
@@ -134,4 +155,3 @@ title: "👨‍💻 Jakub C"
 - [[GRAPH-CORE]]
 - [[GRAPH-BUSINESS]]
 - [[GRAPH-CONFIG]]
-

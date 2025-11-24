@@ -17,6 +17,7 @@ title: "🔷 Chiss"
 
 
 
+owner: jakubc
 ---
 
 # 🔷 Chiss

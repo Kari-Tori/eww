@@ -17,6 +17,7 @@ title: "🔧 SoC 2025 - Examples"
 
 
 
+owner: jakubc
 ---
 
 # 🔧 SoC 2025 - Examples

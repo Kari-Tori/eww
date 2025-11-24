@@ -17,6 +17,7 @@ title: "usr/jakubc/star_wars/ships/List.md"
 
 
 
+owner: jakubc
 ---
 
 # usr/jakubc/star_wars/ships/List.md

@@ -17,6 +17,7 @@ title: "✨ Vulture-class Droid — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Vulture-class Droid — karta techniczna

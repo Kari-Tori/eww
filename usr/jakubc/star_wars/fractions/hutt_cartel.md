@@ -17,6 +17,7 @@ title: "🟤🕵️ Kartel Huttów"
 
 
 
+owner: jakubc
 ---
 
 # 🟤🕵️ Kartel Huttów

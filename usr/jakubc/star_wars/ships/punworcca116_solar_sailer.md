@@ -17,6 +17,7 @@ title: "🟥 Punworcca 116 Solar Sailer — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # 🟥 Punworcca 116 Solar Sailer — karta techniczna

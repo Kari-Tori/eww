@@ -18,6 +18,7 @@ title: "🧬 Folder `star_wars/races`"
 
 
 
+owner: jakubc
 ---
 
 # 🧬 Folder `star_wars/races`

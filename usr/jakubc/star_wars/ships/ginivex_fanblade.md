@@ -17,6 +17,7 @@ title: "🌀 Ginivex Fanblade — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # 🌀 Ginivex Fanblade — karta techniczna

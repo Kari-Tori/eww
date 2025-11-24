@@ -17,6 +17,7 @@ title: "🔟 TOP 10 – Małe pojazdy / działa klonów (minifig scale, premium 
 
 
 
+owner: jakubc
 ---
 
 # 🔟 TOP 10 – Małe pojazdy / działa klonów (minifig scale, premium odwzorowanie)

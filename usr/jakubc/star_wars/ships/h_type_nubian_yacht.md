@@ -17,6 +17,7 @@ title: "✨ H-type Nubian Yacht — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ H-type Nubian Yacht — karta techniczna

@@ -17,6 +17,7 @@ title: "🔵✴️ Zakon Jedi"
 
 
 
+owner: jakubc
 ---
 
 # 🔵✴️ Zakon Jedi

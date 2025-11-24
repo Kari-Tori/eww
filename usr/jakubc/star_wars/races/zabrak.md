@@ -17,6 +17,7 @@ title: "🔷 Zabrakowie"
 
 
 
+owner: jakubc
 ---
 
 # 🔷 Zabrakowie

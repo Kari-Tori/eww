@@ -17,6 +17,7 @@ title: "✨ G9 Rigger “Twilight” — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ G9 Rigger “Twilight” — karta techniczna

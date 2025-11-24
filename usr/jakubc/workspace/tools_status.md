@@ -17,6 +17,7 @@ title: "## Aktualny stan narzędzi"
 
 
 
+owner: jakubc
 ---
 
 ## Aktualny stan narzędzi

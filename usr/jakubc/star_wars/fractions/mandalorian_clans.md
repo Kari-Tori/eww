@@ -17,6 +17,7 @@ title: "🟠🛡️ Klany Mandaloriańskie"
 
 
 
+owner: jakubc
 ---
 
 # 🟠🛡️ Klany Mandaloriańskie

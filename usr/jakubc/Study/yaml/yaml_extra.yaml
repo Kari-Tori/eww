@@ -1,0 +1,86 @@
+meta:
+  title: "GERC Boot · System Snapshot"
+  generated_at: 2025-11-22T10:07:40+00:00
+  source_file: /home/jakubc/git/eww/usr/jakubc/TODO-list-22-11-2025.md
+  description: "Maximum metadata extracted via system tooling stack"
+  tags:
+    - kubuntu
+    - plasma
+    - task-card
+system:
+  distro: "Ubuntu 25.04"
+  kernel: "Linux 6.14.0-36-generic x86_64 GNU/Linux"
+  hostname: GERC
+  user: jakubc
+  shell: /bin/bash
+  working_directory: /home/jakubc/git/eww
+  uptime_pretty: "up 2 hours, 33 minutes"
+  boot_time: "2025-11-22 07:33:49"
+  desktop: plasma-6.4
+  os_codename: plucky
+cpu:
+  model: "Intel(R) Core(TM) i7-5960X CPU @ 3.00GHz"
+  sockets: 1
+  cores_per_socket: 8
+  threads_per_core: 2
+  total_logical: 16
+  min_mhz: 1200.0
+  max_mhz: 3900.0
+  flags: "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb pti intel_ppin ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm xsaveopt cqm_llc cqm_occup_llc dtherm ida arat pln pts md_clear flush_l1d"
+memory:
+  total: 31Gi
+  used: 8.6Gi
+  free: 16Gi
+  shared: 184Mi
+  cache: 7.2Gi
+  available: 22Gi
+swap:
+  total: 511Mi
+  used: 0B
+  free: 511Mi
+disk:
+  mounts:
+    - path: /home/jakubc
+      filesystem: /dev/nvme0n1p1
+      size: 469G
+      used: 161G
+      available: 285G
+      usage_percent: 37%
+file_info:
+  path: /home/jakubc/git/eww/usr/jakubc/TODO-list-22-11-2025.md
+  size_bytes: 3917
+  mode_hex: "0x81b4"
+  permissions: "-rw-rw-r--"
+  owner_user: jakubc
+  owner_group: jakubc
+  uid: 1000
+  gid: 1000
+  inode: 4470488
+  hard_links: 1
+  fs_modify: 2025-11-22T10:02:38+00:00
+  fs_change: 2025-11-22T10:02:38+00:00
+  fs_access: 2025-11-22T10:02:38+00:00
+  sha256: 9995eee77268ad4407b2b65706e44a1713f2e47052394762746fb7f1f9302670
+git:
+  repo_root: /home/jakubc/git/eww
+  branch: main
+  head: c3fa75490a55f0c576aac5ff5458298668c375f0
+  status:
+    - " D .githooks/pre-commit.disabled"
+    - " M .obsidian/graph.json"
+    - " M .vscode/settings.json"
+    - " M usr/jakubc/TODO.md"
+    - "?? .githooks/pre-commit"
+tools_used:
+  - lsb_release -ds
+  - uname -srmo
+  - uptime -p
+  - uptime -s
+  - stat
+  - sha256sum
+  - git status --short
+  - git rev-parse
+  - df -h /home/jakubc
+  - free -h
+  - lscpu
+  - date --iso-8601=seconds

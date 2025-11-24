@@ -20,6 +20,7 @@ title: "✨ Eta-class „Jedi Shuttle” — karta techniczna"
 
 
 
+owner: jakubc
 ---
 
 # ✨ Eta-class „Jedi Shuttle” — karta techniczna

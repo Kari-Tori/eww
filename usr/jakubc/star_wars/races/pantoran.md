@@ -17,6 +17,7 @@ title: "🔶 Pantoranie"
 
 
 
+owner: jakubc
 ---
 
 # 🔶 Pantoranie

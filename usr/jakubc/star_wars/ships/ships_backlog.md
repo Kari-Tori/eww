@@ -17,6 +17,7 @@ title: "## 🚀 Kolejne statki do opracowania"
 
 
 
+owner: jakubc
 ---
 
 ## 🚀 Kolejne statki do opracowania
