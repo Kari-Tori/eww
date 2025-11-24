@@ -17,6 +17,7 @@ title: "EWW_Style — Playbook pakietu stylistycznego (KDE/Plasma 6)"
 
 
 
+owner: jakubc
 ---
 
 
