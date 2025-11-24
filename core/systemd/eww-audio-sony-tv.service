@@ -1,0 +1,11 @@
+[Unit]
+Description=Konfiguracja audio GERC - SONY TV (HDMI ARC)
+After=sound.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/jakubc/git/eww/scripts/audio-setup-sony-tv.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target

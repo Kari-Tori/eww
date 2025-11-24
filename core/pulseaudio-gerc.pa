@@ -1,0 +1,16 @@
+# default.pa - Domyślna konfiguracja PulseAudio dla GERC
+# Ten plik ustawia SONY TV jako domyślne wyjście audio
+
+### Załaduj podstawowe moduły
+.include /etc/pulse/default.pa
+
+### Ustaw SONY TV jako domyślne wyjście po załadowaniu
+# Czekaj na kartę NVIDIA (GTX 980 Ti #2) i ustaw odpowiedni profil
+load-module module-switch-on-connect
+
+### Hook do automatycznego ustawiania SONY TV
+# Gdy karta się pojawi, ustaw profil i domyślne wyjście
+.ifexists module-alsa-card.so
+set-card-profile alsa_card.pci-0000_01_00.1 output:hdmi-stereo-extra1
+set-default-sink alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1
+.endif

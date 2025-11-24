@@ -1,6 +1,6 @@
 [Unit]
 Description=Daily Graph Snapshot Service
-Documentation=file:///home/jakubc/git/eww/docs/software/obsidian/plugins/core/graph-view/graph-view-plan.md
+Documentation=file:///home/jakubc/git/eww/docs/infra/software/obsidian/plugins/core/graph-view/graph-view-plan.md
 
 [Service]
 Type=oneshot
