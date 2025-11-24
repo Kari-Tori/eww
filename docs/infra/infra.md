@@ -18,6 +18,7 @@ title: "🏗️ Infra — katalog główny"
 
 
 
+owner: jakubc
 ---
 
 
@@ -32,8 +33,18 @@ Folder `docs/infra/` jest jedynym źródłem prawdy dla dokumentacji infrastrukt
 | --- | --- | --- |
 | `hardware/` | Hosty fizyczne, peryferia, identyfikatory assetów | [`hardware/README.md`](hardware/README.md) |
 | `network/` | Topologia, VLAN, adresacja, ACL | [`network/README.md`](network/README.md) |
-| `software/` | Systemy i usługi (OS, aplikacje, konfiguracje) | [`software/README.md`](software/README.md) |
-| `vm/` | Hypervisory, maszyny wirtualne, kontenery | [`vm/README.md`](vm/README.md) |
+| `software/` | Systemy i usługi (OS, aplikacje, konfiguracje) | [`software/software.md`](software/software.md) |
+| `graphs/` | Konfiguracje grafu Obsidian, kolory i automatyzacje | [`graphs/graph-setup-guide.md`](graphs/graph-setup-guide.md) |
+| `assets/` | Ikony, emoji, standardy oznaczeń | [`assets/assets.md`](assets/assets.md) |
+| `dashboards/` | Widoki monitoringu i kokpity operacyjne | README w podfolderach |
+| `guide/` | Przewodniki i instrukcje repozytorium | [`guide/guide.md`](guide/guide.md) |
+| `references/` | Specyfikacje i materiały referencyjne | [`references/references.md`](references/references.md) |
+| `reports/` | Raporty stanu, indeksy i logi czyszczenia | [`reports/INDEX.md`](reports/INDEX.md) |
+| `site/` | Artefakty generatora strony docs | README w podfolderach |
+| `tags/` | Folder notes dla tagów vaulta | [`tags/tags.md`](tags/tags.md) |
+| `wiki/` | Artykuły techniczne (Kubuntu, Neovim, Obsidian) | [`wiki/wiki.md`](wiki/wiki.md) |
+| `legacy/` | Stare indeksy (docs.md, README, makefile guide) | pliki przeniesione z `docs/` |
+| `vm/` | Hypervisory, maszyny wirtualne, kontenery | [`vm/vm.md`](vm/vm.md) |
 
 ## ✅ Jak pracować z katalogiem
 
@@ -50,10 +61,22 @@ W razie potrzeby możesz rozszerzyć strukturę (`docs/infra/security/`, `docs/i
 ## 📁 Podfoldery
 
 - [architecture/](architecture/architecture.md)
+- [areas/](areas/README.md)
+- [assets/](assets/assets.md)
+- [dashboards/](dashboards/README.md)
+- [graphs/](graphs/graph-setup-guide.md)
+- [guide/](guide/guide.md)
 - [hardware/](hardware/hardware.md)
+- [legacy/](legacy/README.md)
 - [network/](network/network.md)
+- [references/](references/references.md)
+- [reports/](reports/INDEX.md)
+- [site/](site/README.md)
 - [software/](software/software.md)
+- [status_sieci.md](status_sieci.md)
+- [tags/](tags/tags.md)
 - [vm/](vm/vm.md)
+- [wiki/](wiki/wiki.md)
 
 ## 🔗 Backlinks
 
@@ -62,4 +85,3 @@ W razie potrzeby możesz rozszerzyć strukturę (`docs/infra/security/`, `docs/i
 - [[GRAPH-CORE]]
 - [[GRAPH-BUSINESS]]
 - [[GRAPH-CONFIG]]
-
