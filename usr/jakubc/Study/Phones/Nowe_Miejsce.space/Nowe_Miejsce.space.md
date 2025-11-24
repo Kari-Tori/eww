@@ -18,6 +18,7 @@ title: "📁 Nowe Miejsce.space"
 
 
 
+owner: jakubc
 ---
 
 # 📁 Nowe Miejsce.space

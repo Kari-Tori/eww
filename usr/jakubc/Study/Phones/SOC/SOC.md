@@ -18,6 +18,7 @@ title: "📁 SOC"
 
 
 
+owner: jakubc
 ---
 
 # 📁 SOC

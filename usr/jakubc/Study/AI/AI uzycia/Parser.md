@@ -17,6 +17,7 @@ title: "Parser treści"
 
 
 
+owner: jakubc
 ---
 
 # Parser treści

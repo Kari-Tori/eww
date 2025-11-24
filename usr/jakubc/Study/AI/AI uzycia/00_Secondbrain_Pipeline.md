@@ -17,6 +17,7 @@ title: "Secondbrain Pipeline"
 
 
 
+owner: jakubc
 ---
 
 # Secondbrain Pipeline

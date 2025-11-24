@@ -17,9 +17,12 @@ title: "Jakub Celmer (jakubc)"
 
 
 
+owner: jakubc
 ---
 
 # Jakub Celmer (jakubc)
+
+> **🖥️ Ten katalog**: Lokalny `/home/jakubc/` na `dev-laptop`
 
 ## 🎯 Role
 - **Wielki Implementator** - główny architekt i implementator E-Waste Workshop

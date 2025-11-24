@@ -17,6 +17,7 @@ title: "Linter notatek"
 
 
 
+owner: jakubc
 ---
 
 # Linter notatek

@@ -17,6 +17,7 @@ title: "Autotagowanie i aktualizacja YAML"
 
 
 
+owner: jakubc
 ---
 
 # Autotagowanie i aktualizacja YAML

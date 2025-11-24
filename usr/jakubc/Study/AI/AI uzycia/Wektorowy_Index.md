@@ -17,6 +17,7 @@ title: "Indeks wektorowy"
 
 
 
+owner: jakubc
 ---
 
 # Indeks wektorowy

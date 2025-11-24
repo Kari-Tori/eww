@@ -17,6 +17,7 @@ title: "Indexowanie wiedzy"
 
 
 
+owner: jakubc
 ---
 
 # Indexowanie wiedzy

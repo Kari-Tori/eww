@@ -17,6 +17,7 @@ title: "🧠 EMBEDDINGS AI / SECOND-BRAIN INDEX"
 
 
 
+owner: jakubc
 ---
 ---
 title: 🧠 EMBEDDINGS AI / SECOND-BRAIN INDEX

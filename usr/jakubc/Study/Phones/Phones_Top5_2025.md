@@ -17,6 +17,7 @@ title: "📱 TOP 5 2025 — spec, bateria, koszt"
 
 
 
+owner: jakubc
 ---
 
 # 📱 TOP 5 2025 — spec, bateria, koszt

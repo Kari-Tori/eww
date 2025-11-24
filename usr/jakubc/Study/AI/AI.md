@@ -18,6 +18,7 @@ title: "📁 AI"
 
 
 
+owner: jakubc
 ---
 
 # 📁 AI

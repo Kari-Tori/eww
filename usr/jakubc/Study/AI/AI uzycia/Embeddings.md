@@ -17,6 +17,7 @@ title: "Embeddings semantyczne"
 
 
 
+owner: jakubc
 ---
 
 # Embeddings semantyczne

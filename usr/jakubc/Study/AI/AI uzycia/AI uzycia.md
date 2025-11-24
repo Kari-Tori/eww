@@ -18,6 +18,7 @@ title: "📁 AI uzycia"
 
 
 
+owner: jakubc
 ---
 
 # 📁 AI uzycia
