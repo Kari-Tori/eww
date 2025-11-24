@@ -17,6 +17,7 @@ title: "🧩 Software — źródło prawdy"
 
 
 
+owner: jakubc
 ---
 
 

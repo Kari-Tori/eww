@@ -15,7 +15,7 @@ title: "{{title}}"
 
 ## Powiązane
 
-- 
+-
 
 ## Metadata
 
