@@ -1,0 +1,30 @@
+---
+tags:
+  - #todo
+  - #gerc
+  - #automation
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-22T19:35:00Z
+author: jakubc
+title: "Karta zadania · GERC Boot"
+status: in-progress
+priority: high
+due: 2025-11-22
+related:
+  - [[TODO-gerc-boot]]
+owner: jakubc
+---
+
+# Karta zadania · GERC Boot
+
+## 📋 Stan
+- Sekcja 2 (zakres funkcjonalny) wymaga dopracowania YAML i automatyzacji autostartu.
+- Postęp szacowany na 50%.
+
+## ✅ Kroki
+- [x] Utworzono kartę zadania (`TODO-gerc-boot`).
+- [ ] Dokończyć opis i scenariusze autostartu.
+- [ ] Wdrożyć autostart i przetestować.
+
+## 🔗 Źródło
+- `TODO-list-22-11-2025.md` – sekcja „W toku”.
