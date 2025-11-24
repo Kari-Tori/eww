@@ -18,6 +18,7 @@ title: "📁 scripts"
 
 
 
+owner: jakubc
 ---
 
 # 📁 scripts

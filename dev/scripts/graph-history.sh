@@ -47,14 +47,14 @@ sed -i "s/AUTO_TIMESTAMP/$(date '+%Y-%m-%d %H:%M:%S')/" "$HISTORY_FILE"
 # Parsuj każdy snapshot
 for snapshot in $(find "$VERSIONS_DIR" -name "graph-*.json" | sort -r); do
     DATE=$(basename "$snapshot" | sed 's/graph-//;s/.json//')
-    
+
     # Wyciągnij dane z JSON (jeśli jq dostępne)
     if command -v jq &> /dev/null; then
         GROUPS=$(jq '.colorGroups | length' "$snapshot" 2>/dev/null || echo "N/A")
         REPEL=$(jq '.repelStrength' "$snapshot" 2>/dev/null || echo "N/A")
         DISTANCE=$(jq '.linkDistance' "$snapshot" 2>/dev/null || echo "N/A")
         FILTER=$(jq -r '.search // "none"' "$snapshot" 2>/dev/null | head -c 30)
-        
+
         echo "| $DATE | $GROUPS | repel:$REPEL dist:$DISTANCE | $FILTER... | Auto-snapshot |" \
             >> "$HISTORY_FILE"
     else

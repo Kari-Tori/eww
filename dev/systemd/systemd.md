@@ -18,6 +18,7 @@ title: "📁 systemd"
 
 
 
+owner: jakubc
 ---
 
 # 📁 systemd
