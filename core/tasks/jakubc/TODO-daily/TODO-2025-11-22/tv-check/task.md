@@ -1,0 +1,29 @@
+---
+tags:
+  - #todo
+  - #tv
+  - #setup
+created: 2025-11-22T18:56:00Z
+modified: 2025-11-22T18:56:00Z
+author: jakubc
+title: "TV task"
+status: todo
+priority: medium
+due: 2025-11-22
+owner: jakubc
+---
+
+# TV task
+
+## 🎯 Goal
+Make sure the Samsung 65" TV is ready for work mode.
+
+## ✅ Steps
+- [ ] Check HDMI cable from GERC to TV.
+- [ ] Clean the screen with microfiber cloth.
+- [ ] Verify ARC audio path with the amplifier.
+- [ ] Update the TV firmware if a prompt appears.
+
+## 🔗 Links
+- [[docs/infra/hardware/workstations/gerc/accessories/monitors/samsung-65-tv]]
+- [[TODO-daily-2025-11-22]]
