@@ -18,6 +18,7 @@ title: "📁 Secondbrain"
 
 
 
+owner: jakubc
 ---
 
 # 📁 Secondbrain

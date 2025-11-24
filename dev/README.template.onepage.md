@@ -17,6 +17,7 @@ title: "🚀 Nazwa Projektu"
 
 
 
+owner: jakubc
 ---
 
 
@@ -180,7 +181,7 @@ git push origin feat/amazing-feature
 
 ## 📚 Dokumentacja
 
-- [User Guide](docs/guide.md)
+- [User Guide](docs/infra/guide.md)
 - [API Reference](docs/api.md)
 - [FAQ](docs/faq.md)
 - [Troubleshooting](docs/troubleshooting.md)

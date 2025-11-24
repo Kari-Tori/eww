@@ -18,6 +18,7 @@ title: "📁 Odoo"
 
 
 
+owner: jakubc
 ---
 
 # 📁 Odoo

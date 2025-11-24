@@ -18,6 +18,7 @@ title: "📁 odoo_ebay_sync_mvp"
 
 
 
+owner: jakubc
 ---
 
 # 📁 odoo_ebay_sync_mvp
