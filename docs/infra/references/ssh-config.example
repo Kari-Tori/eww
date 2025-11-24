@@ -1,0 +1,64 @@
+# ~/.ssh/config dla projektu E-Waste Workshop
+# Skopiuj ten plik do ~/.ssh/config i dostosuj IP/hostname
+
+# ===== E-WASTE WORKSHOP MACHINES =====
+
+# dev-laptop (Jakub Celmer)
+Host dev-laptop
+    HostName 192.168.1.50          # ZMIEŃ: na właściwy IP dev-laptop
+    User jakubc
+    IdentityFile ~/.ssh/id_ed25519
+    Port 22
+    ForwardAgent yes
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    Compression yes
+
+# ops-workstation (Karina Mirowska)
+Host ops-workstation
+    HostName 192.168.1.100         # ZMIEŃ: na właściwy IP ops-workstation
+    User karinam
+    IdentityFile ~/.ssh/id_ed25519
+    Port 22
+    ForwardAgent yes
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    Compression yes
+
+# ===== OPIS PARAMETRÓW =====
+#
+# Host              - Alias używany w komendach SSH i VS Code
+# HostName          - IP lub nazwa DNS maszyny docelowej
+# User              - Nazwa użytkownika na zdalnej maszynie
+# IdentityFile      - Ścieżka do klucza prywatnego SSH
+# Port              - Port SSH (domyślnie 22)
+# ForwardAgent      - Przekazanie agenta SSH (przydatne dla Git)
+# ServerAliveInterval - Ping co 60s aby utrzymać połączenie
+# ServerAliveCountMax - Max 3 nieudane pingi przed disconnect
+# Compression       - Kompresja danych (przyspiesza na wolnych łączach)
+
+# ===== JAK ZNALEŹĆ IP? =====
+#
+# Na docelowej maszynie uruchom:
+#   ip addr show
+#   hostname -I
+#   ip route get 1.1.1.1 | awk '{print $7}'
+
+# ===== JAK UŻYĆ? =====
+#
+# 1. Skopiuj ten plik:
+#    cp /git/eww/usr/ssh-config.example ~/.ssh/config
+#
+# 2. Edytuj i zmień IP:
+#    nano ~/.ssh/config
+#
+# 3. Ustaw odpowiednie uprawnienia:
+#    chmod 600 ~/.ssh/config
+#
+# 4. Testuj połączenie:
+#    ssh dev-laptop
+#    ssh ops-workstation
+#
+# 5. W VS Code:
+#    Ctrl+Shift+P → "Remote-SSH: Connect to Host..."
+#    Wybierz: ops-workstation lub dev-laptop

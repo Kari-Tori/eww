@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "📁 EWW (local)",
+      "path": "/home/jakubc/git/eww"
+    },
+    {
+      "name": "🏠 jakubc@dev-laptop (local)",
+      "path": "/home/jakubc"
+    },
+    {
+      "name": "🌐 karinam@ops-workstation (SSH)",
+      "uri": "vscode-remote://ssh-remote+ops-workstation/home/karinam"
+    }
+  ],
+  "settings": {
+    "remote.SSH.remotePlatform": {
+      "ops-workstation": "linux",
+      "dev-laptop": "linux"
+    },
+    "remote.SSH.configFile": "~/.ssh/config",
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/.venv/**": true,
+      "**/venv/**": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode-remote.remote-ssh",
+      "ms-vscode-remote.remote-ssh-edit"
+    ]
+  }
+}

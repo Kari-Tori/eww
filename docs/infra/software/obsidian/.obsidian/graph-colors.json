@@ -1,0 +1,74 @@
+{
+  "colorGroups": [
+    {
+      "query": "tag:#folder_note",
+      "color": {
+        "a": 1,
+        "rgb": 5227511
+      }
+    },
+    {
+      "query": "tag:#eww OR tag:#recycling OR tag:#eco OR tag:#eko OR path:core/ OR path:config/ OR path:business/ OR path:docs/",
+      "color": {
+        "a": 1,
+        "rgb": 3890230
+      }
+    },
+    {
+      "query": "tag:#jakubc OR path:usr/jakubc",
+      "color": {
+        "a": 1,
+        "rgb": 12986408
+      }
+    },
+    {
+      "query": "tag:#karinam OR path:usr/karinam",
+      "color": {
+        "a": 1,
+        "rgb": 16744359
+      }
+    },
+    {
+      "query": "tag:#star-wars OR path:usr/jakubc/star_wars",
+      "color": {
+        "a": 1,
+        "rgb": 14263361
+      }
+    },
+    {
+      "query": "tag:#lego OR path:usr/jakubc/lego OR path:usr/jakubc/Lego",
+      "color": {
+        "a": 1,
+        "rgb": 16040461
+      }
+    },
+    {
+      "query": "tag:#avocado OR path:docs/archive/avocado",
+      "color": {
+        "a": 1,
+        "rgb": 5664799
+      }
+    },
+    {
+      "query": "tag:#secondbrain OR path:dev/Projects/Secondbrain",
+      "color": {
+        "a": 1,
+        "rgb": 9394928
+      }
+    },
+    {
+      "query": "tag:#GERC OR path:docs/infra/hardware/gerc",
+      "color": {
+        "a": 1,
+        "rgb": 870305
+      }
+    },
+    {
+      "query": "tag:#Asus_Z77 OR path:docs/infra/hardware/asus_z77",
+      "color": {
+        "a": 1,
+        "rgb": 12604881
+      }
+    }
+  ]
+}
