@@ -1,0 +1,129 @@
+/* 🎨 EWW Repository - Graph View Colors */
+/* Kolory dla głównych obszarów repo w Obsidian Graph View */
+
+/* ═══════════════════════════════════════════════════════════════ */
+/* 👥 UŻYTKOWNICY */
+/* ═══════════════════════════════════════════════════════════════ */
+
+/* 💖 KARINAM - Różowy/Pink */
+.graph-view.color-tag-karinam,
+.graph-view.color-tag-pink {
+    fill: #FF69B4 !important;
+    stroke: #FF1493 !important;
+}
+
+/* 🔵 JAKUBC - Niebieski/Blue */
+.graph-view.color-tag-jakubc,
+.graph-view.color-tag-blue {
+    fill: #4169E1 !important;
+    stroke: #1E90FF !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════ */
+/* 📁 GŁÓWNE FOLDERY */
+/* ═══════════════════════════════════════════════════════════════ */
+
+/* 📚 DOCS - Zielony/Green */
+.graph-view.color-tag-docs,
+.graph-view.color-tag-documentation {
+    fill: #32CD32 !important;
+    stroke: #228B22 !important;
+}
+
+/* 💻 DEV - Żółty/Yellow */
+.graph-view.color-tag-development,
+.graph-view.color-tag-business,
+.graph-view.color-tag-project {
+    fill: #FFD700 !important;
+    stroke: #FFA500 !important;
+}
+
+/* 🏗️ INFRA - Fioletowy/Purple */
+.graph-view.color-tag-infra,
+.graph-view.color-tag-devops,
+.graph-view.color-tag-infrastructure {
+    fill: #9370DB !important;
+    stroke: #8B008B !important;
+}
+
+/* 🔧 TOOLS - Pomarańczowy/Orange */
+.graph-view.color-tag-tools,
+.graph-view.color-tag-automation {
+    fill: #FF8C00 !important;
+    stroke: #FF4500 !important;
+}
+
+/* 📂 VAR - Brązowy/Brown */
+.graph-view.color-tag-runtime,
+.graph-view.color-tag-data {
+    fill: #A0522D !important;
+    stroke: #8B4513 !important;
+}
+
+/* ⚙️ CONFIG - Szary/Gray */
+.graph-view.color-tag-config,
+.graph-view.color-tag-settings {
+    fill: #808080 !important;
+    stroke: #696969 !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════ */
+/* 🎯 KATEGORIE SPECJALNE */
+/* ═══════════════════════════════════════════════════════════════ */
+
+/* Journal - Jasnoniebieski */
+.graph-view.color-tag-journal,
+.graph-view.color-tag-daily {
+    fill: #87CEEB !important;
+    stroke: #4682B4 !important;
+}
+
+/* Archive - Ciemnoszary */
+.graph-view.color-tag-archive,
+.graph-view.color-tag-archived {
+    fill: #A9A9A9 !important;
+    stroke: #808080 !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════ */
+/* 📝 PODŚWIETLENIA LINKÓW */
+/* ═══════════════════════════════════════════════════════════════ */
+
+/* Grubsze linie dla ważnych tagów */
+.graph-view.color-line-tag-karinam,
+.graph-view.color-line-tag-jakubc {
+    stroke-width: 2px !important;
+    opacity: 0.8 !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════ */
+/* 🌈 HOVER EFFECTS */
+/* ═══════════════════════════════════════════════════════════════ */
+
+.graph-view.color-tag-karinam:hover {
+    fill: #FF1493 !important;
+    stroke: #C71585 !important;
+    stroke-width: 3px !important;
+}
+
+.graph-view.color-tag-jakubc:hover {
+    fill: #1E90FF !important;
+    stroke: #0000CD !important;
+    stroke-width: 3px !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════ */
+/* 💡 FILTRY POMOCNICZE */
+/* ═══════════════════════════════════════════════════════════════ */
+
+/* Personal nodes (użytkownicy) - większe */
+.graph-view.color-tag-personal {
+    r: 8 !important;
+}
+
+/* System nodes (infra/tools) - mniejsze */
+.graph-view.color-tag-infra,
+.graph-view.color-tag-tools,
+.graph-view.color-tag-config {
+    r: 5 !important;
+}

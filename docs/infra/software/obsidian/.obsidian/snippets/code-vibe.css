@@ -1,0 +1,112 @@
+
+/*
+===========================================
+ code-vibe.css – IDE‑style tuning for Obsidian
+ version : 1.1 (2025‑06‑27)
+ author  : ChatGPT
+ purpose : Give Obsidian an efficient “coding vibe”
+           while keeping visual clutter low.
+           Works best with dark themes (Dracula,
+           Monokai, Night‑Owl), but plays fine with light.
+===========================================*/
+
+/* --------------------------------------------------
+   1. Developer font (with ligatures)
+   --------------------------------------------------
+   If JetBrains Mono is installed, Obsidian will use
+   it in both editor & preview. Falls back to Fira Code
+   or default monospace. Comment out if you prefer
+   system font.
+-------------------------------------------------- */
+body,
+.cm-s-obsidian {
+  --font-monospace: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* --------------------------------------------------
+   2. Optional global accent override
+   --------------------------------------------------
+   Uncomment & tweak HSL values to match your palette.
+   Obsidian’s default variables:
+     --accent-h  (Hue 0‑360)
+     --accent-s  (Saturation %)
+     --accent-l  (Lightness %)
+-------------------------------------------------- */
+/*
+:root {
+  --accent-h: 275;
+  --accent-s: 90%;
+  --accent-l: 70%;
+}
+*/
+
+/* --------------------------------------------------
+   3. Code blocks – unified look in both modes
+-------------------------------------------------- */
+.markdown-preview-view pre code,
+.cm-s-obsidian .HyperMD-codeblock {
+  background-color: #1e1e1e; /* VS Code dark bg          */
+  border-left: 3px solid hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  padding: 0.75em 1em;
+  border-radius: 4px;
+  font-size: 0.9rem;         /* a bit denser             */
+  line-height: 1.45;
+  overflow-x: auto;
+}
+
+/* Collapsed code‑block icon (plugin Collapsible Code Blocks) */
+.collapse-indicator code,
+.collapse-indicator span {
+  color: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 10%));
+}
+
+/* --------------------------------------------------
+   4. Callouts – extra categories for dev flow
+-------------------------------------------------- */
+.callout[data-callout="code"] { --callout-color: #ff79c6; }  /* funky pink */
+.callout[data-callout="risk"] { --callout-color: #e06c75; }  /* reddish    */
+.callout[data-callout="tip"]  { --callout-color: #8be9fd; }  /* cyan hint  */
+.callout[data-callout="done"] { --callout-color: #2ecc71; }  /* green done */
+
+/* --------------------------------------------------
+   5. Tag pills – thicker & colored status tags
+   --------------------------------------------------
+   Adjust selectors (#dev, #ansible…) to your taxonomy.
+-------------------------------------------------- */
+.tag {
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/* Example custom tag colors */
+.tag[href="#dev"]       { background:#61dafb; color:#000; }
+.tag[href="#infra"]     { background:#f1c40f; color:#000; }
+.tag[href="#risk"]      { background:#e06c75; color:#fff; }
+.tag[href="#done"]      { background:#2ecc71; color:#fff; }
+
+/* --------------------------------------------------
+   6. Dataview row highlighting by status class
+-------------------------------------------------- */
+table.dataview tbody tr.status-done  { background:#2ecc7133; }
+table.dataview tbody tr.status-todo  { background:#f1c40f33; }
+table.dataview tbody tr.status-risk  { background:#e74c3c33; }
+
+/* --------------------------------------------------
+   7. Graph view – thicker node rings on hover
+-------------------------------------------------- */
+.graph-view.color-fill-accent:hover {
+  stroke-width: 2.5px;
+}
+
+/* --------------------------------------------------
+   8. Sidebar folder stripes (Rainbow-Colored Sidebar)
+-------------------------------------------------- */
+.nav-folder-title {
+  padding-left: 4px;
+  border-left: 4px solid var(--accent-color);
+}
+
+/* --------------------------------------------------
+   Done – reload snippets to see changes (Cmd/Ctrl R).
+-------------------------------------------------- */
