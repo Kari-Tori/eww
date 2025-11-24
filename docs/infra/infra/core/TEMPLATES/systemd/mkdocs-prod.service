@@ -1,0 +1,10 @@
+[Unit]
+Description=MkDocs static build + serve
+After=network-online.target
+[Service]
+Type=simple
+WorkingDirectory=/REPLACE/PROJECT
+ExecStart=/bin/bash -lc '%h/.local/bin/mkdocs build --strict && python3 -m http.server 8080 -d site'
+Restart=on-failure
+[Install]
+WantedBy=default.target

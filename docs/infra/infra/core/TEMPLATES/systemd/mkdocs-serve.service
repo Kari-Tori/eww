@@ -1,0 +1,10 @@
+[Unit]
+Description=MkDocs dev server
+After=network-online.target
+[Service]
+Type=simple
+WorkingDirectory=/REPLACE/PROJECT
+ExecStart=%h/.local/bin/mkdocs serve -a 127.0.0.1:8000
+Restart=on-failure
+[Install]
+WantedBy=default.target
