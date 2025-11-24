@@ -19,6 +19,7 @@ author: jakubc
 
 
 
+owner: jakubc
 ---
 
 # 🔧 Obsidian Git - Auto-Commit przy zamykaniu

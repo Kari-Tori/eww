@@ -14,6 +14,7 @@ created: 2025-11-21
 
 
 
+owner: jakubc
 ---
 
 # 🔧 Konfiguracja Obsidian Git

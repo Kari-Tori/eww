@@ -17,6 +17,7 @@ title: "GitHub Copilot Instructions dla projektu eww"
 
 
 
+owner: jakubc
 ---
 
 # GitHub Copilot Instructions dla projektu eww

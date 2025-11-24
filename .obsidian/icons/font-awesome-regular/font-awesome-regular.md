@@ -18,6 +18,7 @@ category: folder-note
 
 
 
+owner: jakubc
 ---
 
 # 📁 font-awesome-regular

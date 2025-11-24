@@ -11,6 +11,7 @@ title: Obsidian Git - Workflow Commitowania
 created: 2025-11-21
 author: jakubc
 
+owner: jakubc
 ---
 
 # 🎯 Obsidian Git - Workflow Commitowania
