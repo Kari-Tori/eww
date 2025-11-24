@@ -17,6 +17,7 @@ title: "🏗️ Systemy wewnętrzne"
 
 
 
+owner: jakubc
 ---
 
 

@@ -33,6 +33,7 @@ related:
 
 
 
+owner: jakubc
 ---
 
 # 04_TEAM/karinam/devices/iphone-karina

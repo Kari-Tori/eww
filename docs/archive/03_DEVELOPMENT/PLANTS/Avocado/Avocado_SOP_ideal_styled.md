@@ -31,6 +31,7 @@ related:
 
 
 
+owner: jakubc
 ---
 
 # 03_DEVELOPMENT/PLANTS/Avocado/Avocado_SOP_ideal_styled.md

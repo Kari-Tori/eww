@@ -31,6 +31,7 @@ related:
 
 
 
+owner: jakubc
 ---
 
 # obsidian/5S_checklist

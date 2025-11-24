@@ -31,6 +31,7 @@ related:
 
 
 
+owner: jakubc
 ---
 
 # avocado/avocado_hass.md

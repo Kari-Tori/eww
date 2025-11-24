@@ -18,6 +18,7 @@ title: "📁 architecture"
 
 
 
+owner: jakubc
 ---
 
 # 📁 architecture
@@ -43,7 +44,7 @@ Katalog `architecture` zawiera 1 plików i 0 podfolderów.
 ## 🔗 Nawigacja
 
 - ⬆️ [[infra/infra|infra]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
+- 🏠 [[infra/infra.md|Infra README]] - Główny index
 
 
 **Lokalizacja:** `docs/infra/architecture`  
