@@ -1,3 +1,9 @@
+# --- EWW: duże katalogi mediów (wykluczone) ---
+# Zdjęcia i pliki binarne Karina Desktop (bardzo duże)
+usr/karinam/devices/asus_z77/desktop/Karina/
+# Zrzuty i media pod e-bay
+usr/karinam/devices/asus_z77/desktop/e-bay/
+
 # EWW .gitignore
 
 # Git
