@@ -1,3 +1,8 @@
+---
+title: GitHub Copilot Instructions dla projektu eww
+description: TODO - uzupełnij opis.
+---
+
 # GitHub Copilot Instructions dla projektu eww
 
 ## O projekcie

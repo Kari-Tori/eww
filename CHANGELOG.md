@@ -37,7 +37,7 @@ projekt używa [Semantic Versioning](https://semver.org/lang/pl/).
 ## [0.0.0.1] - 2025-11-08
 
 ### Added
-- Skrypt `init-eww.sh` (funkcja `eww::init`) — ustawia `EWW_ROOT`, opcjonalnie przechodzi do katalogu projektu, ładuje baner
+- Skrypt `projects/init/init-eww.sh` (funkcja `eww::init`) — ustawia `EWW_ROOT`, opcjonalnie przechodzi do katalogu projektu, ładuje baner
 - `README.md` z instrukcją pobrania i sourcowania skryptu
 - Plik `VERSION` ustawiony na `0.0.0.1`
 - Podstawowa struktura projektu

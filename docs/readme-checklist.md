@@ -5,7 +5,7 @@ title: README checklist
 # README — lista kontrolna przed wydaniem (do użycia w Obsidian)
 
 - [ ] Wersja w `VERSION` jest aktualna i spójna z `README` (linia `Wersja:`)
-- [ ] Sekcja `Quick start` zawiera 1-liniowy przykład pobrania i sourcowania `init-eww.sh`
+- [ ] Sekcja `Quick start` zawiera 1-liniowy przykład pobrania i sourcowania `projects/init/init-eww.sh`
 - [ ] Sekcja `Funkcje i lista weryfikacji` zawiera checklistę funkcji i poleceń do testów manualnych
 - [ ] Dokument wydania `docs/release-0.0.0.1.md` istnieje i opisuje MVP
 - [ ] `CHANGELOG.md` zawiera wpis dla 0.0.0.1 (MVP)

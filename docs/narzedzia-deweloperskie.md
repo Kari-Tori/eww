@@ -118,9 +118,10 @@ yamllint .github/workflows/*.yml
 # BATS - Bash Automated Testing System
 bats --version  # 1.11.1
 bats dev/tests/
+bats projects/init/tests/
 
 # Uruchom konkretny test
-bats dev/tests/test_init.bats
+bats projects/init/tests/test_init.bats
 ```
 
 ### Dokumentacja
@@ -294,7 +295,7 @@ Dodaj komentarze:
 ```bash
 # TODO: Dodać obsługę wielu repozytoriów
 # FIXME: Bug przy pustym output Git
-# NOTE: Ta funkcja jest wywoływana przez init-eww.sh
+# NOTE: Ta funkcja jest wywoływana przez `projects/init/init-eww.sh`
 # WARNING: Wymaga Git 2.34+
 ```
 
@@ -321,8 +322,8 @@ Launch configuration (`.vscode/launch.json`):
     {
       "type": "bashdb",
       "request": "launch",
-      "name": "Debug init-eww.sh",
-      "program": "${workspaceFolder}/init-eww.sh",
+      "name": "Debug projects/init/init-eww.sh",
+      "program": "${workspaceFolder}/projects/init/init-eww.sh",
       "cwd": "${workspaceFolder}",
       "args": []
     }
@@ -433,7 +434,7 @@ format:
 
 # Testy
 test:
-	bats dev/tests/
+	bats dev/tests/ projects/init/tests/
 
 # Generowanie dokumentacji
 docs:
@@ -476,7 +477,7 @@ jobs:
         uses: mig4/setup-bats@v1
       
       - name: Run tests
-        run: bats dev/tests/
+        run: bats dev/tests/ projects/init/tests/
 ```
 
 ### Pre-commit hooks

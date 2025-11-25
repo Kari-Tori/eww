@@ -12,7 +12,7 @@ eww_banner() {
   if command -v systemctl >/dev/null 2>&1; then
     systemctl --user is-active eww-autocommit.timer >/dev/null 2>&1 && ac="on" || ac="off"
   else ac="n/a"; fi
-  repo="${EWW_ROOT:-/git/eww}"; cfg="${repo}/init-eww.sh"
+  repo="${EWW_ROOT:-/git/eww}"; cfg="${repo}/projects/init/init-eww.sh"
   ok=$([[ "${EWW_INIT_OK:-1}" = 1 ]] && echo OK || echo MISS)
 
   [[ -n "${EWW_BANNER_PREFIX:-}" ]] && printf "%s %s\n" "${EWW_BANNER_PREFIX}" "${now}"

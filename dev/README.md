@@ -1,3 +1,8 @@
+---
+title: dev/ - Narzędzia deweloperskie
+description: TODO - uzupełnij opis.
+---
+
 # dev/ - Narzędzia deweloperskie
 
 Katalog zawiera narzędzia pomocnicze do rozwoju projektu eww.
@@ -20,11 +25,26 @@ Narzędzia do automatyzacji zadań:
 - `check_readme.sh` - walidacja dokumentacji
 - `semver_auto.sh` - automatyczne wersjonowanie
 
-### `tests/` - Testy
-Testy BATS dla projektu:
-- `test_init.bats` - testy inicjalizacji
-- `test_idempotency.bats` - testy idempotencji
-- `test_init_behavior.bats` - testy zachowania
+### `tests/` - Testy i notatki
+Zestaw testów/neovimowych narzędzi:
+- `test_neovim.md` - dokumentacja testów Neovim
+- `test_neovim.sh` - skrypt uruchamiający zestaw testów
+- `test_neovim.yaml` - konfiguracja testów Neovim
+
+### `projects/init/` - Inicjalizacja
+Katalog zbiera stare pliki indeksu i narzędzia powiązane z `projects/init/init-eww.sh`.
+
+#### `projects/init/index.md`
+- przeniesiony indeks repozytorium z root (`index.md`)
+
+#### `projects/init/scripts/`
+- `eww-init-idempotent-example.sh` - przykład idempotentnej instalacji `projects/init/init-eww.sh`
+- `eww-fix-init.sh` - naprawia lokalną kopię `projects/init/init-eww.sh`
+
+#### `projects/init/tests/`
+- `test_init.bats` - sprawdza, że katalog repozytorium istnieje
+- `test_init_behavior.bats` - testuje sourcing `projects/init/init-eww.sh`
+- `test_idempotency.bats` - sprawdza idempotencję uruchamiania `projects/init/init-eww.sh`
 
 ### `systemd/` - Jednostki systemd
 Timery i usługi systemd --user:

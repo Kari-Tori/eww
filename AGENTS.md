@@ -139,13 +139,13 @@ EWW_INIT_OK=1                     # Flaga inicjalizacji
 - `VERSION` - aktualny numer wersji (x.y.z.b)
 - `CHANGELOG.md` - historia zmian (Keep a Changelog)
 - `Makefile` - automatyzacja (make help)
-- `init-eww.sh` - główny skrypt inicjalizacyjny
+- `projects/init/init-eww.sh` - główny skrypt inicjalizacyjny
 
 ## Cel projektu
 
 Umożliwić szybką konfigurację środowiska deweloperskiego na świeżej instalacji Kubuntu poprzez:
 1. Sklonowanie repo do `/git/eww`
-2. Source'owanie `init-eww.sh` w `~/.bashrc`
+2. Source'owanie `projects/init/init-eww.sh` w `~/.bashrc`
 3. Automatyczne ustawienie środowiska, ścieżek, aliasów
 4. Dostarczenie narzędzi CLI do codziennej pracy
 

@@ -1,15 +1,20 @@
+---
+title: lib/ - Biblioteki współdzielone
+description: TODO - uzupełnij opis.
+---
+
 # lib/ - Biblioteki współdzielone
 
 Biblioteki Bash używane przez projekt eww.
 
 ## Główne pliki
 
-### `init-eww.sh` - Główny skrypt inicjalizacyjny
+### `projects/init/init-eww.sh` - Główny skrypt inicjalizacyjny
 Punkt wejścia dla użytkowników. Ustawia środowisko eww.
 
 **Użycie:**
 ```bash
-source /git/eww/lib/init-eww.sh
+source /git/eww/projects/init/init-eww.sh
 ```
 
 **Co robi:**

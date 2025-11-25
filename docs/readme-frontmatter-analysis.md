@@ -1,3 +1,8 @@
+---
+title: YAML Frontmatter - README.md
+description: TODO - uzupełnij opis.
+---
+
 # YAML Frontmatter - README.md
 
 ## Analiza atrybutów dla README.md projektu eww

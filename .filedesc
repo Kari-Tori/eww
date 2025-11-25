@@ -28,10 +28,10 @@ README.md|Dokumentacja główna projektu E-Waste Workshop
 VERSION|Numer wersji projektu (semver: x.y.z.b)
 CHANGELOG.md|Historia zmian w formacie Keep a Changelog
 Makefile|Automatyzacja zadań (changelog, release, komentarze, testy)
-MVP.md|Kryteria akceptacji dla wersji MVP 0.0.0.1
+projects/init/MVP.md|Kryteria akceptacji dla wersji MVP 0.0.0.1
 AGENTS.md|Kontekst dla AI coding agents (architektura, workflow)
-INDEX.md|Indeks całego repozytorium z opisami
-init-eww.sh|Skrypt inicjalizacyjny środowiska (source w ~/.bashrc)
+projects/init/index.md|Indeks całego repozytorium z opisami
+projects/init/init-eww.sh|Skrypt inicjalizacyjny środowiska (source w ~/.bashrc)
 .filedesc|Opisy wszystkich plików w projekcie (ten plik)
 
 # === lib/ - Biblioteki współdzielone ===

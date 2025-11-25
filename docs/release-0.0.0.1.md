@@ -16,12 +16,12 @@ Ten dokument opisuje minimalne, pobieralne wydanie **0.0.0.1 (MVP)** dla projekt
 
 Uwaga: README projektu jest wersjonowane w Git — każda zmiana README trafia do historii commitów i jest możliwa do prześledzenia.
 
-## Pobranie pojedynczego pliku (init-eww.sh)
+## Pobranie pojedynczego pliku (`projects/init/init-eww.sh`)
 
-Pobierz plik `init-eww.sh` z repozytorium (raw) do katalogu `~/Downloads` i sprawdź go przed załadowaniem:
+Pobierz plik `projects/init/init-eww.sh` z repozytorium (raw) do katalogu `~/Downloads` i sprawdź go przed załadowaniem:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Nairecth/eww/main/init-eww.sh -o ~/Downloads/init-eww.sh
+curl -fsSL https://raw.githubusercontent.com/Nairecth/eww/main/projects/init/init-eww.sh -o ~/Downloads/init-eww.sh
 less ~/Downloads/init-eww.sh
 ```
 
@@ -87,4 +87,3 @@ tail -n 80 "${EWW_LOG_FILE:-${XDG_STATE_HOME:-$HOME/.local/state}/eww/init-eww.l
 ---
 
 Dokument utworzony jako część wydania 0.0.0.1 (MVP) — plik `README.md` głównego katalogu repo jest wersjonowany i każda jego zmiana pojawia się w historii commitów.
-

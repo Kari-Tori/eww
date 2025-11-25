@@ -1,3 +1,8 @@
+---
+title: Vale styles
+description: TODO - uzupełnij opis.
+---
+
 # Vale styles
 
 This directory is intentionally empty. Download or create Vale style bundles from https://github.com/errata-ai/styles and place them here (for example `./.vale/styles/Microsoft/`).

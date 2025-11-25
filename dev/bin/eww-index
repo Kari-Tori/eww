@@ -80,7 +80,7 @@ Ten plik zawiera kompletny indeks wszystkich folderów i plików w projekcie wra
 
 \`\`\`bash
 # Inicjalizacja środowiska
-source init-eww.sh
+source projects/init/init-eww.sh
 
 # Przegląd projektu
 make tree          # Drzewo katalogów z opisami
@@ -123,7 +123,15 @@ SECTION
 |------|------|
 SECTION
 
-    for file in README.md VERSION CHANGELOG.md Makefile MVP.md AGENTS.md init-eww.sh .filedesc; do
+    for file in README.md VERSION CHANGELOG.md Makefile AGENTS.md .filedesc; do
+        if [[ -f "${SCRIPT_DIR}/$file" ]]; then
+            local desc
+            desc=$(get_desc "$file")
+            echo "| \`$file\` | ${desc:-Brak opisu} |" >> "$OUTPUT"
+        fi
+    done
+
+    for file in "projects/init/MVP.md" "projects/init/init-eww.sh" "projects/init/index.md"; do
         if [[ -f "${SCRIPT_DIR}/$file" ]]; then
             local desc
             desc=$(get_desc "$file")
@@ -421,7 +429,7 @@ make index
 
 ## 🚀 Szybkie linki
 
-- **Główne pliki**: `README.md`, `init-eww.sh`, `VERSION`, `CHANGELOG.md`
+- **Główne pliki**: `README.md`, `projects/init/init-eww.sh`, `projects/init/MVP.md`, `VERSION`, `CHANGELOG.md`
 - **Biblioteki**: `lib/*.sh`
 - **Narzędzia CLI**: `dev/bin/eww-*`
 - **Dokumentacja**: `docs/`

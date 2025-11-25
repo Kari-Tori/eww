@@ -14,6 +14,6 @@ updated: 2025-11-09
 ---
 
 # Wiki — spis
-- [Obsidian](obsidian.md)
+- [Obsidian](docs/wiki/obsidian.md)
 - [Neovim](neovim.md)
 - [Kubuntu](kubuntu.md)

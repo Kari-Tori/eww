@@ -1,35 +1,112 @@
-# Dziennik Kariny — struktura katalogów
+---
+tags:
+  - #karinam
+  - #profile
+  - #readme
+created: 2025-11-22T23:42:00Z
+modified: 2025-11-22T23:42:00Z
+author: jakubc
+title: "README - Przestrzeń użytkownika karinam"
+---
 
-Ten katalog zawiera uporządkowaną wersję dziennika Kariny, przygotowaną do pracy w repozytorium.
+# 🩷 Karinam - Przestrzeń użytkownika
 
-Struktura i zasady:
+> **Profil użytkownika w projekcie E-Waste Workshop**
 
-- `journal/` — główny katalog vault-a używany na co dzień. Zawiera:
-  - `Templates/` — szablony (regularne i Templater)
-  - `Daily/` — przeniesione notatki dzienne
-  - `ImportedNotes/` — wyekstrahowane pliki Markdown z surowego importu
-  - `ImportedAttachments/` — wyekstrahowane załączniki (obrazy, media)
-  - `bin/`, `systemd/` — skrypty i jednostki autostartu specyficzne dla tego vaulta
+## 📋 Szybki start
 
-- `karinam_vault/` — oryginalna, surowa kopia importu (jeśli istnieje lokalnie). Pliki tego katalogu mogły zostać usunięte z gałęzi roboczej i zachowane na gałęzi archiwalnej.
+- **Profil:** [karinam.md](./karinam.md)
+- **Urządzenia:** [devices/README.md](./devices/README.md)
+- **Changelog:** [CHANGELOG-2025-11-22.md](./CHANGELOG-2025-11-22.md)
 
-Gdzie jest surowy import?
-- Pełna, surowa kopia importu została zachowana na gałęzi `archive/imported-raw`. To bezpieczne archiwum — jeśli potrzebujesz odtworzyć dokładny stan surowego importu, przełącz się na tę gałąź.
+## 📁 Struktura
 
-Dlaczego usunąłem cache i pliki generowane?
-- Pliki takie jak `.makemd/`, `.space/` i miniatury są wygenerowanymi artefaktami i mocno powiększają repozytorium. Zostały usunięte z gałęzi `feat/add-usr-karinam` żeby repo było zgrabniejsze. Surowe dane są bezpiecznie w `archive/imported-raw`.
-
-Jeśli chcesz przywrócić surowy import lokalnie (bez zmieniania historii), wykonaj:
-
-```bash
-# przełącz się na branch archiwalny i skopiuj katalog lokalnie
-git checkout archive/imported-raw
-cp -a usr/karinam/karinam_vault "$HOME/karinam_vault-restore"
-git checkout feat/add-usr-karinam
+```
+usr/karinam/
+├── devices/              # Urządzenia
+│   ├── asus_z77/        # Komputer stacjonarny (192.168.0.77)
+│   │   ├── desktop/     # Pulpit (SSHFS mount)
+│   │   ├── README.md
+│   │   └── asus_z77.md
+│   ├── iphone/          # iPhone (szablon)
+│   ├── watch/           # Apple Watch (szablon)
+│   └── devices.md
+├── health/              # Zdrowie i fitness
+├── karinam.md          # Profil użytkownika
+├── README.md           # Ten plik
+└── CHANGELOG-*.md      # Logi zmian
 ```
 
-Jeśli chcesz oczyścić historię repo (usuwać duże pliki na stałe), daj znać — przygotuję instrukcję z `git-filter-repo` / BFG oraz listę plików do usunięcia.
+## 🖥️ ASUS Z77 Desktop
 
-Plik ten jest dokumentacją operacji porządkowych i powinien pozostać w repo.
+Desktop kariny zamontowany przez SSHFS z ASUS Z77 (Kubuntu).
 
-— Zmiany wykonane automatycznie przez skrypt porządkowy
+**Struktura desktop:**
+```
+desktop/
+├── inbox/              # Nowe wpisy
+├── modules/            # Moduły (greenhouse, journal)
+├── TODO/               # Zadania
+├── old-desktop/        # Archiwum
+└── INDEX.md           # Indeks
+```
+
+**Montowanie:**
+```bash
+# Automatyczne:
+./scripts/mount-karinam-desktop.sh
+
+# Ręcznie:
+sshfs karinam@192.168.0.77:/home/karinam/devices/asus_z77/desktop \
+  usr/karinam/devices/asus_z77/desktop \
+  -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3
+
+# Odmontowanie:
+fusermount -u usr/karinam/devices/asus_z77/desktop
+```
+
+## 🔗 Dostęp
+
+### SSH
+```bash
+ssh karinam@192.168.0.77
+```
+
+### Desktop na ASUS Z77
+- **Fizycznie:** `/home/karinam/devices/asus_z77/desktop`
+- **Symlink:** `~/desktop` → `~/devices/asus_z77/desktop`
+- **XDG:** `$HOME/desktop`
+
+### VS Code (jakubc)
+- SSHFS mount: `usr/karinam/devices/asus_z77/desktop`
+- Edycja zdalna w czasie rzeczywistym
+
+## 📚 Dokumentacja
+
+- [Profil karinam](./karinam.md) - pełny profil użytkownika
+- [Lista urządzeń](./devices/README.md) - ASUS Z77, iPhone, Watch
+- [ASUS Z77 README](./devices/asus_z77/README.md) - instrukcje workstation
+- [Desktop INDEX](./devices/asus_z77/desktop/INDEX.md) - indeks pulpitu
+- [Changelog](./CHANGELOG-2025-11-22.md) - historia zmian
+
+## 🔄 Historia zmian
+
+- **2025-11-22:** Pełna reorganizacja struktury
+  - Utworzono devices/
+  - Przeniesiono desktop na ASUS Z77
+  - Zreorganizowano desktop (inbox, modules, TODO)
+  - Archiwizacja starej zawartości
+
+## 👥 Współpraca
+
+**Karinam:**
+- Pracuje lokalnie na ASUS Z77 (Kubuntu)
+- Desktop: `~/desktop`
+
+**Jakubc:**
+- Dostęp przez SSHFS w VS Code
+- Edycja zdalna desktop kariny
+
+---
+
+*Ostatnia aktualizacja: 2025-11-22 | Autor: jakubc*

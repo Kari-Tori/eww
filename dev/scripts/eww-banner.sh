@@ -4,7 +4,7 @@ set -o pipefail
 
 : "${EWW_BANNER_PREFIX:=Miłego dnia}"
 : "${EWW_REPO:=/git/eww}"
-: "${EWW_CFG:=/git/eww/init-eww.sh}"
+: "${EWW_CFG:=/git/eww/projects/init/init-eww.sh}"
 
 eww_uptime() {
 	uptime -p 2>/dev/null | sed 's/^up //;s/,//g' || printf '?'
