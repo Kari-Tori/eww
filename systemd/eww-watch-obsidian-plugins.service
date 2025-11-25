@@ -1,0 +1,11 @@
+[Unit]
+Description=EWW: aktualizuj docs z listą wtyczek Obsidian (jednorazowo)
+Documentation=
+
+[Service]
+Type=oneshot
+# Uruchamia skrypt; pierwszy argument = vault (domyślnie katalog Obsidian w home),
+# drugi argument = plik doc w repo (zmodyfikuj jeśli potrzebne).
+ExecStart=/home/karinam/git/eww/scripts/watch_plugins_and_update.sh %h/Obsidian/code /home/karinam/git/eww/docs/software/code/plugins/installed_pluggins.md
+WorkingDirectory=/home/karinam/git/eww
+# Nie ustawiaj User w jednostce --user

@@ -1,0 +1,41 @@
+---
+title: Zabrakowie
+created: 2025-11-19
+updated: 2025-11-19
+tags:
+  - starwars
+  - race
+  - zabrak
+links:
+  - [[usr/jakubc/star_wars/races/races.md|Index ras]]
+  - [[usr/jakubc/star_wars/fractions/mandalorian_clans.md|Klany Mandalora]]
+---
+
+# 🔷 Zabrakowie
+
+> [!summary|icon:fire|color:#E07A5F]
+> Dwusercowy gatunek z Iridonia i Dathomiry, znany z determinacji, treningu wojowników i charakterystycznych rogów czaszkowych.
+
+## 🧬 Biologia
+
+| Świat | Iridonia / kolonie Dathomira |
+| Cechy | Rogi keratynowe, tatuaże klanowe, dwa serca |
+| Odporność | Wysoka tolerancja bólu, silna regeneracja |
+| Podgatunki | Zabrakowie nocy (Dathomira) + półzabrakowie |
+
+## ⚔️ Kultura i wychowanie
+- Dorośnięcie wymaga przejścia rytuału „Jatso”, sprawdzającego odwagę i wolę.
+- Silne rody wojowników – klany Iridonia tworzą milicje najemników.
+- Wersja dathomiriańska wychowywana przez Siostry Nocy (Maul, Savage Opress).
+
+## 🎯 Rola w konfliktach
+- Rekrutowani jako najemnicy Mandalorian i Kartelu Huttów.
+- Dathomiriańscy Zabrakowie stają się częścią Shadow Collective.
+- W TCW obserwujemy wątki Maula i Savage'a, destabilizujące Mandalorę.
+
+## 📺 Znani przedstawiciele
+- **Darth Maul** — były uczeń Sidiousa, lider Shadow Collective.
+- **Savage Opress** — wojownik Siostr Nocy.
+- **Eeth Koth** — członek Rady Jedi (iridoński Zabrak).
+
+[[usr/jakubc/star_wars/races/races.md|← powrót do listy ras]]

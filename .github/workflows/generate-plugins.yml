@@ -1,0 +1,35 @@
+name: generate-plugins
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ustaw uprawnienia dla skryptów
+        run: chmod +x ./scripts/*.sh || true
+
+      - name: Uruchom generator (skanuje vault w repo)
+        run: ./scripts/generate_code_plugins_md.sh "$GITHUB_WORKSPACE" "$GITHUB_WORKSPACE/docs/software/code/plugins/installed_pluggins.md"
+
+      - name: Commit i push zmian jeśli zaszły
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git status --porcelain | grep -q .; then
+            git add docs/software/code/plugins/installed_pluggins.md
+            git commit -m "chore(docs): zaktualizuj listę wtyczek (automatycznie)"
+            git push
+          else
+            echo "[EWW] Brak zmian do zatwierdzenia."
+          fi

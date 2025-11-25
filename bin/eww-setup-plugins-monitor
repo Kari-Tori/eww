@@ -1,0 +1,77 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Skrypt: instalacja monitoringu .obsidian/plugins i jednorazowa aktualizacja docs
+# Użycie:
+#   ./bin/eww-setup-plugins-monitor [VAULT_PATH] [OUTPUT_FILE]
+# Domyślnie:
+#   VAULT_PATH = "$HOME/Obsidian/code"
+#   OUTPUT_FILE = "/home/karinam/git/eww/docs/software/code/plugins/installed_pluggins.md"
+
+eww::log() { printf "[EWW] %s\n" "$*"; }
+eww::err() { printf "[EWW] BŁĄD: %s\n" "$*" >&2; }
+
+readonly VAULT_PATH="${1:-$HOME/Obsidian/code}"
+readonly OUTPUT_FILE="${2:-/home/karinam/git/eww/docs/software/code/plugins/installed_pluggins.md}"
+
+# Repo root (katalog nadrzędny względem bin/)
+readonly REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+readonly SYSTEMD_SRC="$REPO_ROOT/systemd"
+readonly SYSTEMD_DST="$HOME/.config/systemd/user"
+
+# Skrypty które powinny być wykonywalne
+readonly SCRIPTS_TO_MAKE=(
+  "$REPO_ROOT/scripts/find_copy_describe_plugins.sh"
+  "$REPO_ROOT/scripts/generate_code_plugins_md.sh"
+  "$REPO_ROOT/scripts/watch_plugins_and_update.sh"
+)
+
+main() {
+  eww::log "Repo root: $REPO_ROOT"
+  # Nadaj prawa wykonywalne skryptom
+  for s in "${SCRIPTS_TO_MAKE[@]}"; do
+    if [[ -f "$s" ]]; then
+      chmod +x "$s"
+      eww::log "Nadaję +x: $s"
+    else
+      eww::log "Brak skryptu (opcjonalne): $s"
+    fi
+  done
+
+  # Skopiuj jednostki systemd --user
+  if [[ -d "$SYSTEMD_SRC" ]]; then
+    mkdir -p "$SYSTEMD_DST"
+    cp -v "$SYSTEMD_SRC"/*.service "$SYSTEMD_SRC"/*.path "$SYSTEMD_DST" 2>/dev/null || true
+    eww::log "Skopiowano jednostki systemd do: $SYSTEMD_DST"
+  else
+    eww::log "Brak katalogu systemd w repo: $SYSTEMD_SRC"
+  fi
+
+  # Przeładuj daemon użytkownika i włącz path
+  if command -v systemctl >/dev/null 2>&1; then
+    systemctl --user daemon-reload
+    # Włącz i uruchom path unit (ignoruj błąd jeśli plik nie istnieje)
+    if systemctl --user list-unit-files | grep -q '^eww-watch-obsidian-plugins.path'; then
+      systemctl --user enable --now eww-watch-obsidian-plugins.path
+      eww::log "Włączono i uruchomiono: eww-watch-obsidian-plugins.path"
+    else
+      eww::log "Jednostka eww-watch-obsidian-plugins.path nie jest zainstalowana w systemd (sprawdź pliki w $SYSTEMD_DST)"
+    fi
+  else
+    eww::log "systemctl nie znaleziony — pomiń konfigurację systemd"
+  fi
+
+  # Uruchom jednorazową aktualizację (skrypt watch wywołuje dostępny generator)
+  if [[ -x "$REPO_ROOT/scripts/watch_plugins_and_update.sh" ]]; then
+    eww::log "Uruchamiam jednorazową aktualizację..."
+    "$REPO_ROOT/scripts/watch_plugins_and_update.sh" "$VAULT_PATH" "$OUTPUT_FILE"
+    eww::log "Jednorazowa aktualizacja zakończona."
+  else
+    eww::log "Brak skryptu watch_plugins_and_update.sh lub nie jest wykonywalny."
+  fi
+
+  eww::log "Gotowe. Jeśli chcesz wyłączyć monitoring: systemctl --user disable --now eww-watch-obsidian-plugins.path"
+  eww::log "Sprawdź status: systemctl --user status eww-watch-obsidian-plugins.path"
+}
+
+main "$@"

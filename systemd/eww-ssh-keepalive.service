@@ -1,0 +1,19 @@
+[Unit]
+Description=EWW: utrzymuj stałe połączenie SSH do gerc (192.168.0.99)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Domyślne wartości (możesz je nadpisać eksportując zmienne w środowisku użytkownika)
+Environment=REMOTE_USER=%u
+Environment=REMOTE_HOST=192.168.0.99
+Environment=SSH_KEY=%h/.ssh/id_rsa_eww
+# Uruchamiamy skrypt z repo (edytuj ścieżkę jeśli przeniesiesz)
+ExecStart=/home/karinam/git/eww/scripts/ssh_keepalive.sh
+Restart=always
+RestartSec=5
+LimitNOFILE=65536
+
+[Install]
+WantedBy=default.target
