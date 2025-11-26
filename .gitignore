@@ -62,3 +62,8 @@ node_modules/
 
 # Temp files
 cookies.txt
+
+# Duże pliki i vaults
+eww/inbox/
+usr/karinam/inbox/
+eww/inbox/

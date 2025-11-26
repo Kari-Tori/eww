@@ -1,4 +1,0 @@
----
-sticker: emoji//1f9d8-200d-2640-fe0f
-color: var(--mk-color-orange)
----
