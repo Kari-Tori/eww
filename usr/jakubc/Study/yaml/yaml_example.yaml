@@ -1,0 +1,81 @@
+# Professional YAML template · Kubuntu 25.04 Markdown dossier (manual extract)
+# ---------------------------------------------------------------------------
+# document       : Metadane główne notatki (ID, status, tagi)
+# environment    : Informacje o systemie/środowisku, w którym działa autor
+# structure      : Jak wygląda układ Markdown (sekcje, admonitions, zapytania)
+# tasks          : Logiczne kubełki priorytetowe + statusy w trakcie/zakończone
+# references     : Linki wiki oraz sekcja backlinków dla kontekstu
+# guidance       : Otwarte pytania, decyzje, kolejne kroki
+# ---------------------------------------------------------------------------
+
+document:
+  id: TODO-2025-11-22
+  title: "TODO List - 22 listopada 2025"
+  description: "Dzienna lista kontrolna prowadzona jako karta Markdown."
+  owner: jakubc
+  created_at: 2025-11-22T00:00:00+00:00
+  updated_at: 2025-11-22T10:12:00+00:00
+  classification: internal
+  priority: P1
+  workflow_state: in-progress
+  tags:
+    - #todo
+    - #planning
+    - #eww
+
+environment:
+  platform: kubuntu-25.04
+  desktop: plasma-6.4
+  repo_root: /home/jakubc/git/eww
+  encoding: utf-8
+  line_endings: unix
+
+structure:
+  frontmatter:
+    status_field: present
+    priority_field: present
+    task_card_flag: false
+  sections:
+    - name: "Priorytet P1 · WYSOKI"
+    - name: "Priorytet P2 · ŚREDNI"
+    - name: "Priorytet P3 · NISKI"
+    - name: "W trakcie realizacji"
+    - name: "Zakończone"
+    - name: "Nowe karty zadań do utworzenia"
+    - name: "Notatki"
+    - name: "Kontekst projektu EWW"
+  admonitions:
+    - type: info
+      title: "Zasady pracy z TODO"
+    - type: tip
+      title: "Szablon karty zadania"
+  embedded_queries:
+    - language: dataview
+      purpose: "Lista kart z task_card: true"
+
+tasks:
+  priority_buckets:
+    P1:
+      - "[[TODO-gerc-boot]] · GERC Boot Autostart"
+    P2: []
+    P3: []
+  in_progress:
+    - name: "[[TODO-gerc-boot]]"
+      detail: "Konfiguracja autostartu 3 monitorów"
+  completed: []
+
+references:
+  wikilinks:
+    - "[[TODO-gerc-boot]]"
+    - "[[jakubc]]"
+    - "[[INDEX]]"
+    - "[[core]]"
+  backlinks_section: enabled
+
+guidance:
+  open_questions:
+    - "Czy każde zadanie wymaga pełnej karty?"
+  decisions:
+    - "Frontmatter trzymamy w ISO8601 ze względu na standardy Kubuntu."
+  follow_up_actions:
+    - "Wdrożyć szablon kart w VS Code i Markdown."

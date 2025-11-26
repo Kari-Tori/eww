@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# File: dev/scripts/eww-tunnel-ollama.sh
+# Author: 
+# Created: 
+# Updated: 
+# Description: eww-tunnel-ollama.sh - Tunel SSH do Ollama na serwerze
 # eww-tunnel-ollama.sh - Tunel SSH do Ollama na serwerze
 set -euo pipefail
 

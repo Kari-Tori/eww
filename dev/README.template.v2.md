@@ -1,30 +1,47 @@
 ---
-title: Nazwa Projektu - README Template
-description: Uniwersalny szablon README.md według best practices 2025 z YAML frontmatter
-version: 2.0.0
-type: template
-category: documentation
-audience: developers
-language: pl
 tags:
-  - template
-  - readme
-  - documentation
-  - best-practices
-  - markdown
-created: 2025-11-09
-updated: 2025-11-09
-author: E-Waste Workshop
-repository: https://github.com/username/repo-name
-website: https://project-website.com
-license: MIT
-status: stable
-platform: Cross-platform
-requires:
-  - git >= 2.34
-  - node >= 18.0
-  - python >= 3.11
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #templates
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "## 📖 O projekcie"
+
+
+
+
+
+
 ---
+---
+title: README.Template.V2
+description: Automatyczna instalacja (Linux/macOS)
+filepath: dev/README.template.v2.md
+color: yellow
+author: 
+owner: jakubc
+created: 2025-11-21
+updated: 2025-11-21
+version: 1.0.0
+language: pl
+status: active
+  - documentation
+  - markdown
+  - readme
+  - development
+  - code
+related:
+  - dev/dev.md
+sources:
+  - dev/README.template.v2.md
+backlinks: []
+---
+
 
 <!-- 
   README.md Template v2.0.0

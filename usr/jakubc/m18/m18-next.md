@@ -1,15 +1,23 @@
 ---
-title: M18 — co dalej (decyzje + komponenty)
-created: 2025-11-16
-updated: 2025-11-16
-lang: pl
 tags:
-  - follow-me
-  - platform
-  - bom
-links:
-  - [[usr/jakubc/m18.md]]
-  - [[usr/jakubc/M18-FPOVCL-0.md]]
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "🔜 M18 NEXT — decyzje do podjęcia i komponenty"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🔜 M18 NEXT — decyzje do podjęcia i komponenty
@@ -124,3 +132,11 @@ links:
 > 4. Start projektu mountu (`hw/packout_mount.scad`) + wydruk PETG (test).  
 > 5. Zaprojektuj protokół UART (komendy + CRC) + szkic firmware ESP32.  
 > 6. Zaplanuj scenariusze testów terenowych i log energii (koszt GBP).
+
+## 🔗 Powiązane dokumenty
+
+- [[usr/jakubc/m18/m18|m18]]
+- [[usr/jakubc/jakubc|jakubc]]
+- [[docs/INDEX|INDEX]]
+
+**Auto-linked:** 2025-11-21

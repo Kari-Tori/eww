@@ -1,15 +1,25 @@
 ---
-title: Nazwa Projektu
-description: Krótki opis projektu w jednym zdaniu
-version: 0.0.0.1
-license: MIT
-status: active
-platform: Ubuntu 25.04
-language: pl
-created: 2025-01-08
-updated: 2025-01-08
-repository: https://github.com/username/repo
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #templates
+created: 2025-11-21T23:00:00Z
+modified: 2025-11-21T23:00:00Z
+author: jakubc
+title: "🚀 Nazwa Projektu"
+
+
+
+
+
+
+owner: jakubc
 ---
+
 
 <div align="center">
 
@@ -30,7 +40,6 @@ repository: https://github.com/username/repo
 
 [O projekcie](#-o-projekcie) • [Quick Start](#-quick-start) • [Przykłady](#-przykłady) • [Dokumentacja](#-dokumentacja)
 
----
 
 ## ⚡ Quick Start
 
@@ -47,7 +56,6 @@ nazwa-projektu dev
 
 **Wymagania:** Node.js 18+ | Python 3.11+ | Git 2.34+
 
----
 
 ## 📖 O projekcie
 
@@ -60,7 +68,6 @@ Rozbudowany opis projektu - 2-3 zdania wyjaśniające problem, który rozwiązuj
 - � **Zero zależności** - wszystko działa out-of-the-box
 - ✨ **Automatyczna integracja** - seamless setup
 
----
 
 ## 💻 Przykłady
 
@@ -85,7 +92,6 @@ const app = create({
 
 **Więcej:** [Examples](examples/) | [API Docs](docs/api.md)
 
----
 
 ## 📦 Instalacja & Konfiguracja
 
@@ -133,7 +139,6 @@ DATABASE_URL=postgresql://localhost/db
 
 </details>
 
----
 
 ## �️ Tech Stack
 
@@ -142,7 +147,6 @@ DATABASE_URL=postgresql://localhost/db
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
----
 
 ## �📁 Struktura
 
@@ -155,7 +159,6 @@ projekt/
 └── config/       # Konfiguracja
 ```
 
----
 
 ## 🤝 Contributing
 
@@ -175,24 +178,21 @@ git push origin feat/amazing-feature
 
 **Konwencje:** `feat:` `fix:` `docs:` `test:` `chore:`
 
----
 
 ## 📚 Dokumentacja
 
-- [User Guide](docs/guide.md)
+- [User Guide](docs/infra/guide.md)
 - [API Reference](docs/api.md)
 - [FAQ](docs/faq.md)
 - [Troubleshooting](docs/troubleshooting.md)
 
 **Support:** [Issues](https://github.com/username/repo/issues) | [Discussions](https://github.com/username/repo/discussions) | support@example.com
 
----
 
 ## 📜 License
 
 MIT © [Autor](https://github.com/username)
 
----
 
 <div align="center">
 

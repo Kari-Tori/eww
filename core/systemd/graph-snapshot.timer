@@ -1,0 +1,12 @@
+[Unit]
+Description=Daily Graph Snapshot Timer
+Documentation=man:systemd.timer(5)
+
+[Timer]
+OnCalendar=daily
+OnCalendar=00:05:00
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

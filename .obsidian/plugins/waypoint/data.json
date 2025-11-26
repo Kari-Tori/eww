@@ -1,0 +1,12 @@
+{
+%% Error: Cannot create a waypoint in a note that's not the folder note. For more information, check the instructions [here](https://github.com/IdreesInc/Waypoint) %%
+  "stopScanAtFolderNotes": true,
+  "showFolderNotes": true,
+  "showNonMarkdownFiles": false,
+  "debugLogging": false,
+  "useWikiLinks": true,
+  "showEnclosingNote": false,
+  "useSpaces": true,
+  "maxFiles": 20,
+  "maxDepth": 2
+}

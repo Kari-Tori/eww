@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+ROOT="$(git rev-parse --show-toplevel)"
+"$ROOT/tools/repo-metrics.sh" --check || {
+  echo "Push zablokowany przez Repo Live Contract." >&2
+  exit 1
+}

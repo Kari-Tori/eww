@@ -1,0 +1,26 @@
+{
+  "excludedFolders": [
+    "archive/",
+    "var/",
+    "usr/",
+    "docs/",
+    "Tags/",
+    "tools/",
+    "dev/",
+    ".obsidian/plugins/",
+    ".obsidian/themes/",
+    ".git/",
+    "node_modules/",
+    ".venv/"
+  ],
+  "excludedPatterns": [
+    "*/archive/*",
+    "*/backup/*",
+    "*/old/*",
+    "*-conflict-*",
+    "*.backup.*",
+    "*-OLD.*",
+    "FULL-INDEX.md",
+    "INDEX.md"
+  ]
+}

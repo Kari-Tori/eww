@@ -1,0 +1,336 @@
+#!/usr/bin/env bash
+# eww-github-setup - Instalacja i konfiguracja narzędzi GitHub/AI
+set -euo pipefail
+
+readonly GREEN='\033[0;32m'
+readonly BLUE='\033[0;34m'
+readonly YELLOW='\033[1;33m'
+readonly RED='\033[0;31m'
+readonly NC='\033[0m'
+
+log_info() {
+    echo -e "${BLUE}[INFO]${NC} $*"
+}
+
+log_success() {
+    echo -e "${GREEN}[OK]${NC} $*"
+}
+
+log_warn() {
+    echo -e "${YELLOW}[WARN]${NC} $*"
+}
+
+log_error() {
+    echo -e "${RED}[ERROR]${NC} $*"
+}
+
+# Banner
+cat <<'BANNER'
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║        🚀 EWW GITHUB & AI TOOLS SETUP                          ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+BANNER
+
+echo ""
+log_info "Instalacja narzędzi GitHub i AI..."
+echo ""
+
+# 1. GitHub CLI (gh)
+log_info "1/5 Instalacja GitHub CLI (gh)..."
+if command -v gh &> /dev/null; then
+    log_success "GitHub CLI już zainstalowane: $(gh --version | head -n1)"
+else
+    log_warn "Instaluję GitHub CLI..."
+    type -p curl >/dev/null || sudo apt install curl -y
+    curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+    sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+    sudo apt update && sudo apt install gh -y
+    log_success "GitHub CLI zainstalowane"
+fi
+
+# 2. GitHub Copilot CLI
+log_info "2/5 Instalacja GitHub Copilot CLI..."
+if command -v github-copilot-cli &> /dev/null; then
+    log_success "Copilot CLI już zainstalowane"
+else
+    if command -v gh &> /dev/null; then
+        log_warn "Instaluję GitHub Copilot CLI extension..."
+        gh extension install github/gh-copilot || log_warn "Copilot już zainstalowany lub błąd"
+        log_success "GitHub Copilot CLI gotowe"
+    else
+        log_error "GitHub CLI nie zainstalowane - pomiń Copilot"
+    fi
+fi
+
+# 3. Continue.dev
+log_info "3/5 Instalacja Continue.dev (VS Code extension)..."
+if command -v code &> /dev/null; then
+    if code --list-extensions | grep -q "Continue.continue"; then
+        log_success "Continue.dev już zainstalowane"
+    else
+        log_warn "Instaluję Continue.dev extension..."
+        code --install-extension Continue.continue
+        log_success "Continue.dev zainstalowane"
+    fi
+    
+    # Konfiguracja Continue
+    mkdir -p ~/.continue
+    if [ ! -f ~/.continue/config.json ]; then
+        cat > ~/.continue/config.json <<'CONTINUECONF'
+{
+  "models": [
+    {
+      "title": "Claude Sonnet 4",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-20250514",
+      "apiKey": ""
+    },
+    {
+      "title": "GPT-4 Turbo",
+      "provider": "openai",
+      "model": "gpt-4-turbo-preview",
+      "apiKey": ""
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "Codestral",
+    "provider": "mistral",
+    "model": "codestral-latest",
+    "apiKey": ""
+  },
+  "embeddingsProvider": {
+    "provider": "openai",
+    "model": "text-embedding-3-small"
+  },
+  "contextProviders": [
+    {
+      "name": "code",
+      "params": {}
+    },
+    {
+      "name": "docs",
+      "params": {}
+    },
+    {
+      "name": "diff",
+      "params": {}
+    },
+    {
+      "name": "terminal",
+      "params": {}
+    },
+    {
+      "name": "problems",
+      "params": {}
+    },
+    {
+      "name": "folder",
+      "params": {}
+    },
+    {
+      "name": "codebase",
+      "params": {}
+    }
+  ],
+  "slashCommands": [
+    {
+      "name": "edit",
+      "description": "Edit code in current file"
+    },
+    {
+      "name": "comment",
+      "description": "Write comments for code"
+    },
+    {
+      "name": "share",
+      "description": "Export chat to markdown"
+    },
+    {
+      "name": "cmd",
+      "description": "Generate shell command"
+    }
+  ]
+}
+CONTINUECONF
+        log_success "Continue.dev skonfigurowane: ~/.continue/config.json"
+        log_warn "Uzupełnij API keys w ~/.continue/config.json"
+    else
+        log_success "Continue.dev już skonfigurowane"
+    fi
+else
+    log_warn "VS Code nie zainstalowane - pomijam Continue.dev"
+fi
+
+# 4. GitHub Copilot dla VS Code
+log_info "4/5 Instalacja GitHub Copilot (VS Code)..."
+if command -v code &> /dev/null; then
+    if code --list-extensions | grep -q "GitHub.copilot"; then
+        log_success "GitHub Copilot już zainstalowane"
+    else
+        log_warn "Instaluję GitHub Copilot extension..."
+        code --install-extension GitHub.copilot
+        code --install-extension GitHub.copilot-chat
+        log_success "GitHub Copilot zainstalowane"
+    fi
+else
+    log_warn "VS Code nie zainstalowane - pomijam Copilot"
+fi
+
+# 5. Konfiguracja Git dla GitHub
+log_info "5/5 Konfiguracja Git dla GitHub..."
+
+# Sprawdź czy git skonfigurowany
+if ! git config --global user.name &> /dev/null; then
+    log_warn "Git user.name nie ustawiony"
+    read -p "Podaj swoje imię i nazwisko: " git_name
+    git config --global user.name "$git_name"
+fi
+
+if ! git config --global user.email &> /dev/null; then
+    log_warn "Git user.email nie ustawiony"
+    read -p "Podaj swój email: " git_email
+    git config --global user.email "$git_email"
+fi
+
+# Pomocne aliasy Git
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.unstage 'reset HEAD --'
+git config --global alias.last 'log -1 HEAD'
+git config --global alias.visual 'log --oneline --graph --all'
+
+log_success "Git skonfigurowany"
+
+echo ""
+echo "─────────────────────────────────────────────────────────"
+echo ""
+
+# Podsumowanie
+cat <<'SUMMARY'
+✅ INSTALACJA ZAKOŃCZONA
+
+📋 Zainstalowane narzędzia:
+   • GitHub CLI (gh) - zarządzanie GitHub z CLI
+   • GitHub Copilot CLI - AI w terminalu
+   • Continue.dev - AI coding assistant
+   • GitHub Copilot - AI pair programmer
+
+🔐 Następne kroki:
+
+1. UWIERZYTELNIENIE GITHUB CLI:
+   gh auth login
+
+2. AKTYWACJA COPILOT CLI:
+   gh copilot config
+
+3. UZUPEŁNIJ API KEYS dla Continue.dev:
+   nano ~/.continue/config.json
+   
+   Potrzebujesz:
+   - Anthropic API key (Claude)
+   - OpenAI API key (GPT-4)
+   - Mistral API key (Codestral)
+
+4. ZALOGUJ SIĘ DO COPILOT w VS Code:
+   Otwórz VS Code → Copilot icon → Sign in
+
+🚀 Użycie:
+
+   # GitHub CLI
+   gh repo clone user/repo
+   gh pr create
+   gh issue list
+   
+   # Copilot CLI
+   gh copilot suggest "jak zrobić X"
+   gh copilot explain "git rebase"
+   
+   # Continue.dev (w VS Code)
+   Ctrl+L - otwórz chat
+   Ctrl+I - inline edit
+   
+   # Copilot (w VS Code)
+   Tab - accept suggestion
+   Ctrl+Enter - show alternatives
+
+📚 Dokumentacja:
+   https://cli.github.com/manual
+   https://docs.github.com/copilot
+   https://continue.dev/docs
+
+SUMMARY
+
+echo ""
+log_success "Setup zakończony!"
+
+# ============================================================================
+# BONUS: Przydatne pluginy i rozszerzenia
+# ============================================================================
+
+echo ""
+log_info "BONUS: Instalacja przydatnych pluginów..."
+echo ""
+
+# VS Code extensions
+if command -v code &> /dev/null; then
+    log_info "Instaluję dodatkowe extensions dla VS Code..."
+    
+    # AI & Productivity
+    code --install-extension tabnine.tabnine-vscode 2>/dev/null || true  # TabNine AI
+    code --install-extension visualstudioexptteam.vscodeintellicode 2>/dev/null || true  # IntelliCode
+    
+    # Git & GitHub
+    code --install-extension eamodio.gitlens 2>/dev/null || true  # GitLens
+    code --install-extension github.vscode-pull-request-github 2>/dev/null || true  # GitHub PR
+    code --install-extension donjayamanne.githistory 2>/dev/null || true  # Git History
+    
+    # Markdown
+    code --install-extension yzhang.markdown-all-in-one 2>/dev/null || true  # Markdown All in One
+    code --install-extension davidanson.vscode-markdownlint 2>/dev/null || true  # Markdown Lint
+    code --install-extension bierner.markdown-mermaid 2>/dev/null || true  # Mermaid diagrams
+    
+    # Code Quality
+    code --install-extension dbaeumer.vscode-eslint 2>/dev/null || true  # ESLint
+    code --install-extension esbenp.prettier-vscode 2>/dev/null || true  # Prettier
+    code --install-extension timonwong.shellcheck 2>/dev/null || true  # ShellCheck
+    
+    # Docker & DevOps
+    code --install-extension ms-azuretools.vscode-docker 2>/dev/null || true  # Docker
+    code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools 2>/dev/null || true  # Kubernetes
+    code --install-extension redhat.vscode-yaml 2>/dev/null || true  # YAML
+    
+    # Productivity
+    code --install-extension streetsidesoftware.code-spell-checker 2>/dev/null || true  # Spell Checker
+    code --install-extension usernamehw.errorlens 2>/dev/null || true  # Error Lens
+    code --install-extension oderwat.indent-rainbow 2>/dev/null || true  # Indent Rainbow
+    code --install-extension pkief.material-icon-theme 2>/dev/null || true  # Material Icons
+    
+    log_success "VS Code extensions zainstalowane"
+else
+    log_warn "VS Code niedostępne - pomijam extensions"
+fi
+
+# GitHub CLI extensions
+if command -v gh &> /dev/null; then
+    log_info "Instaluję GitHub CLI extensions..."
+    
+    gh extension install dlvhdr/gh-dash 2>/dev/null || log_warn "gh-dash już zainstalowany"  # Dashboard
+    gh extension install seachicken/gh-poi 2>/dev/null || log_warn "gh-poi już zainstalowany"  # Cleanup
+    gh extension install mislav/gh-branch 2>/dev/null || log_warn "gh-branch już zainstalowany"  # Branch utils
+    
+    log_success "GitHub CLI extensions zainstalowane"
+fi
+
+echo ""
+log_info "Lista zainstalowanych VS Code extensions:"
+command -v code &> /dev/null && code --list-extensions | grep -E "(copilot|continue|gitlens|markdown)" || true
+
+echo ""
+log_info "Lista zainstalowanych gh extensions:"
+command -v gh &> /dev/null && gh extension list || true
+

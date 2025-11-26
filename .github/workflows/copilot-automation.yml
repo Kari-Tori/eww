@@ -1,0 +1,59 @@
+name: Automatyzacja GitHub Copilot
+
+on:
+  push:
+    branches: [ main, dev, feature/* ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+env:
+  COPILOT_AUTO_APPROVE: true
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  copilot-auto-review:
+    name: Automatyczna recenzja Copilot
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    
+    steps:
+      - name: Pobierz kod
+        uses: actions/checkout@v4
+      
+      - name: Konfiguruj GitHub CLI
+        run: |
+          gh --version
+          gh auth status
+          
+      - name: Automatyczna akceptacja sugestii Copilot
+        run: |
+          echo "✅ Automatyczna akceptacja włączona dla Copilot"
+          # Tu możesz dodać własną logikę
+          
+  auto-tag-release:
+    name: Automatyczne tagowanie wydania
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Pobierz kod
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Automatyczne tagowanie jeśli potrzebne
+        run: |
+          if [ -f "VERSION" ]; then
+            VERSION=$(cat VERSION)
+            if ! git tag | grep -q "^v${VERSION}$"; then
+              echo "Tworzenie tagu v${VERSION}"
+              git tag "v${VERSION}"
+              git push origin "v${VERSION}"
+            fi
+          fi

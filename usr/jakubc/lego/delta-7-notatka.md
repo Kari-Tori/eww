@@ -1,6 +1,23 @@
 ---
-title: 🛩️ Delta-7 Aethersprite — notatka techniczna i plan buildu
-description: TODO - uzupełnij opis.
+tags:
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #lego
+  - #linux
+  - #secondbrain
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "🛩️ Delta-7 Aethersprite — notatka techniczna i plan buildu"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🛩️ Delta-7 Aethersprite — notatka techniczna i plan buildu
@@ -31,7 +48,6 @@ description: TODO - uzupełnij opis.
 - Zwiad i szybkie misje specjalne Jedi
 - Loty międzyukładowe po zadokowaniu do pierścienia hiperprzestrzennego
 
----
 
 ## 🧭 Roadmap buildu
 
@@ -66,7 +82,6 @@ description: TODO - uzupełnij opis.
 > - [ ] **Weryfikacja:** długość gotowego modelu = **24 study**  
 > - [ ] **Stojak:** prosty stand pod ekspozycję (opcjonalnie)
 
----
 
 ## 💸 Koszt
 > [!abstract] **Podsumowanie**
@@ -76,7 +91,6 @@ description: TODO - uzupełnij opis.
 > - **Wysyłka łącznie:** **£5–15**  
 > Szacunki zależą od dostępności elementów i liczby sprzedawców.
 
----
 
 ## 🔁 Porównanie rozmiaru: SET vs MOC
 | Model | Długość | Różnica vs 75333 |
@@ -84,7 +98,6 @@ description: TODO - uzupełnij opis.
 | **LEGO 75333** | **~25,0 cm** | — |
 | **MOC Teroys (minifig)** | **~19,2 cm** | **−5,8 cm (~−23%)** |
 
----
 
 ## 🔗 Linki uzupełniające
 - **Alternatywne MOC-e Delta-7 (minifig):**  
@@ -92,7 +105,6 @@ description: TODO - uzupełnij opis.
   • jakrabitt404 — https://rebrickable.com/mocs/MOC-235014/jakrabitt404/obi-wans-delta-7-aethersprite-starfighter/  
   • Delta-7B (Obi-Wan) — https://rebrickable.com/mocs/MOC-219820/BigJudge/delta-7b-aethersprite-class-light-interceptor-obi-wans-version/
 
----
 
 ## 🧷 Status projektu
 - [x] 75333 kupiony i złożony  
@@ -100,3 +112,12 @@ description: TODO - uzupełnij opis.
 - [ ] Inwentaryzacja części pod MOC Teroys  
 - [ ] Zakup braków  
 - [ ] Budowa MOC Teroys i weryfikacja skali
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

@@ -1,0 +1,72 @@
+{
+    "markdown.validate.enabled": true,
+
+    // ========================================
+    // GITHUB COPILOT - FULL AUTOMATION
+    // ========================================
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "markdown": true,
+        "shellscript": true,
+        "json": true,
+        "jsonc": true,
+        "python": true
+    },
+
+    // Copilot Chat - auto-execute wszystko
+    "github.copilot.chat.runCommand.enabled": true,
+    "github.copilot.chat.executeImmediately": true,
+    "github.copilot.chat.terminalChatLocation": "quickChat",
+    "github.copilot.chat.useProjectTemplates": true,
+
+    // Copilot Agent - pełna automatyzacja
+    "github.copilot.advanced": {
+        "authProvider": "github",
+        "debug.overrideEngine": "codex",
+        "debug.testOverrideProxyUrl": "",
+        "length": 500,
+        "temperature": "0.7",
+        "top_p": 1,
+        "stops": {
+            "*": ["\n\n\n"]
+        },
+        "indentationMode": {
+            "*": true
+        },
+        "inlineSuggestEnable": true,
+        "listCount": 10
+    },
+
+    // ========================================
+    // SECURITY - WSZYSTKO TRUSTED
+    // ========================================
+    "security.workspace.trust.enabled": true,
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.emptyWindow": false,
+
+    // ========================================
+    // GITHUB CLI INTEGRATION
+    // ========================================
+    "github.gitProtocol": "https",
+    "github.copilot.chat.welcomeMessage": "never",
+
+    // ========================================
+    // AUTO-SAVE & FILES
+    // ========================================
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    // ========================================
+    // TERMINAL AUTO-EXECUTE
+    // ========================================
+    "terminal.integrated.commandsToSkipShell": [],
+    "terminal.integrated.allowChords": true,
+    "terminal.integrated.automationProfile.linux": {
+        "path": "/bin/bash"
+    }
+}

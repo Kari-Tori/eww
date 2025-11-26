@@ -1,0 +1,193 @@
+/**
+ * Full Width Editor - ULTRA AGRESYWNY - Snippet CSS dla Obsidian
+ *
+ * Nadpisuje WSZYSTKIE reguły szerokości w Obsidian
+ * Rozciąga edytor na 100% szerokości bez żadnych ograniczeń
+ */
+
+/* ========== BODY I ROOT - NAJWYŻSZY PRIORYTET ========== */
+
+body {
+  --file-line-width: 100% !important;
+  --line-width: 100% !important;
+  --line-width-adaptive: 100% !important;
+  --max-width: 100% !important;
+}
+
+.mod-root .workspace-leaf-content[data-type="markdown"] {
+  --file-line-width: 100% !important;
+}
+
+/* ========== NADPISZ WSZYSTKO - MAX PRIORITY ========== */
+
+/* Główny kontener robocza */
+.workspace-leaf-content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* View content - główny kontener widoku */
+.view-content,
+.workspace-leaf-content .view-content {
+  max-width: none !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ========== TRYB CZYTANIA ========== */
+
+/* Główny kontener czytania */
+.markdown-preview-view,
+.markdown-reading-view {
+  max-width: none !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+}
+
+/* Sizer - to tutaj Obsidian ustawia max-width! */
+.markdown-preview-sizer {
+  max-width: none !important;
+  min-width: 100% !important;
+  width: 100% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 0 !important;
+}
+
+/* Sekcja markdown */
+.markdown-preview-section {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* ========== TRYB EDYCJI (Live Preview & Source Mode) ========== */
+
+/* CodeMirror 6 - główny kontener */
+.markdown-source-view.mod-cm6,
+.cm-editor,
+.cm-scroller {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Content container */
+.cm-contentContainer {
+  max-width: none !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Sizer w CodeMirror */
+.cm-sizer {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Content - główna zawartość */
+.cm-content {
+  max-width: none !important;
+  min-width: 100% !important;
+  width: 100% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+/* Linie tekstu */
+.cm-line {
+  max-width: none !important;
+  width: auto !important;
+}
+
+/* ========== LEGACY SOURCE MODE ========== */
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* ========== USUŃ READABLE LINE WIDTH ========== */
+
+/* Wymuś wyłączenie "readable line width" jeśli jest włączone */
+.is-readable-line-width .markdown-preview-view,
+.is-readable-line-width .markdown-source-view.mod-cm6 .cm-content,
+.is-readable-line-width .cm-content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* ========== DODATKOWE ELEMENTY ========== */
+
+/* Tabele na pełną szerokość */
+.markdown-preview-view table {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Bloki kodu */
+.markdown-preview-view pre,
+.cm-content pre {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Cytaty */
+.markdown-preview-view blockquote {
+  max-width: none !important;
+}
+
+/* Embedded notes */
+.markdown-embed-content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* OPCJONALNE - odkomentuj jeśli chcesz użyć:
+
+/* Różna szerokość dla małych ekranów */
+/*
+@media (max-width: 1200px) {
+  .markdown-reading-view .markdown-preview-sizer {
+    max-width: 90% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+*/
+
+/* Większe fonty dla lepszej czytelności na szerokim ekranie */
+/*
+.markdown-preview-view,
+.cm-content {
+  font-size: 1.1em !important;
+  line-height: 1.6 !important;
+}
+*/
+
+/* Wyśrodkowanie treści na bardzo szerokich ekranach */
+/*
+@media (min-width: 1920px) {
+  .markdown-reading-view .markdown-preview-sizer {
+    max-width: 1600px !important;
+    margin: 0 auto !important;
+  }
+}
+*/
+
+/* Dostosuj szerokość tabel */
+/*
+.markdown-preview-view table {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+*/
+
+/* Dostosuj szerokość bloków kodu */
+/*
+.markdown-preview-view pre {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+}
+*/
+*/

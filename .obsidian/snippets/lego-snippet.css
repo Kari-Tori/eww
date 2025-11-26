@@ -1,0 +1,89 @@
+.status-strip {
+  /* Horizontal timeline bar: flex container needed for status pills */
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.status-strip span {
+  /* LEGO-style status pill: square with border + shadow */
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+}
+
+.status-strip span.active {
+  background: #FF0000;
+}
+
+.status-strip span.pending {
+  background: #FFD700;
+}
+
+.status-strip span.future {
+  background: #0055A4;
+}
+
+.status-strip span.goal {
+  background: #00933B;
+}
+
+.build-card {
+  /* Gradient card with LEGO colors for build entries */
+  margin: 1rem 0;
+  padding: 1.2rem;
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(255, 210, 0, 0.92), rgba(255, 242, 158, 0.75));
+  border-left: 4px solid #0055A4;
+  border: 1px solid rgba(0, 85, 164, 0.8);
+  box-shadow: 0 14px 30px rgba(0, 85, 164, 0.25);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.build-card__meta strong {
+  /* Meta heading for list of stats */
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.build-card__meta span,
+.build-card__notes span {
+  /* Each entry block ensures spacing between lines */
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.build-card__notes {
+  /* Light note container for checklist items / links */
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  padding: 0.6rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.build-card__notes strong {
+  font-size: 0.92rem;
+}
+
+.lego-page.full-width {
+  width: 100%;
+  max-width: none;
+  background: #ffffff;
+  color: #111;
+  padding: 1.5rem 2rem;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.lego-page.full-width h1,
+.lego-page.full-width h2,
+.lego-page.full-width h3 {
+  color: #0055A4;
+}

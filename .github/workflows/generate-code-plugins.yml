@@ -1,9 +1,9 @@
-name: generate-code-plugins
+name: Generowanie wtyczek VS Code
 on:
   workflow_dispatch:
     inputs:
       vault_path:
-        description: 'Ścieżka do vaulta (opcjonalnie). Jeśli pusta, użyty będzie repo root'
+        description: 'Ścieżka do vaulta (opcjonalnie). Jeśli pusta, użyty będzie katalog główny repo'
         required: false
         default: ''
       embed:
@@ -16,9 +16,10 @@ permissions:
 
 jobs:
   generate:
+    name: Generuj listę wtyczek VS Code
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Pobierz repozytorium
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,13 +33,13 @@ jobs:
           VAULT_INPUT="${{ github.event.inputs.vault_path }}"
           EMBED_INPUT="${{ github.event.inputs.embed }}"
           if [[ -z "$VAULT_INPUT" ]]; then
-            # jeśli nie podano vault_path, użyj repo root
+            # jeśli nie podano vault_path, użyj katalogu głównego repo
             ./scripts/list_code_plugins.sh "$PWD" $( [[ "$EMBED_INPUT" == "true" ]] && echo "--embed" || echo "" )
           else
             ./scripts/list_code_plugins.sh "$VAULT_INPUT" $( [[ "$EMBED_INPUT" == "true" ]] && echo "--embed" || echo "" )
           fi
 
-      - name: Commit i push jeśli zaszły zmiany
+      - name: Zatwierdź i wyślij zmiany jeśli zaszły
         if: always()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -49,7 +50,7 @@ jobs:
             git add docs/software/code/plugins/code_plugins_installed.md || true
             git commit -m "chore(docs): aktualizacja listy wtyczek (automatycznie)" || true
             git push || true
-            echo "Committed and pushed changes."
+            echo "Zatwierdzono i wysłano zmiany."
           else
-            echo "No changes to commit."
+            echo "Brak zmian do zatwierdzenia."
           fi

@@ -1,81 +1,41 @@
----
-title: CHANGELOG - E-Waste Workshop
-description: Historia zmian projektu w formacie Keep a Changelog
-version: 0.0.0.4
-format: Keep a Changelog
-versioning: Semantic Versioning
-type: changelog
-category: documentation
-generator: ./dev/bin/eww-changelog
-tags:
-  - changelog
-  - history
-  - releases
-  - semver
-updated: 2025-11-09
----
-
 # Changelog
 
-Wszystkie istotne zmiany w projekcie będą dokumentowane w tym pliku.
-
-Format oparty na [Keep a Changelog](https://keepachangelog.com/pl/1.0.0/),
-projekt używa [Semantic Versioning](https://semver.org/lang/pl/).
-
-## [Unreleased]
-
-## [0.0.0.3] - 2025-11-08
+## [2025-11-23] - Major Cleanup & Auto-Reports
 
 ### Added
-- MVP release
-
-## [0.0.0.2] - 2025-11-08
+- ✅ **Auto-Reports System**: `core/reports/repo-stats.md` z auto-update co 5 min
+- ✅ **Cron setup**: `make setup-stats-cron` dla automatycznych aktualizacji
+- ✅ **Folder_note system**: Każdy folder ma `folder_name.md` z `folder_stats`
+- ✅ **Folder colors**: RGB system dla 9 głównych folderów
+- ✅ **Documentation**: 
+  - `docs/AUTO-REPORTS.md` - System auto-raportów
+  - `docs/FOLDER-NOTE-SYSTEM.md` - System folder notes
+  - `docs/FOLDER-COLOR-SYSTEM.md` - Kolory folderów
+  - `docs/CLEANUP-LOG.md` - Historia cleanups
 
 ### Changed
-- Aktualizacja wersji
+- 📍 **Moved**: `eww-stats.md` → `core/reports/repo-stats.md` (symlink w root)
+- 🎨 **Graph optimization**: 7,505 nodes → 137 nodes (98.2% redukcja)
+- 📊 **Stats format**: Kompaktowy + auto-update metadata
 
-## [0.0.0.1] - 2025-11-08
+### Removed
+- 🗑️ **Obsidian docs**: Usunięto 6,587 plików (~86MB)
+  - `docs/infra/software/obsidian/official-en/` (164 pliki)
+  - `docs/infra/software/obsidian/official-pl/` (164 pliki)
+  - `docs/infra/software/obsidian/resources/` (6,259 plików)
+- 🗑️ **Old files**: eww-stats-full.md
 
-### Added
-- Skrypt `projects/init/init-eww.sh` (funkcja `eww::init`) — ustawia `EWW_ROOT`, opcjonalnie przechodzi do katalogu projektu, ładuje baner
-- `README.md` z instrukcją pobrania i sourcowania skryptu
-- Plik `VERSION` ustawiony na `0.0.0.1`
-- Podstawowa struktura projektu
+### Fixed
+- 🐛 **Graph performance**: Z >30s do <2s ładowania
+- 🐛 **Color groups**: Z 13 do 5 (optymalne)
 
-## [0.0.0.1-pre] - 2025-11-08
+## Stats
 
-### Added
-- Pre-MVP: przygotowanie do pierwszego wydania
-
-## [0.1.0] - 2025-11-07
-
-### Added
-- Narzędzia do wersjonowania SemVer
-- Podpisane commity GPG
-- Bootstrap projektu
-- Wiki projektu
-- Podstawowy layout Ansible
+- **Before**: 7,512 plików .md
+- **After**: 930 plików .md
+- **Reduction**: 87.7% (-6,582 pliki)
+- **Space saved**: ~86MB
 
 ---
 
-## Zasady wersjonowania
-
-- Plik `VERSION` zawiera aktualny numer wersji w formacie `major.minor.patch.build`
-- Używamy [Conventional Commits](https://www.conventionalcommits.org/) w commitach
-- Kategorie zmian: `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`
-
-## Workflow wydania nowej wersji
-
-```bash
-# Wygeneruj changelog z commitów
-make changelog
-
-# Zmień wersję w pliku VERSION (np. 0.0.0.4)
-echo "0.0.0.4" > VERSION
-
-# Scommituj zmiany
-git add VERSION CHANGELOG.md
-git commit -m "chore(release): 0.0.0.4"
-git tag -a v0.0.0.4 -m "Release 0.0.0.4"
-git push origin main --tags
-```
+**Auto-maintained** | See [core/reports/repo-stats.md](core/reports/repo-stats.md) for live stats

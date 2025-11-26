@@ -1,0 +1,9 @@
+# Copilot ignore - pliki które Copilot nie powinien analizować
+*.key
+*.pem
+*.env
+*.secret
+.env.*
+secrets/
+private/
+.ssh/

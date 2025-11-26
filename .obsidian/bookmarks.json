@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1751226206105,
+      "path": "E-Waste Workshop Vault/05_PROJECTS/Secondbrain/SecondbrainDashboard.canvas",
+      "title": "SecondBrain"
+    },
+    {
+      "type": "folder",
+      "ctime": 1751236394316,
+      "path": "E-Waste Workshop Vault/05_PROJECTS/H2D Interface/Kartki_kuby",
+      "title": "zdjecia drop"
+    },
+    {
+      "type": "group",
+      "ctime": 1759966482574,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1759966450651,
+          "path": "00_CORE/E-Waste Workshop — Welcome (Internal).md",
+          "title": "E-Waste Workshop — Welcome (Internal)"
+        }
+      ],
+      "title": "E-Waste Workshop - Homepage"
+    },
+    {
+      "type": "url",
+      "ctime": 1760038122989,
+      "url": "https://chatgpt.com/c/68e80b93-2894-8327-b06b-602e133a562a",
+      "title": "Chat GPT"
+    }
+  ]
+}

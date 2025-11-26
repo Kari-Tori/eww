@@ -1,0 +1,33 @@
+name: eww-core CI
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.x" }
+      - name: Tools via pipx
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pipx
+          python -m pipx ensurepath
+          export PATH="$HOME/.local/bin:$PATH"
+          pipx install pre-commit || true
+          pipx install mdformat    || true
+          pipx install yamllint    || true
+          pipx install mkdocs      || true
+          pipx inject mkdocs mkdocs-material pymdown-extensions mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin || true
+      - name: Check requirements
+        run: ./eww-check.sh
+      - name: Lint
+        run: pipx run pre-commit run --all-files
+      - name: Build MkDocs (optional)
+        run: |
+          if [ -f mkdocs.yml ]; then pipx run mkdocs build --strict; else echo "no mkdocs.yml"; fi

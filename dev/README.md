@@ -1,7 +1,25 @@
 ---
-title: dev/ - Narzędzia deweloperskie
-description: TODO - uzupełnij opis.
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #productivity
+  - #secondbrain
+created: 2025-11-21T23:00:00Z
+modified: 2025-11-21T23:00:00Z
+author: jakubc
+title: "dev/ - Narzędzia deweloperskie"
+
+
+
+
+
+
+owner: jakubc
 ---
+
 
 # dev/ - Narzędzia deweloperskie
 

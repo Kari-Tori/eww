@@ -1,6 +1,24 @@
 ---
-title: Workspace: Hybrydowe miejsce pracy (README)
-description: TODO - uzupełnij opis.
+tags:
+  - #folder_note
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "Workspace: Hybrydowe miejsce pracy (README)"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # Workspace: Hybrydowe miejsce pracy (README)
@@ -60,3 +78,23 @@ Na ten moment tylko powyższe elementy istnieją fizycznie w repo. Katalogi opis
 
 ## Status i dalsze prace
 Obecnie źródłem prawdy są `tools_status.md` (stan agentów) oraz `resarch/` (badania). Ten README pozostaje lekką stroną startową z linkami i strukturą. Gdy odtworzymy brakujące katalogi (np. `notes/`, `config/`), dopiszemy nowe pliki do sekcji „Szybka nawigacja” i zaktualizujemy opis struktury.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+
+
+
+## 📑 Index plików
+
+- [notatka-integracja-chatgpt-github-clickup](notatka-integracja-chatgpt-github-clickup.md)
+- [tools_status](tools_status.md)
+
+## 📁 Podfoldery
+
+- [archive/](archive/archive.md)
+- [resarch/](resarch/resarch.md)

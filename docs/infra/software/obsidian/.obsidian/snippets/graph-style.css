@@ -1,0 +1,175 @@
+/* 🎨 Graph Style - Customizacja wyglądu grafu Obsidian */
+
+/* === NODES === */
+
+/* Większe node'y dla MOC (Maps of Content) */
+.graph-view.color-fill[data-tag*="moc"],
+.graph-view.color-fill[data-tag*="index"] {
+  r: 8 !important;
+  stroke-width: 2 !important;
+}
+
+/* Małe node'y dla archiwum */
+.graph-view.color-fill[data-tag*="archive"] {
+  r: 3 !important;
+  opacity: 0.4 !important;
+}
+
+/* Pulsujące aktywne projekty */
+.graph-view.color-fill[data-tag*="active"] {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { 
+    opacity: 1;
+    r: 6;
+  }
+  50% { 
+    opacity: 0.7;
+    r: 7;
+  }
+}
+
+/* Świecące ważne node'y */
+.graph-view.color-fill[data-tag*="important"],
+.graph-view.color-fill[data-tag*="priority"] {
+  filter: drop-shadow(0 0 5px currentColor);
+}
+
+/* === LINKS === */
+
+/* Podstawowy kolor strzałek/linków - jasnoszary */
+.graph-view.color-line {
+  stroke: #888888 !important;
+  opacity: 0.4 !important;
+}
+
+/* Strzałki - większa widoczność */
+.graph-view.color-arrow {
+  stroke: #888888 !important;
+  fill: #888888 !important;
+  opacity: 0.6 !important;
+}
+
+/* Hover na linkach - pomarańczowy */
+.graph-view.color-line:hover {
+  stroke: #ff9900 !important;
+  stroke-width: 2.5 !important;
+  opacity: 0.9 !important;
+}
+
+.graph-view.color-arrow:hover {
+  stroke: #ff9900 !important;
+  fill: #ff9900 !important;
+  opacity: 1 !important;
+}
+
+/* Pogrubione linki hierarchiczne */
+.graph-view.color-line[data-link-type="parent"],
+.graph-view.color-line[data-link-type="child"] {
+  stroke-width: 2.5 !important;
+  opacity: 0.8 !important;
+}
+
+/* Cienkie linki do archiwum */
+.graph-view.color-line[data-link-tag*="archive"] {
+  stroke-width: 0.5 !important;
+  opacity: 0.2 !important;
+}
+
+/* === KOLOROWE STRZAŁKI WG KATEGORII === */
+
+/* Linki business - fioletowy */
+.graph-view.color-line[data-link-tag*="business"],
+.graph-view.color-arrow[data-link-tag*="business"] {
+  stroke: #8b5cf6 !important;
+  fill: #8b5cf6 !important;
+}
+
+/* Linki infrastructure - różowy */
+.graph-view.color-line[data-link-tag*="infra"],
+.graph-view.color-line[data-link-tag*="infrastructure"],
+.graph-view.color-arrow[data-link-tag*="infra"],
+.graph-view.color-arrow[data-link-tag*="infrastructure"] {
+  stroke: #ec4899 !important;
+  fill: #ec4899 !important;
+}
+
+/* Linki docs/knowledge - niebieski */
+.graph-view.color-line[data-link-tag*="docs"],
+.graph-view.color-line[data-link-tag*="knowledge"],
+.graph-view.color-arrow[data-link-tag*="docs"],
+.graph-view.color-arrow[data-link-tag*="knowledge"] {
+  stroke: #3b82f6 !important;
+  fill: #3b82f6 !important;
+}
+
+/* Linki automation - zielony */
+.graph-view.color-line[data-link-tag*="automation"],
+.graph-view.color-arrow[data-link-tag*="automation"] {
+  stroke: #10b981 !important;
+  fill: #10b981 !important;
+}
+
+/* Linki todo/tasks - pomarańczowy */
+.graph-view.color-line[data-link-tag*="todo"],
+.graph-view.color-line[data-link-tag*="task"],
+.graph-view.color-arrow[data-link-tag*="todo"],
+.graph-view.color-arrow[data-link-tag*="task"] {
+  stroke: #f59e0b !important;
+  fill: #f59e0b !important;
+}
+
+/* === KOLORY AUTORÓW === */
+
+/* jakubc - niebieski */
+.graph-view.color-fill[data-tag*="jakubc"] {
+  fill: #3498db !important;
+}
+
+/* karinam/candy - różowy */
+.graph-view.color-fill[data-tag*="karinam"],
+.graph-view.color-fill[data-tag*="candy"] {
+  fill: #f472b6 !important;
+}
+
+/* === KATEGORIE === */
+
+/* Business - fioletowy */
+.graph-view.color-fill[data-tag*="business"] {
+  fill: #8b5cf6 !important;
+}
+
+/* Technical - cyan */
+.graph-view.color-fill[data-tag*="technical"],
+.graph-view.color-fill[data-tag*="tools"] {
+  fill: #06b6d4 !important;
+}
+
+/* Documentation - zielony */
+.graph-view.color-fill[data-tag*="documentation"],
+.graph-view.color-fill[data-tag*="docs"] {
+  fill: #10b981 !important;
+}
+
+/* AI/Automation - pomarańczowy */
+.graph-view.color-fill[data-tag*="ai"],
+.graph-view.color-fill[data-tag*="automation"] {
+  fill: #f59e0b !important;
+}
+
+/* === HOVER EFFECTS === */
+
+.graph-view.color-fill:hover {
+  stroke-width: 3 !important;
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+/* === ORPHAN NODES === */
+
+.graph-view.color-fill.is-orphan {
+  opacity: 0.3 !important;
+  stroke-dasharray: 3;
+}

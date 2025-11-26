@@ -1,18 +1,23 @@
 ---
-title: M18-FPOVCL-0 — One Pager
-model: M18 FPOVCL-0
-catalog_no: 4933478187
-created: 2025-11-14
-updated: 2025-11-16
-lang: pl
 tags:
-  - vacuum
-  - packout
-  - spec
-links:
-  - https://www.milwaukeetool.eu/ms/pl-pl/m18-fpovcl/m18-fpovcl-0
-  - https://manualslib.com/manual/2876229/Milwaukee-M18-Fuel-Packout-Wet-Dry-Vacuum-L-Class.html
-  - https://www.howetools.co.uk/m18-packout-wet-dry-vacuum-l-class-body-only-m18-fpovcl-0
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T13:00:00Z
+modified: 2025-11-21T13:00:00Z
+author: jakubc
+title: "🧠💨 M18-FPOVCL-0 — karta skondensowana"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🧠💨 M18-FPOVCL-0 — karta skondensowana
@@ -60,3 +65,12 @@ links:
 ## 📎 Źródła
 
 manualslib.com • milwaukeetool.eu • hoffmann-group.com • sparepartsworld.co.uk • rubix.es • Howe Tools.
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

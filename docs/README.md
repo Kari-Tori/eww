@@ -1,71 +1,21 @@
 ---
-title: docs/ - Dokumentacja projektu
-description: Kompletna dokumentacja projektu
-version: 0.0.0.4
-author: Nairecth
-repository: https://github.com/Nairecth/eww
-type: readme
-category: documentation
-audience: developers
-language: pl
-platform: Kubuntu 24.04 LTS
-requires:
-  - bash >= 5.1
-  - git
 tags:
-  - bash
-  - documentation
-created: 2025-11-09
-updated: 2025-11-09
-license: MIT
-status: stable
+  - #docs
+  - #infra
+  - #redirect
+created: 2025-11-24T00:00:00Z
+modified: 2025-11-24T00:00:00Z
+author: jakubc & codex
+title: "📚 docs/ → zobacz docs/infra/"
+owner: jakubc
 ---
 
-# docs/ - Dokumentacja projektu
+# 📚 Dokumentacja → `docs/infra/`
 
-Dokumentacja E-Waste Workshop.
+Ten plik zastępuje poprzedni `docs/README.md` i wskazuje nowe źródło prawdy: [[infra/infra]]. Wszystkie przewodniki, wiki, raporty i referencje zostały scalone pod `docs/infra/` wraz z katalogami:
 
-## Struktura
+- `docs/infra/assets/`, `docs/infra/dashboards/`, `docs/infra/guide/`
+- `docs/infra/references/`, `docs/infra/reports/`, `docs/infra/site/`
+- `docs/infra/software/`, `docs/infra/tags/`, `docs/infra/wiki/`
 
-### `index.md` - Strona główna dokumentacji
-Punkt wejścia do dokumentacji projektu.
-
-### `wiki/` - Wiki projektu
-Artykuły i poradniki:
-- `kubuntu.md` - konfiguracja Kubuntu
-- `neovim.md` - setup Neovim
-- `obsidian.md` - integracja z Obsidian
-
-### `guide/` - Przewodniki
-Szczegółowe instrukcje:
-- `intro.md` - wprowadzenie do projektu
-
-### Pliki dokumentacyjne
-- `ENDPOINTS.md` - dokumentacja API/endpointów
-- `readme-checklist.md` - checklist dla README
-- `release-0.0.0.1.md` - notatki z wydania
-- `vendor.md` - informacje o zależnościach
-
-## Generowanie dokumentacji
-
-Projekt może używać MkDocs do generowania strony dokumentacji:
-
-```bash
-# Instalacja MkDocs
-pip install mkdocs mkdocs-material
-
-# Podgląd lokalny
-mkdocs serve
-
-# Generowanie strony
-mkdocs build
-```
-
-## Aktualizacja
-
-Przy dodawaniu nowych funkcji, aktualizuj odpowiednią sekcję dokumentacji:
-
-1. Dodajopis w `index.md`
-2. Stwórz dedykowany przewodnik w `guide/`
-3. Dodaj wpis do wiki jeśli potrzeba
-4. Zaktualizuj README.md w katalogu głównym
+Jeżeli potrzebujesz starej wersji README lub indeksu, znajdziesz je w `docs/infra/legacy/`.

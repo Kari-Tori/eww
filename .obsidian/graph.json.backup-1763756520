@@ -1,0 +1,114 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#folder_note",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "tag:#eww OR tag:#core OR path:core/",
+      "color": {
+        "a": 1,
+        "rgb": 65331
+      }
+    },
+    {
+      "query": "tag:#config OR path:config/",
+      "color": {
+        "a": 1,
+        "rgb": 5526612
+      }
+    },
+    {
+      "query": "tag:#business OR path:business/",
+      "color": {
+        "a": 1,
+        "rgb": 2664719
+      }
+    },
+    {
+      "query": "tag:#jakubc OR path:usr/jakubc/",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#karinam OR path:usr/karinam/",
+      "color": {
+        "a": 1,
+        "rgb": 16711935
+      }
+    },
+    {
+      "query": "tag:#star-wars OR path:usr/jakubc/star_wars/",
+      "color": {
+        "a": 1,
+        "rgb": 65484
+      }
+    },
+    {
+      "query": "tag:#lego OR path:usr/jakubc/lego/",
+      "color": {
+        "a": 1,
+        "rgb": 16771584
+      }
+    },
+    {
+      "query": "tag:#docs OR path:docs/",
+      "color": {
+        "a": 1,
+        "rgb": 1334271
+      }
+    },
+    {
+      "query": "tag:#infra OR path:infra/",
+      "color": {
+        "a": 1,
+        "rgb": 16737792
+      }
+    },
+    {
+      "query": "tag:#scripts OR path:scripts/",
+      "color": {
+        "a": 1,
+        "rgb": 10944256
+      }
+    },
+    {
+      "query": "tag:#tools OR path:tools/",
+      "color": {
+        "a": 1,
+        "rgb": 6287
+      }
+    },
+    {
+      "query": "tag:#folder_note path:",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0.2,
+  "nodeSizeMultiplier": 1.63125,
+  "lineSizeMultiplier": 1.12083333333333,
+  "collapse-forces": true,
+  "centerStrength": 0.125,
+  "repelStrength": 20,
+  "linkStrength": 0.734375,
+  "linkDistance": 314,
+  "scale": 0.01171875,
+  "close": false
+}

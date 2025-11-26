@@ -1,3 +1,31 @@
+---
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+title: "Readme"
+description: "TODO"
+category: misc
+  - todo
+  - personal
+  - blue
+  - jakubc
+created: 2025-11-21
+updated: 2025-11-21
+color: blue
+
+
+
+
+
+
+owner: jakubc
+---
+
 # archive/
 
 Miejsce na stare konfiguracje, eksperymenty i materiały, które chcemy zachować jako referencję, ale nie muszą być aktywnie w użyciu.

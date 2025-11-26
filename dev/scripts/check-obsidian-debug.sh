@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Sprawdź debug console Obsidiana
+
+echo "=== INSTRUKCJA SPRAWDZENIA CONSOLE ==="
+echo ""
+echo "1. W Obsidian naciśnij: Ctrl+Shift+I (lub Cmd+Option+I na Mac)"
+echo "2. Przejdź do zakładki 'Console'"
+echo "3. Spróbuj otworzyć Graph View"
+echo "4. Skopiuj WSZYSTKIE błędy/ostrzeżenia z console"
+echo ""
+echo "Szukaj komunikatów typu:"
+echo "  - 'too many nodes'"
+echo "  - 'render timeout'"
+echo "  - 'memory'"
+echo "  - błędów JavaScript"
+echo ""
+echo "=== TYMCZASOWE ROZWIĄZANIE ==="
+echo "Zmniejsz scope grapha używając search:"
+echo "  - path:core OR path:business (tylko 2 foldery)"
+echo "  - tag:#eww (tylko pliki z tym tagiem)"
+echo "  - -path:usr (wyklucz folder usr)"
+echo ""

@@ -1,19 +1,23 @@
 ---
-title: Workflow hybrydowego workspace
-description: Integracja Code/VS Code, GitHub Copilot Pro i Codex CLI w hybrydowym workspace
-version: 0.1.0
-audience: workspace maintainers
-type: workflow-note
-category: documentation
 tags:
-  - workspace
-  - tools
-  - agents
-language: pl
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
 author: jakubc
-created: 2024-11-16
-updated: 2024-11-16
-sticker: lucide//folder-closed
+title: "## Aktualny stan narzędzi"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 ## Aktualny stan narzędzi
@@ -39,3 +43,12 @@ Bloki poniżej wykorzystują callouty obsługiwane przez Obsidian – każdy z w
 2. **Przywrócić `notes/team-and-env.md`** – bez tego dokumentu nie mamy udokumentowanego podziału obowiązków Copilot vs Codex.
 3. **Stworzyć `scripts/workspace-agent.sh`** – katalog `scripts/` również nie istnieje; minimalny router można tymczasowo wrzucić do `archive/` i przenieść po odtworzeniu struktury.
 4. **Wznowić logi sesji** – do czasu powrotu `run-logs/` zapisuj logi w `archive/run-logs-YYYYMM.md`, z dopiskiem `Copilot`/`Codex`, aby zachować pomiary skuteczności.
+
+
+## 🔗 Powiązane dokumenty
+
+- [[usr/jakubc/workspace/workspace|workspace]]
+- [[usr/jakubc/jakubc|jakubc]]
+- [[docs/INDEX|INDEX]]
+
+**Auto-linked:** 2025-11-21

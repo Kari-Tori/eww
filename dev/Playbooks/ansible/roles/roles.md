@@ -1,0 +1,69 @@
+---
+tags:
+  - #folder_note
+  - #automation
+  - #books
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T23:00:00Z
+modified: 2025-11-21T23:00:00Z
+author: jakubc
+title: "📁 roles"
+
+
+
+
+
+
+owner: jakubc
+---
+
+# 📁 roles
+
+> **Folder Note** - centralny index dla katalogu `roles/`
+
+## 📋 Cel folderu
+
+Katalog `roles` zawiera 0 plików i 1 podfolderów.
+
+**Przeznaczenie:**
+- Projekty deweloperskie i playbooki
+
+
+## 📄 Pliki w folderze
+
+*Brak plików MD w tym folderze.*
+
+## 📂 Podfoldery
+
+- 📂 [[common/common|common]] - Subfolder
+
+## 🔗 Nawigacja
+
+- ⬆️ [[ansible/ansible|ansible]] - Folder nadrzędny
+- 🏠 [[docs/INDEX|INDEX]] - Główny index
+
+
+**Lokalizacja:** `dev/Playbooks/ansible/roles`  
+**Zaktualizowano:** 2025-11-21  
+**Typ:** Folder Note
+
+## 📑 Index plików
+
+*Brak plików markdown.*
+
+## 📁 Podfoldery
+
+- [common/](common/common.md)
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
+

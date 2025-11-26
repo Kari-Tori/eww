@@ -1,0 +1,6 @@
+{
+  "folder": "/usr/karinam/journal/daily",
+  "template": "/usr/karinam/journal/template/daily-template.md",
+  "autorun": true,
+  "format": "daily-YYYY-MM-DD"
+}

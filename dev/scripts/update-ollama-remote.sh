@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# File: dev/scripts/update-ollama-remote.sh
+# Author: 
+# Created: 
+# Updated: 
+# Description: update-ollama-remote.sh - Aktualizacja Ollama na serwerze zdalnym
 # update-ollama-remote.sh - Aktualizacja Ollama na serwerze zdalnym
 set -euo pipefail
 

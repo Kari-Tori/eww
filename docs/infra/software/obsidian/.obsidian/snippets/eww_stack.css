@@ -1,0 +1,47 @@
+/* eww_stack.css — E‑Waste Workshop styling */
+.eww { --bg:#0e1110; --ink:#eafaf0; --muted:#b8cbbf; --line:#243528; --card:#141915;
+       --lime:#84cc16; --mint:#22c55e; --forest:#16a34a; }
+.markdown-preview-view{ background:var(--bg); color:var(--ink); }
+.eww .eww-hero{ margin:.6rem 0 1rem; padding:18px 20px; border-radius:18px;
+  border:1px solid color-mix(in oklab, var(--mint) 40%, transparent);
+  background: linear-gradient(135deg, color-mix(in oklab, var(--lime) 20%, transparent), color-mix(in oklab, var(--mint) 12%, transparent)); }
+.eww .eww-hero .t{ font-size:1.35rem; font-weight:800; letter-spacing:.3px; }
+.eww .eww-hero .s{ opacity:.92; margin-top:.15rem }
+.eww .chips{ margin-top:.5rem }
+.eww .chip{ display:inline-block; padding:.28rem .6rem; border-radius:999px; margin-right:.35rem;
+  border:1px solid color-mix(in oklab, var(--mint) 35%, transparent);
+  background: color-mix(in oklab, var(--mint) 14%, transparent); font-weight:700; font-size:.8rem; }
+.eww .chip.ok{ background: color-mix(in oklab, var(--forest) 20%, transparent); }
+.eww .tabs{ margin:.2rem 0 .4rem 0; }
+.eww .tabs input[type="radio"]{ display:none }
+.eww .tabs label{ padding:.3rem .7rem; border-radius:999px; margin-right:.35rem; cursor:pointer;
+  border:1px solid color-mix(in oklab, var(--mint) 35%, transparent);
+  background: color-mix(in oklab, var(--mint) 12%, transparent); }
+#tab-infra:checked + label[for="tab-infra"],
+#tab-sb:checked + label[for="tab-sb"],
+#tab-biz:checked + label[for="tab-biz"]{ box-shadow:0 0 0 2px color-mix(in oklab, var(--mint) 25%, transparent) inset; font-weight:700; }
+.eww .panel{ display:none; margin-top:.4rem }
+#tab-infra:checked ~ .panel[data-for="tab-infra"],
+#tab-sb:checked ~ .panel[data-for="tab-sb"],
+#tab-biz:checked ~ .panel[data-for="tab-biz"]{ display:block }
+.eww .grid{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:10px; }
+@media (max-width:1000px){ .eww .grid{ grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width:560px){ .eww .grid{ grid-template-columns: 1fr; } }
+.eww .tile{ display:block; text-decoration:none; color:var(--ink); padding:.65rem .75rem; border-radius:12px;
+  border:1px solid color-mix(in oklab, var(--mint) 30%, transparent);
+  background: color-mix(in oklab, var(--card) 92%, transparent); transition: transform .12s ease, background .15s ease; }
+.eww .tile:hover{ transform: translateY(-1px); background: color-mix(in oklab, var(--lime) 10%, transparent); }
+.eww .mini{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:12px; margin:.6rem 0; }
+@media (max-width:900px){ .eww .mini{ grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width:560px){ .eww .mini{ grid-template-columns: 1fr; } }
+.eww .stat{ border:1px solid color-mix(in oklab, var(--mint) 35%, transparent); border-radius:14px; padding:.6rem .7rem;
+  background: color-mix(in oklab, var(--card) 95%, transparent); }
+.eww .lab{ font-size:.86rem; opacity:.9 }
+.eww .val{ font-size:1.4rem; font-weight:800; margin:.1rem 0 .25rem 0; letter-spacing:.2px; }
+.eww .bar{ height:8px; border-radius:999px; background: color-mix(in oklab, var(--ink) 8%, transparent); overflow:hidden;
+  border:1px solid color-mix(in oklab, var(--mint) 30%, transparent); }
+.eww .bar .v{ height:100%; width: calc(var(--value,0) * 1%); background: linear-gradient(90deg, var(--lime), var(--forest)); }
+.eww details.check{ border:1px dashed color-mix(in oklab, var(--mint) 35%, transparent); border-radius:12px; padding:.5rem .6rem; background: color-mix(in oklab, var(--card) 90%, transparent); }
+.eww details[open].check{ background: color-mix(in oklab, var(--lime) 8%, transparent); }
+.eww.glass .eww-hero, .eww.glass .tile, .eww.glass .stat{ backdrop-filter: blur(6px); }
+.eww.glow .tile{ box-shadow: 0 0 24px color-mix(in oklab, var(--mint) 18%, transparent); }

@@ -1,9 +1,26 @@
 ---
-title: VM & Virtualizacja — hosty logiczne
-description: Mapowanie maszyn wirtualnych, kontenerów i usług logicznych
-created: 2025-11-19
-updated: 2025-11-19
+tags:
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🖥️ VM & Virtualizacja — źródło prawdy"
+
+
+
+
+
+
+owner: jakubc
 ---
+
+
 
 # 🖥️ VM & Virtualizacja — źródło prawdy
 

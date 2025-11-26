@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "(path:core OR path:config OR path:business OR path:docs OR path:infra OR path:usr/jakubc/m18 OR path:usr/jakubc/health OR path:usr/jakubc/INDEX OR path:usr/jakubc/jakubc OR path:usr/karinam) -path:docs/tags -file:backlinks -file:tags.md",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#pink OR tag:#candy OR path:usr/karinam",
+      "color": {
+        "a": 1,
+        "rgb": 16761035
+      }
+    },
+    {
+      "query": "tag:#blue OR path:usr/jakubc",
+      "color": {
+        "a": 1,
+        "rgb": 5592575
+      }
+    },
+    {
+      "query": "tag:#eww OR path:core OR path:config OR path:business",
+      "color": {
+        "a": 1,
+        "rgb": 10809863
+      }
+    },
+    {
+      "query": "tag:#green OR path:docs",
+      "color": {
+        "a": 1,
+        "rgb": 5763719
+      }
+    },
+    {
+      "query": "tag:#folder-note",
+      "color": {
+        "a": 1,
+        "rgb": 14701249
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.5,
+  "lineSizeMultiplier": 2,
+  "collapse-forces": false,
+  "centerStrength": 0.4,
+  "repelStrength": 18,
+  "linkStrength": 0.5,
+  "linkDistance": 350,
+  "scale": 1,
+  "close": false
+}

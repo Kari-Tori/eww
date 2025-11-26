@@ -1,0 +1,13 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y shellcheck shfmt bats ansible ansible-lint yamllint
+      - run: shfmt -d .
+      - run: shellcheck -x script.sh
+      - run: yamllint -c tools/yamllint.yml ansible molecule || true
+      - run: ansible-lint ansible || true
+      - run: bats -r test

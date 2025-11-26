@@ -1,0 +1,72 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "skrypty:sprawdz-readme",
+      "type": "shell",
+      "command": "./scripts/check_readme.sh",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "detail": "Sprawdza spójność README, VERSION i notatek wydania."
+    },
+    {
+      "label": "testy:bats",
+      "type": "shell",
+      "command": "bats",
+      "args": [
+        "tests"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "detail": "Uruchamia testy Bats z katalogu tests/."
+    },
+    {
+      "label": "make:instaluj",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "install"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Instaluje pomocnicze binaria do katalogu określonego przez PREFIX."
+    },
+    {
+      "label": "make:odinstaluj",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "uninstall"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "detail": "Usuwa wcześniej zainstalowane binaria pomocnicze."
+    },
+    {
+      "label": "skrypty:wersja-info",
+      "type": "shell",
+      "command": "./scripts/version.sh",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "detail": "Wyświetla obliczoną wersję projektu (tag + liczba commitów)."
+    }
+  ]
+}

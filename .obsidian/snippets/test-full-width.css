@@ -1,0 +1,28 @@
+/* Szerokość 80% ekranu z wyśrodkowaniem */
+body {
+  --file-line-width: 80vw !important;
+  --line-width: 80vw !important;
+  --line-width-adaptive: 80vw !important;
+  --max-width: none !important;
+}
+
+/* Wszystkie kontenery markdown */
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer.cm-contentContainer,
+.markdown-source-view.mod-cm6 .cm-contentContainer {
+  max-width: 80vw !important;
+  width: 80vw !important;
+  margin: 0 auto !important;
+}
+
+.markdown-preview-sizer.markdown-preview-sizer {
+  max-width: 80vw !important;
+  width: 80vw !important;
+  min-width: 80vw !important;
+  margin: 0 auto !important;
+}
+
+/* Nadpisz CSS variables */
+:root {
+  --file-line-width: 80vw !important;
+  --line-width: 80vw !important;
+}

@@ -1,7 +1,25 @@
 ---
-title: Test Neovim - Markdown
-description: TODO - uzupełnij opis.
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #testing
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-21T09:00:00Z
+author: jakubc
+title: "Test Neovim - Markdown"
+
+
+
+
+
+
+owner: jakubc
 ---
+
 
 # Test Neovim - Markdown
 
@@ -15,13 +33,10 @@ description: TODO - uzupełnij opis.
 
 ### 2. YAML Frontmatter
 ```yaml
----
 title: Test Document
 version: 1.0.0
-tags:
   - test
   - markdown
----
 ```
 
 ### 3. Code Blocks Bash

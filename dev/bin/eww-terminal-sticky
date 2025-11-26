@@ -1,0 +1,134 @@
+#!/usr/bin/env bash
+# eww-terminal-sticky - Uruchamia terminal zawsze na wierzchu i blokuje zamykanie
+set -euo pipefail
+
+readonly GREEN='\033[0;32m'
+readonly BLUE='\033[0;34m'
+readonly RED='\033[0;31m'
+readonly NC='\033[0m'
+
+# Sprawdź wymagane narzędzia
+sprawdz_zaleznosci() {
+    local brakujace=()
+    
+    command -v wmctrl >/dev/null 2>&1 || brakujace+=("wmctrl")
+    command -v xdotool >/dev/null 2>&1 || brakujace+=("xdotool")
+    
+    if [[ ${#brakujace[@]} -gt 0 ]]; then
+        echo -e "${RED}[EWW] Brakujące zależności: ${brakujace[*]}${NC}" >&2
+        echo -e "${BLUE}[EWW] Zainstaluj: sudo apt install ${brakujace[*]}${NC}"
+        exit 1
+    fi
+}
+
+# Przywróć poprzedni czat i narzędzia (Ctrl+Shift+T w większości terminali)
+przywroc_sesje() {
+    local window_id="$1"
+    
+    echo -e "${BLUE}[EWW] Przywracanie poprzedniej sesji...${NC}"
+    
+    # Aktywuj okno terminala
+    wmctrl -i -a "$window_id" 2>/dev/null || true
+    sleep 0.5
+    
+    # Wyślij Ctrl+Shift+T (przywróć ostatnią kartę/sesję)
+    xdotool windowactivate --sync "$window_id"
+    xdotool key --window "$window_id" ctrl+shift+t
+}
+
+# Uruchom terminal i monitoruj
+uruchom_terminal() {
+    local terminal_cmd="${1:-konsole}"
+    local zamknieto=false
+    
+    echo -e "${GREEN}[EWW] Uruchamianie terminala: $terminal_cmd${NC}"
+    
+    # Uruchom terminal w tle
+    $terminal_cmd &
+    local terminal_pid=$!
+    
+    # Poczekaj na pojawienie się okna
+    sleep 2
+    
+    # Znajdź ID okna terminala
+    local window_id=$(xdotool search --pid $terminal_pid | head -1)
+    
+    if [[ -z "$window_id" ]]; then
+        echo -e "${RED}[EWW] Nie znaleziono okna terminala${NC}" >&2
+        exit 1
+    fi
+    
+    echo -e "${GREEN}[EWW] ID okna: $window_id${NC}"
+    
+    # Ustaw okno zawsze na wierzchu
+    wmctrl -i -r "$window_id" -b add,above
+    
+    # Monitoruj i przywracaj ustawienia
+    while true; do
+        # Sprawdź czy proces jeszcze żyje
+        if ! kill -0 $terminal_pid 2>/dev/null; then
+            if [[ "$zamknieto" == false ]]; then
+                echo -e "${BLUE}[EWW] Wykryto zamknięcie terminala, oczekiwanie 10 sekund...${NC}"
+                zamknieto=true
+                sleep 10
+                
+                # Uruchom ponownie terminal
+                echo -e "${GREEN}[EWW] Przywracanie terminala...${NC}"
+                $terminal_cmd &
+                terminal_pid=$!
+                sleep 2
+                
+                # Znajdź nowe ID okna
+                window_id=$(xdotool search --pid $terminal_pid | head -1)
+                
+                if [[ -n "$window_id" ]]; then
+                    # Ustaw zawsze na wierzchu
+                    wmctrl -i -r "$window_id" -b add,above
+                    
+                    # Po 2 sekundach przywróć sesję
+                    sleep 2
+                    przywroc_sesje "$window_id"
+                    
+                    zamknieto=false
+                fi
+            fi
+        else
+            # Terminal działa, upewnij się że jest na wierzchu
+            wmctrl -i -r "$window_id" -b add,above 2>/dev/null || true
+            zamknieto=false
+        fi
+        
+        sleep 1
+    done
+}
+
+usage() {
+    cat <<EOF
+Użycie: eww-terminal-sticky [TERMINAL]
+
+Uruchamia terminal, który jest zawsze na wierzchu i blokuje zamykanie.
+
+Argumenty:
+  TERMINAL    Komenda terminala (domyślnie: konsole)
+              Opcje: konsole, gnome-terminal, xterm, alacritty
+
+Przykłady:
+  eww-terminal-sticky
+  eww-terminal-sticky gnome-terminal
+  eww-terminal-sticky alacritty
+
+Aby zatrzymać: Ctrl+C w terminalu który uruchomił skrypt
+EOF
+}
+
+main() {
+    if [[ "${1:-}" == "-h" ]] || [[ "${1:-}" == "--help" ]]; then
+        usage
+        exit 0
+    fi
+    
+    sprawdz_zaleznosci
+    uruchom_terminal "${1:-konsole}"
+}
+
+main "$@"

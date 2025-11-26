@@ -38,7 +38,7 @@ PRZYKŁADY:
     eww-yaml-describe --describe README.md
 
     # Statystyki
-    eww-yaml-describe --stats docs/guide.md
+    eww-yaml-describe --stats docs/infra/guide.md
 
     # Sprawdź synchronizację wersji
     eww-yaml-describe --check-sync README.md

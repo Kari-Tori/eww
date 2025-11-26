@@ -1,0 +1,181 @@
+/* 🍬 Candy Theme dla Karinam */
+/* Plik: .obsidian/snippets/candy-theme.css */
+/* Autor: jakubc */
+/* Data: 2025-11-21 */
+
+/* === TAGI CANDY === */
+.tag[href="#candy"],
+.tag[href="#karinam"],
+.tag[href="#color/candy"],
+.tag[href="#people/karinam"] {
+  background: linear-gradient(135deg, #FF69B4 0%, #FFB6C1 100%);
+  color: white;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(255, 105, 180, 0.3);
+}
+
+.tag[href="#candy"]:hover,
+.tag[href="#karinam"]:hover,
+.tag[href="#color/candy"]:hover,
+.tag[href="#people/karinam"]:hover {
+  background: linear-gradient(135deg, #FF1493 0%, #FF69B4 100%);
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.5);
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+/* === CANDY-THEME CLASS === */
+.candy-theme .markdown-preview-view,
+.candy-theme .markdown-source-view {
+  --text-accent: #FF69B4;
+  --interactive-accent: #FF69B4;
+  --link-color: #FF1493;
+  --link-color-hover: #C71585;
+}
+
+.candy-theme h1,
+.candy-theme h2 {
+  color: #FF1493;
+  border-bottom: 2px solid #FFB6C1;
+}
+
+.candy-theme h3,
+.candy-theme h4 {
+  color: #FF69B4;
+}
+
+.candy-theme a {
+  color: #FF1493;
+}
+
+.candy-theme a:hover {
+  color: #C71585;
+  text-decoration: underline wavy #FFB6C1;
+}
+
+/* === CANDY BLOCKQUOTES === */
+.candy-theme blockquote {
+  border-left: 4px solid #FF69B4;
+  background: linear-gradient(90deg, rgba(255, 105, 180, 0.1) 0%, transparent 100%);
+  padding-left: 1em;
+}
+
+/* === CANDY CHECKBOXES === */
+.candy-theme .task-list-item-checkbox:checked {
+  background-color: #FF69B4;
+  border-color: #FF69B4;
+}
+
+/* === CANDY HIGHLIGHTS === */
+.candy-theme mark {
+  background: linear-gradient(120deg, #FFB6C1 0%, transparent 100%);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* === GRAPH VIEW - CANDY NODES === */
+.graph-view.color-fill-tag-people-karinam,
+.graph-view.color-fill-tag-candy,
+.graph-view.color-fill-tag-color-candy {
+  fill: #FF69B4 !important;
+}
+
+.graph-view.color-line-tag-people-karinam,
+.graph-view.color-line-tag-candy,
+.graph-view.color-line-tag-color-candy {
+  stroke: #FF69B4 !important;
+}
+
+/* === FILE EXPLORER - CANDY ICONS === */
+.nav-folder.is-tag-candy .nav-folder-title,
+.nav-file.is-tag-candy .nav-file-title {
+  color: #FF69B4;
+  font-weight: 500;
+}
+
+.nav-folder.is-tag-candy .nav-folder-title::before,
+.nav-file.is-tag-candy .nav-file-title::before {
+  content: "🍬 ";
+}
+
+/* === USER PROFILE CANDY === */
+.user-profile.candy-theme {
+  border: 2px solid #FFB6C1;
+  border-radius: 12px;
+  padding: 1em;
+  background: linear-gradient(135deg, rgba(255, 182, 193, 0.1) 0%, transparent 100%);
+}
+
+.user-profile.candy-theme h1::before {
+  content: "🍬 ";
+}
+
+/* === CANDYZACJA EMOTIKONÓW === */
+.candy-theme .emoji {
+  filter: hue-rotate(310deg) saturate(1.2);
+}
+
+/* === METADATA CANDY === */
+.candy-theme .frontmatter-container {
+  border-left: 4px solid #FF69B4;
+  background: rgba(255, 182, 193, 0.05);
+}
+
+/* === CALLOUTS CANDY === */
+.candy-theme .callout[data-callout="candy"],
+.candy-theme .callout[data-callout="karinam"] {
+  --callout-color: 255, 105, 180;
+  --callout-icon: lucide-candy;
+}
+
+/* === HEADERS CANDY GRADIENT === */
+.candy-theme .inline-title {
+  background: linear-gradient(90deg, #FF1493, #FF69B4, #FFB6C1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+/* === SEPARATOR CANDY === */
+.candy-theme hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #FFB6C1, transparent);
+}
+
+/* === CODE BLOCKS CANDY === */
+.candy-theme .cm-s-obsidian pre.HyperMD-codeblock,
+.candy-theme .markdown-preview-view pre code {
+  border-left: 3px solid #FF69B4;
+}
+
+/* === TABLES CANDY === */
+.candy-theme table th {
+  background: linear-gradient(135deg, #FFB6C1, #FFC0CB);
+  color: white;
+  font-weight: 600;
+}
+
+.candy-theme table tr:hover {
+  background: rgba(255, 182, 193, 0.1);
+}
+
+/* === ANIMATIONS === */
+@keyframes candy-pulse {
+  0%, 100% { box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(255, 105, 180, 0.8); }
+}
+
+.candy-theme .metadata-container:hover {
+  animation: candy-pulse 2s infinite;
+}
+
+/* === MOBILE CANDY === */
+@media (max-width: 768px) {
+  .candy-theme h1 {
+    font-size: 1.8em;
+  }
+}

@@ -1,6 +1,23 @@
 ---
-title: Krótka notatka – jak spiąć ChatGPT Business, GitHub, Copilot i ClickUp
-description: TODO - uzupełnij opis.
+tags:
+  - #automation
+  - #eww
+  - #git
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "Krótka notatka – jak spiąć ChatGPT Business, GitHub, Copilot i ClickUp"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # Krótka notatka – jak spiąć ChatGPT Business, GitHub, Copilot i ClickUp
@@ -50,3 +67,12 @@ description: TODO - uzupełnij opis.
    - analizuje kod z repo,
    - przegląda taski w ClickUp,
    - sugeruje plan, review, dokumentację itd.
+
+
+## 🔗 Powiązane dokumenty
+
+- [[usr/jakubc/workspace/workspace|workspace]]
+- [[usr/jakubc/jakubc|jakubc]]
+- [[docs/INDEX|INDEX]]
+
+**Auto-linked:** 2025-11-21

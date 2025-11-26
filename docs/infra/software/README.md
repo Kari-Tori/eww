@@ -1,9 +1,26 @@
 ---
-title: Software — systemy i usługi
-description: Oprogramowanie bazowe, konfiguracje i wersje utrzymywane w E-Waste Workshop
-created: 2025-11-19
-updated: 2025-11-19
+tags:
+  - #automation
+  - #docs
+  - #eww
+  - #infrastructure
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🧩 Software — źródło prawdy"
+
+
+
+
+
+
+owner: jakubc
 ---
+
+
 
 # 🧩 Software — źródło prawdy
 

@@ -1,30 +1,64 @@
-# Ignore editor and backup files
-*~
-*.swp
-*.swo
-*.orig
-*.bak
-init-eww.sh.bak*
-* (1)
+# --- EWW: duże katalogi mediów (wykluczone) ---
+# Zdjęcia i pliki binarne Karina Desktop (bardzo duże)
+usr/karinam/devices/asus_z77/desktop/Karina/
+# Zrzuty i media pod e-bay
+usr/karinam/devices/asus_z77/desktop/e-bay/
 
-# Generated documentation files
-*.pdf
-*.docx
-*.html
-*.epub
+# EWW .gitignore
 
-# Node / Python / other common ignores (safe defaults)
-__pycache__/
-.venv/
-.cache/logs/
-.obsidian/
-logs/
-init-eww.sh.bak.*
-logs/
-var/
-awesome-readme/
+# Git
+.git/
+
+# Auto-generated reports (zawsze świeże z cron)
+core/reports/repo-stats.md
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/hotkeys.json
+.obsidian/graph.json
+.obsidian/graph.json.backup-*
+.obsidian/graph-*.json
+.obsidian/backups/
+.obsidian/GRAPH-*.md
+.obsidian/*-migration.json
+
+# Continue.dev (AI assistant)
 .continue/
-.vscode/
 
-# Heavy imported vaults
-eww/inbox/
+# MakeMD plugin
+.makemd/
+
+# Backups
+*.backup
+*.bak
+*~
+
+# Logs
+*.log
+
+# Temp
+tmp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+node_modules/
+.obsidian/graph.json
+# Node
+node_modules/
+
+# Obsidian themes (lokalne preferencje)
+.obsidian/themes/
+
+# Temp files
+cookies.txt

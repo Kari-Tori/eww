@@ -1,0 +1,13 @@
+[Unit]
+Description=Daily Graph Snapshot Service
+Documentation=file:///home/jakubc/git/eww/docs/infra/software/obsidian/plugins/core/graph-view/graph-view-plan.md
+
+[Service]
+Type=oneshot
+ExecStart=/home/jakubc/git/eww/dev/scripts/graph-snapshot.sh
+WorkingDirectory=/home/jakubc/git/eww
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

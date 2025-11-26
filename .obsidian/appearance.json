@@ -1,0 +1,9 @@
+{
+  "accentColor": "#0de71c",
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "todo-dashboard"
+  ],
+  "cssTheme": "GitHub Theme"
+}

@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# File: dev/tests/test_neovim.sh
+# Author: 
+# Created: 
+# Updated: 
+# Description: @Description: Test Neovim LSP dla Bash
 ###
 # @Description: Test Neovim LSP dla Bash
 # @Author: Nairecth

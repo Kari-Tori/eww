@@ -1,8 +1,23 @@
 ---
-title: Lista tematów badawczych (resarch_topics)
-description: Snapshot wszystkich eksperymentowanych narzędzi i agentów w hybrydowym workspace
-language: pl
-updated: 2024-11-16
+tags:
+  - #automation
+  - #development
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-21T18:00:00Z
+author: jakubc
+title: "Lista badań hybrydowego workspace"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # Lista badań hybrydowego workspace
@@ -70,3 +85,12 @@ Ten plik zastępuje dawne `README.md` w katalogu `resarch/`. Służy jako żyją
 - 🧷 **AG2** – AutoGen 2 (framework multi-agentowy od Microsoft/AGI).
 - 🪟 **VS** – Visual Studio (w tym kontekście Visual Studio Code).
 - 🚀 **MVP** – Minimum Viable Product (minimalny działający produkt).
+
+
+## 🔗 Powiązane dokumenty
+
+- [[usr/jakubc/workspace/resarch/resarch|resarch]]
+- [[usr/jakubc/workspace/workspace|workspace]]
+- [[usr/jakubc/jakubc|jakubc]]
+
+**Auto-linked:** 2025-11-21

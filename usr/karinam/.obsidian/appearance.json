@@ -1,0 +1,13 @@
+{
+  "enabledCssSnippets": [
+    "full-width-editor"
+  ],
+  "cssTheme": "",
+  "accentColor": "",
+  "baseFontSize": 25,
+  "nativeMenus": false,
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": ""
+}
