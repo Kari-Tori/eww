@@ -1,0 +1,40 @@
+name: Sync Fork with Upstream
+
+on:
+  schedule:
+    # Codziennie o 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Możliwość ręcznego uruchomienia
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Configure Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+    
+    - name: Add upstream remote
+      run: |
+        git remote add upstream https://github.com/Nairecth/eww.git || true
+        git fetch upstream
+    
+    - name: Merge upstream changes
+      run: |
+        git checkout main
+        git merge upstream/main --no-edit || echo "Merge conflicts - manual intervention needed"
+    
+    - name: Push changes
+      run: |
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
