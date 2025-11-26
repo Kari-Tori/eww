@@ -25,3 +25,6 @@ var/
 awesome-readme/
 .continue/
 .vscode/
+
+# Heavy imported vaults
+eww/inbox/
