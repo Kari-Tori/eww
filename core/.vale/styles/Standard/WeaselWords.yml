@@ -1,5 +1,0 @@
-extends: substitution
-message: "Sugestia: rozważ usunięcie słowa '%s' — może osłabia przekaz."
-level: suggestion
-scope: sentence
-match: '\b(może|powinien|najprawdopodobniej|możesz|być może|prawdopodobnie)\b'

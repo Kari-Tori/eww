@@ -17,6 +17,7 @@ core/reports/repo-stats.md
 .obsidian/workspace-mobile.json
 .obsidian/cache/
 .obsidian/plugins/
+.obsidian/icons/
 .obsidian/hotkeys.json
 .obsidian/graph.json
 .obsidian/graph.json.backup-*
@@ -64,6 +65,12 @@ node_modules/
 cookies.txt
 
 # Duże pliki i vaults
-eww/inbox/
+core/inbox/
 usr/karinam/inbox/
-eww/inbox/
+
+# Pluginy Obsidian (duże pliki JS)
+dev/Projects/obsidian/plugins/
+
+# MakeMD thumbnails
+**/.makemd/thumbnails/
+**/.makemd/*.mdc

@@ -1,5 +1,0 @@
-extends: substitution
-message: "Sugeruj: unikaj używania słowa 'Pobierz' wprost — rozważ "Pobierz i sprawdź""
-level: suggestion
-scope: text
-match: "\\bPobierz\\b"
