@@ -1,7 +1,7 @@
 ---
 title: AGENTS.md - Kontekst dla AI Coding Agents
-description: Kompletny kontekst projektu dla AI - architektura, workflow, konwencje
-version: 0.0.0.4
+description: Instrukcja dla AI – misja Zero Waste, struktura repo, zasady pracy i wersjonowanie
+version: 0.0.0.5
 audience: AI coding agents
 type: ai-context
 category: documentation
@@ -13,145 +13,68 @@ tags:
   - conventions
 language: pl
 created: 2024-11-08
-updated: 2025-11-09
+updated: 2025-11-29
 ---
 
 # AGENTS.md - Kontekst dla AI Coding Agents
 
-## Informacje o projekcie
+## 📌 Krótko o projekcie
+- **E-Waste Workshop (EWW):** centrum recyklingu/refabrykacji elektroniki z automatyzacją.
+- **Misja:** Zero Waste – wszystko jest surowcem dla nas (odzysk, refabrykacja, edukacja).
+- **Lokalizacja:** 77C Church Lane, N9 9PZ (outbuilding za domem Gary’ego).
+- **Cel finansowy:** ≥ £1500/mies. na pokrycie czynszu.
 
-**Nazwa:** E-Waste Workshop (eww)  
-**Typ:** Bash scripting toolkit  
-**Język:** Bash, dokumentacja po polsku  
-**Cel:** Automatyzacja konfiguracji środowiska deweloperskiego na Kubuntu
-
-## Architektura
-
-### Główne komponenty
+## 🗂️ Architektura repo (skrót)
 ```
 eww/
-├── bin/               # Skrypty CLI użytkownika
-│   ├── eww-banner    # Generator banerów
-│   ├── eww-changelog # Generator changelogu z Git
-│   ├── eww-auto-comment # Auto-komentarze do kodu
-│   ├── eww-commit    # Helper do commitów
-│   └── eww-status    # Status projektu
-├── lib/              # Biblioteki współdzielone
-│   ├── banner.sh     # Funkcje banerów
-│   ├── git.sh        # Helpery Git
-│   ├── log.sh        # System logowania
-│   ├── idempotent.sh # Operacje idempotentne
-│   └── sys.sh        # Helpery systemowe
-├── scripts/          # Skrypty pomocnicze/wewnętrzne
-├── tests/            # Testy BATS
-├── docs/             # Dokumentacja Markdown
-└── systemd/          # Jednostki systemd --user
+├── bin/                # CLI użytkownika
+├── business/           # Biznes, governance, roadmapy, polityki
+├── core/               # Config/runtime/workflow
+├── dev/                # Narzędzia dev, skrypty, init, testy
+├── lib/                # Biblioteki wspólne
+├── docs/               # Dokumentacja (infra/location/network/hardware)
+├── archive/            # Archiwum
+└── Makefile            # Automatyzacja (make help)
 ```
 
-## Stack technologiczny
+## 🧰 Stack / narzędzia
+- Kubuntu 24.04 LTS
+- VS Code, Obsidian
+- Codex, GitHub Copilot
+- Odoo ERP (inwentaryzacja – plan/rozwój)
+- Make, systemd, GitHub Actions
+- GitHub (repo, tagi `vX.Y.Z` obowiązkowe; `VERSION` + frontmatter muszą być zgodne; `make check-versions`)
 
-- **Shell:** Bash 5.1+
-- **OS:** Kubuntu 24.04 LTS
-- **Testing:** BATS (Bash Automated Testing System)
-- **CI/CD:** Potencjalnie GitHub Actions
-- **Versionowanie:** Semantic Versioning (x.y.z.b)
-- **Commit style:** Conventional Commits
+## 🔧 Workflow (dla AI)
+1. Branch: `git checkout -b feat/...`
+2. Kod + lint/test tam, gdzie ma sens (bez zbędnych zależności).
+3. `make comment-add FILE=...` jeśli trzeba komentarzy.
+4. `make bump-version BUMP=X.Y.Z` + `make check-versions` (tag/VERSION/frontmatter).
+5. Commit (Conventional Commits); tag `vX.Y.Z` wymagany do spójności.
+6. `make changelog` jeśli generujesz changelog.
 
-## Wzorce i praktyki
-
-### Struktura funkcji
-```bash
-# Nazwa funkcji (krótki opis)
-# Argumenty:
-#   $1 - opis pierwszego argumentu
-# Zwraca: 0 sukces, 1+ błąd
-nazwa_funkcji() {
-    local arg1="$1"
-    # implementacja
-}
-```
-
-### Obsługa błędów
-```bash
-set -euo pipefail  # Zawsze na początku
-
-if [[ ! -f $plik ]]; then
-    log_error "Brak pliku: $plik"
-    return 1
-fi
-```
-
-### Konwencje nazewnictwa
-- Globalne: `EWW_NAZWA_ZMIENNEJ`
-- Lokalne: `local nazwa_zmiennej`
-- Funkcje: `namespace::funkcja` lub `funkcja_pomocnicza`
-- Readonly: `readonly STALA_WARTOSC`
-
-## Workflow
-
-### Typowy proces rozwoju
-1. Stwórz gałąź: `git checkout -b feat/nowa-funkcja`
-2. Implementuj z testami
-3. `make comment-add FILE=...` - dodaj komentarze
-4. `make changelog` - sprawdź zmiany
-5. Commit z Conventional Commits
-6. `make release VERSION=x.y.z.b` - wydanie
-
-### Używane narzędzia
-- `make` - automatyzacja zadań
-- `git` - kontrola wersji
-- `bats` - testy
-- `shellcheck` - linting (zalecane)
-- `gh` - GitHub CLI
-
-## Zasady dla AI
-
-### Gdy generujesz kod:
-1. **Język:** Komentarze i komunikaty PO POLSKU
-2. **Bezpieczeństwo:** Zawsze `set -euo pipefail`, cytuj zmienne
-3. **Struktura:** Używaj wzorców z istniejącego kodu
-4. **Testy:** Sugeruj testy BATS dla nowych funkcji
-5. **Dokumentacja:** Aktualizuj README.md przy większych zmianach
-
-### Gdy pomagasz z bugami:
-1. Sprawdź najpierw `lib/` dla podobnego kodu
-2. Użyj funkcji logowania z `lib/log.sh`
-3. Pamiętaj o obsłudze błędów
-4. Testuj edge cases
-
-### Gdy refaktoryzujesz:
-1. Zachowaj kompatybilność wsteczną
-2. Dodaj deprecated warnings jeśli potrzeba
-3. Zaktualizuj testy
-4. Zaktualizuj CHANGELOG.md
+## ✅ Zasady dla AI
+- Język: po polsku.
+- Nie usuwaj cudzych zmian; brak destrukcyjnych komend.
+- Komentarze tylko gdy realnie poprawiają czytelność.
+- Wersjonowanie: trzymaj `VERSION` + frontmatter w zgodzie z tagiem Git.
+- Ścieżki w odpowiedziach: `path/to/file:line` (bez URI).
 
 ## Kontekst techniczny
 
-### Zmienne środowiskowe
-```bash
-EWW_ROOT="/git/eww"              # Katalog główny
-EWW_CD_ROOT=1                     # Auto-cd do EWW_ROOT
-EWW_BANNER_ENABLE=1               # Pokazuj baner
-EWW_INIT_OK=1                     # Flaga inicjalizacji
-```
+### Zmienne i init
+- `EWW_ROOT=/git/eww`, `EWW_CD_ROOT=1`, `EWW_BANNER_ENABLE=1`, `EWW_INIT_OK=1`.
+- Inicjalizacja: source `dev/projects/init-eww.sh`.
 
 ### Kluczowe pliki
-- `VERSION` - aktualny numer wersji (x.y.z.b)
-- `CHANGELOG.md` - historia zmian (Keep a Changelog)
-- `Makefile` - automatyzacja (make help)
-- `projects/init/init-eww.sh` - główny skrypt inicjalizacyjny
-
-## Cel projektu
-
-Umożliwić szybką konfigurację środowiska deweloperskiego na świeżej instalacji Kubuntu poprzez:
-1. Sklonowanie repo do `/git/eww`
-2. Source'owanie `projects/init/init-eww.sh` w `~/.bashrc`
-3. Automatyczne ustawienie środowiska, ścieżek, aliasów
-4. Dostarczenie narzędzi CLI do codziennej pracy
+- `VERSION` – numer wersji (zgodny z tagiem Git).
+- `Makefile` – `make help`, `make check-versions`, `make bump-version`.
+- `dev/scripts/check-version-consistency.sh` – walidacja tag/VERSION/frontmatter.
+- `business/story.md`, `business/roadmap.md`, `ZERO-WASTE-POLICY.md` – misja, cele, polityka zero waste.
+- `docs/infra/location.md`, `docs/infra/network/garynet.md`, `docs/infra/hardware/hardware.md` – miejsce, łączność, sprzęt.
 
 ## Planowane rozszerzenia
-- [ ] Integracja z GitHub Actions
-- [ ] Więcej testów coverage
-- [ ] Dokumentacja MkDocs
-- [ ] Plugin system dla rozszerzeń
-- [ ] Support dla innych dystrybucji
+- [ ] Migracja wg `docs/infra/RESTRUCTURE-MAP.md` (dev→development, usr→users)
+- [ ] Więcej testów coverage (BATS dla lib/init)
+- [ ] Dokumentacja (MkDocs / indeksy)
+- [ ] Integracje CI/CD, pluginy, inne dystrybucje

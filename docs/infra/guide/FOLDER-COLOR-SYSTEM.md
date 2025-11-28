@@ -1,14 +1,17 @@
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #automation
   - #graph
   - #eww
   - #system
-created: 2025-11-23T01:17:00Z
-modified: 2025-11-23T01:17:00Z
-author: jakubc
 title: "🎨 System folder_color dla Graph View"
 owner: jakubc
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # 🎨 System folder_color dla Graph View
@@ -55,16 +58,19 @@ folder_color_palette:
 ## Format YAML folder_note
 
 ```yaml
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #folder_note
   - #category
 folder_color: 65331
 file_count: 41
-created: 2025-11-23T01:00:00Z
-modified: 2025-11-23T01:00:00Z
-author: jakubc
 title: "Core - System plików podstawowych"
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # Core
@@ -111,12 +117,16 @@ color="${2:-8421504}"  # Default gray
 count=$(find "$folder" -name "*.md" | wc -l)
 
 cat > "$folder/$(basename "$folder").md" << YAML
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #folder_note
 folder_color: $color
 file_count: $count
-created: $(date -Iseconds)
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
 author: jakubc
 ---
 
@@ -151,6 +161,9 @@ path:config/ OR
 path:dev/
 ```
 
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 **Status**: 🎨 System kolorów zdefiniowany  

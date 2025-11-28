@@ -1,8 +1,10 @@
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title: Obsidian — Customization Guide (Themes, CSS Snippets, Appearance)
 description: Kompletny przewodnik po customizacji Obsidian — motywy, CSS snippets, konfiguracja wyglądu, czcionki, kolory i UI tweaks
 version: 1.0.0
-created: 2025-11-24
 updated: 2025-11-24
 tags:
   - obsidian
@@ -12,6 +14,9 @@ tags:
   - snippets
   - appearance
   - ui
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # Obsidian — Customization Guide 🎨
@@ -25,6 +30,9 @@ Kompletny przewodnik po customizacji wyglądu Obsidian:
 - Czcionki, kolory, layout
 - Best practices i przykłady
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📦 Struktura konfiguracji Obsidian
@@ -45,6 +53,9 @@ Kompletny przewodnik po customizacji wyglądu Obsidian:
 └── workspace.json        # Layout i stan workspace
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🎨 Themes — Motywy Obsidian
@@ -74,6 +85,9 @@ Settings → Appearance → Themes → Manage → Search "GitHub Theme" → Inst
 Settings → Appearance → Themes → GitHub Theme
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Top 10 Community Themes
@@ -92,6 +106,9 @@ Rating: ⭐⭐⭐⭐⭐
 **Instalacja:**
 - Settings → Appearance → Themes → Manage → **Minimal** → Install
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 2. **Things**
@@ -105,6 +122,9 @@ Rating: ⭐⭐⭐⭐⭐
 - Dostępne light/dark
 - Clean UI
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 3. **California Coast**
@@ -117,6 +137,9 @@ Rating: ⭐⭐⭐⭐⭐
 - Świetna czytelność
 - Minimalistyczny
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 4. **AnuPpuccin**
@@ -130,6 +153,9 @@ Rating: ⭐⭐⭐⭐⭐
 - 4 warianty (Latte, Frappe, Macchiato, Mocha)
 - Duża customizacja
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 5. **ITS Theme**
@@ -142,6 +168,9 @@ Rating: ⭐⭐⭐⭐☆
 - Dark mode ekspert
 - Świetne kontrasty
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 6. **Dracula Official**
@@ -154,6 +183,9 @@ Rating: ⭐⭐⭐⭐⭐
 - Dark purple/pink kolory
 - Konsystentny z Dracula w innych edytorach
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 7. **Obsidian Nord**
@@ -166,6 +198,9 @@ Rating: ⭐⭐⭐⭐⭐
 - Zimne, spokojne kolory
 - Świetna czytelność
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 8. **Primary**
@@ -177,6 +212,9 @@ Rating: ⭐⭐⭐⭐⭐
 - Prosty, klasyczny design
 - Focus na content
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 9. **Everforest**
@@ -189,6 +227,9 @@ Rating: ⭐⭐⭐⭐⭐
 - Zielone, naturalne kolory
 - Komfortowy dla oczu
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 10. **Sanctum**
@@ -201,6 +242,9 @@ Rating: ⭐⭐⭐⭐☆
 - Wysoki kontrast
 - Professional look
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🎨 Appearance Settings
@@ -234,6 +278,9 @@ Rating: ⭐⭐⭐⭐☆
 
 **Zmiana:** Settings → Appearance → Advanced → Zoom level
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 2. Base Font Size
@@ -245,6 +292,9 @@ Rating: ⭐⭐⭐⭐☆
 
 **Zmiana:** Settings → Appearance → Font size
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 3. Accent Color
@@ -263,6 +313,9 @@ Rating: ⭐⭐⭐⭐☆
 - `#f59e0b` — Pomarańczowy
 - `#ef4444` — Czerwony
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 4. Fonts
@@ -315,6 +368,9 @@ fc-list | grep -i "jetbrains"
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📝 CSS Snippets — Customowe style
@@ -329,6 +385,9 @@ CSS snippets to małe pliki `.css` w `.obsidian/snippets/`, które nadpisują do
 - Łatwo sharować między vaultami
 - Hot reload (zmiany na żywo)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Zainstalowane snippets (4)
@@ -363,6 +422,9 @@ body {
 Settings → Appearance → CSS snippets → full-width-editor (toggle ON)
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 2. `eww-journal.css` ⚪ NIEAKTYWNY
@@ -401,6 +463,9 @@ Settings → Appearance → CSS snippets → full-width-editor (toggle ON)
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 3. `lego-snippet.css` ⚪ NIEAKTYWNY
@@ -451,12 +516,18 @@ Settings → Appearance → CSS snippets → full-width-editor (toggle ON)
 </div>
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 4. `test-full-width.css` ⚪ NIEAKTYWNY
 
 **Funkcja:** Test full width (podobne do #1)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Tworzenie nowego CSS snippet
@@ -512,6 +583,9 @@ input[type="checkbox"]:checked {
 Settings → Appearance → CSS snippets → Reload snippets → Toggle ON
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🎨 Przykłady customizacji
@@ -542,6 +616,9 @@ a {
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 2. Compact mode — więcej treści na ekranie
@@ -575,6 +652,9 @@ body {
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 3. Ładniejsze tabele
@@ -610,6 +690,9 @@ body {
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 4. Custom tag colors
@@ -651,6 +734,9 @@ body {
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 5. Większe emoji
@@ -671,6 +757,9 @@ body {
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔧 Advanced Customization
@@ -696,6 +785,9 @@ Settings → Community plugins → Browse → "Style Settings" → Install → E
 2. Settings → Style Settings
 3. Customizuj kolory, czcionki, spacing via GUI
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### CSS Variables — najważniejsze
@@ -740,6 +832,9 @@ body {
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📚 Zasoby i społeczność
@@ -762,6 +857,9 @@ body {
 - **Style Settings Plugin:** GUI dla CSS variables
 - **Theme Dev Vault:** https://github.com/obsidian-community/obsidian-theme-dev
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🎯 Best Practices
@@ -772,6 +870,9 @@ body {
 
 **Powód:** Theme updates nadpiszą zmiany.
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 2. Testuj na małych snippetach
@@ -783,6 +884,9 @@ body {
 ```
 Najpierw test, potem full implementation.
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 3. Używaj `!important` tylko gdy konieczne
@@ -798,6 +902,9 @@ body {
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 4. Komentuj CSS
@@ -814,6 +921,9 @@ body {
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 5. Backup konfiguracji
@@ -825,6 +935,9 @@ cp -r .obsidian/snippets ~/backups/obsidian-snippets-$(date +%Y%m%d)
 cp .obsidian/appearance.json ~/backups/appearance-$(date +%Y%m%d).json
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🐛 Troubleshooting
@@ -853,6 +966,9 @@ cp .obsidian/appearance.json ~/backups/appearance-$(date +%Y%m%d).json
    }
    ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Theme conflict
@@ -862,6 +978,9 @@ Settings → Appearance → Themes → None (użyj default)
 ```
 Jeśli snippet działa bez theme, to konflikt. Zgłoś bug theme authorowi.
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Czcionka nie działa
@@ -878,6 +997,9 @@ Jeśli snippet działa bez theme, to konflikt. Zgłoś bug theme authorowi.
    }
    ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔗 Powiązane dokumenty
@@ -887,6 +1009,9 @@ Jeśli snippet działa bez theme, to konflikt. Zgłoś bug theme authorowi.
 - **[plugins-status.md](./plugins-status.md)** — Audit pluginów
 - **[obsidian.md](./obsidian.md)** — Główna dokumentacja Obsidian
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ✨ Następne kroki
@@ -899,6 +1024,9 @@ Jeśli snippet działa bez theme, to konflikt. Zgłoś bug theme authorowi.
 6. ✅ Utwórz custom snippet dla swojego workflow
 7. ✅ Backup `.obsidian/snippets/` i `appearance.json`
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📊 Podsumowanie obecnej konfiguracji
@@ -915,6 +1043,9 @@ Jeśli snippet działa bez theme, to konflikt. Zgłoś bug theme authorowi.
 - ✅ Wypróbuj motyw Minimal lub AnuPpuccin
 - ✅ Zainstaluj Style Settings plugin
 - ✅ Dodaj kolorowe tagi (colored-tags.css snippet)
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🧱 LEGO snippet – stylizacja modułu LEGO

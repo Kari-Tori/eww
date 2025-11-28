@@ -1,3 +1,6 @@
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -6,11 +9,11 @@ tags:
   - #vscode
   - #remote
   - #development
-created: 2025-11-22T12:00:00Z
-modified: 2025-11-22T12:00:00Z
-author: jakubc
 title: "🌐 Przewodnik Remote SSH w VS Code"
 owner: jakubc
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # 🌐 Przewodnik Remote SSH w VS Code

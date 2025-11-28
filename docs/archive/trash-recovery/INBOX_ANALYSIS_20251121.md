@@ -1,3 +1,6 @@
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -13,9 +16,7 @@ type: file
 category: docs
 filepath: docs/trash-recovery/INBOX_ANALYSIS_20251121.md
 color: green
-author: jakubc
 owner: jakubc
-created: 2025-11-21
 updated: 2025-11-21
 version: 1.0.0
 language: pl
@@ -45,6 +46,9 @@ repository: https://github.com/Kari-Tori/eww-1
 
 
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 
@@ -62,6 +66,9 @@ Znaleziono **6 inbox'ów**:
 
 **Uwaga**: Inbox'y w `usr/*/` są ignorowane przez `.gitignore` (prywatne dane).
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 1. archive/Archives Inbox/ (67 plików, 5.7MB)
@@ -134,6 +141,9 @@ Daty: 2025-04-29, 05-02, 05-03, 05-05, 05-06, 05-12, 14.05, 15.05, 16.05, 04.06-
 
 **Akcja**: ❌ USUNĄĆ
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 2. projects/e-waste-workshop/Inbox/ (4 pliki, 32KB)
@@ -162,6 +172,9 @@ Daty: 2025-04-29, 05-02, 05-03, 05-05, 05-06, 05-12, 14.05, 15.05, 16.05, 04.06-
 
 **Akcja**: → `var/status/` lub `docs/infra/dashboards/`
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## Plan przenoszenia
@@ -307,6 +320,9 @@ mv "archive/Archives Inbox/Tasks Plugin"*.md archive/tasks-snapshots/ 2>/dev/nul
 mv "archive/Archives Inbox/Todo.md" archive/tasks-snapshots/
 ```
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## Podsumowanie akcji

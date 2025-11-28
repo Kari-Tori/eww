@@ -1,14 +1,17 @@
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-26T12:57:37Z
+author: jakubc
 ---
 tags:
   - #documentation
   - #graph
   - #structure
   - #folder_note
-created: 2025-11-23T00:00:00Z
-modified: 2025-11-23T00:00:00Z
-author: jakubc
 title: "Schemat kolorów dla struktury grafu projektu EWW"
 owner: jakubc
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-26T12:57:37Z
+author: jakubc
 ---
 
 # Schemat kolorów dla struktury grafu projektu EWW
@@ -44,27 +47,33 @@ Kolory te są używane do:
 - Ułatwienia nawigacji w złożonej strukturze repozytorium
 - Spójnego tagowania elementów projektu
 
-## 📂 Dokumentacja Graph View
+## 📂 Konfiguracja Graph View
 
-**Lokalizacja**: `docs/infra/software/obsidian/plugins/core/graph-view/`
+**Główna lokalizacja**: `dev/obsidian/graph/`
 
-**Główne pliki**:
-- `graph-view-plan.md` - Plan implementacji zaawansowanych funkcji (Faza 1 ✅)
-- `graph-view-next.md` - Zaawansowane możliwości i przyszłość
-- `graph-view-limits.md` - Limity techniczne Obsidian Graph
-- `installation-guide.md` - Przewodnik instalacji pluginów
-- `presets.md` - Presety grafu (ULTIMATE, BUSINESS, JAKUBC, DEV, MINIMAL)
-- `colors.md` - Szczegóły kolorystyki
+```
+graph/
+├── presets/              # Gotowe konfiguracje JSON
+│   ├── ultimate.json     # Aktywny preset (927 nodes)
+│   ├── business.json
+│   ├── dev.json
+│   └── ...
+├── backups/             # Ręczne backupy przed zmianami
+├── versions/            # Daily snapshots (systemd)
+├── styles/              # CSS (colors, style, timeline)
+├── docs/                # Szczegółowa dokumentacja
+└── README.md            # Główny przewodnik
 
-**Archiwa** (`archives/`):
-- Pliki z dawnego `docs/infra/graphs/` (przeniesione 2025-11-23)
-- Historyczne setupy: GRAPH-*.md (18 plików)
-- graph-setup-guide.md - stary przewodnik
-- graphs-old-index.md - dawny indeks
+Dokumentacja:
+- dev/obsidian/graph/README.md - Pełny guide (246 linii)
+- dev/obsidian/graph/docs/README.md - Szczegóły (151 linii)
+```
 
-## 🚀 ULTIMATE GRAPH SETUP - ZAINSTALOWANE!
+**Zobacz**: `dev/obsidian/graph/README.md` dla pełnych instrukcji
 
-### ✅ Aktywna konfiguracja (od 2025-11-23)
+## 🚀 ULTIMATE GRAPH SETUP - AKTYWNY!
+
+### ✅ Aktywna konfiguracja (zaktualizowana 2025-11-27)
 
 **Preset**: ULTIMATE PERFORMANCE dla 927 plików markdown
 
@@ -105,37 +114,35 @@ Kolory te są używane do:
 - 🎯 Ukryte martwe linki i sieroty → tylko połączone notatki
 - 👁️ Zawsze widoczne etykiety → `-0.5`
 - 📏 Większe węzły (1.5x) i grubsze linie (2x)
-- 🎨 Kompaktowy layout (280px) + silne centrum (0.4)
+- 🎨 Kompaktowy layout (120px)
 - ⚖️ Zbalansowana fizyka (repel:12, link:0.6)
 
 ### 📦 Dostępne presety
 
-Wszystkie presety w: `.obsidian/graph-*.json`
+**Lokalizacja**: `dev/obsidian/graph/presets/`
 
-1. **ULTIMATE** (aktywny) - `.obsidian/graph.json`
-2. **BUSINESS** - `.obsidian/graph-business.json` - tylko business/
-3. **JAKUBC** - `.obsidian/graph-jakubc.json` - usr/jakubc/ + #secondbrain
-4. **DEV** - `.obsidian/graph-dev.json` - dev/ (scripts, lib, Playbooks)
-5. **MINIMAL** - `.obsidian/graph-minimal.json` - tylko indexy
-6. **PERFORMANCE** - `.obsidian/graph-performance.json` - max wydajność
+| Preset | Nodes | Opis |
+|--------|-------|------|
+| **ultimate.json** | ~927 | Aktywny - cała struktura |
+| **business.json** | ~100 | Tylko business/ + governance |
+| **dev.json** | ~200 | dev/ (scripts, lib, Playbooks) |
+| **jakubc.json** | ~150 | usr/jakubc/ + #secondbrain |
+| **karinam.json** | ~50 | usr/karinam/ |
+| **minimal.json** | ~60 | Tylko indexy i folder notes |
+| **performance.json** | varies | Maksymalna wydajność |
 
-### 🔧 Szybkie przełączanie
-
-**Skrypt**: `dev/scripts/graph-switch.sh`
+### 🔧 Przełączanie presetów
 
 ```bash
-# Interaktywnie
-./dev/scripts/graph-switch.sh
+# Skopiuj wybrany preset
+cp dev/obsidian/graph/presets/business.json .obsidian/graph.json
 
-# Bezpośrednio
-./dev/scripts/graph-switch.sh business
-./dev/scripts/graph-switch.sh jakubc
-./dev/scripts/graph-switch.sh dev
+# Pełna ścieżka
+cp /home/karinam/git/eww/dev/obsidian/graph/presets/ultimate.json \
+   /home/karinam/git/eww/.obsidian/graph.json
 ```
 
-### 📚 Pełna dokumentacja
-
-Zobacz: `.obsidian/graph-presets.md` - wszystkie presety, pro tips, troubleshooting
+**Pełna dokumentacja**: `dev/obsidian/graph/README.md`
 
 ## Kategorie główne
 

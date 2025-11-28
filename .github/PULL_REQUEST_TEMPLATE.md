@@ -1,9 +1,15 @@
+created: 2025-11-26T13:46:18Z
+modified: 2025-11-26T13:46:18Z
+author: karinam
 ---
 name: Pull Request
 about: Template for contributing changes
 title: ''
 labels: ''
 assignees: ''
+created: 2025-11-26T13:46:18Z
+modified: 2025-11-26T13:46:18Z
+author: karinam
 ---
 
 ## Opis zmian
@@ -51,6 +57,9 @@ Relates to #
 
 <!-- Dodatkowe informacje dla reviewera -->
 
+created: 2025-11-26T13:46:18Z
+modified: 2025-11-26T13:46:18Z
+author: karinam
 ---
 
 **Workflow:** Nairecth/eww → lokalnie → Kari-Tori/eww → PR → Nairecth/eww

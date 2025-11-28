@@ -1,0 +1,192 @@
+:root {
+  /* Nord palette */
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+
+  /* GitHub-like text colors (dark-friendly) */
+  --gh-text-dark: var(--nord6);
+  --gh-text-light: #24292e;
+  --gh-muted: var(--nord4);
+  --gh-link-dark: var(--nord8);
+  --gh-link-light: #0969da;
+
+  /* GitHub theme palette */
+  --gh-text-dark: #e5e9f0;
+  --gh-text-light: #e5e9f0;
+  --gh-muted: #6b7280;
+  --gh-link-dark: #facc15;   /* żółty (innowacja) */
+  --gh-link-light: #facc15;
+  --gh-heading: #eceff4;
+  --gh-heading-dark: #eceff4;
+
+  /* Callouts (kolory EWW) */
+  --callout-summary: #2563eb; /* niebieski – tech */
+  --callout-note: #84cc16;    /* lime – recycling */
+  --callout-todo: #facc15;    /* żółty – innowacja */
+  --callout-bg: #2e3440;      /* Nord base */
+  --callout-bg-light: #2e3440;
+
+  /* Bold inherits text (no neon) */
+  --neon-bold: inherit;
+  --neon-strong: inherit;
+
+  /* Code and tables (GitHub-like) */
+  --code-bg-dark: #161b22;
+  --code-bg-light: #f6f8fa;
+  --code-border-dark: #30363d;
+  --code-border-light: #d0d7de;
+}
+
+.theme-dark .markdown-preview-view {
+  color: var(--gh-text-dark);
+  background-color: #2e3440;
+}
+.theme-dark .markdown-preview-view h1,
+.theme-dark .markdown-preview-view h2,
+.theme-dark .markdown-preview-view h3,
+.theme-dark .markdown-preview-view h4 {
+  color: var(--gh-heading-dark);
+}
+.theme-dark .markdown-preview-view a {
+  color: var(--gh-link-dark);
+}
+
+.theme-light .markdown-preview-view {
+  color: var(--gh-text-light);
+  background-color: #2e3440;
+}
+.theme-light .markdown-preview-view h1,
+.theme-light .markdown-preview-view h2,
+.theme-light .markdown-preview-view h3,
+.theme-light .markdown-preview-view h4 {
+  color: var(--gh-heading);
+}
+.theme-light .markdown-preview-view a {
+  color: var(--gh-link-light);
+}
+
+.markdown-preview-view p,
+.markdown-preview-view li {
+  color: inherit;
+}
+
+.markdown-preview-view .callout {
+  border: 1px solid var(--nord2);
+}
+.markdown-preview-view .callout[data-callout="summary"] {
+  border-left-color: var(--callout-summary);
+  background-color: rgba(37, 99, 235, 0.18);
+}
+.markdown-preview-view .callout[data-callout="note"] {
+  border-left-color: var(--callout-note);
+  background-color: rgba(132, 204, 22, 0.18);
+}
+.markdown-preview-view .callout[data-callout="todo"] {
+  border-left-color: var(--callout-todo);
+  background-color: rgba(250, 204, 21, 0.18);
+}
+
+.markdown-preview-view strong,
+.markdown-preview-view b {
+  color: var(--gh-heading);
+}
+
+.markdown-preview-view em strong,
+.markdown-preview-view em b {
+  color: var(--gh-heading);
+}
+
+/* Blockquotes */
+.markdown-preview-view blockquote {
+  border-left: 3px solid var(--callout-note);
+  background-color: rgba(132, 204, 22, 0.12);
+  padding: 8px 12px;
+  margin: 12px 0;
+}
+
+/* Inline code */
+.theme-dark .markdown-preview-view code {
+  background-color: #3b4252;
+  color: var(--gh-text-dark);
+  border: 1px solid #4c566a;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+.theme-light .markdown-preview-view code {
+  background-color: #3b4252;
+  color: var(--gh-text-light);
+  border: 1px solid #4c566a;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+/* Code blocks */
+.markdown-preview-view pre code {
+  display: block;
+  padding: 12px;
+  border-left: 3px solid var(--callout-summary);
+  background-color: #1f2530;
+}
+
+/* Tables */
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.markdown-preview-view th,
+.markdown-preview-view td {
+  border: 1px solid #4c566a;
+  padding: 6px 8px;
+}
+.markdown-preview-view th {
+  background: rgba(37, 99, 235, 0.15);
+}
+
+/* Task lists */
+.markdown-preview-view input[type="checkbox"] {
+  border: 1px solid var(--gh-link-dark);
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+}
+.markdown-preview-view input[type="checkbox"]:checked {
+  background-color: var(--callout-note);
+  border-color: var(--callout-note);
+}
+
+/* Headings accent bar */
+.markdown-preview-view h2::before,
+.markdown-preview-view h3::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 0.8em;
+  margin-right: 8px;
+  background: linear-gradient(135deg, var(--callout-summary), var(--callout-note));
+  border-radius: 3px;
+}
+
+/* Code block chrome */
+.markdown-preview-view pre code {
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Table row hover */
+.markdown-preview-view tr:hover td {
+  background: color-mix(in srgb, var(--callout-bg) 85%, var(--callout-summary) 15%);
+}

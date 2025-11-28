@@ -1,3 +1,6 @@
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-24T22:34:18Z
+author: Nairecth
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T12:00:00Z
-modified: 2025-11-21T12:00:00Z
-author: jakubc
 title: "YAML Frontmatter - specyfikacja atrybutów"
 
 
@@ -18,6 +18,9 @@ title: "YAML Frontmatter - specyfikacja atrybutów"
 
 
 owner: jakubc
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-24T22:34:18Z
+author: Nairecth
 ---
 
 
@@ -316,7 +319,6 @@ type: readme
 title: E-Waste Workshop README
 description: Kompletna dokumentacja projektu - instalacja, konfiguracja, użycie
 version: 0.0.0.5
-author: Nairecth
 repository: https://github.com/Nairecth/eww
 website: http://www.e-wasteworkshop.co.uk
   - bash
@@ -333,7 +335,6 @@ requires:
   - bash >= 5.1
   - git >= 2.34
   - make >= 4.3
-created: 2024-11-08
 updated: 2025-11-09
 license: MIT
 status: stable
@@ -352,9 +353,7 @@ category: documentation
 audience: developers
 language: pl
 generator: eww-changelog v0.0.0.5
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
 ```
 
@@ -373,9 +372,7 @@ language: pl
   - architecture
   - workflow
   - conventions
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
 ```
 
@@ -397,9 +394,7 @@ order: 1
 related:
   - docs/infra/wiki/kubuntu.md
   - README.md
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
 ```
 
@@ -416,9 +411,7 @@ language: pl
 generator: eww-index v0.0.0.5
 source: .filedesc
 auto-generated: true
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
 ```
 
@@ -441,9 +434,7 @@ platform: Kubuntu 24.04 LTS
   - setup
 parent: docs/infra/wiki/index.md
 order: 1
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
 ```
 
@@ -509,7 +500,6 @@ title: Tytuł dokumentu
 description: Opis dokumentu
 type: readme
 category: documentation
-created: 2025-11-09
 updated: 2025-11-09
 ```
 

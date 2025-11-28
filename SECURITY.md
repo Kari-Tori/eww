@@ -1,3 +1,6 @@
+created: 2025-11-26T12:57:37Z
+modified: 2025-11-26T12:57:37Z
+author: karinam
 ---
 title: Security Policy
 description: Polityka bezpieczeństwa i zgłaszanie podatności
@@ -6,6 +9,9 @@ tags:
   - vulnerability
   - policy
 language: pl
+created: 2025-11-26T12:57:37Z
+modified: 2025-11-26T12:57:37Z
+author: karinam
 ---
 
 # Polityka bezpieczeństwa
@@ -112,6 +118,9 @@ Osoby, które odpowiedzialnie zgłosiły podatności:
 
 *(Pusta lista - bądź pierwszy/a!)*
 
+created: 2025-11-26T12:57:37Z
+modified: 2025-11-26T12:57:37Z
+author: karinam
 ---
 
 **Dziękujemy za pomoc w utrzymaniu bezpieczeństwa projektu! 🔐**

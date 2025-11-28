@@ -1,8 +1,14 @@
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 title: code_plugins_installed
 source: "/home/karinam/git/eww/docs/software/code/plugins (konfiguracja lokalna)"
 generated: 2025-11-18
 description: Automatycznie wygenerowana lista wtyczek z vaulta "code" (skrypt do skopiowania i uruchomienia).
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 Plik "code_plugins_installed" zawiera skrypt, który po skopiowaniu i wklejeniu do terminala wypisze wszystkie zainstalowane wtyczki dla vaulta "code" wraz z numerami wersji i opisami.

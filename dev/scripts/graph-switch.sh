@@ -2,7 +2,7 @@
 # graph-switch.sh - Szybkie przełączanie presetów grafu Obsidiana
 set -euo pipefail
 
-readonly OBSIDIAN_DIR="/home/jakubc/git/eww/.obsidian"
+readonly OBSIDIAN_DIR="/home/karinam/git/eww/.obsidian"
 readonly GRAPH_JSON="${OBSIDIAN_DIR}/graph.json"
 readonly BACKUP_DIR="${OBSIDIAN_DIR}/graph-backups"
 
@@ -30,12 +30,13 @@ backup_current() {
 list_presets() {
     echo -e "${BLUE}Dostępne presety grafu:${NC}\n"
 
-    echo "1. ULTIMATE      - Zoptymalizowany dla 927 plików (aktywny)"
+    echo "1. ULTIMATE      - Zoptymalizowany dla 927 plików (wszystko oprócz logów)"
     echo "2. BUSINESS      - Tylko business/ (governance, processes, methodologies)"
     echo "3. JAKUBC        - Tylko usr/jakubc/ i #secondbrain"
-    echo "4. DEV           - Tylko dev/ (scripts, lib, Playbooks, Projects)"
-    echo "5. MINIMAL       - Tylko indexy (README, INDEX, #folder_note)"
-    echo "6. PERFORMANCE   - Max wydajność dla słabszego laptopa"
+    echo "4. KARINAM       - Tylko usr/karinam/ i Twoje pliki"
+    echo "5. DEV           - Tylko dev/ (scripts, lib, Playbooks, Projects)"
+    echo "6. MINIMAL       - Tylko indexy (README, INDEX, #folder_note)"
+    echo "7. PERFORMANCE   - Max wydajność (już masz jako graph-performance.json)"
     echo ""
 }
 
@@ -46,8 +47,7 @@ switch_preset() {
 
     case "$preset" in
         1|ultimate)
-            echo -e "${YELLOW}Aktualnie używany preset${NC}"
-            return 0
+            source_file="${OBSIDIAN_DIR}/graph-ultimate.json"
             ;;
         2|business)
             source_file="${OBSIDIAN_DIR}/graph-business.json"
@@ -55,13 +55,16 @@ switch_preset() {
         3|jakubc)
             source_file="${OBSIDIAN_DIR}/graph-jakubc.json"
             ;;
-        4|dev)
+        4|karinam)
+            source_file="${OBSIDIAN_DIR}/graph-karinam.json"
+            ;;
+        5|dev)
             source_file="${OBSIDIAN_DIR}/graph-dev.json"
             ;;
-        5|minimal)
+        6|minimal)
             source_file="${OBSIDIAN_DIR}/graph-minimal.json"
             ;;
-        6|performance)
+        7|performance)
             source_file="${OBSIDIAN_DIR}/graph-performance.json"
             ;;
         *)
@@ -104,7 +107,7 @@ restore_backup() {
 main() {
     if [[ $# -eq 0 ]]; then
         list_presets
-        echo -n "Wybierz preset (1-6): "
+        echo -n "Wybierz preset (1-7): "
         read -r choice
         switch_preset "$choice"
     else

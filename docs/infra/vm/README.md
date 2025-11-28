@@ -1,3 +1,6 @@
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T17:00:00Z
-modified: 2025-11-21T17:00:00Z
-author: jakubc
 title: "🖥️ VM & Virtualizacja — źródło prawdy"
 
 
@@ -18,6 +18,9 @@ title: "🖥️ VM & Virtualizacja — źródło prawdy"
 
 
 owner: jakubc
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 

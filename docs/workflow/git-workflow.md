@@ -1,11 +1,16 @@
+created: 2025-11-26T13:46:18Z
+modified: 2025-11-26T13:46:18Z
+author: karinam
 ---
 title: Git Workflow dla projektu eww
 description: Workflow synchronizacji między upstream i forkami
-created: 2025-11-26
 tags:
   - git
   - workflow
   - github
+created: 2025-11-26T13:46:18Z
+modified: 2025-11-26T13:46:18Z
+author: karinam
 ---
 
 # Git Workflow

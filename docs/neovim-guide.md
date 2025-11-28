@@ -1,3 +1,6 @@
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: Neovim - przewodnik testowania i konfiguracji
 description: Kompletny przewodnik testowania Neovim dla Markdown, YAML i Bash
@@ -11,7 +14,9 @@ tags:
   - bash
   - lsp
   - testing
-created: 2025-11-09
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 
 # Neovim - przewodnik testowania
@@ -354,6 +359,9 @@ nvim -p dev/tests/test_neovim.{md,yaml,sh}
 - **yaml-language-server**: https://github.com/redhat-developer/yaml-language-server
 - **marksman** (Markdown LSP): https://github.com/artempyanykh/marksman
 
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 
 **Autor:** Nairecth  

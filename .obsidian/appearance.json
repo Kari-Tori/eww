@@ -1,9 +1,15 @@
 {
-  "accentColor": "#0de71c",
+  "accentColor": "#a20de7",
   "theme": "obsidian",
-  "baseFontSize": 16,
+  "baseFontSize": 14,
   "enabledCssSnippets": [
-    "todo-dashboard"
+    "todo-dashboard",
+    "test-full-width",
+    "nord-github",
+    "graph-colors",
+    "graph-style",
+    "graph-timeline"
   ],
-  "cssTheme": "GitHub Theme"
+  "cssTheme": "Obsidian Nord",
+  "baseFontSizeAction": true
 }

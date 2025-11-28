@@ -1,0 +1,17 @@
+{
+  "search": "file:INDEX OR file:README OR tag:#folder_note",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "nodeSizeMultiplier": 2.5,
+  "lineSizeMultiplier": 3.0,
+  "textFadeMultiplier": -1,
+  "centerStrength": 0.6,
+  "repelStrength": 15,
+  "linkStrength": 0.8,
+  "linkDistance": 300,
+  "collapse-filter": false,
+  "collapse-color-groups": false,
+  "collapse-display": false
+}

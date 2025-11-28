@@ -1,3 +1,6 @@
+created: 2025-11-21T22:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #linux
   - #productivity
   - #secondbrain
-created: 2025-11-21T22:00:00Z
-modified: 2025-11-21T22:00:00Z
-author: jakubc
 title: "👥 Katalog użytkowników"
 
 
@@ -18,6 +18,9 @@ title: "👥 Katalog użytkowników"
 
 
 owner: jakubc
+created: 2025-11-21T22:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 # 👥 Katalog użytkowników

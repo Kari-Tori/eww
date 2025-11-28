@@ -1,3 +1,6 @@
+created: 2025-11-06T00:18:54Z
+modified: 2025-11-09T17:31:05Z
+author: JakubC
 ---
 title: ENDPOINTY — MkDocs (E-Waste Workshop — Wiki)
 description: Dokument
@@ -6,8 +9,10 @@ category: documentation
 tags:
   - document
 language: pl
-created: 2025-11-09
 updated: 2025-11-09
+created: 2025-11-06T00:18:54Z
+modified: 2025-11-09T17:31:05Z
+author: JakubC
 ---
 
 # ENDPOINTY — MkDocs (E-Waste Workshop — Wiki)

@@ -1,3 +1,6 @@
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: YAML Frontmatter - specyfikacja atrybutów
 description: Kompletna dokumentacja wszystkich atrybutów YAML frontmatter używanych w projekcie eww
@@ -11,10 +14,11 @@ tags:
   - frontmatter
   - metadata
   - specification
-created: 2025-11-09
 updated: 2025-11-09
-author: Nairecth
 status: stable
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 
 # YAML Frontmatter - specyfikacja atrybutów
@@ -26,11 +30,17 @@ Ten dokument definiuje wszystkie atrybuty YAML frontmatter używane w projekcie 
 ## Format podstawowy
 
 ```yaml
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: Tytuł dokumentu
 description: Krótki opis (1-2 zdania)
 version: 1.0.0
 type: readme
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 ```
 
@@ -310,11 +320,13 @@ type: readme
 ### README.md (główny)
 
 ```yaml
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: E-Waste Workshop README
 description: Kompletna dokumentacja projektu - instalacja, konfiguracja, użycie
 version: 0.0.0.5
-author: Nairecth
 repository: https://github.com/Nairecth/eww
 website: http://www.e-wasteworkshop.co.uk
 tags:
@@ -332,16 +344,21 @@ requires:
   - bash >= 5.1
   - git >= 2.34
   - make >= 4.3
-created: 2024-11-08
 updated: 2025-11-09
 license: MIT
 status: stable
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 ```
 
 ### CHANGELOG.md
 
 ```yaml
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: CHANGELOG
 description: Historia zmian projektu E-Waste Workshop
@@ -353,16 +370,20 @@ category: documentation
 audience: developers
 language: pl
 generator: eww-changelog v0.0.0.5
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 ```
 
 ### AGENTS.md (AI context)
 
 ```yaml
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: AGENTS.md - Kontekst dla AI Coding Agents
 description: Kompletny kontekst projektu dla AI - architektura, workflow, konwencje
@@ -377,16 +398,20 @@ tags:
   - architecture
   - workflow
   - conventions
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 ```
 
 ### docs/guide/intro.md (przewodnik)
 
 ```yaml
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: Wprowadzenie do eww
 description: Przewodnik dla początkujących - pierwsze kroki z E-Waste Workshop
@@ -404,16 +429,20 @@ tags:
 related:
   - docs/wiki/kubuntu.md
   - README.md
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 ```
 
 ### INDEX.md (auto-generated)
 
 ```yaml
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: INDEX - Kompletny indeks projektu
 description: Auto-generowany indeks wszystkich plików i katalogów projektu eww
@@ -425,16 +454,20 @@ language: pl
 generator: eww-index v0.0.0.5
 source: .filedesc
 auto-generated: true
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 ```
 
 ### docs/wiki/kubuntu.md (wiki article)
 
 ```yaml
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: Kubuntu 24.04 LTS - Konfiguracja
 description: Przewodnik konfiguracji Kubuntu 24.04 LTS dla deweloperów
@@ -453,10 +486,11 @@ tags:
   - setup
 parent: docs/wiki/index.md
 order: 1
-created: 2024-11-08
 updated: 2025-11-09
-author: Nairecth
 status: stable
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 ```
 
@@ -518,13 +552,18 @@ Zalecana kolejność (dla czytelności):
 Wymagane minimum dla każdego dokumentu:
 
 ```yaml
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 title: Tytuł dokumentu
 description: Opis dokumentu
 type: readme
 category: documentation
-created: 2025-11-09
 updated: 2025-11-09
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 ```
 
@@ -549,6 +588,9 @@ updated: 2025-11-09
 - **SPDX (licencje):** https://spdx.org/licenses/
 - **ISO 639-1 (języki):** https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-10T15:44:41Z
+author: Nairecth
 ---
 
 **Autor:** Nairecth  

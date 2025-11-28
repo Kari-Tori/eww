@@ -1,3 +1,12 @@
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
+---
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
+---
+
 # KoroFileHeader -> YAML frontmatter
 
 Skrypt scripts/koro-to-frontmatter.sh konwertuje nagłówek KoroFileHeader (HTML comment na początku pliku)

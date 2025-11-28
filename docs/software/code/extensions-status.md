@@ -1,14 +1,19 @@
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title: Status rozszerzeń VS Code
 description: Porównanie zalecanych rozszerzeń z zainstalowanymi lokalnie
 version: 1.0.0
-created: 2025-11-24
 updated: 2025-11-24
 tags:
   - vscode
   - extensions
   - status
   - audit
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # Status rozszerzeń VS Code — Audit instalacji
@@ -23,6 +28,9 @@ tags:
 | **Do zainstalowania** | 10 ⚠️ |
 | **Nadmiarowe** | 45 |
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ✅ Zainstalowane I zalecane (13)
@@ -43,6 +51,9 @@ tags:
 | `github.copilot` | 🤖 AI | (domyślnie z copilot-chat) |
 | `timonwong.shellcheck` | 🐚 Bash | (bonus: Bash linting) |
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⚠️ Zalecane ale NIE zainstalowane (10)
@@ -101,6 +112,9 @@ echo "✅ Instalacja zakończona!"
 bash scripts/install-missing-vscode-extensions.sh
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📦 Zainstalowane ale NIE zalecane (45)
@@ -115,6 +129,9 @@ bash scripts/install-missing-vscode-extensions.sh
 
 **Rekomendacja:** Zachować — projekt bazuje na Bash
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Kategoria: Git (3) ✅ KEEP
@@ -124,6 +141,9 @@ bash scripts/install-missing-vscode-extensions.sh
 
 **Rekomendacja:** Zachować — workflow Git
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Kategoria: Python (4) ✅ KEEP
@@ -134,6 +154,9 @@ bash scripts/install-missing-vscode-extensions.sh
 
 **Rekomendacja:** Zachować — używane w projekcie
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Kategoria: Remote/SSH (3) ✅ KEEP
@@ -143,6 +166,9 @@ bash scripts/install-missing-vscode-extensions.sh
 
 **Rekomendacja:** Zachować — praca zdalna
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Kategoria: C/C++ (4) ⚠️ OPTIONAL
@@ -153,6 +179,9 @@ bash scripts/install-missing-vscode-extensions.sh
 
 **Rekomendacja:** Zachować jeśli pracujesz z C/C++, usuń jeśli nie
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Kategoria: Markdown — Duplikaty (8) ⚠️ REVIEW
@@ -170,6 +199,9 @@ bash scripts/install-missing-vscode-extensions.sh
 - **KEEP:** `bierner.github-markdown-preview` (GitHub compatibility)
 - **REVIEW:** Reszta — duplikaty funkcji z `markdown-all-in-one`
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Kategoria: Productivity (7) ✅ KEEP/REVIEW
@@ -183,6 +215,9 @@ bash scripts/install-missing-vscode-extensions.sh
 
 **Rekomendacja:** Zachować większość, `indent-rainbow` opcjonalny
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Kategoria: AI (2) ✅ KEEP
@@ -191,6 +226,9 @@ bash scripts/install-missing-vscode-extensions.sh
 
 **Rekomendacja:** Zachować — AI workflow
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Kategoria: Inne (8) ✅ KEEP/REVIEW
@@ -205,6 +243,9 @@ bash scripts/install-missing-vscode-extensions.sh
 
 **Rekomendacja:** Zachować większość
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🎯 Zalecenia akcji
@@ -238,6 +279,9 @@ code --uninstall-extension ms-vscode.cpptools-themes
 - Python (4 rozszerzenia) ✅
 - Remote SSH (3 rozszerzenia) ✅
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📈 Metryki
@@ -265,6 +309,9 @@ code --uninstall-extension ms-vscode.cpptools-themes
 4. **Draw.io** — Diagramy wizualne
 5. **Obsidian MD VSC** — Direct sync z Obsidian
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔄 Historia auditu
@@ -276,6 +323,9 @@ code --uninstall-extension ms-vscode.cpptools-themes
 - 10 do zainstalowania
 - Identyfikacja duplikatów i nieużywanych
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📖 Powiązane dokumenty
@@ -283,6 +333,9 @@ code --uninstall-extension ms-vscode.cpptools-themes
 - [code-plugins.md](./code-plugins.md) — Pełna lista zalecanych
 - [README.md](./README.md) — Główna dokumentacja VS Code
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🤝 Następne kroki

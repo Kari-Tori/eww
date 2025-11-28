@@ -1,3 +1,6 @@
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -13,9 +16,7 @@ type: file
 category: docs
 filepath: docs/trash-recovery/TRASH_ANALYSIS_20251121.md
 color: green
-author: jakubc
 owner: jakubc
-created: 2025-11-21
 updated: 2025-11-21
 version: 1.0.0
 language: pl
@@ -45,6 +46,9 @@ repository: https://github.com/Kari-Tori/eww-1
 
 
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 

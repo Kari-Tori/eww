@@ -1,6 +1,12 @@
+created: 2025-11-08T22:19:35Z
+modified: 2025-11-25T03:13:57Z
+author: Jakub Celmer
 ---
 title: Vale styles
 description: TODO - uzupełnij opis.
+created: 2025-11-08T22:19:35Z
+modified: 2025-11-25T03:13:57Z
+author: Jakub Celmer
 ---
 
 # Vale styles

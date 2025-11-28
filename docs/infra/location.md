@@ -1,3 +1,6 @@
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #location
@@ -6,9 +9,6 @@ tags:
   - #infrastructure
   - #here
   - #tu
-created: 2025-11-22T12:00:00Z
-modified: 2025-11-22T12:00:00Z
-author: jakubc
 title: "📍 E-Waste Workshop - Location Definition"
 type: location
 handle: "@location"
@@ -16,6 +16,9 @@ address: "77c Church Lane, N9 9PZ, London"
 owner: gary
 area_sqm: 24
 building_type: outbuilding
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # 📍 E-Waste Workshop - Location Definition
@@ -127,6 +130,9 @@ This location is the context for Protocol HERE initialization.
 
 [To be populated via Protocol HERE Section 5: 5 Facts About @location]
 
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 *Location Profile Created: 22 listopada 2025*

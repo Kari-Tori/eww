@@ -1,0 +1,17 @@
+{
+  "search": "path:business/ OR tag:#business OR tag:#governance",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "nodeSizeMultiplier": 2.0,
+  "lineSizeMultiplier": 2.5,
+  "textFadeMultiplier": -1,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 0.7,
+  "linkDistance": 250,
+  "collapse-filter": false,
+  "collapse-color-groups": false,
+  "collapse-display": false
+}

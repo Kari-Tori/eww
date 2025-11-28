@@ -1,6 +1,12 @@
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 title: Code — zasady, narzędzia i workflow
 description: Zwięzła dokumentacja konwencji kodu, narzędzi i CI dla katalogu code.
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 Cel

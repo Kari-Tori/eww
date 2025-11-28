@@ -1,13 +1,16 @@
+created: 2025-11-09T16:33:22Z
+modified: 2025-11-24T22:31:33Z
+author: Nairecth
 ---
 tags:
   - #docs
   - #infra
   - #redirect
-created: 2025-11-24T00:00:00Z
-modified: 2025-11-24T00:00:00Z
-author: jakubc & codex
 title: "📚 docs/ → zobacz docs/infra/"
 owner: jakubc
+created: 2025-11-09T16:33:22Z
+modified: 2025-11-24T22:31:33Z
+author: Nairecth
 ---
 
 # 📚 Dokumentacja → `docs/infra/`

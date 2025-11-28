@@ -1,13 +1,16 @@
+created: 2025-11-05T22:54:26Z
+modified: 2025-11-24T22:31:33Z
+author: JakubC
 ---
 tags:
   - #docs
   - #infra
   - #redirect
-created: 2025-11-24T00:00:00Z
-modified: 2025-11-24T00:00:00Z
-author: jakubc & codex
 title: "docs/ → docs/infra"
 owner: jakubc
+created: 2025-11-05T22:54:26Z
+modified: 2025-11-24T22:31:33Z
+author: JakubC
 ---
 
 # 📁 Dokumentacja przeniesiona do `docs/infra/`

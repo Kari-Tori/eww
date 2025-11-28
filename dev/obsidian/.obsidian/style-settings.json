@@ -1,0 +1,17 @@
+{
+    "theme": "ITS Theme",
+    "fontSize": "14px",
+    "lineHeight": "1.7",
+    "fileLineWidth": "900px",
+    "sidebarWidth": "300px",
+    "accentColor": "#78dce8",
+    "backgroundColor": "#1e1e2e",
+    "codeBlockBackground": "#2e3440",
+    "tagBackground": "#44475a",
+    "showHoverPreview": true,
+    "lineNumbersInCodeBlocks": true,
+    "underlineInternalLinks": false,
+    "dataviewHeaderBold": true,
+    "dataviewRowBorder": true,
+    "trackerEnergyColor": "#ff5555"
+}

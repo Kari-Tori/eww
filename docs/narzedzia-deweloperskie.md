@@ -1,3 +1,6 @@
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-25T03:13:57Z
+author: Nairecth
 ---
 title: Narzędzia deweloperskie - przewodnik
 description: Kompletny przewodnik po narzędziach deweloperskich dla projektu eww
@@ -13,8 +16,10 @@ tags:
   - linting
   - formatting
   - documentation
-created: 2025-11-09
 updated: 2025-11-09
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-25T03:13:57Z
+author: Nairecth
 ---
 
 # Narzędzia deweloperskie - przewodnik
@@ -529,6 +534,9 @@ make docs
 make check
 ```
 
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-25T03:13:57Z
+author: Nairecth
 ---
 
 **Autor:** Nairecth  

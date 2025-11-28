@@ -1,3 +1,6 @@
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -7,11 +10,11 @@ tags:
   - #index
   - #knowledge
   - #navigation
-created: 2025-11-21T22:00:00Z
-modified: 2025-11-21T22:00:00Z
-author: jakubc
 title: "📑 System Indexowania — Przewodnik"
 owner: jakubc
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 # 📑 System Indexowania — Przewodnik
@@ -45,15 +48,18 @@ Każdy katalog ma swój folder note: `katalog/katalog.md`
 
 Format:
 ```markdown
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #folder_note
   - #eww
   - #katalog_specyficzny
-created: YYYY-MM-DDTHH:MM:SSZ
-modified: YYYY-MM-DDTHH:MM:SSZ
-author: jakubc
 title: "📂 nazwa_katalogu"
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 # 📂 nazwa_katalogu
@@ -349,6 +355,9 @@ make index 2>&1 | tee debug.log
 - [STATUS-REPO.md](../STATUS-REPO.md) — status repozytorium
 - [EWW-MAP.md](../EWW-MAP.md) — mapa koncepcyjna
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 > [!TIP] Automatyzacja

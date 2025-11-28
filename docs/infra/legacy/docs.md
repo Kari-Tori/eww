@@ -1,3 +1,6 @@
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-24T22:31:13Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #linux
   - #productivity
   - #secondbrain
-created: 2025-11-21T15:00:00Z
-modified: 2025-11-21T15:00:00Z
-author: jakubc
 title: "📚 Docs"
 
 
@@ -18,6 +18,9 @@ title: "📚 Docs"
 
 
 owner: jakubc
+created: 2025-11-21T10:00:00Z
+modified: 2025-11-24T22:31:13Z
+author: jakubc
 ---
 
 # 📚 Docs

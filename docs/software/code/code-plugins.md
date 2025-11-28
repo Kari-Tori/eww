@@ -1,8 +1,10 @@
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title: Rozszerzenia VS Code dla workflow Obsidian + Markdown + AI + HTML/CSS
 description: Zestawienie najlepszych rozszerzeń VS Code wspierających pisanie dokumentacji Markdown z funkcjami Obsidian, emoji, diagramami, calloutami oraz narzędzia HTML/CSS
 version: 1.2.0
-created: 2025-11-24
 updated: 2025-11-24
 tags:
   - vscode
@@ -14,6 +16,9 @@ tags:
   - html
   - css
   - web-development
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # Rozszerzenia VS Code dla workflow Obsidian + Markdown + AI
@@ -68,6 +73,9 @@ shd101wyy.markdown-preview-enhanced
 
 **Instalacja:** `3M+` użytkowników | Rating: ⭐ 4.4
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 2️⃣ Obsidian Compatibility — Wiki-links i PKM
@@ -117,6 +125,9 @@ willasm.obsidian-md-vsc
 
 **Instalacja:** `21K+` użytkowników | Rating: ⭐ 5.0
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 3️⃣ YAML Frontmatter — Metadane
@@ -165,6 +176,9 @@ AI może automatycznie generować i aktualizować frontmatter na podstawie treś
 
 **Instalacja:** `66K+` użytkowników | Rating: ⭐ 5.0
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 4️⃣ Emoji & Icons — Wizualne elementy
@@ -208,6 +222,9 @@ perkovec.emoji
 
 **Instalacja:** `385K+` użytkowników | Rating: ⭐ 4.5
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 5️⃣ Diagramy — Mermaid, PlantUML, Graphviz
@@ -297,6 +314,9 @@ AI może analizować strukturę diagramów Draw.io.
 
 **Instalacja:** `3.3M+` użytkowników | Rating: ⭐ 4.9
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 6️⃣ Callouts & Admonitions — Bloki informacyjne
@@ -344,6 +364,9 @@ tomasdahlqvist.markdown-admonitions
 
 **Instalacja:** `3K+` użytkowników | Rating: ⭐ 5.0
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 7️⃣ AI Context Enhancement — Integracja z AI
@@ -372,6 +395,9 @@ Zapewnia:
 - Obsługa Markdown
 - Frontmatter awareness
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 8️⃣ Dodatkowe narzędzia produktywności
@@ -402,6 +428,9 @@ aykutsarac.jsoncrack-vscode
 
 **Instalacja:** `603K+` użytkowników | Rating: ⭐ 4.3
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## � Rozszerzenia zainstalowane lokalnie (bonus)
@@ -474,6 +503,9 @@ shakram02.bash-beautify
 - Bash code beautifier
 - Formatting
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 🔟 Git & Version Control ✅
@@ -521,6 +553,9 @@ github.vscode-github-actions
 - Syntax highlighting
 - Workflow visualization
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 1️⃣1️⃣ Python Development ✅
@@ -568,6 +603,9 @@ ms-python.vscode-python-envs
 - Virtual environments
 - Conda support
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 1️⃣2️⃣ Remote Development (SSH) ✅
@@ -601,6 +639,9 @@ ms-vscode.remote-explorer
 - SSH targets
 - Port forwarding
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 1️⃣3️⃣ Productivity & Utilities ✅
@@ -683,6 +724,9 @@ obkoro1.korofileheader
 - Custom templates
 - Author info, timestamps
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 1️⃣4️⃣ Markdown (dodatkowe) ✅
@@ -742,6 +786,9 @@ davidanson.vscode-markdownlint
 - Style guide enforcement
 - Best practices
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 1️⃣5️⃣ AI & Documentation ✅
@@ -766,6 +813,9 @@ openai.chatgpt
 - Code assistance
 - Q&A
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 1️⃣6️⃣ Themes & Icons ✅
@@ -798,6 +848,9 @@ ms-vscode.theme-markdownkit
 - Markdown-focused theme
 - Readable colors
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 1️⃣7️⃣ Spell Checking ✅
@@ -821,6 +874,9 @@ streetsidesoftware.code-spell-checker-polish
 - Polski słownik
 - Polska ortografia
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 1️⃣8️⃣ Other Tools ✅
@@ -866,6 +922,9 @@ ms-ceintl.vscode-language-pack-pl
 - Interfejs VS Code po polsku
 - Polskie tłumaczenia
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## �🚀 Szybka instalacja — Skrypt setup
@@ -928,6 +987,9 @@ echo "✅ Wszystkie rozszerzenia zainstalowane!"
 bash scripts/setup-vscode-obsidian.sh
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⚙️ Konfiguracja VS Code — `.vscode/settings.json`
@@ -996,6 +1058,9 @@ bash scripts/setup-vscode-obsidian.sh
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🎨 Custom CSS dla Obsidian Callouts — `.vscode/markdown.css`
@@ -1054,6 +1119,9 @@ blockquote:has(p:first-child:contains("[!tip]")) {
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📚 Dodatkowa konfiguracja Continue
@@ -1107,6 +1175,9 @@ Aktualizacja `dev/cfg/continue-config.json`:
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔍 Testowanie workflow
@@ -1119,11 +1190,17 @@ Zobacz [[docs/software/obsidian/obsidian]] dla szczegółów.
 
 ### Test 2: Frontmatter
 ```yaml
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title: Test dokumentu
 description: Przykładowy opis
 tags: [test, markdown, obsidian]
 date: 2025-11-24
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 ```
 ✅ YAML extension powinien walidować i sugerować pola
@@ -1154,6 +1231,9 @@ graph LR
 ```
 ✅ Preview z kolorowym tłem
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📖 Dokumentacja i zasoby
@@ -1173,6 +1253,9 @@ graph LR
 - **Obsidian → VS Code:** Foam + Markdown Notes
 - **VS Code → Obsidian:** Obsidian URI + Advanced URI plugin
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ✅ Checklist dla AI Awareness
@@ -1191,6 +1274,9 @@ graph LR
 - [x] Task lists `- [ ]`
 - [x] Tags `#tag`
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔄 Aktualizacje
@@ -1207,6 +1293,9 @@ graph LR
 - ✅ **Instalacja:** Zainstalowano 10 z 11 brakujących rozszerzeń (Front Matter CMS, PlantUML, Draw.io, Obsidian Callout, Obsidian MD VSC, emojisense, emoji picker, Mermaid Preview, Graphviz, Markdown PDF, Markdown Admonitions)
 - ⚠️ **Błąd:** JSON Crack nie zainstalowany (problemy DNS)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📊 Podsumowanie statusów
@@ -1246,6 +1335,9 @@ graph LR
 - **HTML/CSS/Web:** 9 ✨ NOWO
 - **Other:** 11
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🌐 HTML/CSS/Web Development
@@ -1261,6 +1353,9 @@ ecmel.vscode-html-css
 - Class/ID autocomplete
 - Support dla external CSS
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 2. Auto Rename Tag ✅
@@ -1271,6 +1366,9 @@ formulahendry.auto-rename-tag
 - Automatyczna zmiana pary tagów HTML/XML
 - Synchronizacja opening/closing tags
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 3. Auto Close Tag ✅
@@ -1281,6 +1379,9 @@ formulahendry.auto-close-tag
 - Automatyczne zamykanie tagów
 - Support: HTML, XML, JSX, Vue
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 4. HTML Snippets ✅
@@ -1291,6 +1392,9 @@ abusaidm.html-snippets
 - HTML5 snippets (html5, div, form, table)
 - IntelliSense dla HTML tags
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 5. IntelliSense for CSS class names ✅
@@ -1301,6 +1405,9 @@ zignd.html-css-class-completion
 - Autocomplete CSS class names
 - Skanuje workspace dla CSS files
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 6. CSS Peek ✅
@@ -1312,6 +1419,9 @@ pranaygp.vscode-css-peek
 - Go to definition
 - Inline styles preview
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 7. Live Server ✅
@@ -1327,6 +1437,9 @@ ritwickdey.liveserver
 - Prawy klik → **Open with Live Server**
 - Kliknij **Go Live** w status bar
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 8. Color Highlight ✅
@@ -1338,6 +1451,9 @@ naumovs.color-highlight
 - Hex, RGB, HSL, named colors
 - Inline preview
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 9. Color Picker ✅
@@ -1349,6 +1465,9 @@ anseki.vscode-color
 - Konwersja hex/rgb/hsl
 - Palette generator
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### 10. Image Preview ✅
@@ -1360,12 +1479,18 @@ kisstkondoros.vscode-gutter-preview
 - Hover preview
 - Support: PNG, JPG, SVG, GIF
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 📚 Pełna dokumentacja HTML/CSS
 
 Zobacz: [html-css-tools.md](./html-css-tools.md) — Kompletny przewodnik (20+ rozszerzeń, konfiguracja, workflow, przykłady Emmet)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🤝 Wkład

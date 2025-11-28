@@ -1,8 +1,10 @@
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title: Visual Studio Code — Kompletny przewodnik
 description: Pełna dokumentacja VS Code dla projektu eww — konfiguracja, rozszerzenia, workflow, integracja z AI i narzędziami deweloperskimi
 version: 1.0.0
-created: 2025-11-24
 updated: 2025-11-24
 tags:
   - vscode
@@ -12,6 +14,9 @@ tags:
   - tools
   - ai
   - copilot
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # Visual Studio Code — Kompletny przewodnik 🚀
@@ -39,6 +44,9 @@ Kompleksowa dokumentacja Visual Studio Code jako głównego IDE dla projektu **E
 10. [Debugging](#-debugging)
 11. [Productivity & Automation](#-productivity--automation)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔧 Podstawowa konfiguracja
@@ -71,6 +79,9 @@ code --install-extension GitHub.copilot
 code --install-extension GitHub.copilot-chat
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🧩 Rozszerzenia
@@ -126,6 +137,9 @@ Zobacz szczegółowe dokumenty:
 - **[html-css-tools.md](./html-css-tools.md)** — Rozszerzenia HTML/CSS/Web Development (20+ rozszerzeń)
 - **[extensions-status.md](./extensions-status.md)** — Audit zainstalowanych rozszerzeń
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🌐 HTML/CSS/Web Development
@@ -197,12 +211,18 @@ Zobacz: **[html-css-tools.md](./html-css-tools.md)** dla kompletnego przewodnika
 - Pełne przykłady konfiguracji
 - Workflow i best practices
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⚙️ Workspace settings
 
 **Pełna lista rozszerzeń:** Zobacz [code-plugins.md](./code-plugins.md)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⚙️ Workspace Settings
@@ -347,6 +367,9 @@ Zobacz: **[html-css-tools.md](./html-css-tools.md)** dla kompletnego przewodnika
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⌨️ Keybindings
@@ -390,6 +413,9 @@ Zobacz: **[html-css-tools.md](./html-css-tools.md)** dla kompletnego przewodnika
 ]
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🤖 Integracja z AI
@@ -476,6 +502,9 @@ code --install-extension Continue.continue
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🐚 Bash/Shell Development
@@ -612,6 +641,9 @@ Ctrl+Shift+P → Tasks: Run Task → Run BATS tests
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📝 Markdown & Documentation
@@ -673,6 +705,9 @@ graph LR
 > Ostrzeżenie!
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔀 Git & Version Control
@@ -715,6 +750,9 @@ eamodio.gitlens,mhutchie.git-graph
    - Git Graph
    - Compare branches/commits
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🐛 Debugging
@@ -748,6 +786,9 @@ code --install-extension rogalmic.bash-debug
 3. `F10` → Step Over
 4. `F11` → Step Into
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⚡ Productivity & Automation
@@ -807,6 +848,9 @@ test:
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📖 Dokumentacja i zasoby
@@ -825,6 +869,9 @@ test:
 - **VS Code GitHub:** https://github.com/microsoft/vscode
 - **Reddit r/vscode:** https://reddit.com/r/vscode
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ✅ Checklist konfiguracji
@@ -842,6 +889,9 @@ test:
 - [ ] Rozszerzenia Markdown
 - [ ] Continue/AI skonfigurowane
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔄 Aktualizacje
@@ -853,6 +903,9 @@ test:
 - Tasks, snippets, keybindings
 - Debugging, productivity tips
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔗 Powiązane dokumenty
@@ -861,6 +914,9 @@ test:
 - [AGENTS.md](../../AGENTS.md) — Kontekst dla AI
 - [.github/copilot-instructions.md](../../.github/copilot-instructions.md) — Zasady dla Copilot
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🤝 Wkład

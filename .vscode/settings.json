@@ -54,6 +54,13 @@
     "github.copilot.chat.welcomeMessage": "never",
 
     // ========================================
+    // PROJECT MANAGER - BAZOWE KATALOGI GIT
+    // ========================================
+    "projectManager.git.baseFolders": [
+        "/home/karinam/git/eww"
+    ],
+
+    // ========================================
     // AUTO-SAVE & FILES
     // ========================================
     "files.autoSave": "afterDelay",
@@ -68,5 +75,6 @@
     "terminal.integrated.allowChords": true,
     "terminal.integrated.automationProfile.linux": {
         "path": "/bin/bash"
-    }
+    },
+    "docwriter.style": "Auto-detect"
 }

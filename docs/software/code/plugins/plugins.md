@@ -1,6 +1,12 @@
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 title: Obsidian — polecane wtyczki i przykłady konfiguracji (kopIa)
 description: Kopia dokumentacji z listą najczęściej rekomendowanych wtyczek do Obsidian i krótkie przykłady integracji z Kanban.
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## Polecane wtyczki (często dyskutowane na forach)
@@ -29,6 +35,9 @@ description: Kopia dokumentacji z listą najczęściej rekomendowanych wtyczek d
 - Obsidian Linter — utrzymanie stylu Markdown  
   Repo: https://github.com/platers/obsidian-linter
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## Szybkie przykłady konfiguracji i snippetów
@@ -46,9 +55,15 @@ SORT due asc
 <%* 
 // templater: szybkie wstawienie daty i linku dziennego
 %>
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 date: <% tp.date.now("YYYY-MM-DD") %>
 title: Dzień — <% tp.date.now("YYYY-MM-DD") %>
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 # Dziś — <% tp.date.now("dddd, D MMMM YYYY") %>
 ```
@@ -75,6 +90,9 @@ sort by priority
 - Ustawienia rekomendowane: auto-commit on save = true (rozważ częstotliwość), commit message template = "Auto: vault update {{date}}".
 - Uwaga: przetestuj konfigurację przed włączeniem automatycznych pushy.
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## Co polecają użytkownicy (fora, Discord, Reddit) — skrót

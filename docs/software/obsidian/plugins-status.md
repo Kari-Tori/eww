@@ -1,14 +1,19 @@
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title: Status wtyczek Obsidian — Audit instalacji
 description: Porównanie zalecanych wtyczek z zainstalowanymi w vault
 version: 1.1.0
-created: 2025-11-24
 updated: 2025-11-24
 tags:
   - obsidian
   - plugins
   - status
   - audit
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # Status wtyczek Obsidian — Audit instalacji
@@ -22,6 +27,9 @@ Zobacz również:
 - **[plugins-installation-guide.md](./plugins-installation-guide.md)** — Przewodnik instalacji pluginów
 - **[obsidian.md](./obsidian.md)** — Core funkcje Obsidian
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📊 Podsumowanie
@@ -34,6 +42,9 @@ Zobacz również:
 | **Do instalacji** | 11 ⚠️ |
 | **Coverage** | 54% |
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ✅ Zainstalowane (13)
@@ -56,6 +67,9 @@ Zobacz również:
 
 **Status:** ✅ Wszystkie HIGH priority zainstalowane!
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⚠️ Zalecane ale NIE zainstalowane (11)
@@ -69,6 +83,9 @@ Zobacz również:
 | 16 | **Breadcrumbs** | Wizualizacja hierarchii, navigation | Community Plugins → Search: "Breadcrumbs" |
 | 17 | **Graph Analysis** | Zaawansowana analiza grafu | Community Plugins → Search: "Graph Analysis" |
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 🟢 LOW Priority — Eksport i integracje (4)
@@ -80,6 +97,9 @@ Zobacz również:
 | 20 | **Webpage HTML Export** | Export notatek do HTML | Community Plugins → Search: "Webpage HTML Export" |
 | 21 | **Kindle Highlights** | Import z Kindle | Community Plugins → Search: "Kindle Highlights" |
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 🟢 LOW Priority — Edytor i formatowanie (3)
@@ -90,6 +110,9 @@ Zobacz również:
 | 23 | **Emoji Toolbar** | Szybki dostęp do emoji | Community Plugins → Search: "Emoji Toolbar" |
 | 24 | **Paste URL into selection** | Auto-link przy wklejaniu URL | Community Plugins → Search: "Paste URL into selection" |
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🎯 Zalecenia akcji
@@ -103,6 +126,9 @@ Zobacz również:
 4. ✅ Note Refactor
 5. ✅ Excalidraw
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 2. Rozważ MEDIUM priority (4 wtyczki)
@@ -113,6 +139,9 @@ Szczególnie polecane jeśli:
 - **Breadcrumbs** — pracujesz z hierarchicznymi strukturami (MOCs)
 - **Graph Analysis** — analizujesz powiązania między notatkami
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 3. LOW priority (7 wtyczek) — opcjonalne
@@ -122,6 +151,9 @@ Zainstaluj tylko jeśli potrzebujesz konkretnej funkcji:
 - **Excalidraw** — jeśli rysunki są ważne w workflow
 - **Kindle Highlights** — jeśli importujesz z Kindle
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📈 Metryki instalacji
@@ -138,6 +170,9 @@ Zainstaluj tylko jeśli potrzebujesz konkretnej funkcji:
 
 **Ogółem:** 13/24 (54%)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📦 Lista zainstalowanych (8)
@@ -176,6 +211,9 @@ Zainstaluj tylko jeśli potrzebujesz konkretnej funkcji:
    - Status: ✅ ZAINSTALOWANE
    - Użycie: Wersjonowanie vaulta, backup do GitHub
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔄 Historia auditu
@@ -193,6 +231,9 @@ Zainstaluj tylko jeśli potrzebujesz konkretnej funkcji:
 - Coverage: 33% (8/24)
 - Rekomendacja: zainstaluj 5 HIGH priority
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📖 Powiązane dokumenty
@@ -201,6 +242,9 @@ Zainstaluj tylko jeśli potrzebujesz konkretnej funkcji:
 - [installed_pluggins.md](./installed_pluggins.md) — Lista 8 zainstalowanych
 - [obsidian.md](./obsidian.md) — Główna dokumentacja Obsidian
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🤝 Następne kroki
@@ -219,6 +263,9 @@ Zainstaluj tylko jeśli potrzebujesz konkretnej funkcji:
 - Kindle Highlights (import z Kindle)
 - Editor Syntax Highlight
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 💡 Wskazówki

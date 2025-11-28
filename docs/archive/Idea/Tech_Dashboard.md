@@ -1,3 +1,6 @@
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -11,9 +14,7 @@ title: Tech Dashboard
 description: 🧭 BPMN (Tool)
 filepath: dev/Idea/Tech_Dashboard.md
 color: yellow
-author: 
 owner: jakubc
-created: 2025-11-21
 updated: 2025-11-21
 version: 1.0.0
 language: pl
@@ -33,6 +34,9 @@ backlinks: []
 
 
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 
@@ -45,6 +49,9 @@ backlinks: []
 - 🧪 Mermaid szkice: `Biznes/Systemy/Odoo/Workflows/Mermaid/`  
 - 📚 Runbook szablon: `Biznes/Development/Runbooks/Runbook_Template`
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🗺️ Warstwy stosu (lokalnie)
@@ -62,6 +69,9 @@ backlinks: []
 
 > [!tip] Utrzymujemy **jedno źródło prawdy**: pliki *.bpmn* w `Workflows/BPMN/`. Viewer/PNG służą tylko do podglądu.
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## ✏️ Modelowanie (reguły)
@@ -75,6 +85,9 @@ backlinks: []
 - [ ] Przepływy wyjątków opisane (label na krawędziach). #todo  
 - [ ] Wersja w metadanych modelu uaktualniona. #todo
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🐍 Runtime A — SpiffWorkflow (Python)
@@ -98,6 +111,9 @@ flowchart LR
 - [ ] Schemat zmiennych BPMN ↔ Odoo/n8n (JSONSchema) #todo  
 - [ ] Logi do pliku + rotacja #todo
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## ☕ Runtime B — Flowable (alternatywa)
@@ -111,6 +127,9 @@ flowchart LR
 
 > [!hint] Zacznij od **SpiffWorkflow** – szybsza integracja z Python/n8n; Flowable/jBPM zostaw jako „cięższe” opcje LAB.
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🔗 Integracje lokalne
@@ -124,6 +143,9 @@ flowchart LR
 - [ ] Flow `eBay payouts → Firefly` (alert odchyleń) #todo  
 - [ ] Mapowanie pól #FCGH (parts/labor/label/fee) #todo
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🧪 Testy i symulacja
@@ -131,6 +153,9 @@ flowchart LR
 - [ ] Dane testowe: 3 zamówienia (Naprawa/Scrap/RMA) #todo  
 - [ ] Checkpointy: walidacja stanu w Odoo + wpisy w Firefly #todo
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 📈 KPI procesu (lokalnie)
@@ -141,6 +166,9 @@ flowchart LR
 | Odchylenie payout vs invoice | ≤ £2 | n8n + Firefly |
 | Udział wyjątków (Scrap/RMA) | ≤ X% | BPMN eventy |
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🧰 Utrzymanie i repozytorium
@@ -152,6 +180,9 @@ flowchart LR
 - [ ] Hook `pre-commit`: walidacja BPMN XML (xsd) #todo  
 - [ ] Skrypt eksportu PNG (camunda‑cli) #todo
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## ✅ Next 7 days (lokalnie)
@@ -161,12 +192,18 @@ flowchart LR
 - [ ] n8n: dwa flow (`invoice_paid→Firefly`, `payouts→Firefly`) #todo  
 - [ ] Uptime Kuma: health dla Spiff, n8n, Firefly #todo
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ### 📌 Embedy
 - Panel: `![[BPMN – Local Stack Dashboard#^BPMN_Main]]`
 
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🔗 Backlinki
@@ -176,6 +213,9 @@ flowchart LR
 - [[business/Finanse/Business_Dashboard|Business_Dashboard]]
 - [[usr/karinam/Biznes/Finanse/Business_Dashboard|Business_Dashboard]]
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 **Backlinków:** 2  

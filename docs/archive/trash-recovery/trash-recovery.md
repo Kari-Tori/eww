@@ -1,3 +1,6 @@
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -15,10 +18,8 @@ category: folder-note
   - documentation
   - docs
   - knowledge
-created: 2025-11-21
 updated: 2025-11-21
 color: green
-author: EWW Team
 source: "[[docs/INDEX]]"
 related:
   - business/methodologies/methodologies.md
@@ -35,6 +36,9 @@ cssclasses:
 
 
 owner: jakubc
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 # 📁 trash-recovery
@@ -48,6 +52,9 @@ Katalog `trash-recovery` zawiera 3 plików i 0 podfolderów.
 **Przeznaczenie:**
 - Dokumentacja projektowa i techniczna
 
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 📄 Pliki w folderze
@@ -65,6 +72,9 @@ Katalog `trash-recovery` zawiera 3 plików i 0 podfolderów.
 - ⬆️ [[infra/infra|docs/infra]] - Folder nadrzędny
 - 🏠 [[docs/INDEX|INDEX]] - Główny index
 
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 **Lokalizacja:** `docs/trash-recovery`  

@@ -1,3 +1,6 @@
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: Jak dokumentować projekt E-Waste Workshop
 description: Przewodnik po dokumentowaniu plików Markdown w projekcie
@@ -11,8 +14,10 @@ tags:
   - frontmatter
   - metadata
 language: pl
-created: 2025-11-09
 updated: 2025-11-09
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 
 # Jak dokumentować projekt E-Waste Workshop
@@ -26,6 +31,9 @@ Ten przewodnik opisuje jak prawidłowo dokumentować pliki Markdown w projekcie 
 Każdy plik Markdown powinien zawierać metadane YAML na początku:
 
 ```yaml
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: Tytuł dokumentu
 description: Krótki opis zawartości
@@ -36,8 +44,10 @@ tags:
   - tag1
   - tag2
 language: pl
-created: YYYY-MM-DD
 updated: YYYY-MM-DD
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 ```
 
@@ -46,11 +56,13 @@ updated: YYYY-MM-DD
 ### 1. README.md - Główna dokumentacja
 
 ```yaml
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: E-Waste Workshop README
 description: Kompletna dokumentacja projektu
 version: 0.0.0.4
-author: Nairecth
 repository: https://github.com/Nairecth/eww
 website: http://www.e-wasteworkshop.co.uk
 type: readme
@@ -64,6 +76,9 @@ requires:
   - make
 license: MIT
 status: stable
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 ```
 
@@ -83,6 +98,9 @@ status: stable
 ### 2. INDEX.md - Indeks projektu
 
 ```yaml
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: INDEX - E-Waste Workshop
 description: Automatycznie generowany indeks projektu
@@ -91,6 +109,9 @@ generator: ./dev/bin/eww-index
 source: .filedesc
 type: index
 auto-generated: true
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 ```
 
@@ -103,6 +124,9 @@ make index
 ### 3. CHANGELOG.md - Historia zmian
 
 ```yaml
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: CHANGELOG - E-Waste Workshop
 description: Historia zmian projektu
@@ -111,6 +135,9 @@ format: Keep a Changelog
 versioning: Semantic Versioning
 type: changelog
 generator: ./dev/bin/eww-changelog
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 ```
 
@@ -129,6 +156,9 @@ generator: ./dev/bin/eww-changelog
 ### 4. AGENTS.md - Kontekst AI
 
 ```yaml
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: AGENTS.md - Kontekst dla AI Coding Agents
 description: Kompletny kontekst projektu dla AI
@@ -136,6 +166,9 @@ version: 0.0.0.4
 audience: AI coding agents
 type: ai-context
 language: pl
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 ```
 
@@ -150,12 +183,18 @@ language: pl
 ### 5. MVP.md - Kryteria akceptacji
 
 ```yaml
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: MVP - Kryteria akceptacji
 description: Definition of Done dla MVP 0.0.0.1
 version: 0.0.0.1
 type: specification
 category: project-management
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 ```
 
@@ -164,6 +203,9 @@ category: project-management
 #### docs/guide/ - Przewodniki
 
 ```yaml
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: Nazwa przewodnika
 description: Krótki opis
@@ -171,18 +213,27 @@ type: guide
 category: documentation
 difficulty: beginner|intermediate|advanced
 estimated-time: 10 minutes
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 ```
 
 #### docs/wiki/ - Wiki
 
 ```yaml
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: Tytuł artykułu wiki
 description: Opis tematu
 type: wiki
 category: setup|configuration|troubleshooting
 platform: Kubuntu 24.04|Neovim|Obsidian
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 ```
 
@@ -324,19 +375,23 @@ make release VERSION=0.0.0.5
 ## Przykład kompletnego dokumentu
 
 ```markdown
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 title: Przykładowy dokument
 description: Opis tego co zawiera dokument
 version: 0.0.0.4
-author: Nairecth
 type: guide
 category: documentation
 tags:
   - example
   - template
 language: pl
-created: 2025-11-09
 updated: 2025-11-09
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 
 <!-- 
@@ -373,6 +428,9 @@ echo "Hello EWW"
 - [README.md](../README.md)
 - [INDEX.md](../INDEX.md)
 
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 
 **Autor:** Nairecth  
@@ -400,6 +458,9 @@ echo "Hello EWW"
 - [Markdown Guide](https://www.markdownguide.org/)
 - [YAML Frontmatter](https://jekyllrb.com/docs/front-matter/)
 
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-09T16:56:23Z
+author: Nairecth
 ---
 
 **Wygenerowano:** 2025-11-09  

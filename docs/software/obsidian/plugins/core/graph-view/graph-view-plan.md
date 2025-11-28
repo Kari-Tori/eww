@@ -1,3 +1,6 @@
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #obsidian
@@ -6,11 +9,11 @@ tags:
   - #roadmap
   - #implementation
   - #eww
-created: 2025-11-23T18:30:00Z
-modified: 2025-11-23T23:15:00Z
-author: jakubc
 owner: jakubc
 title: "Graph View - Plan implementacji zaawansowanych funkcji"
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 d
 # Graph View - Plan implementacji zaawansowanych funkcji
@@ -39,6 +42,9 @@ Rozbudowa Graph View o zaawansowane możliwości:
 5. **Zaawansowane CSS** (animacje, shapes, clustering)
 6. **Auto-commit workflow** (daily commits z limitami)
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 📦 Komponent 1: Versjonowanie grafu
@@ -135,6 +141,9 @@ for snapshot in .obsidian/graph-versions/graph-*.json; do
 done
 ```
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 🎨 Komponent 2: 14 kolorów + integracja graph.md
@@ -221,6 +230,9 @@ Kolory grafu zdefiniowane w: [[graph.md]]
 - Auto-sync z graph.json (skrypt: `sync-graph-colors.sh`)
 ```
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 📊 Komponent 3: Graph Stats (graph-stats.md)
@@ -247,12 +259,15 @@ docs/software/obsidian/plugins/core/graph-view/
 
 **Graph Stats Template**:
 ```markdown
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags: [graph, stats, auto-generated]
-created: 2025-11-23T18:30:00Z
-modified: {{auto-update}}
-author: system
 title: "Graph View - Automatyczne statystyki"
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # Graph View - Statystyki
@@ -332,12 +347,15 @@ COLOR_GROUPS=$(jq -r '.colorGroups[] | "\(.query)|\(.color.rgb)"' "$GRAPH_JSON")
 
 # Generate markdown
 cat > "$OUTPUT" <<EOF
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags: [graph, stats, auto-generated]
-created: 2025-11-23T18:30:00Z
-modified: $(date -Iseconds)
-author: system
 title: "Graph View - Automatyczne statystyki"
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # Graph View - Statystyki
@@ -368,6 +386,9 @@ $(jq -r '.colorGroups[] | "- \(.query): RGB \(.color.rgb)"' "$GRAPH_JSON")
 }
 \`\`\`
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 *Next update: $(date -d '+1 day' '+%Y-%m-%d')*
 EOF
@@ -381,6 +402,9 @@ echo "✅ Graph stats generated: $OUTPUT"
 0 0 * * * cd /home/jakubc/git/eww && ./dev/scripts/generate-graph-stats.sh
 ```
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 🕐 Komponent 4: Timeline Visualization (author + date)
@@ -399,12 +423,15 @@ Dependencies: YAML frontmatter (owner, author, created)
 
 **Każdy plik musi mieć**:
 ```yaml
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
-created: 2025-11-23T18:30:00Z
-modified: 2025-11-23T18:35:00Z
-author: jakubc          # Kto utworzył
 owner: jakubc           # Kto jest właścicielem
 tags: [...]
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 ```
 
@@ -496,6 +523,9 @@ for (const node of graphNodes) {
 }
 ```
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 🎨 Komponent 5: Zaawansowane CSS
@@ -627,6 +657,9 @@ for (const node of graphNodes) {
 }
 ```
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 🤖 Komponent 6: Auto-commit Workflow
@@ -756,6 +789,9 @@ systemctl --user start daily-graph-commit.timer
 systemctl --user status daily-graph-commit.timer
 ```
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 🔧 Komponent 7: maxNodes = 2000 (zwiększenie limitu)
@@ -811,6 +847,9 @@ Dlaczego 2000?
 }
 ```
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 📅 Roadmap implementacji
@@ -839,6 +878,9 @@ Dlaczego 2000?
 
 **Deliverable**: ✅ Podstawy działają, kolory zweryfikowane, versioning aktywny, pierwszy snapshot committed!
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ### Faza 2: Stats & Automation (Tydzień 3-4) 🟡
@@ -864,6 +906,9 @@ Dlaczego 2000?
 
 **Deliverable**: Automatyka działa, stats generują się, commits daily
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ### Faza 3: CSS Advanced (Tydzień 5-6) 🟡
@@ -888,6 +933,9 @@ Dlaczego 2000?
 
 **Deliverable**: Graf wygląda PIĘKNIE, timeline działa, animacje smooth
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ### Faza 4: Clustering & Polish (Tydzień 7-8) 🔵
@@ -911,6 +959,9 @@ Dlaczego 2000?
 
 **Deliverable**: Projekt COMPLETE, dokumentacja full, production-ready
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 🎯 Success Metrics
@@ -926,6 +977,9 @@ Dlaczego 2000?
 | **Render time** | <3s dla 2000 nodes | <2s dla ~200 | 🟢 Good baseline |
 | **Documentation** | Complete guide | Partial | 🟡 In progress |
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 📚 Dependencies
@@ -953,6 +1007,9 @@ Dlaczego 2000?
 2. **Dataview** - Stats queries
 3. **Custom plugin** - Data attributes injection (for timeline)
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 ## 🚀 Quick Start (do zrobienia TERAZ)
@@ -979,12 +1036,15 @@ cat graph.md | grep "| Nr"
 ### Krok 3: YAML template (5 min)
 ```yaml
 # Create .obsidian/templates/note-template.md
----
-created: {{date:YYYY-MM-DDTHH:mm:ssZ}}
-modified: {{date:YYYY-MM-DDTHH:mm:ssZ}}
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
 author: jakubc
+---
 owner: jakubc
 tags: []
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # {{title}}
@@ -997,6 +1057,9 @@ cp graph-timeline.css .obsidian/snippets/
 # Enable in Obsidian: Settings → Appearance → CSS snippets
 ```
 
+created: 2025-11-23T23:09:54Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 **Status**: 🟢 READY TO IMPLEMENT

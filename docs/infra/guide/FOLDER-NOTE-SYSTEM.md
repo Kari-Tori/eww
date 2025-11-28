@@ -1,14 +1,17 @@
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #eww
   - #system
   - #automation
   - #folder_note
-created: 2025-11-23T01:31:00Z
-modified: 2025-11-23T01:31:00Z
-author: jakubc
 title: "📁 System Folder Notes"
 owner: jakubc
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # 📁 System Folder Notes
@@ -22,6 +25,9 @@ Zawsze! Bez wyjątków.
 ## Format folder_note
 
 ```yaml
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #folder_note
@@ -31,10 +37,10 @@ folder_stats:
   md_files: 41
   total_files: 50
   subdirs: 2
-created: 2025-11-23T01:00:00Z
-modified: 2025-11-23T01:00:00Z
-author: jakubc
 title: "Folder Name - Folder Note"
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # Folder Name
@@ -115,6 +121,9 @@ Aktualizuje statystyki we wszystkich istniejących folder_notes.
 ### core/core.md
 
 ```yaml
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #folder_note
@@ -124,6 +133,9 @@ folder_stats:
   md_files: 41
   total_files: 41
   subdirs: 2
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # Core
@@ -134,6 +146,9 @@ folder_stats:
 ### docs/infra/software/obsidian/obsidian.md
 
 ```yaml
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #folder_note
@@ -143,6 +158,9 @@ folder_stats:
   md_files: 7
   total_files: 8
   subdirs: 10
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # Obsidian
@@ -214,6 +232,9 @@ make update-folder-stats
 git diff --name-only
 ```
 
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 **ZASADA**: Folder bez folder_note = niepełny folder!

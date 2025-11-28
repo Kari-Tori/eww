@@ -1,3 +1,6 @@
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #folder_note
@@ -8,9 +11,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T20:00:00Z
-modified: 2025-11-21T17:00:00Z
-author: jakubc
 title: "📁 vm"
 
 
@@ -19,6 +19,9 @@ title: "📁 vm"
 
 
 owner: jakubc
+created: 2025-11-21T20:00:00Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # 📁 vm

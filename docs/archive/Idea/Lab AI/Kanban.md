@@ -1,3 +1,6 @@
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -11,9 +14,7 @@ title: Kanban
 description: Dokumentacja projektu EWW
 filepath: dev/Idea/Lab AI/Kanban.md
 color: yellow
-author: 
 owner: jakubc
-created: 2025-11-21
 updated: 2025-11-21
 version: 1.0.0
 language: pl
@@ -33,6 +34,9 @@ backlinks: []
 
 
 
+created: 2025-11-21T14:12:29Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 

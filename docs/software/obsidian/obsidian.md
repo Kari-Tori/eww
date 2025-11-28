@@ -1,3 +1,6 @@
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 title: Obsidian — przegląd i opis funkcji (core)
 description: Skrócona, autorska dokumentacja podstawowych funkcji aplikacji Obsidian (wersja ogólna).
@@ -8,6 +11,9 @@ tags:
   - core
   - features
   - documentation
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## 📚 Pełna dokumentacja Obsidian
@@ -18,6 +24,9 @@ Zobacz szczegółowe przewodniki:
 - **[obsidian-customization.md](./obsidian-customization.md)** — Motywy, CSS snippets, appearance ✨ NOWO
 - **[plugins-status.md](./plugins-status.md)** — Audit pluginów
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## Cel
@@ -114,6 +123,9 @@ Obsidian to lokalny edytor Markdown z możliwością tworzenia sieci powiązanyc
 - Repozytoria popularnych wtyczek (Dataview, Tasks, Templater, QuickAdd) — linki w dokumentacji projektu plugins.md  
 - Społeczność: r/ObsidianMD, oficjalny Discord, GitHub Discussions
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## 🔗 Powiązane dokumenty
@@ -124,6 +136,9 @@ Obsidian to lokalny edytor Markdown z możliwością tworzenia sieci powiązanyc
 - **[plugins-status.md](./plugins-status.md)** — Audit pluginów (54% coverage)
 - **[plugins-installation-guide.md](./plugins-installation-guide.md)** — Przewodnik instalacji pluginów
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 Uwagi:

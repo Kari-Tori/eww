@@ -1,3 +1,6 @@
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-24T22:31:13Z
+author: Nairecth
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T10:00:00Z
-modified: 2025-11-21T10:00:00Z
-author: jakubc
 title: "Jak dokumentować projekt E-Waste Workshop"
 
 
@@ -18,6 +18,9 @@ title: "Jak dokumentować projekt E-Waste Workshop"
 
 
 owner: jakubc
+created: 2025-11-09T16:56:23Z
+modified: 2025-11-24T22:31:13Z
+author: Nairecth
 ---
 
 
@@ -41,7 +44,6 @@ category: documentation
   - tag1
   - tag2
 language: pl
-created: YYYY-MM-DD
 updated: YYYY-MM-DD
 ```
 
@@ -53,7 +55,6 @@ updated: YYYY-MM-DD
 title: E-Waste Workshop README
 description: Kompletna dokumentacja projektu
 version: 0.0.0.4
-author: Nairecth
 repository: https://github.com/Nairecth/eww
 website: http://www.e-wasteworkshop.co.uk
 type: readme
@@ -317,13 +318,11 @@ make release VERSION=0.0.0.5
 title: Przykładowy dokument
 description: Opis tego co zawiera dokument
 version: 0.0.0.4
-author: Nairecth
 type: guide
 category: documentation
   - example
   - template
 language: pl
-created: 2025-11-09
 updated: 2025-11-09
 
 <!-- 

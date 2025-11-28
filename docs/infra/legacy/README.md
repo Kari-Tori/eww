@@ -1,12 +1,15 @@
+created: 2025-11-24T22:31:13Z
+modified: 2025-11-24T22:31:13Z
+author: jakubc
 ---
 tags:
   - #legacy
   - #docs
-created: 2025-11-24T00:00:00Z
-modified: 2025-11-24T00:00:00Z
-author: codex
 title: "Legacy docs/ snapshot"
 owner: jakubc
+created: 2025-11-24T22:31:13Z
+modified: 2025-11-24T22:31:13Z
+author: jakubc
 ---
 
 # Legacy dokumenty z `docs/`

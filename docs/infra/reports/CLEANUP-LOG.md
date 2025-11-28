@@ -1,12 +1,16 @@
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #eww
   - #cleanup
   - #maintenance
-created: 2025-11-23T01:42:00Z
-author: jakubc
 title: "🗑️ Cleanup Log - Usunięcie dokumentacji Obsidian"
 owner: jakubc
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # 🗑️ Cleanup Log - Usunięcie dokumentacji Obsidian
@@ -85,6 +89,9 @@ make clean-obsidian-docs
 - **Repo size**: ~85MB mniej
 - **Przejrzystość**: Tylko nasze konfigi
 
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 **Status**: ✅ DONE  

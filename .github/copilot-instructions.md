@@ -1,3 +1,6 @@
+created: 2025-11-09T16:11:37Z
+modified: 2025-11-24T22:25:33Z
+author: Nairecth
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T22:00:00Z
-modified: 2025-11-21T22:00:00Z
-author: jakubc
 title: "GitHub Copilot Instructions dla projektu eww"
 
 
@@ -18,6 +18,9 @@ title: "GitHub Copilot Instructions dla projektu eww"
 
 
 owner: jakubc
+created: 2025-11-09T16:11:37Z
+modified: 2025-11-24T22:25:33Z
+author: Nairecth
 ---
 
 # GitHub Copilot Instructions dla projektu eww

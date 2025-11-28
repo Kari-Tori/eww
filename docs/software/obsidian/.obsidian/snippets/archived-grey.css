@@ -1,0 +1,10 @@
+/* archived-grey.css
+   Przyciemnia widok podglądu notatek zawierających tag #archived.
+   Aby użyć: skopiuj do .obsidian/snippets/ i włącz w Settings → Appearance → CSS snippets.
+
+   Uwaga: selektor :has() może wymagać nowszej wersji Obsidian/Chromium.
+*/
+
+.markdown-preview-view:has(.tag[href="#archived"]) {
+  opacity: 0.5;
+}

@@ -1,3 +1,6 @@
+created: 2025-11-05T22:54:26Z
+modified: 2025-11-24T22:31:13Z
+author: JakubC
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T10:00:00Z
-modified: 2025-11-21T12:00:00Z
-author: jakubc
 title: "Wiki — spis"
 
 
@@ -18,6 +18,9 @@ title: "Wiki — spis"
 
 
 owner: jakubc
+created: 2025-11-05T22:54:26Z
+modified: 2025-11-24T22:31:13Z
+author: JakubC
 ---
 
 

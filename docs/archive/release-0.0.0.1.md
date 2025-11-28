@@ -1,3 +1,6 @@
+created: 2025-11-08T20:52:07Z
+modified: 2025-11-24T22:34:18Z
+author: Jakub Celmer
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
-author: jakubc
 title: "Release 0.0.0.1 — MVP"
 
 
@@ -18,6 +18,9 @@ title: "Release 0.0.0.1 — MVP"
 
 
 owner: jakubc
+created: 2025-11-08T20:52:07Z
+modified: 2025-11-24T22:34:18Z
+author: Jakub Celmer
 ---
 
 

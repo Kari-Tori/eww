@@ -1,13 +1,17 @@
+created: 2025-11-26T13:42:28Z
+modified: 2025-11-26T13:42:28Z
+author: karinam
 ---
 title: Workflow merge z upstream (Nairecth/eww → Kari-Tori/eww)
 description: Instrukcja synchronizacji forka z upstream repository
-created: 2025-11-26
 updated: 2025-11-26
 tags:
   - git
   - workflow
   - merge
   - upstream
+created: 2025-11-26T13:42:28Z
+modified: 2025-11-26T13:42:28Z
 author: karinam
 ---
 

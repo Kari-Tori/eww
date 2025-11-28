@@ -1,8 +1,10 @@
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title: Instalacja i konfiguracja wtyczek Obsidian — Przewodnik
 description: Krok po kroku instalacja 5 HIGH priority wtyczek z konfiguracją
 version: 1.0.0
-created: 2025-11-24
 updated: 2025-11-24
 tags:
   - obsidian
@@ -10,6 +12,9 @@ tags:
   - installation
   - configuration
   - guide
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # Instalacja i konfiguracja wtyczek Obsidian — Przewodnik
@@ -23,6 +28,9 @@ Zainstalować i skonfigurować **5 HIGH priority wtyczek** dla Obsidian:
 4. **Note Refactor** — ekstrakcja fragmentów
 5. **Excalidraw** — rysunki i diagramy
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⚠️ Uwaga: Git NOT enabled
@@ -46,6 +54,9 @@ git commit -m "Pre-plugin installation backup (Linter, Advanced Tables, Tag Wran
 git push
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📦 Instalacja wtyczek (GUI)
@@ -58,6 +69,9 @@ git push
 4. Jeśli pierwszy raz: kliknij **Turn on community plugins**
 5. Kliknij **Browse**
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 1️⃣ Obsidian Linter
@@ -113,9 +127,15 @@ Format tags in YAML: ✅ ON
 
 Utwórz nową notatkę:
 ```markdown
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title:   Test Linter  
 tags: [test,obsidian]
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # Test   
@@ -128,6 +148,9 @@ Zapisz (`Ctrl+S`) — Linter automatycznie powinien:
 - Sformatować `tags` jako array YAML
 - Usunąć trailing spaces
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 2️⃣ Advanced Tables
@@ -185,6 +208,9 @@ Wypróbuj:
 
 Naciśnij `Ctrl+Shift+D` → **Sort by column** → wybierz kolumnę
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 3️⃣ Tag Wrangler
@@ -219,15 +245,24 @@ Collapse subtags: ❌ OFF
 1. Otwórz **Tag panel** (prawy sidebar → ikona `#`)
 2. Utwórz notatkę z tagami:
 ```markdown
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 tags:
   - projekty/eww
   - ebay/sprzedaz
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 ```
 3. Prawy klik na `projekty/eww` → **Rename tag** → zmień na `projekt/eww-toolkit`
 4. Tag zostanie zmieniony **we wszystkich notatkach** automatycznie
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 4️⃣ Note Refactor
@@ -282,6 +317,9 @@ Opis DevOps...
 4. Nowa notatka zostanie utworzona w `notes/2025-11-24-eww-backend.md`
 5. W oryginalnej notatce zostanie link: `![[eww-backend]]`
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 5️⃣ Excalidraw
@@ -342,6 +380,9 @@ Embed width: "100%"
 ![[test-diagram]]
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ✅ Checklist po instalacji
@@ -354,6 +395,9 @@ Embed width: "100%"
 - [ ] **Note Refactor:** Zaznacz tekst → Extract to new note → Sprawdź link
 - [ ] **Excalidraw:** Utwórz nowy rysunek → Sprawdź czy zapisuje w `drawings/`
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔧 Konfiguracja zaawansowana
@@ -364,9 +408,15 @@ Jeśli używasz **Templater**, możesz dodać auto-lint do szablonów:
 
 **Szablon daily note:**
 ```markdown
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 date: <% tp.date.now("YYYY-MM-DD") %>
 tags: [daily]
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # <% tp.date.now("YYYY-MM-DD dddd") %>
@@ -400,6 +450,9 @@ SORT due asc
 
 Kliknij w drugą tabelę → Tab → edytuj ręcznie
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🐛 Troubleshooting
@@ -426,6 +479,9 @@ Kliknij w drugą tabelę → Tab → edytuj ręcznie
 - Disable → Enable plugin
 - Restart Obsidian
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📚 Dodatkowe zasoby
@@ -442,6 +498,9 @@ Kliknij w drugą tabelę → Tab → edytuj ręcznie
 - Obsidian Discord
 - Obsidian Forum: https://forum.obsidian.md/
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔄 Następne kroki
@@ -467,6 +526,9 @@ Commit interval: 10 minutes
 Auto-pull on startup: ✅
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ✨ Podsumowanie

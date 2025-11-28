@@ -1,3 +1,6 @@
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-24T22:34:18Z
+author: Nairecth
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
-author: jakubc
 title: "Neovim - przewodnik testowania"
 
 
@@ -18,6 +18,9 @@ title: "Neovim - przewodnik testowania"
 
 
 owner: jakubc
+created: 2025-11-10T15:44:41Z
+modified: 2025-11-24T22:34:18Z
+author: Nairecth
 ---
 
 

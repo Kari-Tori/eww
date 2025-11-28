@@ -1,0 +1,14 @@
+{
+  "accentColor": "#a20de7",
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "todo-dashboard",
+    "test-full-width",
+    "nord-github",
+    "graph-colors",
+    "graph-style",
+    "graph-timeline"
+  ],
+  "cssTheme": "Obsidian Nord"
+}

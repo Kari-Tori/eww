@@ -1,3 +1,6 @@
+created: 2025-11-26T12:57:37Z
+modified: 2025-11-26T12:57:37Z
+author: karinam
 ---
 title: Code of Conduct
 description: Kodeks postępowania społeczności E-Waste Workshop
@@ -6,6 +9,9 @@ tags:
   - conduct
   - guidelines
 language: pl
+created: 2025-11-26T12:57:37Z
+modified: 2025-11-26T12:57:37Z
+author: karinam
 ---
 
 # Kodeks postępowania społeczności
@@ -54,6 +60,9 @@ Ten Kodeks postępowania jest adaptacją [Contributor Covenant](https://www.cont
 
 Odpowiedzi na często zadawane pytania dotyczące tego Kodeksu postępowania można znaleźć pod adresem https://www.contributor-covenant.org/faq
 
+created: 2025-11-26T12:57:37Z
+modified: 2025-11-26T12:57:37Z
+author: karinam
 ---
 
 **Razem tworzymy lepszą społeczność! 🤝**

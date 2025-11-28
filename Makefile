@@ -222,18 +222,23 @@ clean: ## Usuń pliki tymczasowe (*.bak, *.tmp)
 # ============================================================================
 
 .PHONY: version bump-version changelog
+SCRIPTS_DIR := dev/scripts
 
 version: ## Wyświetl aktualną wersję projektu
 	@echo "📌 Wersja projektu:"
-	@./scripts/version.sh 2>/dev/null || cat VERSION 2>/dev/null || echo "0.0.0"
+	@./$(SCRIPTS_DIR)/version.sh 2>/dev/null || cat VERSION 2>/dev/null || echo "0.0.0"
 
 bump-version: ## Zwiększ wersję (MAJOR, MINOR lub PATCH)
 	@echo "🔼 Zwiększanie wersji..."
-	@./scripts/bump-version.sh $(BUMP)
+	@./$(SCRIPTS_DIR)/bump-version.sh $(BUMP)
 
 changelog: ## Wygeneruj CHANGELOG.md na podstawie commitów
 	@echo "📝 Generowanie changelog..."
-	@./scripts/generate-changelog.sh || echo "❌ Brak skryptu generate-changelog.sh"
+	@./$(SCRIPTS_DIR)/generate-changelog.sh || echo "❌ Brak skryptu generate-changelog.sh"
+
+.PHONY: check-versions
+check-versions: ## Sprawdź spójność wersji (git tag, VERSION, kluczowe pliki)
+	@./$(SCRIPTS_DIR)/check-version-consistency.sh
 
 # ============================================================================
 # README i dokumentacja

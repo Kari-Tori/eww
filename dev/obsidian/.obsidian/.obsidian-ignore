@@ -1,0 +1,11 @@
+# Ignoruj w graph i wyszukiwaniu
+archive/
+var/log/
+var/cache/
+usr/karinam/.smart-env/
+.obsidian/plugins/
+.obsidian/themes/
+**/*-conflict-*
+**/*.backup.md
+**/*.ajson
+**/templates/

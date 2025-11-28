@@ -1,0 +1,17 @@
+{
+  "search": "-path:core/var/logs -path:core/var/status -path:.git",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.5,
+  "lineSizeMultiplier": 2,
+  "centerStrength": 0.15,
+  "repelStrength": 12,
+  "linkStrength": 0.6,
+  "linkDistance": 120,
+  "collapse-filter": false,
+  "collapse-color-groups": false,
+  "collapse-display": false
+}

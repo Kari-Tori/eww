@@ -1,3 +1,6 @@
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T09:00:00Z
-modified: 2025-11-21T09:00:00Z
-author: jakubc
 title: "Raport Frontmatter - Rozszerzenie YAML"
 
 
@@ -17,6 +17,9 @@ title: "Raport Frontmatter - Rozszerzenie YAML"
 
 
 
+created: 2025-11-21T09:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 # Raport Frontmatter - Rozszerzenie YAML
@@ -71,9 +74,7 @@ description: Automatyczny opis
 type: executable|library|script|guide|readme|documentation
 category: Automatycznie z ścieżki (bin, lib, scripts, docs)
 filepath: Relatywna ścieżka od repo root
-author: jakubc (fallback gdy git niedostępny)
 owner: jakubc
-created: YYYY-MM-DD (git lub stat)
 updated: YYYY-MM-DD (git lub stat)
 version: 1.0.0
 language: pl
@@ -115,9 +116,7 @@ description: Obsidian - Rozwiązywanie problemów
 type: file
 category: docs
 filepath: docs/obsidian-troubleshooting.md
-author: jakubc
 owner: jakubc
-created: 2025-11-21
 updated: 2025-11-21
 version: 1.0.0
 language: pl

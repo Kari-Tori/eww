@@ -1,3 +1,6 @@
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
-author: jakubc
 title: "Plan działań"
 
 
@@ -18,6 +18,9 @@ title: "Plan działań"
 
 
 owner: jakubc
+created: 2025-11-21T18:00:00Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 
@@ -32,7 +35,6 @@ owner: jakubc
 -->
 title: Następne kroki EWW
 description: Skondensowany plan porządkowania repozytorium i przygotowania do kolejnego wydania
-author: Zespół EWW
 version: 0.1.0
 updated: 2025-11-22
 status: active

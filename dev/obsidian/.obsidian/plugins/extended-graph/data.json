@@ -1,0 +1,10 @@
+{
+  "maxNodes": 50,
+  "delay": 500,
+  "recomputeStatsOnGraphChange": false,
+  "fadeInElements": false,
+  "enableProperties": false,
+  "enableShapes": false,
+  "enableStats": false,
+  "enableLayers": false
+}

@@ -1,3 +1,6 @@
+created: 2025-11-21T14:23:42Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T14:23:42Z
-modified: 2025-11-21T14:23:42Z
-author: jakubc
 title: "📊 FINALNE PODSUMOWANIE - OBSIDIAN GRAPH"
 
 
@@ -18,6 +18,9 @@ title: "📊 FINALNE PODSUMOWANIE - OBSIDIAN GRAPH"
 
 
 owner: jakubc
+created: 2025-11-21T14:23:42Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 # 📊 FINALNE PODSUMOWANIE - OBSIDIAN GRAPH

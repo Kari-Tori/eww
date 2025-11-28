@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "6f621046860ad644",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbf530e366f72b69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ecdca53680bb3d7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Widok grafu"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0bb5112169eb88f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f4e569739b0834f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56ec71258863e88c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Przeglądarka plików"
+            }
+          },
+          {
+            "id": "49a10690d0b52317",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Szukaj"
+            }
+          },
+          {
+            "id": "91d4dd962554338c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Ulubione"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "44cae7e54a54f2dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1058a1670e98b1c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1c41f3150b992f1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Linki zwrotne"
+            }
+          },
+          {
+            "id": "5caf74d0ae9031a5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Łącza wychodzące"
+            }
+          },
+          {
+            "id": "74c15305e46a2918",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tagi"
+            }
+          },
+          {
+            "id": "109cd225413e04da",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Wszystkie atrybuty"
+            }
+          },
+          {
+            "id": "6be4ede613521101",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Otwórz okno szybkiego wyboru": false,
+      "graph:Otwórz graf": false,
+      "canvas:Stwórz nową tablicę": false,
+      "daily-notes:Otwórz codzienną notatkę": false,
+      "templates:Wstaw szablon": false,
+      "command-palette:Otwórz listę poleceń": false,
+      "markdown-importer:Otwórz importer Markdown": false,
+      "audio-recorder:Rozpocznij lub zatrzymaj nagrywanie": false,
+      "workspaces:Zarządzaj układami obszaru roboczego": false,
+      "publish:Opublikuj zmiany...": false,
+      "bases:Stwórz nową bazę danych": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "1ecdca53680bb3d7",
+  "lastOpenFiles": [
+    "usr/karinam/health/objawy-2025-11-24-26.md",
+    "dev/obsidian/OBSIDIAN-GRAPH-LIMITS.md",
+    "dev/obsidian/eww.md",
+    "dev/obsidian/obsidian-git-config.md",
+    "dev/obsidian/graph-presets.md",
+    "dev/obsidian/graph-preset-info.md",
+    "dev/obsidian/GRAPH-TEST-RESULTS.md",
+    "dev/obsidian/COMMIT-WORKFLOW.md",
+    "dev/obsidian/OBSIDIAN-GIT-CONFIG.md",
+    "dev/obsidian/OBSIDIAN-CONFIG.md",
+    "dev/obsidian/graph/graph.json.bak",
+    "dev/obsidian/graph/graph.json.backup-final",
+    "dev/obsidian/graph/graph.json.backup-1763756520",
+    "dev/obsidian/graph/graph.json.backup-1763735114",
+    "dev/obsidian/graph/graph.json.backup",
+    "dev/obsidian/scripts/scripts.md",
+    "dev/obsidian/scripts/commit-split.sh",
+    "dev/obsidian/scripts/auto-commit-on-close.sh",
+    "dev/obsidian/scripts",
+    "dev/obsidian/graph-versions/graph-history.md",
+    "dev/obsidian/graph-versions/graph-2025-11-23.json",
+    "dev/obsidian/graph-versions",
+    "dev/projects/obsidian/plugins/Templater/Templater.md",
+    "dev/projects/obsidian/plugins/QuickAdd/QuickAdd.md",
+    "dev/projects/obsidian/plugins/EditorShortcuts/EditorShortcuts.md",
+    "dev/projects/obsidian/plugins/obsidian-plugins.md",
+    "dev/projects/Odoo/odoo_ebay_sync_mvp/odoo_ebay_sync_mvp.md",
+    "dev/projects/Odoo/Odoo.md",
+    "dev/projects/plugins/Templater/Templater.md",
+    "dev/projects/plugins/QuickAdd/QuickAdd.md",
+    "dev/projects/plugins/EditorShortcuts/EditorShortcuts.md",
+    "dev/projects/plugins/obsidian-plugins.md",
+    "dev/projects/Secondbrain/Secondbrain.md",
+    "docs/software/obsidian/plugins/core/graph-view/graph-view-plan.md",
+    "docs/software/obsidian/plugins/core/graph-view/presets.md",
+    "docs/software/obsidian/plugins/core/graph-view/installation-guide.md"
+  ]
+}

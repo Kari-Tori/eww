@@ -1,8 +1,10 @@
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title: Rozszerzenia VS Code dla HTML/CSS/Web Development
 description: Narzędzia do pracy z HTML, CSS, JavaScript i web developmentu w VS Code
 version: 1.0.0
-created: 2025-11-24
 updated: 2025-11-24
 tags:
   - vscode
@@ -10,6 +12,9 @@ tags:
   - css
   - web-development
   - frontend
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # Rozszerzenia VS Code dla HTML/CSS/Web Development
@@ -18,6 +23,9 @@ tags:
 
 Zestawienie najlepszych rozszerzeń VS Code dla pracy z HTML, CSS, JavaScript i web developmentu.
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📦 Kategorie rozszerzeń
@@ -38,6 +46,9 @@ ecmel.vscode-html-css
 code --install-extension ecmel.vscode-html-css
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### Auto Rename Tag
@@ -53,6 +64,9 @@ formulahendry.auto-rename-tag
 code --install-extension formulahendry.auto-rename-tag
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### Auto Close Tag
@@ -68,6 +82,9 @@ formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-close-tag
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### HTML Snippets
@@ -84,6 +101,9 @@ abusaidm.html-snippets
 code --install-extension abusaidm.html-snippets
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### IntelliSense for CSS class names in HTML
@@ -100,6 +120,9 @@ zignd.html-css-class-completion
 code --install-extension zignd.html-css-class-completion
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 2️⃣ CSS — Styling & Preprocessing
@@ -118,6 +141,9 @@ pranaygp.vscode-css-peek
 code --install-extension pranaygp.vscode-css-peek
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### Tailwind CSS IntelliSense
@@ -135,6 +161,9 @@ bradlc.vscode-tailwindcss
 code --install-extension bradlc.vscode-tailwindcss
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### SCSS IntelliSense
@@ -151,6 +180,9 @@ mrmlnc.vscode-scss
 code --install-extension mrmlnc.vscode-scss
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### Stylelint
@@ -168,6 +200,9 @@ code --install-extension stylelint.vscode-stylelint
 npm install -g stylelint stylelint-config-standard
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 3️⃣ Live Preview & Browser Tools
@@ -192,6 +227,9 @@ code --install-extension ritwickdey.liveserver
 - Lub: kliknij **Go Live** w status bar
 - Serwer: `http://localhost:5500`
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### Live Preview
@@ -209,6 +247,9 @@ ms-vscode.live-server
 code --install-extension ms-vscode.live-server
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### Browser Preview
@@ -225,6 +266,9 @@ auchenberg.vscode-browser-preview
 code --install-extension auchenberg.vscode-browser-preview
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 4️⃣ JavaScript & Frontend Frameworks
@@ -244,6 +288,9 @@ code --install-extension dbaeumer.vscode-eslint
 npm install -g eslint
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### Prettier - Code formatter
@@ -275,6 +322,9 @@ npm install -g prettier
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### JavaScript (ES6) code snippets
@@ -292,6 +342,9 @@ xabikos.javascriptsnippets
 code --install-extension xabikos.javascriptsnippets
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 5️⃣ Emmet & Productivity
@@ -317,6 +370,9 @@ code --install-extension xabikos.javascriptsnippets
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 6️⃣ Accessibility & Validation
@@ -335,6 +391,9 @@ deque-systems.vscode-axe-linter
 code --install-extension deque-systems.vscode-axe-linter
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### HTMLHint
@@ -352,6 +411,9 @@ code --install-extension mkaufman.htmlhint
 npm install -g htmlhint
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### W3C Validation
@@ -368,6 +430,9 @@ umoxfo.vscode-w3cvalidation
 code --install-extension umoxfo.vscode-w3cvalidation
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 7️⃣ Color & Image Tools
@@ -386,6 +451,9 @@ naumovs.color-highlight
 code --install-extension naumovs.color-highlight
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### Color Picker
@@ -402,6 +470,9 @@ anseki.vscode-color
 code --install-extension anseki.vscode-color
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### Image preview
@@ -418,6 +489,9 @@ kisstkondoros.vscode-gutter-preview
 code --install-extension kisstkondoros.vscode-gutter-preview
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 8️⃣ Framework-Specific
@@ -437,6 +511,9 @@ octref.vetur
 code --install-extension octref.vetur
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 #### ES7+ React/Redux/React-Native snippets
@@ -453,6 +530,9 @@ dsznajder.es7-react-js-snippets
 code --install-extension dsznajder.es7-react-js-snippets
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🚀 Instalacja — Quick Setup
@@ -511,6 +591,9 @@ echo "📦 Zainstalowano ${#HTML_CSS_EXTENSIONS[@]} rozszerzeń"
 bash scripts/install-html-css-vscode-extensions.sh
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⚙️ Konfiguracja VS Code dla HTML/CSS
@@ -570,6 +653,9 @@ bash scripts/install-html-css-vscode-extensions.sh
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔧 Konfiguracja Prettier (`.prettierrc`)
@@ -588,6 +674,9 @@ bash scripts/install-html-css-vscode-extensions.sh
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔧 Konfiguracja ESLint (`.eslintrc.json`)
@@ -611,6 +700,9 @@ bash scripts/install-html-css-vscode-extensions.sh
 }
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 💡 Workflow HTML/CSS w VS Code
@@ -685,6 +777,9 @@ Rozwinie się do:
 </ul>
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🐛 Troubleshooting
@@ -704,6 +799,9 @@ Rozwinie się do:
 - Restart VS Code
 - Sprawdź czy CSS files są w workspace
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📚 Dokumentacja
@@ -714,6 +812,9 @@ Rozwinie się do:
 - **Prettier:** https://prettier.io/docs/
 - **ESLint:** https://eslint.org/docs/
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📦 Podsumowanie
@@ -745,6 +846,9 @@ Rozwinie się do:
 - Vetur (Vue.js)
 - React snippets
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔗 Powiązane dokumenty
@@ -752,6 +856,9 @@ Rozwinie się do:
 - [code-plugins.md](./code-plugins.md) — Rozszerzenia Markdown/Obsidian
 - [README.md](./README.md) — Główna dokumentacja VS Code
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ✨ Następne kroki

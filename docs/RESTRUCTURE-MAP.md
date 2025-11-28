@@ -1,10 +1,17 @@
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 title: "RESTRUCTURE MAP moved"
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 owner: jakubc
 tags:
-created: 2025-11-24T00:00:00Z
-modified: 2025-11-24T00:00:00Z
+created: 2025-11-24T22:31:33Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # Dokument przeniesiony

@@ -5,7 +5,9 @@ tags:
   - structure
   - organization
   - documentation
+version: 0.0.0.5
 language: pl
+updated: 2025-11-29
 ---
 
 # 📁 Struktura repozytorium E-Waste Workshop
@@ -308,5 +310,5 @@ git push origin main      # Wypchnij na fork
 
 ---
 
-**Ostatnia aktualizacja:** 2025-11-26  
+**Ostatnia aktualizacja:** 2025-11-26
 **Wersja:** 0.0.0.5

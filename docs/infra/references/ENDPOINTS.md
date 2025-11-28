@@ -1,3 +1,6 @@
+created: 2025-11-06T00:18:54Z
+modified: 2025-11-24T22:34:18Z
+author: JakubC
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T09:00:00Z
-modified: 2025-11-21T09:00:00Z
-author: jakubc
 title: "ENDPOINTY — MkDocs (E-Waste Workshop — Wiki)"
 
 
@@ -18,6 +18,9 @@ title: "ENDPOINTY — MkDocs (E-Waste Workshop — Wiki)"
 
 
 owner: jakubc
+created: 2025-11-06T00:18:54Z
+modified: 2025-11-24T22:34:18Z
+author: JakubC
 ---
 
 

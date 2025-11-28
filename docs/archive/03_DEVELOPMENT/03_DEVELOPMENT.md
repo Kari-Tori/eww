@@ -1,3 +1,6 @@
+created: 2025-11-21T20:46:16Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -14,6 +17,9 @@ tags:
 
 
 owner: jakubc
+created: 2025-11-21T20:46:16Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # 📁 03_DEVELOPMENT

@@ -1,3 +1,6 @@
+created: 2025-11-08T21:03:59Z
+modified: 2025-11-24T22:34:18Z
+author: Jakub Celmer
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
-author: jakubc
 title: "README — lista kontrolna przed wydaniem (do użycia w Obsidian)"
 
 
@@ -18,6 +18,9 @@ title: "README — lista kontrolna przed wydaniem (do użycia w Obsidian)"
 
 
 owner: jakubc
+created: 2025-11-08T21:03:59Z
+modified: 2025-11-24T22:34:18Z
+author: Jakub Celmer
 ---
 
 

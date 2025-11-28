@@ -1,8 +1,10 @@
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 title: Community Plugins dla Obsidian — polecane i zaawansowane
 description: Kompletny przewodnik po najlepszych community plugins dla Obsidian, z przykładami użycia, konfiguracją i integracją z workflow
 version: 1.1.0
-created: 2025-11-24
 updated: 2025-11-24
 tags:
   - obsidian
@@ -10,6 +12,9 @@ tags:
   - community
   - pkm
   - productivity
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # Community Plugins dla Obsidian — polecane i zaawansowane
@@ -31,6 +36,9 @@ Zobacz również:
 - **[plugins-installation-guide.md](./plugins-installation-guide.md)** — Przewodnik instalacji
 - **[obsidian.md](./obsidian.md)** — Core funkcje Obsidian
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📦 Core plugins już zainstalowane
@@ -46,6 +54,9 @@ Lista w: `/docs/software/obsidian/installed_pluggins.md`
 7. **Periodic Notes** — notatki periodyczne
 8. **Obsidian Git** — backup i wersjonowanie
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🌟 Top Community Plugins (ranked by usage)
@@ -99,6 +110,9 @@ FROM "kanban"
 WHERE !completed
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 2️⃣ Tasks — Zaawansowane filtrowanie zadań
@@ -155,6 +169,9 @@ Settings → Tasks:
 - Auto-suggest task format: ✅
 - Set done date on every completed task: ✅
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 3️⃣ Templater — Skrypty i dynamiczne szablony
@@ -170,11 +187,17 @@ Templater to rozszerzenie systemu szablonów Obsidian o JavaScript, zmienne, fun
 
 **Przykład 1: Szablon dzienny z datą**
 ```tpl
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 date: <% tp.date.now("YYYY-MM-DD") %>
 title: Dzień — <% tp.date.now("YYYY-MM-DD") %>
 day: <% tp.date.now("dddd") %>
 week: <% tp.date.now("w") %>
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # <% tp.date.now("dddd, D MMMM YYYY") %>
@@ -194,11 +217,16 @@ week: <% tp.date.now("w") %>
 
 **Przykład 2: Nowy projekt z UUID**
 ```tpl
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
-created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 project: <% tp.file.title %>
 status: planowanie
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 # <% tp.file.title %>
@@ -230,6 +258,9 @@ Settings → Templater:
 - Enable Folder Templates: ✅
 - Enable System Commands: ✅
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 4️⃣ QuickAdd — Szybkie akcje i makra
@@ -303,6 +334,9 @@ Settings → QuickAdd:
 - Folder: wybierz gdzie mają być tworzone notatki
 - File name format: `{{DATE:YYYY-MM-DD}}-{{VALUE}}`
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 5️⃣ Kanban — Tablice zarządzania zadaniami
@@ -317,10 +351,16 @@ Kanban tworzy tablice w stylu Trello/Jira wewnątrz notatek Markdown.
 #### Struktura tablicy
 
 ```markdown
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 kanban-plugin: basic
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## Dziś 📅
@@ -368,6 +408,9 @@ Settings → Kanban:
 - Prepend / append new cards: Prepend (góra kolumny)
 - Link dates to daily notes: ✅
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 6️⃣ Calendar — Wizualizacja czasowa notatek
@@ -390,6 +433,9 @@ Settings → Calendar:
 - Start week on Monday: ✅ (lub Sunday)
 - Words per dot: 250 (ilość słów = kropka)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 7️⃣ Periodic Notes — Daily/Weekly/Monthly notes
@@ -418,6 +464,9 @@ Rozszerzenie Daily Notes o weekly, monthly, quarterly, yearly notes.
 - Folder: `usr/karinam/journal/monthly/`
 - Template: `templates/monthly-template.md`
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 8️⃣ Obsidian Git — Automatyczne commity i backup
@@ -450,6 +499,9 @@ Settings → Obsidian Git:
 .trash/
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 9️⃣ Obsidian Linter — Utrzymanie stylu Markdown
@@ -475,6 +527,9 @@ Settings → Linter:
 - Remove trailing whitespace: ✅
 - Heading blank lines: ✅
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### 🔟 Advanced URI — Linki akcyjne i integracje
@@ -517,6 +572,9 @@ obsidian_uri="obsidian://advanced-uri?vault=eww&filepath=kanban/today.md&data=- 
 xdg-open "$obsidian_uri"
 ```
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🎨 Dodatkowe polecane pluginy
@@ -535,6 +593,9 @@ Funkcje: Vim-like navigation w listach, folding, drag & drop
 Repo: https://github.com/deathau/cm-editor-syntax-highlight-obsidian  
 Funkcje: Kolorowanie składni w trybie edycji
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Navigation & Organization
@@ -551,6 +612,9 @@ Funkcje: Automatyczne tworzenie Map of Content
 Repo: https://github.com/ozntel/file-tree-alternative  
 Funkcje: Zaawansowany explorer z custom sortowaniem
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Visualization & Media
@@ -567,6 +631,9 @@ Funkcje: Chart.js integration, wykresy z Dataview
 Repo: https://github.com/aidenlx/media-extended  
 Funkcje: Timestamps, loop, speed control
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Productivity & Automation
@@ -583,6 +650,9 @@ Funkcje: Executable buttons w Markdown
 Repo: https://github.com/chhoumann/MetaEdit  
 Funkcje: Szybka edycja YAML inline
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ### Search & Discovery
@@ -595,6 +665,9 @@ Funkcje: Full-text search, OCR, PDF indexing
 Repo: https://github.com/TfTHacker/obsidian42-strange-new-worlds  
 Funkcje: Stały local graph dla aktywnej notatki
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔗 Integracje między pluginami
@@ -632,6 +705,9 @@ sort by priority
 2. **Obsidian Git** commituje co 30 min
 3. **Pre-commit hook** (zewnętrzny) uruchamia shellcheck
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ⚙️ Konfiguracja globalna — Rekomendacje
@@ -653,6 +729,9 @@ sort by priority
 - Theme: Wybierz ciemny/jasny
 - CSS snippets: Włącz custom callouts (patrz docs/software/code/code-plugins.md)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🚀 Skrypt instalacyjny pluginów (manual)
@@ -674,6 +753,9 @@ git clone https://github.com/blacksmithgu/obsidian-dataview.git
 ### Opcja 3: BRAT (Beta Reviewers Auto-update Tester)
 Plugin do instalacji beta-wersji pluginów z GitHub URL.
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📊 Porównanie funkcji
@@ -687,6 +769,9 @@ Plugin do instalacji beta-wersji pluginów z GitHub URL.
 | **Automatyzacja** | ❌ | ❌ | ✅ Skrypty | ✅ Makra | ❌ |
 | **API** | ✅ DataviewJS | ❌ | ✅ Templater | ✅ Scripts | ❌ |
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔍 Debugging i troubleshooting
@@ -715,6 +800,9 @@ Plugin do instalacji beta-wersji pluginów z GitHub URL.
 2. Skonfiguruj Git: `git config user.name "..."` i `git config user.email "..."`
 3. Settings → Obsidian Git → Disable push: ❌ (włącz)
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 📚 Źródła i zasoby
@@ -736,6 +824,9 @@ Plugin do instalacji beta-wersji pluginów z GitHub URL.
 - **Tasks Quickstart:** https://publish.obsidian.md/tasks/Quick%20Start
 - **Templater Examples:** Community showcase w repo
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## ✅ Checklist dla zaawansowanych użytkowników
@@ -752,6 +843,9 @@ Plugin do instalacji beta-wersji pluginów z GitHub URL.
 - [ ] Dataview plugins/addons
 - [ ] BRAT dla beta-testingu pluginów
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🔄 Aktualizacje
@@ -762,6 +856,9 @@ Plugin do instalacji beta-wersji pluginów z GitHub URL.
 - Przykłady użycia
 - Integracje i workflow
 
+created: 2025-11-25T03:13:57Z
+modified: 2025-11-25T03:13:57Z
+author: karinam
 ---
 
 ## 🤝 Wkład

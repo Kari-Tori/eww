@@ -1,3 +1,6 @@
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -15,10 +18,8 @@ category: placeholder
   - documentation
   - docs
   - knowledge
-created: 2025-11-21
 updated: 2025-11-21
 color: green
-author: EWW Team
 related:
   - docs/placeholders/gemba_log.md
   - docs/placeholders/README_Avo_Seedlings_NO_FINANCE.md.md
@@ -32,6 +33,9 @@ related:
 
 
 owner: jakubc
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 # obsidian/5S_checklist
@@ -44,6 +48,9 @@ owner: jakubc
 - [ ] Zaktualizuj frontmatter
 - [ ] Dodaj powiązania
 
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-24T22:31:33Z
+author: jakubc
 ---
 
 **Status:** Placeholder (auto-created)  

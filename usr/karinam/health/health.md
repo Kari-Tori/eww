@@ -34,14 +34,14 @@ title: "💪 Health - Karinam"
 
 ## 📄 Zawartość
 
-*Folder obecnie nie zawiera plików.*
+- [[atak-zoladka-24-26-11|Atak żołądka 24-26.11]] — wymioty 24/26.11 i kłujący ból żołądka przy wdechu.
 
 ## 🔗 Related
 - [[usr/karinam/karinam|🩷 Karinam]]
 
 ## 📑 Index plików
 
-*Brak plików markdown.*
+- [atak-zoladka-24-26-11](atak-zoladka-24-26-11.md)
 
 ## 📁 Podfoldery
 
@@ -54,4 +54,3 @@ title: "💪 Health - Karinam"
 - [[GRAPH-CORE]]
 - [[GRAPH-BUSINESS]]
 - [[GRAPH-CONFIG]]
-

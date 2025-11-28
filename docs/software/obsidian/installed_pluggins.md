@@ -1,14 +1,19 @@
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 title: Zainstalowane wtyczki Obsidian — Kompletna dokumentacja
 description: Dokumentacja wszystkich zainstalowanych wtyczek z konfiguracją i przykładami użycia
 version: 2.1.0
-created: 2025-11-18
 updated: 2025-11-24
 tags:
   - obsidian
   - plugins
   - documentation
   - configuration
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 # Zainstalowane wtyczki Obsidian — Kompletna dokumentacja
@@ -21,6 +26,9 @@ Zobacz również:
 - **[plugins-status.md](./plugins-status.md)** — Audit pluginów (54% coverage)
 - **[obsidian.md](./obsidian.md)** — Core funkcje Obsidian
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## 📊 Podsumowanie
@@ -33,6 +41,9 @@ Zobacz również:
 | **Productivity** | 5 | Linter, Advanced Tables, Tag Wrangler, Note Refactor, Excalidraw |
 | **RAZEM** | 13 | — |
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## 🔧 Core Workflow Plugins (8)
@@ -62,8 +73,14 @@ Ctrl+P → "Kanban: Create new board"
 
 **Struktura (Markdown):**
 ```markdown
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 kanban-plugin: basic
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## TODO
@@ -85,6 +102,9 @@ kanban-plugin: basic
 - Projekty: `Backlog | In Progress | Review | Done`
 - Daily notes: `Today | This Week | Later`
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 2. Dataview — Zapytania i raporty z notatek
@@ -147,6 +167,9 @@ dv.table(["Nazwa", "Status", "Progress"],
 ```
 ````
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 3. Templater — Skrypty i dynamiczne szablony
@@ -174,10 +197,16 @@ Settings → Templater:
 
 **Szablon daily note:**
 ```markdown
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 date: <% tp.date.now("YYYY-MM-DD") %>
 day: <% tp.date.now("dddd") %>
 tags: [daily]
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 # <% tp.date.now("YYYY-MM-DD dddd") %>
@@ -194,11 +223,16 @@ tags: [daily]
 
 **Szablon projektu:**
 ```markdown
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 title: <% tp.file.title %>
-created: <% tp.date.now("YYYY-MM-DD") %>
 status: "TODO"
 tags: [project]
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 # <% tp.file.title %>
@@ -220,6 +254,9 @@ tags: [project]
 - `Ctrl+P` → **Templater: Insert template**
 - `Ctrl+P` → **Templater: Create new note from template**
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 4. Tasks — Zaawansowane filtrowanie zadań
@@ -289,6 +326,9 @@ not done
 ```
 ````
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 5. QuickAdd — Szybkie akcje i makra
@@ -327,6 +367,9 @@ Settings → QuickAdd:
 - Ustaw `Ctrl+Shift+N` → QuickAdd: Daily Note
 - Użyj: `Ctrl+Shift+N` → automatycznie utworzy daily note
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 6. Calendar — Wizualizacja czasowa notatek
@@ -352,6 +395,9 @@ Settings → Calendar:
 - Kropki pod datami = istniejące notatki
 - Kolor kropki = liczba słów w notatce
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 7. Periodic Notes — Daily/Weekly/Monthly notes
@@ -387,6 +433,9 @@ Monthly Notes:
 - `Ctrl+P` → **Periodic Notes: Open weekly note**
 - `Ctrl+P` → **Periodic Notes: Open monthly note**
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 8. Obsidian Git — Backup i automatyczne commity
@@ -415,6 +464,9 @@ Settings → Obsidian Git:
 
 **⚠️ Uwaga:** Obecnie wyłączone — włącz w Settings → Community plugins
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## ⚡ Productivity Plugins (5)
@@ -442,6 +494,9 @@ Settings → Linter:
 - Ręcznie: `Ctrl+P` → **Linter: Lint current file**
 - Wiele plików: `Ctrl+P` → **Linter: Lint all files in folder**
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 10. Advanced Tables — Edytor tabel
@@ -475,6 +530,9 @@ Settings → Advanced Tables:
 ```
 Kliknij w komórkę → `Tab` → auto-wyrównanie
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 11. Tag Wrangler — Zarządzanie tagami
@@ -498,6 +556,9 @@ Settings → Tag Wrangler:
 - Prawy klik → **Merge tags** (scal dwa tagi)
 - Prawy klik → **Delete tag**
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 12. Note Refactor — Ekstrakcja fragmentów
@@ -523,6 +584,9 @@ Settings → Note Refactor:
 3. Podaj nazwę
 4. Nowa notatka + link `![[nazwa]]` w oryginale
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ### 13. Excalidraw — Rysunki i diagramy
@@ -558,6 +622,9 @@ Settings → Excalidraw:
 ![[diagram.excalidraw]]
 ```
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## 📚 Powiązane dokumenty
@@ -567,6 +634,9 @@ Settings → Excalidraw:
 - [plugins-installation-guide.md](./plugins-installation-guide.md) — Przewodnik instalacji
 - [obsidian.md](./obsidian.md) — Główna dokumentacja
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## 🔄 Aktualizacje

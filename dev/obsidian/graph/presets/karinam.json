@@ -1,0 +1,17 @@
+{
+  "search": "path:usr/karinam/ OR tag:#karinam",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "nodeSizeMultiplier": 1.8,
+  "lineSizeMultiplier": 2.0,
+  "textFadeMultiplier": -0.5,
+  "centerStrength": 0.3,
+  "repelStrength": 8,
+  "linkStrength": 0.6,
+  "linkDistance": 200,
+  "collapse-filter": false,
+  "collapse-color-groups": false,
+  "collapse-display": false
+}

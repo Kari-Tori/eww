@@ -19,5 +19,6 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "graphMaxFileCount": 1000
+  "graphMaxFileCount": 5000,
+  "readableLineLength": false
 }

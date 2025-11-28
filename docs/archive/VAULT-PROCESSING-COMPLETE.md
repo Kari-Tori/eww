@@ -1,3 +1,6 @@
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 tags:
   - #automation
@@ -7,9 +10,6 @@ tags:
   - #linux
   - #notes
   - #secondbrain
-created: 2025-11-21T15:30:00Z
-modified: 2025-11-21T15:30:00Z
-author: jakubc
 title: "🎉 Vault Processing Complete - AI Tags & Structure"
 
 
@@ -18,6 +18,9 @@ title: "🎉 Vault Processing Complete - AI Tags & Structure"
 
 
 owner: jakubc
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 # 🎉 VAULT PROCESSING COMPLETE
@@ -26,6 +29,9 @@ owner: jakubc
 **Czas wykonania:** ~15 minut  
 **Plików przetworzonych:** 512/505 (101%)
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 📊 CO ZOSTAŁO ZROBIONE
@@ -51,6 +57,9 @@ Każdy folder otrzymał `folder-name.md` zawierający:
 ... i 18 więcej
 ```
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ### ✅ Faza 2: YAML Frontmatter + AI Tags (512 plików)
@@ -73,6 +82,9 @@ Każdy folder otrzymał `folder-name.md` zawierający:
    - Kontekstu tematycznego (star-wars, health, study, etc.)
    - Zawartości pliku (słowa kluczowe: git, automation, guide, etc.)
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🎨 12 GRUP TAGÓW NA GRAFIE
@@ -92,6 +104,9 @@ Każdy folder otrzymał `folder-name.md` zawierający:
 | `#m18` | 🔶 Pomarańczowo-czerwony | Projekty M18 | ~12 |
 | `#inbox` | ⚪ Szary | Do przetworzenia | ~45 |
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🔧 KONFIGURACJA OBSIDIAN GRAPH
@@ -113,6 +128,9 @@ Każdy folder otrzymał `folder-name.md` zawierający:
 }
 ```
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 📈 STATYSTYKI
@@ -129,6 +147,9 @@ Każdy folder otrzymał `folder-name.md` zawierający:
 └─────────────────────────────────────┘
 ```
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🚀 CO DALEJ?
@@ -138,6 +159,9 @@ Każdy folder otrzymał `folder-name.md` zawierający:
 3. **Sprawdź folder notes** - każdy folder ma swój index
 4. **Backlinki** - automatycznie wygenerowane
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 🛠️ UŻYTE NARZĘDZIA
@@ -154,40 +178,55 @@ Każdy folder otrzymał `folder-name.md` zawierający:
 - Obsidian YAML frontmatter
 - Grep/AWK pattern matching
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## 📝 PRZYKŁADY
 
 ### Przykład 1: Plik użytkownika jakubc
 ```yaml
----
-created: 2025-11-20T10:15:00Z
-modified: 2025-11-21T14:20:00Z
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
 author: jakubc
+---
 title: "Luke Skywalker - Jedi Biography"
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 ```
 
 ### Przykład 2: Plik użytkownika karinam
 ```yaml
----
-created: 2025-11-19T08:30:00Z
-modified: 2025-11-21T12:45:00Z
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
 author: jakubc
+---
 title: "Vitamins and Supplements Guide"
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 ```
 
 ### Przykład 3: Core EWW docs
 ```yaml
----
-created: 2025-11-21T09:00:00Z
-modified: 2025-11-21T09:00:00Z
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
 author: jakubc
+---
 title: "Repository Index - Main Documentation"
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 ```
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 ## ✨ REZULTAT
@@ -208,12 +247,18 @@ title: "Repository Index - Main Documentation"
 - Widoczne na Obsidian Graph View
 - Ułatwiają nawigację i orientację
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 **Status:** 🎉 **COMPLETE**  
 **Quality:** ⭐⭐⭐⭐⭐ 100%  
 **Automation:** �� Full AI-powered
 
+created: 2025-11-21T20:46:25Z
+modified: 2025-11-24T22:34:18Z
+author: jakubc
 ---
 
 > [!SUCCESS] Gotowe do użycia!

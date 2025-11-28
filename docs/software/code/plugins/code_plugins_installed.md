@@ -1,8 +1,14 @@
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 title: "code_plugins_installed 🧩"
 source: "/home/karinam/git/eww/docs/software/code/plugins (konfiguracja lokalna)"
 generated: 2025-11-18
 description: Skrypt i wynik — lista zainstalowanych wtyczek dla vaulta "code".
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 # 🧩 code_plugins_installed — lista wtyczek dla vaulta "code"
@@ -33,6 +39,9 @@ description: Skrypt i wynik — lista zainstalowanych wtyczek dla vaulta "code".
 - Możliwość wklejenia skryptu bezpośrednio do terminala.
 - Opcję --embed aby automatycznie wstawić wynik do tego pliku między markerami.
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## ▶️ Szybkie uruchomienie
@@ -44,6 +53,9 @@ description: Skrypt i wynik — lista zainstalowanych wtyczek dla vaulta "code".
    - Po wklejeniu i uruchomieniu: ./script.sh --embed
    - Lub: ./script.sh /ścieżka/do/vault --embed
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## 🧾 Skrypt (skopiuj i wklej do terminala)
@@ -160,6 +172,9 @@ if [[ $EMBED -eq 1 ]]; then
 fi
 ````
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## 📋 Przykładowy wynik
@@ -170,6 +185,9 @@ fi
 > Sekcja wyników jest wstawiana między markerami:
 > <!-- EWW-PLUGINS-START --> … <!-- EWW-PLUGINS-END -->
 
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-25T03:12:10Z
+author: jakubc
 ---
 
 ## ⚙️ Wskazówki

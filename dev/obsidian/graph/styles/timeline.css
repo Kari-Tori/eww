@@ -1,0 +1,63 @@
+/* graph-timeline.css - Timeline visualization dla Obsidian Graph */
+
+/* === AUTHOR COLORS (borders) === */
+
+/* jakubc - niebieski border */
+.graph-view.color-fill[data-author*="jakubc"] {
+  stroke: #3b82f6 !important;
+  stroke-width: 3px !important;
+}
+
+/* karinam - różowy border */
+.graph-view.color-fill[data-author*="karinam"] {
+  stroke: #ec4899 !important;
+  stroke-width: 3px !important;
+}
+
+/* === DATE-BASED GLOW (recent = bright) === */
+
+/* Nowe pliki (0-7 dni) - intensywne świecenie */
+.graph-view.color-fill[data-age-days*="0"],
+.graph-view.color-fill[data-age-days*="1"],
+.graph-view.color-fill[data-age-days*="2"],
+.graph-view.color-fill[data-age-days*="3"],
+.graph-view.color-fill[data-age-days*="4"],
+.graph-view.color-fill[data-age-days*="5"],
+.graph-view.color-fill[data-age-days*="6"],
+.graph-view.color-fill[data-age-days*="7"] {
+  filter: brightness(1.5) drop-shadow(0 0 12px currentColor);
+  animation: newNode 3s ease-in-out infinite;
+}
+
+@keyframes newNode {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+/* Średnio stare (8-30 dni) - delikatne świecenie */
+.graph-view.color-fill[data-age-days*="8"],
+.graph-view.color-fill[data-age-days*="9"] {
+  filter: brightness(1.2) drop-shadow(0 0 6px currentColor);
+}
+
+/* Stare pliki (>30 dni) - normalne (bez dodatkowych efektów) */
+
+/* === COMBINED: Author border + Date glow === */
+
+/* jakubc + nowy plik = niebieski border + świecenie */
+.graph-view.color-fill[data-author*="jakubc"][data-age-days*="0"],
+.graph-view.color-fill[data-author*="jakubc"][data-age-days*="1"],
+.graph-view.color-fill[data-author*="jakubc"][data-age-days*="2"] {
+  stroke: #3b82f6 !important;
+  stroke-width: 4px !important;
+  filter: brightness(1.5) drop-shadow(0 0 15px #3b82f6);
+}
+
+/* karinam + nowy plik = różowy border + świecenie */
+.graph-view.color-fill[data-author*="karinam"][data-age-days*="0"],
+.graph-view.color-fill[data-author*="karinam"][data-age-days*="1"],
+.graph-view.color-fill[data-author*="karinam"][data-age-days*="2"] {
+  stroke: #ec4899 !important;
+  stroke-width: 4px !important;
+  filter: brightness(1.5) drop-shadow(0 0 15px #ec4899);
+}
