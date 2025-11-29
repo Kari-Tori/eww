@@ -1,66 +1,222 @@
 ---
 tags:
-  - #automation
-  - #development
+  - #todo
   - #eww
   - #jakubc
-  - #knowledge
-  - #linux
-  - #secondbrain
 created: 2025-11-21T13:00:00Z
-modified: 2025-11-22T09:50:25Z
+modified: 2025-11-22T00:00:00Z
 author: jakubc
-title: "✅ TODO"
-
-
-
-
-
-
+title: "Skonsolidowana lista TODO"
+status: active
 owner: jakubc
+sources:
+  - archives/TODO-SSH.md
+  - archives/TODO-list-22-11-2025.md
+  - archives/TODO-list-2025-11-22.md
+  - archives/TODO-list-daily.md
+  - archives/TODO_v2.md
+  - archives/TODO-home.md
 ---
 
-# ✅ TODO
+# Skonsolidowana lista TODO
 
-> [!todo] 🗂️ Karty zadań · Code/System/Obsidian
-- [ ] [[TODO-gerc-boot|GERC Boot Autostart]] — dopracować wzorcową kartę i wdrożyć autostart zgodnie z YAML (VS Code + system + Obsidian Tasks/Dataview).
-- [ ] Utworzyć `usr/jakubc/templates/task-card.md` bazujący na sekcji 7 karty, żeby VS Code i Obsidian mogły szybko generować nowe zadania.
-- [ ] Uzupełnić `eww.code-workspace` o pole `tasks` powiązane z Obsidian Tasks (wspólne statusy/priorytety).
-- [ ] Dodać zapytanie Dataview do `TODO.md`, które listuje wszystkie notatki z `task_card: true` (kontrola kart w Obsidianie).
+> Zebrane z przeniesionych plików w `archives/` + bieżących kart. Ta lista jest jedynym aktywnym backlogiem w katalogu `usr/jakubc/todo/`.
 
-```dataview
-TABLE status, priority, file.mtime AS modified
-FROM "usr/jakubc"
-WHERE task_card = true
-SORT priority ASC, file.mtime DESC
-```
+## 📌 Priorytet P1 (pilne)
+- **Karty / tooling**
+  - [ ] [[TODO-gerc-boot|GERC Boot Autostart]] — dokończyć kartę i wdrożyć autostart (Plasma, 3 monitory).
+  - [ ] Utworzyć szablon karty zadań `usr/jakubc/templates/task-card.md` (sekcja 7 z karty boot).
+  - [ ] Uzupełnić `config/eww.code-workspace` o pole `tasks` spięte z Obsidian Tasks.
+  - [ ] Dodać zapytanie Dataview w tym pliku, które listuje `task_card: true`.
+- **Repo / struktura**
+  - [ ] Posprzątać pliki w repo (diagnostyka + naprawa niespójności).
+  - [ ] Dodać warstwę `business/` z README i przenieść materiały biznesowe.
+  - [ ] Przygotować migrację wg `docs/infra/RESTRUCTURE-MAP.md` (dev→development, usr→users) + aktualizacje indeksów.
+- **Secondbrain / AppFlowy**
+  - [ ] Ujednolicić szablony MD i linki do Odoo 📅 2025-10-31.
+  - [ ] Utworzyć przestrzeń „Secondbrain-Pilot”.
+  - [ ] Snapshot vaulta Obsidian Git + archiwum.
+  - [ ] Eksport 50–100 notatek MD z Obsidiana.
+  - [ ] Import próbki do AppFlowy i weryfikacja nagłówków/linków/obrazów.
+  - [ ] Ustalić model pracy (hybryda vs pełna migracja).
+  - [ ] Przygotować SOP migracji + backup AppFlowy do MD/CSV.
+  - [ ] Skonfigurować n8n przepływy MD ↔ AppFlowy ↔ MD CSV.
+- **Biznes · Odoo ↔ eBay**
+  - [ ] Potwierdzić wersję Odoo CE + środowisko TEST.
+  - [ ] Uzyskać klucze eBay Developer (App ID, Dev ID, Cert ID, token).
+  - [ ] Wybrać konektor OCA komercyjny lub własny.
+  - [ ] Skonfigurować import eBay → Odoo (zamówienia, stany, ceny).
+  - [ ] Przetestować na wydzielonych listingach i zweryfikować stany.
+  - [ ] Włączyć logi retry + alerty błędów.
+  - [ ] Spisać SOP obsługi zamówień eBay w Odoo.
+  - [ ] Ustalić KPI i przegląd po 14 dniach.
+- **Bastion / monitoring**
+  - [ ] Monitoring NetBox i Backstage 📅 2025-10-30.
+- **EWW Intake**
+  - [ ] Upload zdjęć do Nextcloud 📅 2025-10-29.
+- **AppFlowy desktop**
+  - [ ] Build + plik `.desktop` 📅 2025-10-28.
 
-> [!todo] 🧠 Secondbrain · AppFlowy i migracja
-- [x] 📦 Zainstalować AppFlowy na dedykowanej maszynie lub VM
-- [ ] 🗂️ Utworzyć przestrzeń „Secondbrain-Pilot”
-- [ ] 🧷 Snapshot vaulta Obsidian Git i archiwum
-- [ ] 📤 Wyeksportować 50–100 notatek MD z Obsidiana
-- [ ] 📥 Zaimportować próbkę do AppFlowy i sprawdzić nagłówki linki obrazy
-- [ ] 🧭 Ustalić model pracy hybryda lub pełna migracja
-- [ ] 🛡️ Przygotować SOP migracji i backup AppFlowy do MD lub CSV
-- [ ] 🔄 Skonfigurować n8n przepływy MD → AppFlowy oraz AppFlowy → MD CSV
+## 🟡 Priorytet P2 (ważne)
+- **Syncthing home (GERC ↔ ASUS_Z77)**
+  - [ ] Utworzyć `/home/karinam/` na GERC, zainstalować Syncthing, ustawić Send & Receive.
+  - [ ] Zainstalować Syncthing na ASUS_Z77, udostępnić `/home/karinam/`, sparować urządzenia.
+  - [ ] Zaakceptować folder na GERC, dodać `.stignore` (ssh/gnupg/cache itd.).
+  - [ ] Ustalić strategię symlinków `usr/{karinam,jakubc}` → katalogi domowe + `.gitignore` bezpieczeństwa.
+- **Bieżące sprawy**
+  - [ ] Klient eBay `les.sara61` — odpisać/obsłużyć temat.
+  - [ ] Wysyłka paczek: GTX1060, 3× GTR1660; nowe etykiety ≤ £10, zebrać potwierdzenia.
+  - [ ] Obiadek: podgrzać kurczak + ziemniaki (180°C ~20 min), surówka.
 
-> [!todo] 🏢 Biznes · Odoo ↔ eBay integracja wsteczna
-- [ ] 🧾 Potwierdzić wersję Odoo CE i środowisko TEST
-- [ ] 🔑 Uzyskać klucze eBay Developer App ID Dev ID Cert ID token
-- [ ] 🔌 Wybrać konektor OCA komercyjny lub własny
-- [ ] ⚙️ Skonfigurować import eBay → Odoo zamówienia stany ceny
-- [ ] 🧪 Przetestować na wydzielonych listingach i zweryfikować spójność stanów
-- [ ] 📈 Włączyć logi retry oraz alerty błędów
-- [ ] 📚 Spisać SOP Obsługa zamówień eBay w Odoo
-- [ ] 📊 Ustalić KPI i przegląd po 14 dniach
+## ⚪ Priorytet P3 (backlog)
+- **Synchronizacja repo**
+  - [ ] Synchronizacja GERC ↔ Asus_Z77 (szczegóły w `archives/TODO-SSH.md`).
+  - [ ] Backup `/git/eww`, przygotowanie `/jakubc/git/eww`, porównanie diff i normalizacja uprawnień.
+- **Infrastruktura i hardware**
+  - **Asus Z77**
+    - [ ] Dodać numery seryjne obudowy/zasilacza i świeży stan konserwacji.
+    - [ ] Dodać numer seryjny i wyniki SMART dla SSD SK Hynix SC401.
+    - [ ] Opisać obsadzenie slotów PCIe/SATA/USB (fizyczne podłączenia).
+    - [ ] Potwierdzić aktywność modułu Wi‑Fi GO! i Thunderbolt + sterowniki chipsetu.
+    - [ ] Dodać wszystkie wentylatory (front, tył, top, bottom, side) + profile.
+    - [ ] Opisać kontrolery wentylatorów (BIOS, hub PWM).
+    - [ ] Przenieść opis chłodzenia CPU do nowej karty.
+    - [ ] Dodać schemat przepływu powietrza i kompatybilne zapasowe coolery.
+    - [ ] Dodać numer seryjny PSU i datę zakupu + testy obciążeniowe.
+    - [ ] Opisać stan obudowy, panele, filtry i okablowanie.
+  - **GERC**
+    - [ ] Ustalić dokładny model CPU i taktowania turbo.
+    - [ ] Dodać procedurę wymiany pasty / kontrolę VRM + harmonogram.
+    - [ ] Wpisać wszystkie zajęte sloty PCIe (2× GPU + dodatki).
+    - [ ] Uzupełnić wersję BIOS/UEFI, microcode oraz ustawienia OC.
+    - [ ] Wpisać producentów modułów RAM i profile XMP + wyniki memtest.
+    - [ ] Opisać obsługę PSU dla 2× GTX 980 Ti + testy obciążeniowe.
+    - [ ] Dopisać producentów kart GPU, wersje BIOS i limity mocy.
+    - [ ] Zmierzyć temperatury GPU pod obciążeniem i wpisać profile chłodzenia.
+    - [ ] Potwierdzić, czy jednostka siedzi w racku czy tower.
+    - [ ] Opisać dostęp do filtrów, paneli bocznych i przepływ powietrza.
+  - **VM i assets**
+    - [ ] Aktualny inventory VM (ID, nazwa, rola, system, IP).
+    - [ ] Przydział zasobów (vCPU, RAM, storage) z marginesem rezerwowym.
+    - [ ] Procedury tworzenia/usuwania VM i governance dostępów.
+    - [ ] Sprawdzić, czy każda karta sprzętu ma aktualne dane (daty, numery seryjne, logi serwisowe).
+  - **RAM — GERC**
+    - [ ] Potwierdzić timingi (CL, tRCD, tRP, tRAS) w BIOS.
+    - [ ] Dodać datę ostatniego memtestu + wynik.
+    - [ ] Sprawdzić możliwość rozbudowy do 64 GB (4 × 16 GB) + kosztorys.
+    - [ ] Zweryfikować profil XMP i napięcia DRAM (1.20 V / 1.35 V).
+    - [ ] Dodać benchmark (AIDA64/PassMark).
+  - **GPU — GERC**
+    - [ ] Sprawdzić konfigurację SLI vs niezależne; udokumentować w nvidia-settings.
+    - [ ] Zanotować temperatury idle/obciążenie + profile wentylatorów.
+    - [ ] Sprawdzić power limit/TDP i ewentualne OC każdej karty.
+    - [ ] Dodać benchmarki (3DMark, Unigine) i opis monitorów.
+    - [ ] Potwierdzić wersje CUDA/cuDNN używane do ML/AI.
+  - **Zasilacz — GERC**
+    - [ ] Ustalić dokładny model, numer seryjny, datę zakupu.
+    - [ ] Sprawdzić tryb ECO/fanless i próg obciążenia.
+    - [ ] Stress test (dual GPU + CPU) i porównanie z mocą nominalną.
+    - [ ] Dodać pomiary napięć z multimetru i historię serwisu.
+    - [ ] Zinwentaryzować kable modularne (używane vs zapasowe).
+  - **Storage — index**
+    - [ ] Dodać numery seryjne oraz testy SMART każdego dysku.
+    - [ ] Opisać konfigurację RAID/mdadm (sda/sdb) jeśli istnieje.
+    - [ ] Przygotować opis polityki backupów (co/gdzie/jak często).
+    - [ ] Dodać benchmarki dysków (fio, hdparm) i status SMART.
+    - [ ] Udokumentować partycjonowanie/`lsblk` dla wszystkich urządzeń.
+- **Dev & Testing**
+  - **Neovim**
+    - [ ] `:MarkdownPreview` działa w przeglądarce.
+    - [ ] Syntax highlighting dla code blocks.
+    - [ ] TOC generation.
+    - [ ] Link completion.
+    - [ ] LSP pokazuje błędy.
+    - [ ] Autocomplete dla linków.
+    - [ ] Format on save.
+    - [ ] Live preview.
+    - [ ] Spell check (PL + EN).
+    - [ ] Dodać testy do `test_neovim.sh`.
+    - [ ] Naprawić błąd przy pustym input (FIXME).
+  - **Features v2**
+    - [ ] Plugin system.
+    - [ ] GraphQL API.
+    - [ ] Web dashboard.
+    - [ ] Docker support.
+    - [ ] Distributed mode.
+    - [ ] Cloud integration.
+    - [ ] Advanced analytics.
+    - [ ] Mobile app.
+- **Dokumentacja**
+  - **README & Release**
+    - [ ] Wersja w `VERSION` spójna z README.
+    - [ ] `Quick start` ma 1-liniowy przykład.
+    - [ ] Checklisty funkcji w sekcji „Funkcje i lista weryfikacji”.
+    - [ ] Dokument wydania `docs/release-0.0.0.1.md` opisuje MVP.
+    - [ ] `CHANGELOG.md` ma wpis dla 0.0.0.1 (MVP).
+    - [ ] `scripts/check_readme.sh` przechodzi.
+    - [ ] README zawiera info o logowaniu i zmiennych (EWW_ROOT, EWW_LOG_FILE, EWW_NO_LOG).
+    - [ ] README przenieść dłuższe instrukcje do `docs/`.
+    - [ ] Zaktualizować kontakt/autora w README.
+  - **Frontmatter & metadata**
+    - [ ] Dodać YAML frontmatter do wszystkich plików (tytuł, opis, typ, tagi, created/updated).
+    - [ ] Dodać do `INDEX.md` / `.filedesc` tam gdzie trzeba.
+    - [ ] Sprawdzić linki, generowanie (glow, markdown preview).
+    - [ ] Commitować z Conventional Commits.
+  - **Nowe dokumenty**
+    - [ ] `docs/API.md` - dokumentacja funkcji `lib/`.
+    - [ ] `docs/TESTING.md` - przewodnik testowania.
+    - [ ] `docs/CONTRIBUTING.md` - zasady kontrybuowania.
+    - [ ] `bin/README.md` - opis narzędzi.
+  - **Graf Obsidian**
+    - [ ] Dodać więcej folder notes w podfolderach.
+    - [ ] Uzupełnić profile użytkowników o więcej szczegółów.
+    - [ ] Utworzyć notatki dla skryptów.
+    - [ ] Dodać diagramy Mermaid w kluczowych miejscach.
+    - [ ] Rozbudować system tagów o tagi specyficzne.
+- **Cleanup & porządki**
+  - [ ] Usunąć pliki-artefakty z głównego katalogu (`?`, `ysinfo(){`, kopie plików itp.).
+  - [ ] Wyczyścić duplikaty rozszerzeń (`init-eww (1).sh`, `eww-banner (1).sh`, `.pre-commit-config (1).yaml`).
+  - [ ] Dokończyć przenoszenie/wycinanie `usr/karinam/` i opisać w repo.
+  - [ ] Dodać do `.gitignore` katalogi generowane (`logs/`, `node_modules/`, archiwa).
+  - [ ] Opisać `.gitattributes` i `.githooks/*` w `docs/`.
+  - [ ] Przejrzeć `init-eww.sh` oraz `lib/` pod usuwane zależności.
+  - [ ] Dodać testy BATS w `tests/` dla głównych funkcji.
+  - [ ] Zsynchronizować dokumentację z narzędziami w `bin/` i `scripts/`.
+  - [ ] Zweryfikować workflowy `.github/workflows/*` i dopisać do `docs/infra/`.
+  - [ ] Uporządkować `Makefile`: cele hooki, czyszczenie logów.
+  - [ ] Zamknąć TODO w AGENTS/README/CHANGELOG i zaktualizować numer wersji.
+  - [ ] Dodać minimalny pipeline CI (lint + bats).
+  - [ ] Testowa instalacja na czystym profilu użytkownika.
+  - [ ] Przygotować draft notki wydawniczej.
+- **Komendy do wykonania**
+  - [ ] `rg -0 "\\?( |$)" -l .` → usunięcie plików-artefaktów.
+  - [ ] `git status -sb` → przejrzeć i posprzątać zmiany.
+  - [ ] `npm prune` lub `rm -rf node_modules && npm install`.
+  - [ ] `bats tests/` → dodać/uruchomić testy.
+  - [ ] `shellcheck bin/* lib/**/*.sh` → wychwycić regresje.
+  - [ ] Opisać konfigurację hooków w `docs/narzedzia-deweloperskie.md`.
+- **Przyszłe wersje**
+  - [ ] Zaplanować wydanie `0.0.0.5` (albo `0.1.0`).
+  - [ ] Rozszerzyć testy o scenariusze init + upgrade (`tests/test_init*.bats`).
+  - [ ] Zdefiniować politykę backupów/logów (`archive/`, `logs/`).
+- **Obsidian troubleshooting**
+  - [ ] Sprawdzić ścieżki w `~/.config/obsidian/obsidian.json`.
+  - [ ] Zweryfikować istnienie `.obsidian/` w vault.
+  - [ ] Upewnić się, że jesteś właścicielem plików (`ls -la`).
+  - [ ] Sprawdzić czy Obsidian nie działa w tle (`ps aux | grep obsidian`).
+  - [ ] Uruchomić `./scripts/eww-obsidian-fix.sh --fix`.
+  - [ ] Zrestartować Obsidian; sprawdzić logi (Ctrl+Shift+I).
+- **Weryfikacja po instalacji Obsidian**
+  - [ ] Restart Obsidiana.
+  - [ ] Sprawdzić graf (ctrl+G).
+  - [ ] Edytować plik → zamknąć → sprawdzić commit.
+  - [ ] Commity ≤ 18 plików.
+- **Nowe karty zadań do utworzenia**
+  - [ ] Cleanup & Porządki (wg `docs/nextsteps.md`).
+  - [ ] Hardware Inventory dla Asus Z77.
+  - [ ] Hardware Inventory dla GERC.
+  - [ ] Dokumentacja API i Contributing.
 
-## 🔗 Backlinks
-
-- [[jakubc]]
-- [[INDEX]]
-- [[core]]
-
----
-*Auto-generated backlinks for cluster connectivity*
-e 
+## ✅ Zrobione (referencja)
+- [x] Zainstalować AppFlowy na dedykowanej maszynie/VM.
+- [x] Poranne checklisty z `todo.md` (śniadanko, płatki, pościelka).

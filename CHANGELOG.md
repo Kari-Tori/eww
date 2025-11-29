@@ -7,7 +7,7 @@
 - ✅ **Cron setup**: `make setup-stats-cron` dla automatycznych aktualizacji
 - ✅ **Folder_note system**: Każdy folder ma `folder_name.md` z `folder_stats`
 - ✅ **Folder colors**: RGB system dla 9 głównych folderów
-- ✅ **Documentation**: 
+- ✅ **Documentation**:
   - `docs/AUTO-REPORTS.md` - System auto-raportów
   - `docs/FOLDER-NOTE-SYSTEM.md` - System folder notes
   - `docs/FOLDER-COLOR-SYSTEM.md` - Kolory folderów

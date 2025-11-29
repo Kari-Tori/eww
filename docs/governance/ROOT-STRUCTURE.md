@@ -126,7 +126,7 @@ eww/
 - `AGENTS.md` → `docs/AGENTS.md`
 - `INDEX.md` → `docs/INDEX.md`
 - `FULL-INDEX.md` → `docs/FULL-INDEX.md`
-- `Tags/` → `docs/infra/tags/`
+- `Tags/` → `dev/obsidian/tags/` (symlink: `docs/infra/tags/`)
 
 ### Do config/
 - `.copilotrc.yml` → `config/copilot.yml`

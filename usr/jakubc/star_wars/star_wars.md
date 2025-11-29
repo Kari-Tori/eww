@@ -27,7 +27,7 @@ owner: jakubc
 
 ## 📋 Cel folderu
 
-Katalog `star_wars` zawiera 0 plików i 6 podfolderów.
+Katalog `star_wars` zawiera 1 plik i 7 podfolderów.
 
 **Przeznaczenie:**
 - Profile użytkowników i workspace
@@ -35,10 +35,11 @@ Katalog `star_wars` zawiera 0 plików i 6 podfolderów.
 
 ## 📄 Pliki w folderze
 
-*Brak plików MD w tym folderze.*
+- `star_wars.md` — notatka folderu.
 
 ## 📂 Podfoldery
 
+- 📂 [[characters/characters|characters]] - Subfolder
 - 📂 [[droids/droids|droids]] - Subfolder
 - 📂 [[fractions/fractions|fractions]] - Subfolder
 - 📂 [[races/races|races]] - Subfolder
@@ -62,6 +63,7 @@ Katalog `star_wars` zawiera 0 plików i 6 podfolderów.
 
 ## 📁 Podfoldery
 
+- [characters/](characters/characters.md)
 - [droids/](droids/droids.md)
 - [fractions/](fractions/fractions.md)
 - [races/](races/races.md)
@@ -76,4 +78,3 @@ Katalog `star_wars` zawiera 0 plików i 6 podfolderów.
 - [[GRAPH-CORE]]
 - [[GRAPH-BUSINESS]]
 - [[GRAPH-CONFIG]]
-

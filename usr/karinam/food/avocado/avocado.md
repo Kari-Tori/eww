@@ -1,9 +1,9 @@
 ---
 title: Awokado – przewodnik
-description: Notatka o awokado – pochodzenie, wartości odżywcze, zastosowanie w kuchni i zdrowiu.
+description: Notatka o awokado Hass („Large Avocado” z Lidla) – pochodzenie, wartości odżywcze, zastosowanie w kuchni i zdrowiu.
 author: E-Waste Workshop
 created: 2025-11-17
-updated: 2025-11-17
+updated: 2025-11-28
 tags:
   - food
   - avocado
@@ -15,7 +15,7 @@ plugins:
 
 # 🥑 Awokado 
 
-Awokado (Persea americana) to owoc o maślanym miąższu, bogaty w tłuszcze jednonienasycone, błonnik i mikroelementy. W polskich dyskontach, zwłaszcza w Lidlu, standardem jest odmiana Hass pakowana po ~250 g na owoc i oznaczona jako „Large Avocado”.[^lidl_avocado]
+Awokado (Persea americana) to owoc o maślanym miąższu, bogaty w tłuszcze jednonienasycone, błonnik i mikroelementy. W tym przewodniku mówimy **wyłącznie o odmianie Hass**, kupowanej jako „Large Avocado” (ok. 250 g) w Lidlu.[^lidl_avocado]
 
 > [!abstract]+ 🧾 TL;DR
 > - 🌍 Gatunek pochodzi z Mezoameryki, ale dziś dominuje Meksyk, Peru i Hiszpania.  
@@ -24,7 +24,7 @@ Awokado (Persea americana) to owoc o maślanym miąższu, bogaty w tłuszcze jed
 > - 🛒 Kupuj lekko miękkie sztuki, dojrzewaj w papierowej torbie i zabezpieczaj cytryną po przekrojeniu.
 
 > [!info]- Domyślna odmiana
-> W całej notatce mówimy o **Hass** (Lidl „Large Avocado”). Jeśli potrzebujesz pełnego profilu odmiany, zajrzyj do [[avocado/avocado_hass.md|Awokado Hass – przewodnik]].
+> W całej notatce mówimy o **Hass** (Lidl „Large Avocado”). Jeśli potrzebujesz pełnego profilu odmiany, zajrzyj do [[avocado/avocado_hass.md|Awokado Hass – przewodnik]]. Inne odmiany pojawiają się tylko jako ciekawostka porównawcza.
 
 ## 1. Profil produktu „Large Avocado”
 - 🧬 **Odmiana Hass:** szorstka skórka ciemnieje w miarę dojrzewania, pestka łatwo odchodzi, a miąższ jest kremowy.[^lidl_avocado]  
@@ -32,11 +32,12 @@ Awokado (Persea americana) to owoc o maślanym miąższu, bogaty w tłuszcze jed
 - 🧳 **Przeznaczenie:** to odmiana stworzona z myślą o handlu – spokojnie znosi transport i dojrzewa dopiero po zbiorze, więc możesz kupić twardsze owoce i odłożyć je na kilka dni.
 
 ### Inne ciekawe odmiany
-> [!tip]- Warto spróbować
-> - 🟢 **Fuerte** – klasyczna odmiana kalifornijska o gładkiej zielonej skórce i orzechowym smaku; świetnie nadaje się do plasterków (zob. [California Avocado Commission](https://www.californiaavocado.com/about-avocados/varieties/fuerte-avocados/)).  
-> - 🧈 **Reed** – kulisty owoc na lato, bardzo kremowy i odporny na utlenianie; lubiany w sałatkach i makaronach ([profil Reed](https://www.californiaavocado.com/about-avocados/varieties/reed-avocados/)).  
-> - 🌿 **Pinkerton** – wydłużony kształt, mała pestka i wysoka zawartość oleju, co doceniają bary smoothie ([opis Pinkerton](https://www.californiaavocado.com/about-avocados/varieties/pinkerton-avocados/)).  
-> - 🌤️ **Bacon** – zimowa odmiana z cieńszą skórką i łagodnym smakiem, dostępna m.in. w Hiszpanii; dobrze dojrzewa w chłodniejszych regionach ([więcej o Bacon](https://www.californiaavocado.com/about-avocados/varieties/bacon-avocados/)).
+> [!tip]- Spoza scope (porównawczo)
+> Nasze procesy bazują na **Hass**; poniższe odmiany podajemy jedynie dla kontekstu smakowego/technicznego:
+> - 🟢 **Fuerte** – gładka zielona skórka, orzechowy smak; dobra do plasterków.  
+> - 🧈 **Reed** – kulisty letni owoc, bardzo kremowy i wolniej ciemnieje.  
+> - 🌿 **Pinkerton** – wydłużony kształt, mała pestka, dużo oleju.  
+> - 🌤️ **Bacon** – zimowa odmiana o cieńszej skórce i łagodnym smaku.
 
 ## 2. Historia i kontekst ewolucyjny
 Awokado było oswojone przez ludy Mezoameryki na tysiące lat przed europejskimi kontaktami. Dziś jego globalny sukces to mieszanka tradycyjnej selekcji (Majowie, Aztekowie) i nowoczesnych szkółek w Kalifornii, Izraelu czy Hiszpanii. Ewolucyjnie owoc jest przykładem „anachronizmu”: ogromne pestki powstały z myślą o plejstoceńskiej megafaunie, która dawno wyginęła.[^ferrao][^janzen]
@@ -56,7 +57,7 @@ Awokado było oswojone przez ludy Mezoameryki na tysiące lat przed europejskimi
 > Botanicy **Daniel H. Janzen** i **Paul S. Martin** nazywali awokado „owocem duchów megafauny”. Mastodonty, gomfotery i ziemne leniwce (megatheria) połykały całe owoce i rozsiewały pestki kilometrami dalej. Gdy ~11 tys. lat temu te zwierzęta wyginęły, drzewa zostały bez kurierów – w naturze niemal przestały się odnawiać. Dopiero świadoma opieka Majów i Azteków, a później szkółki kalifornijskie, uchroniły odmianę Hass i jej przodków przed zniknięciem.
 
 ## 3. Uprawa i łańcuch dostaw
-Współczesny rynek opiera się na plantacjach w Meksyku (ponad 30 % globalnych zbiorów), Peru, Kolumbii, Dominikanie i Kenii, a w Europie prym wiedzie Hiszpania (Malaga, Granada).[^fao] Dzięki przesuniętym sezonom importerzy mogą oferowa(Lidl Large)ć świeże awokado przez cały rok – zimą z Hiszpanii i Maroka, latem z Peru i Kenii, a Meksyk zasila półki praktycznie nieprzerwanie.
+Współczesny rynek opiera się na plantacjach w Meksyku (ponad 30 % globalnych zbiorów), Peru, Kolumbii, Dominikanie i Kenii, a w Europie prym wiedzie Hiszpania (Malaga, Granada).[^fao] Dzięki przesuniętym sezonom importerzy mogą oferować świeże awokado przez cały rok – zimą z Hiszpanii i Maroka, latem z Peru i Kenii, a Meksyk zasila półki praktycznie nieprzerwanie.
 
 - 🌡️ **Klimat i gleba:** optymalne są subtropikalne/tropikalne doliny z łagodnymi zimami, przepuszczalną glebą i pH 6–7; drzewa źle znoszą przymrozki i zastoiny wody.[^ferrao]  
 - 🐝 **Zapylanie:** kwiaty typu A/B otwierają się dwukrotnie, dlatego ogrody sadzą komplementarne odmiany i dbają o obecność pszczół lub trzmieli.[^ferrao]  

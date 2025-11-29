@@ -44,14 +44,14 @@ jobs:
     steps:
       - name: Pobierz kod
         uses: actions/checkout@v4
-      
+
       - name: Zainstaluj zależności
         run: |
           sudo apt-get update
           sudo apt-get install -y shellcheck bats
-      
+
       - name: ShellCheck
         run: shellcheck bin/* scripts/* || true
-      
+
       - name: Testy Bats
         run: bats tests || true

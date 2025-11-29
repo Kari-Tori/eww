@@ -43,7 +43,7 @@ owner: jakubc
 - Epizody z młodymi Jedi (Ahsoka, Kalifa) ukazują ich brutalne rytuały polowań.
 
 ## 📺 Znani przedstawiciele
-- **Bossk** — elitarna zmora Wookieech, współpracuje z Aurra Sing i Bobą Fett.
+- [[usr/jakubc/star_wars/characters/bossk.md|Bossk]] — elitarna zmora Wookieech, współpracuje z Aurra Sing i Bobą Fett.
 - **Garnac** — lider klanu, porywa młodzików Jedi.
 - **Sochek** — przedstawiciele straży Republiki pochodzący z rekrutacji kontraktowej.
 

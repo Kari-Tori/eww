@@ -19,6 +19,6 @@ Ten plik zastępuje poprzedni `docs/README.md` i wskazuje nowe źródło prawdy:
 
 - `docs/infra/assets/`, `docs/infra/dashboards/`, `docs/infra/guide/`
 - `docs/infra/references/`, `docs/infra/reports/`, `docs/infra/site/`
-- `docs/infra/software/`, `docs/infra/tags/`, `docs/infra/wiki/`
+- `docs/infra/software/`, `dev/obsidian/tags/` (symlink: `docs/infra/tags/`), `docs/infra/wiki/`
 
 Jeżeli potrzebujesz starej wersji README lub indeksu, znajdziesz je w `docs/infra/legacy/`.

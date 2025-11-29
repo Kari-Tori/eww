@@ -42,6 +42,14 @@ author: jakubc
 
 ## Szybkie przykłady konfiguracji i snippetów
 
+## Zainstalowane wtyczki (stan: 2025-11-28)
+- Make.md — spaces + folder notes (tagi: `dev/obsidian/tags`, `.space` w root)
+- Dataview, Tasks, Calendar, Periodic Notes — raporty, zadania, dzienniki
+- Templater, Table Editor, Obsidian Admonition — szablony i formatowanie
+- Kanban, Waypoint — tablice i mapy myśli
+- Graph Banner, Extended Graph, Obsidian HTML Plugin — wizualizacje i eksport
+- Obsidian Git, Linter, Style Settings — wersjonowanie i spójność stylu
+
 ### 1) Dataview — przykładowe zapytanie (lista zadań #eBay)
 ```dataview
 TABLE priority as "Priorytet", due as "Termin", assignee as "Przypisany"

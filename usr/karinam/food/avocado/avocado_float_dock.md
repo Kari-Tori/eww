@@ -1,14 +1,15 @@
 ---
 title: AvoFloat Dock
-description: Wielorazowy uchwyt 3D do kiełkowania pestek awokado – specyfikacja, koszty i potencjał sprzedaży w UK.
+description: Wielorazowy uchwyt 3D do kiełkowania pestek awokado Hass (Lidl „Large Avocado”) – specyfikacja, koszty i potencjał sprzedaży w UK.
 author: E-Waste Workshop
 created: 2025-11-17
-updated: 2025-11-17
+updated: 2025-11-28
 tags:
   - product
   - avocado
   - 3d-printing
   - e-waste
+  - hass
 plugins:
   - obsidian-progress-bar
 cssclass: avocado-note
@@ -17,11 +18,12 @@ cssclass: avocado-note
 # 🧊 AvoFloat Dock – uchwyt do kiełkowania pestek
 
 > [!abstract]- Najważniejsze
-> - 🌱 Zastępuje wykałaczki: nie kaleczy pestek, utrzymuje tylko „dupkę” w wodzie.
+> - 🌱 Zastępuje wykałaczki: nie kaleczy pestek Hass, utrzymuje tylko „dupkę” w wodzie.
 > - 🔁 Wielorazowy PETG + silikon; łatwy do mycia i personalizacji.
 > - 💷 Koszt druku ok. 2 GBP, sugerowana cena detaliczna 4.99–7.99 GBP.
 > - 📈 Rynek UK nie ma lokalnego odpowiednika – szybka wysyłka to przewaga.
 > - 🔗 Pliki STP/STL trzymaj w `dev/3d/avocado_float_dock/` obok instrukcji.
+> - 📏 Skalowanie pod Hass: pierścień obsługuje pestki 35–55 mm (typowe dla „Large Avocado” z Lidla).
 
 > [!success]- Sygnatura E-Waste Workshop
 > Drukujemy z plastiku odzyskanego w naszym warsztacie (E-Waste Workshop). Możesz więc promować AvoFloat Dock jako produkt „from waste to wow” – recycling elektrośmieci → granulowanie → filament → uchwyt.
@@ -40,7 +42,7 @@ cssclass: avocado-note
 | --- | --- | --- |
 | Korpus | PETG (1.75 mm, dysza 0.4 mm, warstwa 0.2 mm, infill 30 %) | druk ~1 h, można użyć PLA (ścianki ≥1.6 mm) |
 | Wkładka | Silikon food-grade 45A / TPU | chroni pestkę, można odlać w prostej formie | 
-| Pierścień | PETG/PLA | stopnie co 2 mm, zatrzask na wcisk |
+| Pierścień | PETG/PLA | stopnie co 2 mm, zatrzask na wcisk; kalibrowany pod pestki Hass 35–55 mm |
 
 > [!info]- Ustawienia druku
 > - Temperatura dyszy: 240 °C (PETG) / 210 °C (PLA).  

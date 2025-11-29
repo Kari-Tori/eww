@@ -1,21 +1,22 @@
 ---
-title: Awokado – karta produktu
-description: Kompendium parametrów użytkowych i zdrowotnych z głównego przewodnika awokado (sekcje 4–6).
+title: Awokado Hass – karta produktu
+description: Kompendium parametrów użytkowych i zdrowotnych dla odmiany Hass („Large Avocado” z Lidla) z głównego przewodnika.
 author: E-Waste Workshop
 created: 2025-11-17
-updated: 2025-11-17
+updated: 2025-11-28
 tags:
   - food
   - avocado
   - reference
+  - hass
 plugins:
   - obsidian-progress-bar
 ---
 
-# 🧾 Awokado – karta produktu
+# 🧾 Awokado Hass – karta produktu
 
 > [!abstract]- Co zawiera ta karta
-> Zebraliśmy tutaj sekcje 4–6 z głównego pliku `avocado.md`: wartości odżywcze, praktyki kuchenne i zdrowotne, a także wskazówki zakupowe. Dzięki temu masz pod ręką wszystkie parametry „itemowe” awokado Hass.
+> Zebraliśmy tutaj sekcje 4–6 z głównego pliku `avocado.md`: wartości odżywcze, praktyki kuchenne i zdrowotne, a także wskazówki zakupowe. **Dotyczy wyłącznie odmiany Hass** („Large Avocado” 250 g z Lidla). Inne odmiany mogą mieć inne proporcje tłuszczu/miąższu i wagę referencyjną.
 
 ## 4. Wartości odżywcze i zastosowanie kulinarne
 > [!info]- Profil na ½ owocu (≈125 g)

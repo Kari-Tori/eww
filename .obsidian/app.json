@@ -1,9 +1,9 @@
 {
   "maxBacklinksInDocument": 50,
   "maxPreviewLength": 1000,
-  "attachmentFolderPath": "var/attachments",
+  "attachmentFolderPath": "./",
   "useMarkdownLinks": false,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "absolute",
   "strictLineBreaks": false,
   "foldHeading": true,
   "foldIndent": true,
@@ -11,7 +11,7 @@
   "spellcheck": false,
   "alwaysUpdateLinks": true,
   "promptDelete": true,
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "defaultViewMode": "source",
   "pdfExportSettings": {
     "pageSize": "A4",
@@ -20,5 +20,8 @@
     "downscalePercent": 100
   },
   "graphMaxFileCount": 5000,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "trashOption": "local",
+  "newFileLocation": "current",
+  "uriCallbacks": true
 }

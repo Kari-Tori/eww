@@ -33,15 +33,17 @@ owner: jakubc
 
 ### Folder Tagów
 ```
-Tags/          → symlink do docs/infra/tags/
-docs/infra/tags/     → faktyczna lokalizacja tag pages
+Tags/                → symlink do dev/obsidian/tags/
+docs/infra/tags/     → symlink kompatybilności → dev/obsidian/tags/
+dev/obsidian/tags/   → faktyczna lokalizacja tag pages (trzymamy tutaj)
 ```
 
 **Dlaczego symlink?**
 - Obsidian tworzy `Tags/` w root vault
 - Chcemy mieć clean root directory
-- Tagi trzymamy w `docs/infra/tags/`
+- Tagi trzymamy w `dev/obsidian/tags/`
 - Symlink pozwala Obsidian działać normalnie
+- Make.md/Spaces: `spacesFolder=dev/obsidian/tags`, `spaceSubFolder=.space`
 
 ### Ignorowane Foldery
 
@@ -119,13 +121,14 @@ Po skopiowaniu plików włącz plugin w Obsidianie: Settings → Community plugi
 
 ### Lokalizacja
 ```
-docs/infra/tags/             # Faktyczne pliki
+dev/obsidian/tags/     # Faktyczne pliki
+docs/infra/tags/       # Symlink kompatybilności
 Tags/                  # Symlink (dla Obsidian)
 ```
 
 ### Struktura tagów
 ```
-docs/infra/tags/
+dev/obsidian/tags/
 ├── #business/
 │   ├── #business.md
 │   ├── #finanse.md
@@ -140,9 +143,10 @@ docs/infra/tags/
 ### Jak działają
 
 1. Obsidian tworzy `Tags/#tag-name` przy pierwszym użyciu
-2. Symlink przekierowuje do `docs/infra/tags/`
-3. Git commituje tylko `docs/infra/tags/`
-4. Root zostaje czysty
+2. Symlink przekierowuje do `dev/obsidian/tags/`
+3. Make.md (Spaces) patrzy na `dev/obsidian/tags/` (`spaceSubFolder=.space`)
+4. Git commituje tylko `dev/obsidian/tags/`
+5. Root zostaje czysty
 
 
 ## 🔄 Git Integration
@@ -285,7 +289,7 @@ folder-name/
 **Rozwiązanie:**
 ```bash
 rm -rf Tags/
-ln -s docs/infra/tags Tags
+ln -s dev/obsidian/tags Tags
 git add .gitignore  # Dodaj Tags do ignore
 ```
 
@@ -317,4 +321,4 @@ cd .obsidian/plugins
 
 **Zaktualizowano:** 2025-11-21  
 **Vault:** `/home/jakubc/git/eww`  
-**Tags:** `docs/infra/tags/` (symlink: `Tags/`)
+**Tags:** `dev/obsidian/tags/` (symlink: `Tags/`, legacy: `docs/infra/tags/`)

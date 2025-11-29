@@ -3,7 +3,7 @@ title: Awokado Hass – przewodnik
 description: Skondensowana notatka o odmianie Hass sprzedawanej jako „Large Avocado” w Lidlu – profil botaniczny, pochodzenie, uprawa i zastosowania.
 author: E-Waste Workshop
 created: 2025-11-17
-updated: 2025-11-17
+updated: 2025-11-28
 tags:
   - food
   - avocado
@@ -69,6 +69,10 @@ Odmiana Hass to globalny standard handlowy – właśnie ją kupujemy jako „La
 > - Ciemna, niemal czarna skórka + lekka sprężystość = gotowe do jedzenia.  
 > - Ogonek: jeśli łatwo odpada i pod spodem jest zielono, owoc jest w punkt; brązowa blizna oznacza przejrzenie.  
 > - Nie wkładaj niedojrzałych owoców do lodówki – spowolnisz dojrzewanie i pogorszysz smak.
+
+> [!tip]- Alternatywy zakupowe (Lidl)
+> - Gdy nie ma serii „Extra Large”, w Lidlu bywa także 2-pack awokado Hass – te same owoce w mniejszym kalibrze.  
+> - 2-pack jest wygodny cenowo i porcjowo: mniejsze sztuki łatwiej zużyć szybciej, bez ryzyka przejrzenia dużego owocu.
 
 > [!warning]- Zdrowie i częstotliwość
 > - 💥 ½ sztuki to ~200 kcal – pamiętaj o bilansie.  

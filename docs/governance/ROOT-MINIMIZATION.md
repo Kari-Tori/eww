@@ -70,7 +70,7 @@ TERAZ:            8 plików ✨
 - `AGENTS.md` → `docs/AGENTS.md`
 - `INDEX.md` → `docs/INDEX.md` (faza 1)
 - `FULL-INDEX.md` → `docs/FULL-INDEX.md`
-- `Tags/` → `docs/infra/tags/`
+- `Tags/` → `dev/obsidian/tags/` (symlink: `docs/infra/tags/`)
 
 **Do config/:**
 - `.copilotrc.yml` → `config/copilot.yml`
@@ -142,7 +142,7 @@ TERAZ:            8 plików ✨
 - `site/` - MkDocs site
 - `tools/` - Dev tools
 - `GOVERNANCE/` - Policies
-- `Tags` - Symlink → `docs/infra/tags/`
+- `Tags` - Symlink → `dev/obsidian/tags/` (legacy: `docs/infra/tags/`)
 
 ### Hidden (6)
 - `.git/` - Repository
