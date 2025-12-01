@@ -1,15 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Syliure-31 Hyperdrive Ring
-manufacturer: TransGalMeg Industries
-role: Booster hyperdrive dla myśliwców Jedi
-era: Wojny Klonów
 tags:
-  - starwars
-  - hyperdrive
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Syliure-31 Hyperdrive Ring — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Syliure-31 Hyperdrive Ring — karta techniczna
@@ -28,8 +36,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 32 BBY – 19 BBY (kampanie Jedi od Geonosis po Outer Rim) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Syliure-21 Hyperdrive Ring]] (32 BBY – 25 BBY, prototyp mniejszej średnicy) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|T-6 Hyperdrive Ring]] (19 BBY – 0 BBY/ABY, kompatybilny z promem T-6) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Syliure-21 Hyperdrive Ring]] (32 BBY – 25 BBY, prototyp mniejszej średnicy) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|T-6 Hyperdrive Ring]] (19 BBY – 0 BBY/ABY, kompatybilny z promem T-6) |
 
 ## 🧰 Systemy
 
@@ -48,4 +56,4 @@ links:
 
 > Wymaga parkowania w hangarze Venatora lub na orbitach; fani modeli często uwzględniają cztery silniki i pierścień segmentowy.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

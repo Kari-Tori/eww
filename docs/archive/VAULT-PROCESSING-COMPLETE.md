@@ -51,7 +51,7 @@ Każdy folder otrzymał `folder-name.md` zawierający:
 ✓ config/config.md
 ✓ business/business.md
 ✓ core/core.md
-✓ usr/jakubc/star_wars/star_wars.md
+✓ usr/jakubc/hobby/star_wars/star_wars.md
 ✓ usr/jakubc/health/health.md
 ✓ usr/karinam/health/health.md
 ... i 18 więcej

@@ -27,7 +27,7 @@ owner: jakubc
 
 ## 📋 Cel folderu
 
-Katalog `Inbox` zawiera 0 plików i 0 podfolderów.
+Katalog `Inbox` zawiera 0 plików i 1 podfolder (`imported_vaults/`).
 
 **Przeznaczenie:**
 - Profile użytkowników i workspace
@@ -39,7 +39,7 @@ Katalog `Inbox` zawiera 0 plików i 0 podfolderów.
 
 ## 📂 Podfoldery
 
-*Brak podfolderów.*
+- imported_vaults/ - importowane vaulty (obecnie puste: `e-waste_workshop_vault/`)
 
 ## 🔗 Nawigacja
 
@@ -93,4 +93,4 @@ Katalog `Inbox` zawiera 0 plików i 0 podfolderów.
 
 ## 📁 Podfoldery
 
-*Brak podfolderów.*
+- imported_vaults/ - importowane vaulty (obecnie puste: `e-waste_workshop_vault/`)

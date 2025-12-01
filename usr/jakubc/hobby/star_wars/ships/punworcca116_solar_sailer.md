@@ -1,16 +1,23 @@
 ---
-created: 2025-11-19
-updated: 2025-11-19
-title: Punworcca 116-class Solar Sailer
-manufacturer: Huppla Pasa Tisc Shipwrights Collective
-role: Jacht solarny / shuttle Sithów
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - transport
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "🟥 Punworcca 116 Solar Sailer — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🟥 Punworcca 116 Solar Sailer — karta techniczna
@@ -28,7 +35,7 @@ links:
 | Załoga | 1 droid pilot (autopilot) + opcjonalny kopilot |
 | Pasażerowie | 1 VIP w kabinie + 10 stojących |
 | Ładownia | 20 ton + uchwyty na kapsuły/ładunek specjalny |
-| Powiązania | Statek-matka dla [[usr/jakubc/star_wars/ships/ginivex_fanblade.md|Ginivex Fanblade]] Ventress |
+| Powiązania | Statek-matka dla [[usr/jakubc/hobby/star_wars/ships/ginivex_fanblade.md|Ginivex Fanblade]] Ventress |
 
 ## 🔗 Powiązania
 
@@ -83,5 +90,5 @@ links:
 
 > Żagiel robi z solar sailera łatwy cel sensorów, ale w trybie stealth Dooku zawija go i korzysta z repulsorów. Układ autopilota należy regularnie synchronizować z droidami-protokołami, inaczej żagiel traci równowagę i powoduje drgania kadłuba (co widzieliśmy, gdy Ohnaka testował statek). Przy dokowaniu fanblade’a upewnij się, że boczne wysięgniki są zamknięte – inaczej Ventress uszkodzi własny żagiel.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
-[[usr/jakubc/star_wars/ships/ginivex_fanblade.md|→ powiązany Ginivex Fanblade Ventress]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ginivex_fanblade.md|→ powiązany Ginivex Fanblade Ventress]]

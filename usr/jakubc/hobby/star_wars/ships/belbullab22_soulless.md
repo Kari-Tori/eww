@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Belbullab-22 Heavy Fighter “Soulless One”
-manufacturer: Feethan Ottraw Scalable Assemblies
-role: Myśliwiec ciężki / osobisty (Grievous)
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - starfighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Belbullab-22 “Soulless One” — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Belbullab-22 “Soulless One” — karta techniczna
@@ -31,8 +38,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (kampanie generała Grievousa podczas Wojen Klonów) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/vulture_droid.md|Vulture-class Droid Starfighter]] (32 BBY – 19 BBY, podstawowy myśliwiec CIS) |
-| Następny model | [[usr/jakubc/star_wars/ships/porax38_xanadu.md|Porax-38 „Xanadu Blood”]] (21 BBY – 19 BBY, kolejny projekt FO Scalable dla elit) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/vulture_droid.md|Vulture-class Droid Starfighter]] (32 BBY – 19 BBY, podstawowy myśliwiec CIS) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/porax38_xanadu.md|Porax-38 „Xanadu Blood”]] (21 BBY – 19 BBY, kolejny projekt FO Scalable dla elit) |
 
 ## ⚙️ Parametry techniczne
 
@@ -81,4 +88,4 @@ links:
 > [!note|icon:wrench|color:#E63946]
 > Wymaga specjalistycznego serwisu FO Scalable – części custom trudne do zdobycia.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

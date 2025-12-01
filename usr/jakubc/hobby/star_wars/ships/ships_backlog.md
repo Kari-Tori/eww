@@ -1,12 +1,23 @@
 ---
-title: Star Wars Ships Backlog
-created: 2025-11-18
-updated: 2025-11-18
 tags:
-  - starwars
-  - backlog
-links:
-  - [[usr/jakubc/star_wars/ships/ships.md|Index]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "## 🚀 Kolejne statki do opracowania"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 ## 🚀 Kolejne statki do opracowania
@@ -258,6 +269,6 @@ links:
 
 > [!tip|icon:map|color:#6C757D]
 > **Nawigacja:**
-> - [[usr/jakubc/star_wars/ships/List.md|Lista statków wg odcinków]]
-> - [[usr/jakubc/star_wars/ships/backlinks.md|Backlinks i referencje]]
+> - [[usr/jakubc/hobby/star_wars/ships/List.md|Lista statków wg odcinków]]
+> - [[usr/jakubc/hobby/star_wars/ships/backlinks.md|Backlinks i referencje]]
 > - [[README.md|README projektu eww]]

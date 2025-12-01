@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Porax-38 / Rogue-class “Xanadu Blood”
-manufacturer: Rogue Starfighter Consortium
-role: Myśliwiec szturmowy / licencja piracka
-era: Wojny Klonów
 tags:
-  - starwars
-  - bounty
-  - starfighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Porax-38 “Xanadu Blood” — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Porax-38 “Xanadu Blood” — karta techniczna
@@ -31,8 +38,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 21 BBY – 19 BBY (napady Cad Bane’a na Coruscant i Teth) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/belbullab22_soulless.md|Belbullab-22 „Soulless One”]] (22 BBY – 19 BBY, wcześniejszy projekt FO Scalable) |
-| Następny model | [[usr/jakubc/star_wars/ships/hh-87_starhopper.md|HH-87 Starhopper]] (25 BBY – 19 BBY, kurier łowców) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/belbullab22_soulless.md|Belbullab-22 „Soulless One”]] (22 BBY – 19 BBY, wcześniejszy projekt FO Scalable) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/hh-87_starhopper.md|HH-87 Starhopper]] (25 BBY – 19 BBY, kurier łowców) |
 
 ## ⚙️ Parametry techniczne
 
@@ -80,4 +87,4 @@ links:
 > [!note|icon:wrench|color:#E63946]
 > Nietypowa sylwetka wymaga specjalnych doków; osłony wymagają częstego strojenia po ostrzałach.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

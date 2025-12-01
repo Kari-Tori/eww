@@ -36,15 +36,13 @@ owner: jakubc
 
 - [[usr/jakubc/health/INDEX|health]]
 - [[usr/jakubc/m18/INDEX|m18]]
-- [[usr/jakubc/Inbox/INDEX|Inbox]]
+- [[usr/jakubc/Inbox/Inbox|Inbox]]
 - [[usr/jakubc/obsidian-plugins/INDEX|obsidian-plugins]]
-- [[usr/jakubc/star_wars/INDEX|star_wars]]
-- [[usr/jakubc/Study/INDEX|Study]]
+- [[usr/jakubc/hobby/star_wars/star_wars|hobby/star_wars]]
+- [[usr/jakubc/hobby/study/Study|hobby/study]]
 - [[usr/jakubc/workspace/INDEX|workspace]]
-- [[usr/jakubc/inbox/INDEX|inbox]]
-- [[usr/jakubc/Lego/INDEX|Lego]]
 - [[usr/jakubc/.space/INDEX|.space]]
-- [[usr/jakubc/lego/INDEX|lego]]
+- [[usr/jakubc/hobby/lego/lego|hobby/lego]]
 - [[usr/jakubc/Notes/INDEX|Notes]]
 
 [⬅️ Powrót do głównego INDEX](../INDEX.md)

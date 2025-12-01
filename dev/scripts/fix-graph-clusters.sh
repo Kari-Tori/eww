@@ -93,14 +93,14 @@ configure_graph_clusters() {
       }
     },
     {
-      "query": "tag:#star-wars OR path:usr/jakubc/star_wars/",
+      "query": "tag:#star-wars OR path:usr/jakubc/hobby/star_wars/",
       "color": {
         "a": 1,
         "rgb": 14263361
       }
     },
     {
-      "query": "tag:#lego OR path:usr/jakubc/lego/",
+      "query": "tag:#lego OR path:usr/jakubc/hobby/lego/",
       "color": {
         "a": 1,
         "rgb": 16744192
@@ -237,8 +237,8 @@ Każda grupa kolorów tworzy **własne gniazdo** (cluster):
 - 🟡 **Business** - żółty klaster (path:business/)
 - 🔵 **jakubc** - cyan klaster (path:usr/jakubc/)
 - 🟣 **karinam** - magenta klaster (path:usr/karinam/)
-- 🌟 **Star Wars** - beżowy klaster (path:usr/jakubc/star_wars/)
-- 🟠 **Lego** - pomarańczowy klaster (path:usr/jakubc/lego/)
+- 🌟 **Star Wars** - beżowy klaster (path:usr/jakubc/hobby/star_wars/)
+- 🟠 **Lego** - pomarańczowy klaster (path:usr/jakubc/hobby/lego/)
 - 🔷 **Docs** - niebieski klaster (path:docs/)
 - 🟤 **Infra** - khaki klaster (path:infra/)
 - 🔴 **Scripts** - coral klaster (path:scripts/)
@@ -255,8 +255,8 @@ Każda grupa kolorów tworzy **własne gniazdo** (cluster):
 | 🟡 Żółty | `tag:#business` | 16776960 | path:business/ |
 | 🔵 Cyan | `tag:#jakubc` | 65535 | path:usr/jakubc/ |
 | 🟣 Magenta | `tag:#karinam` | 16711935 | path:usr/karinam/ |
-| 🌟 Beżowy | `tag:#star-wars` | 14263361 | path:usr/jakubc/star_wars/ |
-| 🟠 Pomarańczowy | `tag:#lego` | 16744192 | path:usr/jakubc/lego/ |
+| 🌟 Beżowy | `tag:#star-wars` | 14263361 | path:usr/jakubc/hobby/star_wars/ |
+| 🟠 Pomarańczowy | `tag:#lego` | 16744192 | path:usr/jakubc/hobby/lego/ |
 | 🔷 Niebieski | `tag:#docs` | 5592575 | path:docs/ |
 | 🟤 Khaki | `tag:#infra` | 10824234 | path:infra/ |
 | 🔴 Coral | `tag:#scripts` | 16733525 | path:scripts/ |

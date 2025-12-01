@@ -125,8 +125,8 @@ obsidian &
 | eww/core | `tag:#eww OR tag:#automation OR tag:#secondbrain` | Zielony | ~2000 |
 | jakubc | `tag:#jakubc OR path:usr/jakubc/` | Cyjan | 130 |
 | karinam | `tag:#karinam OR path:usr/karinam/` | Magenta | 25 |
-| star-wars | `tag:#star-wars OR path:usr/jakubc/star_wars/` | Żółty | 108 |
-| lego | `tag:#lego OR path:usr/jakubc/lego/` | Pomarańczowy | 8 |
+| star-wars | `tag:#star-wars OR path:usr/jakubc/hobby/star_wars/` | Żółty | 108 |
+| lego | `tag:#lego OR path:usr/jakubc/hobby/lego/` | Pomarańczowy | 8 |
 | docs | `tag:#docs OR tag:#knowledge OR path:docs/` | Niebieski | ~900 |
 | infrastructure | `tag:#infrastructure OR tag:#Asus_Z77 OR tag:#GERC` | Fioletowy | 122 |
 | scripts | `tag:#scripts OR tag:#bash OR path:scripts/` | Czerwony | 26 |

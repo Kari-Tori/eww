@@ -1,16 +1,23 @@
 ---
-title: Nu-class Attack Shuttle „Obex”
-created: 2025-11-18
-updated: 2025-11-18
-manufacturer: Cygnus Spaceworks
-role: Desantowy prom szturmowy
-era: Wojny Klonów (S2 "Death Trap" / "R2 Come Home")
 tags:
-  - starwars
-  - republic
-  - shuttle
-links:
-  - [[usr/jakubc/star_wars/ships/ships.md|Index]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Nu-class „Obex” — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Nu-class „Obex” — karta techniczna
@@ -33,8 +40,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 21 BBY – 19 BBY (łuk Boby Fetta w TCW) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/nu_class_shuttle.md|Nu-class Attack Shuttle]] (22 BBY – 19 BBY, wersja standardowa) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|SS-54 „Halo” Assault Ship]] (19 BBY – 10 BBY, kolejny transport łowców/najemników) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/nu_class_shuttle.md|Nu-class Attack Shuttle]] (22 BBY – 19 BBY, wersja standardowa) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|SS-54 „Halo” Assault Ship]] (19 BBY – 10 BBY, kolejny transport łowców/najemników) |
 
 ## ⚙️ Parametry techniczne
 
@@ -95,9 +102,8 @@ links:
 > - Ryzyko sabotażu (przypadek Boby Fetta) – zalecane podwójne skanowanie ładowni.
 > - Hypernapęd klasy 1 działa na granicy możliwości przy pełnym ładunku – obserwuj temperaturę rdzenia.
 
----
 
 > [!quote|icon:book|color:#9D4EDD]
 > **Źródła:** TCW S2E20–22, materiały Databank Nu-class, dzienniki GAR.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do indeksu]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do indeksu]]

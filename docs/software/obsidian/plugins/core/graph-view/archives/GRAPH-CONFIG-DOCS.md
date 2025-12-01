@@ -112,8 +112,8 @@ tag:#karinam OR path:usr/karinam/
 
 ### Priorytet 4: Projekty
 ```
-tag:#star-wars OR path:usr/jakubc/star_wars/
-tag:#lego OR path:usr/jakubc/lego/
+tag:#star-wars OR path:usr/jakubc/hobby/star_wars/
+tag:#lego OR path:usr/jakubc/hobby/lego/
 tag:#avocado OR path:docs/archive/avocado/
 tag:#secondbrain OR path:dev/Projects/Secondbrain/
 ```

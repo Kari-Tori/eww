@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Vulture-class Droid Starfighter
-manufacturer: Haor Chall Engineering / Baktoid
-role: Droid-myśliwiec CIS
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - droid
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Vulture-class Droid — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Vulture-class Droid — karta techniczna
@@ -29,8 +36,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 32 BBY – 19 BBY (blokada Naboo → wojny klonów) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Trade Federation Droid Fighter]] (32 BBY – 22 BBY, wariant blokady Naboo) |
-| Następny model | [[usr/jakubc/star_wars/ships/hyena_bomber.md|Hyena-class Droid Bomber]] (22 BBY – 19 BBY, cięższa platforma) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Trade Federation Droid Fighter]] (32 BBY – 22 BBY, wariant blokady Naboo) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/hyena_bomber.md|Hyena-class Droid Bomber]] (22 BBY – 19 BBY, cięższa platforma) |
 
 ## ⚙️ Parametry techniczne
 
@@ -76,4 +83,4 @@ links:
 > [!note|icon:wrench|color:#E63946]
 > Bez wsparcia okrętu dowodzenia SI może paść ofiarą zakłóceń; wrażliwe złącza skrzydeł w trybie walker.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

@@ -31,8 +31,8 @@ Grupy są zdefiniowane w oparciu o analizę 1000+ plików markdown w repo.
 | 2 | **eww/core** | `tag:#eww OR tag:#automation OR tag:#secondbrain` | 65280 | #00FF00 | 1979 wystąpień |
 | 3 | **jakubc** | `tag:#jakubc OR path:usr/jakubc/` | 65535 | #00FFFF | 130 plików |
 | 4 | **karinam** | `tag:#karinam OR path:usr/karinam/` | 16711935 | #FF00FF | 25 plików |
-| 5 | **star-wars** | `tag:#star-wars OR path:usr/jakubc/star_wars/` | 16776960 | #FFFF00 | 108 plików |
-| 6 | **lego** | `tag:#lego OR path:usr/jakubc/lego/` | 16744192 | #FF9900 | 8 plików |
+| 5 | **star-wars** | `tag:#star-wars OR path:usr/jakubc/hobby/star_wars/` | 16776960 | #FFFF00 | 108 plików |
+| 6 | **lego** | `tag:#lego OR path:usr/jakubc/hobby/lego/` | 16744192 | #FF9900 | 8 plików |
 | 7 | **docs** | `tag:#docs OR tag:#knowledge OR path:docs/` | 5592575 | #5555FF | 916 plików |
 | 8 | **infrastructure** | `tag:#infrastructure OR tag:#Asus_Z77 OR tag:#GERC OR tag:#gerc OR path:docs/infra/` | 10824234 | #A52A9B | 122 pliki |
 | 9 | **scripts** | `tag:#scripts OR tag:#bash OR tag:#functions OR path:scripts/ OR path:bin/` | 16733525 | #FF6A55 | 26 plików |

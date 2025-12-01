@@ -51,8 +51,8 @@ https://kde.org/
 *Pliki linkujące do tego dokumentu:*
 
 - [[docs/infra/references/references|references]]
-- [[usr/jakubc/Study/AI/AI|AI]]
-- [[usr/jakubc/Study/Nowe Miejsce.space/Nowe Miejsce.space|Nowe Miejsce.space]]
+- [[usr/jakubc/hobby/study/AI/AI|AI]]
+- [[usr/jakubc/hobby/study/Nowe Miejsce.space/Nowe Miejsce.space|Nowe Miejsce.space]]
 - [[usr/karinam/Wielki Implementator/Study/AI/AI|AI]]
 - [[usr/karinam/Wielki Implementator/Study/Nowe Miejsce.space/Nowe Miejsce.space|Nowe Miejsce.space]]
 - [[usr/karinam/karinam|karinam]]
@@ -62,8 +62,8 @@ https://kde.org/
 *Dokumenty powiązane:*
 
 - [[docs/infra/references/references|references]]
-- [[usr/jakubc/Study/AI/AI|AI]]
-- [[usr/jakubc/Study/Nowe Miejsce.space/Nowe Miejsce.space|Nowe Miejsce.space]]
+- [[usr/jakubc/hobby/study/AI/AI|AI]]
+- [[usr/jakubc/hobby/study/Nowe Miejsce.space/Nowe Miejsce.space|Nowe Miejsce.space]]
 - [[usr/karinam/Wielki Implementator/Study/AI/AI|AI]]
 - [[usr/karinam/Wielki Implementator/Study/Nowe Miejsce.space/Nowe Miejsce.space|Nowe Miejsce.space]]
 - [[usr/karinam/karinam|karinam]]

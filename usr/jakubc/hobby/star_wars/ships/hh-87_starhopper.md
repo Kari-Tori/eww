@@ -1,17 +1,23 @@
 ---
-created: 2025-11-19
-updated: 2025-11-19
-title: HH-87 Starhopper
-manufacturer: Appazanna Engineering Works
-role: Lekki transport / courier
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - courier
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-  - [[usr/jakubc/star_wars/fractions/confederacy_of_independent_systems.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ HH-87 Starhopper — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ HH-87 Starhopper — karta techniczna
@@ -35,8 +41,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 25 BBY – 19 BBY (kurier elit Neimoidian → czarnorynkowy transport CIS) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/porax38_xanadu.md|Porax-38 „Xanadu Blood”]] (21 BBY – 19 BBY, cięższy interceptor Feethan dla łowców) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Kom’rk-class Gauntlet]] (19 BBY – 10 BBY, mandaloriański transport najemników) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/porax38_xanadu.md|Porax-38 „Xanadu Blood”]] (21 BBY – 19 BBY, cięższy interceptor Feethan dla łowców) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Kom’rk-class Gauntlet]] (19 BBY – 10 BBY, mandaloriański transport najemników) |
 
 ## ⚙️ Parametry techniczne
 
@@ -74,4 +80,4 @@ links:
 - Dzięki zwinności idealny do lądowania w wąskich dokach pałaców Serenno oraz baz Mandalorian.
 - W komiksach *Dark Disciple* wariant HH-87 wykorzystywano jako statek eskorty Ventress.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

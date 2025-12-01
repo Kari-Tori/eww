@@ -6,7 +6,7 @@ set -euo pipefail
 # - Plik VERSION
 # - Frontmatter wybranych plików Markdown
 
-REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 VERSION_FILE="$REPO_ROOT/VERSION"
 FILES=(
   "$REPO_ROOT/README.md"
@@ -14,8 +14,6 @@ FILES=(
   "$REPO_ROOT/INDEX.md"
   "$REPO_ROOT/GOALS.md"
   "$REPO_ROOT/ZERO-WASTE-POLICY.md"
-  "$REPO_ROOT/business/story.md"
-  "$REPO_ROOT/business/roadmap.md"
 )
 
 die() { printf "❌ %s\n" "$*" >&2; exit 1; }

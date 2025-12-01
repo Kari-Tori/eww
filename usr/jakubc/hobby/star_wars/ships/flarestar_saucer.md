@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Flarestar-class Attack Shuttle (“Weequay Saucer”)
-manufacturer: Unknown (pirackie warsztaty)
-role: Shuttle piracki / szturmowy
-era: Wojny Klonów
 tags:
-  - starwars
-  - pirates
-  - shuttle
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Flarestar-class “Weequay Saucer” — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Flarestar-class “Weequay Saucer” — karta techniczna
@@ -29,8 +36,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 21 BBY – 19 BBY (najazdy Hondo Ohnaki na Felucji i Florrum) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/gs100_vultures_claw.md|GS-100 „Vulture’s Claw”]] (21 BBY – 19 BBY, wcześniejszy transport łupów) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Corona-class Armed Frigate]] (19 BBY – 10 BBY, okręt flagowy piratów) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/gs100_vultures_claw.md|GS-100 „Vulture’s Claw”]] (21 BBY – 19 BBY, wcześniejszy transport łupów) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Corona-class Armed Frigate]] (19 BBY – 10 BBY, okręt flagowy piratów) |
 
 ## ⚙️ Parametry
 
@@ -65,4 +72,4 @@ links:
 
 > Bez standaryzacji – każdy egzemplarz różni się wyposażeniem; często brakuje zabezpieczeń, co fani MOC odwzorowują poprzez asymetryczne płytki.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

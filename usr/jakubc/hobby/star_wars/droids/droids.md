@@ -1,15 +1,24 @@
 ---
-title: Star Wars Droids (The Clone Wars)
-created: 2025-11-19
-updated: 2025-11-19
-author: karinam kmirowska7@gmail.com
 tags:
-  - starwars
-  - droids
-  - tcw
-links:
-  - [[usr/jakubc/star_wars/droids/droids.md|Index]]
-  - [[usr/jakubc/star_wars/fractions/fractions.md|Frakcje]]
+  - #folder_note
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-29T12:20:00Z
+author: jakubc
+title: "🤖 Folder `star_wars/droids`"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🤖 Folder `star_wars/droids`
@@ -27,7 +36,29 @@ links:
 - `r2_series_astromech.md`
 - `commando_droid_bx.md`
 
+## 📑 Karty gotowe
+- [[usr/jakubc/hobby/star_wars/droids/c21_highsinger.md|C-21 Highsinger]] — droid-zabójca, karta z łuku S04E20 „Bounty”.
+
 > [!note|icon:calendar|color:#F4A261]
 > 2025-11-19 — utworzono katalog droidów i podstawowy backlog.
+> 2025-11-29 — dodano kartę C-21 Highsinger (eskorta, ogień zaporowy, S04E20).
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do statków]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do statków]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+
+
+
+## 📑 Index plików
+
+- [c21_highsinger](c21_highsinger.md)
+
+## 📁 Podfoldery
+
+*Brak podfolderów.*

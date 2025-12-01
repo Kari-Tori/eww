@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: V-19 Torrent Starfighter
-manufacturer: Slayn & Korpil (dla GAR)
-role: Myśliwiec eskortowy Republiki
-era: Wojny Klonów
 tags:
-  - starwars
-  - republic
-  - starfighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ V-19 Torrent — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ V-19 Torrent — karta techniczna
@@ -32,7 +39,7 @@ links:
 | --- | --- |
 | Okres służby | 22 BBY – 21 BBY (kampanie początkowe: Christophsis, Teth) |
 | Poprzedni model | Brak wcześniejszego wpisu – V-19 był pierwszym dedykowanym myśliwcem GAR |
-| Następny model | [[usr/jakubc/star_wars/ships/clone_z95_headhunter.md|Clone Z-95 Headhunter]] (22 BBY – 19 BBY, rozwinięcie platformy eskortowej) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/clone_z95_headhunter.md|Clone Z-95 Headhunter]] (22 BBY – 19 BBY, rozwinięcie platformy eskortowej) |
 
 ## ⚙️ Parametry techniczne
 
@@ -82,4 +89,13 @@ links:
 > [!note|icon:wrench|color:#E63946]
 > Wrażliwe zawiasy skrzydeł – inspekcja co 15 startów; wymaga pierścienia Syliure do lotów nadświetlnych.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

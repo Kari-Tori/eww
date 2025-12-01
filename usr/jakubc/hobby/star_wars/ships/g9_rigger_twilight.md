@@ -1,15 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: G9 Rigger-class “Twilight”
-manufacturer: Republic Engineering Corporation
-role: Lekki frachtowiec / dropship
-era: Wojny Klonów
 tags:
-  - starwars
-  - freighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ G9 Rigger “Twilight” — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ G9 Rigger “Twilight” — karta techniczna
@@ -28,8 +36,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (kampanie S1–S2: Teth, Christophsis, Bothawui) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/gs100_vultures_claw.md|GS-100 „Vulture’s Claw”]] (21 BBY – 19 BBY, inny złomowany frachtowiec niezależnych) |
-| Następny model | [[usr/jakubc/star_wars/ships/yt2400_light_freighter.md|YT-2400 Light Freighter]] (22 BBY – 5 ABY, modułowa linia łowców) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/gs100_vultures_claw.md|GS-100 „Vulture’s Claw”]] (21 BBY – 19 BBY, inny złomowany frachtowiec niezależnych) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/yt2400_light_freighter.md|YT-2400 Light Freighter]] (22 BBY – 5 ABY, modułowa linia łowców) |
 
 ## ⚙️ Parametry
 
@@ -64,4 +72,4 @@ links:
 
 > “Twilight” wymaga częstych napraw – poszycie i hyperdrive niestabilne.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

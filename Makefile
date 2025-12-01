@@ -14,6 +14,7 @@ LOCAL_GIT_ROOT := /git/eww
 CONFIG_CODE := $(HOME)/.config/Code
 CONFIG_OBSIDIAN := $(HOME)/.config/obsidian
 CONFIG_VSCODE := $(HOME)/.vscode
+PROJECT_CHECK_DEV ?= 0
 
 # --- Helpers -----------------------------------------------------------------
 .PHONY: help todo todo-daily todo-paczki todo-obiad todo-ebay todo-posciel todo-ssh \
@@ -21,7 +22,7 @@ CONFIG_VSCODE := $(HOME)/.vscode
 	sync-dry sync-run sync-perms sync-configs diff-repos sync-legacy-dry \
 	sync-legacy set-alias git-verify project-check \
 	install uninstall test test-bats lint clean \
-	version bump-version changelog readme-check frontmatter frontmatter-dry \
+	version bump-version changelog readme-check frontmatter frontmatter-dry check-frontmatter \
 	tag auto-tag git-status git-push obsidian-fix vscode-fix \
 	doctor banner status commit graph-report graph-connect graph-dry \
 	git-batch git-history git-uncommit index check-folders update-indexes update-indexes-all \
@@ -63,7 +64,14 @@ todo-daily: ## Utwórz dzisiejszą listę TODO z szablonu daily
 		echo "📅 Tworzę nową listę dzienną: $$TARGET"; \
 		cp usr/jakubc/TODO-list-daily.md "$$TARGET"; \
 		sed -i "s/modified: .*/modified: $$(date --iso-8601=seconds)/" "$$TARGET"; \
-		sed -i "s/title: .*/title: \"TODO List - $$(date '+%d %B %Y' | sed 's/November/listopada/')\"/" "$$TARGET"; \
+		MONTH_NUM=$$(date +%m); \
+		MONTH_PL=$$(case "$$MONTH_NUM" in \
+			01) echo "stycznia";; 02) echo "lutego";; 03) echo "marca";; 04) echo "kwietnia";; \
+			05) echo "maja";; 06) echo "czerwca";; 07) echo "lipca";; 08) echo "sierpnia";; \
+			09) echo "września";; 10) echo "października";; 11) echo "listopada";; 12) echo "grudnia";; \
+		esac); \
+		TITLE_DATE="$$(date +%d) $$MONTH_PL $$(date +%Y)"; \
+		sed -i "s/title: .*/title: \"TODO List - $$TITLE_DATE\"/" "$$TARGET"; \
 		echo "✅ Utworzono: $$TARGET"; \
 		if command -v code >/dev/null 2>&1; then \
 			code "$$TARGET"; \
@@ -175,10 +183,12 @@ git-verify: ## Krok 12: sprawdź status/log w nowym repo
 	@cd $(LOCAL_REPO) && git status
 	@cd $(LOCAL_REPO) && git log --graph --oneline -10
 
-project-check: ## Krok 13: npm install + lint/test/dev w nowym repo
+project-check: ## Krok 13: npm install + lint/test (dev opcjonalnie)
 	@cd $(LOCAL_REPO) && npm install
 	@cd $(LOCAL_REPO) && npm run lint && npm test
+ifeq ($(PROJECT_CHECK_DEV),1)
 	@cd $(LOCAL_REPO) && npm run dev
+endif
 
 # ============================================================================
 # Podstawowe operacje eww
@@ -210,7 +220,8 @@ test-bats: ## Uruchom wszystkie testy z tests/
 lint: ## Sprawdź kod shellcheck
 	@echo "🔍 ShellCheck..."
 	@command -v shellcheck >/dev/null || (echo "❌ ShellCheck nie zainstalowany: sudo apt install shellcheck" && exit 1)
-	@find bin lib scripts -type f \( -name "*.sh" -o ! -name "*.*" \) -exec shellcheck {} \; 2>&1 | head -50
+	@find bin lib scripts -type f \( -name "*.sh" -o -perm -111 \) \
+		-exec sh -c 'mime=$$(file -b --mime-type "$$1"); case $$mime in text/*) shellcheck "$$1";; *) exit 0;; esac' _ {} \; 2>&1 | head -50
 
 clean: ## Usuń pliki tymczasowe (*.bak, *.tmp)
 	@echo "🧹 Czyszczenie..."
@@ -297,7 +308,7 @@ repo-stats: ## Pokaż statystyki repozytorium
 # Frontmatter i tagging
 # ============================================================================
 
-.PHONY: frontmatter frontmatter-dry auto-tag
+.PHONY: frontmatter frontmatter-dry check-frontmatter auto-tag
 
 frontmatter: ## Wygeneruj/zaktualizuj frontmatter YAML we wszystkich plikach
 	@echo "🏷️  Generowanie frontmatter..."
@@ -306,6 +317,37 @@ frontmatter: ## Wygeneruj/zaktualizuj frontmatter YAML we wszystkich plikach
 frontmatter-dry: ## Podgląd frontmatter bez zapisywania (dry-run)
 	@echo "👁️  Podgląd frontmatter (dry-run)..."
 	@./scripts/eww-frontmatter.sh --dry-run . | head -100
+
+check-frontmatter: ## Sprawdź, że każde .md ma frontmatter YAML (--- ... ---)
+	@echo "🏷️  Walidacja frontmatter..."
+	@missing=$$(find . -type f -name "*.md" \
+		! -path "./.git/*" ! -path "./archive/*" ! -path "./node_modules/*" \
+		-print0 | while IFS= read -r -d '' f; do \
+			first=$$(head -n 1 "$$f"); \
+			if [ "$$first" != "---" ]; then echo "$$f (brak otwarcia ---)"; continue; fi; \
+			if ! head -n 50 "$$f" | tail -n +2 | grep -qx '---'; then echo "$$f (brak zamknięcia ---)"; continue; fi; \
+			fm=$$(awk 'NR==1 && $$0=="---"{in=1; next} in && $$0=="---"{exit} in{print}' "$$f"); \
+			miss=""; \
+			for key in created modified author owner tags title description status links aliases sources backlinks; do \
+				echo "$$fm" | grep -Eq "^$$key:" || miss="$$miss $$key"; \
+			done; \
+			tags_block=$$(printf "%s\n" "$$fm" | awk '/^tags:/{flag=1; next} /^[A-Za-z0-9_-]+:/{if(flag){exit}} flag'); \
+			tags_count=$$(printf "%s\n" "$$tags_block" | grep -E '^\s*-\s*' | wc -l | tr -d ' '); \
+			if [ "$$tags_count" -lt 2 ] || [ "$$tags_count" -gt 7 ]; then \
+				miss="$$miss tags_count($$tags_count)"; \
+			fi; \
+			backlinks_block=$$(printf "%s\n" "$$fm" | awk '/^backlinks:/{flag=1; next} /^[A-Za-z0-9_-]+:/{if(flag){exit}} flag'); \
+			backlinks_count=$$(printf "%s\n" "$$backlinks_block" | grep -E '^\s*-\s*' | wc -l | tr -d ' '); \
+			if [ "$$backlinks_count" -lt 2 ]; then \
+				miss="$$miss backlinks_count($$backlinks_count)"; \
+			fi; \
+			if [ -n "$$miss" ]; then echo "$$f (brak:$$miss)"; fi; \
+		done); \
+	if [ -n "$$missing" ]; then \
+		echo "❌ Brak lub niepełny frontmatter w:"; echo "$$missing"; exit 1; \
+	else \
+		echo "✅ Wszystkie pliki .md mają kompletne frontmatter"; \
+	fi
 
 auto-tag: ## Automatyczne tagowanie wszystkich plików
 	@echo "🏷️  Automatyczne tagowanie..."
@@ -399,7 +441,7 @@ github-status: ## Check GitHub tools status
 ##@ Graph Auto-Generation
 
 graph-generate: ## Generuj konfigurację grafu (top 20 folder_note)
-	@./scripts/generate-graph-config.sh || test $$? -eq 141
+	@./scripts/generate-graph-config.sh || { status=$$?; [ $$status -eq 141 ] || exit $$status; }
 
 graph-commit: ## Daily commit grafu (max 18 nodes per commit)
 	@./scripts/daily-graph-commit.sh

@@ -26,7 +26,7 @@ owner: jakubc
 
 ## Wyszukiwanie
 ```
-path:usr/jakubc -path:usr/jakubc/star_wars
+path:usr/jakubc -path:usr/jakubc/hobby/star_wars
 ```
 
 ## Kolory

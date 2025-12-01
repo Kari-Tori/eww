@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Delta-7B Aethersprite-class Starfighter
-manufacturer: Kuat Systems Engineering
-role: Myśliwiec przechwytujący Jedi
-era: Wojny Klonów
 tags:
-  - starwars
-  - jedi
-  - starfighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Delta-7B Aethersprite — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Delta-7B Aethersprite — karta techniczna
@@ -31,8 +38,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (kampanie Outer Rim i konwój na Bothawui) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Delta-7 Aethersprite (S1)]] (32 BBY – 22 BBY) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Eta-2 Actis Interceptor]] (21 BBY – 19 BBY) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Delta-7 Aethersprite (S1)]] (32 BBY – 22 BBY) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Eta-2 Actis Interceptor]] (21 BBY – 19 BBY) |
 
 ## ⚙️ Parametry techniczne
 
@@ -79,4 +86,4 @@ links:
 > [!note|icon:wrench|color:#E63946]
 > Wymaga dedykowanej obsługi droidów – skomplikowane układy chłodzenia płytek mocy.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

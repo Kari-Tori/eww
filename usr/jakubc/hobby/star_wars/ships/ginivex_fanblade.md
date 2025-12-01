@@ -1,16 +1,23 @@
 ---
-created: 2025-11-19
-updated: 2025-11-19
-title: Ginivex-class Fanblade Starfighter
-manufacturer: Huppla Pasa Tisc Shipwrights Collective
-role: Myśliwiec osobisty / pościgowy
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - starfighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T17:00:00Z
+modified: 2025-11-21T17:00:00Z
+author: jakubc
+title: "🌀 Ginivex Fanblade — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🌀 Ginivex Fanblade — karta techniczna
@@ -38,7 +45,7 @@ links:
 | --- | --- |
 | Epizody | *The Clone Wars* S1E22 „Hostage Crisis” (cameo), **S3E12 „Nightsisters”** – rajd na pancernik Dooku, ucieczka na Dathomir. |
 | Frakcje | 🟣☠️ Separatyści / Sith (Ventress + Nightsisters). |
-| Powiązania z katalogiem | [[usr/jakubc/star_wars/ships/punworcca116_solar_sailer.md|Punworcca 116 Solar Sailer]] – jacht Dooku, z którego startują fanblade’y; [[usr/jakubc/star_wars/ships/hh-87_starhopper.md|HH-87 Starhopper]] – inny myśliwiec infiltracyjny używany przez łowców/sowiety. |
+| Powiązania z katalogiem | [[usr/jakubc/hobby/star_wars/ships/punworcca116_solar_sailer.md|Punworcca 116 Solar Sailer]] – jacht Dooku, z którego startują fanblade’y; [[usr/jakubc/hobby/star_wars/ships/hh-87_starhopper.md|HH-87 Starhopper]] – inny myśliwiec infiltracyjny używany przez łowców/sowiety. |
 
 ## ⚙️ Parametry
 
@@ -86,4 +93,4 @@ links:
 
 > Żagiel pozwala przełamać blokadę i zyskać osłonę cieplną podczas wejścia w atmosferę, ale przez duży odblask lepiej wyłączać go na niskim pułapie. Przy naprawach pamiętaj o kalibracji ramion (symetria 0,5 mm), w przeciwnym razie Fanblade wchodzi w wibracje >3 Hz i trudniej utrzymać strzał laserowy. Trafienie bronią jonową wymusza czasowe złożenie i „restart” sailera – miej przygotowany zapasowy panel oraz procedurę ręcznego blokowania, aby nie stracić sterowności.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

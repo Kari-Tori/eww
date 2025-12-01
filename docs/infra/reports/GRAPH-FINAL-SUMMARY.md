@@ -62,7 +62,7 @@ author: jakubc
 - karinam: 6
 
 **Wykluczono:**
-- ❌ usr/jakubc/star_wars (52 pliki)
+- ❌ usr/jakubc/hobby/star_wars (52 pliki)
 - ❌ docs/infra/tags/ (124 pliki auto-generated)
 - ❌ archive/ (13 plików)
 - ❌ backlinks.md, tags.md (auto-generated)
@@ -86,7 +86,7 @@ author: jakubc
 **Przeznaczenie:** Struktura core projektu
 
 ### 2. GRAPH-JAKUBC.md
-**Filtr:** `path:usr/jakubc -path:usr/jakubc/star_wars`
+**Filtr:** `path:usr/jakubc -path:usr/jakubc/hobby/star_wars`
 **Nody:** ~60
 **Przeznaczenie:** Notatki osobiste jakubc (bez star_wars)
 
@@ -111,7 +111,7 @@ author: jakubc
 - `usr/jakubc/health/` - zdrowie (2 pliki)
 - `usr/jakubc/Inbox/` - inbox
 - `usr/jakubc/obsidian-plugins/` - pluginy
-- `usr/jakubc/star_wars/` - (52 pliki, **wykluczono z grafu**)
+- `usr/jakubc/hobby/star_wars/` - (52 pliki, **wykluczono z grafu**)
 
 **Tagi:** `#blue #jakubc #personal`
 

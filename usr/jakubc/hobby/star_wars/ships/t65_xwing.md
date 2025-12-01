@@ -1,17 +1,23 @@
 ---
-created: 2025-11-19
-updated: 2025-11-19
-title: T-65 X-wing Prototype
-manufacturer: Incom Corporation
-role: Myśliwiec przewagi przestrzeni
-era: Schyłek Wojen Klonów / Druga połowa ery Republiki
 tags:
-  - starwars
-  - rebellion
-  - starfighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-  - [[usr/jakubc/star_wars/fractions/galactic_republic.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ T-65 X-wing — prototyp z końca Wojen Klonów"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ T-65 X-wing — prototyp z końca Wojen Klonów
@@ -32,8 +38,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 19 BBY – 0 BBY (tajne testy GAR → operacje Rebelii) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/arc170_starfighter.md|ARC-170 Starfighter]] (22 BBY – 19 BBY, ciężki zwiad) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|T-70 X-wing]] (0 BBY/ABY – 34 ABY, modernizacja Incom-FreiTek) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/arc170_starfighter.md|ARC-170 Starfighter]] (22 BBY – 19 BBY, ciężki zwiad) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|T-70 X-wing]] (0 BBY/ABY – 34 ABY, modernizacja Incom-FreiTek) |
 
 ## ⚙️ Parametry techniczne
 
@@ -60,4 +66,4 @@ links:
 - Pod koniec Wojen Klonów testowany jako następca ARC-170 dla elitarnych skrzydeł.
 - Po nacjonalizacji Incomu plany trafiają do Rebelii → główna maszyna Bitwy o Yavin.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

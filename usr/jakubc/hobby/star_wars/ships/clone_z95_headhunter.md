@@ -1,17 +1,23 @@
 ---
-created: 2025-11-19
-updated: 2025-11-19
-title: Clone Z-95 Headhunter
-manufacturer: Incom/Subpro
-role: Myśliwiec przechwytujący
-era: Wojny Klonów
 tags:
-  - starwars
-  - republic
-  - starfighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
-  - [[usr/jakubc/star_wars/fractions/galactic_republic.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Clone Z-95 Headhunter — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Clone Z-95 Headhunter — karta techniczna
@@ -32,8 +38,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (kampanie Kadavo, Umbara, Saleucami) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/v19_torrent.md|V-19 Torrent]] (22 BBY – 21 BBY, pierwszy myśliwiec eskortowy GAR) |
-| Następny model | [[usr/jakubc/star_wars/ships/arc170_starfighter.md|ARC-170 Starfighter]] (22 BBY – 19 BBY, cięższa platforma zwiadowcza) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/v19_torrent.md|V-19 Torrent]] (22 BBY – 21 BBY, pierwszy myśliwiec eskortowy GAR) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/arc170_starfighter.md|ARC-170 Starfighter]] (22 BBY – 19 BBY, cięższa platforma zwiadowcza) |
 
 ## ⚙️ Parametry techniczne
 
@@ -63,4 +69,4 @@ links:
 - Eskorta i przechwycenie sił Zingerrian podczas misji ratunkowej na Kadavo.
 - Testy taktyczne: ataki z nurkowania, szybkie ewakuacje więźniów.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

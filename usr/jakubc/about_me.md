@@ -33,7 +33,7 @@ owner: jakubc
 - Pracować nad self-care: kontrolować żywienie, regularne śniadania i późniejsze „cheat meals” (sernik, pizza) z umiarem.
 
 ## 🧱 Rytuały i nawyki
-- 🗒️ Codziennie rano przeglądaj `usr/jakubc/inbox` i aktualizuj listę priorytetów; sprawdzaj, czy nowe dane wymagają notatek.  
+- 🗒️ Codziennie rano przeglądaj `usr/jakubc/Inbox` i aktualizuj listę priorytetów; sprawdzaj, czy nowe dane wymagają notatek.  
 - 🕘 W ciągu dnia trzymaj krótkie sesje „check-in” z AI (np. 10-minutowe podsumowanie po pracy).  
 - 💧 Połowa dnia to woda + lekki ruch, by redukować stres i przeciwdziałać zaparciom.  
 - 🧠 Po kolacji ładować modele z notatek `self-development` i planować kolejny dzień (np. w `todo.md`).

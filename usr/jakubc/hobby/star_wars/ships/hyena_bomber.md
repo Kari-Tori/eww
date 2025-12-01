@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Hyena-class Droid Bomber
-manufacturer: Baktoid Armor Workshop
-role: Droid-bombowiec CIS
-era: Wojny Klonów
 tags:
-  - starwars
-  - cis
-  - bomber
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Hyena-class Droid Bomber — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Hyena-class Droid Bomber — karta techniczna
@@ -29,8 +36,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (operacje na Ryloth, Naboo, Malastare) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/vulture_droid.md|Vulture-class Droid Starfighter]] (32 BBY – 19 BBY, lekka platforma) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Droid Tri-fighter]] (21 BBY – 19 BBY, zaawansowany przechwytujący CIS) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/vulture_droid.md|Vulture-class Droid Starfighter]] (32 BBY – 19 BBY, lekka platforma) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Droid Tri-fighter]] (21 BBY – 19 BBY, zaawansowany przechwytujący CIS) |
 
 ## ⚙️ Parametry techniczne
 
@@ -76,4 +83,4 @@ links:
 > [!note|icon:wrench|color:#E63946]
 > Wymaga wsparcia fighterów Vulture; podatny na EWAR – planuj redundantne linki kontroli.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

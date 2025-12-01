@@ -1,16 +1,26 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Eta-class „Jedi Shuttle” (Anakin’s Shuttle)
-manufacturer: Cygnus Spaceworks / Haor Chall Engineering (modyfikacja GAR)
-role: Lekki wahadłowiec szturmowy
-era: Wojny Klonów (m.in. S2E10 „The Deserter”)
 tags:
-  - starwars
-  - jedi
-  - shuttle
-links:
-  - [[usr/jakubc/star_wars/ships/List.md|Lista statków S1/S2]]
+  - #eww
+  - #jakubc
+  - #star-wars
+  - #linux
+  - #secondbrain
+  - #PKM
+  - #karinam
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Eta-class „Jedi Shuttle” — karta techniczna"
+
+
+
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Eta-class „Jedi Shuttle” — karta techniczna
@@ -33,8 +43,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (operacje na Saleucami, Fest, Felucji) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/nu_class_shuttle.md|Nu-class Attack Shuttle]] (22 BBY – 19 BBY, transport GAR) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|T-6 Jedi Shuttle]] (19 BBY – 0 BBY/ABY, standard zakonu po Order 66) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/nu_class_shuttle.md|Nu-class Attack Shuttle]] (22 BBY – 19 BBY, transport GAR) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|T-6 Jedi Shuttle]] (19 BBY – 0 BBY/ABY, standard zakonu po Order 66) |
 
 ## ⚙️ Parametry techniczne
 
@@ -140,9 +150,8 @@ links:
 > - Systemy nawigacyjne przechowują wrażliwe dane – wykonaj wipe po misji.  
 > - Przechowywać w hangarze klimatyzowanym (ochrona kompozytów).
 
----
 
 > [!quote|icon:book|color:#5C6F84]
 > **Źródła:** [Wookieepedia – Anakin’s Shuttle (Legends)](https://starwars.fandom.com/wiki/Anakin%27s_shuttle/Legends), archiwa GAR, logi misji.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

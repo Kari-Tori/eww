@@ -213,8 +213,8 @@ Stara konfiguracja (przed zmianami):
   {"query": "path:docs OR tag:#docs OR tag:#documentation", "rgb": 10027007},
   {"query": "path:dev/Projects/Secondbrain OR path:.obsidian OR tag:#secondbrain", "rgb": 16711935},
   {"query": "path:usr/karinam OR tag:#karinam", "rgb": 16711833},
-  {"query": "tag:#star-wars OR path:usr/jakubc/star_wars", "rgb": 14263361},
-  {"query": "tag:#lego OR path:usr/jakubc/lego", "rgb": 16040461},
+  {"query": "tag:#star-wars OR path:usr/jakubc/hobby/star_wars", "rgb": 14263361},
+  {"query": "tag:#lego OR path:usr/jakubc/hobby/lego", "rgb": 16040461},
   {"query": "tag:#Asus_Z77 OR path:docs/infra/hardware/asus_z77", "rgb": 12604881}
 ]
 ```

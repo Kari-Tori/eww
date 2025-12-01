@@ -56,7 +56,7 @@ owner: jakubc
  path:usr/jakubc/health OR path:usr/jakubc/INDEX OR 
  path:usr/jakubc/jakubc OR path:usr/karinam) 
 -path:docs/infra/tags -path:archive -path:Tags 
--path:usr/jakubc/star_wars -file:backlinks -file:tags.md
+-path:usr/jakubc/hobby/star_wars -file:backlinks -file:tags.md
 ```
 
 **Pokazuje:**

@@ -1,15 +1,23 @@
 ---
-title: Durosi
-created: 2025-11-19
-updated: 2025-11-19
 tags:
-  - starwars
-  - race
-  - duros
-links:
-  - [[usr/jakubc/star_wars/races/races.md|Index ras]]
-  - [[usr/jakubc/star_wars/fractions/hutt_cartel.md|Kartel Huttów]]
-  - [[usr/jakubc/star_wars/fractions/confederacy_of_independent_systems.md|CIS]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "🔶 Durosi"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🔶 Durosi
@@ -38,4 +46,13 @@ links:
 - **Cad Bane** — łowca nagród, protagonista kilku łuków TCW.
 - **Davton Tonk** — pilot transportów Republiki.
 
-[[usr/jakubc/star_wars/races/races.md|← powrót do listy ras]]
+[[usr/jakubc/hobby/star_wars/races/races.md|← powrót do listy ras]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

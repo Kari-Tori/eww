@@ -46,7 +46,7 @@ Vault **eww** używa 12 głównych grup tagowych do wizualizacji grafu:
 
 ### 4️⃣ **#star-wars** - ⭐ Żółty
 - **Kolor**: `#FFD700` (RGB: 16766720)
-- **Zakres**: usr/jakubc/star_wars/ + lego star wars
+- **Zakres**: usr/jakubc/hobby/star_wars/ + lego star wars
 - **Pliki**: ~30+ plików
 - **Cel**: Projekty Star Wars (vehicles, races, ships, droids, fractions)
 
@@ -64,7 +64,7 @@ Vault **eww** używa 12 głównych grup tagowych do wizualizacji grafu:
 
 ### 7️⃣ **#ai-study** - 🔵 Niebieski Neon
 - **Kolor**: `#00BFFF` (RGB: 49407)
-- **Zakres**: usr/jakubc/Study/AI/, chipset, soc, mobile
+- **Zakres**: usr/jakubc/hobby/study/AI/, chipset, soc, mobile
 - **Pliki**: ~20 plików
 - **Cel**: Studia AI, architektura procesorów, PKM
 

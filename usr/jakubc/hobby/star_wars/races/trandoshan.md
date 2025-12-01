@@ -1,15 +1,23 @@
 ---
-title: Trandoshanie
-created: 2025-11-19
-updated: 2025-11-19
 tags:
-  - starwars
-  - race
-  - trandoshan
-links:
-  - [[usr/jakubc/star_wars/races/races.md|Index ras]]
-  - [[usr/jakubc/star_wars/fractions/hutt_cartel.md|Kartel Huttów]]
-  - [[usr/jakubc/star_wars/fractions/galactic_republic.md|Republika]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "🔷 Trandoshanie"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🔷 Trandoshanie
@@ -35,8 +43,17 @@ links:
 - Epizody z młodymi Jedi (Ahsoka, Kalifa) ukazują ich brutalne rytuały polowań.
 
 ## 📺 Znani przedstawiciele
-- **Bossk** — elitarna zmora Wookieech, współpracuje z Aurra Sing i Bobą Fett.
+- [[usr/jakubc/hobby/star_wars/characters/bossk.md|Bossk]] — elitarna zmora Wookieech, współpracuje z Aurra Sing i Bobą Fett.
 - **Garnac** — lider klanu, porywa młodzików Jedi.
 - **Sochek** — przedstawiciele straży Republiki pochodzący z rekrutacji kontraktowej.
 
-[[usr/jakubc/star_wars/races/races.md|← powrót do listy ras]]
+[[usr/jakubc/hobby/star_wars/races/races.md|← powrót do listy ras]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

@@ -1,15 +1,23 @@
 ---
-title: Unia Technokratyczna (Techno Union)
-created: 2025-11-19
-updated: 2025-11-19
 tags:
-  - starwars
-  - cis
-  - faction
-  - megacorp
-links:
-  - [[usr/jakubc/star_wars/fractions/fractions.md|Index frakcji]]
-  - [[usr/jakubc/star_wars/ships/ships.md|Statki powiązane]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "🟣☠️ Unia Technokratyczna (Techno Union)"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🟣☠️ Unia Technokratyczna (Techno Union)
@@ -42,4 +50,13 @@ links:
 ## 📺 Wątki w *The Clone Wars*
 > Arki: okupacja Ryloth i bombardowanie, misja Anakina i Obi-Wana na Skako Minor, bunt niewolników z Nelvaan.
 
-[[usr/jakubc/star_wars/fractions/fractions.md|← powrót do listy frakcji]]
+[[usr/jakubc/hobby/star_wars/fractions/fractions.md|← powrót do listy frakcji]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

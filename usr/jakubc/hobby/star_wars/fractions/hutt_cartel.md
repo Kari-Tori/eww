@@ -1,14 +1,23 @@
 ---
-title: Kartel Huttów
-created: 2025-11-19
-updated: 2025-11-19
 tags:
-  - starwars
-  - syndicate
-  - faction
-links:
-  - [[usr/jakubc/star_wars/fractions/fractions.md|Index frakcji]]
-  - [[usr/jakubc/star_wars/ships/ships.md|Powiązane statki]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "🟤🕵️ Kartel Huttów"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🟤🕵️ Kartel Huttów
@@ -41,4 +50,13 @@ links:
 ## 📺 Kontekst w *TCW*
 > Wątki: porwanie Rotty Hutty, negocjacje z Ziro, koalicja Maula (Shadow Collective), bitwa o Nal Hutta.
 
-[[usr/jakubc/star_wars/fractions/fractions.md|← powrót do listy frakcji]]
+[[usr/jakubc/hobby/star_wars/fractions/fractions.md|← powrót do listy frakcji]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

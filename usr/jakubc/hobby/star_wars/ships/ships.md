@@ -1,99 +1,103 @@
 ---
-title: Star Wars Ships (The Clone Wars)
-created: 2025-11-16
-updated: 2025-11-18
-author: karinam kmirowska7@gmail.com
-last_editors:
-  - karinam kmirowska7@gmail.com
-last_edit_time: 2025-11-14 23:44:05
-file_path: /eww/usr/jakubc/star_wars/ships/ships.md
-description: "Domyślne ustawienia KoroFileHeader (customMade); szczegóły https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE"
 tags:
-  - starwars
-  - ships
-links:
-  - [[usr/jakubc/star_wars/ships/ships.md|Index]]
-  - [[usr/jakubc/star_wars/ships/backlinks.md|Backlinks]]
-  - [[usr/jakubc/star_wars/ships/List.md|Lista odcinków]]
+  - #folder_note
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "⭐ Star Wars Ships"
+
+
+
+
+
+
+owner: jakubc
 ---
 
-# 📦 Folder `star_wars/ships`
+# ⭐ Star Wars Ships
 
-> [!summary|icon:info|color:#8ECAE6]
-> Zbiór kart technicznych statków z serialu *The Clone Wars* (sezony 1–2). Każdy plik w tym katalogu opisuje jeden model w formie Markdown (styl kolorowych kart Obsidian) – w sekcjach: identyfikacja, parametry, załoga, wyposażenie, osiągi, koszty, zastosowanie, uwagi.
+> Pełna kolekcja statków kosmicznych ze Star Wars
 
-> [!note|icon:calendar|color:#F4A261]
-> **Aktualizacje folder note:**
-> - 2025-11-18 — dodano checklistę statków z S2 (lista TODO, legendy ikon).
-> - 2025-11-17 — rozbudowano indeks o sekcje frakcji i nawigację.
-> - 2025-11-16 — utworzono notatkę folderową i bazowy spis statków.
+## 📋 Index Statków
 
-## 📁 Zawartość katalogu
+- [[arc170_starfighter]]
+- [[backlinks]]
+- [[belbullab22_soulless]]
+- [[btlb_ywing]]
+- [[clone_z95_headhunter]]
+- [[delta7b_aethersprite]]
+- [[droch_boarding_ship]]
+- [[flarestar_saucer]]
+- [[g9_rigger_twilight]]
+- [[ginivex_fanblade]]
+- [[gs100_vultures_claw]]
+- [[hh-87_starhopper]]
+- [[h_type_nubian_yacht]]
+- [[hyena_bomber]]
+- [[jedi_shuttle]]
+- [[laat_i_gunship]]
+- [[List]]
+- [[nu_class_shuttle]]
+- [[obex-nuclass]]
+- [[porax38_xanadu]]
+- [[punworcca116_solar_sailer]]
+- [[republic_escape_pod]]
+- [[sheathipede_shuttle]]
+- [[ships_backlog]]
+- [[syliure31_ring]]
+- [[t65_xwing]]
+- [[v19_torrent]]
+- [[vulture_droid]]
+- [[yt2400_light_freighter]]
 
-> [!tip|icon:sparkles|color:#A8DADC]
-> **Legenda ikon:** 🟥⚔️ Republika · 🔵✴️ Jedi · 🟣☠️ CIS · 🟤🏴‍☠️ Piraci · 🟠♻️ Złomiarze · 🟡🏛️ Senat · 🟢🎯 Łowcy
+## 📑 Index plików
 
-### 🟥⚔️ Republika / GAR
-- [[usr/jakubc/star_wars/ships/arc170_starfighter.md|ARC-170]] — `arc170_starfighter.md`, ciężki zwiadowczy myśliwiec szturmowy.
-- [[usr/jakubc/star_wars/ships/btlb_ywing.md|BTL-B Y-wing]] — `btlb_ywing.md`, bombowiec Republiki z osłonami.
-- [[usr/jakubc/star_wars/ships/clone_z95_headhunter.md|Clone Z-95 Headhunter]] — `clone_z95_headhunter.md`, prototypowy myśliwiec eskortowy Wolfpacku.
-- [[usr/jakubc/star_wars/ships/laat_i_gunship.md|LAAT/i Gunship]] — `laat_i_gunship.md`, klasyczny dropship klonów.
-- [[usr/jakubc/star_wars/ships/nu_class_shuttle.md|Nu-class Shuttle]] — `nu_class_shuttle.md`, transport i desant GAR.
-- [[usr/jakubc/star_wars/ships/obex-nuclass.md|Nu-class „Obex”]] — `obex-nuclass.md`, nazwany prom z łuku Boby Fetta.
-- [[usr/jakubc/star_wars/ships/republic_escape_pod.md|Kapsuła Venatora]] — `republic_escape_pod.md`, ratunkowy moduł okrętów Republiki.
-- [[usr/jakubc/star_wars/ships/v19_torrent.md|V-19 Torrent]] — `v19_torrent.md`, myśliwiec eskortowy jednostek klonów.
+- [arc170_starfighter](arc170_starfighter.md)
+- [backlinks](backlinks.md)
+- [belbullab22_soulless](belbullab22_soulless.md)
+- [btlb_ywing](btlb_ywing.md)
+- [clone_z95_headhunter](clone_z95_headhunter.md)
+- [delta7b_aethersprite](delta7b_aethersprite.md)
+- [droch_boarding_ship](droch_boarding_ship.md)
+- [flarestar_saucer](flarestar_saucer.md)
+- [g9_rigger_twilight](g9_rigger_twilight.md)
+- [ginivex_fanblade](ginivex_fanblade.md)
+- [gs100_vultures_claw](gs100_vultures_claw.md)
+- [hh-87_starhopper](hh-87_starhopper.md)
+- [h_type_nubian_yacht](h_type_nubian_yacht.md)
+- [hyena_bomber](hyena_bomber.md)
+- [jedi_shuttle](jedi_shuttle.md)
+- [laat_i_gunship](laat_i_gunship.md)
+- [List](List.md)
+- [nu_class_shuttle](nu_class_shuttle.md)
+- [obex-nuclass](obex-nuclass.md)
+- [porax38_xanadu](porax38_xanadu.md)
+- [punworcca116_solar_sailer](punworcca116_solar_sailer.md)
+- [republic_escape_pod](republic_escape_pod.md)
+- [sheathipede_shuttle](sheathipede_shuttle.md)
+- [ships_backlog](ships_backlog.md)
+- [syliure31_ring](syliure31_ring.md)
+- [t65_xwing](t65_xwing.md)
+- [v19_torrent](v19_torrent.md)
+- [vulture_droid](vulture_droid.md)
+- [yt2400_light_freighter](yt2400_light_freighter.md)
 
-### 🔵✴️ Jedi Order
-- [[usr/jakubc/star_wars/ships/delta7b_aethersprite.md|Delta-7B Aethersprite]] — `delta7b_aethersprite.md`, myśliwiec mistrzów Jedi.
-- [[usr/jakubc/star_wars/ships/g9_rigger_twilight.md|G9 „Twilight”]] — `g9_rigger_twilight.md`, frachtowiec Anakina.
-- [[usr/jakubc/star_wars/ships/jedi_shuttle.md|Eta-class Jedi Shuttle]] — `jedi_shuttle.md`, wahadłowiec Anakin’s Shuttle.
-- [[usr/jakubc/star_wars/ships/syliure31_ring.md|Syliure-31 Ring]] — `syliure31_ring.md`, pierścień hipernapędu dla Aethersprite.
+## 📁 Podfoldery
 
-### 🟣☠️ Separatyści / CIS
-- [[usr/jakubc/star_wars/ships/belbullab22_soulless.md|Belbullab-22 „Soulless One”]] — `belbullab22_soulless.md`, myśliwiec generała Grievousa.
-- [[usr/jakubc/star_wars/ships/droch_boarding_ship.md|Droch-class Boarding Ship]] — `droch_boarding_ship.md`, kapsuła abordażowa droidów.
-- [[usr/jakubc/star_wars/ships/hh-87_starhopper.md|HH-87 Starhopper]] — `hh-87_starhopper.md`, szybki courier używany w misji „The Box”.
-- [[usr/jakubc/star_wars/ships/hyena_bomber.md|Hyena-class Bomber]] — `hyena_bomber.md`, droid-bombowiec floty CIS.
-- [[usr/jakubc/star_wars/ships/ginivex_fanblade.md|Ginivex Fanblade]] — `ginivex_fanblade.md`, składany myśliwiec Ventress z solarnym żaglem (S3E12 „Nightsisters”).
-- [[usr/jakubc/star_wars/ships/punworcca116_solar_sailer.md|Punworcca 116 Solar Sailer]] — `punworcca116_solar_sailer.md`, geonosjański jacht Dooku i dok dla fanblade’ów.
-- [[usr/jakubc/star_wars/ships/sheathipede_shuttle.md|Sheathipede-class Shuttle]] — `sheathipede_shuttle.md`, transport separatystów.
-- [[usr/jakubc/star_wars/ships/vulture_droid.md|Vulture Droid]] — `vulture_droid.md`, myśliwiec droidów z automatyczną AI.
+*Brak podfolderów.*
 
-### 🟤🏴‍☠️ Piraci i niezależni
-- [[usr/jakubc/star_wars/ships/flarestar_saucer.md|Flarestar Saucer]] — `flarestar_saucer.md`, wahadłowiec Weequayów.
+## 🔗 Backlinks
 
-### 🟠♻️ Złomiarze / niezależni
-- [[usr/jakubc/star_wars/ships/gs100_vultures_claw.md|GS-100 „Vulture’s Claw”]] — `gs100_vultures_claw.md`, statek złomiarzy i handlarzy.
+- [[EWW-MAP]]
+- [[GRAPH-MAP]]
+- [[GRAPH-CORE]]
+- [[GRAPH-BUSINESS]]
+- [[GRAPH-CONFIG]]
 
-### 🟡🏛️ Senat / dyplomacja
-- [[usr/jakubc/star_wars/ships/h_type_nubian_yacht.md|H-type Nubian Yacht]] — `h_type_nubian_yacht.md`, jacht dyplomatyczny Naboo.
-- [[usr/jakubc/star_wars/ships/t65_xwing.md|T-65 X-wing Prototype]] — `t65_xwing.md`, następca ARC-170 przygotowany u schyłku Republiki.
-
-### 🟢🎯 Łowcy nagród
-- [[usr/jakubc/star_wars/ships/porax38_xanadu.md|P-38 „Xanadu Blood”]] — `porax38_xanadu.md`, statek Cad Bane’a.
-- [[usr/jakubc/star_wars/ships/yt2400_light_freighter.md|YT-2400 Light Freighter]] — `yt2400_light_freighter.md`, karta bazowa + opis Jade’s Fire, Iron Squadron i Outrider Dash Rendara.
-
-> [!success|icon:check|color:#90BE6D]
-> **Pokryte już w katalogu (wg listy S2):**
-> - [[usr/jakubc/star_wars/ships/porax38_xanadu.md|Porax-38 „Xanadu Blood”]] – łowcy nagród (Cad Bane).
-> - [[usr/jakubc/star_wars/ships/flarestar_saucer.md|Flarestar Saucer]] + [[usr/jakubc/star_wars/ships/gs100_vultures_claw.md|GS-100]] – piraci / niezależni.
-> - [[usr/jakubc/star_wars/ships/g9_rigger_twilight.md|G9 „Twilight”]] – frachtowiec Anakina.
-> - [[usr/jakubc/star_wars/ships/nu_class_shuttle.md|Nu-class Shuttle]] i [[usr/jakubc/star_wars/ships/jedi_shuttle.md|Eta-class Jedi Shuttle]].
-> - [[usr/jakubc/star_wars/ships/laat_i_gunship.md|LAAT/i]], [[usr/jakubc/star_wars/ships/btlb_ywing.md|BTL-B Y-wing]], [[usr/jakubc/star_wars/ships/v19_torrent.md|V-19 Torrent]], [[usr/jakubc/star_wars/ships/delta7b_aethersprite.md|Delta-7B]].
-> - [[usr/jakubc/star_wars/ships/arc170_starfighter.md|ARC-170]] – główny myśliwiec Republiki.
-> - [[usr/jakubc/star_wars/ships/vulture_droid.md|Vulture Droid]], [[usr/jakubc/star_wars/ships/sheathipede_shuttle.md|Sheathipede Shuttle]], [[usr/jakubc/star_wars/ships/belbullab22_soulless.md|Belbullab-22]].
-
-> [!note|icon:link|color:#5C6F84]
-> **Standard karty technicznej** (zobacz [[usr/jakubc/star_wars/ships/arc170_starfighter.md|przykład ARC-170]]):
-> - [ ] Callout `[!summary]` z emoji i opisem misji
-> - [ ] Sekcje: Identyfikacja, Parametry, Załoga, Systemy, Osiągi, Koszty, Zastosowanie, Uwagi
-> - [ ] Tabele Markdown dla parametrów/osiągów
-> - [ ] Blok źródeł + backlink do `ships.md`
-
-> [!tip|icon:map|color:#6C757D]
-> **Nawigacja:**
-> - [[usr/jakubc/star_wars/ships/List.md|Lista statków wg odcinków]]
-> - [[usr/jakubc/star_wars/ships/backlinks.md|Backlinks i referencje]]
-> - [[README.md|README projektu eww]]
-> - [[usr/jakubc/star_wars/ships/ships_backlog.md|Backlog statków]]
-> - [[usr/jakubc/star_wars/ships/ships_backlog.md|Backlog statków]]

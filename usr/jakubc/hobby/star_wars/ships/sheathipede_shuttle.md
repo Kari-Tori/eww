@@ -1,15 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Sheathipede-class Transport Shuttle
-manufacturer: Haor Chall Engineering
-role: Wahadłowiec dyplomatyczny / eskortowy
-era: Wojny Klonów, konfederacja handlowa
 tags:
-  - starwars
-  - shuttle
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Sheathipede-class Shuttle — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Sheathipede-class Shuttle — karta techniczna
@@ -30,8 +38,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 32 BBY – 19 BBY (Senat, Federacja Handlowa, misje Padmé) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Sheathipede TF Variant]] (32 BBY – 22 BBY, wersja Naboo z TPM) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Phantom II (Sheathipede)]] (2 BBY – 0 BBY, rebelianci) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Sheathipede TF Variant]] (32 BBY – 22 BBY, wersja Naboo z TPM) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Phantom II (Sheathipede)]] (2 BBY – 0 BBY, rebelianci) |
 
 ## ⚙️ Parametry
 
@@ -67,4 +75,4 @@ links:
 
 > Skrzydła wymagają kalibracji siłowników, dane nav należy usuwać po misji.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: LAAT/i Gunship (Low Altitude Assault Transport/infantry)
-manufacturer: Rothana Heavy Engineering
-role: Gunship / transport desantowy
-era: Wojny Klonów
 tags:
-  - starwars
-  - republic
-  - gunship
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ LAAT/i Gunship — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ LAAT/i Gunship — karta techniczna
@@ -31,8 +38,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (Geonosis, Christophsis, Umbara) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/ships_backlog.md|LAAT/c Gunship]] (22 BBY – 19 BBY, równoległy wariant cargo testowany przed LAAT/i) |
-| Następny model | [[usr/jakubc/star_wars/ships/nu_class_shuttle.md|Nu-class Attack Shuttle]] (22 BBY – 19 BBY, dalekiego zasięgu) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|LAAT/c Gunship]] (22 BBY – 19 BBY, równoległy wariant cargo testowany przed LAAT/i) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/nu_class_shuttle.md|Nu-class Attack Shuttle]] (22 BBY – 19 BBY, dalekiego zasięgu) |
 
 ## ⚙️ Parametry techniczne
 
@@ -81,4 +88,4 @@ links:
 > [!note|icon:wrench|color:#E63946]
 > Wysokie obciążenie skrzydeł – serwis łożysk co 20 misji; wymaga dwóch pilotów do pełnej sprawności.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

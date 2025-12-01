@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Republic Escape Pod (Venator-class)
-manufacturer: Kuat Drive Yards
-role: Kapsuła ratunkowa
-era: Wojny Klonów
 tags:
-  - starwars
-  - republic
-  - capsule
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ Republic Escape Pod — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Republic Escape Pod — karta techniczna
@@ -29,8 +36,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (okręty Venator, bitwy Geonosis → Ryloth) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/ships_backlog.md|Consular-class Escape Pod]] (32 BBY – 22 BBY, kapsuły senatorów Naboo) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|CR70/CR90 Alliance Pod]] (0 BBY – 4 ABY, kapsuły Rebelii) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|Consular-class Escape Pod]] (32 BBY – 22 BBY, kapsuły senatorów Naboo) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|CR70/CR90 Alliance Pod]] (0 BBY – 4 ABY, kapsuły Rebelii) |
 
 ## ⚙️ Parametry
 
@@ -60,4 +67,4 @@ links:
 
 > Podczas bitw (np. Geonosis) wykorzystywane do ewakuacji klonów; fani modeli zwracają uwagę na charakterystyczny pas niebieski i bulwiaste okno.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

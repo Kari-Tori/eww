@@ -1,6 +1,23 @@
 ---
-title: 🛰️ OBEX — Nu-class Attack/Transport Shuttle (Wojny Klonów)
-description: TODO - uzupełnij opis.
+tags:
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #lego
+  - #linux
+  - #secondbrain
+created: 2025-11-21T19:00:00Z
+modified: 2025-11-21T19:00:00Z
+author: jakubc
+title: "🛰️ OBEX — Nu-class Attack/Transport Shuttle (Wojny Klonów)"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🛰️ OBEX — Nu-class Attack/Transport Shuttle (Wojny Klonów)
@@ -43,7 +60,6 @@ description: TODO - uzupełnij opis.
 • Nu-class: https://starwars.fandom.com/wiki/Nu-class_attack_shuttle/Legends
 • Obex: https://starwars.fandom.com/wiki/Obex
 
----
 
 # 🧱 Roadmap build — OBEX od najtańszego do finalnego
 
@@ -63,7 +79,6 @@ description: TODO - uzupełnij opis.
 - 🎯 Cel: szybki, grywalny **minifig-scale**.
 - 🔧 Po zbudowaniu: **rozbiórka → DAWCA** (LBG, zawiasy, Technic) dla kolejnych etapów.
 
----
 
 ## 2) ✅ Mój główny wybór minifig — lepsza bryła, niski koszt
 **MOC-145608 (LeslieLee)** — ok. **803** części
@@ -76,7 +91,6 @@ description: TODO - uzupełnij opis.
 > [!success] **Dlaczego ten etap**
 > Najlepszy stosunek cena/wierność w minifig. Stabilna konstrukcja, schludna sylwetka. Idealny „Obex” do półki i scenek.
 
----
 
 ## 3) 🧩 Drugi minifig do zbudowania — różne rozwiązania bryły
 **MOC-87247 (DMG Bricks)** — ok. **748** części
@@ -88,7 +102,6 @@ description: TODO - uzupełnij opis.
 > [!note] **Po co drugi MOC?**
 > Daje wybór geometrii nosa, skrzydeł i rampy. Umożliwia miks części i szukanie oszczędności.
 
----
 
 ## 4) 🏆 Final — najwierniejszy display minifig
 **MOC-133248 (thelegowolfpack)** — **3499** części, bardzo wysoka wierność
@@ -100,7 +113,6 @@ description: TODO - uzupełnij opis.
 > [!warning] **Uwaga kosztowa**
 > Rzadkie białe wedge/curved potrafią windować cenę. Preferuj **LBG** na poszyciu i ogranicz **dark red** do pasów. Minimalizuj liczbę sklepów.
 
----
 
 ## 🔗 Szybkie linki (skróty)
 - **Nu-class (Wookieepedia):** https://starwars.fandom.com/wiki/Nu-class_attack_shuttle/Legends
@@ -113,4 +125,11 @@ description: TODO - uzupełnij opis.
 - **75432 V-19 (UK):** https://www.johnlewis.com/lego-star-wars-75432-v-19-torrent-starfighter-building-toy/p113656650
 - **PriceSpy porównywarka:** https://pricespy.co.uk/product.php?p=14253385
 
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
 ---
+*Auto-generated backlinks for cluster connectivity*

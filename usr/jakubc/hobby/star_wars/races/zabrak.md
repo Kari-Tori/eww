@@ -1,14 +1,23 @@
 ---
-title: Zabrakowie
-created: 2025-11-19
-updated: 2025-11-19
 tags:
-  - starwars
-  - race
-  - zabrak
-links:
-  - [[usr/jakubc/star_wars/races/races.md|Index ras]]
-  - [[usr/jakubc/star_wars/fractions/mandalorian_clans.md|Klany Mandalora]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T14:00:00Z
+modified: 2025-11-21T14:00:00Z
+author: jakubc
+title: "🔷 Zabrakowie"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # 🔷 Zabrakowie
@@ -38,4 +47,13 @@ links:
 - **Savage Opress** — wojownik Siostr Nocy.
 - **Eeth Koth** — członek Rady Jedi (iridoński Zabrak).
 
-[[usr/jakubc/star_wars/races/races.md|← powrót do listy ras]]
+[[usr/jakubc/hobby/star_wars/races/races.md|← powrót do listy ras]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

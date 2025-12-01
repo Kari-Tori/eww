@@ -49,7 +49,7 @@ echo "🎨 Optymalizuję główny graph..."
 cat > "$OBSIDIAN_DIR/graph.json" <<'EOF'
 {
   "collapse-filter": false,
-  "search": "(path:core OR path:config OR path:business OR path:docs/getting-started OR path:docs/setup OR path:infra OR path:usr/jakubc/m18 OR path:usr/jakubc/health OR path:usr/jakubc/INDEX OR path:usr/jakubc/jakubc OR path:usr/karinam) -path:dev/obsidian/tags -path:docs/infra/tags -path:archive -path:Tags -path:usr/jakubc/star_wars -file:backlinks -file:tags.md",
+  "search": "(path:core OR path:config OR path:business OR path:docs/getting-started OR path:docs/setup OR path:infra OR path:usr/jakubc/m18 OR path:usr/jakubc/health OR path:usr/jakubc/INDEX OR path:usr/jakubc/jakubc OR path:usr/karinam) -path:dev/obsidian/tags -path:docs/infra/tags -path:archive -path:Tags -path:usr/jakubc/hobby/star_wars -file:backlinks -file:tags.md",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,

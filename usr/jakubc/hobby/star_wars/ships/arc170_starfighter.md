@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: ARC-170 Aggressive Reconnaissance Starfighter
-manufacturer: Incom/Subpro
-role: Ciężki myśliwiec zwiadowczy
-era: Wojny Klonów
 tags:
-  - starwars
-  - republic
-  - starfighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ ARC-170 — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ ARC-170 — karta techniczna
@@ -29,8 +36,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (kampanie GAR na Cato Neimoidii, Coruscant, Ryloth) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/clone_z95_headhunter.md|Clone Z-95 Headhunter]] (22 BBY – 19 BBY, prototyp eskortowy) |
-| Następny model | [[usr/jakubc/star_wars/ships/t65_xwing.md|T-65 X-wing Prototype]] (19 BBY – 0 BBY, przejęty przez Rebelię) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/clone_z95_headhunter.md|Clone Z-95 Headhunter]] (22 BBY – 19 BBY, prototyp eskortowy) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/t65_xwing.md|T-65 X-wing Prototype]] (19 BBY – 0 BBY, przejęty przez Rebelię) |
 
 ## ⚙️ Parametry
 
@@ -62,4 +69,4 @@ links:
 
 > Wymaga trzech pilotów + droida, duże zużycie paliwa – realizuj tankowanie w locie.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

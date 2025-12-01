@@ -24,7 +24,7 @@
     // Copilot Agent - pełna automatyzacja
     "github.copilot.advanced": {
         "authProvider": "github",
-        "debug.overrideEngine": "codex",
+        "debug.overrideEngine": "gpt-4",
         "debug.testOverrideProxyUrl": "",
         "length": 500,
         "temperature": "0.7",
@@ -38,6 +38,20 @@
         "inlineSuggestEnable": true,
         "listCount": 10
     },
+
+    // Copilot Chat - experimental features
+    "github.copilot.chat.enabled": true,
+    "github.copilot.chat.localeOverride": "pl",
+    "github.copilot.chat.scopeSelection": true,
+    "github.copilot.referencesEnabled": true,
+    "github.copilot.editor.enableCodeActions": true,
+
+    // Copilot Edits - włącz tryb edycji wielu plików
+    "github.copilot.editor.iterativeFixing": true,
+
+    // Workspace context dla Copilot
+    "github.copilot.chat.experimental.codeGeneration.enabled": true,
+    "github.copilot.chat.experimental.codingAgentCapabilities.enabled": true,
 
     // ========================================
     // SECURITY - WSZYSTKO TRUSTED

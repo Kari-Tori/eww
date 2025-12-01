@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: GS-100 “Vulture’s Claw”
-manufacturer: Modified GS-series freighter
-role: Mały frachtowiec / złomowiec
-era: Wojny Klonów
 tags:
-  - starwars
-  - pirates
-  - freighter
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T16:00:00Z
+modified: 2025-11-21T16:00:00Z
+author: jakubc
+title: "✨ GS-100 “Vulture’s Claw” — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ GS-100 “Vulture’s Claw” — karta techniczna
@@ -31,7 +38,7 @@ links:
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (kontrakty Gha Nachkt’a i łowy na droidy Jedi) |
 | Poprzedni model | Brak wcześniejszego wpisu (unikalna przeróbka GS-100 w katalogu) |
-| Następny model | [[usr/jakubc/star_wars/ships/g9_rigger_twilight.md|G9 Rigger „Twilight”]] (22 BBY – 19 BBY, kolejna baza misji specjalnych) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/g9_rigger_twilight.md|G9 Rigger „Twilight”]] (22 BBY – 19 BBY, kolejna baza misji specjalnych) |
 
 ## Załoga
 
@@ -54,4 +61,13 @@ links:
 
 > Kadłub brudny i asymetryczny – modele fanów często odwzorowują brązowo-błękitne plamy.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[jakubc]]
+- [[INDEX]]
+- [[core]]
+
+---
+*Auto-generated backlinks for cluster connectivity*

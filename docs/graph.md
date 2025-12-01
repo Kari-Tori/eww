@@ -296,14 +296,14 @@ cp /home/karinam/git/eww/dev/obsidian/graph/presets/ultimate.json \
       }
     },
     {
-      "query": "tag:#star-wars OR path:usr/jakubc/star_wars",
+      "query": "tag:#star-wars OR path:usr/jakubc/hobby/star_wars",
       "color": {
         "a": 1,
         "rgb": 14263361
       }
     },
     {
-      "query": "tag:#lego OR path:usr/jakubc/lego",
+      "query": "tag:#lego OR path:usr/jakubc/hobby/lego",
       "color": {
         "a": 1,
         "rgb": 16040461

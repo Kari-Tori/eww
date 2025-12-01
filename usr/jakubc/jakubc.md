@@ -139,13 +139,12 @@ owner: jakubc
 
 - [health/](health/health.md)
 - [Inbox/](Inbox/Inbox.md)
-- [lego/](lego/lego.md)
-- [Lego/](Lego/Lego.md)
+- [hobby/lego/](hobby/lego/lego.md)
+- [hobby/star_wars/](hobby/star_wars/star_wars.md)
+- [hobby/study/](hobby/study/Study.md)
 - [m18/](m18/m18.md)
 - [Notes/](Notes/Notes.md)
 - [obsidian-plugins/](obsidian-plugins/obsidian-plugins.md)
-- [star_wars/](star_wars/star_wars.md)
-- [Study/](Study/Study.md)
 - [workspace/](workspace/workspace.md)
 
 ## 🔗 Backlinks

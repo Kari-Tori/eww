@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: BTL-B Y-wing Bomber
-manufacturer: Koensayr Manufacturing
-role: Bombowiec Republiki
-era: Wojny Klonów
 tags:
-  - starwars
-  - republic
-  - bomber
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ BTL-B Y-wing — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ BTL-B Y-wing — karta techniczna
@@ -28,8 +35,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (kampanie na Malastare, Ryloth, Umbara) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/ships_backlog.md|BTL-A4 Y-wing (prototyp Naboo)]] (32 BBY – 22 BBY) |
-| Następny model | [[usr/jakubc/star_wars/ships/ships_backlog.md|BTL-S3 „Alliance” Y-wing]] (19 BBY – 4 BBY) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|BTL-A4 Y-wing (prototyp Naboo)]] (32 BBY – 22 BBY) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/ships_backlog.md|BTL-S3 „Alliance” Y-wing]] (19 BBY – 4 BBY) |
 
 ## ⚙️ Parametry
 
@@ -61,4 +68,4 @@ links:
 
 > Osłony poszycia często demontowane w okresie Rebeliantów; w wersji GAR wymagają częstej konserwacji.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]

@@ -1,16 +1,23 @@
 ---
-created: 2025-11-16
-updated: 2025-11-16
-title: Nu-class Attack/Transport Shuttle
-manufacturer: Cygnus Spaceworks
-role: Wahadłowiec szturmowy GAR
-era: Wojny Klonów (S1–S3)
 tags:
-  - starwars
-  - republic
-  - shuttle
-links:
-  - [[usr/jakubc/star_wars/ships/List.md]]
+  - #automation
+  - #eww
+  - #jakubc
+  - #knowledge
+  - #linux
+  - #secondbrain
+  - #star-wars
+created: 2025-11-21T15:00:00Z
+modified: 2025-11-21T15:00:00Z
+author: jakubc
+title: "✨ Nu-class Shuttle — karta techniczna"
+
+
+
+
+
+
+owner: jakubc
 ---
 
 # ✨ Nu-class Shuttle — karta techniczna
@@ -31,8 +38,8 @@ links:
 | Pole | Wartość |
 | --- | --- |
 | Okres służby | 22 BBY – 19 BBY (Saleucami, Felucia, Mortis arc) |
-| Poprzedni model | [[usr/jakubc/star_wars/ships/laat_i_gunship.md|LAAT/i Gunship]] (22 BBY – 19 BBY, transport pola walki) |
-| Następny model | [[usr/jakubc/star_wars/ships/obex-nuclass.md|Nu-class „Obex”]] (21 BBY – 19 BBY, sygnowany egzemplarz Boby Fetta) |
+| Poprzedni model | [[usr/jakubc/hobby/star_wars/ships/laat_i_gunship.md|LAAT/i Gunship]] (22 BBY – 19 BBY, transport pola walki) |
+| Następny model | [[usr/jakubc/hobby/star_wars/ships/obex-nuclass.md|Nu-class „Obex”]] (21 BBY – 19 BBY, sygnowany egzemplarz Boby Fetta) |
 
 ## ⚙️ Parametry techniczne
 
@@ -88,4 +95,4 @@ links:
 > [!note|icon:wrench|color:#E63946]
 > Skrzydła wymagają kalibracji po każdym locie; intensywnie eksploatowane siłowniki.
 
-[[usr/jakubc/star_wars/ships/ships.md|← powrót do listy]]
+[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
