@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-26
+created: 2025-11-26
+version: 0.0.6
 title: Contributing to E-Waste Workshop
 description: Wytyczne dla kontrybutorów projektu
 tags:
@@ -14,6 +17,29 @@ Dziękujemy za zainteresowanie projektem E-Waste Workshop! 🎉
 
 ## 📋 Jak kontrybuować
 
+### 🚨 WYMAGANA konfiguracja (raz po sklonowaniu)
+
+**Przed pierwszym committem MUSISZ:**
+
+```bash
+# 1. Zainstaluj semver
+npm install -g semver
+
+# 2. Skonfiguruj Git hooks
+make install-hooks
+
+# 3. Zweryfikuj konfigurację
+git config core.hooksPath  # Powinno zwrócić: .githooks
+semver --version           # Powinno zwrócić wersję semver
+```
+
+**Dlaczego to jest wymagane?**
+- Pre-commit hook automatycznie wersjonuje pliki `.md`
+- Zapewnia spójność wersjonowania w całym projekcie
+- Wymuszane przez CI/CD - PR bez prawidłowego wersjonowania zostanie odrzucony
+
+**Szczegółowa instrukcja:** [`docs/setup/onboarding.md`](docs/setup/onboarding.md)
+
 ### 1. Fork & Clone
 
 ```bash
@@ -21,6 +47,9 @@ Dziękujemy za zainteresowanie projektem E-Waste Workshop! 🎉
 # Następnie sklonuj swój fork:
 git clone https://github.com/TWOJ_USERNAME/eww.git
 cd eww
+
+# WAŻNE: Od razu po sklonowaniu uruchom:
+make install-hooks
 ```
 
 ### 2. Utwórz branch
@@ -35,6 +64,7 @@ git checkout -b fix/nazwa-bugfixa
 
 - Pisz kod zgodnie z konwencjami projektu (patrz [AGENTS.md](AGENTS.md))
 - Komentarze i komunikaty **po polsku**
+- **Pliki Markdown muszą mieć frontmatter z `version`** (hook doda automatycznie)
 - Dodaj testy dla nowych funkcji
 - Sprawdź kod: `make lint` (jeśli dostępne)
 
@@ -51,17 +81,42 @@ refactor: refaktoryzacja komponentu W
 test: dodaj testy dla V
 ```
 
-### 5. Push & Pull Request
+### 5. Sprawdź wersjonowanie
+
+Przed push sprawdź spójność wersji:
+
+```bash
+make check-versions
+```
+
+Jeśli są błędy, napraw je:
+
+```bash
+make sync-versions  # Synchronizuje wszystkie pliki z VERSION
+```
+
+### 6. Push & Pull Request
 
 ```bash
 git push origin feat/nazwa-funkcji
 ```
 
 Utwórz Pull Request na GitHubie z opisem:
+
 - Co zmienia PR?
 - Dlaczego ta zmiana jest potrzebna?
 - Czy dodano testy?
 - Screenshot/demo (jeśli dotyczy UI/workflow)
+
+**Checklist (wymagane przed zatwierdzeniem PR):**
+
+- [ ] ✅ Zainstalowano Git hooks (`make install-hooks`)
+- [ ] ✅ Przeczytano [`docs/setup/onboarding.md`](docs/setup/onboarding.md)
+- [ ] ✅ Sprawdzono spójność wersji (`make check-versions`)
+- [ ] ✅ Wszystkie pliki `.md` mają frontmatter z `version`
+- [ ] ✅ Testy przechodzą (`bats tests/`)
+- [ ] ✅ Commit messages zgodne z Conventional Commits
+- [ ] ✅ Kod i komentarze po polsku
 
 ## 🧪 Testowanie
 
@@ -124,3 +179,9 @@ Projekt przestrzega [Code of Conduct](CODE_OF_CONDUCT.md). Bądź uprzejmy/a i p
 ---
 
 **Dzięki za wkład w projekt! 🚀**
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

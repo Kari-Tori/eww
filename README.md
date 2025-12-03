@@ -1,7 +1,9 @@
 ---
 title: E-Waste Workshop
+modified: 2025-11-28
+created: 2025-11-05
 description: Dokumentacja biznesu E-Waste Workshop - recykling, refabrykacja i automatyzacja
-version: 0.0.0.5
+version: 0.0.6
 author: E-Waste Workshop Team
 repository: https://github.com/Nairecth/eww
 website: https://e-wasteworkshop.co.uk
@@ -62,8 +64,8 @@ updated: 2025-11-29
 
 ## 📍 Lokalizacja
 
-- 77C Church Lane, N9 9PZ (London) – outbuilding za domem Gary’ego.  
-- Szczegóły miejsca: `docs/infra/location.md`; łączność (Gary Net): `docs/infra/network/garynet.md`.
+- 77C Church Lane, N9 9PZ (London) – outbuilding za domem Gary’ego.
+- Szczegóły miejsca: `docs/infra/areas/workshop/location.md`; łączność (Gary Net): `docs/infra/hardware/network/garynet.md`.
 
 ## 🧭 Model i kanały
 
@@ -82,7 +84,7 @@ updated: 2025-11-29
 > [!summary] 🔆 Highlights
 > - **Zero Waste Policy** → `ZERO-WASTE-POLICY.md`
 > - **Story & Roadmap** → `business/story.md`, `business/roadmap.md`
-> - **Infra & Miejsce** → `docs/infra/location.md`, `docs/infra/network/garynet.md`, `docs/infra/hardware/hardware.md`
+> - **Infra & Miejsce** → `docs/infra/areas/workshop/location.md`, `docs/infra/hardware/network/garynet.md`, `docs/infra/hardware/hardware.md`
 > - **Proces** → `make check-versions` (tag + VERSION + frontmatter), `Makefile` (help)
 
 > [!note] 🚀 Szybkie linki
@@ -134,11 +136,26 @@ eww/
 
 ## 🧾 Versionowanie
 
-> [!tip] 🔖 Versioning
-> - Wersja pochodzi z taga Git `vX.Y.Z` (wymagany); `VERSION` i frontmatter są synchronizowane z tagiem.
-> - Sprawdź wersję: `make version`.
-> - Podbij wersję: `make bump-version BUMP=0.0.0.6` (aktualizuje `VERSION`, dopisuje wpis w `CHANGELOG.md`).
-> - Walidacja spójności (tag + pliki): `make check-versions`.
+> [!warning] 🚨 WYMAGANE dla wszystkich użytkowników
+> Przed pierwszym committem **MUSISZ** skonfigurować wersjonowanie:
+> ```bash
+> npm install -g semver     # Zainstaluj semver CLI
+> make install-hooks        # Skonfiguruj Git hooks
+> ```
+> **Instrukcja:** [`docs/setup/onboarding.md`](docs/setup/onboarding.md)
+
+> [!tip] 🔖 Versioning (Semver + Automatyzacja + Enforcement)
+> - Projekt używa **Semantic Versioning** z automatyzacją (`semver` CLI + skrypty + Git tags).
+> - **Aktualna wersja:** `0.0.6` (tag `v0.0.6`)
+> - Sprawdź wersję: `make version`
+> - Podbij wersję: `make bump-version BUMP=patch` (sync VERSION + frontmattery + tag)
+> - Walidacja: `make check-versions`
+> - **Pre-commit hook:** auto-bump `version` i `modified` w plikach `.md`
+> - **Pre-push hook:** waliduje spójność wersji przed push
+> - **CI/CD:** GitHub Actions sprawdza wersjonowanie na każdym PR
+> - **📚 Kompletna dokumentacja:** [docs/versioning/enforcement-complete.md](docs/versioning/enforcement-complete.md)
+> - **🚀 Szybki start:** [docs/versioning/quickstart.md](docs/versioning/quickstart.md)
+> - **📋 Onboarding:** [docs/setup/onboarding.md](docs/setup/onboarding.md)
 
 ## 📖 Dokumentacja
 
@@ -148,14 +165,14 @@ eww/
 - 🗑️ **[ZERO-WASTE-POLICY.md](ZERO-WASTE-POLICY.md)** - Zasada „wszystko jest surowcem”
 - 🧭 **[business/story.md](business/story.md)** - Backstory i oś czasu zespołu
 - 🗺️ **[business/roadmap.md](business/roadmap.md)** - Roadmapa biznesowa i KPI
-- 📍 **[docs/infra/location.md](docs/infra/location.md)** - Lokalizacja warsztatu
-- 🌐 **[docs/infra/network/garynet.md](docs/infra/network/garynet.md)** - Łączność (Gary Net)
+- 📍 **[docs/infra/areas/workshop/location.md](docs/infra/areas/workshop/location.md)** - Lokalizacja warsztatu
+- 🌐 **[docs/infra/hardware/network/garynet.md](docs/infra/hardware/network/garynet.md)** - Łączność (Gary Net)
 - 🖥️ **[docs/infra/hardware/hardware.md](docs/infra/hardware/hardware.md)** - Sprzęt i stanowiska
 - 🔄 **[core/workflow/](core/workflow/)** - Workflow i procesy
 - 🧩 **[business/](business/)** - Governance, metodyki, procesy biznesowe
 
 > [!todo] 🗺️ Roadmap (skrót)
-> - [ ] Migracja struktur wg `docs/infra/RESTRUCTURE-MAP.md` (dev→development, usr→users)
+> - [ ] Migracja struktur wg `docs/governance/RESTRUCTURE-MAP.md` (dev→development, usr→users)
 > - [ ] Inwentaryzacja Odoo + AI (przyjęcie → test → refabrykacja → magazyn → sprzedaż)
 > - [ ] Seria YouTube (mobilne/pato-naprawy) + produkt FCGH
 > - [ ] Runbook systemd i ujednolicone README narzędzi
@@ -185,8 +202,8 @@ Projekt jest dostępny na licencji **MIT**. Zobacz [LICENSE](LICENSE) dla szczeg
 
 ### 🗺️ Lokalizacja (77C Church Lane, N9 9PZ)
 
-- Outbuilding za domem Gary’ego (Warsztat/Office). Google Maps: [77C Church Lane, N9 9PZ](https://maps.google.com/?q=77C+Church+Lane+N9+9PZ)  
-  Statyczna mapa z pinezką (OSM kafel + marker):  
+- Outbuilding za domem Gary’ego (Warsztat/Office). Google Maps: [77C Church Lane, N9 9PZ](https://maps.google.com/?q=77C+Church+Lane+N9+9PZ)
+  Statyczna mapa z pinezką (OSM kafel + marker):
   ![Mapa z pinezką – 77C Church Lane, N9 9PZ](docs/assets/map-eww.png)
 
 > [!info] 🌟 Status projektu
@@ -204,3 +221,9 @@ Projekt jest dostępny na licencji **MIT**. Zobacz [LICENSE](LICENSE) dla szczeg
 ---
 
 **♻️ Razem redukujemy e-waste i tworzymy wartość z odpadów elektronicznych! 🌍**
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

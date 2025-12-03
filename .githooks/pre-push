@@ -1,3 +1,75 @@
-#!/bin/sh
-command -v git-lfs >/dev/null 2>&1 || { printf >&2 "\n%s\n\n" "This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting the 'pre-push' file in the hooks directory (set by 'core.hookspath'; usually '.git/hooks')."; exit 2; }
-git lfs pre-push "$@"
+#!/usr/bin/env bash
+# Pre-push hook - walidacja wersjonowania + Git LFS
+set -euo pipefail
+
+readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+readonly REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# Kolory
+readonly RED='\033[0;31m'
+readonly GREEN='\033[0;32m'
+readonly YELLOW='\033[1;33m'
+readonly NC='\033[0m'
+
+log_info() {
+    echo -e "${GREEN}[EWW]${NC} $*"
+}
+
+log_warn() {
+    echo -e "${YELLOW}[EWW]${NC} $*" >&2
+}
+
+log_error() {
+    echo -e "${RED}[EWW]${NC} $*" >&2
+}
+
+# Sprawdź spójność wersjonowania
+check_versions() {
+    log_info "Sprawdzam spójność wersjonowania..."
+    
+    cd "$REPO_ROOT" || exit 1
+    
+    if [[ -f Makefile ]] && make -n check-versions &>/dev/null; then
+        if ! make check-versions >/dev/null 2>&1; then
+            log_error "Wykryto niespójności w wersjonowaniu!"
+            log_info "Uruchom: make check-versions aby zobaczyć szczegóły"
+            log_info "Napraw: make sync-versions"
+            return 1
+        fi
+    fi
+    
+    log_info "✅ Wersjonowanie OK"
+    return 0
+}
+
+# Git LFS pre-push
+run_git_lfs() {
+    if command -v git-lfs >/dev/null 2>&1; then
+        git lfs pre-push "$@"
+    fi
+}
+
+# Główna funkcja
+main() {
+    log_info "Pre-push: walidacja wersjonowania"
+    
+    # Sprawdź wersjonowanie
+    if ! check_versions; then
+        log_error "❌ Push zatrzymany - napraw błędy wersjonowania"
+        echo ""
+        log_info "Szybka naprawa:"
+        log_info "  make sync-versions    # Synchronizuje wersje"
+        log_info "  make check-versions   # Sprawdza spójność"
+        echo ""
+        log_info "Aby ominąć (NIEZALECANE): git push --no-verify"
+        exit 1
+    fi
+    
+    # Uruchom Git LFS
+    run_git_lfs "$@"
+    
+    log_info "✅ Wszystko gotowe do push"
+    exit 0
+}
+
+main "$@"
