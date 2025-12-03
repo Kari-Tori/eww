@@ -1,22 +1,23 @@
 ---
-title: "core - folder note"
+version: 0.0.1
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - karinam
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:54:47
+  - #folder_note
+title: "core"
 ---
 
-# core — folder note
+# core
 
-## README
-Index folderu `usr/karinam/health/clinical/core` dla użytkownika `karinam`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/karinam/health/clinical/core`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- [karta-pacjenta-karinam.md](karta-pacjenta-karinam.md)
-- [profil-zdrowia-karinam.md](profil-zdrowia-karinam.md)
+- [[karta-pacjenta-karinam]]
+- [[profil-zdrowia-karinam]]
+
+## 🔗 Backlinki
+
+- [[clinical]]
+- [[karta-pacjenta-karinam]]
+- [[profil-zdrowia-karinam]]

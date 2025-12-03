@@ -1,22 +1,23 @@
 ---
-title: "procedures - folder note"
+version: 0.0.6
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - karinam
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:54:47
+  - #folder_note
+title: "procedures"
 ---
 
-# procedures — folder note
+# procedures
 
-## README
-Index folderu `usr/karinam/health/clinical/procedures` dla użytkownika `karinam`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/karinam/health/clinical/procedures`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- [operacja-kolana-chondromalacja.md](operacja-kolana-chondromalacja.md)
-- [operacja-reki-rower.md](operacja-reki-rower.md)
+- [[operacja-kolana-chondromalacja]]
+- [[operacja-reki-rower]]
+
+## 🔗 Backlinki
+
+- [[clinical]]
+- [[operacja-kolana-chondromalacja]]
+- [[operacja-reki-rower]]

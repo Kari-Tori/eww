@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-26
+created: 2025-11-08
+version: 0.0.3
 title: MVP — cel i kryteria akceptacji
 description: TODO - uzupełnij opis.
 ---
@@ -79,3 +82,9 @@ Dodatkowe notatki
 ------------------
 - Zalecam wykonanie testów na maszynie wirtualnej z najnowszym Kubuntu.
 - Jeżeli chcesz, mogę automatycznie utworzyć wersję `0.0.0.1` i PR, ale potrzebuję potwierdzenia, że chcesz wypchnąć zmiany do origin i ewentualnie nadpisać tagi jeśli to konieczne.
+
+## 🔗 Backlinks
+
+- [[dev/projects/projects]]
+- [[dev/dev]]
+- [[dev/Development]]

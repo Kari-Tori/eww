@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "extensions-status"
+created: 2025-11-25
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-25T03:13:57Z
 modified: 2025-11-25T03:13:57Z
 author: karinam
@@ -345,3 +354,9 @@ author: karinam
 3. 🔍 Review duplikatów Markdown
 4. 🗑️ Usuń nieużywane C/C++ (jeśli nie pracujesz z C++)
 5. 📝 Aktualizuj ten dokument po zmianach
+
+## 🔗 Backlinks
+
+- [[docs/software/code/code]]
+- [[docs/docs]]
+- [[INDEX]]

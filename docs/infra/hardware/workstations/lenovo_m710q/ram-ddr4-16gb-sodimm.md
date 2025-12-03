@@ -1,9 +1,10 @@
 ---
+version: 0.0.1
 tags:
   - #Lenovo_M710q
   - #ram
-created: 2025-11-22T18:40:00Z
-modified: 2025-11-22T18:40:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "RAM — Lenovo M710q (DDR4 SO-DIMM)"
 owner: jakubc
@@ -17,3 +18,9 @@ owner: jakubc
 ## TODO
 - [ ] @jakubc wpisać producenta/dokładny model modułów.
 - [ ] @jakubc dodać wyniki memtest przy docelowej konfiguracji.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/lenovo_m710q/lenovo_m710q]]
+- [[docs/docs]]
+- [[INDEX]]

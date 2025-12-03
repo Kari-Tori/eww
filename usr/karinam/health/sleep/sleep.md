@@ -1,21 +1,21 @@
 ---
-title: "sleep - folder note"
+version: 0.0.6
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - karinam
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:54:47
+  - #folder_note
+title: "sleep"
 ---
 
-# sleep — folder note
+# sleep
 
-## README
-Index folderu `usr/karinam/health/sleep` dla użytkownika `karinam`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/karinam/health/sleep`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- [sen-karinam.md](sen-karinam.md)
+- [[sen-karinam]]
+
+## 🔗 Backlinki
+
+- [[health]]
+- [[sen-karinam]]

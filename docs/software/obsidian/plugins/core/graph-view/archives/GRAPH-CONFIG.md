@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #config
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T12:00:00Z
-modified: 2025-11-21T12:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🟢 GRAPH: Configuration & Infrastructure"
 
@@ -73,3 +74,9 @@ path:config OR path:infra -path:archive -path:var/log
 
 
 **Instrukcja**: Pin i otwórz Graph View → przegląd konfiguracji! ⚙️
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

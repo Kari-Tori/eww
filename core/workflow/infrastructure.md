@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 tags:
   - #infrastructure
   - #workflow
   - #hardware
   - #software
   - #core
-created: 2025-11-23T19:30:00Z
-modified: 2025-11-23T19:30:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Infrastructure - Sprzęt i oprogramowanie EWW"
 owner: jakubc
@@ -154,7 +155,7 @@ Kompletna dokumentacja infrastruktury projektu EWW: hardware, network, software 
 | ASUS Z77 | 192.168.0.77 | c8:60:00:a2:e2:c0 | enp13s0 | 🟡 LAN OK, WAN FAIL |
 | LENOVO M710q | 192.168.0.40 | - | eno1 | 🔴 NOT CONFIGURED |
 
-**Network docs**: [[docs/infra/network/README]]
+**Network docs**: [[docs/infra/hardware/network/network]]
 
 ---
 
@@ -426,7 +427,7 @@ Checklist dla dodania nowej workstation do infrastruktury:
 
 - [ ] **Documentation**:
   - [ ] Create workstation doc: `docs/infra/hardware/workstations/{hostname}/{hostname}.md`
-  - [ ] Add to network map: `docs/infra/network/README.md`
+  - [ ] Add to network map: `docs/infra/hardware/network/network.md`
   - [ ] Update this file: `core/workflow/infrastructure.md`
 
 ---
@@ -599,7 +600,7 @@ git status
 - [[core/workflow/workflow]] - Complete workflow guide
 - [[core/workflow/git-sync-strategy]] - Git + LiveSync strategy
 - [[docs/infra/hardware/hardware]] - Hardware index
-- [[docs/infra/network/README]] - Network configuration
+- [[docs/infra/hardware/network/network]] - Network configuration
 - [[docs/infra/software/obsidian/obsidian]] - Obsidian documentation
 - [[core/config]] - Core configuration
 
@@ -617,3 +618,9 @@ git status
 **Owner**: jakubc
 **Contributors**: karinam
 **Last updated**: 2025-11-23
+
+## 🔗 Backlinks
+
+- [[core/workflow/workflow]]
+- [[core/core]]
+- [[core/config]]

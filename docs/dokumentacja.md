@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "dokumentacja"
+created: 2025-11-09
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-09T16:56:23Z
 modified: 2025-11-09T16:56:23Z
 author: Nairecth
@@ -466,3 +475,9 @@ author: Nairecth
 **Wygenerowano:** 2025-11-09  
 **Projekt:** E-Waste Workshop  
 **Maintainer:** Nairecth
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

@@ -1,4 +1,6 @@
 ---
+version: 0.0.3
+modified: 2025-11-28
 tags:
   - #automation
   - #eww
@@ -108,3 +110,8 @@ Group 12: #ai
 - Priorytet: częstość występowania × użyteczność wizualna
 - Razem: **12 grup** (6 starych + 6 nowych)
 
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

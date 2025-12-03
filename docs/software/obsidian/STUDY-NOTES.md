@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "STUDY-NOTES"
+created: 2025-11-24
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 # OBSIDIAN - Notatki ze studiowania dokumentacji
 
 ## 📚 KLUCZOWE KONCEPTY
@@ -298,3 +307,9 @@ MyVault/
 - Tags hierarchy: #eww #core #infra #jakubc #karinam
 - MOC notes dla każdego głównego obszaru
 - Graph groups dopasowane do naszej struktury
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

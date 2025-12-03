@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 title: Hashimoto
 description: Choroba Hashimoto – monitoring, wyniki badań i zalecenia.
 tags:
@@ -6,8 +7,8 @@ tags:
   - #health
   - #hashimoto
   - #diagnoza
-created: 2025-11-28T21:52:15Z
-modified: 2025-11-28T21:52:15Z
+created: 2025-11-29
+modified: 2025-11-29
 author: karinam
 ---
 
@@ -24,3 +25,9 @@ author: karinam
 
 ## Notatki
 - ___
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/clinical/diagnoses/diagnoses]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

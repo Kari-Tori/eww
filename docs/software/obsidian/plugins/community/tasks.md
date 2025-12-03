@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "tasks"
+created: 2025-11-29
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 # Obsidian — plugin Tasks
 
 - Repo/plugin: https://github.com/obsidian-tasks-group/obsidian-tasks
@@ -15,3 +24,8 @@ sort by due
 ```
 ```
 
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[docs]]
+- [[README]]

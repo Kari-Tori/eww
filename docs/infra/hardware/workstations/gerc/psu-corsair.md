@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #GERC
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Zasilacz — GERC (Corsair PSU)"
 
@@ -93,3 +94,9 @@ owner: jakubc
 - [ ] @karinam dodać testy napięć (multimetr) dla weryfikacji dokładności HID.
 - [ ] @karinam sprawdzić historię serwisu (wymiana wentylatora, czyszczenie).
 - [ ] @karinam dodać kable modular (jakie są używane, jakie zapasowe).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

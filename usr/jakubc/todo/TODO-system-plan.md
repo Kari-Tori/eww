@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #plan
   - #eww
   - #system
   - #jakubc
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-29
+modified: 2025-11-29
 author: jakubc
 title: "Plan wdrożenia: TODO System (Obsidian + Habitica + Vikunja + Git)"
 status: draft
@@ -142,3 +143,9 @@ Zautomatyzowany obieg zadań: repo (źródło prawdy) ↔ Obsidian (widoki) ↔ 
 - Timer/cron/systemd uruchamia sync bez błędów przez 24h.  
 - Dokumentacja użytkowa (jak uruchomić, gdzie są logi, jak wyłączyć) dostępna w repo.  
 - Konflikty rozstrzygane przewidywalnie (repo-wins lub timestamp), odnotowane w logu.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/todo/todo]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

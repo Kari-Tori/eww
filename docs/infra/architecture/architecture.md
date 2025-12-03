@@ -1,69 +1,21 @@
 ---
+version: 0.0.5
+created: 2025-11-21
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #automation
-  - #docs
-  - #eww
-  - #infrastructure
-  - #knowledge
-  - #linux
-  - #secondbrain
-created: 2025-11-21T20:00:00Z
-modified: 2025-11-21T10:00:00Z
-author: jakubc
-title: "📁 architecture"
-
-
-
-
-
-
-owner: jakubc
+title: "architecture"
 ---
 
-# 📁 architecture
+# architecture
 
-> **Folder Note** - centralny index dla katalogu `architecture/`
+Notatka folderu dla `docs/infra/architecture`
 
-## 📋 Cel folderu
+## 📄 Pliki w tym folderze
 
-Katalog `architecture` zawiera 1 plików i 0 podfolderów.
+- [[Systems_Deep_Dive]]
 
-**Przeznaczenie:**
-- Dokumentacja projektowa i techniczna
+## 🔗 Backlinki
 
-
-## 📄 Pliki w folderze
-
-- [[Systems_Deep_Dive]] - 🏗️ Systemy wewnętrzne
-
-## 📂 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Nawigacja
-
-- ⬆️ [[infra/infra|infra]] - Folder nadrzędny
-- 🏠 [[infra/infra.md|Infra README]] - Główny index
-
-
-**Lokalizacja:** `docs/infra/architecture`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-- [Systems_Deep_Dive](Systems_Deep_Dive.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[infra]]
+- [[Systems_Deep_Dive]]

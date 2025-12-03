@@ -1,4 +1,6 @@
 ---
+version: 0.0.4
+modified: 2025-12-01
 tags:
   - #automation
   - #eww
@@ -190,8 +192,12 @@ Przykład #FF69B4:
 - [[GRAPH-FIX-INSTRUCTIONS.md]] - Instrukcje optymalizacji
 - [[TAG-STRATEGY.md]] - Strategia tagowania (jeśli istnieje)
 
+
 ## 🔗 Backlinks
 
+- [[INDEX]]
+- [[README]]
+- [[docs]]
 - [[eww.md]] - Główny vault note
 - [[FULL-INDEX.md]] - Kompletny indeks
 - [[docs.md]] - Dokumentacja

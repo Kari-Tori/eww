@@ -1,44 +1,21 @@
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
 ---
+version: 0.0.5
+created: 2025-11-21
+modified: 2025-11-28
 tags:
-  - #automation
-  - #docs
-  - #eww
-  - #karinam
-  - #knowledge
-  - #linux
-  - #secondbrain
-
-
-
-
-
-
-owner: jakubc
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
+  - #folder_note
+title: "devices"
 ---
 
-# 📁 devices
+# devices
 
-## Opis
-Folder zawierający zasoby związane z: devices
+Notatka folderu dla `docs/archive/04_TEAM/karinam/devices`
 
-## 📋 Zawartość folderu
+## 📄 Pliki w tym folderze
 
-- [[iphone-karina]] - 04_TEAM/karinam/devices/iphone-karina
+- [[iphone-karina]]
 
-## 🔗 Powiązania
+## 🔗 Backlinki
 
-- [[karinam]] - Folder nadrzędny\n
-
-## 📑 Index plików
-
-- [iphone-karina](iphone-karina.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
+- [[karinam]]
+- [[iphone-karina]]

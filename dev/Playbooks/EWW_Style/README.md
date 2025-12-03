@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #books
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T23:00:00Z
-modified: 2025-11-21T23:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "EWW_Style — Playbook pakietu stylistycznego (KDE/Plasma 6)"
 
@@ -52,3 +53,9 @@ Diagnostyka:
 ```bash
 ./eww-doctor.sh
 ```
+
+## 🔗 Backlinks
+
+- [[dev/Playbooks/EWW_Style/EWW_Style]]
+- [[dev/dev]]
+- [[dev/Development]]

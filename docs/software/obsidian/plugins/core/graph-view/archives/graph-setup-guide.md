@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T13:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🎨 Graph Setup Guide - Kompleksowa Konfiguracja"
 
@@ -228,3 +229,9 @@ SORT file.mtime DESC
 **Ostatnia aktualizacja:** 2025-11-21  
 **Autor:** jakubc  
 **Status:** ✅ Production ready
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #GERC
   - #folder_note
@@ -8,8 +9,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Storage — index"
 
@@ -73,3 +74,9 @@ Ten folder trzyma karty każdego nośnika danych w systemie GERC.
 - [ ] @karinam dodać benchmarki dysków (fio, hdparm, crystaldiskmark).
 - [ ] @karinam zanotować status health każdego dysku (SMART attributes).
 - [ ] @karinam opisać partycjonowanie każdego dysku (sfdisk -l, lsblk -f).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/storage/storage]]
+- [[docs/docs]]
+- [[INDEX]]

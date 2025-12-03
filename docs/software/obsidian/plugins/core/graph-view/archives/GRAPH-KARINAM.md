@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #docs
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T14:19:10Z
-modified: 2025-11-21T14:19:10Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🩷 GRAPH: Karinam Personal"
 
@@ -33,3 +34,9 @@ path:usr/karinam
 - 🩷 #pink #candy - notatki karinam
 
 [[usr/karinam/karinam]]
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #obsidian
   - #documentation
   - #workflow
-created: 2025-11-27
-modified: 2025-11-27
+created: 2025-11-28
+modified: 2025-11-28
 author: karinam
 title: "Obsidian - Dokumentacja konfiguracji"
 ---
@@ -31,3 +32,9 @@ title: "Obsidian - Dokumentacja konfiguracji"
 
 - `/docs/graph.md` - Główny przewodnik Graph
 - `../graph/README.md` - Dokumentacja Graph View
+
+## 🔗 Backlinks
+
+- [[dev/obsidian/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

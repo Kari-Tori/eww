@@ -1,12 +1,13 @@
 ---
+version: 0.0.2
 tags:
   - #obsidian
   - #graph
   - #plugin
   - #core
   - #docs
-created: 2025-11-22T19:40:00Z
-modified: 2025-11-22T19:40:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Graph View - Core Plugin"
 plugin_type: core
@@ -242,3 +243,9 @@ Więcej: [[graph/GRAPH-FIX-INSTRUCTIONS]]
 |------|--------|
 | 2025-11-22 | Utworzono dokumentację Graph View jako core plugin |
 | 2025-11-22 | Dodano color groups i CSS styling |
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

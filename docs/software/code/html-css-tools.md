@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "html-css-tools"
+created: 2025-11-25
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-25T03:13:57Z
 modified: 2025-11-25T03:13:57Z
 author: karinam
@@ -868,3 +877,9 @@ author: karinam
 3. Utwórz przykładowy projekt HTML/CSS
 4. Przetestuj Live Server
 5. Przetestuj Emmet abbreviations
+
+## 🔗 Backlinks
+
+- [[docs/software/code/code]]
+- [[docs/docs]]
+- [[INDEX]]

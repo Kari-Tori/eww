@@ -1,9 +1,11 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: Sernik – workflow i przepis Kariny
 description: Szablon przepisu z krokami, temperaturą, czasem i miejscem na osobiste tipy (ze śliwkami w roli głównej).
 lang: pl
 type: note
-created: "2025-11-19"
+created: 2025-11-25
 updated: "2025-11-19"
 tags:
   - food
@@ -51,4 +53,10 @@ plugins:
 ## 🧠 Notatki Kariny
 - [ ] Wpisz, jaki spód sprawdza się najlepiej z powidłami śliwkowymi.  
 - [ ] Dopisz, jak smak układa się następnego dnia (czy sernik „zdegustowal się” i co warto poprawić).  
-- [ ] Jeśli masz wariant „fit”, dopisz opcje: mniejsze porcje, słodziki, extra białko.  
+- [ ] Jeśli masz wariant „fit”, dopisz opcje: mniejsze porcje, słodziki, extra białko.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/sernik/sernik]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

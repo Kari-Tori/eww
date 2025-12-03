@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "yaml_example"
+created: 2025-11-24
+modified: 2025-12-01
+tags:
+  - auto-versioned
+---
+
 # `yaml_example.yaml` · Przewodnik linia po linii
 
 Ten dokument objaśnia referencyjny szablon YAML dla kart zadań na Kubuntu 25.04. Każda sekcja nawiązuje do odpowiednich fragmentów pliku `yaml_example.yaml`.
@@ -44,4 +53,10 @@ Ten dokument objaśnia referencyjny szablon YAML dla kart zadań na Kubuntu 25
 **Użycie**  
 1. Otwórz `yaml_example.yaml` jako bazę dla nowej karty zadania.  
 2. W `yaml_example.md` sprawdź opis sekcji, jeśli potrzebujesz przypomnienia, co wypełniać.  
-3. Skopiuj relevantne pola do docelowej notatki i dostosuj wartości, zachowując strukturę.  
+3. Skopiuj relevantne pola do docelowej notatki i dostosuj wartości, zachowując strukturę.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/study/yaml/yaml]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

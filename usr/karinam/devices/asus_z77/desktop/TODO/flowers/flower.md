@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - todo
   - flowers
@@ -6,8 +7,8 @@ tags:
   - karinam
   - dashboard
 type: task-dashboard
-created: 2025-11-22T20:50:00Z
-modified: 2025-11-22T22:10:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: karinam
 title: "🌸 Flowers Dashboard - Inwentaryzacja"
 deadline: 2025-11-22
@@ -318,3 +319,9 @@ Przywiozła Karina ze sobą
 **Priorytet:** 🟡 P7 (Wysokie)  
 **Status:** 🟡 W trakcie  
 **Progress:** 0/10 (0%)
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/desktop/TODO/flowers/flowers]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

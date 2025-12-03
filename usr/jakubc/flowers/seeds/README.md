@@ -1,9 +1,11 @@
 ---
+version: 0.0.1
+modified: 2025-11-24
 tags:
   - #flowers
   - #seeds
   - #inventory
-created: 2025-11-22T20:48:00Z
+created: 2025-11-24
 author: jakubc
 title: "Nasionka i sadzonki"
 owner: jakubc
@@ -49,3 +51,9 @@ owner: jakubc
 ---
 
 **Ostatnia aktualizacja:** 2025-11-22
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/flowers/seeds/seeds]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

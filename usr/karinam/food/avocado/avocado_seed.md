@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-29
 title: Pestka awokado – skład i zastosowania
 description: Co siedzi w pestce awokado Hass, zasady bezpieczeństwa i pomysły na wykorzystanie poza sadzeniem.
 author: E-Waste Workshop
-created: 2025-11-28
+created: 2025-11-29
 updated: 2025-11-28
 tags:
   - food
@@ -62,3 +64,9 @@ plugins:
 - [[avocado/avocado.md|Awokado – przewodnik]]
 - [[avocado/avocado_dom.md|Awokado Hass w mieszkaniu (kielkowanie)]]
 - [[avocado/avocado_hass.md|Awokado Hass – przewodnik odmiany]]
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/avocado/avocado]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

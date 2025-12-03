@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "delta7-obi-wan"
+created: 2025-11-25
+modified: 2025-11-25
+tags:
+  - auto-versioned
+---
+
 # Delta-7 Obi-Wan Kenobi — starship index
 
 > Finalny build ma być najwierniejszym odwzorowaniem minifig-scale Delta-7. Najlepszy model / MOC do weryfikacji stoi tu do wpisania.
@@ -16,3 +25,9 @@
 ## Powiązania
 - **Jedi:** [Delta-7 Obi-Wan Kenobi](../../../fun/lego/star_wars/characters/obi-wan-kenobi.md)
 - **Astrodroid:** [R4-P17](../droids/r4-p17.md)
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

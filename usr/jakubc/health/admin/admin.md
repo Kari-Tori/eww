@@ -1,21 +1,20 @@
 ---
-title: "admin - folder note"
+version: 0.0.1
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - jakubc
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:54:47
+  - #folder_note
+title: "admin"
 ---
 
-# admin — folder note
+# admin
 
-## README
-Index folderu `usr/jakubc/health/admin` dla użytkownika `jakubc`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/jakubc/health/admin`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- (brak plików)
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[health]]

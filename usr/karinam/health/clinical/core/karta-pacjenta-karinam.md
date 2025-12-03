@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 title: Karta pacjenta – Karinam
 description: Skrót kluczowych danych, diagnoz i kontaktów – do szybkiego wglądu i załączania dokumentów.
 tags:
   - #karinam
   - #health
   - #karta
-created: 2025-11-28T21:54:32Z
-modified: 2025-11-29T00:23:33Z
+created: 2025-11-29
+modified: 2025-11-29
 author: karinam
 ---
 
@@ -58,3 +59,9 @@ author: karinam
 
 ## Notatki robocze
 - ___
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/clinical/core/core]]
+- [[core/core]]
+- [[core/config]]

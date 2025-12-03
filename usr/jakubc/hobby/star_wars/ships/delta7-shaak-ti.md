@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "delta7-shaak-ti"
+created: 2025-11-25
+modified: 2025-11-25
+tags:
+  - auto-versioned
+---
+
 # Delta-7 Shaak Ti — starship index
 
 > Finalny build ma być najwierniejszym odwzorowaniem minifig-scale Delta-7. Najlepszy model / MOC do weryfikacji stoi tu do wpisania.
@@ -16,3 +25,9 @@
 ## Powiązania
 - **Jedi:** [Delta-7 Shaak Ti](../../../fun/lego/star_wars/characters/shaak-ti.md)
 - **Astrodroid:** [R4-L3](../droids/r4-l3.md)
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

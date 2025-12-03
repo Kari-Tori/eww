@@ -1,11 +1,12 @@
 ---
+version: 0.0.6
 tags:
   - template
   - sales
   - ebay
   - listing
-created: 2025-11-28T19:30:00Z
-modified: 2025-11-28T19:30:00Z
+created: 2025-11-28
+modified: 2025-11-28
 author: karinam
 title: "Template: eBay Listing"
 ---
@@ -163,3 +164,9 @@ Refund issued upon inspection.
 - [ ] Tracking number do kupującego
 - [ ] Plik przeniesiony do `sales/sold/`
 - [ ] Status zmieniony na 'sold'
+
+## 🔗 Backlinks
+
+- [[ops/sales/templates/templates]]
+- [[ops/ops]]
+- [[ops/ops-workflow]]

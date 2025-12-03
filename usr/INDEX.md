@@ -1,12 +1,13 @@
 ---
+version: 0.0.6
 tags:
   - #automation
   - #eww
   - #index
   - #ssh
   - #remote
-created: 2025-11-22T14:00:00Z
-modified: 2025-11-22T14:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "📑 Index katalogu usr/"
 owner: jakubc
@@ -180,3 +181,9 @@ usr/
 - VS Code łączy się zdalnie przez SSH
 - Edycja plików odbywa się bezpośrednio na zdalnej maszynie
 - Nie trzeba synchronizować - wszystko jest real-time!
+
+## 🔗 Backlinks
+
+- [[usr/usr]]
+- [[usr/INDEX.md/INDEX.md]]
+- [[EWW-MAP]]

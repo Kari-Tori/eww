@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "Obsidian_Dashboard"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T10:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -91,3 +100,9 @@ Aktualizuj ręcznie po każdej większej zmianie.
 
 ## **Notatka**
 Ten dashboard możesz dostosować do potrzeb — dodając linki, sekcje projektowe i szybki dostęp do MOC.
+
+## 🔗 Backlinks
+
+- [[docs/methodologies/methodologies]]
+- [[docs/docs]]
+- [[INDEX]]

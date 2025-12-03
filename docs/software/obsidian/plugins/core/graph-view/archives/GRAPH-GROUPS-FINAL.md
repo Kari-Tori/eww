@@ -1,4 +1,6 @@
 ---
+version: 0.0.3
+modified: 2025-11-28
 tags:
   - #automation
   - #eww
@@ -228,3 +230,9 @@ Graf wyświetla kolor według pierwszego pasującego tagu w kolejności:
 ---
 
 *Wygenerowano: 2025-11-21 | Autor: jakubc | EWW Repo*
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

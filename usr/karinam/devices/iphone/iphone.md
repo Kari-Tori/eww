@@ -1,51 +1,20 @@
 ---
+version: 0.0.2
+created: 2025-11-24
+modified: 2025-11-25
 tags:
-  - #device
-  - #iphone
-  - #karinam
-  - #mobile
-created: 2025-11-22T23:01:42Z
-modified: 2025-11-22T23:01:42Z
-author: jakubc
-title: "iPhone - szablon urządzenia"
+  - #folder_note
+title: "iphone"
 ---
 
-# iPhone karinam
+# iphone
 
-## Informacje podstawowe
-- **Model:** [do uzupełnienia]
-- **System:** iOS [wersja]
-- **IMEI:** [do uzupełnienia]
-- **Numer telefonu:** [do uzupełnienia]
+Notatka folderu dla `usr/karinam/devices/iphone`
 
-## Konfiguracja
+## 📄 Pliki w tym folderze
 
-### Apple ID
-- **Email:** [do uzupełnienia]
-- **iCloud:** [włączone/wyłączone]
+*Brak plików markdown w tym folderze.*
 
-### Synchronizacja
-- [ ] Kontakty
-- [ ] Kalendarz
-- [ ] Zdjęcia
-- [ ] Notatki
-- [ ] Hasła
+## 🔗 Backlinki
 
-## Aplikacje
-
-### Produktywność
-- [ ] [lista aplikacji]
-
-### Komunikacja
-- [ ] [lista aplikacji]
-
-### Inne
-- [ ] [lista aplikacji]
-
-## Kopie zapasowe
-- **Typ:** [iCloud/iTunes/lokalny]
-- **Częstotliwość:** [do uzupełnienia]
-- **Ostatnia kopia:** [data]
-
-## Notatki
-[Dodatkowe informacje o urządzeniu]
+- [[devices]]

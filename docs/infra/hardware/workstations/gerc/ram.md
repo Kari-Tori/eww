@@ -1,4 +1,5 @@
 ---
+version: 0.0.8
 tags:
   - #GERC
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-21T10:00:00Z
-modified: 2025-11-21T17:00:00Z
+created: 2025-11-05
+modified: 2025-11-24
 author: jakubc
 title: "RAM — gerc"
 
@@ -33,3 +34,9 @@ owner: jakubc
 ## Zadania
 - [ ] @karinam wpisać producentów modułów i profile XMP.
 - [ ] @karinam notować wyniki memtest oraz daty testów.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

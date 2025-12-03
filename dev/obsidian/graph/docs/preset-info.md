@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "preset-info"
+created: 2025-11-28
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 # Multi-Graph Strategy - ACTIVE
 
 ## 🎯 Obecny preset: ULTIMATE PERFORMANCE
@@ -62,3 +71,9 @@ dev/obsidian/
 ├── graph-presets.md    # Pełna dokumentacja (321 linii)
 └── graph-preset-info.md # Ten plik (quick ref)
 ```
+
+## 🔗 Backlinks
+
+- [[dev/obsidian/graph/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

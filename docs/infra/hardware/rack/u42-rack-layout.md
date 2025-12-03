@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #infrastructure
   - #rack
   - #hardware
   - #layout
-created: 2025-11-23T21:00:00Z
-modified: 2025-11-23T21:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "U42 Rack - Layout szafy"
 owner: jakubc
@@ -189,7 +190,7 @@ GÓRA SZAFY (okablowanie wchodzi od góry, pomieszczenie 24m²)
 ## 🔗 Powiązane dokumenty
 
 - [[docs/infra/hardware/network/cisco-switch-port-map]] - Mapa portów Cisco
-- [[docs/infra/network/network-deployment-2025-11-23]] - Log wdrożenia
+- [[docs/infra/hardware/network/network-deployment-2025-11-23]] - Log wdrożenia
 - [[core/workflow/infrastructure]] - Infrastruktura ogólna
 - [[docs/infra/hardware/workstations/gerc/gerc]] - GERC specs
 - [[docs/infra/hardware/workstations/asus_z77/asus_z77]] - ASUS Z77 specs
@@ -200,3 +201,9 @@ GÓRA SZAFY (okablowanie wchodzi od góry, pomieszczenie 24m²)
 **Ostatnia aktualizacja**: 2025-11-23 21:00 (szablon)
 **Osoba aktualizująca**: jakubc
 **Status**: 🔴 Szablon - wypełnić po montażu Cisco w U3-U4
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/rack/rack]]
+- [[docs/docs]]
+- [[INDEX]]

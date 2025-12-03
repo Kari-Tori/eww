@@ -1,3 +1,12 @@
+---
+version: 0.0.5
+title: "neovim-guide"
+created: 2025-11-10
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-10T15:44:41Z
 modified: 2025-11-24T22:34:18Z
 author: Nairecth
@@ -369,3 +378,9 @@ nvim -p dev/tests/test_neovim.{md,yaml,sh}
 **Autor:** Nairecth  
 **Data:** 2025-11-09  
 **Wersja:** 1.0.0
+
+## 🔗 Backlinks
+
+- [[docs/infra/guide/guide]]
+- [[docs/docs]]
+- [[INDEX]]

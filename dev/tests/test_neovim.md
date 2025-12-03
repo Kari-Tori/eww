@@ -1,4 +1,5 @@
 ---
+version: 0.0.5
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #testing
-created: 2025-11-21T09:00:00Z
-modified: 2025-11-21T09:00:00Z
+created: 2025-11-10
+modified: 2025-11-25
 author: jakubc
 title: "Test Neovim - Markdown"
 
@@ -85,3 +86,9 @@ $$
 - [ ] Format on save
 - [ ] Live preview
 - [ ] Spell check (PL + EN)
+
+## 🔗 Backlinks
+
+- [[dev/tests/tests]]
+- [[dev/dev]]
+- [[dev/Development]]

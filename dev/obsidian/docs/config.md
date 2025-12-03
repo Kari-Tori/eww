@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "config"
+created: 2025-11-28
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 # Obsidian - Konfiguracja EWW Vault
 
 ## 📋 Obecne ustawienia
@@ -185,3 +194,9 @@ Każdy vault ma własny `.obsidian/` folder, więc może mieć różne ustawieni
 
 **Ostatnia aktualizacja:** 24.11.2025  
 **Edytor:** Karina M. + AI Assistant
+
+## 🔗 Backlinks
+
+- [[dev/obsidian/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

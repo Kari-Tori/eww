@@ -1,7 +1,9 @@
 ---
+version: 0.0.1
+modified: 2025-11-25
 title: Obsidian Settings - Konfiguracja
 author: Jakub C.
-created: 2025-11-24
+created: 2025-11-25
 updated: 2025-11-24
 tags:
   - obsidian
@@ -189,3 +191,9 @@ W `appearance.json` po prostu usuń nazwę snippeta z tablicy `enabledCssSnippet
 
 **Ostatnia aktualizacja:** 2025-11-24  
 **Vault:** `/home/karinam/git/eww`
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/settings/settings]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

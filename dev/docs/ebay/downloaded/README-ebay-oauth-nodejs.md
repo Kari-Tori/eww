@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "README-ebay-oauth-nodejs"
+created: 2025-12-01
+modified: 2025-12-01
+tags:
+  - auto-versioned
+---
+
 # Ebay Oauth Client
 
 This code allows developers to fetch an OAuth token that can be used to call the eBay Developer REST APIs.  The code is intended for use with Node.js.
@@ -194,3 +203,9 @@ Use of this source code is governed by a Apache-2.0 license that can be found in
 * Getting Client Id and Client Secret: https://developer.ebay.com/api-docs/static/oauth-credentials.html
 * Getting your redirect_uri value: https://developer.ebay.com/api-docs/static/oauth-redirect-uri.html
 * Specifying right scopes: https://developer.ebay.com/api-docs/static/oauth-scopes.html
+
+## 🔗 Backlinks
+
+- [[dev/docs/ebay/downloaded/downloaded]]
+- [[docs/docs]]
+- [[INDEX]]

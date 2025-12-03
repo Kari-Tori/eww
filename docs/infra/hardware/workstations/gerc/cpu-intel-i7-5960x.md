@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #GERC
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "CPU — GERC"
 
@@ -83,3 +84,9 @@ Zobacz: [Chłodzenie CPU](case/case-cpu-cooler.md)
 - [ ] @karinam dodać historię overclockingu (jeśli był) i napięcia VCore
 - [ ] @karinam zanotować procedurę wymiany pasty termicznej i ostatnią datę serwisu
 - [ ] @karinam dodać testy wydajności (Geekbench, Cinebench, PassMark)
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

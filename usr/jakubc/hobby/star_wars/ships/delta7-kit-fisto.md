@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "delta7-kit-fisto"
+created: 2025-11-25
+modified: 2025-11-25
+tags:
+  - auto-versioned
+---
+
 # Delta-7 Kit Fisto — starship index
 
 > Finalny build ma być najwierniejszym odwzorowaniem minifig-scale Delta-7. Najlepszy model / MOC do weryfikacji stoi tu do wpisania.
@@ -16,3 +25,9 @@
 ## Powiązania
 - **Jedi:** [Delta-7 Kit Fisto](../../../fun/lego/star_wars/characters/kit-fisto.md)
 - **Astrodroid:** [R4-P44](../droids/r4-p44.md)
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

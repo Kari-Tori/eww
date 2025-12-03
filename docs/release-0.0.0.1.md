@@ -1,4 +1,6 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: Release 0.0.0.1 — MVP
 description: Dokument
 type: document
@@ -6,7 +8,7 @@ category: documentation
 tags:
   - document
 language: pl
-created: 2025-11-09
+created: 2025-11-08
 updated: 2025-11-09
 ---
 
@@ -87,3 +89,9 @@ tail -n 80 "${EWW_LOG_FILE:-${XDG_STATE_HOME:-$HOME/.local/state}/eww/init-eww.l
 ---
 
 Dokument utworzony jako część wydania 0.0.0.1 (MVP) — plik `README.md` głównego katalogu repo jest wersjonowany i każda jego zmiana pojawia się w historii commitów.
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

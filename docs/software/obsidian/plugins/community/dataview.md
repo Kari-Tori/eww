@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "dataview"
+created: 2025-11-29
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 # Obsidian — plugin Dataview
 
 - Repo/plugin: https://github.com/blacksmithgu/obsidian-dataview
@@ -12,3 +21,8 @@ WHERE !completed AND priority = "P1"
 SORT deadline ASC
 ```
 
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[docs]]
+- [[README]]

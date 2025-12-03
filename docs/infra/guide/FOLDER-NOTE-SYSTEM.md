@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "FOLDER-NOTE-SYSTEM"
+created: 2025-11-24
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-24T22:31:33Z
 modified: 2025-11-24T22:31:33Z
 author: jakubc
@@ -238,3 +247,9 @@ author: jakubc
 ---
 
 **ZASADA**: Folder bez folder_note = niepełny folder!
+
+## 🔗 Backlinks
+
+- [[docs/infra/guide/guide]]
+- [[docs/docs]]
+- [[INDEX]]

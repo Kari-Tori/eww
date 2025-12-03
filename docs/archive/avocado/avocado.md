@@ -1,57 +1,23 @@
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
 ---
+version: 0.0.5
+created: 2025-11-21
+modified: 2025-11-28
 tags:
-  - #automation
-  - #development
-  - #docs
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-  - #avocado
   - #folder_note
-
-
-
-
-
-
-owner: jakubc
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
+title: "avocado"
 ---
 
-# 📁 avocado
+# avocado
 
-## Opis
-Folder zawierający zasoby związane z: avocado
+Notatka folderu dla `docs/archive/avocado`
 
-## 📋 Zawartość folderu
+## 📄 Pliki w tym folderze
 
-- [[avocado_hass]] - avocado/avocado_hass.md
-- [[avocado_item]] - avocado/avocado_item.md
+- [[avocado_hass]]
+- [[avocado_item]]
 
-## 🔗 Powiązania
+## 🔗 Backlinki
 
-- [[archive]] - Folder nadrzędny\n
-
-## 📑 Index plików
-
-- [avocado_hass](avocado_hass.md)
-- [avocado_item](avocado_item.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[archive]]
+- [[avocado_hass]]
+- [[avocado_item]]

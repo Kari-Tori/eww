@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #docs
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #obsidian
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🔧 Obsidian Git - Auto-Commit (max 18 plików/commit)"
 
@@ -62,3 +63,9 @@ readonly MAX_FILES_PER_COMMIT=18  # ← zmień wartość
 
 
 **Linki:** [[eww.md]] · [[git-workflow.md]] · [[obsidian-plugins.md]]
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

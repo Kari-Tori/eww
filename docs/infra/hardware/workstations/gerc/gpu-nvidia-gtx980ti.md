@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #GERC
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "GPU — GERC (Dual GTX 980 Ti)"
 
@@ -104,3 +105,9 @@ nvidia-smi --query-gpu=temperature.gpu --format=csv
 - [ ] @karinam dodać benchmarki (3DMark, Unigine Heaven/Valley, GPU render test).
 - [ ] @karinam opisać wyświetlacze podłączone do każdej karty (monitor setup).
 - [ ] @karinam sprawdzić wersję CUDA i cuDNN (jeśli używane do ML/AI).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

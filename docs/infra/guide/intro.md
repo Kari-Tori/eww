@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "intro"
+created: 2025-11-05
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-05T22:54:26Z
 modified: 2025-11-24T22:34:18Z
 author: JakubC
@@ -27,3 +36,9 @@ author: JakubC
 
 # Wprowadzenie
 To jest szkic przewodnika.
+
+## 🔗 Backlinks
+
+- [[docs/infra/guide/guide]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,11 +1,13 @@
 ---
 title: Struktura repozytorium
+modified: 2025-11-28
+created: 2025-11-09
 description: Organizacja katalogów i plików w projekcie E-Waste Workshop
 tags:
   - structure
   - organization
   - documentation
-version: 0.0.0.5
+version: 0.0.6
 language: pl
 updated: 2025-11-29
 ---
@@ -312,3 +314,9 @@ git push origin main      # Wypchnij na fork
 
 **Ostatnia aktualizacja:** 2025-11-26
 **Wersja:** 0.0.0.5
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

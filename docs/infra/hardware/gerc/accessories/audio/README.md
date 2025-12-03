@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #audio
   - #gerc
   - #soundbar
   - #accessories
-created: 2025-11-22T18:36:00Z
-modified: 2025-11-22T18:36:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "GERC - Audio"
 owner: jakubc
@@ -136,3 +137,9 @@ echo "Audio switched to headphones"
 - [[gerc/gerc]] - Sekcja konfiguracji audio
 - [[accessories/monitors/samsung-65-tv]] - Źródło HDMI audio
 - [[gerc/gpu-nvidia-gtx980ti]] - Karta z HDMI audio
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/gerc/accessories/audio/audio]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 title: Benefity w UK – Karinam
 description: Przegląd potencjalnych świadczeń/ulg w UK na bazie obecnych diagnoz (do weryfikacji).
 tags:
@@ -6,8 +7,8 @@ tags:
   - #health
   - #uk
   - #benefity
-created: 2025-11-28T21:59:53Z
-modified: 2025-11-29T00:18:29Z
+created: 2025-11-29
+modified: 2025-11-29
 author: karinam
 ---
 
@@ -120,3 +121,9 @@ author: karinam
 - [[../clinical/procedures/operacja-reki-rower|Operacja ręki po złamaniu (rower)]]
 - [[../clinical/procedures/operacja-kolana-chondromalacja|Operacja kolana – chondromalacja rzepki (III/IV)]]
 - [[../clinical/diagnoses/niedobor-witaminy-d|Niedobór witaminy D]]
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/admin/admin]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

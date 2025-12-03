@@ -1,12 +1,13 @@
 ---
+version: 0.0.2
 tags:
   - #live-sync
   - #obsidian
   - #sshfs
   - #karinam
   - #documentation
-created: 2025-11-23T00:26:00Z
-modified: 2025-11-23T00:26:00Z
+created: 2025-11-24
+modified: 2025-11-25
 author: jakubc
 title: "LIVE SYNC - Desktop Kariny (Obsidian ↔ VS Code)"
 ---
@@ -218,3 +219,9 @@ fusermount -u usr/karinam/devices/asus_z77/desktop  # jeśli fusermount jest pre
 **Autor:** jakubc  
 **Status:** ✅ Działający  
 **Ostatni test:** 2025-11-23 00:13 (LIVE-SYNC-TEST.md)
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/asus_z77]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

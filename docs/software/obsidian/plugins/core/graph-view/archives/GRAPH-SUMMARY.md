@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #docs
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T09:00:00Z
-modified: 2025-11-21T09:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🎨 Graph Summary - System Mapowania"
 
@@ -227,3 +228,9 @@ tag:#docs AND tag:#core        → Dokumentacja rdzenia
 **Status**: ✅ **GOTOWE DO UŻYCIA!**
 
 #eww #graph #obsidian #map #summary
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

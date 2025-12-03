@@ -1,12 +1,13 @@
 ---
+version: 0.0.2
 tags:
   - #obsidian
   - #plugins
   - #core
   - #docs
   - #folder_note
-created: 2025-11-22T19:40:00Z
-modified: 2025-11-22T19:40:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Core Plugins - Wbudowane pluginy Obsidian"
 owner: jakubc
@@ -96,3 +97,9 @@ Każdy plugin ma własne ustawienia dostępne po włączeniu.
 ## 📝 Notatki
 
 Core plugins są **bezpieczne** - rozwijane przez zespół Obsidian, nie wymagają dodatkowych uprawnień.
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[docs]]
+- [[EWW-MAP]]

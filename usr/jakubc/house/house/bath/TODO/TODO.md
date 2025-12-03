@@ -1,0 +1,24 @@
+---
+created: 2025-12-01
+modified: 2025-12-01T04:57:25Z
+tags:
+  - #folder_note
+title: "TODO"
+---
+
+# TODO
+
+Notatka folderu dla `usr/jakubc/house/house/bath/TODO`
+
+## 📁 Podfoldery
+
+- [[flower]]
+- [[hole]]
+
+## 📄 Pliki w tym folderze
+
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[bath]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #productivity
   - #secondbrain
-created: 2025-11-21T14:00:00Z
-modified: 2025-11-21T14:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "lib/ - Biblioteki współdzielone"
 
@@ -92,3 +93,9 @@ log_info "Sprawdzam ostatni tag..."
 last_tag=$(git::last_tag)
 log_success "Znaleziono: $last_tag"
 ```
+
+## 🔗 Backlinks
+
+- [[dev/lib/lib]]
+- [[dev/dev]]
+- [[dev/Development]]

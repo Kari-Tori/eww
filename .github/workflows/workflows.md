@@ -1,3 +1,12 @@
+---
+version: 0.0.3
+title: "workflows"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T20:46:16Z
 modified: 2025-11-24T22:25:33Z
 author: jakubc
@@ -42,3 +51,9 @@ Folder zawierający zasoby związane z: workflows
 ## 📁 Podfoldery
 
 *Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[.github]]
+- [[README]]

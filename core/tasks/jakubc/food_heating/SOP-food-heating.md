@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 tags:
   - #sop
   - #operations
   - #jakubc
   - #karinam
   - #food-heating
-created: 2025-11-22T15:00:00Z
-modified: 2025-11-22T16:20:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "SOP - Food Heating"
 document_type: sop
@@ -77,3 +78,9 @@ czas = energia / moc = 1850 kJ / 1,6 kJ/s ≈ 1156 s ≈ 19,3 min
 
 Wnioski:
 - Realnie 20–25 min przez straty (drzwi, nieszczelności, sterowanie impulsowe).
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/food_heating/food_heating]]
+- [[core/core]]
+- [[core/config]]

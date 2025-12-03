@@ -1,8 +1,10 @@
 ---
+version: 0.0.1
+modified: 2025-11-25
 title: Badanie - Zatrucie od zbyt dużej dawki marihuany
 description: Analiza możliwości śmiertelnego przedawkowania THC/cannabis
 author: jakubc
-created: 2025-11-24
+created: 2025-11-25
 updated: 2025-11-24
 tags:
   - research
@@ -145,3 +147,9 @@ Słyszałem, że podobnie można się zatruć od zbyt dużej dawki marihuany.
 ## Status
 
 ✅ Badanie zakończone - teza obalona
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/health/drugs/marihuana/research/research]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

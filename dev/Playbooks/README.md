@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #books
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T23:00:00Z
-modified: 2025-11-21T23:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "EWW Playbooks Stack"
 
@@ -40,3 +41,9 @@ ansible-playbook -i ansible/inventory/hosts.ini ansible/playbook.yml
 - `Makefile` — fmt, lint, test targets
 - `.pre-commit-config.yaml` — format and lint hooks
 - `.github/workflows/ci.yml` — CI
+
+## 🔗 Backlinks
+
+- [[dev/Playbooks/Playbooks]]
+- [[dev/dev]]
+- [[dev/Development]]

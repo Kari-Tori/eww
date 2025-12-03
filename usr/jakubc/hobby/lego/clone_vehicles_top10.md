@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #lego
   - #linux
   - #secondbrain
-created: 2025-11-21T19:00:00Z
-modified: 2025-11-21T19:00:00Z
+created: 2025-11-25
+modified: 2025-12-01
 author: jakubc
 title: "🔟 TOP 10 – Małe pojazdy / działa klonów (minifig scale, premium odwzorowanie)"
 

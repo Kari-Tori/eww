@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #GERC
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-21T17:00:00Z
-modified: 2025-11-21T17:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "Storage — gerc"
 
@@ -34,3 +35,9 @@ owner: jakubc
 - [ ] @karinam uzupełnić listę wszystkich dysków HDD (model, pojemność, interfejs).
 - [ ] @karinam określić konfigurację RAID/ZFS i politykę backupów.
 - [ ] @karinam zanotować godziny pracy (SMART) i plan wymiany.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

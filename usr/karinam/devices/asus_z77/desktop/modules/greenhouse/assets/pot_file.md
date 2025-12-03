@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 tags:
   - #greenhouse
   - #assets
   - #pots
   - #inventory
 type: template
-created: 2025-11-22T22:28:00Z
-modified: 2025-11-22T22:28:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: karinam
 owner: karinam
 ---
@@ -144,3 +145,9 @@ _______________________________________
 
 **ID:** POT-001 (przykład)  
 **Status:** Szablon
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/desktop/modules/greenhouse/assets/assets]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

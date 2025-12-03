@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #GERC
   - #automation
@@ -8,8 +9,8 @@ tags:
   - #linux
   - #planning
   - #star-wars
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Plan mapowania struktury GERC na podstawie Asus Z77"
 
@@ -460,3 +461,9 @@ title: "[Tytuł pliku]"
 
 ---
 *Ten dokument będzie aktualizowany podczas realizacji projektu. Każda ukończona faza będzie oznaczana ✅.*
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

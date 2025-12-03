@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T13:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "✅ GRAPH SYSTEM READY"
 
@@ -217,8 +218,12 @@ Speed: < 1s
 - [[GRAPH-FIX]] - Problem history
 - `.obsidian/graph.json` - Technical config
 
+
 ## 🔗 Backlinks
 
+- [[INDEX]]
+- [[README]]
+- [[docs]]
 **Grafy**:
 - [[GRAPH-MAP]]
 - [[GRAPH-CORE]]

@@ -1,4 +1,6 @@
 ---
+version: 0.0.2
+modified: 2025-11-24
 tags:
   - #automation
   - #development
@@ -290,3 +292,8 @@ tail -f /tmp/ai-tag-log.txt
 - **Progress:** `/tmp/ai-tag-progress.txt` (current/total)
 - **Full log:** `/tmp/ai-tag-log.txt` (każdy plik + tagi)
 
+## 🔗 Backlinks
+
+- [[dev/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

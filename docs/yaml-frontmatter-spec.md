@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "yaml-frontmatter-spec"
+created: 2025-11-10
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-10T15:44:41Z
 modified: 2025-11-10T15:44:41Z
 author: Nairecth
@@ -597,3 +606,9 @@ author: Nairecth
 **Wersja:** 1.0.0  
 **Data:** 2025-11-09  
 **Status:** Stable
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

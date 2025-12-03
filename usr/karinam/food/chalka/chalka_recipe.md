@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-25
+version: 0.0.6
 title: Chałka – przepis domowy
 description: Instrukcja przygotowania dwóch średnich chałek w klasycznych warunkach kuchennych.
 ---
@@ -61,3 +64,9 @@ Poniższy wariant bazuje na maślanym cieście drożdżowym z bloga Ania Gotuje 
 [^lidl-sugar]: „Belbake Granulated Sugar 1kg”, Lidl UK – produkt dostępny wyłącznie w sklepie („See in store for price”), dostęp 16 listopada 2025 r., <https://www.lidl.co.uk/p/belbake-granulated-sugar-1kg/p10019687>.
 [^lidl-yeast]: „Home Baking Ingredients | Flour & Cake Decorating”, Lidl UK (zawiera Rivercote Fast Action Yeast, ceny tylko w sklepie), dostęp 16 listopada 2025 r., <https://www.lidl.co.uk/c/home-baking/s10023611>.
 [^aniagotuje]: Ania Gotuje, „Chałka – domowy przepis”, dostęp 16 listopada 2025 r., <https://aniagotuje.pl/przepis/chalka>.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/chalka/chalka]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

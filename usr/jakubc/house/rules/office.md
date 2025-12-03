@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #house
   - #rules
@@ -6,8 +7,8 @@ tags:
   - #cleaning
   - #weekly
   - #eww
-created: 2025-11-22T21:02:00Z
-modified: 2025-11-22T21:02:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Office Protocol - Protokół biurka"
 schedule: weekly
@@ -134,3 +135,9 @@ owner: jakubc
 **Dzień:** Sobota  
 **Deadline:** 24:00  
 **Status:** 🔴 Obowiązkowy
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/house/rules/rules]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

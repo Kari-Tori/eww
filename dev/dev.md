@@ -1,19 +1,35 @@
+---
+version: 0.0.6
+created: 2025-11-21
+modified: 2025-11-21
+tags:
+  - #folder_note
+title: "dev"
+---
 
+# dev
 
-## 📑 Index plików
-
-- [Development](Development.md)
-- [INDEX](INDEX.md)
-- [README](README.md)
-- [README.template.onepage](README.template.onepage.md)
-- [README.template.v2](README.template.v2.md)
+Notatka folderu dla `dev`
 
 ## 📁 Podfoldery
 
-- [bin/](bin/bin.md)
-- [cfg/](cfg/cfg.md)
-- [Playbooks/](Playbooks/Playbooks.md)
-- [Projects/](Projects/Projects.md)
-- [scripts/](scripts/scripts.md)
-- [systemd/](systemd/systemd.md)
-- [tests/](tests/tests.md)
+- [[Playbooks]]
+- [[bin]]
+- [[cfg]]
+- [[docs]]
+- [[lib]]
+- [[obsidian]]
+- [[odoo]]
+- [[projects]]
+- [[scripts]]
+- [[systemd]]
+- [[tests]]
+- [[tests-tools]]
+
+## 📄 Pliki w tym folderze
+
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[INDEX]]

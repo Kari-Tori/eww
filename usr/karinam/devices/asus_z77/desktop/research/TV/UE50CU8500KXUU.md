@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #tv
   - #samsung
@@ -6,8 +7,8 @@ tags:
   - #karinam
   - #research
 type: device
-created: 2025-11-22T22:28:00Z
-modified: 2025-11-22T22:28:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: karinam
 model: UE50CU8500KXUU
 manufacturer: Samsung
@@ -225,3 +226,9 @@ NIE dla:
 **Status:** ✅ Aktualny TV Karinam  
 **Deadline dokumentacji:** 2025-11-22 24:00  
 **Priorytet:** P8
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/desktop/research/TV/TV]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

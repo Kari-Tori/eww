@@ -1,27 +1,20 @@
 ---
+version: 0.0.1
+created: 2025-11-24
+modified: 2025-11-24
 tags:
-  - #media
-  - #kitchen
-  - #touchscreen
-  - #plan
-created: 2025-11-22T19:07:00Z
-modified: 2025-11-22T19:07:00Z
-author: jakubc
-title: "kitchen_touchscreen — plan"
-status: planowane
-owner: jakubc
+  - #folder_note
+title: "kitchen_touchscreen"
 ---
 
-# kitchen_touchscreen — plan
+# kitchen_touchscreen
 
-Panel dotykowy do kuchni (dashboard mediów, przepisy, sterowanie). Dokument inspirowany `asus_z77`.
+Notatka folderu dla `docs/infra/hardware/kitchen_touchscreen`
 
-## ℹ️ Założenia
-- **Przeznaczenie:** Media control + checklisty (np. w kuchni).
-- **Hardware:** Tablet / monitor dotykowy (model TBD).
-- **Integracje:** Odoo, Spotify Connect, system TODO.
+## 📄 Pliki w tym folderze
 
-## TODO (@jakubc)
-- [ ] Wybrać urządzenie (tablet/mini-PC + ekran).
-- [ ] Opisać sposób montażu i zasilania.
-- [ ] Przygotować layout aplikacji (Obsidian, browser kiosk).
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[hardware]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "delta7-ki-adi-mundi"
+created: 2025-11-25
+modified: 2025-11-25
+tags:
+  - auto-versioned
+---
+
 # Delta-7 Ki-Adi-Mundi — starship index
 
 > Finalny build ma być najwierniejszym odwzorowaniem minifig-scale Delta-7. Najlepszy model / MOC do weryfikacji stoi tu do wpisania.
@@ -16,3 +25,9 @@
 ## Powiązania
 - **Jedi:** [Delta-7 Ki-Adi-Mundi](../../../fun/lego/star_wars/characters/ki-adi-mundi.md)
 - **Astrodroid:** [R4-M9](../droids/r4-m9.md)
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "cooker"
+created: 2025-11-24
+modified: 2025-11-24
+tags:
+  - auto-versioned
+---
+
 # Piekarnik Lamona – specyfikacja robocza
 
 ## Źródła
@@ -51,3 +60,9 @@ Skalowanie wyników:
 - **Czasy nagrzewania / pieczenia** mnożymy przez 1,25 (odwrotność 0,8).
 - **Temperatura** – jeśli termometr pokazuje niższą wartość niż zadana, zwiększamy nastawę o ~10–15 °C, ale monitorujemy, by nie przekroczyć 230 °C (ograniczenia materiałowe uszczelki drzwi).
 - **Wydatek energetyczny** – realna konsumpcja dla cyklu nagrzewania 20 min + pieczenie 20 min ≈ 1,6 kW × (2/3 h) ≈ 1,07 kWh, czyli ~20 % mniej niż w katalogu, ale kosztem dłuższego czasu.
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/food_heating/food_heating]]
+- [[core/core]]
+- [[core/config]]

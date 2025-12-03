@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T15:00:00Z
-modified: 2025-11-21T15:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🔌 Pluginy i Rozszerzenia"
 
@@ -371,3 +372,9 @@ gh extension install owner/extension-name
 
 **Zaktualizowano:** 2025-11-21  
 **Autor:** EWW Team
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

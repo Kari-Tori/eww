@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #c4d
   - #liquidation
   - #phones
-created: 2025-11-22T22:15:00Z
-modified: 2025-11-22T22:15:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 priority: 4
 deadline: 2025-11-22T23:59:59Z
@@ -31,3 +32,9 @@ Telefony do likwidacji - C4D.
 
 - [[TODO-2025-11-22]]
 - [[freederick]]
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/TODO-2025-11-22]]
+- [[core/core]]
+- [[core/config]]

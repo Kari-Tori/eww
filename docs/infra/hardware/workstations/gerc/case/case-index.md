@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #GERC
   - #folder_note
@@ -8,8 +9,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Obudowa — index"
 
@@ -52,3 +53,9 @@ Obudowa wraz z wentylatorami i chłodzeniem ma własny podfolder. Każdy panel l
 - [ ] @karinam opisać konfigurację airflow (intake/exhaust, positive/negative pressure).
 - [ ] @karinam dodać profil wentylatorów (Fan Expert 3 curves).
 - [ ] @karinam zanotować poziom hałasu (dB) w idle i load.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/case/case]]
+- [[docs/docs]]
+- [[INDEX]]

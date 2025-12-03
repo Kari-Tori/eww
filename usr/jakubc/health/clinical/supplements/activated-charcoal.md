@@ -1,10 +1,12 @@
 ---
+version: 0.0.1
+modified: 2025-12-01
 title: "Activated charcoal"
 tags:
   - supplement
   - health
   - jakubc
-created: 2025-11-30T15:56:51
+created: 2025-12-01
 updated: 2025-11-30T21:45:00
 ---
 
@@ -31,3 +33,9 @@ updated: 2025-11-30T21:45:00
 
 ## Notatki
 - Po użyciu notuj: powód, dawkę, efekt (biegunka/gazy), czy były działania niepożądane.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/health/clinical/supplements/supplements]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

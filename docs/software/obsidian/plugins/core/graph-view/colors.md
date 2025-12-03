@@ -1,11 +1,12 @@
 ---
+version: 0.0.4
 tags:
   - #documentation
   - #graph
   - #structure
   - #folder_note
-created: 2025-11-23T00:00:00Z
-modified: 2025-11-23T00:00:00Z
+created: 2025-11-23
+modified: 2025-12-01
 author: jakubc
 title: "Schemat kolorów dla struktury grafu projektu EWW"
 owner: jakubc
@@ -294,3 +295,9 @@ Zobacz: `.obsidian/graph-presets.md` - wszystkie presety, pro tips, troubleshoot
 ```
 
 - **⚪ Struktura** (#ffffff) - README, INDEX, dokumenty główne
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

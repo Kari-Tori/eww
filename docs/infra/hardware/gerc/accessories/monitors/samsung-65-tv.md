@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #monitor
   - #tv
@@ -6,8 +7,8 @@ tags:
   - #gerc
   - #accessory
   - #4k
-created: 2025-11-22T18:36:00Z
-modified: 2025-11-22T18:36:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Samsung 65\" TV - Monitor główny GERC"
 parent_device: gerc
@@ -107,3 +108,9 @@ speaker-test -D hdmi:CARD=NVidia_1,DEV=1 -c 2 -t wav -l 1
 - [ ] Zrobić zdjęcie setup
 - [ ] Udokumentować wszystkie ustawienia TV
 - [ ] Zapisać konfigurację xrandr
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/gerc/accessories/monitors/monitors]]
+- [[docs/docs]]
+- [[INDEX]]

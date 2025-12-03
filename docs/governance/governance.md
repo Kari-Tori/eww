@@ -1,54 +1,41 @@
-created: 2025-11-21T20:46:25Z
-modified: 2025-11-24T22:34:18Z
-author: jakubc
 ---
+version: 0.0.3
+created: 2025-11-21
+modified: 2025-11-28
 tags:
   - #folder_note
-  - #automation
-  - #development
-  - #docs
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-title: "📁 governance"
-
-
-
-
-
-
-owner: jakubc
-created: 2025-11-21T20:46:25Z
-modified: 2025-11-24T22:34:18Z
-author: jakubc
+title: "governance"
 ---
 
-# 📁 governance
+# governance
 
-> Folder note for governance
+Notatka folderu dla `docs/governance`
 
-## 📑 Zawartość
+## 📄 Pliki w tym folderze
 
-- [[GOVERNANCE.md]]
-- [[repo-live-contract.md]]
+- [[README]]
+- [[goals]]
+- [[GOVERNANCE]]
+- [[IMPROVEMENT-SUGGESTIONS]]
+- [[MVP]]
+- [[PLAN-PORZADKOWANIA]]
+- [[repo-live-contract]]
+- [[ROOT-MINIMIZATION]]
+- [[ROOT-STRUCTURE]]
+- [[TAG-STRATEGY]]
+- [[team]]
 
-## 📁 Podfoldery
+## 🔗 Backlinki
 
-## 📑 Index plików
-
-- [GOVERNANCE](GOVERNANCE.md)
-- [repo-live-contract](repo-live-contract.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[docs]]
+- [[README]]
+- [[goals]]
+- [[GOVERNANCE]]
+- [[IMPROVEMENT-SUGGESTIONS]]
+- [[MVP]]
+- [[PLAN-PORZADKOWANIA]]
+- [[repo-live-contract]]
+- [[ROOT-MINIMIZATION]]
+- [[ROOT-STRUCTURE]]
+- [[TAG-STRATEGY]]
+- [[team]]

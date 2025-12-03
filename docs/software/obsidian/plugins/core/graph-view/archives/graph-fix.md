@@ -1,4 +1,6 @@
 ---
+version: 0.0.4
+modified: 2025-11-28
 tags:
   - #automation
   - #eww
@@ -43,3 +45,9 @@ path:core OR path:business OR path:docs OR path:config OR path:infra
 
 ## Test
 Po wyłączeniu → Ctrl+G (graf) → sprawdź licznik
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

@@ -1,10 +1,12 @@
 ---
+version: 0.0.1
+modified: 2025-12-01
 title: "Magnesium"
 tags:
   - supplement
   - health
   - jakubc
-created: 2025-11-30T21:30:00
+created: 2025-12-01
 updated: 2025-11-30T21:45:00
 ---
 
@@ -31,3 +33,9 @@ updated: 2025-11-30T21:45:00
 
 ## Notatki
 - Stosowany na wyciszenie po zjezdzie; notuj sen, napiecie miesni i jakosc snu.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/health/clinical/supplements/supplements]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

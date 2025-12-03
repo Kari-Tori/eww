@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-26
+created: 2025-11-25
+version: 0.0.6
 title: EWW – Folder note & repo index
 description: Szkic folder note i indeksu dla repozytorium E-Waste Workshop.
 lang: pl
@@ -39,3 +42,9 @@ Szybkie kroki (na maszynie local "code"):
    sudo apt install autossh
 
 Uwaga: skrypt nie automatycznie modyfikuje zdalnego hosta bez Twojej zgody — podczas pierwszego użycia ssh-copy-id poprosi o hasło. Jeśli nie chcesz podawać hasła, dodaj publiczny klucz ręcznie do ~/.ssh/authorized_keys na hoście `gerc`.
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

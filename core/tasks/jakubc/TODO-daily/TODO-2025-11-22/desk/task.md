@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #cleanup
   - #organization
   - #workspace
-created: 2025-11-22T18:56:00Z
-modified: 2025-11-22T18:56:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Desk cleanup"
 status: todo
@@ -29,3 +30,9 @@ Reset the desk so the workspace is tidy.
 ## 🔗 Links
 - [[docs/infra/areas/workshop/layout]]
 - [[TODO-daily-2025-11-22]]
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/desk/desk]]
+- [[core/core]]
+- [[core/config]]

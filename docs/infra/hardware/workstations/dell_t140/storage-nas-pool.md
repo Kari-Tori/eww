@@ -1,9 +1,10 @@
 ---
+version: 0.0.1
 tags:
   - #Dell_T140
   - #storage
-created: 2025-11-22T18:42:00Z
-modified: 2025-11-22T18:42:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Storage — Dell T140 (NAS pool)"
 owner: jakubc
@@ -17,3 +18,9 @@ owner: jakubc
 ## TODO
 - [ ] @jakubc ustalić końcową topologię (TrueNAS RAIDZ2?).
 - [ ] @jakubc dopisać listę dysków (model, SN).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/dell_t140/dell_t140]]
+- [[docs/docs]]
+- [[INDEX]]

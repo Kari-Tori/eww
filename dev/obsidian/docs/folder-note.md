@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #development
@@ -8,7 +9,7 @@ tags:
   - #obsidian
   - #secondbrain
 created: 2025-11-21
-modified: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 type: folder-note
 
@@ -71,3 +72,9 @@ owner: jakubc
 - [scripts/](scripts/scripts.md)
 - [snippets/](snippets/snippets.md)
 - [themes/](themes/themes.md)
+
+## 🔗 Backlinks
+
+- [[dev/obsidian/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

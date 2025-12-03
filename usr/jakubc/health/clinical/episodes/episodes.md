@@ -1,21 +1,22 @@
 ---
-title: "episodes - folder note"
+version: 0.0.1
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - jakubc
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:56:51
+  - #folder_note
+title: "episodes"
 ---
 
-# episodes — folder note
+# episodes
 
-## README
-Index folderu `usr/jakubc/health/clinical/episodes` dla użytkownika `jakubc`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/jakubc/health/clinical/episodes`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- [dopaminowy-zjazd-30-11.md](dopaminowy-zjazd-30-11.md)
+- [[detoks-objawy-2025-12-03]]
+- [[dopaminowy-zjazd-30-11]]
+
+## 🔗 Backlinki
+
+- [[clinical]]
+- [[dopaminowy-zjazd-30-11]]

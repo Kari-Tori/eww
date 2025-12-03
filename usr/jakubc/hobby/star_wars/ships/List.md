@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #star-wars
-created: 2025-11-21T16:00:00Z
-modified: 2025-11-21T16:00:00Z
+created: 2025-11-21
+modified: 2025-12-01
 author: jakubc
 title: "usr/jakubc/hobby/star_wars/ships/List.md"
 

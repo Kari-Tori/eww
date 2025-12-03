@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T13:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🔵🩷 GRAPH: User Profiles"
 
@@ -76,3 +77,9 @@ path:usr/jakubc OR path:usr/karinam -path:var/log
 
 
 **Instrukcja**: Pin i otwórz Graph View → zobacz aktywności użytkowników! 👥
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

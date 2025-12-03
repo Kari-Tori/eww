@@ -1,4 +1,6 @@
 ---
+version: 0.0.4
+modified: 2025-11-28
 tags:
   - #automation
   - #eww
@@ -82,3 +84,10 @@ Settings → Hotkeys → "Obsidian Git: Commit all changes" → ustaw `Ctrl+Shif
 
 **Ostatnia aktualizacja:** 2025-11-21  
 **Autor:** jakubc
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[dev]]
+- [[docs]]

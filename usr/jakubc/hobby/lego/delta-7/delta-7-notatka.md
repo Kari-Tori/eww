@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-25
+version: 0.0.1
 title: 🛩️ Delta-7 Aethersprite — notatka techniczna i plan buildu
 description: TODO - uzupełnij opis.
 ---
@@ -100,3 +103,9 @@ description: TODO - uzupełnij opis.
 - [ ] Inwentaryzacja części pod MOC Teroys  
 - [ ] Zakup braków  
 - [ ] Budowa MOC Teroys i weryfikacja skali
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/lego/delta-7/delta-7]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

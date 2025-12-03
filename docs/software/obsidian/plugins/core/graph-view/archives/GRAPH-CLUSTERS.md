@@ -1,10 +1,11 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #graph
   - #eww
-created: 2025-11-21T18:45:00Z
-modified: 2025-11-21T18:45:00Z
+created: 2025-11-21
+modified: 2025-12-01
 author: jakubc
 title: "🎨 GRAPH: Isolated Color Clusters"
 owner: jakubc
@@ -121,3 +122,9 @@ Edytuj `.obsidian/graph.json`:
 - [[fix-graph-clusters.sh]] - Skrypt konfiguracyjny
 
 **Restart Obsidian po zmianach!** 🔄
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

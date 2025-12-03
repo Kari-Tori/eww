@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 tags:
   - #protokol
   - #here
@@ -8,8 +9,8 @@ tags:
   - #5facts
   - #obsidian
   - #technician
-created: 2025-11-22T12:00:00Z
-modified: 2025-11-22T12:48:00Z
+created: 2025-11-24
+modified: 2025-11-25
 author: jakubc
 owner: karinam
 title: "⚡ Protokół HERE · 5 słów"
@@ -180,3 +181,9 @@ ________________________________________________________________________________
 ---
 
 *Protokół aktywny do 20:00 — wpisz 5×5 słów, zachowując ograniczenia.*
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[usr]]
+- [[README]]

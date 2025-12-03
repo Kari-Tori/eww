@@ -1,14 +1,15 @@
 ---
 title: Historia E-Waste Workshop
 description: Jak powstało EWW – backstory, ludzie, miejsce
+modified: 2025-11-28
 tags:
   - story
   - history
   - business
   - zero-waste
-version: 0.0.0.5
+version: 0.0.6
 language: pl
-created: 2025-11-29
+created: 2025-11-28
 updated: 2025-11-29
 owner: jakubc
 ---
@@ -29,12 +30,18 @@ owner: jakubc
 
 ## Kontekst operacyjny
 - **Lokalizacja:** 77C Church Lane, N9 9PZ (outbuilding za domem Gary’ego).
-- **Łączność:** ograniczony internet („Gary Net”) – preferujemy operacje offline/lokalne; szczegóły w `docs/infra/network/garynet.md`.
+- **Łączność:** ograniczony internet („Gary Net”) – preferujemy operacje offline/lokalne; szczegóły w `docs/infra/hardware/network/garynet.md`.
 - **Cel finansowy:** min. **£1500/mies.** na pokrycie czynszu.
 - **Planowana inwentaryzacja:** własny system Odoo + AI do katalogowania cyklu życia części i urządzeń.
 
 ## Powiązane
 - `ZERO-WASTE-POLICY.md`
 - `business/roadmap.md`
-- `docs/infra/location.md`
-- `docs/infra/network/garynet.md`
+- `docs/infra/areas/workshop/location.md`
+- `docs/infra/hardware/network/garynet.md`
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

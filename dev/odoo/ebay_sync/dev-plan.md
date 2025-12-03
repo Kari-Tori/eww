@@ -1,4 +1,7 @@
 ---
+modified: 2025-12-01
+created: 2025-12-01
+version: 0.0.1
 title: Plan rozwoju integracji eBay ↔ Odoo
 description: Lista kroków do wdrożenia pełnego sync (pull/push) z cronami
 owner: ai
@@ -44,3 +47,9 @@ Cel: pełny dwukierunkowy sync asortymentu (stock/ceny) i kategorii, z cronami p
 - Pull/push opóźnienie akceptowalne: 5–10 min.
 - Batch i interwały dostosowywane na podstawie nagłówków limitów.
 - Idempotencja po `ebay_listing_id`/`ebay_sku` (pull) i po SKU/listing + idempotency key (push).
+
+## 🔗 Backlinks
+
+- [[dev/odoo/ebay_sync/ebay_sync]]
+- [[dev/dev]]
+- [[dev/Development]]

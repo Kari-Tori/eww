@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #docs
@@ -6,8 +7,8 @@ tags:
   - #graph
   - #knowledge
   - #obsidian
-created: 2025-11-23T00:00:00Z
-modified: 2025-11-23T00:00:00Z
+created: 2025-11-23
+modified: 2025-11-28
 author: jakubc
 title: "🤖 Automatyczne Generowanie Grafu Obsidian"
 owner: jakubc
@@ -363,3 +364,9 @@ readonly MAX_NODES_PER_COMMIT=25  # Zamiast 18
 **Status**: ✅ AKTYWNE
 **Ostatnia aktualizacja**: 2025-11-23
 **Autor**: jakubc
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

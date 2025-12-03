@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 tags:
   - #automation
   - #desktop
   - #eww
   - #jakubc
   - #plasma
-created: 2025-11-22T09:35:14Z
-modified: 2025-11-22T09:57:09Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "🗂️ Karta zadania · GERC Boot"
 type: task-card
@@ -280,3 +281,9 @@ task_card: true
 - **VS Code** — korzysta z workspace `eww.code-workspace`, który ładuje rozszerzenia wymienione w YAML i synchronizuje zadania (`tasks.json`) z Obsidian Tasks; wszystkie nowe karty muszą mieć status i priorytet mapowane 1:1 między `TODO.md` a `code-workspace`.
 - **System (Plasma/Kubuntu)** — autostart i reguły monitorów siedzą w `~/.config/autostart` oraz `~/.config/autostart-scripts`; każda karta zadania powinna podać wymagane usługi/systemd units lub skrypty, żeby ułatwić przypinanie do monitorów.
 - **Obsidian** — vault `/home/jakubc/git/eww` ma pluginy Tasks + Dataview; każda karta ma mieć front matter z `task_card: true`, a główne `TODO.md` łączy się poprzez `[[linki]]`, dzięki czemu graf i zapytania Dataview automatycznie zbierają statusy.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/todo/todo]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

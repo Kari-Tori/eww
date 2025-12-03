@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #star-wars
-created: 2025-11-21T16:00:00Z
-modified: 2025-11-21T16:00:00Z
+created: 2025-11-25
+modified: 2025-12-01
 author: jakubc
 title: "✨ T-65 X-wing — prototyp z końca Wojen Klonów"
 
@@ -67,3 +68,9 @@ owner: jakubc
 - Po nacjonalizacji Incomu plany trafiają do Rebelii → główna maszyna Bitwy o Yavin.
 
 [[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

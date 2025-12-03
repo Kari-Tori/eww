@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "Kanban"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T14:12:29Z
 modified: 2025-11-24T22:34:18Z
 author: jakubc

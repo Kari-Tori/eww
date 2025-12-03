@@ -1,10 +1,11 @@
 ---
+version: 0.0.6
 tags:
   - #devices
   - #karinam
   - #hardware
-created: 2025-11-22T23:01:42Z
-modified: 2025-11-22T23:01:42Z
+created: 2025-11-24
+modified: 2025-11-25
 author: jakubc
 title: "Urządzenia przypisane do karinam"
 ---
@@ -61,3 +62,9 @@ karinam@192.168.0.77:/home/karinam/devices/asus_z77/desktop → /home/jakubc/git
 - VS Code (jakubc) podłączone przez SSHFS do jej desktop - edycja zdalna
 - Zmiany synchronizowane w czasie rzeczywistym
 - iPhone i Apple Watch - szablony do uzupełnienia
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/devices]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

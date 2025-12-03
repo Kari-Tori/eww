@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T13:00:00Z
+created: 2025-11-21
+modified: 2025-11-25
 author: jakubc
 title: "🔜 M18 NEXT — decyzje do podjęcia i komponenty"
 
@@ -140,3 +141,9 @@ owner: jakubc
 - [[docs/INDEX|INDEX]]
 
 **Auto-linked:** 2025-11-21
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/m18/m18]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

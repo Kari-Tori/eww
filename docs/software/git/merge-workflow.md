@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "merge-workflow"
+created: 2025-11-26
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-26T13:42:28Z
 modified: 2025-11-26T13:42:28Z
 author: karinam
@@ -202,3 +211,9 @@ git commit -m "message"
 - [Git Workflow](../../workflow/)
 - [CONTRIBUTING.md](../../../CONTRIBUTING.md)
 - [AGENTS.md](../../../AGENTS.md)
+
+## 🔗 Backlinks
+
+- [[docs/software/git/git]]
+- [[docs/docs]]
+- [[INDEX]]

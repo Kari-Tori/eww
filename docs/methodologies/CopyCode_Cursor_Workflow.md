@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "CopyCode_Cursor_Workflow"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T17:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -137,3 +146,9 @@ Strona działa, kod jest zoptymalizowany, a całość tworzysz szybciej dzięki 
 | Framework frontend   | Next.js / Vite / HTML |
 | Stylizacja           | TailwindCSS       |
 | Hosting              | Vercel / Netlify  |
+
+## 🔗 Backlinks
+
+- [[docs/methodologies/methodologies]]
+- [[docs/docs]]
+- [[INDEX]]

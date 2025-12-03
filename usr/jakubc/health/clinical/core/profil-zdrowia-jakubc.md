@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 title: Profil zdrowia Jakubc
 description: Baza szybkich informacji o zdrowiu (do uzupełnienia).
 tags:
   - #jakubc
   - #health
   - #profil
-created: 2025-11-30
-modified: 2025-11-30
+created: 2025-12-01
+modified: 2025-12-01
 author: jakubc
 ---
 
@@ -49,3 +50,9 @@ author: jakubc
 - [ ] Umówić/konsultacja z lekarzem: ___
 - [ ] Badania/laby do zrobienia: ___
 - [ ] Krótkie priorytety na zdrowie (1–3): ___
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/health/clinical/core/core]]
+- [[core/core]]
+- [[core/config]]

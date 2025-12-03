@@ -1,9 +1,11 @@
 ---
+version: 0.0.1
+modified: 2025-11-24
 tags:
   - #flowers
   - #pot
   - #asset
-created: 2025-11-22T20:47:00Z
+created: 2025-11-24
 author: jakubc
 title: "Doniczka #06"
 status: free
@@ -36,3 +38,9 @@ owner: jakubc
 ---
 
 **Status:** 🟢 Wolna
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/flowers/assets/pots/pots]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

@@ -1,27 +1,21 @@
 ---
-title: "FCGH – produkty szybkorotujące dla cash flow"
-author: karinam
+version: 0.0.6
 created: 2025-11-28
+modified: 2025-11-28
+tags:
+  - #folder_note
+title: "fcgh"
 ---
 
-# FCGH – produkty szybkorotujące
+# fcgh
 
-FCGH (Fast Cash Goods Hub) to strategia wyboru produktów o szybkim obrocie, generujących szybki cash flow dla EWW.
+Notatka folderu dla `ops/fcgh`
 
-## Produkt startowy: iPhone 11
+## 📄 Pliki w tym folderze
 
-- Wybraliśmy iPhone 11 jako pierwszy produkt FCGH
-- Planujemy kupować uszkodzone iPhone'y 11, naprawiać je i sprzedawać z zyskiem
-- Proces: zakup → naprawa/refabrykacja → sprzedaż (eBay, Gumtree, Vinted)
-- Całość rejestrowana i zarządzana przez Odoo
+- [[dashboard-eww]]
+- [[fcgh-notes]]
 
-## Cel
+## 🔗 Backlinki
 
-- Szybki obrót kapitału
-- Maksymalizacja zysku przy minimalnym ryzyku
-- Testowanie i optymalizacja procesu napraw i sprzedaży
-
-## Notatki
-
-- Możliwość rozszerzenia na inne modele w przyszłości
-- Szczegóły operacyjne i wyniki będą dokumentowane w tym folderze
+- [[ops]]

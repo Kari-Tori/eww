@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "CHANGELOG"
+created: 2025-11-07
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 # Changelog
 
 ## [2025-11-23] - Major Cleanup & Auto-Reports
@@ -39,3 +48,9 @@
 ---
 
 **Auto-maintained** | See [core/reports/repo-stats.md](core/reports/repo-stats.md) for live stats
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

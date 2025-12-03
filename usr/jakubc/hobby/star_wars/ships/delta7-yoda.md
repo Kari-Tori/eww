@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "delta7-yoda"
+created: 2025-11-25
+modified: 2025-11-25
+tags:
+  - auto-versioned
+---
+
 # Delta-7 Yoda — starship index
 
 > Finalny build ma być najwierniejszym odwzorowaniem minifig-scale Delta-7. Najlepszy model / MOC do weryfikacji stoi tu do wpisania.
@@ -16,3 +25,9 @@
 ## Powiązania
 - **Jedi:** [Delta-7 Yoda](../../../fun/lego/star_wars/characters/yoda.md)
 - **Astrodroid:** [R2-Q2](../droids/r2-q2.md)
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #folder_note
   - #automation
@@ -8,8 +9,8 @@ tags:
   - #linux
   - #secondbrain
   - #testing
-created: 2025-11-21T16:00:00Z
-modified: 2025-11-21T16:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "🧪 tests — automaty QA"
 
@@ -71,4 +72,3 @@ owner: jakubc
 - [[GRAPH-CORE]]
 - [[GRAPH-BUSINESS]]
 - [[GRAPH-CONFIG]]
-

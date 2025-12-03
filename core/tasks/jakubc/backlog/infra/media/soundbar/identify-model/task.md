@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #media
   - #soundbar
   - #infra
-created: 2025-11-22T19:40:00Z
-modified: 2025-11-22T19:40:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Soundbar: zidentyfikować model i specyfikację"
 status: todo
@@ -18,3 +19,9 @@ owner: jakubc
 
 - Odczytać dokładny model soundbara (producent, numer).
 - Uzupełnić kartę `media_soundbar` o specyfikację techniczną.
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/backlog/infra/media/soundbar/identify-model/identify-model]]
+- [[core/core]]
+- [[core/config]]

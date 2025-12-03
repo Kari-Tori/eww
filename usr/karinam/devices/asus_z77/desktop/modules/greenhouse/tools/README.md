@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #greenhouse
   - #tools
   - #sensors
   - #inventory
-created: 2025-11-22T22:28:00Z
-modified: 2025-11-22T22:28:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: karinam
 owner: karinam
 ---
@@ -99,3 +100,9 @@ Sensory:
 
 **Deadline inwentaryzacji:** 2025-11-22 24:00  
 **Priorytet:** P7
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/desktop/modules/greenhouse/tools/tools]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #GERC
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "WiFi — Broadcom BCM4352"
 
@@ -78,3 +79,9 @@ lspci | grep Network
 - [ ] @karinam dodać instrukcje aktywacji WiFi (jeśli potrzebne jako backup).
 - [ ] @karinam sprawdzić firmware version: `modinfo brcmfmac` lub `modinfo wl`.
 - [ ] @karinam rozważyć czy karta jest potrzebna (jeśli nie, można usunąć z PCIe slot).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/pcie/pcie]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,11 +1,12 @@
 ---
+version: 0.0.3
 tags:
   - #obsidian
   - #graph
   - #changelog
   - #documentation
-created: 2025-11-23T17:45:00Z
-modified: 2025-11-23T17:45:00Z
+created: 2025-11-24
+modified: 2025-12-01
 author: jakubc
 title: "Obsidian Graph - Historia zmian i konfiguracji"
 owner: jakubc
@@ -333,3 +334,9 @@ obsidian &
 **Ostatnia aktualizacja**: 2025-11-23 17:45:00  
 **Wersja**: 1.1  
 **Autor**: jakubc
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

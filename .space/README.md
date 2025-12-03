@@ -18,3 +18,8 @@ Folder konfiguracyjny dla Make.md (Spaces). Trzymamy tu waypointy i przyszłe us
 - Lokalizacja tagów/Spaces: `dev/obsidian/tags/`
 - Subfolder konfiguracji: `.space/`
 - Powiązane ustawienie w Make.md: `spacesFolder` + `spaceSubFolder` w `.obsidian/plugins/make-md/data.json`.
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[EWW-MAP]]

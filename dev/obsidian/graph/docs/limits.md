@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "limits"
+created: 2025-11-24
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 # Oficjalne limity Obsidian Graph
 
 ## Z dokumentacji projektu
@@ -78,3 +87,9 @@ Każdy node sprawdzany 13 razy = **82 × 13 = 1066 checks!**
 4. GitHub Issues: obsidianmd/obsidian-releases
 
 **Nota**: Brak oficjalnego statement od Obsidian Team!
+
+## 🔗 Backlinks
+
+- [[dev/obsidian/graph/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

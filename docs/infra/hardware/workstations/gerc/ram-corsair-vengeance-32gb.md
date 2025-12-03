@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #GERC
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "RAM — GERC"
 
@@ -80,3 +81,9 @@ Swap: 511 MiB (not used)
 - [ ] @karinam sprawdzić możliwość rozbudowy do 64 GB (4 × 16 GB dodatkowe).
 - [ ] @karinam zweryfikować profil XMP i napięcia DRAM (powinno być 1.2V standard, 1.35V XMP).
 - [ ] @karinam dodać benchmark (AIDA64 Memory, PassMark) dla porównania wydajności.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

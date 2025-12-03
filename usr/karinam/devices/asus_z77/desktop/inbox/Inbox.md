@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #folder_note
   - #automation
@@ -8,8 +9,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T14:19:10Z
-modified: 2025-11-21T14:19:10Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "📥 Inbox - Karinam"
 
@@ -52,4 +53,3 @@ Przestrzeń na szybkie notatki, pomysły i zadania do późniejszego uporządkow
 - [[GRAPH-CORE]]
 - [[GRAPH-BUSINESS]]
 - [[GRAPH-CONFIG]]
-

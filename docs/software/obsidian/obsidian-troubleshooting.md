@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #docs
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #obsidian
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "Obsidian - Rozwiązywanie problemów"
 
@@ -245,3 +246,9 @@ A: Obsidian → Settings → Open another vault → Open folder as vault → Wyb
 - [eww/scripts/eww-obsidian-fix.sh](../scripts/eww-obsidian-fix.sh)
 - [eww/.gitignore](../.gitignore) - ignorowane katalogi
 - [docs/narzedzia-deweloperskie.md](narzedzia-deweloperskie.md)
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -72,3 +72,7 @@ W Graph View użyj filtrów:
 - `tag:#docs` - tylko dokumentacja
 - `tag:#development` - tylko dev/business
 
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[EWW-MAP]]

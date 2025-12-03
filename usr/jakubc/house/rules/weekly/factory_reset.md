@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #rules
   - #house
@@ -6,8 +7,8 @@ tags:
   - #cleaning
   - #desk
   - #factory-reset
-created: 2025-11-22T21:00:00Z
-modified: 2025-11-22T21:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Factory Reset - Zasada cotygodniowa"
 type: rule
@@ -149,3 +150,9 @@ owner: jakubc
 **Utworzono:** 2025-11-22
 **Status zasady:** ✅ AKTYWNA
 **Egzekwowane od:** 2025-11-23 (sobota)
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/house/rules/weekly/weekly]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

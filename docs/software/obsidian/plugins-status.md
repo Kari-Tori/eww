@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "plugins-status"
+created: 2025-11-25
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-25T03:13:57Z
 modified: 2025-11-25T03:13:57Z
 author: karinam
@@ -288,3 +297,9 @@ git add .
 git commit -m "Pre-plugin installation backup"
 git push
 ```
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

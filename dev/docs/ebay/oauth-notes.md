@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #docs
   - #ebay
   - #oauth
   - #howto
-created: 2025-11-29T12:25:00Z
-modified: 2025-11-29T12:25:00Z
+created: 2025-12-01
+modified: 2025-12-01
 title: "eBay OAuth – notatki wdrożeniowe"
 owner: ai
 ---
@@ -76,3 +77,9 @@ refreshed = oauth_api.get_access_token(environment.SANDBOX, user_tokens.refresh_
 - Ustal minimalny zestaw scope potrzebny do danej API, by nie prosić o zbędne uprawnienia.
 - Tokeny zapisuj z czasem wygaśnięcia i wykonuj odświeżanie na cronie lub przy 401.
 - Sandbox ma inne konta użytkowników niż produkcja; testowe konta utwórz osobno.
+
+## 🔗 Backlinks
+
+- [[dev/docs/ebay/ebay]]
+- [[docs/docs]]
+- [[INDEX]]

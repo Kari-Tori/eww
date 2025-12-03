@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #docs
@@ -6,8 +7,8 @@ tags:
   - #graph
   - #obsidian
   - #reference
-created: 2025-11-21T20:20:00Z
-modified: 2025-11-21T20:20:00Z
+created: 2025-11-21
+modified: 2025-12-01
 author: jakubc
 title: "📊 Graph Config - Dokumentacja kolorów i grup"
 owner: jakubc
@@ -158,3 +159,9 @@ tag:#secondbrain OR path:dev/Projects/Secondbrain/
 > Używaj Local Graph dla codziennej pracy, Global Graph tylko dla overview.
 
 *Ostatnia aktualizacja*: 2025-11-21T20:20:00Z
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

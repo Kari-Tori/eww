@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #folder_note
   - #automation
@@ -8,8 +9,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 
-modified: 
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "📁 graphs"
 
@@ -50,4 +51,3 @@ owner: jakubc
 - [[GRAPH-CORE]]
 - [[GRAPH-BUSINESS]]
 - [[GRAPH-CONFIG]]
-

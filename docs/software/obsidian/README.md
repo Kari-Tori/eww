@@ -5,11 +5,11 @@ tags:
   - #software
   - #folder_note
   - #eww
-created: 2025-11-22T19:38:00Z
-modified: 2025-11-22T19:38:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Obsidian - Dokumentacja"
-version: "1.7.7"
+version: 0.0.2
 owner: jakubc
 ---
 
@@ -122,3 +122,9 @@ Konfiguracja Obsidian (TODO)
 - [ ] Dodać screenshots kluczowych funkcji
 - [ ] Utworzyć quick start guide
 - [ ] Dodać troubleshooting guide
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

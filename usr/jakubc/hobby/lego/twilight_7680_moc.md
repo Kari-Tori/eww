@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-25
+version: 0.0.1
 alias: [Twilight, G9 Rigger, 7680]
 title: "🛰️ LEGO Star Wars 7680 Twilight — zakup + MOC"
 owner: "Wielki Implementator"
@@ -122,3 +125,8 @@ Legenda: ▢ niska · ▣ średnia · ■ wysoka
 - [ ] Zamówić braki, zbudować model.  
 - [ ] Opcjonalnie: stand + tabliczka, sesja foto.
 
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/lego/lego]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-12-01T01:30:44Z
-modified: 2025-12-01T01:38:30Z
+created: 2025-12-01
+modified: 2025-12-01
 author: jakubc
 title: "make - narzędzie budujące"
 
@@ -63,3 +64,9 @@ owner: jakubc
 ## W kontekście EWW
 - 🎯 Główne polecenia: `make help`, `make check-versions`, `make bump-version BUMP=X.Y.Z`.
 - 🔄 Zachowaj spójność wersji (`VERSION`, frontmatter, tag `vX.Y.Z`) po `make bump-version`.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/study/study]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-25
+version: 0.0.6
 title: Chałka – przepis idealny z długą fermentacją
 description: Oderwany na podstawie receptury PJ Hamel (King Arthur Baking) z nocną fermentacją i opcjami wariantów.
 ---
@@ -59,3 +62,9 @@ Ten wariant został opracowany przez PJ Hamel z King Arthur Baking; zawiera wię
 [^rowse-honey]: „Rowse Pure & Natural Runny Honey (1.36 kg) – Compare Prices”, Trolley.co.uk, zakres £8.00–£9.39, dostęp 16 listopada 2025 r., <https://www.trolley.co.uk/product/rowse-runny-honey/ETV749>.
 [^lidl-eggs]: „The 18p Egg: Lidl’s Pricing Gambit…”, *GSN News*, 4 stycznia 2025 r., <https://www.gsnnews.com/lidl-eggs-2025-pricing-gambit/>.
 [^lidl-yeast]: „Home Baking Ingredients | Flour & Cake Decorating”, Lidl UK (Rivercote Fast Action Yeast – cena dostępna tylko na półce), dostęp 16 listopada 2025 r., <https://www.lidl.co.uk/c/home-baking/s10023611>.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/chalka/chalka]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

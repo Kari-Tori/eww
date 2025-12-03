@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "CODE_OF_CONDUCT"
+created: 2025-11-26
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-26T12:57:37Z
 modified: 2025-11-26T12:57:37Z
 author: karinam
@@ -66,3 +75,9 @@ author: karinam
 ---
 
 **Razem tworzymy lepszą społeczność! 🤝**
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

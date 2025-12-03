@@ -1,21 +1,21 @@
 ---
-title: "research - folder note"
+version: 0.0.1
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - jakubc
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:54:47
+  - #folder_note
+title: "research"
 ---
 
-# research — folder note
+# research
 
-## README
-Index folderu `usr/jakubc/health/drugs/marihuana/research` dla użytkownika `jakubc`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/jakubc/health/drugs/marihuana/research`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- [zatrucie-od-zbyt-duzej-dawki.md](zatrucie-od-zbyt-duzej-dawki.md)
+- [[zatrucie-od-zbyt-duzej-dawki]]
+
+## 🔗 Backlinki
+
+- [[marihuana]]
+- [[zatrucie-od-zbyt-duzej-dawki]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T11:00:00Z
-modified: 2025-11-21T11:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "⚡ ADHD – Neuroarchitektura Wielkiej Mocy  "
 
@@ -144,3 +145,9 @@ Ten dokument służy jako:
 
 **ADHD to nie problem. To silnik nieregularnego spalania.**  
 Wymaga obudowy. A potem — pociągnie wszystko.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/health/health]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

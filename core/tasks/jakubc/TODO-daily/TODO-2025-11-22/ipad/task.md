@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #tablet
   - #device
-created: 2025-11-22T18:56:00Z
-modified: 2025-11-22T18:56:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Tablet setup"
 status: todo
@@ -27,3 +28,9 @@ Prepare Gary's tablet so it can be used every day.
 
 ## 🔗 Links
 - [[TODO-daily-2025-11-22]]
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/ipad/ipad]]
+- [[core/core]]
+- [[core/config]]

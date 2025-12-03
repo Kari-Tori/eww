@@ -1,73 +1,39 @@
 ---
+version: 0.0.5
+created: 2025-11-21
+modified: 2025-12-01
 tags:
-  - #automation
-  - #eww
-  - #jakubc
-  - #knowledge
-  - #lego
-  - #linux
-  - #secondbrain
   - #folder_note
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T19:00:00Z
-author: jakubc
-title: "📁 lego"
-
-
-
-
-
-
-owner: jakubc
+title: "lego"
 ---
 
-# 📁 lego
+# lego
 
-> **Folder Note** - centralny index dla katalogu `lego/`
-
-## 📋 Cel folderu
-
-Katalog `lego` zawiera 3 plików i 1 podfolderów.
-
-**Przeznaczenie:**
-- Profile użytkowników i workspace
-
-
-## 📄 Pliki w folderze
-
-- [[clone_vehicles_top10]] - clone vehicles top10
-- [[delta-7-notatka]] - TODO - uzupełnij opis.
-- [[obex-nuclass]] - TODO - uzupełnij opis.
-
-## 📂 Podfoldery
-
-- 📂 [[lego/lego|lego]] - Subfolder
-
-## 🔗 Nawigacja
-
-- ⬆️ [[jakubc/jakubc|jakubc]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
-
-
-**Lokalizacja:** `usr/jakubc/hobby/lego`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-- [clone_vehicles_top10](clone_vehicles_top10.md)
-- [delta-7-notatka](delta-7-notatka.md)
-- [obex-nuclass](obex-nuclass.md)
+Notatka folderu dla `usr/jakubc/hobby/lego`
 
 ## 📁 Podfoldery
 
-- [lego/](lego/lego.md)
+- [[delta-7]]
+- [[lego]]
+- [[snippets]]
 
-## 🔗 Backlinks
+## 📄 Pliki w tym folderze
 
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
+- [[clone_vehicles_top10]]
+- [[delta-7-notatka]]
+- [[Lego]]
+- [[obex-nuclass]]
+- [[shipping_lego]]
+- [[Twilight_7680_Kompendium_Roadmapa]]
+- [[twilight_7680_moc]]
 
+## 🔗 Backlinki
+
+- [[hobby]]
+- [[clone_vehicles_top10]]
+- [[delta-7-notatka]]
+- [[Lego]]
+- [[obex-nuclass]]
+- [[shipping_lego]]
+- [[Twilight_7680_Kompendium_Roadmapa]]
+- [[twilight_7680_moc]]

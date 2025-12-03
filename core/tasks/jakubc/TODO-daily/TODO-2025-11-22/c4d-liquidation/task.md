@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #phones
   - #cinema4d
   - #3d
   - #modeling
-created: 2025-11-22T18:56:00Z
-modified: 2025-11-22T18:56:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Cinema 4D phone renders"
 status: todo
@@ -29,3 +30,9 @@ Prepare updated phone renders in Cinema 4D for the listing deck.
 ## 🔗 Links
 - [[TODO-daily-2025-11-22]]
 - [[usr/jakubc/]]
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/c4d-liquidation/c4d-liquidation]]
+- [[core/core]]
+- [[core/config]]

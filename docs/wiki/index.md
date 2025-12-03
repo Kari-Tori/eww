@@ -1,19 +1,23 @@
 ---
-title: Wiki — spis
-description: Automatycznie generowany indeks projektu
-version: 0.0.0.4
-generator: ./dev/bin/eww-index
-source: .filedesc
-type: index
-category: documentation
-auto-generated: true
+version: 0.0.7
 tags:
-  - index
-  - file-descriptions
-updated: 2025-11-09
+  - #wiki
+  - #docs
+created: 2025-11-05
+modified: 2025-11-25
+author: codex
+title: "Wiki index"
+owner: jakubc
 ---
 
-# Wiki — spis
-- [Obsidian](docs/wiki/obsidian.md)
-- [Neovim](neovim.md)
-- [Kubuntu](kubuntu.md)
+# Wiki index
+
+- [[kubuntu]] – konfiguracja Kubuntu i standard ikon
+- [[neovim]] – konfiguracja edytora
+- [[obsidian]] – przewodniki Obsidian
+
+## 🔗 Backlinks
+
+- [[docs/infra/wiki/wiki]]
+- [[docs/docs]]
+- [[INDEX]]

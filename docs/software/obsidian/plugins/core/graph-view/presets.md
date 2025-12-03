@@ -1,11 +1,12 @@
 ---
+version: 0.0.3
 tags:
   - #obsidian
   - #graph
   - #presets
   - #documentation
-created: 2025-11-23T17:00:00Z
-modified: 2025-11-23T17:00:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Obsidian Graph View - Presety konfiguracyjne"
 owner: jakubc
@@ -319,3 +320,9 @@ Ctrl+Shift+F   - Search in all files
 
 **Ostatnia aktualizacja**: 2025-11-23
 **Aktualna konfiguracja**: `ULTIMATE PERFORMANCE` dla 927 plików
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

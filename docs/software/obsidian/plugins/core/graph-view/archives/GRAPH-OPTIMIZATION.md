@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T13:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "�� Graph Optimization Strategy"
 
@@ -122,3 +123,9 @@ Optymalizowany widok dla **konkretnych ścieżek**:
 
 **Status**: ✅ Zoptymalizowane
 **Ostatnia aktualizacja**: 2025-11-21
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

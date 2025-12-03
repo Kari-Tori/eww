@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "README"
+created: 2025-11-08
+modified: 2025-11-08
+tags:
+  - auto-versioned
+---
+
 # Archive for backup files
 
 Ten katalog przechowuje kopie zapasowe i pliki tymczasowe przeniesione z głównego katalogu repo.

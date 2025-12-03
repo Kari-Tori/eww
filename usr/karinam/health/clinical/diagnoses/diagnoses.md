@@ -1,24 +1,27 @@
 ---
-title: "diagnoses - folder note"
+version: 0.0.6
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - karinam
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:54:47
+  - #folder_note
+title: "diagnoses"
 ---
 
-# diagnoses — folder note
+# diagnoses
 
-## README
-Index folderu `usr/karinam/health/clinical/diagnoses` dla użytkownika `karinam`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/karinam/health/clinical/diagnoses`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- [hashimoto.md](hashimoto.md)
-- [insulinoopornosc.md](insulinoopornosc.md)
-- [niedobor-witaminy-d.md](niedobor-witaminy-d.md)
-- [pcos.md](pcos.md)
+- [[hashimoto]]
+- [[insulinoopornosc]]
+- [[niedobor-witaminy-d]]
+- [[pcos]]
+
+## 🔗 Backlinki
+
+- [[clinical]]
+- [[hashimoto]]
+- [[insulinoopornosc]]
+- [[niedobor-witaminy-d]]
+- [[pcos]]

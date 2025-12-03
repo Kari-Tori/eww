@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "MVP"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T15:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -96,3 +105,9 @@ Wydanie MVP (kroki)
 Dodatkowe notatki
 - Zalecam wykonanie testów na maszynie wirtualnej z najnowszym Kubuntu.
 - Jeżeli chcesz, mogę automatycznie utworzyć wersję `0.0.0.1` i PR, ale potrzebuję potwierdzenia, że chcesz wypchnąć zmiany do origin i ewentualnie nadpisać tagi jeśli to konieczne.
+
+## 🔗 Backlinks
+
+- [[docs/governance/governance]]
+- [[docs/docs]]
+- [[INDEX]]

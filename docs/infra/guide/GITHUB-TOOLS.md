@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "GITHUB-TOOLS"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T09:00:00Z
 modified: 2025-11-24T22:34:18Z
 author: jakubc
@@ -388,3 +397,9 @@ gh copilot --help
 **Zaktualizowano:** 2025-11-21  
 **Autor:** EWW Team  
 **Źródło:** [[INDEX]]
+
+## 🔗 Backlinks
+
+- [[docs/infra/guide/guide]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #star-wars
-created: 2025-11-21T15:00:00Z
-modified: 2025-11-21T15:00:00Z
+created: 2025-11-25
+modified: 2025-12-01
 author: jakubc
 title: "## 🚀 Kolejne statki do opracowania"
 
@@ -272,3 +273,9 @@ owner: jakubc
 > - [[usr/jakubc/hobby/star_wars/ships/List.md|Lista statków wg odcinków]]
 > - [[usr/jakubc/hobby/star_wars/ships/backlinks.md|Backlinks i referencje]]
 > - [[README.md|README projektu eww]]
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

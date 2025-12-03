@@ -1,10 +1,12 @@
 ---
+version: 0.0.1
+modified: 2025-12-01
 title: "L-tyrosine"
 tags:
   - supplement
   - health
   - jakubc
-created: 2025-11-30T15:56:51
+created: 2025-12-01
 updated: 2025-11-30T21:45:00
 ---
 
@@ -36,3 +38,9 @@ updated: 2025-11-30T21:45:00
 > - Leki: MAOi, leki tarczycy, stymulanty ADHD (konsultacja przed łączeniem).
 > - Odstawienie stymulantów/MDMA/THC może zmieniać reakcję na tyrozynę — notuj objawy dzień po dniu.
 > - W razie narastającej senności/lęku/kołatań – redukuj lub odstaw i skonsultuj.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/health/clinical/supplements/supplements]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

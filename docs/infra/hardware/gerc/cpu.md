@@ -1,8 +1,10 @@
 ---
+version: 0.0.8
+modified: 2025-11-25
 title: gerc — CPU
 component: cpu
 author: jakubc
-created: 2025-11-19
+created: 2025-11-05
 updated: 2025-11-19
 ---
 
@@ -18,3 +20,9 @@ updated: 2025-11-19
 ## Zadania
 - [ ] @karinam ustalić dokładny model (np. i7-5960X) i taktowania turbo.
 - [ ] @karinam dodać procedurę wymiany pasty / kontrolę VRM oraz harmonogram serwisowy.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

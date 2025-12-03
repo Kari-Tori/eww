@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #Asus_Z77
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-21T16:00:00Z
-modified: 2025-11-21T16:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "ASUS P8Z77-V DELUXE — karta płyty"
 
@@ -80,3 +81,9 @@ owner: jakubc
 - [x] Wersja BIOS/UEFI (2104) – zweryfikowano.
 - [ ] Opisać obsadzenie slotów PCIe/SATA/USB (co jest fizycznie podłączone), w tym moduły Wi‑Fi/Bluetooth.
 - [ ] Potwierdzić aktywność modułu Wi‑Fi GO! i Thunderbolt + zanotować sterowniki chipsetu.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/asus_z77/asus_z77]]
+- [[docs/docs]]
+- [[INDEX]]

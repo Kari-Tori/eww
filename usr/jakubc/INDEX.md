@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T13:00:00Z
+created: 2025-11-21
+modified: 2025-12-01
 author: jakubc
 title: "📂 jakubc"
 
@@ -46,3 +47,9 @@ owner: jakubc
 - [[usr/jakubc/Notes/INDEX|Notes]]
 
 [⬅️ Powrót do głównego INDEX](../INDEX.md)
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]
+- [[INDEX]]

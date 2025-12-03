@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "delta7-anakin"
+created: 2025-11-25
+modified: 2025-11-25
+tags:
+  - auto-versioned
+---
+
 # Delta-7 Anakin Skywalker — starship index
 
 > Finalny build ma być najwierniejszym odwzorowaniem minifig-scale Delta-7. Najlepszy model / MOC do weryfikacji stoi tu do wpisania.
@@ -16,3 +25,9 @@
 ## Powiązania
 - **Jedi:** [Delta-7 Anakin Skywalker](../../../fun/lego/star_wars/characters/anakin-skywalker.md)
 - **Astrodroid:** [R2-D2](../droids/r2-d2.md)
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

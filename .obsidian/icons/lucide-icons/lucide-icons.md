@@ -38,3 +38,9 @@ Folder `lucide-icons` - automatycznie wygenerowana dokumentacja.
 
 **Utworzono:** 2025-11-21  
 **Autor:** jakubc
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[EWW-MAP]]

@@ -1,35 +1,24 @@
 ---
+version: 0.0.2
+created: 2025-11-24
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #pictures
-folder_color: 8421504
-folder_stats:
-  md_files: 0
-  total_files: 0
-  subdirs: 1
-created: 2025-11-23T01:33:14+00:00
-modified: 2025-11-23T01:33:14+00:00
-author: jakubc
-title: "Pictures - Folder Note"
-owner: karinam
+title: "pictures"
 ---
 
-# Pictures
+# pictures
 
-> Automatycznie wygenerowana notatka folderu
+Notatka folderu dla `usr/karinam/devices/asus_z77/pictures`
 
-## 📊 Statystyki
+## 📁 Podfoldery
 
-- **Pliki Markdown**: 0
-- **Wszystkie pliki**: 0
-- **Podfoldery**: 1
-- **Kolor**: RGB 8421504
+- [[Spectacle]]
 
-## 📝 Zawartość
+## 📄 Pliki w tym folderze
 
-<!-- Auto-generated content -->
+*Brak plików markdown w tym folderze.*
 
----
+## 🔗 Backlinki
 
-**Auto-generated** by `scripts/create-folder-notes.sh`  
-**Last updated**: 2025-11-23T01:33:14+00:00
+- [[asus_z77]]

@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-26
+created: 2025-11-09
+version: 0.0.10
 title: Index
 description: TODO - uzupełnij opis.
 ---
@@ -244,3 +247,9 @@ make tree
 **Wygenerowano:** `./dev/bin/eww-index`  
 **Źródło opisów:** `.filedesc`  
 **Format:** Markdown
+
+## 🔗 Backlinks
+
+- [[dev/projects/projects]]
+- [[dev/dev]]
+- [[dev/Development]]

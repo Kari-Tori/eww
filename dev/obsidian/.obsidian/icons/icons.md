@@ -56,3 +56,9 @@ Folder `icons` - automatycznie wygenerowana dokumentacja.
 
 **Utworzono:** 2025-11-21  
 **Autor:** jakubc
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[dev]]
+- [[README]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.5
+title: "avocado_hass"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T16:00:00Z
 modified: 2025-11-24T22:31:33Z
 author: jakubc

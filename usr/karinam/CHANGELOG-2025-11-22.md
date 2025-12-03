@@ -1,9 +1,11 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 tags:
   - #changelog
   - #karinam
   - #reorganization
-created: 2025-11-22T23:40:00Z
+created: 2025-11-24
 author: jakubc
 title: "CHANGELOG - Reorganizacja struktury karinam (2025-11-22)"
 ---
@@ -154,3 +156,9 @@ sshfs karinam@192.168.0.77:/home/karinam/devices/asus_z77/desktop \
 ---
 
 *Autor: jakubc | Data: 2025-11-22T23:40:00Z*
+
+## 🔗 Backlinks
+
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]
+- [[INDEX]]

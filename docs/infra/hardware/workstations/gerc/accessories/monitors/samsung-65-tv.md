@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 tags:
   - #monitor
   - #tv
   - #samsung
   - #gerc
   - #accessory
-created: 2025-11-22T19:10:00Z
-modified: 2025-11-22T19:10:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Samsung 65\" TV — Monitor główny GERC"
 parent_device: gerc
@@ -30,3 +31,9 @@ owner: jakubc
 ## 🔗 Powiązane
 - [[docs/infra/hardware/workstations/gerc/gerc|gerc]]
 - [[docs/infra/hardware/workstations/gerc/accessories/audio/sony-soundbar|Sony Soundbar]] (plan)
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/accessories/monitors/monitors]]
+- [[docs/docs]]
+- [[INDEX]]

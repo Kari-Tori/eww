@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-29
 title: Skórka awokado – skład i wykorzystanie
 description: Co zawiera skórka awokado Hass, zasady bezpieczeństwa i pomysły zero waste zamiast wyrzucania.
 author: E-Waste Workshop
-created: 2025-11-28
+created: 2025-11-29
 updated: 2025-11-28
 tags:
   - food
@@ -61,3 +63,9 @@ plugins:
 - [[avocado/avocado.md|Awokado – przewodnik]]
 - [[avocado/avocado_hass.md|Awokado Hass – przewodnik odmiany]]
 - [[avocado/avocado_seed.md|Pestka awokado – skład i zastosowania]]
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/avocado/avocado]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

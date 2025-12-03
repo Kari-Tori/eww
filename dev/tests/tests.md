@@ -1,69 +1,21 @@
 ---
+version: 0.0.6
+created: 2025-11-21
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #automation
-  - #development
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-  - #testing
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T09:00:00Z
-author: jakubc
-title: "📁 tests"
-
-
-
-
-
-
-owner: jakubc
+title: "tests"
 ---
 
-# 📁 tests
+# tests
 
-> **Folder Note** - centralny index dla katalogu `tests/`
+Notatka folderu dla `dev/tests`
 
-## 📋 Cel folderu
+## 📄 Pliki w tym folderze
 
-Katalog `tests` zawiera 1 plików i 0 podfolderów.
+- [[test_neovim]]
 
-**Przeznaczenie:**
-- Projekty deweloperskie i playbooki
+## 🔗 Backlinki
 
-
-## 📄 Pliki w folderze
-
-- [[test_neovim]] - Test Neovim - Markdown
-
-## 📂 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Nawigacja
-
-- ⬆️ [[dev/dev|dev]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
-
-
-**Lokalizacja:** `dev/tests`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-- [test_neovim](test_neovim.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[dev]]
+- [[test_neovim]]

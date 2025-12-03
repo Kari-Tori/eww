@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "README"
+created: 2025-11-09
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-09T16:33:22Z
 modified: 2025-11-24T22:31:33Z
 author: Nairecth
@@ -22,3 +31,9 @@ Ten plik zastępuje poprzedni `docs/README.md` i wskazuje nowe źródło prawdy:
 - `docs/infra/software/`, `dev/obsidian/tags/` (symlink: `docs/infra/tags/`), `docs/infra/wiki/`
 
 Jeżeli potrzebujesz starej wersji README lub indeksu, znajdziesz je w `docs/infra/legacy/`.
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

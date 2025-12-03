@@ -1,56 +1,24 @@
 ---
-date: <% tp.date.now("YYYY-MM-DD") %>
-day: <% tp.date.now("dddd") %>
-pretty_date: <% tp.date.now("D MMMM") %>
-start_time: <% tp.date.now("HH:mm") %>
+version: 0.0.6
+created: 2025-11-25
+modified: 2025-11-25
 tags:
-  - journal/daily
-  - personal
-template: daily-template
-cssclass: journal-sheet
-requires:
-  - templater
-  - periodic-notes
-  - tasks
-  - dataview
+  - #folder_note
+title: "daily-template"
 ---
 
-# <% tp.date.now("dddd") %> — <% tp.date.now("YYYY-MM-DD") %> ✨
-## Start dnia: <% tp.date.now("YYYY-MM-DD") %> • <% tp.date.now("dddd") %> • <% tp.date.now("HH:mm") %>
+# daily-template
 
-## Mood / Energy
-> [!abstract] Opisz dzisiejszy poziom
-> **Mood:** <% Array.from({length:10}, (_,i)=>`[ ] ⭐${i+1}`).join(' ') %>  
-> **Energy:** <% Array.from({length:10}, (_,i)=>`[ ] ⚡${i+1}`).join(' ') %>  
-> **Focus:** _krótki opis / cel główny_
+Notatka folderu dla `usr/karinam/journal/template/daily-template`
 
-## 🗂️ Zadania przypisane na dziś
-> [!todo] Widok z Tasks plugin
-> ```tasks
-> not done
-> due today
-> ```
+## 📁 Podfoldery
 
-## 📝 Opis dnia / Refleksje
-> [!quote] Notatki
-> Luźne zapiski, lesson learned, cytaty, dialogi.
+- [[daily-data]]
 
-## 📸 Zdjęcia / Galerie
-> [!photo] Fotoblog
-> Wstaw `![[nazwa_pliku.jpg]]` lub `[![]()](...)`. Jeśli brak zdjęć, zostaw blok pusty.
-> - Pliki dzisiejszego dnia trzymaj w automatycznie tworzonym podfolderze `daily-data/`.
-> - Możesz dołączyć cały katalog `~/Downloads` jako symlink `daily-data/Downloads`, aby mieć szybki dostęp do świeżych materiałów.
+## 📄 Pliki w tym folderze
 
-## ✨ Podsumowanie dnia
-> [!success] Wnioski po zakończeniu
-> Co się udało, czego się nauczyłaś, co poprawić jutro.
+*Brak plików markdown w tym folderze.*
 
-## 📊 Dataview skrót (ostatnie wpisy)
-> [!summary] Zestawienie
-> ```dataview
-> table pretty_date as "Dzień", start_time as "Start"
-> from "usr/karinam/journal/daily"
-> where date <= date(now)
-> sort date desc
-> limit 5
-> ```
+## 🔗 Backlinki
+
+- [[template]]

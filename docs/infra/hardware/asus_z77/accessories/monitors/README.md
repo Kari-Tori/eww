@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #monitors
   - #asus_z77
   - #display
-created: 2025-11-22T18:36:00Z
-modified: 2025-11-22T18:36:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "ASUS Z77 - Monitory"
 owner: jakubc
@@ -92,3 +93,9 @@ owner: jakubc
 - [[usr/karinam/asus_z77/asus_z77]] - Komputer macierzysty
 - [[asus_z77/gpu-nvidia-gtx1660ti]] - Karta graficzna
 - [[gerc/accessories/monitors/samsung-65-tv]] - Współdzielony TV
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/asus_z77/accessories/monitors/monitors]]
+- [[docs/docs]]
+- [[INDEX]]

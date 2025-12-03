@@ -30,6 +30,11 @@
       "ctime": 1760038122989,
       "url": "https://chatgpt.com/c/68e80b93-2894-8327-b06b-602e133a562a",
       "title": "Chat GPT"
+    },
+    {
+      "type": "file",
+      "ctime": 1764738284469,
+      "path": "ops/dashboard-eww.md"
     }
   ]
 }

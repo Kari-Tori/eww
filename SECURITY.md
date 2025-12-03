@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "SECURITY"
+created: 2025-11-26
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-26T12:57:37Z
 modified: 2025-11-26T12:57:37Z
 author: karinam
@@ -124,3 +133,9 @@ author: karinam
 ---
 
 **Dziękujemy za pomoc w utrzymaniu bezpieczeństwa projektu! 🔐**
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

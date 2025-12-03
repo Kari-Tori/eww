@@ -1,13 +1,14 @@
 ---
 title: Roadmapa biznesowa
 description: Cele E-Waste Workshop (30/90/365), kanały i KPI
+modified: 2025-11-28
 tags:
   - roadmap
   - goals
   - business
-version: 0.0.0.5
+version: 0.0.6
 language: pl
-created: 2025-11-29
+created: 2025-11-28
 updated: 2025-11-29
 owner: jakubc
 ---
@@ -34,10 +35,10 @@ owner: jakubc
 - Polityka Zero Waste widoczna i stosowana (`ZERO-WASTE-POLICY.md`).
 
 ## Horyzont 90 dni (Q1)
-- Migracja wg `docs/infra/RESTRUCTURE-MAP.md` (rename `dev/`→`development/`, `usr/`→`users/`).
+- Migracja wg `docs/governance/RESTRUCTURE-MAP.md` (rename `dev/`→`development/`, `usr/`→`users/`).
 - Kanały sprzedaży + media: plan serii YT (mobilne/pato-naprawy), produkt FCGH.
 - Szkic inwentaryzacji Odoo + AI (przyjęcie → test → refabrykacja → magazyn → sprzedaż).
-- Stabilne operacje mimo ograniczonego internetu (Gary Net) — procedura obejścia w `docs/infra/network/garynet.md`.
+- Stabilne operacje mimo ograniczonego internetu (Gary Net) — procedura obejścia w `docs/infra/hardware/network/garynet.md`.
 
 ## Horyzont 365 dni
 - Wydanie 0.1 warsztatowego toolsetu (instalator, monitoring pluginów, baner init).
@@ -55,6 +56,12 @@ owner: jakubc
 - `GOALS.md`
 - `business/story.md`
 - `ZERO-WASTE-POLICY.md`
-- `docs/infra/location.md`
-- `docs/infra/network/garynet.md`
-- `docs/infra/RESTRUCTURE-MAP.md`
+- `docs/infra/areas/workshop/location.md`
+- `docs/infra/hardware/network/garynet.md`
+- `docs/governance/RESTRUCTURE-MAP.md`
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

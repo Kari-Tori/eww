@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #phones
   - #landline
   - #devices
-created: 2025-11-22T18:56:00Z
-modified: 2025-11-22T18:56:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Landline phones check"
 status: todo
@@ -26,3 +27,9 @@ Test the pile of landline phones and decide what to do with them.
 
 ## 🔗 Links
 - [[TODO-daily-2025-11-22]]
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/phones/phones]]
+- [[core/core]]
+- [[core/config]]

@@ -1,69 +1,33 @@
 ---
+version: 0.0.6
+created: 2025-11-21
+modified: 2025-12-01
 tags:
   - #folder_note
-  - #automation
-  - #development
-  - #eww
-  - #jakubc
-  - #knowledge
-  - #linux
-  - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T17:00:00Z
-author: jakubc
-title: "📁 AI"
-
-
-
-
-
-
-owner: jakubc
+title: "AI"
 ---
 
-# 📁 AI
+# AI
 
-> **Folder Note** - centralny index dla katalogu `AI/`
-
-## 📋 Cel folderu
-
-Katalog `AI` zawiera 1 plików i 1 podfolderów.
-
-**Przeznaczenie:**
-- Profile użytkowników i workspace
-
-
-## 📄 Pliki w folderze
-
-- [[Embeddings]] - Embeddings
-
-## 📂 Podfoldery
-
-- 📂 [[AI uzycia/AI uzycia|AI uzycia]] - Subfolder
-
-## 🔗 Nawigacja
-
-- ⬆️ [[Study/Study|Study]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
-
-
-**Lokalizacja:** `usr/jakubc/hobby/study/AI`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-- [Embeddings](Embeddings.md)
+Notatka folderu dla `usr/jakubc/study/AI`
 
 ## 📁 Podfoldery
 
-- [AI uzycia/](AI uzycia/AI uzycia.md)
+- [[AI uzycia]]
 
-## 🔗 Backlinks
+## 📄 Pliki w tym folderze
 
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
+- [[README]]
+- [[continue-ai-assistant]]
+- [[Embeddings]]
+- [[openhands-autonomous-agent]]
+- [[porownanie-narzedzi]]
 
+## 🔗 Backlinki
+
+- [[study]]
+- [[README]]
+- [[continue-ai-assistant]]
+- [[Embeddings]]
+- [[openhands-autonomous-agent]]
+- [[porownanie-narzedzi]]

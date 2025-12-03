@@ -1,4 +1,6 @@
 ---
+version: 0.0.6
+modified: 2025-11-28
 tags:
   - #automation
   - #development
@@ -79,10 +81,6 @@ Katalog `eww` zawiera:
 
 ## 🔗 Backlinks
 
-- ⬆️ [[git/git|git]] - Katalog nadrzędny
-
-
----
-
-**Źródło:** [[INDEX]]  
-**Zaktualizowano:** 2025-11-21
+- [[git/git|git]]
+- [[INDEX]]
+- [[EWW-MAP]]

@@ -1,80 +1,33 @@
-created: 2025-11-21T20:00:00Z
-modified: 2025-11-24T22:31:02Z
-author: jakubc
 ---
+version: 0.0.7
+created: 2025-11-21
+modified: 2025-11-28
 tags:
   - #folder_note
-  - #automation
-  - #development
-  - #docs
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-title: "📁 methodologies"
-
-
-
-
-
-
-owner: jakubc
-created: 2025-11-21T20:00:00Z
-modified: 2025-11-24T22:31:02Z
-author: jakubc
+title: "methodologies"
 ---
 
-# 📁 methodologies
+# methodologies
 
-> **Folder Note** - centralny index dla katalogu `methodologies/`
+Notatka folderu dla `docs/methodologies`
 
-## 📋 Cel folderu
+## 📄 Pliki w tym folderze
 
-Katalog `methodologies` zawiera 5 plików i 0 podfolderów.
+- [[README]]
+- [[CopyCode_Cursor_Workflow]]
+- [[DevOps_Methodology]]
+- [[Obsidian Dashboard]]
+- [[Obsidian_Dashboard]]
+- [[PARA_Metodyka_SecondBrain]]
+- [[Strategia_Blitzscaling_Uniwersalna]]
 
-**Przeznaczenie:**
-- Dokumentacja projektowa i techniczna
+## 🔗 Backlinki
 
-
-## 📄 Pliki w folderze
-
-- [[CopyCode_Cursor_Workflow]] - Tworzenie strony przy pomocy CopyCode.ai + Cursor
-- [[DevOps_Methodology]] - ⚙️ Metodyka DevOps – Wielki Implementator
-- [[Obsidian Dashboard]] - Obsidian Dashboard
-- [[PARA_Metodyka_SecondBrain]] - Metodyka PARA – System Organizacji Second Brain
-- [[Strategia_Blitzscaling_Uniwersalna]] - Strategia Blitzscalingu – Dokument Strategiczny
-
-## 📂 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Nawigacja
-
-- ⬆️ [[business/business|business]] - Folder nadrzędny
-- 🏠 [[dev/INDEX|INDEX]] - Główny index
-
-
-**Lokalizacja:** `business/methodologies`  
-**Zaktualizowano:** 2025-11-24  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-- [CopyCode_Cursor_Workflow](CopyCode_Cursor_Workflow.md)
-- [DevOps_Methodology](DevOps_Methodology.md)
-- [Obsidian Dashboard](Obsidian Dashboard.md)
-- [Obsidian_Dashboard](Obsidian_Dashboard.md)
-- [PARA_Metodyka_SecondBrain](PARA_Metodyka_SecondBrain.md)
-- [Strategia_Blitzscaling_Uniwersalna](Strategia_Blitzscaling_Uniwersalna.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
+- [[docs]]
+- [[README]]
+- [[CopyCode_Cursor_Workflow]]
+- [[DevOps_Methodology]]
+- [[Obsidian Dashboard]]
+- [[Obsidian_Dashboard]]
+- [[PARA_Metodyka_SecondBrain]]
+- [[Strategia_Blitzscaling_Uniwersalna]]

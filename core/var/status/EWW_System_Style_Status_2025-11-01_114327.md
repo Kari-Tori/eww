@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #productivity
   - #secondbrain
-created: 2025-11-21T20:00:00Z
-modified: 2025-11-21T20:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "🖌️ E-Waste Workshop — stan stylu systemu (Kubuntu/Plasma)"
 
@@ -62,3 +63,9 @@ test -f ~/.local/share/konsole/EWW-Dark.colorscheme && echo "Konsole: EWW-Dark O
 ## 📝 Notatki operacyjne
 - Zmianę **AccentColor** wykonuj z **GUI**: *Ustawienia → Wygląd → Kolory → Akcent* (CLI potrafi u Ciebie rozhuśtać sesję i audio).
 - Jeśli zechcesz przetestować **Tela-dark** tylko jako ikony, dam krótki blok „apply/revert” bez dotykania reszty środowiska.
+
+## 🔗 Backlinks
+
+- [[core/var/status/status]]
+- [[core/core]]
+- [[core/config]]

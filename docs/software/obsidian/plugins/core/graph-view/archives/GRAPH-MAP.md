@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T12:00:00Z
-modified: 2025-11-21T12:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🗺️ GRAPH: Repository Map"
 
@@ -122,3 +123,8 @@ git log --all --graph --oneline --decorate
 
 Wszystkie pliki typu folder note (np. `business.md`, `config.md`, `usr.md`) mają specjalny tag `#folder_note`, który pozwala je łatwo zidentyfikować na grafie jako główne punkty nawigacyjne struktury repozytorium.
 
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #obsidian
   - #graph
   - #configuration
-created: 2025-11-27
-modified: 2025-11-27
+created: 2025-11-28
+modified: 2025-11-28
 author: karinam
 title: "Obsidian Graph - Centralna konfiguracja"
 ---
@@ -244,3 +245,9 @@ git commit -m "feat(graph): dodaj preset my-preset"
 ---
 
 **Wszystko w jednym miejscu. Prosta struktura. Jasne nazwy.** ✨
+
+## 🔗 Backlinks
+
+- [[dev/obsidian/graph/graph]]
+- [[dev/dev]]
+- [[dev/Development]]

@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-28
+created: 2025-11-09
+version: 0.0.3
 title: lib/ - Biblioteki współdzielone
 description: TODO - uzupełnij opis.
 ---
@@ -73,3 +76,9 @@ log_info "Sprawdzam ostatni tag..."
 last_tag=$(git::last_tag)
 log_success "Znaleziono: $last_tag"
 ```
+
+## 🔗 Backlinks
+
+- [[dev/lib/lib/lib]]
+- [[dev/dev]]
+- [[dev/Development]]

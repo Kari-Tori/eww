@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #obsidian
   - #graph
@@ -6,8 +7,8 @@ tags:
   - #folder_note
   - #eww
   - #secondbrain
-created: 2025-11-22T19:29:00Z
-modified: 2025-11-23T17:30:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Obsidian Graph - Dokumentacja i instalacja"
 owner: jakubc
@@ -119,3 +120,8 @@ obsidian &
 **Presety:** `.obsidian/graph-*.json`
 **Data ostatniej aktualizacji:** 2025-11-23
 
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[docs]]
+- [[EWW-MAP]]

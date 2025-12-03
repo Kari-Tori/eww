@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 title: Sen i regeneracja – Karinam
 description: Monitorowanie snu, rytmu dobowego i higieny snu.
 tags:
@@ -6,8 +7,8 @@ tags:
   - #health
   - #sleep
   - #tracker
-created: 2025-11-28T23:50:30Z
-modified: 2025-11-28T23:50:30Z
+created: 2025-11-29
+modified: 2025-11-29
 author: karinam
 ---
 
@@ -38,3 +39,9 @@ author: karinam
 
 ## Do omówienia z lekarzem
 - ___
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/sleep/sleep]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

@@ -1,9 +1,10 @@
 ---
+version: 0.0.1
 tags:
   - #Dell_T140
   - #cpu
-created: 2025-11-22T18:42:00Z
-modified: 2025-11-22T18:42:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "CPU — Dell T140 (Xeon E-2224)"
 owner: jakubc
@@ -17,3 +18,9 @@ owner: jakubc
 
 ## TODO
 - [ ] @jakubc sprawdzić aktualną wersję BIOS i microcode.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/dell_t140/dell_t140]]
+- [[docs/docs]]
+- [[INDEX]]

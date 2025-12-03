@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "atak-zoladka-24-26-11"
+created: 2025-11-28
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 <!--
  * @Author: karinam kmirowska7@gmail.com
  * @Date: 2025-11-27 15:12:37
@@ -44,3 +53,9 @@ Krótka notatka o ostatnich objawach.
 - Dieta: lekkostrawne posiłki (kleik ryżowy, banan, suchary, gotowane warzywa), małe porcje częściej.
 - Unikać używek i kofeiny do ustąpienia objawów.
 - Jeśli ból lub nudności nasilą się albo pojawi się gorączka/krew, skontaktować się z lekarzem.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/clinical/episodes/episodes]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

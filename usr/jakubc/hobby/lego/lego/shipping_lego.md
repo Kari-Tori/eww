@@ -1,4 +1,5 @@
 ---
+version: 0.0.5
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #lego
   - #linux
   - #secondbrain
-created: 2025-11-21T19:00:00Z
-modified: 2025-11-21T19:00:00Z
+created: 2025-11-21
+modified: 2025-12-01
 author: jakubc
 title: "🧱 Statki TCW — dane LEGO/MOC"
 

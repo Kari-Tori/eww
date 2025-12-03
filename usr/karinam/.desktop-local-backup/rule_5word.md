@@ -7,8 +7,8 @@ tags:
   - #problem-solving
   - #thinking
   - #cognitive
-created: 2025-11-22T12:20:00Z
-modified: 2025-11-22T12:20:00Z
+created: 2025-11-24
+modified: 2025-11-25
 author: jakubc
 title: "🧠 Rule of 5 Words - Cognitive Decomposition Protocol"
 type: methodology
@@ -17,7 +17,7 @@ priority: P1
 vault: /home/jakubc/git/eww
 workspace: config/eww.code-workspace
 task_card: false
-version: 2.0
+version: 0.0.6
 ---
 
 # 🧠 Rule of 5 Words - Cognitive Decomposition Protocol
@@ -66,3 +66,9 @@ version: 2.0
 - [[usr/karinam/desktop/TODO-karinam-list|Protokół HERE · 5 słów]]
 - [[goals|Cele główne EWW]]
 - [[EWW-MAP|Mapa EWW]]
+
+## 🔗 Backlinks
+
+- [[usr/karinam/.desktop-local-backup/.desktop-local-backup]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

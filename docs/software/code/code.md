@@ -1,77 +1,31 @@
-created: 2025-11-21T19:00:00Z
-modified: 2025-11-25T03:12:10Z
-author: jakubc
 ---
-title: Code — zasady, narzędzia i workflow
-description: Zwięzła dokumentacja konwencji kodu, narzędzi i CI dla katalogu code.
-created: 2025-11-21T19:00:00Z
-modified: 2025-11-25T03:12:10Z
-author: jakubc
+version: 0.0.5
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - #folder_note
+title: "code"
 ---
 
-Cel
-- Zdefiniować szybkie wytyczne dla kodu przechowywanego w katalogu docs/software/code.
-- Wskazać rekomendowane narzędzia, linting, formatowanie i workflow.
+# code
 
-Podstawowe założenia
-- Język dokumentacji i komentarzy: polski.
-- Stosuj konwencje projektowe z AGENTS.md i .github/copilot-instructions.md.
-- Zachowuj czytelność, testowalność i idempotentność skryptów.
+Notatka folderu dla `docs/software/code`
 
-Rekomendowane narzędzia
-- Lintery:
-  - Bash: shellcheck
-  - POSIX / sh: shellcheck --shell=sh
-- Formatowanie:
-  - shfmt dla skryptów Bash
-- Testy:
-  - BATS dla skryptów Bash (tests/*.bats)
-- CI:
-  - GitHub Actions: uruchamiaj shellcheck, shfmt --check, bats
-- Pre-commit:
-  - instalacja hooków (pre-commit lub custom scripts) uruchamiających shellcheck i shfmt
+## 📁 Podfoldery
 
-Konwencje kodu (skrót)
-- Shebang: #!/usr/bin/env bash
-- set -euo pipefail w każdym skrypcie
-- Wszystkie zmienne cytowane: "$zmienna"
-- Lokalne zmienne: local nazwa
-- Globalne stałe: EWW_NAZWA_STALEJ (UPPER_SNAKE)
-- Nazwy funkcji: eww::nazwa_funkcji lub nazwa_funkcji (snake_case)
-- Komentarze i komunikaty: po polsku
+- [[plugins]]
 
-Struktura repo (przypomnienie)
-- bin/ — skrypty wykonywalne
-- lib/ — biblioteki pomocnicze
-- scripts/ — skrypty pomocnicze
-- tests/ — testy BATS
+## 📄 Pliki w tym folderze
 
-Przykładowy pipeline (GitHub Actions)
-- checkout
-- uruchom shellcheck dla .sh
-- uruchom shfmt --check
-- uruchom bats tests/
+- [[README]]
+- [[code-plugins]]
+- [[extensions-status]]
+- [[html-css-tools]]
 
-Snippet — minimalny skrypt zgodny ze standardem
-```bash
-#!/usr/bin/env bash
-# filepath: /home/karinam/git/eww/bin/eww-przyklad
-# Krótki opis: przykład zgodnego skryptu
-set -euo pipefail
+## 🔗 Backlinki
 
-log_info() { printf '[EWW] %s\n' "$1"; }
-
-main() {
-  log_info "Uruchomiono skrypt przykładowy"
-}
-
-main "$@"
-```
-
-Gdzie szukać więcej
-- AGENTS.md — kontekst dla AI i konwencje projektu
-- .github/copilot-instructions.md — zasady dotyczące generowania kodu przez Copilot/AI
-- docs/software/obsidian/plugins.md oraz docs/software/code/plugins/ — przykłady integracji i konfiguracji
-
-Uwagi końcowe
-- Ten plik jest syntetycznym przewodnikiem; szczegóły techniczne i pełne konfiguracje (workflow, hooki) umieszczaj w katalogu .github/ i docs/ zgodnie z potrzebą.
+- [[software]]
+- [[README]]
+- [[code-plugins]]
+- [[extensions-status]]
+- [[html-css-tools]]

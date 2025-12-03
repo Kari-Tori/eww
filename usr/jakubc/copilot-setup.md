@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 tags:
   - #automation
   - #copilot
@@ -6,8 +7,8 @@ tags:
   - #github
   - #eww
   - #jakubc
-created: 2025-11-22T10:45:00Z
-modified: 2025-11-22T10:45:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "GitHub Copilot CLI - Konfiguracja Auto-Approval"
 owner: jakubc
@@ -202,3 +203,9 @@ alias copilot-config='cat ~/.copilot/config.json'
 **Ostatnia aktualizacja:** 2025-11-22
 **Utworzył:** jakubc
 **Status:** ✅ Aktywne
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]
+- [[INDEX]]

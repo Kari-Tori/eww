@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-25
+version: 0.0.6
 title: Journal MVP — autostart notatek
 description: Minimalny zestaw wymagań, żeby dziennik zawsze otwierał nowe wpisy przy starcie Obsidiana.
 tags:
@@ -26,3 +29,9 @@ tags:
 > - Po zamknięciu i ponownym otwarciu vaulta pojawia się nowy plik z aktualną datą.
 > - Frontmatter (`date`, `day`, `pretty_date`, `start_time`, `tags`) wypełnia się Templaterem bez ręcznej edycji.
 > - Dziennik jest gotowy do codziennego użycia od pierwszej sekundy po starcie Obsidiana.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/journal/journal]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

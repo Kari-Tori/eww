@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "obsidian-customization"
+created: 2025-11-25
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-25T03:13:57Z
 modified: 2025-11-25T03:13:57Z
 author: karinam
@@ -1053,3 +1062,9 @@ author: karinam
 - Snippet `lego-snippet` z folderu `usr/jakubc/hobby/lego/snippets/lego-snippet.css` nadaje dedykowany zestaw barw i strukturę (status strip, build card, roadmapa) projektowi Delta-7.
 - Aby go użyć, skopiuj plik do `~/.config/obsidian/<vault>/.obsidian/snippets/lego-snippet.css`, otwórz `Settings → Appearance → CSS snippets`, kliknij „Reload snippets” i włącz `lego-snippet`.
 - Notatka `obi-wan-kenobi.md` ma we front matterze `obsidian_snippet: lego-snippet`, więc po włączeniu snippet od razu styluje cały dokument.
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

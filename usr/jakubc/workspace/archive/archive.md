@@ -1,42 +1,21 @@
 ---
-tags:
-  - #automation
-  - #development
-  - #eww
-  - #jakubc
-  - #knowledge
-  - #linux
-  - #secondbrain
+version: 0.0.3
 created: 2025-11-21
-modified: 2025-11-21
-author: jakubc
-type: folder-note
-
-
-
-
-
-
-owner: jakubc
+modified: 2025-11-24
+tags:
+  - #folder_note
+title: "archive"
 ---
 
-# 📁 archive
+# archive
 
-> Folder note for archive
+Notatka folderu dla `usr/jakubc/workspace/archive`
 
-## 📑 Zawartość
+## 📄 Pliki w tym folderze
 
-- [[README.md]]
+- [[README]]
 
-## 📁 Podfoldery
+## 🔗 Backlinki
 
-
-
-
-## 📑 Index plików
-
-- [README](README.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
+- [[workspace]]
+- [[README]]

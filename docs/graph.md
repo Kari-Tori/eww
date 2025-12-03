@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "graph"
+created: 2025-11-23
+modified: 2025-12-01
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-23T23:09:54Z
 modified: 2025-11-26T12:57:37Z
 author: jakubc
@@ -333,3 +342,9 @@ cp /home/karinam/git/eww/dev/obsidian/graph/presets/ultimate.json \
 ```
 
 - **⚪ Struktura** (#ffffff) - README, INDEX, dokumenty główne
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

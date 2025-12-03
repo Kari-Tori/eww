@@ -1,4 +1,6 @@
 ---
+version: 0.0.1
+modified: 2025-11-25
 title: AI Tools Study Notes
 author: Jakub C
 created: 2025-11-25
@@ -92,3 +94,9 @@ cp /git/eww/dev/cfg/continue-config.json ~/.continue/config.json
 
 **Status:** 📝 Notatki gotowe (2025-11-25)  
 **Next:** 🚀 Instalacja Continue
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/study/AI/AI]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

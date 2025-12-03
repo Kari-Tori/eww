@@ -1,10 +1,11 @@
 ---
+version: 0.0.2
 tags:
   - #asus_z77
   - #karinam
   - #workstation
-created: 2025-11-22T23:26:00Z
-modified: 2025-11-22T23:26:00Z
+created: 2025-11-24
+modified: 2025-11-25
 author: jakubc
 title: "ASUS Z77 - Stacja robocza Kariny"
 ---
@@ -68,3 +69,9 @@ cd /home/jakubc/git/eww
 ## Dokumentacja
 - [Sprzęt](../../../../docs/infra/hardware/workstations/asus_z77/asus_z77.md)
 - [Profil Kariny](../../karinam.md)
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/asus_z77]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #infra
   - #git
@@ -6,8 +7,8 @@ tags:
   - #versioning
   - #sync
   - #obsidian
-created: 2025-11-23T18:45:00Z
-modified: 2025-11-23T18:45:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Git Sync Strategy - Multi-workstation setup"
 owner: jakubc
@@ -897,3 +898,9 @@ WORKFLOW:
 - [[docs/infra/hardware/workstations/asus_z77/]] - Secondary workstation (TODO: create)
 - CouchDB documentation: https://docs.couchdb.org/
 - Self-hosted LiveSync plugin: https://github.com/vrtmrz/obsidian-livesync
+
+## 🔗 Backlinks
+
+- [[core/workflow/workflow]]
+- [[core/core]]
+- [[core/config]]

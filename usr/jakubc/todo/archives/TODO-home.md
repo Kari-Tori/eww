@@ -1,12 +1,13 @@
 ---
+version: 0.0.2
 tags:
   - #todo
   - #syncthing
   - #home
   - #sync
   - #karinam
-created: 2025-11-22T15:00:00Z
-modified: 2025-11-22T15:00:00Z
+created: 2025-11-24
+modified: 2025-11-29
 author: jakubc
 title: "TODO: Synchronizacja katalogów home przez Syncthing"
 owner: jakubc
@@ -269,3 +270,9 @@ Po skonfigurowaniu Syncthing, zaktualizować:
 - [Syncthing Documentation](https://docs.syncthing.net/)
 - [usr/README.md](./README.md)
 - Obsidian Sync (alternatywa dla notatek .md)
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/todo/archives/archives]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

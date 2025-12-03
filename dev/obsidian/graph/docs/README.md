@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #obsidian
   - #graph
   - #presets
   - #documentation
-created: 2025-11-27
-modified: 2025-11-27
+created: 2025-11-28
+modified: 2025-11-28
 author: karinam
 title: "Obsidian Graph - Presety konfiguracyjne"
 ---
@@ -149,3 +150,9 @@ Plik wykluczeń `graph-exclude.json`:
 - **2025-11-27**: Uporządkowanie struktury, utworzenie README
 - **2025-11-26**: Backupy przed zmianami kolorów
 - **2025-11-23**: Wdrożenie ULTIMATE preset, versjonowanie, systemd timer
+
+## 🔗 Backlinks
+
+- [[dev/obsidian/graph/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

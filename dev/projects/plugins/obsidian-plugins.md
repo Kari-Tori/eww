@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #folder_note
   - #automation
@@ -8,8 +9,8 @@ tags:
   - #linux
   - #obsidian
   - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T13:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "📁 obsidian-plugins"
 
@@ -70,4 +71,3 @@ Katalog `obsidian-plugins` zawiera 0 plików i 3 podfolderów.
 - [[GRAPH-CORE]]
 - [[GRAPH-BUSINESS]]
 - [[GRAPH-CONFIG]]
-

@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "nextsteps"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T18:00:00Z
 modified: 2025-11-24T22:34:18Z
 author: jakubc

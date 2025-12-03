@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #star-wars
-created: 2025-11-21T16:00:00Z
-modified: 2025-11-21T16:00:00Z
+created: 2025-11-25
+modified: 2025-12-01
 author: jakubc
 title: "✨ LAAT/i Gunship — karta techniczna"
 
@@ -89,3 +90,9 @@ owner: jakubc
 > Wysokie obciążenie skrzydeł – serwis łożysk co 20 misji; wymaga dwóch pilotów do pełnej sprawności.
 
 [[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

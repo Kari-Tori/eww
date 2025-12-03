@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "koro"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T17:00:00Z
 modified: 2025-11-25T03:12:10Z
 author: jakubc
@@ -28,3 +37,9 @@ Przykład:
 Uwaga:
 - Wszystkie komunikaty po polsku.
 - Skrypt jest prosty — możesz dodać mapowanie formatów dat lub integrację z Makefile.
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

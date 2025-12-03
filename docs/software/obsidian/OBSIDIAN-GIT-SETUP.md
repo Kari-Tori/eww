@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #obsidian
   - #secondbrain
-created: 2025-11-21T14:27:50Z
-modified: 2025-11-21T14:27:50Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🔄 Obsidian Git - Konfiguracja"
 
@@ -114,3 +115,9 @@ W Obsidian:
 **Autor**: jakubc  
 **Data**: 2025-11-21  
 **Status**: ✅ AKTYWNE
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.3
+title: "INDEXING-GUIDE"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T20:46:25Z
 modified: 2025-11-24T22:34:18Z
 author: jakubc
@@ -365,3 +374,9 @@ author: jakubc
 
 > [!NOTE] Folder notes
 > Każdy folder note powinien być oznaczony tagiem `#folder_note` — dzięki temu świeci na niebiesko w grafie Obsidian i jest łatwo rozpoznawalny.
+
+## 🔗 Backlinks
+
+- [[docs/infra/guide/guide]]
+- [[docs/docs]]
+- [[INDEX]]

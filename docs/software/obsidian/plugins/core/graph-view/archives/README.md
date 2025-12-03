@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "README"
+created: 2025-11-24
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 # Archives - Graph View Legacy Documentation
 
 Data utworzenia: 2025-11-23
@@ -61,3 +70,9 @@ Dokumenty mogą być przydatne dla:
 
 ---
 *Archiwum zachowane dla celów historycznych i referencyjnych*
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[docs]]
+- [[EWW-MAP]]

@@ -1,44 +1,24 @@
 ---
+version: 0.0.6
+created: 2025-11-28
+modified: 2025-11-28
 tags:
   - #folder_note
-  - #repair
-  - #eww
-created: 2025-11-27T17:26:43Z
-modified: 2025-11-27T17:30:19Z
-author: karinam
-title: "Naprawy"
-owner: karinam
-folder_color: 8421504
-folder_stats:
-  md_files: 1
-  total_files: 1
-  subdirs: 1
+title: "repair"
 ---
 
-# Naprawy
+# repair
 
-> Moduł napraw EWW (spięty z Odoo): przyjęcia serwisowe, statusy i koszty.
+Notatka folderu dla `ops/repair`
 
-## Cel folderu
+## 📁 Podfoldery
 
-- Rejestrowanie zleceń napraw (wejście z Intake → moduł napraw).
-- Powiązanie z Odoo (`odoo_repair_id`) i kosztami ustalonymi z klientem.
-- Historia diagnoz/napraw i aktualny status.
+- [[intake]]
 
-## Przepływ (skrót)
+## 📄 Pliki w tym folderze
 
-- Przyjęcie: [[repair/intake/intake|intake (naprawy)]] – karty w `records/`.
-- Realizacja: diagnostyka i naprawa w Odoo (statusy, części, koszt).
-- Zakończenie: aktualizacja karty i zamknięcie w Odoo.
+*Brak plików markdown w tym folderze.*
 
-## Struktura
+## 🔗 Backlinki
 
-- `intake/` – przyjęcia do napraw (z kartami w `records/`).
-- `templates/` – opcjonalne szablony kart napraw/diagnoz.
-- `logs/` – opcjonalne logi z napraw (testy, pomiary, części).
-
-## Powiązania
-
-- [[intake/intake|Przyjęcia (global)]] – punkt startowy dla całego sprzętu.
-- [[research/research|Research]] – gdy potrzebna diagnostyka przed decyzją.
-- Odoo (moduł napraw) – źródło prawdy o statusach i kosztach.
+- [[ops]]

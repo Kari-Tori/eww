@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #star-wars
-created: 2025-11-21T17:00:00Z
-modified: 2025-11-21T17:00:00Z
+created: 2025-11-25
+modified: 2025-12-01
 author: jakubc
 title: "🌀 Ginivex Fanblade — karta techniczna"
 
@@ -94,3 +95,9 @@ owner: jakubc
 > Żagiel pozwala przełamać blokadę i zyskać osłonę cieplną podczas wejścia w atmosferę, ale przez duży odblask lepiej wyłączać go na niskim pułapie. Przy naprawach pamiętaj o kalibracji ramion (symetria 0,5 mm), w przeciwnym razie Fanblade wchodzi w wibracje >3 Hz i trudniej utrzymać strzał laserowy. Trafienie bronią jonową wymusza czasowe złożenie i „restart” sailera – miej przygotowany zapasowy panel oraz procedurę ręcznego blokowania, aby nie stracić sterowności.
 
 [[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-12-01T01:27:01Z
-modified: 2025-12-01T01:38:30Z
+created: 2025-12-01
+modified: 2025-12-01
 author: jakubc
 title: "Makefile - notatki"
 
@@ -61,3 +62,9 @@ owner: jakubc
 - ⚙️ Ustaw `SHELL := /bin/bash` gdy potrzebujesz funkcji Bashe.
 - 🧪 Używaj `make -n` (dry run) i `@echo` do wglądu w polecenia.
 - 🧭 Grupuj zmienne u góry, cele w sekcjach tematycznych.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/study/study]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

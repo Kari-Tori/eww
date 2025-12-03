@@ -159,3 +159,9 @@ Ten vault dokumentacji zawiera **6473 pliki .md**, więc graf wymaga optymalizac
 **Źródło:** Skopiowane z `/home/jakubc/git/eww/.obsidian/`  
 **Data:** 2025-11-22  
 **Plików w vault:** 6473
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[docs]]
+- [[EWW-MAP]]

@@ -1,7 +1,8 @@
 ---
 title: AGENTS.md - Kontekst dla AI Coding Agents
 description: Instrukcja dla AI – misja Zero Waste, struktura repo, zasady pracy i wersjonowanie
-version: 0.0.0.5
+modified: 2025-11-28
+version: 0.0.6
 audience: AI coding agents
 type: ai-context
 category: documentation
@@ -12,7 +13,7 @@ tags:
   - workflow
   - conventions
 language: pl
-created: 2024-11-08
+created: 2025-11-09
 updated: 2025-11-29
 ---
 
@@ -32,7 +33,7 @@ eww/
 ├── core/               # Config/runtime/workflow
 ├── dev/                # Narzędzia dev, skrypty, init, testy
 ├── lib/                # Biblioteki wspólne
-├── docs/               # Dokumentacja (infra/location/network/hardware)
+├── docs/               # Dokumentacja (areas/workshop/location, network, hardware)
 ├── archive/            # Archiwum
 └── Makefile            # Automatyzacja (make help)
 ```
@@ -71,10 +72,16 @@ eww/
 - `Makefile` – `make help`, `make check-versions`, `make bump-version`.
 - `dev/scripts/check-version-consistency.sh` – walidacja tag/VERSION/frontmatter.
 - `business/story.md`, `business/roadmap.md`, `ZERO-WASTE-POLICY.md` – misja, cele, polityka zero waste.
-- `docs/infra/location.md`, `docs/infra/network/garynet.md`, `docs/infra/hardware/hardware.md` – miejsce, łączność, sprzęt.
+- `docs/infra/areas/workshop/location.md`, `docs/infra/hardware/network/garynet.md`, `docs/infra/hardware/hardware.md` – miejsce, łączność, sprzęt.
 
 ## Planowane rozszerzenia
-- [ ] Migracja wg `docs/infra/RESTRUCTURE-MAP.md` (dev→development, usr→users)
+- [ ] Migracja wg `docs/governance/RESTRUCTURE-MAP.md` (dev→development, usr→users)
 - [ ] Więcej testów coverage (BATS dla lib/init)
 - [ ] Dokumentacja (MkDocs / indeksy)
 - [ ] Integracje CI/CD, pluginy, inne dystrybucje
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

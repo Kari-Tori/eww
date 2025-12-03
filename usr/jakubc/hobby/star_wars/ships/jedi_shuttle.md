@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #eww
   - #jakubc
@@ -7,8 +8,8 @@ tags:
   - #secondbrain
   - #PKM
   - #karinam
-created: 2025-11-21T15:00:00Z
-modified: 2025-11-21T15:00:00Z
+created: 2025-11-25
+modified: 2025-12-01
 author: jakubc
 title: "✨ Eta-class „Jedi Shuttle” — karta techniczna"
 
@@ -155,3 +156,9 @@ owner: jakubc
 > **Źródła:** [Wookieepedia – Anakin’s Shuttle (Legends)](https://starwars.fandom.com/wiki/Anakin%27s_shuttle/Legends), archiwa GAR, logi misji.
 
 [[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

@@ -1,4 +1,6 @@
 ---
+version: 0.0.4
+modified: 2025-11-25
 title: asus_z77 — RAM
 component: ram
 icon: 🧵
@@ -6,7 +8,7 @@ model: Corsair Vengeance 16 GB (2 × 8 GB) DDR3
 specs: 1600 MT/s (XMP) · typ DIMM · CL9 (do potwierdzenia)
 value: Obsadzono Channel A DIMM1 + Channel B DIMM1 · Sloty DIMM0 wolne
 author: jakubc
-created: 2025-11-19
+created: 2025-11-21
 updated: 2025-11-19
 ---
 
@@ -23,3 +25,9 @@ updated: 2025-11-19
 ## Zadania
 - [ ] @karinam potwierdzić dokładne timingi (np. CL9-9-9-24) i numer partii Vengeance.
 - [ ] @karinam dodać datę ostatniego testu pamięci (memtest) + wynik.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/asus_z77/asus_z77]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,69 +1,20 @@
 ---
+version: 0.0.5
+created: 2025-11-21
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #automation
-  - #books
-  - #development
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T23:00:00Z
-author: jakubc
-title: "📁 palettes"
-
-
-
-
-
-
-owner: jakubc
+title: "palettes"
 ---
 
-# 📁 palettes
+# palettes
 
-> **Folder Note** - centralny index dla katalogu `palettes/`
+Notatka folderu dla `dev/Playbooks/EWW_Style/palettes`
 
-## 📋 Cel folderu
+## 📄 Pliki w tym folderze
 
-Katalog `palettes` zawiera 0 plików i 0 podfolderów.
+*Brak plików markdown w tym folderze.*
 
-**Przeznaczenie:**
-- Projekty deweloperskie i playbooki
+## 🔗 Backlinki
 
-
-## 📄 Pliki w folderze
-
-*Brak plików MD w tym folderze.*
-
-## 📂 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Nawigacja
-
-- ⬆️ [[EWW_Style/EWW_Style|EWW_Style]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
-
-
-**Lokalizacja:** `dev/Playbooks/EWW_Style/palettes`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-*Brak plików markdown.*
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[EWW_Style]]

@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-25
+version: 0.0.1
 title: Obsidian – konfiguracja Delta-7 buildów
 description: Spis kroków i snippetów potrzebnych, by `obi-wan-kenobi.md` działał poprawnie w Obsidianie.
 type: documentation
@@ -64,3 +67,9 @@ Wszystkie wtyczki instalujemy z `Settings → Community plugins`. Po każdej ins
 - W katalogu `usr/jakubc/hobby/lego/` każda notatka powinna mieć w front matter `obsidian_snippet: lego-snippet`. Możesz użyć skryptu na bazie `rg -l 'obsidian_snippet'` / `perl -0pi -e 's/obsidian_snippet: .*/obsidian_snippet: lego-snippet/'` (w razie potrzeby) albo edytować ręcznie najważniejsze pliki (Delta-7, eksponaty, bazy).
 - Jeśli pracujesz w innych vaultach lub zakładkach, skopiuj `lego-snippet.css` do `.obsidian/snippets/lego-snippet.css`, potem otwórz `Settings → Appearance → CSS snippets` i włącz `lego-snippet`. To aktywuje paletę LEGO dla wszystkich notatek z odpowiednim front matterem.
 - Przygotuj plik `usr/jakubc/hobby/lego/snippets/README.md` (opcjonalnie) z linkiem do `lego-snippet` i krótkim opisem, żeby inni użytkownicy wiedzieli, że całe LEGO repo korzysta z tej stylizacji.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/lego/delta-7/obi-wan-kenobi/obi-wan-kenobi]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

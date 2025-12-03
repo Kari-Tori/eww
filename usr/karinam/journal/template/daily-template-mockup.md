@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-25
+version: 0.0.6
 title: Daily Template Mockup
 date: 2024-07-15
 requires:
@@ -52,3 +55,9 @@ requires:
 > SORT completion desc
 > ```
 > W tym bloku pojawiają się wszystkie zadania zamknięte tego dnia, dzięki czemu widzisz faktyczny postęp.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/journal/template/template]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

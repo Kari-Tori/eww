@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #star-wars
-created: 2025-11-29T12:05:00Z
-modified: 2025-11-29T12:05:00Z
+created: 2025-11-29
+modified: 2025-12-01
 author: jakubc
 title: "🟣🔷 Dathomirianie (Nightsisters/Nightbrothers)"
 

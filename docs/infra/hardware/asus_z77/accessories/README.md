@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #accessories
   - #asus_z77
   - #peripherals
   - #folder_note
-created: 2025-11-22T18:36:00Z
-modified: 2025-11-22T18:36:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "ASUS Z77 - Akcesoria i peryferia"
 parent_device: asus_z77
@@ -101,3 +102,9 @@ ASUS Z77 GPU (GTX 1660 Ti)
 | --- | --- |
 | 2025-11-22 | Utworzono strukturę accessories dla ASUS Z77 |
 | 2025-11-22 | Tymczasowe użycie przez Jakuba (TV setup) |
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/asus_z77/accessories/accessories]]
+- [[docs/docs]]
+- [[INDEX]]

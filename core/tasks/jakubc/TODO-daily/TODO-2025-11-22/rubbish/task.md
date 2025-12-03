@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #cleanup
   - #waste
   - #home
-created: 2025-11-22T18:56:00Z
-modified: 2025-11-22T18:56:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Take out trash"
 status: todo
@@ -28,3 +29,9 @@ Empty all bins and separate waste correctly.
 ## 🔗 Links
 - [[docs/infra/areas/workshop/layout]]
 - [[TODO-daily-2025-11-22]]
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/rubbish/rubbish]]
+- [[core/core]]
+- [[core/config]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
+created: 2025-11-21
+modified: 2025-12-01
 author: jakubc
 title: "⚡ Qualcomm Snapdragon 8 Elite Gen 5"
 

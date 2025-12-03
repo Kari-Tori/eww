@@ -1,4 +1,6 @@
 ---
+version: 0.0.3
+modified: 2025-11-28
 tags:
   - #automation
   - #eww
@@ -91,3 +93,9 @@ git log --all --graph --oneline
 ---
 
 **Zaczynamy od GRAPH-CORE.md?** 🚀
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

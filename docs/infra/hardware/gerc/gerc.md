@@ -1,32 +1,41 @@
 ---
-title: gerc — indeks sprzętu
-role: GERC / node obliczeniowy
-location: TODO (np. rack domowy)
-author: jakubc
-created: 2025-11-19
-updated: 2025-11-19
+version: 0.0.4
+created: 2025-11-21
+modified: 2025-11-25
+tags:
+  - #folder_note
+title: "gerc"
 ---
 
-# gerc — karta główna
+# gerc
 
-Jednostka na płycie Asus X99 Pro pełniąca rolę GERC. Szczegóły poszczególnych komponentów znajdują się w plikach niżej.
+Notatka folderu dla `docs/infra/hardware/gerc`
 
-## 🔗 Podzespoły
-- [Płyta główna](motherboard.md)
-- [CPU](cpu.md)
-- [Chłodzenie CPU](cooling.md)
-- [RAM](ram.md)
-- [GPU](gpu.md)
-- [Storage](storage.md)
-- [Zasilacz](psu.md)
-- [Wentylatory](fans.md)
-- [Obudowa](case.md)
+## 📁 Podfoldery
 
-## Zadania operacyjne
-- [ ] @karinam spiąć monitoring temperatur i poboru mocy.
-- [ ] @karinam dodać opis konfiguracji zasilania i chłodzenia (zasilacze awaryjne, UPS, chłodnice).
+- [[accessories]]
 
-## Historia zmian
-| Data | Opis |
-| --- | --- |
-| 2025-11-19 | Utworzono strukturę folderu i linki do komponentów. |
+## 📄 Pliki w tym folderze
+
+- [[case]]
+- [[cooling]]
+- [[cpu]]
+- [[fans]]
+- [[gpu]]
+- [[motherboard]]
+- [[psu]]
+- [[ram]]
+- [[storage]]
+
+## 🔗 Backlinki
+
+- [[hardware]]
+- [[case]]
+- [[cooling]]
+- [[cpu]]
+- [[fans]]
+- [[gpu]]
+- [[motherboard]]
+- [[psu]]
+- [[ram]]
+- [[storage]]

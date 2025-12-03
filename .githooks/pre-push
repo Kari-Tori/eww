@@ -26,9 +26,9 @@ log_error() {
 # Sprawdź spójność wersjonowania
 check_versions() {
     log_info "Sprawdzam spójność wersjonowania..."
-    
+
     cd "$REPO_ROOT" || exit 1
-    
+
     if [[ -f Makefile ]] && make -n check-versions &>/dev/null; then
         if ! make check-versions >/dev/null 2>&1; then
             log_error "Wykryto niespójności w wersjonowaniu!"
@@ -37,7 +37,7 @@ check_versions() {
             return 1
         fi
     fi
-    
+
     log_info "✅ Wersjonowanie OK"
     return 0
 }
@@ -52,7 +52,7 @@ run_git_lfs() {
 # Główna funkcja
 main() {
     log_info "Pre-push: walidacja wersjonowania"
-    
+
     # Sprawdź wersjonowanie
     if ! check_versions; then
         log_error "❌ Push zatrzymany - napraw błędy wersjonowania"
@@ -64,10 +64,10 @@ main() {
         log_info "Aby ominąć (NIEZALECANE): git push --no-verify"
         exit 1
     fi
-    
+
     # Uruchom Git LFS
     run_git_lfs "$@"
-    
+
     log_info "✅ Wszystko gotowe do push"
     exit 0
 }

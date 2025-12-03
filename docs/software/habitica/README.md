@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "README"
+created: 2025-11-29
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 # Habitica — API i integracje
 
 - Strona: https://habitica.com/
@@ -14,3 +23,8 @@ curl -H "x-api-user: $HAB_USER" \
      https://habitica.com/api/v3/tasks/user?type=todo
 ```
 
+## 🔗 Backlinks
+
+- [[docs/software/habitica/habitica]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #productivity
   - #secondbrain
-created: 2025-11-21T22:00:00Z
-modified: 2025-11-21T22:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "Zalecane ustawienia VS Code dla repozytorium"
 
@@ -55,3 +56,9 @@ Jeśli chcesz wymusić skalę dokładnie na ~90% niezależnie od zaokrągleń `w
 Skrypt uruchamia `code` z flagą Electron `--force-device-scale-factor=0.9` (wymusza ~90%). Uwaga: działa tylko dla procesu uruchamianego przez skrypt i nie modyfikuje globalnych ustawień użytkownika.
 
 Plik ten jest tylko dokumentacją — nie modyfikuje Twoich globalnych ustawień bez Twojej zgody.
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[.vscode]]
+- [[EWW-MAP]]

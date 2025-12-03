@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "README"
+created: 2025-11-29
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 # Vikunja — notatki i zadania
 
 - Strona: https://vikunja.io/
@@ -15,3 +24,8 @@ curl -H "Authorization: Bearer $VIKUNJA_TOKEN" \
   https://vikunja.example/api/v1/projects
 ```
 
+## 🔗 Backlinks
+
+- [[docs/software/vikunja/vikunja]]
+- [[docs/docs]]
+- [[INDEX]]

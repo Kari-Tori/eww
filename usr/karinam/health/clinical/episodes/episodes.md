@@ -1,23 +1,25 @@
 ---
-title: "episodes - folder note"
+version: 0.0.1
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - karinam
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:54:47
+  - #folder_note
+title: "episodes"
 ---
 
-# episodes — folder note
+# episodes
 
-## README
-Index folderu `usr/karinam/health/clinical/episodes` dla użytkownika `karinam`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/karinam/health/clinical/episodes`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- [atak-zoladka-24-26-11.md](atak-zoladka-24-26-11.md)
-- [obfity-okres-30-11.md](obfity-okres-30-11.md)
-- [spozniony-okres-28-11.md](spozniony-okres-28-11.md)
+- [[atak-zoladka-24-26-11]]
+- [[obfity-okres-30-11]]
+- [[spozniony-okres-28-11]]
+
+## 🔗 Backlinki
+
+- [[clinical]]
+- [[atak-zoladka-24-26-11]]
+- [[obfity-okres-30-11]]
+- [[spozniony-okres-28-11]]

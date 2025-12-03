@@ -10,7 +10,7 @@ tags:
   - ai
   - vscode
   - configuration
-version: 0.0.0.5
+version: 0.0.6
 ---
 
 # GitHub Copilot - Pełna instalacja i konfiguracja
@@ -203,3 +203,9 @@ code --restart
 **Ostatnia aktualizacja:** 2025-12-01
 **Wykonane przez:** AI Assistant
 **Status:** ✅ Wszystko zainstalowane i skonfigurowane
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

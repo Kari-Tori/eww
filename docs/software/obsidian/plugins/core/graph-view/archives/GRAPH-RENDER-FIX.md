@@ -1,4 +1,6 @@
 ---
+version: 0.0.4
+modified: 2025-11-28
 tags:
   - #automation
   - #eww
@@ -92,3 +94,8 @@ Zostaw tylko JEDEN graph plugin:
 - [[graph.json]]
 - [[community-plugins]]
 
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

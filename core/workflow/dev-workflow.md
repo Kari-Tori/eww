@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #workflow
   - #development
   - #vscode
   - #git
-created: 2025-11-23T19:00:00Z
-modified: 2025-11-23T19:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Development Workflow - Proces deweloperski EWW"
 owner: jakubc
@@ -382,3 +383,9 @@ git push --force-with-lease
 **Status**: 🟢 ACTIVE
 **Owner**: jakubc, karinam
 **Tools**: VS Code + GitHub Copilot + Git + BATS
+
+## 🔗 Backlinks
+
+- [[core/workflow/workflow]]
+- [[core/core]]
+- [[core/config]]

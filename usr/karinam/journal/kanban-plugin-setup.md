@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-25
+version: 0.0.6
 title: Konfiguracja pluginu Kanban
 description: Instrukcja instalacji i konfiguracji pluginu mgmeyers/obsidian-kanban w vaultcie journal.
 ---
@@ -34,3 +37,9 @@ description: Instrukcja instalacji i konfiguracji pluginu mgmeyers/obsidian-kanb
 - Do czasu implementacji wpisy twórz ręcznie lub za pomocą Tasks/Dataview.
 
 Po wykonaniu tych kroków Obsidian po uruchomieniu vaulta automatycznie włączy Kanban i tablice w dziennych notatkach zaczną renderować się zgodnie z mockupem.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/journal/journal]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

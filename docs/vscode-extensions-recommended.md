@@ -9,7 +9,7 @@ tags:
   - extensions
   - tools
   - development
-version: 0.0.0.5
+version: 0.0.6
 ---
 
 # Rekomendowane rozszerzenia VS Code dla projektu eww
@@ -166,3 +166,9 @@ code --list-extensions > my-extensions.txt
 
 **Ostatnia aktualizacja:** 2025-12-01
 **Status:** ✅ Kluczowe narzędzia zainstalowane i skonfigurowane
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

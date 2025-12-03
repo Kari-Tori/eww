@@ -1,10 +1,11 @@
 ---
+version: 0.0.6
 tags:
   - #todo
   - #karinam
   - #index
-created: 2025-11-22T21:00:00Z
-modified: 2025-11-22T21:00:00Z
+created: 2025-11-24
+modified: 2025-11-25
 author: karinam
 title: "TODO Karinam - Index"
 ---
@@ -57,3 +58,9 @@ flowers/
 - [[../../TODO-karinam-list.md]] - Główna lista TODO (system)
 - [[../../README.md]] - Profil Karinam
 - [[../README.md]] - Desktop Karinam
+
+## 🔗 Backlinks
+
+- [[usr/karinam/.desktop-local-backup/TODO/TODO]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

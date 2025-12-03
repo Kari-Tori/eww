@@ -1,3 +1,12 @@
+---
+version: 0.0.5
+title: "code_plugins_installed"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T19:00:00Z
 modified: 2025-11-25T03:12:10Z
 author: jakubc
@@ -198,3 +207,9 @@ author: jakubc
 <!-- EWW-PLUGINS-START -->
 ## Zainstalowane wtyczki (auto-generated) 🧩
 <!-- EWW-PLUGINS-END -->
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[docs]]
+- [[README]]

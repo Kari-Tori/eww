@@ -1,21 +1,21 @@
 ---
-title: "admin - folder note"
+version: 0.0.6
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - karinam
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:54:47
+  - #folder_note
+title: "admin"
 ---
 
-# admin — folder note
+# admin
 
-## README
-Index folderu `usr/karinam/health/admin` dla użytkownika `karinam`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/karinam/health/admin`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- [benefity-uk-karinam.md](benefity-uk-karinam.md)
+- [[benefity-uk-karinam]]
+
+## 🔗 Backlinki
+
+- [[health]]
+- [[benefity-uk-karinam]]

@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-08
+version: 0.0.6
 title: README checklist
 ---
 
@@ -35,3 +38,9 @@ Jeśli Twój Obsidian nie obsługuje `:has()`, użyj tagu i wyszukaj `tag:#archi
 ---
 
 Zaznacz elementy checklisty w Obsidianie, gdy będą potwierdzone.
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

@@ -1,44 +1,21 @@
-created: 2025-11-24T22:31:33Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
 ---
+version: 0.0.2
+created: 2025-11-24
+modified: 2025-11-28
 tags:
-  - #automation
-  - #development
-  - #docs
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-
-
-
-
-
-
-owner: jakubc
-created: 2025-11-24T22:31:33Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
+  - #folder_note
+title: "Avocado"
 ---
 
-# 📁 Avocado
+# Avocado
 
-## Opis
-Folder zawierający zasoby związane z: Avocado
+Notatka folderu dla `docs/archive/03_DEVELOPMENT/PLANTS/Avocado`
 
-## 📋 Zawartość folderu
+## 📄 Pliki w tym folderze
 
-- [[Avocado_SOP_ideal_styled]] - 03_DEVELOPMENT/PLANTS/Avocado/Avocado_SOP_ideal_styled.md
+- [[Avocado_SOP_ideal_styled]]
 
-## 🔗 Powiązania
+## 🔗 Backlinki
 
-- [[PLANTS]] - Folder nadrzędny\n
-
-## 📑 Index plików
-
-- [Avocado_SOP_ideal_styled](Avocado_SOP_ideal_styled.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
+- [[PLANTS]]
+- [[Avocado_SOP_ideal_styled]]

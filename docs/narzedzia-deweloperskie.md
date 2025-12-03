@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "narzedzia-deweloperskie"
+created: 2025-11-10
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-10T15:44:41Z
 modified: 2025-11-25T03:13:57Z
 author: Nairecth
@@ -542,3 +551,9 @@ author: Nairecth
 **Autor:** Nairecth  
 **Wersja:** 0.0.0.5  
 **Data:** 2025-11-09
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

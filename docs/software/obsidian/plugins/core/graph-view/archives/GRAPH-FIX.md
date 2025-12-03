@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T12:00:00Z
-modified: 2025-11-21T12:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "🎨 OBSIDIAN GRAPH - OPTYMALIZACJA"
 
@@ -106,3 +107,9 @@ Zamiast tego:
 - [[GRAPH-SETUP]]
 - [[GRAPH-READY]]
 - [[install-waypoint]]
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

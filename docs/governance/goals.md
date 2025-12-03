@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "goals"
+created: 2025-11-24
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-24T22:29:37Z
 modified: 2025-11-24T22:29:37Z
 author: jakubc
@@ -87,3 +96,9 @@ author: jakubc
 1. Zbierzmy wnioski w jednym dokumencie projektowym (link tutaj).
 2. Ustalmy pierwszą listę eksperymentów / sprintów i przypiszmy odpowiedzialności.
 3. Zaplanujmy review co 2 tygodnie, aby aktualizować cele i usuwać blokery.
+
+## 🔗 Backlinks
+
+- [[docs/governance/governance]]
+- [[docs/docs]]
+- [[INDEX]]

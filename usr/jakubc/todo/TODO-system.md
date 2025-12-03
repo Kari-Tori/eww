@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #eww
   - #system
   - #jakubc
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-29
+modified: 2025-11-29
 author: jakubc
 title: "🧭 TODO: System zarządzania zadaniami"
 status: active
@@ -140,3 +141,9 @@ owner: jakubc
 - **Lokalizacja kart**: karta trafia do folderu `TODO/` obok pliku, przy którym powstało zadanie; pierwszy TODO tworzy ten folder automatycznie.
 - **Struktura kart**: wewnątrz `TODO/` każda karta ma własny katalog `taskname/`, gdzie `taskname` = `taskdesc` z YAML.
 - **Opis karty**: `taskdesc` uzupełniany automatycznie przez AI (np. Ollama), a następnie weryfikowany ręcznie; trafia do YAML frontmatter i nadaje nazwę katalogowi.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/todo/todo]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

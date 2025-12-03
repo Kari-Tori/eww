@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 tags:
   - #Asus_Z77
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-21T10:00:00Z
-modified: 2025-11-21T15:00:00Z
+created: 2025-11-05
+modified: 2025-11-24
 author: jakubc
 title: "Chassis — asus_z77"
 
@@ -33,3 +34,9 @@ owner: jakubc
 ## Zadania
 - [ ] @karinam opisać stan fizyczny, panele, filtry i okablowanie.
 - [ ] @karinam dodać numer seryjny i datę zakupu.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/asus_z77/case/case]]
+- [[docs/docs]]
+- [[INDEX]]

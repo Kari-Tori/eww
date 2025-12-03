@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #Lenovo_Y700
   - #ops
   - #warp
-created: 2025-11-22T18:39:00Z
-modified: 2025-11-22T18:39:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "2025-11-22 · Diagnostyka WARP"
 owner: jakubc
@@ -18,4 +19,10 @@ owner: jakubc
 ## Zadania
 - [ ] @jakubc przygotować scenariusz: tethering z iPhone (Wi-Fi hotspot) → Y700 → LAN 192.168.0.0/24.
 - [ ] @jakubc zweryfikować jak Y700 dzieli łącze (USB tether vs Wi-Fi) i dopisać konfigurację `nmcli`.
-- [ ] @jakubc zapisać wyniki `warp-cli status`, `ping 8.8.8.8` (WARP ON/OFF) i dodać do `docs/infra/network/README.md` jeżeli będzie używany jako failover.
+- [ ] @jakubc zapisać wyniki `warp-cli status`, `ping 8.8.8.8` (WARP ON/OFF) i dodać do `docs/infra/hardware/network/network.md` jeżeli będzie używany jako failover.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/laptops/lenovo_y700/ops/ops]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #infrastructure
   - #network
   - #cisco
   - #ports
-created: 2025-11-23T21:00:00Z
-modified: 2025-11-23T21:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Cisco Switch - Mapa portów"
 owner: jakubc
@@ -161,7 +162,7 @@ copy running-config startup-config
 
 ## 🔗 Powiązane dokumenty
 
-- [[docs/infra/network/network-deployment-2025-11-23]] - Log wdrożenia
+- [[network-deployment-2025-11-23]] - Log wdrożenia
 - [[docs/infra/hardware/rack/u42-rack-layout]] - Layout szafy U42
 - [[core/workflow/infrastructure]] - Infrastruktura ogólna
 
@@ -170,3 +171,11 @@ copy running-config startup-config
 **Ostatnia aktualizacja**: 2025-11-23 21:00 (szablon)
 **Osoba aktualizująca**: jakubc
 **Status**: 🔴 Szablon - wymaga wypełnienia po montażu Cisco
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/network/network]]
+- [[docs/infra/hardware/network/cisco-3650-catalyst-poe-24/cisco-3650-catalyst-poe-24]]
+- [[docs/infra/hardware/network/cisco-3650-catalyst-poe-24/cisco-3650-ports]]
+- [[docs/docs]]
+- [[INDEX]]

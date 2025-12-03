@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 tags:
   - #automation
   - #docs
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T10:00:00Z
-modified: 2025-11-21T11:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "Karina_ESFP-T_Profil_E-Waste_Workshop"
 
@@ -20,3 +21,8 @@ title: "Karina_ESFP-T_Profil_E-Waste_Workshop"
 owner: karinam
 ---
 
+## 🔗 Backlinks
+
+- [[usr/karinam/notes/notes]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

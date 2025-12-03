@@ -1,4 +1,5 @@
 ---
+version: 0.0.7
 tags:
   - #GERC
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-21T10:00:00Z
-modified: 2025-11-21T16:00:00Z
+created: 2025-11-05
+modified: 2025-11-24
 author: jakubc
 title: "Chłodzenie CPU — gerc"
 
@@ -34,3 +35,9 @@ owner: jakubc
 ## Zadania
 - [ ] @karinam zapisać ustawienia pomp/wentylatorów (jeśli AIO) lub model coolera powietrznego.
 - [ ] @karinam dodać daty konserwacji oraz procedury wymiany.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

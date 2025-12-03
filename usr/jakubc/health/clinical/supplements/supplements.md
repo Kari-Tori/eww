@@ -1,26 +1,43 @@
 ---
-title: "supplements - folder note"
+version: 0.0.6
+created: 2025-12-01
+modified: 2025-12-03
 tags:
-  - folder_note
-  - health
-  - jakubc
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T21:45:00
+  - #folder_note
+title: "supplements"
 ---
 
-# supplements — folder note
+# supplements
 
-## README
-Index folderu `usr/jakubc/health/clinical/supplements` dla użytkownika `jakubc`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/jakubc/health/clinical/supplements`
 
-## Index
-### Podfoldery
-- (brak podfolderów)
+## 📄 Pliki w tym folderze
 
-### Pliki
-- [activated-charcoal.md](activated-charcoal.md)
-- [l-tyrosine.md](l-tyrosine.md)
-- [omega-3.md](omega-3.md)
-- [magnesium.md](magnesium.md)
-- [vitamin-c.md](vitamin-c.md)
-- [psyllium.md](psyllium.md)
+- [[activated-charcoal]]
+- [[collagen]]
+- [[l-tyrosine]]
+- [[magnesium]]
+- [[milk-thistle-oil]]
+- [[omega-3]]
+- [[psyllium]]
+- [[vitamin-c]]
+- [[curcuma-piperine]]
+- [[ashwagandha]]
+- [[sentino-natura]]
+- [[boots-good-gut]]
+
+## 🔗 Backlinki
+
+- [[clinical]]
+- [[activated-charcoal]]
+- [[collagen]]
+- [[l-tyrosine]]
+- [[magnesium]]
+- [[milk-thistle-oil]]
+- [[omega-3]]
+- [[psyllium]]
+- [[vitamin-c]]
+- [[curcuma-piperine]]
+- [[ashwagandha]]
+- [[sentino-natura]]
+- [[boots-good-gut]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "copilot-instructions"
+created: 2025-11-09
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-09T16:11:37Z
 modified: 2025-11-24T22:25:33Z
 author: Nairecth
@@ -163,3 +172,9 @@ get_files() {  <- NIE! "pobierz_pliki()"
 - Cytowanie wszystkich zmiennych: `"$zmienna"`
 - Testy dla nowych funkcji
 - Aktualizację dokumentacji
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[.github]]
+- [[README]]

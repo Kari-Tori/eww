@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "GITHUB-TOOLS-CHEATSHEET"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T09:00:00Z
 modified: 2025-11-24T22:34:18Z
 author: jakubc
@@ -277,3 +286,9 @@ gh copilot explain "tar -czf backup.tar.gz /data"
 
 
 **Updated:** 2025-11-21
+
+## 🔗 Backlinks
+
+- [[docs/infra/guide/guide]]
+- [[docs/docs]]
+- [[INDEX]]

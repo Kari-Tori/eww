@@ -1,4 +1,5 @@
 ---
+version: 0.0.5
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T14:27:50Z
-modified: 2025-11-21T14:27:50Z
+created: 2025-11-21
+modified: 2025-12-01
 author: jakubc
 title: "🚀 Graf - Optymalizacja Performance"
 
@@ -105,3 +106,9 @@ Potem **restart Obsidiana**.
 **Autor**: jakubc  
 **Data**: 2025-11-21  
 **Status**: ✅ DZIAŁA
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

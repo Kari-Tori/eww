@@ -1,12 +1,13 @@
 ---
+version: 0.0.2
 tags:
   - #todo
   - #daily
   - #planning
   - #eww
   - #jakubc
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T10:30:00Z
+created: 2025-11-24
+modified: 2025-11-29
 author: jakubc
 title: "📅 TODO Daily Dashboard"
 type: daily-dashboard
@@ -144,3 +145,9 @@ make todo-daily
 ---
 
 *Szablon dzienny · Ostatnia aktualizacja: 2025-11-22*
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/todo/archives/archives]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

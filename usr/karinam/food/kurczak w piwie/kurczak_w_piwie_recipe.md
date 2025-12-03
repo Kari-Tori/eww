@@ -1,9 +1,11 @@
 ---
+version: 0.0.6
+modified: 2025-12-01
 title: Kurczak w piwie – termoobieg, miodowy rub
 description: |
   Przepis z rozmowy: kurczak 1,5–2 kg w piekarniku z termoobiegiem, bezpieczny wariant stojak/kubek zamiast puszki/butelki, miodowa przyprawa do skrzydełek, osobne ziemniaki i sos czosnkowy.
 author: E-Waste Workshop
-created: 2025-11-30
+created: 2025-12-01
 updated: 2025-11-30
 lang: pl
 type: recipe
@@ -107,3 +109,9 @@ Jogurt grecki 4–5 łyżek + 1–2 łyżki majonezu + 2–3 ząbki czosnku + 1�
 - Termometr: 75–78°C w najgrubszej części uda (bez kości).  
 - Bez termometru: sok klarowny przy nakłuciu uda.  
 - Odpoczynek 10–15 min po pieczeniu obowiązkowo; masło pod skórą piersi + niższa temp. (170°C) trzyma soczystość.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/kurczak w piwie/kurczak w piwie]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

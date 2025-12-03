@@ -1,9 +1,11 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: Sernik – lista zakupowa (BOM)
 description: Lista składników do sernika ze śliwkami przygotowana jako punkt startowy; Karina uzupełnia wagi, sklepy i opcjonalne dodatki.
 lang: pl
 type: note
-created: "2025-11-19"
+created: 2025-11-25
 updated: "2025-11-19"
 tags:
   - food
@@ -43,3 +45,9 @@ plugins:
 - Zanotuj, czy coś robisz dzień wcześniej (np. namaczanie śliwek).  
 - Przelicz porcje (np. 1 sernik = 8 kawałków) i dopisz, ile twarogu/powideł przy tej liczbie.  
 - Jeżeli chcesz mieć „butelkę zapasu” (np. extra powidła), zaznacz ilość, która zostanie przeniesiona do spiżarni.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/sernik/sernik]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "PLAN-PORZADKOWANIA"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T15:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -83,3 +92,9 @@ Repozytorium `eww` łączy w sobie narzędzia CLI, automatyzację konfiguracji s
 
 
 Ten plan można traktować jako punkt wyjścia: po wykonaniu każdej sekcji warto odnotować rezultaty w `docs/CHANGELOG` lub w dedykowanym wątku w `usr/jakubc/workspace`. Dzięki temu repo pozostanie czytelne zarówno dla maintainerów, jak i narzędzi AI korzystających z `AGENTS.md`.
+
+## 🔗 Backlinks
+
+- [[docs/governance/governance]]
+- [[docs/docs]]
+- [[INDEX]]

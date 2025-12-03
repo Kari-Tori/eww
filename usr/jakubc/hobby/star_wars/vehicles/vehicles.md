@@ -1,55 +1,20 @@
 ---
+version: 0.0.2
+created: 2025-11-25
+modified: 2025-12-01
 tags:
   - #folder_note
-  - #automation
-  - #eww
-  - #jakubc
-  - #knowledge
-  - #linux
-  - #secondbrain
-  - #star-wars
-created: 2025-11-21T14:00:00Z
-modified: 2025-11-21T14:00:00Z
-author: jakubc
-title: "🚛 Folder `star_wars/vehicles`"
-
-
-
-
-
-
-owner: jakubc
+title: "vehicles"
 ---
 
-# 🚛 Folder `star_wars/vehicles`
+# vehicles
 
-> [!summary|icon:truck|color:#8ECAE6]
-> Lądowe i powietrzne pojazdy z *The Clone Wars*: czołgi, speedery, transportery, mechy. Każdy wpis powinien zawierać sekcje identyfikacji, uzbrojenia i zastosowania taktycznego.
+Notatka folderu dla `usr/jakubc/hobby/star_wars/vehicles`
 
-## 📚 Planowana zawartość
-- `republic_atte.md` — kroczący transporter GAR.
-- `cis_aat.md` — czołg szturmowy Konfederacji.
-- `mandalorian_speeder.md` — ścigacze Straży Śmierci.
+## 📄 Pliki w tym folderze
 
-> [!note|icon:calendar|color:#F4A261]
-> 2025-11-19 — utworzono katalog pojazdów i zdefiniowano wstępny backlog.
+*Brak plików markdown w tym folderze.*
 
-[[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do statków]]
+## 🔗 Backlinki
 
-## 🔗 Backlinks
-
-- [[jakubc]]
-- [[INDEX]]
-- [[core]]
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-
-
-
-## 📑 Index plików
-
-*Brak plików markdown.*
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
+- [[star_wars]]

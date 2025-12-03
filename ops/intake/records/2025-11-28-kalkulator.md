@@ -1,11 +1,12 @@
 ---
+version: 0.0.6
 tags:
   - intake
   - electronics
   - eww
   - damaged
-created: 2025-11-28T19:00:00Z
-modified: 2025-11-28T19:00:00Z
+created: 2025-11-28
+modified: 2025-11-28
 author: karinam
 title: "Intake: Calculator"
 intake_date: 2025-11-28
@@ -68,3 +69,9 @@ model: unknown
 - [ ] Rozmontować i sprawdzić membrane przycisków/styki
 - [ ] Ocenić opłacalność naprawy
 - [ ] **DECYZJA KOŃCOWA:** naprawa/części (panel+LCD)/recykling
+
+## 🔗 Backlinks
+
+- [[ops/intake/records/records]]
+- [[ops/ops]]
+- [[ops/ops-workflow]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.5
+title: "installed_pluggins"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T19:00:00Z
 modified: 2025-11-25T03:12:10Z
 author: jakubc
@@ -643,3 +652,9 @@ author: jakubc
 
 **2025-11-18:** v1.0.0 — Lista 8 core plugins  
 **2025-11-24:** v2.0.0 — Kompletna dokumentacja 13 wtyczek z konfiguracją i przykładami
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

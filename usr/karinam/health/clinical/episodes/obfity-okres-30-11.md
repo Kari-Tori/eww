@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 title: Obfity okres 30.11
 description: Bardzo obfite krwawienie – tampon maxi przesiąka w ~40 min.
 tags:
   - #karinam
   - #health
   - #objawy
-created: 2025-11-30
-modified: 2025-11-30
+created: 2025-12-01
+modified: 2025-12-01
 author: karinam
 ---
 
@@ -34,3 +35,9 @@ Sytuacja: bardzo obfite krwawienie (tampon/podpaska maxi przesiąka w ~40 min). 
 - Zużycie podpasek/tamponów (czas między zmianami): ___
 - Objawy towarzyszące: ___
 - Kontakt z lekarzem/SOR: ___
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/clinical/episodes/episodes]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

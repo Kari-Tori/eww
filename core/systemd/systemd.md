@@ -1,35 +1,20 @@
 ---
+version: 0.0.1
+created: 2025-11-24
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #systemd
-folder_color: 8421504
-folder_stats:
-  md_files: 0
-  total_files: 1
-  subdirs: 0
-created: 2025-11-23T01:33:13+00:00
-modified: 2025-11-23T01:33:13+00:00
-author: jakubc
-title: "Systemd - Folder Note"
-owner: jakubc
+title: "systemd"
 ---
 
-# Systemd
+# systemd
 
-> Automatycznie wygenerowana notatka folderu
+Notatka folderu dla `core/systemd`
 
-## 📊 Statystyki
+## 📄 Pliki w tym folderze
 
-- **Pliki Markdown**: 0
-- **Wszystkie pliki**: 1
-- **Podfoldery**: 0
-- **Kolor**: RGB 8421504
+*Brak plików markdown w tym folderze.*
 
-## 📝 Zawartość
+## 🔗 Backlinki
 
-<!-- Auto-generated content -->
-
----
-
-**Auto-generated** by `scripts/create-folder-notes.sh`  
-**Last updated**: 2025-11-23T01:33:13+00:00
+- [[core]]

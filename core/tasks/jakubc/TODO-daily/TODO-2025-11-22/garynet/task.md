@@ -1,10 +1,12 @@
 ---
+version: 0.0.1
+modified: 2025-11-24
 tags:
   - #todo
   - #garynet
   - #network
   - #daily
-created: 2025-11-22T21:06:00Z
+created: 2025-11-24
 author: jakubc
 title: "GaryNet - Konfiguracja połączenia"
 owner: jakubc
@@ -29,7 +31,7 @@ Skonfigurować i przetestować połączenie GaryNet z routerem Gary'ego (budynek
 - [ ] Zmierzyć prędkość (iperf3 jeśli możliwe)
 - [ ] Uzgodnić z Gary zasady dostępu
 - [ ] Dodać do monitoringu
-- [ ] Zaktualizować dokumentację [[../../../../docs/infra/network/garynet]]
+- [ ] Zaktualizować dokumentację [[../../../../docs/infra/hardware/network/garynet]]
 
 ## 🔧 Parametry do zebrania
 
@@ -43,10 +45,16 @@ Skonfigurować i przetestować połączenie GaryNet z routerem Gary'ego (budynek
 ## 🔗 Powiązane
 
 - [[../TODO-2025-11-22]] - TODO główne
-- [[../../../../docs/infra/network/garynet]] - Dokumentacja GaryNet
-- [[../../../../docs/infra/network/devices/asus-dsl-n16/asus-dsl-n16]] - Gateway
+- [[../../../../docs/infra/hardware/network/garynet]] - Dokumentacja GaryNet
+- [[../../../../docs/infra/hardware/network/devices/asus-dsl-n16/asus-dsl-n16]] - Gateway
 
 ---
 
 **Priorytet:** 🔴 Wysoki  
 **Status:** 🟡 Do wykonania
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/garynet/garynet]]
+- [[core/core]]
+- [[core/config]]

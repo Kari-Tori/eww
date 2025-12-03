@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #tv
   - #setup
-created: 2025-11-22T18:56:00Z
-modified: 2025-11-22T18:56:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "TV task"
 status: todo
@@ -27,3 +28,9 @@ Make sure the Samsung 65" TV is ready for work mode.
 ## 🔗 Links
 - [[docs/infra/hardware/workstations/gerc/accessories/monitors/samsung-65-tv]]
 - [[TODO-daily-2025-11-22]]
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/tv-check/tv-check]]
+- [[core/core]]
+- [[core/config]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "README"
+created: 2025-11-25
+modified: 2025-11-25
+tags:
+  - auto-versioned
+---
+
 # LEGO snippet
 
 Ten folder przechowuje `lego-snippet.css` – wspólną stylizację status stripu i kart buildu dla całego katalogu `hobby/lego`.
@@ -10,3 +19,9 @@ Jak używać:
 4. Jeśli chcesz rozszerzyć snippet, edytuj `lego-snippet.css` tutaj i ponownie skopiuj/odśwież w vaultach.
 
 Zachowując plik we wspólnym folderze łatwo zachować spójność stylu dla kolejnych buildów w tej sekcji.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/lego/snippets/snippets]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

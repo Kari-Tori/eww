@@ -1,3 +1,12 @@
+---
+version: 0.0.3
+title: "FOLDER-COLOR-SYSTEM"
+created: 2025-11-24
+modified: 2025-12-01
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-24T22:31:33Z
 modified: 2025-11-24T22:31:33Z
 author: jakubc
@@ -169,3 +178,9 @@ author: jakubc
 **Status**: 🎨 System kolorów zdefiniowany  
 **Top folders**: 20 (7034 pliki w docs/infra/software/obsidian/)  
 **Color groups**: 9 głównych kategorii
+
+## 🔗 Backlinks
+
+- [[docs/infra/guide/guide]]
+- [[docs/docs]]
+- [[INDEX]]

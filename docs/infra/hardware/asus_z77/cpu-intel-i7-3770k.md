@@ -1,4 +1,6 @@
 ---
+version: 0.0.4
+modified: 2025-11-25
 title: asus_z77 — CPU
 component: cpu
 icon: 🧠
@@ -6,7 +8,7 @@ model: Intel Core i7-3770K
 specs: 4 rdzenie / 8 wątków · 3,5→3,9 GHz · Turbo Boost
 value: Socket LGA1155 · TDP 77 W · OC TODO
 author: jakubc
-created: 2025-11-19
+created: 2025-11-21
 updated: 2025-11-19
 ---
 
@@ -22,3 +24,9 @@ updated: 2025-11-19
 ## Zadania
 - [ ] @karinam potwierdzić rewizję (S-Spec) i microcode.
 - [ ] @karinam dodać informacje o ewentualnym OC i napięciach.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/asus_z77/asus_z77]]
+- [[docs/docs]]
+- [[INDEX]]

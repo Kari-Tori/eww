@@ -1,4 +1,6 @@
 ---
+version: 0.0.1
+modified: 2025-11-25
 title: Continue - AI Coding Assistant
 category: AI Tools
 type: IDE Extension
@@ -207,3 +209,9 @@ sudo systemctl restart ollama
 3. Verify Ollama
 4. Configure limits (jeśli OOM)
 5. Start coding!
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/study/AI/AI]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

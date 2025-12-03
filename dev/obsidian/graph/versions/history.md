@@ -1,10 +1,11 @@
 ---
+version: 0.0.3
 tags:
   - #graph
   - #history
   - #auto-generated
-created: 2025-11-23T00:00:00Z
-modified: 2025-11-23T23:07:50+00:00
+created: 2025-11-23
+modified: 2025-11-28
 author: system
 title: "Graph History - Auto-generated changelog"
 owner: jakubc
@@ -18,3 +19,9 @@ owner: jakubc
 
 | Data | Color Groups | Physics | Nodes Filter | Zmiany |
 |------|--------------|---------|--------------|--------|
+
+## 🔗 Backlinks
+
+- [[dev/obsidian/graph/versions/versions]]
+- [[dev/dev]]
+- [[dev/Development]]

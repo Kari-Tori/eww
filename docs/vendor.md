@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "vendor"
+created: 2025-11-05
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-05T22:54:26Z
 modified: 2025-11-09T17:31:05Z
 author: JakubC
@@ -22,3 +31,9 @@ author: JakubC
 - Kubuntu Manual: `MkDocs/vendor/kubuntu-manual/build/html/index.html`
 - Kubuntu Docs: `MkDocs/vendor/kubuntu-docs/docs/_build/html/index.html`
 - MkDocs Docs: `MkDocs/vendor/mkdocs-site/index.html`
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

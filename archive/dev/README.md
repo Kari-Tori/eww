@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #productivity
   - #secondbrain
-created: 2025-11-21T23:00:00Z
-modified: 2025-11-21T23:00:00Z
+created: 2025-11-09
+modified: 2025-12-01
 author: jakubc
 title: "dev/ - Narzędzia deweloperskie"
 

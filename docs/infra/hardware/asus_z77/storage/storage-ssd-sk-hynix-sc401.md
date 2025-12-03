@@ -1,4 +1,6 @@
 ---
+version: 0.0.5
+modified: 2025-11-25
 title: asus_z77 — SSD1 (Hynix 512 GB)
 component: storage/ssd
 icon: 💽
@@ -6,7 +8,7 @@ model: SK hynix SC401 SATA 512 GB
 specs: Dysk systemowy · SATA 6 Gb/s · 2,5"
 value: SMART do potwierdzenia · Data instalacji 2025-03 (szac.)
 author: jakubc
-created: 2025-11-19
+created: 2025-11-21
 updated: 2025-11-19
 ---
 
@@ -22,3 +24,9 @@ updated: 2025-11-19
 ## Zadania
 - [ ] @karinam dodać numer seryjny i wyniki SMART.
 - [ ] Dodać raport SMART oraz datę ostatniej kontroli.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/asus_z77/storage/storage]]
+- [[docs/docs]]
+- [[INDEX]]

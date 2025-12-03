@@ -1,58 +1,20 @@
 ---
+version: 0.0.1
+created: 2025-11-24
+modified: 2025-11-24
 tags:
-  - #flowers
-  - #plant
-  - #jakubc
-created: 2025-11-22T20:45:00Z
-modified: 2025-11-22T20:45:00Z
-author: jakubc
-title: "Kwiat #06"
-status: active
-owner: jakubc
+  - #folder_note
+title: "flower-06"
 ---
 
-# 🌸 Kwiat #06
+# flower-06
 
-## 📋 Informacje podstawowe
+Notatka folderu dla `usr/jakubc/flowers/flower-06`
 
-- **Nazwa zwyczajowa:** TODO
-- **Nazwa łacińska:** TODO
-- **Gatunek:** TODO
-- **Data zakupu:** TODO
-- **Lokalizacja:** TODO
+## 📄 Pliki w tym folderze
 
-## 📐 Wymiary
+*Brak plików markdown w tym folderze.*
 
-- **Wysokość rośliny:** ? cm
-- **Średnica doniczki:** Ø ? cm
-- **Wysokość doniczki:** ? cm
+## 🔗 Backlinki
 
-## 💧 Pielęgnacja
-
-### Podlewanie
-- **Częstotliwość:** TODO
-- **Ostatni podlew:** TODO
-- **Następny podlew:** TODO
-
-### Światło
-- **Wymagania:** (pełne słońce / półcień / cień)
-- **Ekspozycja:** TODO
-
-### Temperatura
-- **Optymalna:** ?°C - ?°C
-
-## 📸 Zdjęcia
-
-Folder: `photos/`
-
-## 📝 Notatki
-
-TODO
-
-## 🔗 Powiązane
-
-- [[../README]] - Wszystkie kwiaty
-
----
-
-**Status:** 🟢 Zdrowy
+- [[flowers]]

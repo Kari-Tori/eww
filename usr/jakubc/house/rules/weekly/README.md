@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #rules
   - #house
   - #weekly
   - #index
-created: 2025-11-22T21:00:00Z
-modified: 2025-11-22T21:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Zasady cotygodniowe - Index"
 owner: jakubc
@@ -40,3 +41,9 @@ Zasady i rutyny wykonywane **raz w tygodniu** (frequency: weekly).
 - [[../monthly/README.md]] - Zasady miesięczne
 - [[../../protocols/README.md]] - Protokoły domu
 - [[../README.md]] - Główny index zasad
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/house/rules/weekly/weekly]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

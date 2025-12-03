@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "Strategia_Blitzscaling_Uniwersalna"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T18:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -84,3 +93,9 @@ Zdominowanie wybranego rynku poprzez szybkie skalowanie działalności, zdobycie
 ## Podsumowanie
 
 Blitzscaling to strategia dla odważnych – oparta na ryzyku, szybkości i ambicji. Działa najlepiej na dużych, skalowalnych rynkach, gdzie tylko jeden lider może osiągnąć dominację. Wymaga silnej wizji, dostępu do kapitału i gotowości na chaos operacyjny.
+
+## 🔗 Backlinks
+
+- [[docs/methodologies/methodologies]]
+- [[docs/docs]]
+- [[INDEX]]

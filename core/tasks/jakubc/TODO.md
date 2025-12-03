@@ -1,7 +1,8 @@
 ---
+version: 0.0.1
 title: "TODO index — @jakubc"
-created: 2025-11-22T19:20:00Z
-modified: 2025-11-22T19:20:00Z
+created: 2025-11-24
+modified: 2025-11-24
 owner: jakubc
 ---
 
@@ -14,3 +15,9 @@ Zasady:
 
 ## 📅 Daily
 - [[TODO-daily/TODO-2025-11-22/README|TODO 2025-11-22]] — 8 zadań krytycznych do 20:00.
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/jakubc]]
+- [[core/core]]
+- [[core/config]]

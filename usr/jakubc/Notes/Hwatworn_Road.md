@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #notes
   - #secondbrain
-created: 2025-11-21T19:00:00Z
-modified: 2025-11-21T19:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "Hwatworn_Road"
 

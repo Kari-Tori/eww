@@ -1,44 +1,21 @@
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
 ---
+version: 0.0.5
+created: 2025-11-21
+modified: 2025-11-28
 tags:
-  - #automation
-  - #docs
-  - #eww
-  - #knowledge
-  - #linux
-  - #obsidian
-  - #secondbrain
-
-
-
-
-
-
-owner: jakubc
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
+  - #folder_note
+title: "obsidian"
 ---
 
-# 📁 obsidian
+# obsidian
 
-## Opis
-Folder zawierający zasoby związane z: obsidian
+Notatka folderu dla `docs/archive/obsidian`
 
-## 📋 Zawartość folderu
+## 📄 Pliki w tym folderze
 
-- [[5S_checklist]] - obsidian/5S_checklist
+- [[5S_checklist]]
 
-## 🔗 Powiązania
+## 🔗 Backlinki
 
-- [[archive]] - Folder nadrzędny\n
-
-## 📑 Index plików
-
-- [5S_checklist](5S_checklist.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
+- [[archive]]
+- [[5S_checklist]]

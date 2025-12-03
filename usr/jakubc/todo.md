@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: Plan dla Jakubc – 2025-11-17
 description: Serduszkowy harmonogram dowodzenia domem, żeby dzień Jakuba płynął miękko.
 author: Karina
-created: 2025-11-17T00:40:08+00:00
+created: 2025-11-21
 updated: 2025-11-17T00:40:08+00:00
 status: aktywne
 aliases:
@@ -72,3 +74,9 @@ related:
 ## 🔗 Powiązane notatki
 - [[usr/jakubc/jakubc]] – profil Księciunia i wszystkie logi.  
 - [[usr/jakubc/workspace/workspace.md|Workspace README]] – centrum projektowe, gdyby trzeba było coś dopisać w trakcie.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]
+- [[INDEX]]

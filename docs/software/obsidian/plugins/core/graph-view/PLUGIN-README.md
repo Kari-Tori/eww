@@ -1,9 +1,11 @@
 ---
+version: 0.0.1
+modified: 2025-11-28
 title: Graph View - Oficjalna dokumentacja wtyczki
 source: https://help.obsidian.md/Plugins/Graph+view
 translated: true
 language: pl
-created: 2025-11-27
+created: 2025-11-28
 author: Obsidian (tłumaczenie: AI)
 tags:
   - obsidian
@@ -651,3 +653,9 @@ Tak, ale tylko statyczny snapshot. Nie ma live physics.
 **Tłumaczenie:** AI (2025-11-27)  
 **Wersja Obsidian:** 1.5+  
 **Status:** CORE plugin (zawsze dostępny)
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

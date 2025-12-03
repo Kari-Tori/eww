@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "PARA_Metodyka_SecondBrain"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T18:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -100,3 +109,9 @@ Przykłady:
 
 Na rozkaz:  
 **Great Implementer System Ready.**
+
+## 🔗 Backlinks
+
+- [[docs/methodologies/methodologies]]
+- [[docs/docs]]
+- [[INDEX]]

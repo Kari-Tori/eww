@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #star-wars
-created: 2025-11-21T16:00:00Z
-modified: 2025-11-21T16:00:00Z
+created: 2025-11-25
+modified: 2025-12-01
 author: jakubc
 title: "🟥 Punworcca 116 Solar Sailer — karta techniczna"
 
@@ -92,3 +93,9 @@ owner: jakubc
 
 [[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
 [[usr/jakubc/hobby/star_wars/ships/ginivex_fanblade.md|→ powiązany Ginivex Fanblade Ventress]]
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

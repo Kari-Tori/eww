@@ -1,4 +1,6 @@
 ---
+version: 0.0.5
+modified: 2025-11-28
 tags:
   - #automation
   - #config

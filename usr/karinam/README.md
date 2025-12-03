@@ -1,10 +1,11 @@
 ---
+version: 0.0.6
 tags:
   - #karinam
   - #profile
   - #readme
-created: 2025-11-22T23:42:00Z
-modified: 2025-11-22T23:42:00Z
+created: 2025-11-11
+modified: 2025-11-25
 author: jakubc
 title: "README - Przestrzeń użytkownika karinam"
 ---
@@ -110,3 +111,9 @@ ssh karinam@192.168.0.77
 ---
 
 *Ostatnia aktualizacja: 2025-11-22 | Autor: jakubc*
+
+## 🔗 Backlinks
+
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]
+- [[INDEX]]

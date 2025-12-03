@@ -1,41 +1,20 @@
 ---
-tags:
-  - #automation
-  - #eww
-  - #knowledge
-  - #linux
-  - #obsidian
-  - #scripts
-  - #secondbrain
+version: 0.0.4
 created: 2025-11-21
-modified: 2025-11-21
-author: jakubc
-title: "📁 scripts"
-category: folder-note
-
-
-
-
-
-
-
-owner: jakubc
+modified: 2025-11-28
+tags:
+  - #folder_note
+title: "scripts"
 ---
 
-# 📁 scripts
+# scripts
 
-> **Folder Note** - Skrypty Obsidian
+Notatka folderu dla `dev/obsidian/scripts`
 
-## 📋 Opis
+## 📄 Pliki w tym folderze
 
-Folder `scripts` - automatycznie wygenerowana dokumentacja.
+*Brak plików markdown w tym folderze.*
 
-## 📑 Zawartość
+## 🔗 Backlinki
 
-- auto-commit-on-close.sh
-- commit-split.sh
-
----
-
-**Utworzono:** 2025-11-21  
-**Autor:** jakubc
+- [[obsidian]]

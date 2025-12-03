@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-29
 title: Awokado – uprawa rośliny (Hass)
 description: Warunki dla drzewka awokado Hass (indoor/outdoor), wymagania glebowe, nawadnianie, nawożenie, cięcie i szanse na owocowanie.
 author: E-Waste Workshop
-created: 2025-11-28
+created: 2025-11-29
 updated: 2025-11-28
 tags:
   - food
@@ -75,3 +77,9 @@ plugins:
 - [[avocado/avocado_dom.md|Awokado Hass w mieszkaniu (kiełkowanie)]]
 - [[avocado/avocado_seed.md|Pestka awokado – skład i zastosowania]]
 - [[avocado/avocado_skin.md|Skórka awokado – skład i wykorzystanie]]
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/avocado/avocado]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

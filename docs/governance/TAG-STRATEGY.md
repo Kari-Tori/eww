@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "TAG-STRATEGY"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T13:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -65,3 +74,9 @@ tag:#hub OR tag:#main OR tag:#index
 1. Oznaczyć 12 plików root jako #main
 2. Oznaczyć folder notes jako #hub lub #index
 3. Przetagować resztę (tier 3/4)
+
+## 🔗 Backlinks
+
+- [[docs/governance/governance]]
+- [[docs/docs]]
+- [[INDEX]]

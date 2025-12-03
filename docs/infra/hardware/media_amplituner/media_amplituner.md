@@ -1,25 +1,20 @@
 ---
+version: 0.0.1
+created: 2025-11-24
+modified: 2025-11-24
 tags:
-  - #media
-  - #audio
-  - #amplituner
-created: 2025-11-22T19:06:00Z
-modified: 2025-11-22T19:06:00Z
-author: jakubc
-title: "media_amplituner — wdrożony"
-status: wdrożone
-owner: jakubc
+  - #folder_note
+title: "media_amplituner"
 ---
 
-# media_amplituner — wdrożony
+# media_amplituner
 
-Amplituner obsługujący dźwięk z GERC (SONY TV + HDMI ARC). Struktura jak `asus_z77`.
+Notatka folderu dla `docs/infra/hardware/media_amplituner`
 
-## ℹ️ Opis
-- **Model:** (do uzupełnienia)
-- **Połączenia:** HDMI ARC z TV, wyjścia na głośniki + soundbar (plan).
-- **Status:** wdrożone, działa z automatyzacją audio (por. `docs/infra/hardware/workstations/gerc/audio-setup-README.md`).
+## 📄 Pliki w tym folderze
 
-## TODO (@jakubc)
-- [ ] Wpisać dokładny model i konfigurację kanałów.
-- [ ] Przenieść procedurę serwisową audio z `gerc` do tego folderu.
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[hardware]]

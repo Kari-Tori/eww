@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #house
   - #dashboard
   - #shared
-created: 2025-11-22T16:50:20+00:00
-modified: 2025-11-22T16:56:44+00:00
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "🏠 House Dashboard"
 status: active
@@ -61,3 +62,9 @@ owner: house-team
 ---
 
 **Ostatnia aktualizacja**: 2025-11-22 • Wersja 0.1
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/house/house]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

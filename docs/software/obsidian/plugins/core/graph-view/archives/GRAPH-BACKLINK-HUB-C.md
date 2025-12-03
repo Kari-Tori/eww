@@ -1,11 +1,12 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #development
   - #eww
   - #knowledge
-created: 2025-11-21T20:35:27Z
-modified: 2025-11-21T20:35:27Z
+created: 2025-11-24
+modified: 2025-12-01
 author: codex
 title: "🔗 Backlink Hub C"
 owner: jakubc
@@ -77,7 +78,7 @@ Każdy element na liście reprezentuje folder note otrzymujący backlink z tego 
 - [[docs/infra/hardware/workstations/gerc/gerc]]
 - [[docs/infra/hardware/hardware]]
 - [[docs/infra/infra]]
-- [[docs/infra/network/network]]
+- [[docs/infra/hardware/network/network]]
 - [[docs/infra/software/software]]
 - [[docs/infra/vm/vm]]
 - [[business/methodologies/methodologies]]
@@ -308,3 +309,9 @@ Każdy element na liście reprezentuje folder note otrzymujący backlink z tego 
 - [[var/keys/keys]]
 - [[var/logs/logs]]
 - [[var/status/status]]
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

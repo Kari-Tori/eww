@@ -1,14 +1,35 @@
 ---
-title: kubuntu
-description: Artykuł wiki
-type: wiki
-category: setup
-platform: Kubuntu 24.04
+version: 0.0.5
 tags:
-  - wiki
-  - setup
-language: pl
-created: 2025-11-09
-updated: 2025-11-09
+  - #automation
+  - #development
+  - #docs
+  - #eww
+  - #knowledge
+  - #linux
+  - #secondbrain
+created: 2025-11-05
+modified: 2025-11-24
+author: jakubc
+title: "🟦 Kubuntu — standard ikon"
+
+
+
+
+
+
+owner: jakubc
 ---
 
+
+
+# 🟦 Kubuntu — standard ikon
+
+> [!TIP] Standard ikon
+> Wykorzystuje definicję `simple-icons/kubuntu` z dokumentu [docs/infra/assets/icons.md](../assets/icons.md).
+
+## 🔗 Backlinks
+
+- [[docs/infra/wiki/wiki]]
+- [[docs/docs]]
+- [[INDEX]]

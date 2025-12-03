@@ -1,49 +1,20 @@
 ---
+version: 0.0.4
+created: 2025-11-21
+modified: 2025-11-28
 tags:
-  - #automation
-  - #development
-  - #eww
-  - #knowledge
-  - #linux
-  - #productivity
-  - #secondbrain
   - #folder_note
-created: 
-modified: 
-author: jakubc
-title: "📁 Secondbrain"
-
-
-
-
-
-
-owner: jakubc
+title: "Secondbrain"
 ---
 
-# 📁 Secondbrain
+# Secondbrain
 
-> Folder note for Secondbrain
+Notatka folderu dla `dev/projects/Secondbrain`
 
-## 📑 Zawartość
+## 📄 Pliki w tym folderze
 
+*Brak plików markdown w tym folderze.*
 
+## 🔗 Backlinki
 
-## 📁 Podfoldery
-
-## 📑 Index plików
-
-*Brak plików markdown.*
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[projects]]

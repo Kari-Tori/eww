@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #Lenovo_Y700
   - #ram
   - #specs
-created: 2025-11-22T18:38:00Z
-modified: 2025-11-22T18:38:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "RAM — Lenovo Y700 (DDR4 16 GB)"
 owner: jakubc
@@ -18,3 +19,9 @@ owner: jakubc
 ## TODO
 - [ ] @jakubc potwierdzić producenta/moduły i stan dual-channel.
 - [ ] @jakubc dodać wyniki memtest (ostatnie uruchomienie).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/laptops/lenovo_y700/lenovo_y700]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.5
+title: "ROOT-MINIMIZATION"
+created: 2025-11-21
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T15:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -228,3 +237,9 @@ make clean
 **Plików w root:** 8  
 **Ostatnia minimalizacja:** 2025-11-21  
 **Rezultat:** Najczystsze repo ever! 🎉
+
+## 🔗 Backlinks
+
+- [[docs/governance/governance]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #Lenovo_Y700
   - #cpu
   - #specs
-created: 2025-11-22T18:37:00Z
-modified: 2025-11-22T18:37:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "CPU — Lenovo Y700 (i7-6700HQ)"
 owner: jakubc
@@ -19,3 +20,9 @@ owner: jakubc
 ## TODO
 - [ ] @jakubc potwierdzić taktowania turbo po undervolcie (jeśli stosowany).
 - [ ] @jakubc dopisać ustawienia BIOS (VT-d, Hyper-Threading).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/laptops/lenovo_y700/lenovo_y700]]
+- [[docs/docs]]
+- [[INDEX]]

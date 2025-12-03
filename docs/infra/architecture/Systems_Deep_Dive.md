@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #docs
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T15:00:00Z
-modified: 2025-11-21T15:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "🏗️ Systemy wewnętrzne"
 
@@ -68,3 +69,9 @@ owner: jakubc
 - Grafana: CPU/RAM/dysk, latency.
 - Kuma: HTTP/ICMP/TCP alerty → Matrix/Telegram.
 - Logi: journald; opcjonalnie Loki/Promtail.
+
+## 🔗 Backlinks
+
+- [[docs/infra/architecture/architecture]]
+- [[docs/docs]]
+- [[INDEX]]

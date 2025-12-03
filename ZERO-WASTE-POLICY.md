@@ -1,13 +1,14 @@
 ---
 title: Zero Waste Policy
 description: Zasada „wszystko jest surowcem dla nas” w E-Waste Workshop
+modified: 2025-11-28
 tags:
   - policy
   - zero-waste
   - recycling
-version: 0.0.0.5
+version: 0.0.6
 language: pl
-created: 2025-11-29
+created: 2025-11-28
 updated: 2025-11-29
 owner: jakubc
 ---
@@ -38,3 +39,9 @@ owner: jakubc
 ## Powiązania
 - Cele finansowe: min. **£1500/mies.** na pokrycie czynszu.
 - Rozwijane narzędzia: system inwentaryzacji (Odoo + AI), automatyzacja procesów, monitoring zasobów.
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

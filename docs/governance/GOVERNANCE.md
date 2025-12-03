@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "GOVERNANCE"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T10:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -54,3 +63,9 @@ author: jakubc
 - [repo-live-contract.md](repo-live-contract.md)
 - [AGENTS.md](../AGENTS.md)
 - [README.md](../README.md)
+
+## 🔗 Backlinks
+
+- [[docs/governance/governance]]
+- [[docs/docs]]
+- [[INDEX]]

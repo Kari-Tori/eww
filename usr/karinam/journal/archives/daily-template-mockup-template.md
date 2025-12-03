@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-25
+version: 0.0.6
 title: Daily Template Kanban
 type: partial
 plugin: obsidian-kanban
@@ -33,3 +36,9 @@ defaults:
 - [x] Poranna rozgrzewka i kawa
 - [x] Krótki przegląd skrzynki e-mail
 ```
+
+## 🔗 Backlinks
+
+- [[usr/karinam/journal/archives/archives]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

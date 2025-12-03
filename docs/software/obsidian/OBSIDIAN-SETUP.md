@@ -1,4 +1,5 @@
 ---
+version: 0.0.5
 tags:
   - #automation
   - #docs
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #obsidian
   - #secondbrain
-created: 2025-11-21T15:00:00Z
-modified: 2025-11-21T15:00:00Z
+created: 2025-11-21
+modified: 2025-11-29
 author: jakubc
 title: "🔮 Obsidian Setup"
 
@@ -322,3 +323,9 @@ cd .obsidian/plugins
 **Zaktualizowano:** 2025-11-21  
 **Vault:** `/home/jakubc/git/eww`  
 **Tags:** `dev/obsidian/tags/` (symlink: `Tags/`, legacy: `docs/infra/tags/`)
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

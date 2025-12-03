@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #obsidian
   - #graph
@@ -6,8 +7,8 @@ tags:
   - #folder_note
   - #eww
   - #secondbrain
-created: 2025-11-22T19:29:00Z
-modified: 2025-11-23T17:30:00Z
+created: 2025-11-24
+modified: 2025-12-01
 author: jakubc
 title: "Obsidian Graph - Dokumentacja i instalacja"
 owner: jakubc
@@ -182,3 +183,9 @@ cat .obsidian/graph.json | jq '.colorGroups | length'
 **Główny dokument:** [[graph-rules]]
 **Lokalizacja konfiguracji:** `/.obsidian/graph.json`
 **Backupy:** `/.obsidian/backups/`
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/graph/graph]]
+- [[docs/docs]]
+- [[INDEX]]

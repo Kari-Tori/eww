@@ -1,41 +1,20 @@
 ---
+version: 0.0.1
+created: 2025-11-24
+modified: 2025-11-24
 tags:
-  - #todo
-  - #freederick
-  - #daily
-  - #jakubc
-created: 2025-11-22T21:03:00Z
-author: jakubc
-title: "Freederick - Zadanie"
-owner: jakubc
+  - #folder_note
+title: "freederick"
 ---
 
-# 👤 Freederick - Zadanie
+# freederick
 
-**Data:** 2025-11-22
+Notatka folderu dla `core/tasks/jakubc/TODO-daily/TODO-2025-11-22/freederick`
 
-## 🎯 Zadanie
+## 📄 Pliki w tym folderze
 
-TODO - do ustalenia z Freederickiem
+*Brak plików markdown w tym folderze.*
 
-## 📋 Szczegóły
+## 🔗 Backlinki
 
-- **Priorytet:** TODO
-- **Deadline:** TODO
-- **Szacowany czas:** TODO
-
-## ✅ Checklist
-
-- [ ] TODO
-
-## 📝 Notatki
-
-TODO
-
-## 🔗 Powiązane
-
-- [[../TODO-2025-11-22]] - TODO główne
-
----
-
-**Status:** 🟡 Oczekuje na ustalenie
+- [[TODO-2025-11-22]]

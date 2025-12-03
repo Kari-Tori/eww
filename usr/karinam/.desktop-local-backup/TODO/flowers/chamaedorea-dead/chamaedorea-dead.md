@@ -1,62 +1,24 @@
 ---
+version: 0.0.6
+created: 2025-11-24
+modified: 2025-11-25
 tags:
-  - flowers
-  - karinam
-  - dead
-  - palm
-type: flower-dead
-created: 2025-11-22T22:08:00Z
-author: karinam
-title: "Chamaedorea (zabita)"
-status: dead
-priority: 3
+  - #folder_note
+title: "chamaedorea-dead"
 ---
 
-# 💀 Chamaedorea (zabita)
+# chamaedorea-dead
 
-> [!danger] Status
-> **Stan:** 🔴 Martwa
-> **Nazwa:** Chamaedorea (Palma domowa)
-> **Kto zabił:** Karina 😢
+Notatka folderu dla `usr/karinam/.desktop-local-backup/TODO/flowers/chamaedorea-dead`
 
----
+## 📁 Podfoldery
 
-## 📋 DOKUMENTACJA POST-MORTEM
+- [[photos]]
 
-### Informacje podstawowe
-- **Nazwa zwyczajowa:** Chamaedorea / Palma domowa
-- **Nazwa łacińska:** Chamaedorea elegans
-- **Data śmierci:** \`YYYY-MM-DD\`
+## 📄 Pliki w tym folderze
 
----
+*Brak plików markdown w tym folderze.*
 
-## 📝 CO POSZŁO ŹLE?
+## 🔗 Backlinki
 
-### Prawdopodobna przyczyna
-- [ ] Przesuszenie
-- [ ] Zalanie
-- [ ] Brak światła
-- [ ] Za dużo słońca
-- [ ] Inne: _______________________
-
-### Opis
-\`\`\`
-_______________________________________
-\`\`\`
-
----
-
-## 📚 WNIOSKI
-
-### Co robić z drugą palmą (żywą)?
-- [ ] Podlewać częściej/rzadziej
-- [ ] Zmienić lokalizację
-- [ ] Sprawdzić korzenie
-- [ ] _______________________
-
----
-
-## 🔗 POWIĄZANE
-
-- [[../chamaedorea/chamaedorea|Chamaedorea (żywa)]]
-- [[../flower|Dashboard]]
+- [[flowers]]

@@ -1,11 +1,12 @@
 ---
+version: 0.0.2
 tags:
   - #obsidian
   - #docs
   - #translation
   - #eww
-created: 2025-11-22T19:47:00Z
-modified: 2025-11-22T19:47:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Dokumentacja Obsidian - EN/PL"
 owner: jakubc
@@ -212,3 +213,9 @@ grep -r "vault" official-en/Getting\ started/
 **Status:** 🟡 W trakcie  
 **Priorytet:** 1. Getting started, 2. Core plugins, 3. Reszta  
 **Następny:** Getting started/Download and install Obsidian.md
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

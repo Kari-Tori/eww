@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "README"
+created: 2025-11-29
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 # GitHub — kluczowe informacje
 
 - Dokumentacja: https://docs.github.com/
@@ -11,3 +20,8 @@
 gh pr create --fill --base main --head feat/branch
 ```
 
+## 🔗 Backlinks
+
+- [[docs/software/github/github]]
+- [[docs/docs]]
+- [[INDEX]]

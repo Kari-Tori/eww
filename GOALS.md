@@ -1,13 +1,14 @@
 ---
 title: GOALS
 description: Cele E-Waste Workshop – centrum recyklingu i refabrykacji elektroniki
+modified: 2025-11-28
 tags:
   - goals
   - roadmap
   - business
-version: 0.0.0.5
+version: 0.0.6
 language: pl
-created: 2025-11-29
+created: 2025-11-28
 updated: 2025-11-29
 owner: jakubc
 ---
@@ -25,7 +26,7 @@ owner: jakubc
 - Opis historii i modelu działania (Jakub R&D/eksperymenty, Karina stable produkt, Odoo+AI inventaryzacja) w `README.md`.
 
 ## Horyzont 90 dni (Q1)
-- Migracja wg `docs/infra/RESTRUCTURE-MAP.md`: rename `dev/`→`development/`, `usr/`→`users/`, uporządkowane indeksy.
+- Migracja wg `docs/governance/RESTRUCTURE-MAP.md`: rename `dev/`→`development/`, `usr/`→`users/`, uporządkowane indeksy.
 - `business/roadmap.md` (OKR/KPI, kamienie, właściciele) podlinkowane z `business/README.md`.
 - Autoreports: stabilny `core/reports/repo-stats.md` + `docs/infra/reports/CLEANUP-LOG.md` utrzymywany.
 - Ramy monetizacji: kanał YouTube (serie mobilne, pato-naprawy) + sprzedaż FCGH; polityka zero waste wdrożona operacyjnie.
@@ -43,5 +44,11 @@ owner: jakubc
 
 ## Linki referencyjne
 - `business/README.md`
-- `docs/infra/RESTRUCTURE-MAP.md`
+- `docs/governance/RESTRUCTURE-MAP.md`
 - `README.md`
+
+## 🔗 Backlinks
+
+- [[EWW-MAP]]
+- [[INDEX]]
+- [[README]]

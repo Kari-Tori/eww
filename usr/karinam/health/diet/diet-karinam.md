@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 title: Dieta i żywienie – Karinam
 description: Plan i śledzenie diety/suplementów (wersja szkicowa).
 tags:
@@ -6,8 +7,8 @@ tags:
   - #health
   - #diet
   - #nutrition
-created: 2025-11-29T00:07:49Z
-modified: 2025-11-29T00:07:49Z
+created: 2025-11-29
+modified: 2025-11-29
 author: karinam
 ---
 
@@ -31,3 +32,9 @@ author: karinam
 
 ## Do omówienia z lekarzem/dietetykiem
 - ___
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/diet/diet]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #workflow
   - #git
   - #automation
   - #commits
-created: 2025-11-23T19:00:00Z
-modified: 2025-11-23T19:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Auto-commit Workflow - Automatyzacja commitów"
 owner: jakubc
@@ -389,3 +390,9 @@ git push --force-with-lease
 **Status**: 🟡 PLANNED (scripts exist, timers TODO)
 **Owner**: jakubc
 **Implementation**: ~2h (scripts + timers + testing)
+
+## 🔗 Backlinks
+
+- [[core/workflow/workflow]]
+- [[core/core]]
+- [[core/config]]

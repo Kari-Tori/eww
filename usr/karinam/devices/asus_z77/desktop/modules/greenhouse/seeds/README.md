@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #greenhouse
   - #seeds
   - #inventory
-created: 2025-11-22T22:28:00Z
-modified: 2025-11-22T22:28:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: karinam
 owner: karinam
 ---
@@ -56,3 +57,9 @@ Magazyn nasionek roślin domowych i ogrodowych.
 - [[../tools/README|🛠️ Tools]]
 
 **Deadline:** 2025-11-22 24:00
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/desktop/modules/greenhouse/seeds/seeds]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

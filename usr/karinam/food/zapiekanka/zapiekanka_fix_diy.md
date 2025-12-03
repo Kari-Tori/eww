@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: Domowy mix do zapiekanki serowej
 description: Zdrowa alternatywa dla fixu WINIARY – przepis, instrukcja i koszt DIY.
 lang: pl
-created: "2025-11-17"
+created: 2025-11-25
 updated: "2025-11-17"
 tags:
   - food
@@ -45,3 +47,9 @@ Zmieszaj wszystko w słoiku i przechowuj w lodówce do 7 dni lub w zamrażarce d
 - [Fix WINIARY – karta produktu](zapiekanka_fix.md)  
 - [BOM zapiekanki](zapiekanka_bom.md)  
 - [Przepis główny](zapiekanka_recipe.md)
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/zapiekanka/zapiekanka]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

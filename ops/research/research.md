@@ -1,44 +1,26 @@
 ---
+version: 0.0.6
+created: 2025-11-28
+modified: 2025-11-28
 tags:
   - #folder_note
-  - #research
-  - #eww
-created: 2025-11-27T17:03:23Z
-modified: 2025-11-27T18:05:00Z
-author: karinam
-title: "Research"
-owner: karinam
-folder_color: 8421504
-folder_stats:
-  md_files: 4
-  total_files: 4
-  subdirs: 1
+title: "research"
 ---
 
-# Research
+# research
 
-> Notatki z analizy i diagnostyki sprzętu/tematów po intake; dokumentujemy hipotezy, testy, pomiary i decyzje.
+Notatka folderu dla `ops/research`
 
-## Cel folderu
+## 📁 Podfoldery
 
-- Dokumentacja testów funkcjonalnych i diagnostycznych.
-- Datasheety, pinouty, schematy, checklisty pomiarów.
-- Decyzje: naprawa/refab, części, recykling – z linkiem do karty intake.
+- [[ipad_a1670]]
 
-## Sposób pracy
+## 📄 Pliki w tym folderze
 
-- Prowadź notatki per urządzenie lub model (`devices/<model>/` lub `devices/<model>.md`).
-- Dodawaj logi z testów, wyniki pomiarów, zdjęcia, wnioski i status (w toku/zamknięte).
-- Łącz z wynikami refurb/parts/recycle, żeby zamknąć pętlę informacji.
+- [[pioneer_vsx_d511]]
+- [[onkyo_tx-nr609]]
+- [[lg_ht304]]
 
-## Sugestia struktury
+## 🔗 Backlinki
 
-- `devices/` – foldery/plik dla konkretnych urządzeń lub modeli.
-- `topics/` – badania przekrojowe (np. typowe usterki chipsetu, firmware).
-- `templates/` – szablony notatek z badań/testów.
-
-## Powiązania
-
-- [[intake/intake|intake]] – karta przyjęcia i decyzja startowa.
-- [[docs/infra/hardware/hardware|hardware]] – katalog urządzeń i per-model notes.
-- [[business/roadmap|roadmap]] – priorytety i plan prac.
+- [[ops]]

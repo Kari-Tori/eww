@@ -1,4 +1,6 @@
 ---
+version: 0.0.1
+modified: 2025-11-25
 title: OpenHands - Autonomous Coding Agent
 category: AI Tools
 type: Autonomous Agent
@@ -357,3 +359,9 @@ openhands "Implement OAuth2 authentication with Google"
 3. Skonfiguruj z Ollama
 4. Testuj na małych taskach
 5. Scale up do większych
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/study/AI/AI]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

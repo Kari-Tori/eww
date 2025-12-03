@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 tags:
   - #docs
   - #ebay
   - #api
   - #oauth
   - #integracje
-created: 2025-11-29T12:25:00Z
-modified: 2025-11-29T12:25:00Z
+created: 2025-12-01
+modified: 2025-12-01
 title: "eBay Developers – pakiet startowy"
 owner: ai
 ---
@@ -51,3 +52,9 @@ _Uwaga: część stron blokuje automatyczne pobieranie (anti-bot); najlepiej otw
 ## Utrzymanie folderu
 - Nie edytuj plików z `downloaded/` (snapshoty źródeł); własne notatki trzymaj w `oauth-notes.md`.
 - Dodając nowe materiały, dopisz źródło, datę pobrania i licencję.
+
+## 🔗 Backlinks
+
+- [[dev/docs/ebay/ebay]]
+- [[docs/docs]]
+- [[INDEX]]

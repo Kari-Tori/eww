@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #house
   - #shared
   - #features
-created: 2025-11-22T16:56:44+00:00
-modified: 2025-11-22T16:56:44+00:00
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "TODO: Features & Improvements"
 status: active
@@ -26,3 +27,9 @@ Ulepszenia komfortu mieszkania: automatyzacje, reorganizacja przestrzeni, DIY.
 - [[core/house/area/features/functions]]
 - [[core/house/area/features/raci]]
 - [[core/house/house_dashboard]]
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/house/area/features/features]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

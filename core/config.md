@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "config"
+created: 2025-11-24
+modified: 2025-11-24
+tags:
+  - auto-versioned
+---
+
 ## 📁 Workflow
 
 Wszystkie workflow i procesy automatyzacji znajdują się w: **[[core/workflow/]]**
@@ -17,3 +26,9 @@ Wszystkie workflow i procesy automatyzacji znajdują się w: **[[core/workflow/]
 ## 📁 Podfoldery
 
 *Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[core/core]]
+- [[core/config]]
+- [[EWW-MAP]]

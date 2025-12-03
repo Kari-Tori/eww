@@ -1,69 +1,24 @@
 ---
+version: 0.0.3
+created: 2025-11-21
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #automation
-  - #books
-  - #development
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-created: 2025-11-21T23:00:00Z
-modified: 2025-11-21T23:00:00Z
-author: jakubc
-title: "📁 common"
-
-
-
-
-
-
-owner: jakubc
+title: "common"
 ---
 
-# 📁 common
+# common
 
-> **Folder Note** - centralny index dla katalogu `common/`
-
-## 📋 Cel folderu
-
-Katalog `common` zawiera 0 plików i 1 podfolderów.
-
-**Przeznaczenie:**
-- Projekty deweloperskie i playbooki
-
-
-## 📄 Pliki w folderze
-
-*Brak plików MD w tym folderze.*
-
-## 📂 Podfoldery
-
-- 📂 [[tasks/tasks|tasks]] - Subfolder
-
-## 🔗 Nawigacja
-
-- ⬆️ [[roles/roles|roles]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
-
-
-**Lokalizacja:** `dev/Playbooks/ansible/roles/common`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-*Brak plików markdown.*
+Notatka folderu dla `dev/Playbooks/ansible/roles/common`
 
 ## 📁 Podfoldery
 
-- [tasks/](tasks/tasks.md)
+- [[tasks]]
 
-## 🔗 Backlinks
+## 📄 Pliki w tym folderze
 
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
+*Brak plików markdown w tym folderze.*
 
+## 🔗 Backlinki
+
+- [[roles]]

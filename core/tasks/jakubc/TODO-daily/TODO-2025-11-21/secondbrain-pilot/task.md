@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #secondbrain
   - #appflowy
-created: 2025-11-21T11:00:00Z
-modified: 2025-11-22T19:35:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Secondbrain Pilot"
 status: in-progress
@@ -26,3 +27,9 @@ owner: jakubc
 
 ## 🔗 Źródło
 - `TODO-list-22-11-2025.md` – sekcja „W toku”.
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-21/secondbrain-pilot/secondbrain-pilot]]
+- [[core/core]]
+- [[core/config]]

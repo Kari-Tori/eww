@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 tags:
   - #tv
   - #samsung
   - #device
   - #jakubc
   - #media
-created: 2025-11-22T20:52:00Z
-modified: 2025-11-22T20:52:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Samsung UE50CU8500KXUU - TV 50"
 model: UE50CU8500KXUU
@@ -116,3 +117,9 @@ owner: karinam
 ---
 
 **Status:** 🟢 Aktywny
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/desktop/research/research]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

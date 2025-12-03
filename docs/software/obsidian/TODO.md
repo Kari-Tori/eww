@@ -1,12 +1,13 @@
 ---
+version: 0.0.2
 tags:
   - #todo
   - #obsidian
   - #translation
   - #docs
   - #eww
-created: 2025-11-22T20:33:00Z
-modified: 2025-11-22T20:33:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "TODO - Tłumaczenie dokumentacji Obsidian"
 deadline: 2025-12-31
@@ -308,3 +309,9 @@ vim TRANSLATION-STATUS.md
 **PRIORYTET:** 🔴 WYSOKI  
 **STATUS:** 🟡 W TRAKCIE  
 **DEADLINE P1:** 2025-11-30 (Getting started)
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

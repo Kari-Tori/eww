@@ -1,12 +1,13 @@
 ---
+version: 0.0.2
 tags:
   - #obsidian
   - #graph
   - #installation
   - #documentation
   - #secondbrain
-created: 2025-11-23T17:30:00Z
-modified: 2025-11-23T17:30:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Obsidian Graph - Przewodnik instalacji"
 owner: jakubc
@@ -395,3 +396,9 @@ pkill -f obsidian && obsidian &
 **Ostatnia aktualizacja**: 2025-11-23  
 **Wersja**: 1.0  
 **Autor**: jakubc
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

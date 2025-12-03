@@ -1,9 +1,10 @@
 ---
+version: 0.0.1
 tags:
   - #Dell_Inspirion_3881
   - #storage
-created: 2025-11-22T18:44:00Z
-modified: 2025-11-22T18:44:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Storage — Dell Inspiron 3881 (NVMe 512 GB)"
 owner: jakubc
@@ -17,3 +18,9 @@ owner: jakubc
 ## TODO
 - [ ] @jakubc sprawdzić kondycję SSD (CrystalDiskInfo / smartctl).
 - [ ] @jakubc określić potrzeby backupu (OneDrive? Syncthing?).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/dell_inspirion-3881/dell_inspirion-3881]]
+- [[docs/docs]]
+- [[INDEX]]

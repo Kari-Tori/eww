@@ -1,6 +1,8 @@
 ---
+version: 0.0.1
+modified: 2025-11-25
 title: MOC/SET Cost Notes
-created: 2025-11-16
+created: 2025-11-25
 updated: 2025-11-16
 tags:
   - starwars
@@ -34,3 +36,9 @@ tags:
 | GS-100 Vulture’s Claw | Emil Johansson | Free / donacja |
 
 > Aktualizuj przy zmianach cen lub dostępności.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/lego/lego]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

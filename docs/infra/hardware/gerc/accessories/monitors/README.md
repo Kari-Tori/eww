@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #monitors
   - #gerc
   - #display
-created: 2025-11-22T18:36:00Z
-modified: 2025-11-22T18:36:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "GERC - Monitory"
 owner: jakubc
@@ -62,3 +63,9 @@ owner: jakubc
 - TV Samsung służy jako główny monitor i centrum multimedialne
 - Soundbar podłączony przez HDMI ARC dla lepszego audio
 - Konfiguracja audio udokumentowana w [[gerc/gerc]] sekcja Audio
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/gerc/accessories/monitors/monitors]]
+- [[docs/docs]]
+- [[INDEX]]

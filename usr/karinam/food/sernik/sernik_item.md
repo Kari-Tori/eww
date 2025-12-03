@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: Sernik – karta produktu
 description: Dane o wartościach odżywczych i zdrowotnych aspektach jedzenia kawałka sernika ze śliwkami oraz propozycje częstotliwości.
 author: E-Waste Workshop
-created: "2025-11-19"
+created: 2025-11-25
 updated: "2025-11-19"
 tags:
   - food
@@ -60,3 +62,9 @@ plugins:
 - [[sernik.md|Index sernika]]
 - [[sernik_recipe.md|Przepis i workflow Kariny]]
 - [[sernik_bom.md|BOM – lista zakupowa]]
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/sernik/sernik]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

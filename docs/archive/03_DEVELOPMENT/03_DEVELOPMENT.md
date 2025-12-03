@@ -1,43 +1,24 @@
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
 ---
+version: 0.0.4
+created: 2025-11-21
+modified: 2025-11-28
 tags:
-  - #automation
-  - #development
-  - #docs
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-
-
-
-
-
-
-owner: jakubc
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
+  - #folder_note
+title: "03_DEVELOPMENT"
 ---
 
-# 📁 03_DEVELOPMENT
+# 03_DEVELOPMENT
 
-## Opis
-Folder zawierający zasoby związane z: 03_DEVELOPMENT
-
-## 📋 Zawartość folderu
-
-
-## 🔗 Powiązania
-
-- [[archive]] - Folder nadrzędny\n
-
-## 📑 Index plików
-
-*Brak plików markdown.*
+Notatka folderu dla `docs/archive/03_DEVELOPMENT`
 
 ## 📁 Podfoldery
 
-- [PLANTS/](PLANTS/PLANTS.md)
+- [[PLANTS]]
+
+## 📄 Pliki w tym folderze
+
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[archive]]

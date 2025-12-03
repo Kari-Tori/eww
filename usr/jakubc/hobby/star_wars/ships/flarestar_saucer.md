@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #star-wars
-created: 2025-11-21T15:00:00Z
-modified: 2025-11-21T15:00:00Z
+created: 2025-11-25
+modified: 2025-12-01
 author: jakubc
 title: "✨ Flarestar-class “Weequay Saucer” — karta techniczna"
 
@@ -73,3 +74,9 @@ owner: jakubc
 > Bez standaryzacji – każdy egzemplarz różni się wyposażeniem; często brakuje zabezpieczeń, co fani MOC odwzorowują poprzez asymetryczne płytki.
 
 [[usr/jakubc/hobby/star_wars/ships/ships.md|← powrót do listy]]
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/hobby/star_wars/ships/ships]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

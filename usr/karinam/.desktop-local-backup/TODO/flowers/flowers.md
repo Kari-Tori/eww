@@ -1,35 +1,37 @@
 ---
+version: 0.0.6
+created: 2025-11-24
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #flowers
-folder_color: 8421504
-folder_stats:
-  md_files: 2
-  total_files: 2
-  subdirs: 11
-created: 2025-11-23T01:33:13+00:00
-modified: 2025-11-23T01:33:13+00:00
-author: jakubc
-title: "Flowers - Folder Note"
-owner: karinam
+title: "flowers"
 ---
 
-# Flowers
+# flowers
 
-> Automatycznie wygenerowana notatka folderu
+Notatka folderu dla `usr/karinam/.desktop-local-backup/TODO/flowers`
 
-## 📊 Statystyki
+## 📁 Podfoldery
 
-- **Pliki Markdown**: 2
-- **Wszystkie pliki**: 2
-- **Podfoldery**: 11
-- **Kolor**: RGB 8421504
+- [[bamboo]]
+- [[chamaedorea]]
+- [[chamaedorea-dead]]
+- [[dracena-ananas]]
+- [[orchid-dead]]
+- [[pots]]
+- [[seeds]]
+- [[succulent-01]]
+- [[succulent-02]]
+- [[succulent-03]]
+- [[tools]]
 
-## 📝 Zawartość
+## 📄 Pliki w tym folderze
 
-<!-- Auto-generated content -->
+- [[README]]
+- [[flower]]
 
----
+## 🔗 Backlinki
 
-**Auto-generated** by `scripts/create-folder-notes.sh`  
-**Last updated**: 2025-11-23T01:33:13+00:00
+- [[TODO]]
+- [[README]]
+- [[flower]]

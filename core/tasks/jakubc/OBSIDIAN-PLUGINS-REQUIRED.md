@@ -1,10 +1,12 @@
 ---
+version: 0.0.1
+modified: 2025-11-24
 tags:
   - obsidian
   - plugins
   - todo
   - setup
-created: 2025-11-22T21:10:00Z
+created: 2025-11-24
 author: jakubc
 title: "Obsidian Plugins - Wymagane dla TODO"
 owner: jakubc
@@ -286,3 +288,9 @@ LIMIT 10
 
 **Ostatnia aktualizacja:** 2025-11-22
 **Status:** ✅ Gotowe do użycia
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/jakubc]]
+- [[core/core]]
+- [[core/config]]

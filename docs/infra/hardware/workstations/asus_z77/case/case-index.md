@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #Asus_Z77
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-21T15:00:00Z
-modified: 2025-11-21T15:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "Obudowa — indeks"
 
@@ -35,3 +36,9 @@ Obudowa wraz z wentylatorami ma własny podfolder. Każdy panel lub zestaw wenty
 ## Zadania
 - [ ] @karinam uzupełnić nazwę i lokalizację obudowy.
 - [ ] @karinam sprawdzić listę wentylatorów i ich profile.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/asus_z77/case/case]]
+- [[docs/docs]]
+- [[INDEX]]

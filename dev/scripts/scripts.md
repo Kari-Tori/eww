@@ -1,51 +1,24 @@
 ---
+version: 0.0.3
+created: 2025-11-21
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #automation
-  - #development
-  - #eww
-  - #knowledge
-  - #linux
-  - #scripts
-  - #secondbrain
-created: 
-modified: 
-author: jakubc
-title: "📁 scripts"
-
-
-
-
-
-
-owner: jakubc
+title: "scripts"
 ---
 
-# 📁 scripts
+# scripts
 
-> Folder note for scripts
-
-## 📑 Zawartość
-
-
+Notatka folderu dla `dev/scripts`
 
 ## 📁 Podfoldery
 
 - [[bash]]
 
-## 📑 Index plików
+## 📄 Pliki w tym folderze
 
-*Brak plików markdown.*
+*Brak plików markdown w tym folderze.*
 
-## 📁 Podfoldery
+## 🔗 Backlinki
 
-- [bash/](bash/bash.md)
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[dev]]

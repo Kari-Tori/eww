@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 title: Operacja kolana – chondromalacja rzepki (III/IV)
 description: Operacja kolana w związku z chondromalacją rzepki (3/4 stopień).
 tags:
@@ -6,8 +7,8 @@ tags:
   - #health
   - #zabieg
   - #ortopedia
-created: 2025-11-28T21:52:15Z
-modified: 2025-11-28T21:52:15Z
+created: 2025-11-29
+modified: 2025-11-29
 author: karinam
 ---
 
@@ -25,3 +26,9 @@ author: karinam
 
 ## Notatki
 - ___
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/clinical/procedures/procedures]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

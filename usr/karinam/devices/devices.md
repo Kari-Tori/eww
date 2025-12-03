@@ -1,35 +1,27 @@
 ---
+version: 0.0.6
+created: 2025-11-24
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #devices
-folder_color: 8421504
-folder_stats:
-  md_files: 1
-  total_files: 1
-  subdirs: 3
-created: 2025-11-23T01:33:14+00:00
-modified: 2025-11-23T01:33:14+00:00
-author: jakubc
-title: "Devices - Folder Note"
-owner: karinam
+title: "devices"
 ---
 
-# Devices
+# devices
 
-> Automatycznie wygenerowana notatka folderu
+Notatka folderu dla `usr/karinam/devices`
 
-## 📊 Statystyki
+## 📁 Podfoldery
 
-- **Pliki Markdown**: 1
-- **Wszystkie pliki**: 1
-- **Podfoldery**: 3
-- **Kolor**: RGB 8421504
+- [[asus_z77]]
+- [[iphone]]
+- [[watch]]
 
-## 📝 Zawartość
+## 📄 Pliki w tym folderze
 
-<!-- Auto-generated content -->
+- [[README]]
 
----
+## 🔗 Backlinki
 
-**Auto-generated** by `scripts/create-folder-notes.sh`  
-**Last updated**: 2025-11-23T01:33:14+00:00
+- [[karinam]]
+- [[README]]

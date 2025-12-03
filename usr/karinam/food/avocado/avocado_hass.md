@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-29
 title: Awokado Hass – przewodnik
 description: Skondensowana notatka o odmianie Hass sprzedawanej jako „Large Avocado” w Lidlu – profil botaniczny, pochodzenie, uprawa i zastosowania.
 author: E-Waste Workshop
-created: 2025-11-17
+created: 2025-11-25
 updated: 2025-11-28
 tags:
   - food
@@ -95,3 +97,9 @@ Odmiana Hass to globalny standard handlowy – właśnie ją kupujemy jako „La
 [^usda]: USDA FoodData Central, „Avocados, raw, all commercial varieties (FDC ID 171705)”, profil żywieniowy na 100 g, aktualizacja 2023 r., <https://fdc.nal.usda.gov/fdc-app.html#/food-details/171705>.  
 [^fao]: FAO, „Avocado Production Statistics”, 2024.  
 [^cac]: California Avocado Commission, „History of the Hass Avocado”, dostęp 17 listopada 2025 r., <https://www.californiaavocado.com/about-avocados/history-of-the-hass-avocado/>.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/avocado/avocado]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

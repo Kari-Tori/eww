@@ -1,4 +1,6 @@
 ---
+version: 0.0.4
+modified: 2025-11-28
 tags:
   - #automation
   - #eww
@@ -46,3 +48,9 @@ Pokazuj tylko:
 - Główny graf tylko top-level
 
 ## Implementacja
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #flowers
   - #plants
@@ -6,8 +7,8 @@ tags:
   - #jakubc
   - #eww
   - #folder_note
-created: 2025-11-22T20:45:00Z
-modified: 2025-11-22T20:45:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Kwiaty - Inwentaryzacja"
 owner: jakubc
@@ -54,3 +55,9 @@ Zobacz: [[seeds/README]]
 ---
 
 **Status:** 🟡 W trakcie inwentaryzacji
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/flowers/flowers]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

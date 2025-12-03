@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #obsidian
   - #graph
@@ -6,8 +7,8 @@ tags:
   - #configuration
   - #docs
   - #eww
-created: 2025-11-22T19:29:00Z
-modified: 2025-11-22T19:29:00Z
+created: 2025-11-24
+modified: 2025-12-01
 author: jakubc
 title: "Graph Rules - Zasady konfiguracji grafu Obsidian"
 owner: jakubc
@@ -210,3 +211,9 @@ eww/
 - [ ] Skrypt do walidacji graph.json
 - [ ] Monitor zmian w tagach (CI/CD check)
 - [ ] Dashboard pokazujący statystyki grafu
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

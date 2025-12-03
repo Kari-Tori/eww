@@ -1,43 +1,24 @@
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
 ---
+version: 0.0.5
+created: 2025-11-21
+modified: 2025-11-28
 tags:
-  - #automation
-  - #docs
-  - #eww
-  - #karinam
-  - #knowledge
-  - #linux
-  - #secondbrain
-
-
-
-
-
-
-owner: jakubc
-created: 2025-11-21T20:46:16Z
-modified: 2025-11-24T22:31:33Z
-author: jakubc
+  - #folder_note
+title: "karinam"
 ---
 
-# 📁 karinam
+# karinam
 
-## Opis
-Folder zawierający zasoby związane z: karinam
-
-## 📋 Zawartość folderu
-
-
-## 🔗 Powiązania
-
-- [[04_TEAM]] - Folder nadrzędny\n
-
-## 📑 Index plików
-
-*Brak plików markdown.*
+Notatka folderu dla `docs/archive/04_TEAM/karinam`
 
 ## 📁 Podfoldery
 
-- [devices/](devices/devices.md)
+- [[devices]]
+
+## 📄 Pliki w tym folderze
+
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[04_TEAM]]

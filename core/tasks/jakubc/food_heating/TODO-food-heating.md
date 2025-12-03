@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "TODO-food-heating"
+created: 2025-11-24
+modified: 2025-11-24
+tags:
+  - auto-versioned
+---
+
 # TODO - Food Heating _(plik główny zadania)_
 
 ## Status i zakładane kroki
@@ -74,3 +83,9 @@ czas = energia / moc = 1850 kJ / 1,6 kJ/s ≈ 1156 s ≈ 19,3 min
 
 Wnioski:
 - Realnie 20–25 min przez straty (drzwi, nieszczelności, sterowanie impulsowe).
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/food_heating/food_heating]]
+- [[core/core]]
+- [[core/config]]

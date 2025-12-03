@@ -22,12 +22,13 @@ PROJECT_CHECK_DEV ?= 0
 	sync-dry sync-run sync-perms sync-configs diff-repos sync-legacy-dry \
 	sync-legacy set-alias git-verify project-check \
 	install uninstall test test-bats lint clean \
-	version bump-version changelog readme-check frontmatter frontmatter-dry check-frontmatter \
+	version bump-version sync-versions version-report rebuild-history rebuild-history-dry install-hooks uninstall-hooks changelog readme-check frontmatter frontmatter-dry check-frontmatter \
 	tag auto-tag git-status git-push obsidian-fix vscode-fix \
 	doctor banner status commit graph-report graph-connect graph-dry \
 	git-batch git-history git-uncommit index check-folders update-indexes update-indexes-all \
 	graph-status graph-validate graph-backup graph-clean \
 	repo-check repo-clean repo-stats \
+	ensure-backlinks ensure-folder-notes update-structure \
 	graph-generate graph-commit graph-full
 
 help: ## Wyświetl dostępne cele Makefile (plan dnia + operacje SSH + narzędzia eww)
@@ -232,16 +233,50 @@ clean: ## Usuń pliki tymczasowe (*.bak, *.tmp)
 # Wersjonowanie i changelog
 # ============================================================================
 
-.PHONY: version bump-version changelog
+.PHONY: version bump-version changelog sync-versions version-report rebuild-history rebuild-history-dry install-hooks uninstall-hooks
 SCRIPTS_DIR := dev/scripts
 
 version: ## Wyświetl aktualną wersję projektu
 	@echo "📌 Wersja projektu:"
 	@./$(SCRIPTS_DIR)/version.sh 2>/dev/null || cat VERSION 2>/dev/null || echo "0.0.0"
 
-bump-version: ## Zwiększ wersję (MAJOR, MINOR lub PATCH)
+bump-version: ## Zwiększ wersję (MAJOR, MINOR lub PATCH) i synchronizuj frontmattery
 	@echo "🔼 Zwiększanie wersji..."
-	@./$(SCRIPTS_DIR)/bump-version.sh $(BUMP)
+	@if command -v semver >/dev/null 2>&1; then \
+		./$(SCRIPTS_DIR)/sync-versions.sh bump $(BUMP); \
+	else \
+		echo "⚠️  semver nie jest zainstalowane, używam starego skryptu..."; \
+		./$(SCRIPTS_DIR)/bump-version.sh $(BUMP); \
+	fi
+
+sync-versions: ## Synchronizuj wersje w frontmatterach z VERSION
+	@echo "🔄 Synchronizacja wersji..."
+	@./$(SCRIPTS_DIR)/sync-versions.sh sync
+
+version-report: ## Wygeneruj raport braków wersji w frontmatterach
+	@echo "📊 Generowanie raportu wersji..."
+	@mkdir -p docs/reports
+	@./$(SCRIPTS_DIR)/generate-version-report.py > docs/reports/frontmatter-version-gap.md
+	@echo "✅ Raport zapisany w docs/reports/frontmatter-version-gap.md"
+
+rebuild-history: ## Odbuduj historię wersji wszystkich plików z Git (dodaje version/created/modified)
+	@echo "🔄 Odbudowa historii wersji z Git..."
+	@./$(SCRIPTS_DIR)/rebuild-version-history.py
+
+rebuild-history-dry: ## Pokaż co zostałoby zmienione (dry-run)
+	@echo "🔍 [DRY-RUN] Odbudowa historii wersji..."
+	@./$(SCRIPTS_DIR)/rebuild-version-history.py --dry-run
+
+install-hooks: ## Zainstaluj pre-commit hook do automatycznego wersjonowania
+	@echo "🔧 Instalacja pre-commit hook..."
+	@./dev/scripts/setup-githooks.sh
+	@echo "✅ Hook zainstalowany i skonfigurowany"
+	@echo "   Przy każdym commicie pliki .md będą automatycznie wersjonowane"
+
+uninstall-hooks: ## Usuń pre-commit hook
+	@echo "🗑️  Usuwanie pre-commit hook..."
+	@git config --unset core.hooksPath || true
+	@echo "✅ Hook usunięty (Git używa domyślnej lokalizacji)"
 
 changelog: ## Wygeneruj CHANGELOG.md na podstawie commitów
 	@echo "📝 Generowanie changelog..."
@@ -565,3 +600,23 @@ setup-stats-cron: ## Setup cron do auto-update repo-stats.md (co 5 min)
 .PHONY: show-stats-cron
 show-stats-cron: ## Pokaż aktualny cron job dla stats
 	@crontab -l | grep "generate-stats.sh" || echo "Brak cron job"
+
+# ============================================================================
+# Backlinki i Folder Notes
+# ============================================================================
+
+.PHONY: ensure-backlinks ensure-folder-notes update-structure
+
+ensure-backlinks: ## Upewnij się, że każdy plik ma conajmniej 3 backlinki
+	@echo "🔗 Sprawdzanie i dodawanie backlinków..."
+	@python3 dev/scripts/ensure-all-backlinks.py
+
+ensure-folder-notes: ## Upewnij się, że każdy folder ma plik folder.md
+	@echo "📁 Sprawdzanie i tworzenie folder notes..."
+	@python3 dev/scripts/ensure-folder-md.py
+
+update-structure: ensure-folder-notes ensure-backlinks ## Zaktualizuj całą strukturę (folder notes + backlinki)
+	@echo ""
+	@echo "✅ Struktura projektu zaktualizowana!"
+	@echo "   - Wszystkie foldery mają pliki .md"
+	@echo "   - Wszystkie pliki mają ≥3 backlinki"

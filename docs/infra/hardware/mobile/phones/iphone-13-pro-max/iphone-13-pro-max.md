@@ -1,23 +1,20 @@
 ---
+version: 0.0.1
+created: 2025-11-24
+modified: 2025-11-24
 tags:
-  - #mobile
-  - #iphone
-  - #decommissioned
-created: 2025-11-22T19:03:00Z
-modified: 2025-11-22T19:03:00Z
-author: jakubc
-title: "iPhone 13 Pro Max — hotspot (EOL)"
-status: decommissioned
-owner: jakubc
+  - #folder_note
+title: "iphone-13-pro-max"
 ---
 
-# iPhone 13 Pro Max — hotspot (EOL)
+# iphone-13-pro-max
 
-- **Rola:** Główny hotspot LTE przez kilka miesięcy (do XI 2025).
-- **Stan:** Bateria spuchnięta, urządzenie nie nadaje się do użytku.
-- **Przyczyna:** Długotrwałe działanie jako hotspot na oknie (ciągłe ładowanie + wysoka temp).
+Notatka folderu dla `docs/infra/hardware/mobile/phones/iphone-13-pro-max`
 
-## ✅ TODO (@jakubc)
-- [ ] Zorganizować utylizację / wymianę baterii (jeśli opłacalne).
-- [ ] Wyrejestrować urządzenie z Apple ID / menedżera urządzeń.
-- [ ] Zdjąć SIM ewentualnie przenieść do nowego telefonu.
+## 📄 Pliki w tym folderze
+
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[phones]]

@@ -1,6 +1,8 @@
 ---
+version: 0.0.1
+modified: 2025-11-28
 title: Graph Timeline - Wyniki Testów
-created: 2025-11-26T00:00:00Z
+created: 2025-11-28
 author: system
 tags:
   - test
@@ -218,3 +220,9 @@ Dla szybkiego renderowania (zamiast 5 min):
 
 **Test zakończony:** 2025-11-26
 **Wszystko działa zgodnie z planem Jakuba** 🎉
+
+## 🔗 Backlinks
+
+- [[dev/obsidian/graph/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #workflow
   - #core
   - #automation
   - #folder_note
-created: 2025-11-23T19:00:00Z
-modified: 2025-11-23T19:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Workflow - Procesy i automatyzacja EWW"
 owner: jakubc
@@ -287,3 +288,9 @@ curl http://eww-admin:PASSWORD@192.168.0.99:5984/eww-vault
 **Owner**: jakubc
 **Last updated**: 2025-11-23
 **Next review**: Po implementacji LiveSync (~1 tydzień)
+
+## 🔗 Backlinks
+
+- [[core/workflow/workflow]]
+- [[core/core]]
+- [[core/config]]

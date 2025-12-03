@@ -1,4 +1,5 @@
 ---
+version: 0.0.5
 tags:
   - #automation
   - #docs
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T14:19:10Z
-modified: 2025-11-21T14:19:10Z
+created: 2025-11-21
+modified: 2025-12-01
 author: jakubc
 title: "🔵 GRAPH: Jakubc Personal"
 
@@ -35,3 +36,9 @@ path:usr/jakubc -path:usr/jakubc/hobby/star_wars
 - �� #health - zdrowie
 
 [[usr/jakubc/jakubc]]
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

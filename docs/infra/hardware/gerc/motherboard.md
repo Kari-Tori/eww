@@ -1,8 +1,10 @@
 ---
+version: 0.0.8
+modified: 2025-11-25
 title: gerc — Płyta główna
 component: motherboard
 author: jakubc
-created: 2025-11-19
+created: 2025-11-05
 updated: 2025-11-19
 ---
 
@@ -18,3 +20,9 @@ updated: 2025-11-19
 ## Zadania
 - [ ] @karinam wpisać wszystkie zajęte sloty PCIe (2× GPU, ewentualne karty dodatków).
 - [ ] @karinam uzupełnić wersję BIOS/UEFI, microcode oraz ustawienia OC.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

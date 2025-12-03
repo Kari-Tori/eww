@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #protokol
   - #here
@@ -8,8 +9,8 @@ tags:
   - #initialization
   - #protocol
   - #5facts
-created: 2025-11-22T12:00:00Z
-modified: 2025-11-22T12:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 owner: karinam
 title: "Protocol HERE - Initialization Protocol"
@@ -25,7 +26,7 @@ related:
   - "[[usr/jakubc/jakubc|@jakubc]]"
   - "[[usr/karinam/karinam|@karinam]]"
   - "[[usr/gary/gary|@gary]]"
-  - "[[docs/infra/location|@location]]"
+  - "[[docs/infra/areas/workshop/location|@location]]"
   - "[[EWW-MAP|@eww]]"
   - "[[README|Project README]]"
   - "[[CHANGELOG|Project Changelog]]"
@@ -59,16 +60,16 @@ related:
 - `archived` - Archived for reference
 
 **Purpose:**
-Building knowledge structure about [[EWW-MAP|E-Waste Workshop]] through systematic fact collection. This is a collaborative information gathering process to help [[usr/karinam/karinam|@karinam]] understand the structure and context of [[docs/infra/location|@location]].
+Building knowledge structure about [[EWW-MAP|E-Waste Workshop]] through systematic fact collection. This is a collaborative information gathering process to help [[usr/karinam/karinam|@karinam]] understand the structure and context of [[docs/infra/areas/workshop/location|@location]].
 
 ## 📋 Protocol Definition
 
 **Protocol HERE** is an initialization protocol implementing the **Rule of 5 Facts** methodology.
 
-**Context:** HERE = "Tu" = [[docs/infra/location|E-Waste Workshop]] ([[EWW-MAP|@eww]])
+**Context:** HERE = "Tu" = [[docs/infra/areas/workshop/location|E-Waste Workshop]] ([[EWW-MAP|@eww]])
 
 **Entities:**
-- **Location:** [[docs/infra/location|@location]] (E-Waste Workshop / Tu)
+- **Location:** [[docs/infra/areas/workshop/location|@location]] (E-Waste Workshop / Tu)
 - **Agents:** [[usr/jakubc/jakubc|@jakubc]] (Wielki Implementator), [[usr/karinam/karinam|@karinam]] (Ty), [[usr/gary/gary|@gary]] (Gary)
 
 **Objective:** Initialize contextual understanding through structured fact collection (5 facts per topic).
@@ -120,7 +121,7 @@ Building knowledge structure about [[EWW-MAP|E-Waste Workshop]] through systemat
 > - Purpose: mutual understanding initialization + knowledge building about [[EWW-MAP|@eww]]
 >
 > **Why this matters:**
-> This isn't just filling forms - you're building the knowledge base of [[docs/infra/location|@location]].
+> This isn't just filling forms - you're building the knowledge base of [[docs/infra/areas/workshop/location|@location]].
 > Your observations will help document [[EWW-MAP|E-Waste Workshop]] from your perspective.
 > This is collaborative learning: you learn the structure, we learn from your observations.
 >
@@ -230,7 +231,7 @@ Building knowledge structure about [[EWW-MAP|E-Waste Workshop]] through systemat
 
 ---
 
-## 🏠 Section 5: 5 Facts About [[docs/infra/location|@location]] (HERE / Tu)
+## 🏠 Section 5: 5 Facts About [[docs/infra/areas/workshop/location|@location]] (HERE / Tu)
 
 **Topic:** Physical space, environment, atmosphere observations
 
@@ -288,7 +289,7 @@ Building knowledge structure about [[EWW-MAP|E-Waste Workshop]] through systemat
 - [[usr/jakubc/jakubc|@jakubc Profile]] - Wielki Implementator
 - [[usr/karinam/karinam|@karinam Profile]] - Your profile
 - [[usr/gary/gary|@gary Profile]] - Resident cat entity
-- [[docs/infra/location|@location Documentation]] - Workshop location details
+- [[docs/infra/areas/workshop/location|@location Documentation]] - Workshop location details
 
 **Infrastructure:**
 - [[docs/infra/hardware/gerc/gerc|GERC Workstation]] - Main development machine
@@ -314,3 +315,9 @@ Building knowledge structure about [[EWW-MAP|E-Waste Workshop]] through systemat
 *Protocol Version: 1.0*
 *Project Version: Pre-MVP*
 *Status: `init`*
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/desktop/TODO/archives/archives]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

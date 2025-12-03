@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-25
+created: 2025-11-10
+version: 0.0.6
 title: YAML Frontmatter - README.md
 description: TODO - uzupełnij opis.
 ---
@@ -364,3 +367,9 @@ eww-frontmatter --validate README.md
 **Autor:** Nairecth  
 **Data:** 2025-11-09  
 **Wersja projektu:** 0.0.0.5
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

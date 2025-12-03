@@ -1,3 +1,12 @@
+---
+version: 0.0.1
+title: "audio-setup-README"
+created: 2025-11-24
+modified: 2025-11-24
+tags:
+  - auto-versioned
+---
+
 # Automatyczna konfiguracja audio GERC - SONY TV
 
 System automatycznej konfiguracji audio dla GERC, który przy każdym starcie systemu kieruje cały dźwięk na SONY TV (HDMI ARC → Soundbar).
@@ -159,3 +168,9 @@ systemctl --user restart eww-audio-sony-tv.service
 - ✅ Usługa: `~/.config/systemd/user/eww-audio-sony-tv.service`
 - ✅ Autostart: Włączony
 - ✅ Data instalacji: 2025-11-22
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,11 +1,12 @@
 ---
+version: 0.0.2
 tags:
   - #obsidian
   - #docs
   - #summary
   - #eww
-created: 2025-11-22T20:02:00Z
-modified: 2025-11-22T20:02:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "OBSIDIAN DOCS - Kompletne podsumowanie"
 owner: jakubc
@@ -236,3 +237,9 @@ cp -r .obsidian/snippets docs/infra/software/obsidian/.obsidian/
 **Plików:** 6473  
 **Rozmiar:** ~86 MB  
 **Graf:** ✅ Naniesiony (10 grup kolorów)
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

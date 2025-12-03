@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #house
   - #shared
   - #rules
   - #shopping
-created: 2025-11-22T16:56:44+00:00
-modified: 2025-11-22T16:56:44+00:00
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Shopping & Supplies — Rules"
 status: draft
@@ -19,3 +20,9 @@ owner: jakubc
 - Po dostawie aktualizujemy stany magazynowe i rachunki.
 
 > Aktualizuj listę zasad przy każdej zmianie procesu lub gdy pojawi się lepsza praktyka.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/house/area/shopping/shopping]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #mobile
   - #iphone
   - #folder_note
-created: 2025-11-22T19:02:00Z
-modified: 2025-11-22T19:02:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "mobile_devices — karta główna"
 status: dev
@@ -20,7 +21,7 @@ Folder zbiorczy dla urządzeń mobilnych wykorzystywanych jako awaryjne źródł
 > - 📱 **Urządzenia:** iPhone 13 Pro Max (martwy – spuchnięta bateria), iPhone 11 Pro Max (aktywny hotspot), iPhone Kariny (hotspot backup).
 > - 🌐 **Rola:** Dostarczanie internetu przez LTE → Wi-Fi hotspot → Lenovo Y700 → ASUS DSL-N16.
 > - ⚠️ **Problem:** Długotrwały tethering niszczy baterie i blokuje możliwość odbierania połączeń (telefony leżą za oknem).
-> - 📄 **Instrukcja:** bieżący runbook znajduje się w [[docs/infra/status_sieci]].
+> - 📄 **Instrukcja:** bieżący runbook znajduje się w [[docs/infra/hardware/network/status/wan-fallback-2025-11-23]].
 
 ## 🗂️ Indeks folderu
 - (plan) `iphone-13-pro-max.md`
@@ -36,3 +37,9 @@ Folder zbiorczy dla urządzeń mobilnych wykorzystywanych jako awaryjne źródł
 | Data | Opis |
 | --- | --- |
 | 2025-11-22 | Utworzono folder na bazie szablonu asus_z77. |
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/mobile/phones/phones]]
+- [[docs/docs]]
+- [[INDEX]]

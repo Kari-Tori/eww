@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #internet
   - #network
   - #debug
-created: 2025-11-22T22:15:00Z
-modified: 2025-11-22T22:15:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 priority: 10
 deadline: 2025-11-22T23:59:59Z
@@ -62,3 +63,9 @@ traceroute 8.8.8.8
 - [[TODO-2025-11-22]]
 - [[../../../docs/infra/areas/network/gateway]]
 - [[../../../docs/infra/areas/devices/asus-z77]]
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/TODO-2025-11-22]]
+- [[core/core]]
+- [[core/config]]

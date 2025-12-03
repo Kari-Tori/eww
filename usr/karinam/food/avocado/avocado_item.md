@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-29
 title: Awokado Hass – karta produktu
 description: Kompendium parametrów użytkowych i zdrowotnych dla odmiany Hass („Large Avocado” z Lidla) z głównego przewodnika.
 author: E-Waste Workshop
-created: 2025-11-17
+created: 2025-11-25
 updated: 2025-11-28
 tags:
   - food
@@ -61,3 +63,9 @@ plugins:
 [^lidl_avocado]: Open Food Facts, „Avocados – Lidl (kod 20229030)”, dane o odmianie Hass i masie netto 250 g, dostęp 17 listopada 2025 r., <https://world.openfoodfacts.org/product/20229030>.  
 [^usda]: USDA FoodData Central, „Avocados, raw, all commercial varieties (FDC ID 171705)”, profil żywieniowy na 100 g, aktualizacja 2023 r., <https://fdc.nal.usda.gov/fdc-app.html#/food-details/171705>.  
 [^harvard]: Harvard T.H. Chan School of Public Health, „Avocados”, 2022.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/avocado/avocado]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

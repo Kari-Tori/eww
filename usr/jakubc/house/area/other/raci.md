@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #house
   - #shared
   - #raci
   - #other
-created: 2025-11-22T16:56:44+00:00
-modified: 2025-11-22T16:56:44+00:00
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Other / Misc — RACI"
 status: draft
@@ -21,3 +22,9 @@ owner: jakubc
 | Monitorowanie zaległych tematów | karinam | jakubc | jakubc | usr/jakubc/TODO-home |
 
 > R = Responsible, A = Accountable, C = Consulted, I = Informed. Aktualizuj tabelę po każdej zmianie odpowiedzialności.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/house/area/other/other]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

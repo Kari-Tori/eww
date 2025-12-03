@@ -1,4 +1,6 @@
 ---
+version: 0.0.1
+modified: 2025-11-25
 title: Porównanie narzędzi AI do kodowania
 category: AI Tools
 type: Comparison
@@ -422,3 +424,9 @@ Powody:
 6. ✅ Kontrola nad kodem (uczę się)
 
 **Plan:** Start z Continue, później eksperyment z Aider/OpenHands.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/study/AI/AI]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

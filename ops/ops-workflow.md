@@ -1,12 +1,13 @@
 ---
+version: 0.0.6
 tags:
   - ops
   - workflow
   - diagram
   - mermaid
   - eww
-created: 2025-11-28T20:30:00Z
-modified: 2025-11-28T21:15:00Z
+created: 2025-11-28
+modified: 2025-11-28
 author: karinam
 title: "OPS Workflow - Diagram"
 owner: karinam
@@ -148,3 +149,9 @@ flowchart TD
     style VINTED fill:#43A047,stroke:#388E3C,stroke-width:3px,color:#fff
     style ETSY fill:#D81B60,stroke:#C2185B,stroke-width:3px,color:#fff
 ```
+
+## 🔗 Backlinks
+
+- [[ops/ops]]
+- [[ops/ops-workflow]]
+- [[EWW-MAP]]

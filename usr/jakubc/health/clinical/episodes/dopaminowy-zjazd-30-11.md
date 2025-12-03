@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 title: Dopaminowy zjazd po odstawieniu używek 30.11
 description: Hipoteza dopaminowego zjazdu po odstawieniu używek; reakcja na L-tyrozynę.
 tags:
@@ -7,8 +8,8 @@ tags:
   - #objawy
   - #supplements
   - #drugs
-created: 2025-11-30
-modified: 2025-11-30
+created: 2025-12-01
+modified: 2025-12-01
 author: jakubc
 ---
 
@@ -53,3 +54,9 @@ author: jakubc
 - Monitoruj sen, apetyt i nastrój w kolejnych dniach.
 - Rozważyć wsparcie diety (białko, B6), nawadnianie, lekką aktywność.
 - Dopisać listę używek i daty ostatniego użycia w `drugs/` lub `substances/`.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/health/clinical/episodes/episodes]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

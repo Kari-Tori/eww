@@ -1,3 +1,12 @@
+---
+version: 0.0.5
+title: "ROOT-STRUCTURE"
+created: 2025-11-21
+modified: 2025-11-29
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T15:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -233,3 +242,9 @@ mv .*.yml config/          # Config files
 **Stan:** ✅ Uporządkowany  
 **Plików w root:** 10  
 **Folderów w root:** ~28
+
+## 🔗 Backlinks
+
+- [[docs/governance/governance]]
+- [[docs/docs]]
+- [[INDEX]]

@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-29
 title: AvoFloat Dock
 description: Wielorazowy uchwyt 3D do kiełkowania pestek awokado Hass (Lidl „Large Avocado”) – specyfikacja, koszty i potencjał sprzedaży w UK.
 author: E-Waste Workshop
-created: 2025-11-17
+created: 2025-11-25
 updated: 2025-11-28
 tags:
   - product
@@ -117,3 +119,9 @@ cssclass: avocado-note
 - [[avocado/avocado_dom.md|Awokado Hass w mieszkaniu]]
 - [[avocado/avocado_hass.md|Awokado Hass – profil odmiany]]
 - [[avocado/avocado_item.md|Awokado – karta produktu]]
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/avocado/avocado]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

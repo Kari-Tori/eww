@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #accessories
   - #gerc
   - #peripherals
   - #folder_note
-created: 2025-11-22T18:36:00Z
-modified: 2025-11-22T18:36:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "GERC - Akcesoria i peryferia"
 parent_device: gerc
@@ -83,3 +84,9 @@ Onboard audio → Słuchawki (alternatywne)
 | Data | Zmiana |
 | --- | --- |
 | 2025-11-22 | Utworzono strukturę accessories dla GERC |
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/gerc/accessories/accessories]]
+- [[docs/docs]]
+- [[INDEX]]

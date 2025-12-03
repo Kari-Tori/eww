@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #odoo
   - #ebay
   - #integration
-created: 2025-11-21T12:00:00Z
-modified: 2025-11-22T19:35:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "Integracja Odoo ↔ eBay"
 status: in-progress
@@ -26,3 +27,9 @@ owner: jakubc
 
 ## 🔗 Powiązania
 - [[goals]] – cel nr 2 (eBay connector).
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-21/odoo-ebay-connector/odoo-ebay-connector]]
+- [[core/core]]
+- [[core/config]]

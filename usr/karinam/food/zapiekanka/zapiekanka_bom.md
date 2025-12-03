@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: Zapiekanka serowa – BOM
 description: Tabela składników i zamienników do zapiekanki makaronowej z serem na Fixie WINIARY (wersja 3×saszetka).
 lang: pl
-created: "2025-11-17"
+created: 2025-11-25
 updated: "2025-11-17"
 tags:
   - food
@@ -48,3 +50,9 @@ W kalkulacji uwzględniono ceny z paragonu Polski Sklep Polmar (Seven Sisters Rd
 - Ser Morsło Kosów ma 45 % tłuszczu w suchej masie; jeśli używasz innego sera, patrz na zawartość tłuszczu – zbyt twarde sery (np. parmezan) nie dadzą kremowej tekstury.  
 - Podwawelska JBB ma ok. 270 kcal/100 g, jeśli bierzesz inną kiełbasę, zaktualizuj makro.
 - Podane ceny to średnie z polskich sklepów w UK (Londyn/Manchester) z listopada 2025 r.; jeśli kupujesz w innych sieciach, zanotuj własne kwoty w arkuszu kosztów.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/zapiekanka/zapiekanka]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

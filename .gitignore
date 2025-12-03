@@ -75,3 +75,4 @@ dev/Projects/obsidian/plugins/
 # MakeMD thumbnails
 **/.makemd/thumbnails/
 **/.makemd/*.mdc
+docs/infra/site/

@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 title: Operacja ręki po złamaniu (rower)
 description: Złamanie ręki po wypadku na rowerze – opis operacji i rehabilitacja.
 tags:
@@ -6,8 +7,8 @@ tags:
   - #health
   - #zabieg
   - #chirurgia
-created: 2025-11-28T21:52:15Z
-modified: 2025-11-28T21:52:15Z
+created: 2025-11-29
+modified: 2025-11-29
 author: karinam
 ---
 
@@ -26,3 +27,9 @@ author: karinam
 
 ## Notatki
 - ___
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/clinical/procedures/procedures]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

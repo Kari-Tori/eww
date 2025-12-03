@@ -1,4 +1,5 @@
 ---
+version: 0.0.1
 tags:
   - #GERC
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-22T00:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "ASUS X99-PRO — karta płyty głównej"
 
@@ -97,3 +98,9 @@ owner: jakubc
 - [ ] Dodać szczegóły konfiguracji RAID (jeśli jest) i boot order.
 - [ ] Zanotować sterowniki chipsetu i wersję Intel ME firmware.
 - [ ] Sprawdzić profile wentylatorów w BIOS (Fan Expert 3).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

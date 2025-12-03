@@ -1,4 +1,7 @@
 ---
+modified: 2025-11-28
+created: 2025-11-21
+version: 0.0.4
 tags:
   - #automation
   - #eww
@@ -85,3 +88,9 @@ unzip -o /tmp/juggl.zip -d /home/jakubc/git/eww/.obsidian/plugins/juggl/
 
 ---
 **Backlinks:** [[obsidian]], [[waypoint]], [[troubleshooting]]
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

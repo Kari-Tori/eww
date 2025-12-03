@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -8,8 +9,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-23T10:28:07Z
-modified: 2025-11-23T10:28:07Z
+created: 2025-11-21
+modified: 2025-12-01
 author: jakubc
 title: "📁 INDEX — Główny indeks repozytorium E-Waste Workshop"
 owner: jakubc

@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #secondbrain
   - #templates
-created: 2025-11-21T09:00:00Z
-modified: 2025-11-21T09:00:00Z
+created: 2025-11-10
+modified: 2025-12-01
 author: jakubc
 title: "## 📖 O projekcie"
 

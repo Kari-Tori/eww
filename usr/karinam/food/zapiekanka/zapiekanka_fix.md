@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: WINIARY „Pomysł na… Zapiekanka makaronowa z serem” – karta produktu
 description: Notatka o fixie używanym w zapiekance serowej (3 saszetki na brytfannę 35×25 cm).
 lang: pl
-created: "2025-11-17"
+created: 2025-11-25
 updated: "2025-11-17"
 tags:
   - food
@@ -72,3 +74,9 @@ Jeśli chcesz uniknąć wzmacniaczy smaku i mieć kontrolę nad solą, przejdź 
 ## 🔗 Powiązania
 - [BOM zapiekanki](zapiekanka_bom.md) – patrz pierwsza pozycja listy.  
 - [Przepis główny](zapiekanka_recipe.md) – opis workflow w stylu Kariny.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/zapiekanka/zapiekanka]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

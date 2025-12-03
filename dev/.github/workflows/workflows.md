@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #folder_note
   - #automation
@@ -8,8 +9,8 @@ tags:
   - #linux
   - #secondbrain
   - #workflow
-created: 
-modified: 
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "📁 workflows"
 
@@ -39,3 +40,9 @@ Folder zawierający zasoby związane z: workflows
 ## 📁 Podfoldery
 
 *Brak podfolderów.*
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[dev]]
+- [[README]]

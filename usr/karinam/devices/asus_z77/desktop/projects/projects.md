@@ -1,53 +1,20 @@
 ---
+version: 0.0.3
+created: 2025-11-21
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #automation
-  - #development
-  - #eww
-  - #karinam
-  - #knowledge
-  - #linux
-  - #secondbrain
-created: 2025-11-21T14:19:10Z
-modified: 2025-11-21T14:19:10Z
-author: jakubc
-title: "🚀 Projects - Karinam"
-
-
-
-
-
-
-owner: karinam
+title: "projects"
 ---
 
-# 🚀 Projects - Karinam
+# projects
 
-> **Aktywne projekty i inicjatywy**
+Notatka folderu dla `usr/karinam/devices/asus_z77/desktop/projects`
 
-## 📋 Cel folderu
-Zarządzanie projektami osobistymi i zawodowymi.
+## 📄 Pliki w tym folderze
 
-## 📄 Projekty
+*Brak plików markdown w tym folderze.*
 
-*Folder obecnie nie zawiera plików.*
+## 🔗 Backlinki
 
-## 🔗 Related
-- [[usr/karinam/karinam|🩷 Karinam]]
-
-## 📑 Index plików
-
-*Brak plików markdown.*
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[desktop]]

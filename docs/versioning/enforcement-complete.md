@@ -77,7 +77,7 @@ eww/
   - Podbija `version` (patch +1)
   - Aktualizuje `modified` (timestamp ISO 8601)
   - Używa semver CLI gdy dostępne
-  
+
 - **Pre-push**: Waliduje spójność przed push
   - Uruchamia `make check-versions`
   - Blokuje push jeśli wersje są niespójne
@@ -243,7 +243,7 @@ make rebuild-history-dry  # Podgląd bez zmian
 1. **Obsidian Git** plugin
    - Auto-backup co 10 min
    - Auto-pull przy starcie
-   
+
 2. **Templater** plugin
    - Template z frontmatter version
 
@@ -367,7 +367,7 @@ To utworzy tag Git `v0.1.0` i zaktualizuje `VERSION`.
 
 ---
 
-**Status:** ✅ PRODUCTION READY - pełne wdrożenie i enforcement  
-**Data wdrożenia:** 2025-11-28  
-**Wersja systemu:** 0.0.6  
+**Status:** ✅ PRODUCTION READY - pełne wdrożenie i enforcement
+**Data wdrożenia:** 2025-11-28
+**Wersja systemu:** 0.0.6
 **Maintainer:** [@Nairecth](https://github.com/Nairecth), [@karinam](https://github.com/karinam)

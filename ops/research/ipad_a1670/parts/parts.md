@@ -1,31 +1,21 @@
 ---
+version: 0.0.6
+created: 2025-11-28
+modified: 2025-11-28
 tags:
   - #folder_note
-  - #research
-  - #device/ipad/a1670
-  - #parts
-  - #eww
-created: 2025-11-27T18:05:00Z
-modified: 2025-11-27T18:05:00Z
-author: karinam
-title: "iPad A1670 – części"
-owner: karinam
-folder_color: 8421504
-folder_stats:
-  md_files: 2
-  total_files: 2
-  subdirs: 0
+title: "parts"
 ---
 
-# 🧩 iPad A1670 – części
+# parts
 
-> Zbiór kart części dla iPad Pro 12.9" (2nd gen) A1670.
+Notatka folderu dla `ops/research/ipad_a1670/parts`
 
-## 📑 Lista kart
+## 📄 Pliki w tym folderze
 
-- [[821-01065-xx|Moduł gniazda ładowania (Lightning)]]
+- [[821-01065-xx]]
 
-## 🔗 Powiązania
+## 🔗 Backlinki
 
-- [[research/ipad_a1670/ipad_a1670|Profil modelu]]
-- [[repair/intake/records/ipad-2025-11-27/ipad-2025-11-27|Przypadek serwisowy]]
+- [[ipad_a1670]]
+- [[821-01065-xx]]

@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - #infrastructure
   - #workflow
   - #todo
-created: 2025-11-22T19:25:00Z
-modified: 2025-11-22T19:25:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "TODO structure — policy"
 owner: jakubc
@@ -45,3 +46,9 @@ usr/jakubc/
 ## Status
 - [x] wdrożono dla `usr/jakubc/`
 - [ ] wdrożyć dla innych folder notes (asus_z77, gerc, …)
+
+## 🔗 Backlinks
+
+- [[core/workflow/workflow]]
+- [[core/core]]
+- [[core/config]]

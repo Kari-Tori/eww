@@ -1,69 +1,20 @@
 ---
+version: 0.0.5
+created: 2025-11-21
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #automation
-  - #books
-  - #development
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T23:00:00Z
-author: jakubc
-title: "📁 tools"
-
-
-
-
-
-
-owner: jakubc
+title: "tools"
 ---
 
-# 📁 tools
+# tools
 
-> **Folder Note** - centralny index dla katalogu `tools/`
+Notatka folderu dla `dev/Playbooks/tools`
 
-## 📋 Cel folderu
+## 📄 Pliki w tym folderze
 
-Katalog `tools` zawiera 0 plików i 0 podfolderów.
+*Brak plików markdown w tym folderze.*
 
-**Przeznaczenie:**
-- Projekty deweloperskie i playbooki
+## 🔗 Backlinki
 
-
-## 📄 Pliki w folderze
-
-*Brak plików MD w tym folderze.*
-
-## 📂 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Nawigacja
-
-- ⬆️ [[Playbooks/Playbooks|Playbooks]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
-
-
-**Lokalizacja:** `dev/Playbooks/tools`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-*Brak plików markdown.*
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[Playbooks]]

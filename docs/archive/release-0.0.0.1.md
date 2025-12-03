@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "release-0.0.0.1"
+created: 2025-11-08
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-08T20:52:07Z
 modified: 2025-11-24T22:34:18Z
 author: Jakub Celmer

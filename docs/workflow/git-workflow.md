@@ -1,3 +1,12 @@
+---
+version: 0.0.2
+title: "git-workflow"
+created: 2025-11-26
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-26T13:46:18Z
 modified: 2025-11-26T13:46:18Z
 author: karinam
@@ -203,3 +212,9 @@ git merge karina/main
 - [CONTRIBUTING.md](../../CONTRIBUTING.md)
 - [AGENTS.md](../../AGENTS.md)
 - [Conventional Commits](https://www.conventionalcommits.org/)
+
+## 🔗 Backlinks
+
+- [[docs/workflow/workflow]]
+- [[docs/docs]]
+- [[INDEX]]

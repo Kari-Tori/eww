@@ -1,18 +1,20 @@
 ---
-title: "iPad A1670 – załączniki"
-created: 2025-11-27T17:30:19Z
-modified: 2025-11-27T17:30:19Z
-author: karinam
+version: 0.0.6
+created: 2025-11-28
+modified: 2025-11-28
 tags:
-  - #intake
-  - #repair
-  - #device/ipad/a1670
-  - #attachments
+  - #folder_note
+title: "asset"
 ---
 
-# iPad A1670 – załączniki
+# asset
 
-- TODO: dodać zdjęcia (stan wizualny, złącze ładowania, akcesoria).
-- TODO: dodać manuale/rysunki jeśli potrzebne do naprawy złącza.
+Notatka folderu dla `ops/repair/intake/records/ipad-2025-11-27/asset`
 
-Powrót: [[../ipad-2025-11-27|karta przyjęcia]].
+## 📄 Pliki w tym folderze
+
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[ipad-2025-11-27]]

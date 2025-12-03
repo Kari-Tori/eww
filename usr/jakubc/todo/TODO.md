@@ -1,10 +1,11 @@
 ---
+version: 0.0.4
 tags:
   - #todo
   - #eww
   - #jakubc
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-22T00:00:00Z
+created: 2025-11-21
+modified: 2025-11-29
 author: jakubc
 title: "Skonsolidowana lista TODO"
 status: active
@@ -31,7 +32,7 @@ sources:
 - **Repo / struktura**
   - [ ] Posprzątać pliki w repo (diagnostyka + naprawa niespójności).
   - [ ] Dodać warstwę `business/` z README i przenieść materiały biznesowe.
-  - [ ] Przygotować migrację wg `docs/infra/RESTRUCTURE-MAP.md` (dev→development, usr→users) + aktualizacje indeksów.
+  - [ ] Przygotować migrację wg `docs/governance/RESTRUCTURE-MAP.md` (dev→development, usr→users) + aktualizacje indeksów.
 - **Secondbrain / AppFlowy**
   - [ ] Ujednolicić szablony MD i linki do Odoo 📅 2025-10-31.
   - [ ] Utworzyć przestrzeń „Secondbrain-Pilot”.
@@ -220,3 +221,9 @@ sources:
 ## ✅ Zrobione (referencja)
 - [x] Zainstalować AppFlowy na dedykowanej maszynie/VM.
 - [x] Poranne checklisty z `todo.md` (śniadanko, płatki, pościelka).
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/todo/todo]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

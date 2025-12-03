@@ -1,4 +1,5 @@
 ---
+version: 0.0.6
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #lego
   - #starwars
   - #secondbrain
-created: 2025-11-29T12:00:00Z
-modified: 2025-11-29T12:25:00Z
+created: 2025-12-01
+modified: 2025-12-01
 author: jakubc
 title: "🛸 Gozanti – minifig scale (przegląd)"
 owner: jakubc
@@ -48,3 +49,9 @@ owner: jakubc
 - [ ] Wrzucić szacowany koszt (instrukcje + nowe/używane części UK).
 - [ ] Rozpisać checklistę parts-substitution (wedge, zawiasy, liftarmy).
 - [ ] Dodać shortlistę sklepów BrickLink UK z niskimi stawkami wysyłki.
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]
+- [[INDEX]]

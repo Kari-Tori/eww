@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #phones
   - #stacjonarne
   - #landline
-created: 2025-11-22T22:15:00Z
-modified: 2025-11-22T22:15:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 priority: 3
 deadline: 2025-11-22T23:59:59Z
@@ -30,3 +31,9 @@ Zmiana nazwy z "stacjonarne" na "phones.md".
 
 - [[TODO-2025-11-22]]
 - [[../../../docs/infra/areas/devices/]]
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/TODO-daily/TODO-2025-11-22/TODO-2025-11-22]]
+- [[core/core]]
+- [[core/config]]

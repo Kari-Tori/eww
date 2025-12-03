@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #Asus_Z77
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-21T16:00:00Z
-modified: 2025-11-21T16:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "Moduł Wi‑Fi GO! / Bluetooth"
 
@@ -37,3 +38,9 @@ owner: jakubc
 ## Zadania
 - [ ] @karinam potwierdzić, czy moduł jest obecnie zamontowany i czy działa (Wi-Fi/BT).
 - [ ] @karinam spisać wersję sterowników i ewentualne ID urządzenia (lsusb/lspci).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/asus_z77/asus_z77]]
+- [[docs/docs]]
+- [[INDEX]]

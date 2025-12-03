@@ -1,10 +1,12 @@
---- 
+---
+version: 0.0.6
+modified: 2025-11-25
 title: Szablon dzienny — Kanban (mockup)
 date: "{{date}}"
 template: daily-kanban
 kanban-plugin: board
 author: "karinam <kmirowska7@gmail.com>"
-created: "2025-11-18T22:23:05+00:00"
+created: 2025-11-25
 last_edit: "2025-11-18T22:27:56+00:00"
 last_editor: "karinam <kmirowska7@gmail.com>"
 description: "Szablon dzienny Kanban dla Obsidian (wtyczka Obsidian Kanban) — metadane przeniesione z nagłówka pliku"
@@ -56,3 +58,9 @@ obsidian_plugins:
 ```
 
 > Sekcja dotycząca rekomendowanych wtyczek i przykładów konfiguracji została przeniesiona do dokumentacji projektu: /docs/software/obsidian/plugins/plugins.md
+
+## 🔗 Backlinks
+
+- [[usr/karinam/journal/template/template]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

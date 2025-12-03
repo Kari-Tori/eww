@@ -1,72 +1,37 @@
-created: 2025-11-21T20:00:00Z
-modified: 2025-11-24T22:34:18Z
-author: jakubc
 ---
+version: 0.0.6
+created: 2025-11-21
+modified: 2025-11-28
 tags:
   - #folder_note
-  - #automation
-  - #development
-  - #docs
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-title: "📁 guide"
-
-
-
-
-
-
-owner: jakubc
-created: 2025-11-21T20:00:00Z
-modified: 2025-11-24T22:34:18Z
-author: jakubc
+title: "guide"
 ---
 
-# 📁 guide
+# guide
 
-> **Folder Note** - centralny index dla katalogu `guide/`
+Notatka folderu dla `docs/infra/guide`
 
-## 📋 Cel folderu
+## 📄 Pliki w tym folderze
 
-Katalog `guide` zawiera 1 plików i 0 podfolderów.
+- [[FOLDER-COLOR-SYSTEM]]
+- [[FOLDER-NOTE-SYSTEM]]
+- [[GITHUB-TOOLS]]
+- [[GITHUB-TOOLS-CHEATSHEET]]
+- [[INDEXING-GUIDE]]
+- [[intro]]
+- [[Makefile]]
+- [[neovim-guide]]
+- [[readme-checklist]]
 
-**Przeznaczenie:**
-- Dokumentacja projektowa i techniczna
+## 🔗 Backlinki
 
-
-## 📄 Pliki w folderze
-
-- [[intro]] - Wprowadzenie
-
-## 📂 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Nawigacja
-
-- ⬆️ [[infra/infra|docs/infra]] - Folder nadrzędny
-- 🏠 [[infra/infra.md|Infra README]] - Główny index
-
-
-**Lokalizacja:** `docs/infra/guide`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-- [intro](intro.md)
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[infra]]
+- [[FOLDER-COLOR-SYSTEM]]
+- [[FOLDER-NOTE-SYSTEM]]
+- [[GITHUB-TOOLS]]
+- [[GITHUB-TOOLS-CHEATSHEET]]
+- [[INDEXING-GUIDE]]
+- [[intro]]
+- [[Makefile]]
+- [[neovim-guide]]
+- [[readme-checklist]]

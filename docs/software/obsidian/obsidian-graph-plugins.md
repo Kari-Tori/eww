@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #linux
   - #obsidian
   - #secondbrain
-created: 2025-11-21T14:00:00Z
-modified: 2025-11-21T14:00:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "📊 Obsidian Graph Plugins - Zestaw Profesjonalny"
 
@@ -188,13 +189,8 @@ echo "🔄 Przeładuj Obsidiana i włącz w Community Plugins"
 - [[Obsidian Plugins Management]]
 - [[Graph Visualization Best Practices]]
 
-## 🔗 Backlinki
+## 🔗 Backlinks
 
-```dataview
-LIST FROM [[]] AND !"Templates"
-```
-
-
-**Aktualizacja:** 2025-11-21  
-**Autor:** jakubc  
-**Status:** ✅ Gotowe do użycia
+- [[docs/software/obsidian/obsidian]]
+- [[docs/docs]]
+- [[INDEX]]

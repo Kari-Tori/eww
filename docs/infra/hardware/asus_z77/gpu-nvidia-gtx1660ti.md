@@ -1,4 +1,6 @@
 ---
+version: 0.0.4
+modified: 2025-11-25
 title: asus_z77 — GPU
 component: gpu
 icon: 🎮
@@ -6,7 +8,7 @@ model: NVIDIA GeForce GTX 1660 Ti (Windsurf)
 specs: TU116 · 6 GB GDDR6 · sterownik 570.195.03
 value: Wyjścia: 3 × monitor (1080p/1440p) · sprzedaż GTX 1030 ukończona
 author: jakubc
-created: 2025-11-19
+created: 2025-11-21
 updated: 2025-11-19
 ---
 
@@ -23,3 +25,9 @@ updated: 2025-11-19
 ## Zadania
 - [x] Uzupełnić wersję sterownika i systemu operacyjnego.
 - [ ] @karinam zanotować temperatury graniczne oraz profil wentylatorów.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/asus_z77/asus_z77]]
+- [[docs/docs]]
+- [[INDEX]]

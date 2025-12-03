@@ -1,3 +1,12 @@
+---
+version: 0.0.5
+title: "readme-checklist"
+created: 2025-11-08
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-08T21:03:59Z
 modified: 2025-11-24T22:34:18Z
 author: Jakub Celmer
@@ -57,3 +66,9 @@ Jeśli Twój Obsidian nie obsługuje `:has()`, użyj tagu i wyszukaj `tag:#archi
 
 
 Zaznacz elementy checklisty w Obsidianie, gdy będą potwierdzone.
+
+## 🔗 Backlinks
+
+- [[docs/infra/guide/guide]]
+- [[docs/docs]]
+- [[INDEX]]

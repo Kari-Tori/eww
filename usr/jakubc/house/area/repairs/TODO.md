@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #todo
   - #house
   - #shared
   - #repairs
-created: 2025-11-22T16:56:44+00:00
-modified: 2025-11-22T16:56:44+00:00
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "TODO: Repairs"
 status: active
@@ -26,3 +27,9 @@ Obsługa awarii domowych, diagnoza i koordynacja napraw sprzętów lub infrastru
 - [[core/house/area/repairs/functions]]
 - [[core/house/area/repairs/raci]]
 - [[core/house/house_dashboard]]
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/house/area/repairs/repairs]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

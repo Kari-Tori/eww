@@ -1,12 +1,13 @@
 ---
+version: 0.0.1
 title: Profil zdrowia Karinam
 description: Baza szybkich informacji o zdrowiu do uzupełnienia (bez fantazji).
 tags:
   - #karinam
   - #health
   - #profil
-created: 2025-11-28T21:49:07Z
-modified: 2025-11-29T00:18:29Z
+created: 2025-11-29
+modified: 2025-11-29
 author: karinam
 ---
 
@@ -57,3 +58,9 @@ author: karinam
 - [ ] Umówić/konsultacja z lekarzem: ___
 - [ ] Badania/laby do zrobienia: ___
 - [ ] Krótkie priorytety na zdrowie (1–3): ___
+
+## 🔗 Backlinks
+
+- [[usr/karinam/health/clinical/core/core]]
+- [[core/core]]
+- [[core/config]]

@@ -1,3 +1,12 @@
+---
+version: 0.0.3
+title: "graph-view-plan"
+created: 2025-11-23
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-23T23:09:54Z
 modified: 2025-11-24T22:31:33Z
 author: jakubc
@@ -1073,3 +1082,9 @@ author: jakubc
 - [[graph.md]] - Definicja 14 kolorów
 - [[installation-guide]] - Base setup
 - [[core/workflow/auto-commit-workflow]] - Auto-commit strategy
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

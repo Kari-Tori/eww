@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "ENDPOINTS"
+created: 2025-11-06
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-06T00:18:54Z
 modified: 2025-11-09T17:31:05Z
 author: JakubC
@@ -39,3 +48,9 @@ systemctl --user restart mkdocs-serve
 systemctl --user restart mkdocs-prod
 journalctl --user -u mkdocs-serve -f
 journalctl --user -u mkdocs-prod -f
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

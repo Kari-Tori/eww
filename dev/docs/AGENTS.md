@@ -1,4 +1,5 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T09:00:00Z
-modified: 2025-11-21T09:00:00Z
+created: 2025-11-21
+modified: 2025-11-24
 author: jakubc
 title: "AGENTS.md - Kontekst dla AI Coding Agents"
 
@@ -160,3 +161,9 @@ Umożliwić szybką konfigurację środowiska deweloperskiego na świeżej insta
 - [ ] Dokumentacja MkDocs
 - [ ] Plugin system dla rozszerzeń
 - [ ] Support dla innych dystrybucji
+
+## 🔗 Backlinks
+
+- [[dev/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

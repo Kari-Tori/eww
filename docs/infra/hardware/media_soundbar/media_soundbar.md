@@ -1,25 +1,20 @@
 ---
+version: 0.0.1
+created: 2025-11-24
+modified: 2025-11-24
 tags:
-  - #media
-  - #audio
-  - #soundbar
-created: 2025-11-22T19:06:00Z
-modified: 2025-11-22T19:06:00Z
-author: jakubc
-title: "media_soundbar — TODO"
-status: planowane
-owner: jakubc
+  - #folder_note
+title: "media_soundbar"
 ---
 
-# media_soundbar — TODO
+# media_soundbar
 
-Soundbar do integracji z amplitunerem i TV (status planowane).
+Notatka folderu dla `docs/infra/hardware/media_soundbar`
 
-## ℹ️ Plan
-- Połączenie przez HDMI ARC lub optyczne SPDIF.
-- Sterowanie z GERC (PulseAudio) i telewizora.
+## 📄 Pliki w tym folderze
 
-## TODO (@jakubc)
-- [ ] Zidentyfikować model soundbara i dodać specyfikację.
-- [ ] Przygotować procedurę parowania z amplitunerem.
-- [ ] Dodać checki do `docs/infra/hardware/workstations/gerc/audio-setup-README.md`.
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[hardware]]

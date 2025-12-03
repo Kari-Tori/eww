@@ -1,4 +1,5 @@
 ---
+version: 0.0.7
 tags:
   - #Asus_Z77
   - #automation
@@ -7,8 +8,8 @@ tags:
   - #infrastructure
   - #linux
   - #star-wars
-created: 2025-11-21T10:00:00Z
-modified: 2025-11-21T16:00:00Z
+created: 2025-11-05
+modified: 2025-11-24
 author: jakubc
 title: "Zasilacz — asus_z77"
 
@@ -34,3 +35,9 @@ owner: jakubc
 ## Zadania
 - [ ] @karinam dodać numer seryjny i datę zakupu.
 - [ ] @karinam opisać testy PSU (multimetr, miernik obciążenia).
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/asus_z77/asus_z77]]
+- [[docs/docs]]
+- [[INDEX]]

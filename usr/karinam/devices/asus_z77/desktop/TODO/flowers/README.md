@@ -1,11 +1,12 @@
 ---
+version: 0.0.1
 tags:
   - #flowers
   - #karinam
   - #todo
   - #inventory
-created: 2025-11-22T21:00:00Z
-modified: 2025-11-22T21:00:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: karinam
 title: "Flowers - Projekt inwentaryzacji kwiatów"
 owner: karinam
@@ -130,3 +131,9 @@ Dla każdego kwiatu (3 obowiązkowe + 2 opcjonalne):
 **Deadline:** 2025-11-22
 **Priorytet:** 🟡 Średni
 **Status:** 🟡 W trakcie
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/desktop/TODO/flowers/flowers]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

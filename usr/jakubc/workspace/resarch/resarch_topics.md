@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
+created: 2025-11-21
+modified: 2025-11-25
 author: jakubc
 title: "Lista badań hybrydowego workspace"
 
@@ -94,3 +95,9 @@ Ten plik zastępuje dawne `README.md` w katalogu `resarch/`. Służy jako żyją
 - [[usr/jakubc/jakubc|jakubc]]
 
 **Auto-linked:** 2025-11-21
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/workspace/resarch/resarch]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

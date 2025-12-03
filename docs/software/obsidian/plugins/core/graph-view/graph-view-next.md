@@ -1,4 +1,5 @@
 ---
+version: 0.0.2
 tags:
   - #obsidian
   - #graph
@@ -6,8 +7,8 @@ tags:
   - #customization
   - #future
   - #community
-created: 2025-11-23T18:00:00Z
-modified: 2025-11-23T18:00:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Obsidian Graph View - Zaawansowane możliwości i przyszłość"
 owner: jakubc
@@ -885,3 +886,9 @@ Jak mierzyć "dobry" graf:
 - Discord: https://discord.gg/obsidianmd
 - Forum: https://forum.obsidian.md/c/graph-view
 - GitHub: https://github.com/obsidianmd/obsidian-releases
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

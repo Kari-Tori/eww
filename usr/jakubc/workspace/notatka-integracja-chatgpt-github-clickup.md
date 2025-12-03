@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #eww
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
+created: 2025-11-21
+modified: 2025-11-25
 author: jakubc
 title: "Krótka notatka – jak spiąć ChatGPT Business, GitHub, Copilot i ClickUp"
 
@@ -76,3 +77,9 @@ owner: jakubc
 - [[docs/INDEX|INDEX]]
 
 **Auto-linked:** 2025-11-21
+
+## 🔗 Backlinks
+
+- [[usr/jakubc/workspace/workspace]]
+- [[usr/jakubc/jakubc]]
+- [[EWW-MAP]]

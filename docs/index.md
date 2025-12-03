@@ -1,3 +1,12 @@
+---
+version: 0.0.6
+title: "index"
+created: 2025-11-05
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-05T22:54:26Z
 modified: 2025-11-24T22:31:33Z
 author: JakubC
@@ -20,6 +29,12 @@ Cała aktualna dokumentacja mieszka teraz w katalogu [[infra/infra|docs/infra]].
 **Szybkie linki**
 - [[infra/infra]] – główny folder note infrastruktury
 - [[infra/infra.md|Infra README]] – instrukcje pracy z katalogiem
-- [[infra/RESTRUCTURE-MAP]] – mapa reorganizacji repozytorium
+- [[governance/RESTRUCTURE-MAP]] – mapa reorganizacji repozytorium
 
 Historia poprzedniej wersji `docs/index.md` dostępna jest w `docs/infra/legacy/index.md`.
+
+## 🔗 Backlinks
+
+- [[docs/docs]]
+- [[INDEX]]
+- [[EWW-MAP]]

@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: Awokado Hass w mieszkaniu
 description: Instrukcja domowej uprawy awokado Hass z pestki – pipeline, pielęgnacja, fakty i kalkulacje sprzedażowe.
 author: E-Waste Workshop
-created: 2025-11-17
+created: 2025-11-25
 updated: 2025-11-17
 plugins:
   - obsidian-progress-bar
@@ -99,3 +101,9 @@ Ta notatka rozwija temat domowego „szkółkarstwa” z pestek Hass. Traktujemy
 
 [^mg213]: J.H. Crane, C.F. Balerdi, I. Maguire, „Avocado Growing in the Florida Home Landscape”, University of Florida IFAS Extension, aktualizacja 29 maja 2025 r., <https://edis.ifas.ufl.edu/publication/MG213>.
 [^hasswiki]: „Hass avocado”, *Wikipedia* (en), wersja z 24 listopada 2025 r., <https://en.wikipedia.org/wiki/Hass_avocado>.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/avocado/avocado]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

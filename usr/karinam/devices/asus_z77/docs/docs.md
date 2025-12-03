@@ -1,35 +1,20 @@
 ---
+version: 0.0.2
+created: 2025-11-24
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #docs
-folder_color: 8421504
-folder_stats:
-  md_files: 0
-  total_files: 0
-  subdirs: 0
-created: 2025-11-23T01:33:14+00:00
-modified: 2025-11-23T01:33:14+00:00
-author: jakubc
-title: "Docs - Folder Note"
-owner: karinam
+title: "docs"
 ---
 
-# Docs
+# docs
 
-> Automatycznie wygenerowana notatka folderu
+Notatka folderu dla `usr/karinam/devices/asus_z77/docs`
 
-## 📊 Statystyki
+## 📄 Pliki w tym folderze
 
-- **Pliki Markdown**: 0
-- **Wszystkie pliki**: 0
-- **Podfoldery**: 0
-- **Kolor**: RGB 8421504
+*Brak plików markdown w tym folderze.*
 
-## 📝 Zawartość
+## 🔗 Backlinki
 
-<!-- Auto-generated content -->
-
----
-
-**Auto-generated** by `scripts/create-folder-notes.sh`  
-**Last updated**: 2025-11-23T01:33:14+00:00
+- [[asus_z77]]

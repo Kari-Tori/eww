@@ -1,11 +1,12 @@
 ---
+version: 0.0.2
 tags:
   - #obsidian
   - #resources
   - #docs
   - #community
-created: 2025-11-22T19:55:00Z
-modified: 2025-11-22T19:55:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Zasoby Obsidian - Community & Developer"
 owner: jakubc
@@ -229,3 +230,9 @@ echo "✅ Zaktualizowano wszystkie zasoby"
 **Data pobrania:** 2025-11-22  
 **Źródła:** GitHub (obsidianmd, obsidian-community)  
 **Wielkość:** ~95 MB (~4150 plików)
+
+## 🔗 Backlinks
+
+- [[docs/software/obsidian/resources/resources]]
+- [[docs/docs]]
+- [[INDEX]]

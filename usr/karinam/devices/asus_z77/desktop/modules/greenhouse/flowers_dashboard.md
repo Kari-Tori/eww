@@ -1,10 +1,11 @@
 ---
+version: 0.0.1
 tags:
   - "#greenhouse"
   - "#kwiaty"
   - "#dashboard"
-created: 2025-11-22T22:47:00Z
-modified: 2025-11-22T22:47:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: karinam
 owner: karinam
 ---
@@ -115,3 +116,9 @@ LIMIT 5
 ---
 
 **Ostatnia aktualizacja**: 2025-11-22
+
+## 🔗 Backlinks
+
+- [[usr/karinam/devices/asus_z77/desktop/modules/greenhouse/greenhouse]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]

@@ -1,4 +1,5 @@
 ---
+version: 0.0.4
 tags:
   - #automation
   - #development
@@ -7,8 +8,8 @@ tags:
   - #knowledge
   - #linux
   - #secondbrain
-created: 2025-11-21T18:00:00Z
-modified: 2025-11-21T18:00:00Z
+created: 2025-11-10
+modified: 2025-11-24
 author: jakubc
 title: "Narzędzia deweloperskie - przewodnik"
 
@@ -558,3 +559,9 @@ make check
 **Autor:** Nairecth  
 **Wersja:** 0.0.0.5  
 **Data:** 2025-11-09
+
+## 🔗 Backlinks
+
+- [[dev/docs/docs]]
+- [[docs/docs]]
+- [[INDEX]]

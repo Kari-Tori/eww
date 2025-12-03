@@ -1,70 +1,20 @@
 ---
+version: 0.0.6
+created: 2025-11-21
+modified: 2025-12-01
 tags:
   - #folder_note
-  - #automation
-  - #development
-  - #eww
-  - #jakubc
-  - #knowledge
-  - #linux
-  - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T18:00:00Z
-author: jakubc
-title: "📁 Nowe Miejsce.space"
-
-
-
-
-
-
-owner: jakubc
+title: "Nowe_Miejsce.space"
 ---
 
-# 📁 Nowe Miejsce.space
+# Nowe_Miejsce.space
 
-> **Folder Note** - centralny index dla katalogu `Nowe Miejsce.space/`
+Notatka folderu dla `usr/jakubc/study/Phones/Nowe_Miejsce.space`
 
-## 📋 Cel folderu
+## 📄 Pliki w tym folderze
 
-Katalog `Nowe Miejsce.space` zawiera 0 plików i 0 podfolderów.
+*Brak plików markdown w tym folderze.*
 
-**Przeznaczenie:**
-- Profile użytkowników i workspace
+## 🔗 Backlinki
 
-
-## 📄 Pliki w folderze
-
-*Brak plików MD w tym folderze.*
-
-## 📂 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Nawigacja
-
-- ⬆️ [[Phones/Phones|Phones]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
-
-
-**Lokalizacja:** `usr/jakubc/hobby/study/Phones/Nowe Miejsce.space`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 🔗 Backlinks
-
-- [[jakubc]]
-- [[INDEX]]
-- [[core]]
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-
-
-
-## 📑 Index plików
-
-*Brak plików markdown.*
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
+- [[Phones]]

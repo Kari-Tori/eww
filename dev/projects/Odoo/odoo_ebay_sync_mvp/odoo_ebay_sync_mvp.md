@@ -1,49 +1,20 @@
 ---
+version: 0.0.4
+created: 2025-11-21
+modified: 2025-11-28
 tags:
   - #folder_note
-  - #automation
-  - #development
-  - #eww
-  - #knowledge
-  - #linux
-  - #productivity
-  - #secondbrain
-created: 
-modified: 
-author: jakubc
-title: "📁 odoo_ebay_sync_mvp"
-
-
-
-
-
-
-owner: jakubc
+title: "odoo_ebay_sync_mvp"
 ---
 
-# 📁 odoo_ebay_sync_mvp
+# odoo_ebay_sync_mvp
 
-> Folder note for odoo_ebay_sync_mvp
+Notatka folderu dla `dev/projects/Odoo/odoo_ebay_sync_mvp`
 
-## 📑 Zawartość
+## 📄 Pliki w tym folderze
 
+*Brak plików markdown w tym folderze.*
 
+## 🔗 Backlinki
 
-## 📁 Podfoldery
-
-## 📑 Index plików
-
-*Brak plików markdown.*
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[Odoo]]

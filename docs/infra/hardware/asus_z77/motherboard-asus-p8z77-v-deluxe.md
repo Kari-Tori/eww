@@ -1,4 +1,6 @@
 ---
+version: 0.0.4
+modified: 2025-11-25
 title: asus_z77 — Płyta główna
 component: motherboard
 icon: 🧩
@@ -6,7 +8,7 @@ model: ASUS P8Z77-V DELUXE
 specs: Intel Z77 · LGA1155 · BIOS 2104 (2013-08-13)
 value: 3 × PCIe x16 · 4 × DDR3 · dual LAN + Wi-Fi GO!/BT
 author: jakubc
-created: 2025-11-19
+created: 2025-11-21
 updated: 2025-11-19
 ---
 
@@ -68,3 +70,9 @@ updated: 2025-11-19
 - [x] Wersja BIOS/UEFI (2104) – zweryfikowano.
 - [ ] Opisać obsadzenie slotów PCIe/SATA/USB (co jest fizycznie podłączone), w tym moduły Wi‑Fi/Bluetooth.
 - [ ] Potwierdzić aktywność modułu Wi‑Fi GO! i Thunderbolt + zanotować sterowniki chipsetu.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/asus_z77/asus_z77]]
+- [[docs/docs]]
+- [[INDEX]]

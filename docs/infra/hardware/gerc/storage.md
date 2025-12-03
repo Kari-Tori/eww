@@ -1,8 +1,10 @@
 ---
+version: 0.0.4
+modified: 2025-11-25
 title: gerc — Storage
 component: storage
 author: jakubc
-created: 2025-11-19
+created: 2025-11-21
 updated: 2025-11-19
 ---
 
@@ -18,3 +20,9 @@ updated: 2025-11-19
 - [ ] @karinam uzupełnić listę wszystkich dysków HDD (model, pojemność, interfejs).
 - [ ] @karinam określić konfigurację RAID/ZFS i politykę backupów.
 - [ ] @karinam zanotować godziny pracy (SMART) i plan wymiany.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/gerc/gerc]]
+- [[docs/docs]]
+- [[INDEX]]

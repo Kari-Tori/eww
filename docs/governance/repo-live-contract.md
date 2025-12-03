@@ -1,3 +1,12 @@
+---
+version: 0.0.4
+title: "repo-live-contract"
+created: 2025-11-21
+modified: 2025-11-28
+tags:
+  - auto-versioned
+---
+
 created: 2025-11-21T10:00:00Z
 modified: 2025-11-24T22:31:02Z
 author: jakubc
@@ -48,3 +57,9 @@ Kontrola kosztów i zdrowia repo. Progi ostrzegawcze i blokujące.
 - GitHub Actions: status check „Repo Contract”.
 ## Remediacja
 Filter-repo/BFG, przeniesienie binariów do Releases/LFS, redukcja historii.
+
+## 🔗 Backlinks
+
+- [[docs/governance/governance]]
+- [[docs/docs]]
+- [[INDEX]]

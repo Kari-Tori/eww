@@ -1,11 +1,12 @@
 ---
+version: 0.0.3
 tags:
   - #automation
   - #graph
   - #eww
   - #guide
-created: 2025-11-21T18:50:00Z
-modified: 2025-11-21T18:50:00Z
+created: 2025-11-21
+modified: 2025-11-28
 author: jakubc
 title: "📖 GRAPH: Instrukcja Tuningu"
 owner: jakubc
@@ -188,3 +189,9 @@ Po każdej zmianie:
 
 ---
 **Tip**: Zacznij od MEDIUM, potem zwiększaj/zmniejszaj stopniowo! 🎯
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

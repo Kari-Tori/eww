@@ -1,56 +1,20 @@
 ---
+version: 0.0.2
+created: 2025-11-24
+modified: 2025-11-25
 tags:
-  - #device
-  - #applewatch
-  - #karinam
-  - #wearable
-created: 2025-11-22T23:01:42Z
-modified: 2025-11-22T23:01:42Z
-author: jakubc
-title: "Apple Watch - szablon urządzenia"
+  - #folder_note
+title: "watch"
 ---
 
-# Apple Watch karinam
+# watch
 
-## Informacje podstawowe
-- **Model:** [do uzupełnienia]
-- **System:** watchOS [wersja]
-- **Numer seryjny:** [do uzupełnienia]
-- **Sparowane z:** [iPhone model]
+Notatka folderu dla `usr/karinam/devices/watch`
 
-## Konfiguracja
+## 📄 Pliki w tym folderze
 
-### Zdrowie i aktywność
-- **Pierścienie aktywności:**
-  - Ruch: [cel]
-  - Ćwiczenia: [cel]
-  - Wstawanie: [cel]
+*Brak plików markdown w tym folderze.*
 
-### Powiadomienia
-- [ ] Telefon
-- [ ] Wiadomości
-- [ ] Email
-- [ ] Kalendarz
-- [ ] [inne aplikacje]
+## 🔗 Backlinki
 
-## Aplikacje
-
-### Zdrowie
-- [ ] [lista aplikacji]
-
-### Fitness
-- [ ] [lista aplikacji]
-
-### Produktywność
-- [ ] [lista aplikacji]
-
-## Tarcze zegara
-- **Ulubiona:** [nazwa]
-- **Komplikacje:** [lista używanych]
-
-## Kopie zapasowe
-- **Typ:** Przez sparowany iPhone
-- **Ostatnia kopia:** [data]
-
-## Notatki
-[Dodatkowe informacje o urządzeniu]
+- [[devices]]

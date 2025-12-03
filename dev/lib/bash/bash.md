@@ -1,69 +1,20 @@
 ---
+version: 0.0.7
+created: 2025-11-21
+modified: 2025-11-24
 tags:
   - #folder_note
-  - #automation
-  - #bash
-  - #development
-  - #eww
-  - #knowledge
-  - #linux
-  - #secondbrain
-created: 2025-11-21T13:00:00Z
-modified: 2025-11-21T13:00:00Z
-author: jakubc
-title: "📁 bash"
-
-
-
-
-
-
-owner: jakubc
+title: "bash"
 ---
 
-# 📁 bash
+# bash
 
-> **Folder Note** - centralny index dla katalogu `bash/`
+Notatka folderu dla `dev/lib/bash`
 
-## 📋 Cel folderu
+## 📄 Pliki w tym folderze
 
-Katalog `bash` zawiera 0 plików i 0 podfolderów.
+*Brak plików markdown w tym folderze.*
 
-**Przeznaczenie:**
-- Komponenty podstawowe systemu
+## 🔗 Backlinki
 
-
-## 📄 Pliki w folderze
-
-*Brak plików MD w tym folderze.*
-
-## 📂 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Nawigacja
-
-- ⬆️ [[lib/lib|lib]] - Folder nadrzędny
-- 🏠 [[docs/INDEX|INDEX]] - Główny index
-
-
-**Lokalizacja:** `lib/bash`  
-**Zaktualizowano:** 2025-11-21  
-**Typ:** Folder Note
-
-## 📑 Index plików
-
-*Brak plików markdown.*
-
-## 📁 Podfoldery
-
-*Brak podfolderów.*
-
-## 🔗 Backlinks
-
-- [[EWW-MAP]]
-- [[GRAPH-MAP]]
-- [[GRAPH-CORE]]
-- [[GRAPH-BUSINESS]]
-- [[GRAPH-CONFIG]]
-
+- [[lib]]

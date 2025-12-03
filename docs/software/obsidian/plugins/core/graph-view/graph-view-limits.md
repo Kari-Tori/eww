@@ -1,12 +1,13 @@
 ---
+version: 0.0.2
 tags:
   - #obsidian
   - #graph
   - #performance
   - #limits
   - #documentation
-created: 2025-11-23T17:50:00Z
-modified: 2025-11-23T17:50:00Z
+created: 2025-11-24
+modified: 2025-11-28
 author: jakubc
 title: "Obsidian Graph View - Limity techniczne i wydajnościowe"
 owner: jakubc
@@ -724,3 +725,9 @@ Twój setup to **99/100 punktów**. Jedyny "minus" to ultra-compact linkDistance
 - [[presets]] - Gotowe presety dla różnych rozmiarów vault
 - [[colors]] - System color groups (18 kategorii)
 - [[CHANGELOG]] - Historia optymalizacji
+
+## 🔗 Backlinks
+
+- [[INDEX]]
+- [[README]]
+- [[docs]]

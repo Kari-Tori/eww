@@ -1,9 +1,10 @@
 ---
+version: 0.0.1
 tags:
   - #Dell_Inspirion_3881
   - #cpu
-created: 2025-11-22T18:43:00Z
-modified: 2025-11-22T18:43:00Z
+created: 2025-11-24
+modified: 2025-11-24
 author: jakubc
 title: "CPU — Dell Inspiron 3881 (i5-10400)"
 owner: jakubc
@@ -16,3 +17,9 @@ owner: jakubc
 
 ## TODO
 - [ ] @jakubc potwierdzić, czy Turbo Boost nie jest ograniczony przez BIOS OEM.
+
+## 🔗 Backlinks
+
+- [[docs/infra/hardware/workstations/dell_inspirion-3881/dell_inspirion-3881]]
+- [[docs/docs]]
+- [[INDEX]]

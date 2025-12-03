@@ -1,43 +1,24 @@
 ---
+version: 0.0.6
+created: 2025-11-28
+modified: 2025-11-28
 tags:
   - #folder_note
-  - #intake
-  - #repair
-  - #eww
-created: 2025-11-27T17:26:43Z
-modified: 2025-11-27T17:30:19Z
-author: karinam
-title: "Przyjęcia (naprawy)"
-owner: karinam
-folder_color: 8421504
-folder_stats:
-  md_files: 1
-  total_files: 1
-  subdirs: 1
+title: "intake"
 ---
 
-# Przyjęcia (naprawy)
+# intake
 
-> Karty przyjęć wyłącznie dla zleceń serwisowych kierowanych do modułu napraw (Odoo).
+Notatka folderu dla `ops/repair/intake`
 
-## Cel folderu
+## 📁 Podfoldery
 
-- Rejestrować naprawy od razu spięte z Odoo (ID/STATUS/KOSZT).
-- Uporządkować intake dla serwisu osobno od intake ogólnego.
+- [[records]]
 
-## Minimalna karta
+## 📄 Pliki w tym folderze
 
-- Identyfikator sprzętu i data przyjęcia.
-- Zleceniodawca, uzgodniony koszt, opis usterki.
-- `handoff: moduł napraw (Odoo)` + `odoo_repair_id` (gdy znany).
-- Folder przyjęcia zawiera `asset/` na zdjęcia/manuale.
+*Brak plików markdown w tym folderze.*
 
-## Struktura
+## 🔗 Backlinki
 
-- `records/` – karty przyjęć serwisowych (np. `ipad-2025-11-27.md`).
-
-## Powiązania
-
-- [[repair/repair|Naprawy]] – moduł nadrzędny.
-- [[intake/intake|Przyjęcia (global)]] – intake ogólne.
-- Odoo (moduł napraw) – status i rozliczenia.
+- [[repair]]

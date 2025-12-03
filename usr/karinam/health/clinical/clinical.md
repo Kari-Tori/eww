@@ -1,26 +1,29 @@
 ---
-title: "clinical - folder note"
+version: 0.0.6
+created: 2025-12-01
+modified: 2025-12-01
 tags:
-  - folder_note
-  - health
-  - karinam
-created: 2025-11-30T15:54:47
-updated: 2025-11-30T15:54:47
+  - #folder_note
+title: "clinical"
 ---
 
-# clinical — folder note
+# clinical
 
-## README
-Index folderu `usr/karinam/health/clinical` dla użytkownika `karinam`. Zawiera krótki opis i listę zawartości.
+Notatka folderu dla `usr/karinam/health/clinical`
 
-## Index
-### Podfoldery
-- [core/](core/)
-- [diagnoses/](diagnoses/)
-- [episodes/](episodes/)
-- [operacje/](operacje/)
-- [procedures/](procedures/)
-- [supplements/](supplements/)
+## 📁 Podfoldery
 
-### Pliki
-- (brak plików)
+- [[core]]
+- [[diagnoses]]
+- [[episodes]]
+- [[operacje]]
+- [[procedures]]
+- [[supplements]]
+
+## 📄 Pliki w tym folderze
+
+*Brak plików markdown w tym folderze.*
+
+## 🔗 Backlinki
+
+- [[health]]

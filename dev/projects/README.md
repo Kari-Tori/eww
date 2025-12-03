@@ -1,7 +1,8 @@
 ---
 title: E-Waste Workshop README
 description: Kompletna dokumentacja projektu - instalacja, konfiguracja, użycie
-version: 0.0.0.5-pre-mvp
+modified: 2025-11-26
+version: 0.0.40
 author: Nairecth
 repository: https://github.com/Nairecth/eww
 website: http://www.e-wasteworkshop.co.uk
@@ -25,7 +26,7 @@ requires:
   - bash >= 5.2
   - git >= 2.34
   - make >= 4.3
-created: 2024-11-08
+created: 2025-11-05
 updated: 2025-11-09
 license: MIT
 status: pre-mvp
@@ -476,3 +477,9 @@ TBD - Do ustalenia
 **Maintainer:** [Nairecth](https://github.com/Nairecth)  
 **Repository:** [github.com/Nairecth/eww](https://github.com/Nairecth/eww)  
 **Website:** [www.e-wasteworkshop.co.uk](http://www.e-wasteworkshop.co.uk)
+
+## 🔗 Backlinks
+
+- [[dev/projects/projects]]
+- [[dev/dev]]
+- [[dev/Development]]

@@ -1,9 +1,11 @@
 ---
+version: 0.0.1
+modified: 2025-11-24
 tags:
   - obsidian
   - guide
   - setup
-created: 2025-11-22T21:16:00Z
+created: 2025-11-24
 author: jakubc
 title: "RESTART OBSIDIAN - Instrukcja"
 owner: jakubc
@@ -219,3 +221,9 @@ Ctrl+Shift+I (Developer Tools)
 **Status:** ⏳ Czeka na restart
 **Czas instalacji:** ~5 minut
 **Następny krok:** RESTART OBSIDIAN ⬆️
+
+## 🔗 Backlinks
+
+- [[core/tasks/jakubc/jakubc]]
+- [[core/core]]
+- [[core/config]]

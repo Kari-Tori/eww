@@ -1,8 +1,10 @@
 ---
+version: 0.0.6
+modified: 2025-11-25
 title: Zapiekanka serowa (Fix WINIARY)
 description: Notatka operacyjna do szybkiej zapiekanki makaronowej z Fixem WINIARY „Pomysł na… Zapiekanka makaronowa z serem”.
 lang: pl
-created: "2025-11-17"
+created: 2025-11-25
 updated: "2025-11-17"
 tags:
   - food
@@ -108,3 +110,9 @@ Wszystkie warianty nadal korzystają z tej samej saszetki fixu (57 g). Jeżeli
 ## 📚 Źródła
 [^winiary-fix]: WINIARY, „Pomysł na… Zapiekanka makaronowa z serem”, saszetka 57 g, etykieta produktu Nestlé Polska S.A., odczyt 17 listopada 2025 r.
 [^makro]: Obliczenia własne w oparciu o tabele USDA (makaron pszeniczny suchy, kiełbasa wieprzowa, śmietanka 12 %/18 %) oraz dane producentów (JBB, ser Morsło Kosów, Łaciata, Piątnica); zestaw obejmuje 800 g makaronu, 800 g podwawelskiej, 500 g sera, 400 ml śmietanki 12 %, 200 g śmietany 18 % i 3 saszetki fixu.
+
+## 🔗 Backlinks
+
+- [[usr/karinam/food/zapiekanka/zapiekanka]]
+- [[usr/karinam/karinam]]
+- [[EWW-MAP]]
